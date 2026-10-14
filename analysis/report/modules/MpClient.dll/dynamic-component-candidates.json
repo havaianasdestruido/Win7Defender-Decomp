@@ -1,0 +1,87 @@
+[
+  {
+    "file_offset": 26480,
+    "encoding": "utf-16le",
+    "text": "msmplics.dll"
+  },
+  {
+    "file_offset": 26624,
+    "encoding": "utf-16le",
+    "text": "winhttp.dll"
+  },
+  {
+    "file_offset": 28016,
+    "encoding": "utf-16le",
+    "text": "%MpOffline_ProductPath%\\\\MsASCUI.exe"
+  },
+  {
+    "file_offset": 28096,
+    "encoding": "utf-16le",
+    "text": "%MpOffline_ProductPath%\\\\MpSvc.dll"
+  },
+  {
+    "file_offset": 28176,
+    "encoding": "utf-16le",
+    "text": "%MpOffline_ProductPath%\\\\MpClient.dll"
+  },
+  {
+    "file_offset": 28720,
+    "encoding": "utf-16le",
+    "text": "%MpOffline_ProductPath%\\MsMpCom.dll"
+  },
+  {
+    "file_offset": 32336,
+    "encoding": "utf-16le",
+    "text": "%MpOffline_ProductPath%\\MsMpEng.exe"
+  },
+  {
+    "file_offset": 32416,
+    "encoding": "utf-16le",
+    "text": "%MpOffline_ProductPath%\\mpam-fe.exe"
+  },
+  {
+    "file_offset": 34248,
+    "encoding": "utf-16le",
+    "text": "verifier.dll"
+  },
+  {
+    "file_offset": 34280,
+    "encoding": "utf-16le",
+    "text": "vrfcore.dll"
+  },
+  {
+    "file_offset": 35696,
+    "encoding": "utf-16le",
+    "text": "\\MsMpLics.dll"
+  },
+  {
+    "file_offset": 36648,
+    "encoding": "utf-16le",
+    "text": "MpAsDesc.dll"
+  },
+  {
+    "file_offset": 46728,
+    "encoding": "utf-16le",
+    "text": "Authz.dll"
+  },
+  {
+    "file_offset": 47256,
+    "encoding": "utf-16le",
+    "text": "MpCommu.dll"
+  },
+  {
+    "file_offset": 47408,
+    "encoding": "utf-16le",
+    "text": "SOFTWARE\\Microsoft\\MpDebug\\DebugValues\\MsMpEng.exe"
+  },
+  {
+    "file_offset": 520560,
+    "encoding": "ascii",
+    "text": "MpClient.dll"
+  },
+  {
+    "file_offset": 564960,
+    "encoding": "utf-16le",
+    "text": "mpclient.dll"
+  }
+]

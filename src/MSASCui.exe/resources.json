@@ -1,0 +1,186 @@
+{
+  "input_sha256": "aee55998074a62400809df27d276a3cac90210de4efcc5db88156de813098026",
+  "inventory": [
+    {
+      "path": [
+        3,
+        1,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 863264,
+      "file_offset": 848928,
+      "size": 1640,
+      "codepage": 0,
+      "sha256": "c8510ab159d949dbccfa1dd8a13564f0b68a3cf1b27b1c5eac8b92f9b75f49b7"
+    },
+    {
+      "path": [
+        3,
+        2,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 864904,
+      "file_offset": 850568,
+      "size": 744,
+      "codepage": 0,
+      "sha256": "148b56c95daf9a511fd5642046a93b77ac98d0db15e25ee3c4e5e853c3b7d25d"
+    },
+    {
+      "path": [
+        3,
+        3,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 865648,
+      "file_offset": 851312,
+      "size": 296,
+      "codepage": 0,
+      "sha256": "9c6da641925c985c628cb761a1c96984b63f81fe9aa4a1f69983d1c1f4a32bfa"
+    },
+    {
+      "path": [
+        3,
+        4,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 865944,
+      "file_offset": 851608,
+      "size": 3752,
+      "codepage": 0,
+      "sha256": "e771cb838010709cc9ae8b956cb1f7efd9f570ec73958c87ef8b605d4d08f620"
+    },
+    {
+      "path": [
+        3,
+        5,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 869696,
+      "file_offset": 855360,
+      "size": 2216,
+      "codepage": 0,
+      "sha256": "58056e3a0a8d72b6d7e3e8162972ad2cc682f24f3309decadfb1a44d764a53d3"
+    },
+    {
+      "path": [
+        3,
+        6,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 871912,
+      "file_offset": 857576,
+      "size": 1384,
+      "codepage": 0,
+      "sha256": "61c20abec3f8b3a4c76266e8ef977e69816b9fcffd814b2b582cf696b1a3d09b"
+    },
+    {
+      "path": [
+        3,
+        7,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 873296,
+      "file_offset": 858960,
+      "size": 76945,
+      "codepage": 0,
+      "sha256": "99cb99e384e1037e6c46e64e4ac296b3f163f30319a035617ca01125ab6d2b25"
+    },
+    {
+      "path": [
+        3,
+        8,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 950248,
+      "file_offset": 935912,
+      "size": 9640,
+      "codepage": 0,
+      "sha256": "5bf6843dfb439bf5e89f1ff50b569b154510a80ac165d1784558a1ebb39d1797"
+    },
+    {
+      "path": [
+        3,
+        9,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 959888,
+      "file_offset": 945552,
+      "size": 4264,
+      "codepage": 0,
+      "sha256": "77c55668f78f91e622014143f483840af81350a3a8c2b3b6522c4f0e4574cffe"
+    },
+    {
+      "path": [
+        3,
+        10,
+        1033
+      ],
+      "type": "RT_ICON",
+      "rva": 964152,
+      "file_offset": 949816,
+      "size": 1128,
+      "codepage": 0,
+      "sha256": "7c69d174a38a8ad3a5148b5f06081d73a58586a231b3fefbcdafe955b3fbaed3"
+    },
+    {
+      "path": [
+        14,
+        "IDI_APP",
+        1033
+      ],
+      "type": "RT_GROUP_ICON",
+      "rva": 965280,
+      "file_offset": 950944,
+      "size": 146,
+      "codepage": 0,
+      "sha256": "e0cc50a2a078a3049564399b5e871bb586210c69418c08af3425971a255660a6"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "type": "RT_VERSION",
+      "rva": 862328,
+      "file_offset": 847992,
+      "size": 932,
+      "codepage": 0,
+      "sha256": "08077e2eac316b15be94e84d66c11390993f043bd43e031daad9a80bbd3b401a"
+    },
+    {
+      "path": [
+        24,
+        1,
+        1033
+      ],
+      "type": "RT_MANIFEST",
+      "rva": 860912,
+      "file_offset": 846576,
+      "size": 1410,
+      "codepage": 0,
+      "sha256": "99546372814ad4d091cc84acd608471a2c45535af8665ab263aa6eaa6c5d03ac"
+    }
+  ],
+  "decoded": [
+    {
+      "resource": [
+        24,
+        1,
+        1033
+      ],
+      "rva": 860912,
+      "kind": "manifest",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<!-- Copyright (c) Microsoft Corporation -->\r\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\r\n  <assemblyIdentity\r\n      version=\"5.1.0.0\"\r\n      processorArchitecture=\"amd64\"\r\n      name=\"Microsoft.Windows.Defender.UI\"\r\n      type=\"win32\"\r\n  />\r\n  <description>Microsoft Windows Defender</description>\r\n  <dependency>\r\n      <dependentAssembly>\r\n          <assemblyIdentity\r\n              type=\"win32\"\r\n              name=\"Microsoft.Windows.Common-Controls\"\r\n              version=\"6.0.0.0\"\r\n              processorArchitecture=\"amd64\"\r\n              publicKeyToken=\"6595b64144ccf1df\"\r\n              language=\"*\"\r\n          />\r\n      </dependentAssembly>\r\n  </dependency>\r\n\r\n  <!-- Set application to run with user privilege but no virtualization. -->\r\n  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\r\n      <security>\r\n          <requestedPrivileges>\r\n              <requestedExecutionLevel\r\n                  level=\"asInvoker\"\r\n                  uiAccess=\"false\"\r\n              />\r\n          </requestedPrivileges>\r\n      </security>\r\n  </trustInfo>\r\n\r\n  <asmv3:application xmlns:asmv3=\"urn:schemas-microsoft-com:asm.v3\">\r\n    <asmv3:windowsSettings xmlns=\"http://schemas.microsoft.com/SMI/2005/WindowsSettings\">\r\n      <dpiAware>true</dpiAware>\r\n    </asmv3:windowsSettings>\r\n  </asmv3:application>\r\n\r\n</assembly>\r\n"
+    }
+  ]
+}

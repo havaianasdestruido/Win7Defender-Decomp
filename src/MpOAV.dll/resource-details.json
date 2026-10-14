@@ -1,0 +1,38 @@
+[
+  {
+    "resource": [
+      "MUI",
+      1,
+      1033
+    ],
+    "rva": 63104,
+    "file_offset": 50304,
+    "size": 216,
+    "sha256": "61c0515b2a021e5993ace501e3d3bb943a8243af9dd4136dfba78b7da2d4fa8b",
+    "prefix_hex": "cdfecdfed8000000000001000000000011000000000000000200000020795734",
+    "observed_u32_prefix": [
+      4274912973,
+      216,
+      65536,
+      0,
+      17,
+      0,
+      2
+    ],
+    "interpretation": "magic/length/version candidate; remaining fields opaque"
+  },
+  {
+    "resource": [
+      "REGISTRY",
+      101,
+      1033
+    ],
+    "rva": 62624,
+    "file_offset": 49824,
+    "size": 478,
+    "sha256": "0b84b42065636ee3aa05c0889fc77024ac9719fb6a2f61a85dd61ee6bf5c50c6",
+    "prefix_hex": "484b43520d0a7b0d0a094e6f52656d6f766520434c5349440d0a097b0d0a0909",
+    "encoding": "cp1252",
+    "text": "HKCR\r\n{\r\n\tNoRemove CLSID\r\n\t{\r\n\t\tForceRemove {2781761E-28E0-4109-99FE-B9D127C57AFE} = s 'Microsoft IOfficeAntiVirus implementation' \r\n\t\t{\r\n\t\t\tInprocServer32 = s '%MODULE%'\r\n\t\t\t{\r\n\t\t\t\tval ThreadingModel = s 'Both'\r\n\t\t\t}\r\n\t\t\tHosts = s 'Scanned Hosting Applications'\r\n\t\t\t{\r\n\t\t\t\turlmon = s 'ActiveX controls'\r\n\t\t\t\t{\r\n\t\t\t\t\tval Enable = d '1' \r\n\t\t\t\t}\r\n\t\t\t\tshdocvw = s 'IAttachmentExecute'\r\n\t\t\t\t{\r\n\t\t\t\t\tval Enable = d '1' \r\n\t\t\t\t\tval MaxFileSize = d '20971520'\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n"
+  }
+]

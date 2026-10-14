@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/home/user/Win7Defender-Decomp/analysis/tools/.venv/bin/python",
+    "/home/user/Win7Defender-Decomp/analysis/tools/decompile.py",
+    "--module",
+    "MsMpLics.dll",
+    "--budget",
+    "240"
+  ],
+  "exit_code": 0
+}

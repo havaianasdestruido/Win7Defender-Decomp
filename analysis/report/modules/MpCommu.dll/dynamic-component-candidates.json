@@ -1,0 +1,47 @@
+[
+  {
+    "file_offset": 4784,
+    "encoding": "utf-16le",
+    "text": "%ls\\mpam-%x.exe"
+  },
+  {
+    "file_offset": 6544,
+    "encoding": "utf-16le",
+    "text": "Crypt32.dll"
+  },
+  {
+    "file_offset": 11248,
+    "encoding": "utf-16le",
+    "text": "qmgr.dll"
+  },
+  {
+    "file_offset": 11272,
+    "encoding": "utf-16le",
+    "text": "wuaueng.dll"
+  },
+  {
+    "file_offset": 11296,
+    "encoding": "utf-16le",
+    "text": "MpSigDwn.dll"
+  },
+  {
+    "file_offset": 18168,
+    "encoding": "utf-16le",
+    "text": "Wer.dll"
+  },
+  {
+    "file_offset": 18824,
+    "encoding": "utf-16le",
+    "text": "MsMpLics.dll"
+  },
+  {
+    "file_offset": 290432,
+    "encoding": "ascii",
+    "text": "MpCommu.dll"
+  },
+  {
+    "file_offset": 311556,
+    "encoding": "utf-16le",
+    "text": "MpCommu.dll"
+  }
+]

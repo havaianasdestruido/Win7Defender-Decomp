@@ -1,0 +1,15 @@
+MSASCui.exe 17455 call/jump sites; 4 literal API arguments
+MpAsDesc.dll 108 call/jump sites; 3 literal API arguments
+MpClient.dll 10545 call/jump sites; 31 literal API arguments
+MpCmdRun.exe 3639 call/jump sites; 13 literal API arguments
+MpCommu.dll 6078 call/jump sites; 11 literal API arguments
+MpEvMsg.dll 0 call/jump sites; 0 literal API arguments
+MpOAV.dll 759 call/jump sites; 16 literal API arguments
+MpRTP.dll 3826 call/jump sites; 11 literal API arguments
+MpSvc.dll 21055 call/jump sites; 39 literal API arguments
+MsMpCom.dll 857 call/jump sites; 3 literal API arguments
+MsMpLics.dll 0 call/jump sites; 0 literal API arguments
+MsMpRes.dll 100 call/jump sites; 3 literal API arguments
+pt-BR__MpAsDesc.dll.mui 0 call/jump sites; 0 literal API arguments
+pt-BR__MpEvMsg.dll.mui 0 call/jump sites; 0 literal API arguments
+pt-BR__MsMpRes.dll.mui 0 call/jump sites; 0 literal API arguments

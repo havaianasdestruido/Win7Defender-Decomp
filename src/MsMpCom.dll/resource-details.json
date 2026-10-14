@@ -1,0 +1,1795 @@
+[
+  {
+    "resource": [
+      "REGISTRY",
+      103,
+      1033
+    ],
+    "rva": 62608,
+    "file_offset": 53392,
+    "size": 159,
+    "sha256": "0fe5f966f8ce0e2cb70ce3303402c454a9aae535b19d2b0b62b2597bfdfe448b",
+    "prefix_hex": "484b43520d0a7b0d0a202020204e6f52656d6f76652041707049440d0a202020",
+    "encoding": "cp1252",
+    "text": "HKCR\r\n{\r\n    NoRemove AppID\r\n    {\r\n        ForceRemove '%APPID%' = s 'MsMpComExports'\r\n        {\r\n            val DllSurrogate = s ''\r\n        }\r\n    }\r\n}\r\n\r\n"
+  },
+  {
+    "resource": [
+      "TYPELIB",
+      1,
+      1033
+    ],
+    "rva": 62768,
+    "file_offset": 53552,
+    "size": 5848,
+    "sha256": "4cf41b8113738350090a56098de39f19fb92d1d535b09d8066a3e2d25a63505c",
+    "prefix_hex": "4d53465402000100000000000904000000000000430000000100000000000000",
+    "typelib": {
+      "header": {
+        "magic": 1413894989,
+        "version_signature": 65538,
+        "guid_offset": 0,
+        "lcid": 1033,
+        "lcid2": 0,
+        "flags": 67,
+        "version": 1,
+        "library_flags": 0,
+        "type_count": 10,
+        "helpstring": 0,
+        "helpstringcontext": 0,
+        "helpcontext": 0,
+        "name_count": 51,
+        "name_chars": 765,
+        "name_offset": 0,
+        "helpfile": -1,
+        "customdata": -1,
+        "reserved44": 32,
+        "reserved48": 128,
+        "dispatchpos": 1,
+        "import_count": 4
+      },
+      "segments": [
+        {
+          "name": "typeinfo",
+          "offset": 364,
+          "length": 1000,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "importinfo",
+          "offset": 1876,
+          "length": 48,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "importfiles",
+          "offset": 1924,
+          "length": 28,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "references",
+          "offset": 1780,
+          "length": 96,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "guidhash",
+          "offset": 1364,
+          "length": 128,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "guids",
+          "offset": 1492,
+          "length": 288,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "namehash",
+          "offset": 1952,
+          "length": 512,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "names",
+          "offset": 2464,
+          "length": 1456,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "strings",
+          "offset": 3920,
+          "length": 544,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "typedesc",
+          "offset": 4464,
+          "length": 96,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "arrays",
+          "offset": -1,
+          "length": 0,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "customdata",
+          "offset": -1,
+          "length": 0,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "customguids",
+          "offset": -1,
+          "length": 0,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "reserved14",
+          "offset": -1,
+          "length": 0,
+          "reserved": [
+            -1,
+            15
+          ]
+        },
+        {
+          "name": "reserved15",
+          "offset": -1,
+          "length": 0,
+          "reserved": [
+            -1,
+            15
+          ]
+        }
+      ],
+      "names": [
+        {
+          "relative_offset": 0,
+          "resource_offset": 2464,
+          "hreftype": -1,
+          "name": "MpComExportsLib",
+          "flags": 1951858703
+        },
+        {
+          "relative_offset": 28,
+          "resource_offset": 2492,
+          "hreftype": 0,
+          "name": "MsMpComFactoryHome",
+          "flags": 306329618
+        },
+        {
+          "relative_offset": 60,
+          "resource_offset": 2524,
+          "hreftype": 100,
+          "name": "IMsMpComFactory",
+          "flags": 1655388175
+        },
+        {
+          "relative_offset": 88,
+          "resource_offset": 2552,
+          "hreftype": 100,
+          "name": "CreateNativeInstance",
+          "flags": -538050540
+        },
+        {
+          "relative_offset": 120,
+          "resource_offset": 2584,
+          "hreftype": -1,
+          "name": "riid",
+          "flags": 865796100
+        },
+        {
+          "relative_offset": 136,
+          "resource_offset": 2600,
+          "hreftype": -1,
+          "name": "ppObject",
+          "flags": -315621368
+        },
+        {
+          "relative_offset": 156,
+          "resource_offset": 2620,
+          "hreftype": 100,
+          "name": "CreateAutoInstance",
+          "flags": -1446641646
+        },
+        {
+          "relative_offset": 188,
+          "resource_offset": 2652,
+          "hreftype": -1,
+          "name": "bstrIID",
+          "flags": -2074148857
+        },
+        {
+          "relative_offset": 208,
+          "resource_offset": 2672,
+          "hreftype": 100,
+          "name": "IsElevatedMoniker",
+          "flags": 1858273297
+        },
+        {
+          "relative_offset": 240,
+          "resource_offset": 2704,
+          "hreftype": -1,
+          "name": "pfValue",
+          "flags": -541982713
+        },
+        {
+          "relative_offset": 260,
+          "resource_offset": 2724,
+          "hreftype": 100,
+          "name": "AuthChallenge",
+          "flags": 344653837
+        },
+        {
+          "relative_offset": 288,
+          "resource_offset": 2752,
+          "hreftype": -1,
+          "name": "pVar",
+          "flags": -322306044
+        },
+        {
+          "relative_offset": 304,
+          "resource_offset": 2768,
+          "hreftype": 100,
+          "name": "AuthResponse",
+          "flags": 1370292236
+        },
+        {
+          "relative_offset": 328,
+          "resource_offset": 2792,
+          "hreftype": -1,
+          "name": "aVar",
+          "flags": 1468792836
+        },
+        {
+          "relative_offset": 344,
+          "resource_offset": 2808,
+          "hreftype": 200,
+          "name": "MsMpComFactoryJamaica",
+          "flags": 2128099349
+        },
+        {
+          "relative_offset": 380,
+          "resource_offset": 2844,
+          "hreftype": 300,
+          "name": "MsMpComFactoryOneCare",
+          "flags": -1335871467
+        },
+        {
+          "relative_offset": 416,
+          "resource_offset": 2880,
+          "hreftype": 400,
+          "name": "MsMpComFactoryCallisto",
+          "flags": -491767786
+        },
+        {
+          "relative_offset": 452,
+          "resource_offset": 2916,
+          "hreftype": 500,
+          "name": "MsMpClientUtils",
+          "flags": -598722545
+        },
+        {
+          "relative_offset": 480,
+          "resource_offset": 2944,
+          "hreftype": 600,
+          "name": "IMsMpClientUtils",
+          "flags": -453887984
+        },
+        {
+          "relative_offset": 508,
+          "resource_offset": 2972,
+          "hreftype": 600,
+          "name": "QuarantineRemove",
+          "flags": 423624720
+        },
+        {
+          "relative_offset": 536,
+          "resource_offset": 3000,
+          "hreftype": -1,
+          "name": "aQuarantineGuid",
+          "flags": 1704329231
+        },
+        {
+          "relative_offset": 564,
+          "resource_offset": 3028,
+          "hreftype": 600,
+          "name": "QuarantineRemoveAll",
+          "flags": 2686995
+        },
+        {
+          "relative_offset": 596,
+          "resource_offset": 3060,
+          "hreftype": 600,
+          "name": "QuarantineRestore",
+          "flags": 1707606033
+        },
+        {
+          "relative_offset": 628,
+          "resource_offset": 3092,
+          "hreftype": 600,
+          "name": "ThreatHistoryRemoveAll",
+          "flags": -858980330
+        },
+        {
+          "relative_offset": 664,
+          "resource_offset": 3128,
+          "hreftype": 600,
+          "name": "AutoScanCancel",
+          "flags": -743047154
+        },
+        {
+          "relative_offset": 692,
+          "resource_offset": 3156,
+          "hreftype": 600,
+          "name": "AutoScanPause",
+          "flags": 1026818061
+        },
+        {
+          "relative_offset": 720,
+          "resource_offset": 3184,
+          "hreftype": 600,
+          "name": "AutoScanResume",
+          "flags": -1387266034
+        },
+        {
+          "relative_offset": 748,
+          "resource_offset": 3212,
+          "hreftype": 600,
+          "name": "CreateElevationHandle",
+          "flags": 1339752469
+        },
+        {
+          "relative_offset": 784,
+          "resource_offset": 3248,
+          "hreftype": -1,
+          "name": "pVarHandleGuid",
+          "flags": 2138374158
+        },
+        {
+          "relative_offset": 812,
+          "resource_offset": 3276,
+          "hreftype": 600,
+          "name": "ActivateElevationHandle",
+          "flags": -1904017385
+        },
+        {
+          "relative_offset": 848,
+          "resource_offset": 3312,
+          "hreftype": 600,
+          "name": "SigUpdateControl",
+          "flags": -1368588272
+        },
+        {
+          "relative_offset": 876,
+          "resource_offset": 3340,
+          "hreftype": -1,
+          "name": "dwUpdateControl",
+          "flags": 1093926927
+        },
+        {
+          "relative_offset": 904,
+          "resource_offset": 3368,
+          "hreftype": 600,
+          "name": "AddUserReadAccessToSample",
+          "flags": 924385305
+        },
+        {
+          "relative_offset": 944,
+          "resource_offset": 3408,
+          "hreftype": -1,
+          "name": "bstrSample",
+          "flags": 315031562
+        },
+        {
+          "relative_offset": 968,
+          "resource_offset": 3432,
+          "hreftype": -1,
+          "name": "varUserSid",
+          "flags": -449052662
+        },
+        {
+          "relative_offset": 992,
+          "resource_offset": 3456,
+          "hreftype": 700,
+          "name": "MsMpSimpleConfig",
+          "flags": -1528154096
+        },
+        {
+          "relative_offset": 1020,
+          "resource_offset": 3484,
+          "hreftype": 800,
+          "name": "IMsMpSimpleConfig",
+          "flags": -1386006511
+        },
+        {
+          "relative_offset": 1052,
+          "resource_offset": 3516,
+          "hreftype": 900,
+          "name": "_MP_COM_CONFIG_TYPE",
+          "flags": -327337965
+        },
+        {
+          "relative_offset": 1084,
+          "resource_offset": 3548,
+          "hreftype": 900,
+          "name": "MP_COM_CONFIG_TYPE_NONE",
+          "flags": -113889257
+        },
+        {
+          "relative_offset": 1120,
+          "resource_offset": 3584,
+          "hreftype": 900,
+          "name": "MP_COM_CONFIG_TYPE_DWORD",
+          "flags": 1667313688
+        },
+        {
+          "relative_offset": 1156,
+          "resource_offset": 3620,
+          "hreftype": 900,
+          "name": "MP_COM_CONFIG_TYPE_SZ",
+          "flags": 1039085589
+        },
+        {
+          "relative_offset": 1192,
+          "resource_offset": 3656,
+          "hreftype": 900,
+          "name": "MP_COM_CONFIG_TYPE_MULTI_SZ",
+          "flags": 966012955
+        },
+        {
+          "relative_offset": 1232,
+          "resource_offset": 3696,
+          "hreftype": 900,
+          "name": "MP_COM_CONFIG_TYPE_BINARY",
+          "flags": -1247268839
+        },
+        {
+          "relative_offset": 1272,
+          "resource_offset": 3736,
+          "hreftype": 800,
+          "name": "ReadValue",
+          "flags": 1091895305
+        },
+        {
+          "relative_offset": 1296,
+          "resource_offset": 3760,
+          "hreftype": -1,
+          "name": "bstrKeyName",
+          "flags": -1356922869
+        },
+        {
+          "relative_offset": 1320,
+          "resource_offset": 3784,
+          "hreftype": -1,
+          "name": "bstrValueName",
+          "flags": 327417869
+        },
+        {
+          "relative_offset": 1348,
+          "resource_offset": 3812,
+          "hreftype": -1,
+          "name": "pType",
+          "flags": -1146093563
+        },
+        {
+          "relative_offset": 1368,
+          "resource_offset": 3832,
+          "hreftype": -1,
+          "name": "varValue",
+          "flags": 721879048
+        },
+        {
+          "relative_offset": 1388,
+          "resource_offset": 3852,
+          "hreftype": 800,
+          "name": "WriteValue",
+          "flags": -1827733494
+        },
+        {
+          "relative_offset": 1412,
+          "resource_offset": 3876,
+          "hreftype": -1,
+          "name": "eType",
+          "flags": 1989869573
+        },
+        {
+          "relative_offset": 1432,
+          "resource_offset": 3896,
+          "hreftype": 800,
+          "name": "DeleteValue",
+          "flags": 3538955
+        }
+      ],
+      "guids": [
+        {
+          "relative_offset": 0,
+          "resource_offset": 1492,
+          "guid": "8c389764-f036-48f2-9ae2-88c260dcf43b",
+          "hreftype": -2
+        },
+        {
+          "relative_offset": 24,
+          "resource_offset": 1516,
+          "guid": "a2d75874-6750-4931-94c1-c99d3bc9d0c7",
+          "hreftype": 0
+        },
+        {
+          "relative_offset": 48,
+          "resource_offset": 1540,
+          "guid": "00020430-0000-0000-c000-000000000046",
+          "hreftype": 2
+        },
+        {
+          "relative_offset": 72,
+          "resource_offset": 1564,
+          "guid": "00020400-0000-0000-c000-000000000046",
+          "hreftype": 1
+        },
+        {
+          "relative_offset": 96,
+          "resource_offset": 1588,
+          "guid": "ac30c2ba-0109-403d-9d8e-140bb470379c",
+          "hreftype": 100
+        },
+        {
+          "relative_offset": 120,
+          "resource_offset": 1612,
+          "guid": "546bf232-c9dd-4f28-8e38-30ae2d964d46",
+          "hreftype": 200
+        },
+        {
+          "relative_offset": 144,
+          "resource_offset": 1636,
+          "guid": "7007dd05-9412-4939-bcb2-0e6281669a6e",
+          "hreftype": 300
+        },
+        {
+          "relative_offset": 168,
+          "resource_offset": 1660,
+          "guid": "b8979202-382f-483c-bd2e-89b05e97144b",
+          "hreftype": 400
+        },
+        {
+          "relative_offset": 192,
+          "resource_offset": 1684,
+          "guid": "b1da0f88-81e1-43fb-86a6-7cf149404177",
+          "hreftype": 500
+        },
+        {
+          "relative_offset": 216,
+          "resource_offset": 1708,
+          "guid": "e2d74550-8e41-460e-bb51-52e1f9522134",
+          "hreftype": 600
+        },
+        {
+          "relative_offset": 240,
+          "resource_offset": 1732,
+          "guid": "07dd3249-a591-4949-8f20-09cd347c69dc",
+          "hreftype": 700
+        },
+        {
+          "relative_offset": 264,
+          "resource_offset": 1756,
+          "guid": "cdfed399-7999-4309-b064-1ede04bc580d",
+          "hreftype": 800
+        }
+      ],
+      "types": [
+        {
+          "resource_offset": 364,
+          "typekind": "coclass",
+          "name": "MsMpComFactoryHome",
+          "guid": "a2d75874-6750-4931-94c1-c99d3bc9d0c7",
+          "function_count": 0,
+          "variable_count": 0,
+          "size": 8,
+          "implemented_types": 1,
+          "vtable_bytes": 0,
+          "member_data_offset": 4560,
+          "raw_words": [
+            16933,
+            4560,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            2,
+            28,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            1,
+            8,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "functions": [],
+          "variables": []
+        },
+        {
+          "resource_offset": 464,
+          "typekind": "dispatch",
+          "name": "IMsMpComFactory",
+          "guid": "ac30c2ba-0109-403d-9d8e-140bb470379c",
+          "function_count": 5,
+          "variable_count": 0,
+          "size": 8,
+          "implemented_types": 1,
+          "vtable_bytes": 96,
+          "member_data_offset": 4560,
+          "raw_words": [
+            82484,
+            4560,
+            0,
+            0,
+            3,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            96,
+            4544,
+            60,
+            0,
+            32,
+            0,
+            0,
+            -1,
+            6291457,
+            8,
+            1,
+            458754,
+            0,
+            -1
+          ],
+          "functions": [
+            {
+              "name": "CreateNativeInstance",
+              "memid": 1,
+              "resource_offset": 4564,
+              "record_size": 56,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 56,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "riid",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 8,
+                    "raw_words": [
+                      26,
+                      32767,
+                      0,
+                      0
+                    ],
+                    "target": {
+                      "vartype": 29,
+                      "name": "USERDEFINED",
+                      "typedesc_offset": 0,
+                      "raw_words": [
+                        29,
+                        32767,
+                        13,
+                        0
+                      ],
+                      "hreftype": 13,
+                      "type_name": null
+                    }
+                  },
+                  "flags": 1
+                },
+                {
+                  "name": "ppObject",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 16,
+                    "raw_words": [
+                      26,
+                      16397,
+                      13,
+                      32781
+                    ],
+                    "target": {
+                      "vartype": 13,
+                      "name": "IUnknown"
+                    }
+                  },
+                  "flags": 10
+                }
+              ]
+            },
+            {
+              "name": "CreateAutoInstance",
+              "memid": 2,
+              "resource_offset": 4620,
+              "record_size": 56,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 0,
+              "vtable_offset": 64,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "bstrIID",
+                  "type": {
+                    "vartype": 8,
+                    "name": "BSTR"
+                  },
+                  "flags": 1
+                },
+                {
+                  "name": "ppObject",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 24,
+                    "raw_words": [
+                      26,
+                      16393,
+                      9,
+                      32777
+                    ],
+                    "target": {
+                      "vartype": 9,
+                      "name": "IDispatch"
+                    }
+                  },
+                  "flags": 10
+                }
+              ]
+            },
+            {
+              "name": "IsElevatedMoniker",
+              "memid": 3,
+              "resource_offset": 4676,
+              "record_size": 44,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 0,
+              "vtable_offset": 72,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "pfValue",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 32,
+                    "raw_words": [
+                      26,
+                      16395,
+                      11,
+                      32779
+                    ],
+                    "target": {
+                      "vartype": 11,
+                      "name": "VARIANT_BOOL"
+                    }
+                  },
+                  "flags": 10
+                }
+              ]
+            },
+            {
+              "name": "AuthChallenge",
+              "memid": 4,
+              "resource_offset": 4720,
+              "record_size": 44,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 0,
+              "vtable_offset": 80,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "pVar",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 40,
+                    "raw_words": [
+                      26,
+                      16396,
+                      12,
+                      32780
+                    ],
+                    "target": {
+                      "vartype": 12,
+                      "name": "VARIANT"
+                    }
+                  },
+                  "flags": 10
+                }
+              ]
+            },
+            {
+              "name": "AuthResponse",
+              "memid": 5,
+              "resource_offset": 4764,
+              "record_size": 44,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 0,
+              "vtable_offset": 88,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "aVar",
+                  "type": {
+                    "vartype": 12,
+                    "name": "VARIANT"
+                  },
+                  "flags": 1
+                }
+              ]
+            }
+          ],
+          "variables": []
+        },
+        {
+          "resource_offset": 564,
+          "typekind": "coclass",
+          "name": "MsMpComFactoryJamaica",
+          "guid": "546bf232-c9dd-4f28-8e38-30ae2d964d46",
+          "function_count": 0,
+          "variable_count": 0,
+          "size": 8,
+          "implemented_types": 1,
+          "vtable_bytes": 0,
+          "member_data_offset": 4868,
+          "raw_words": [
+            148005,
+            4868,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            120,
+            2,
+            344,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            1,
+            8,
+            16,
+            0,
+            0,
+            -1
+          ],
+          "functions": [],
+          "variables": []
+        },
+        {
+          "resource_offset": 664,
+          "typekind": "coclass",
+          "name": "MsMpComFactoryOneCare",
+          "guid": "7007dd05-9412-4939-bcb2-0e6281669a6e",
+          "function_count": 0,
+          "variable_count": 0,
+          "size": 8,
+          "implemented_types": 1,
+          "vtable_bytes": 0,
+          "member_data_offset": 4868,
+          "raw_words": [
+            213541,
+            4868,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            144,
+            2,
+            380,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            1,
+            8,
+            32,
+            0,
+            0,
+            -1
+          ],
+          "functions": [],
+          "variables": []
+        },
+        {
+          "resource_offset": 764,
+          "typekind": "coclass",
+          "name": "MsMpComFactoryCallisto",
+          "guid": "b8979202-382f-483c-bd2e-89b05e97144b",
+          "function_count": 0,
+          "variable_count": 0,
+          "size": 8,
+          "implemented_types": 1,
+          "vtable_bytes": 0,
+          "member_data_offset": 4868,
+          "raw_words": [
+            279077,
+            4868,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            168,
+            2,
+            416,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            1,
+            8,
+            48,
+            0,
+            0,
+            -1
+          ],
+          "functions": [],
+          "variables": []
+        },
+        {
+          "resource_offset": 864,
+          "typekind": "coclass",
+          "name": "MsMpClientUtils",
+          "guid": "b1da0f88-81e1-43fb-86a6-7cf149404177",
+          "function_count": 0,
+          "variable_count": 0,
+          "size": 8,
+          "implemented_types": 1,
+          "vtable_bytes": 0,
+          "member_data_offset": 4868,
+          "raw_words": [
+            344613,
+            4868,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            192,
+            2,
+            452,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            1,
+            8,
+            64,
+            0,
+            0,
+            -1
+          ],
+          "functions": [],
+          "variables": []
+        },
+        {
+          "resource_offset": 964,
+          "typekind": "dispatch",
+          "name": "IMsMpClientUtils",
+          "guid": "e2d74550-8e41-460e-bb51-52e1f9522134",
+          "function_count": 11,
+          "variable_count": 0,
+          "size": 8,
+          "implemented_types": 1,
+          "vtable_bytes": 144,
+          "member_data_offset": 4868,
+          "raw_words": [
+            410164,
+            4868,
+            0,
+            0,
+            3,
+            0,
+            11,
+            0,
+            0,
+            0,
+            0,
+            216,
+            4544,
+            480,
+            0,
+            180,
+            0,
+            0,
+            -1,
+            9437185,
+            8,
+            1,
+            458754,
+            0,
+            -1
+          ],
+          "functions": [
+            {
+              "name": "QuarantineRemove",
+              "memid": 1,
+              "resource_offset": 4872,
+              "record_size": 44,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 56,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "aQuarantineGuid",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 56,
+                    "raw_words": [
+                      26,
+                      32767,
+                      48,
+                      0
+                    ],
+                    "target": {
+                      "vartype": 29,
+                      "name": "USERDEFINED",
+                      "typedesc_offset": 48,
+                      "raw_words": [
+                        29,
+                        32767,
+                        25,
+                        0
+                      ],
+                      "hreftype": 25,
+                      "type_name": null
+                    }
+                  },
+                  "flags": 1
+                }
+              ]
+            },
+            {
+              "name": "QuarantineRemoveAll",
+              "memid": 2,
+              "resource_offset": 4916,
+              "record_size": 32,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 0,
+              "vtable_offset": 64,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": []
+            },
+            {
+              "name": "QuarantineRestore",
+              "memid": 3,
+              "resource_offset": 4948,
+              "record_size": 44,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 72,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "aQuarantineGuid",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 72,
+                    "raw_words": [
+                      26,
+                      32767,
+                      64,
+                      0
+                    ],
+                    "target": {
+                      "vartype": 29,
+                      "name": "USERDEFINED",
+                      "typedesc_offset": 64,
+                      "raw_words": [
+                        29,
+                        32767,
+                        37,
+                        0
+                      ],
+                      "hreftype": 37,
+                      "type_name": null
+                    }
+                  },
+                  "flags": 1
+                }
+              ]
+            },
+            {
+              "name": "ThreatHistoryRemoveAll",
+              "memid": 4,
+              "resource_offset": 4992,
+              "record_size": 32,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 0,
+              "vtable_offset": 80,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": []
+            },
+            {
+              "name": "AutoScanCancel",
+              "memid": 5,
+              "resource_offset": 5024,
+              "record_size": 32,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 88,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": []
+            },
+            {
+              "name": "AutoScanPause",
+              "memid": 6,
+              "resource_offset": 5056,
+              "record_size": 32,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 96,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": []
+            },
+            {
+              "name": "AutoScanResume",
+              "memid": 7,
+              "resource_offset": 5088,
+              "record_size": 32,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 104,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": []
+            },
+            {
+              "name": "CreateElevationHandle",
+              "memid": 10,
+              "resource_offset": 5120,
+              "record_size": 44,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 112,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "pVarHandleGuid",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 40,
+                    "raw_words": [
+                      26,
+                      16396,
+                      12,
+                      32780
+                    ],
+                    "target": {
+                      "vartype": 12,
+                      "name": "VARIANT"
+                    }
+                  },
+                  "flags": 10
+                }
+              ]
+            },
+            {
+              "name": "ActivateElevationHandle",
+              "memid": 11,
+              "resource_offset": 5164,
+              "record_size": 32,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 120,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": []
+            },
+            {
+              "name": "SigUpdateControl",
+              "memid": 12,
+              "resource_offset": 5196,
+              "record_size": 44,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 128,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "dwUpdateControl",
+                  "type": {
+                    "vartype": 19,
+                    "name": "UI4"
+                  },
+                  "flags": 0
+                }
+              ]
+            },
+            {
+              "name": "AddUserReadAccessToSample",
+              "memid": 13,
+              "resource_offset": 5240,
+              "record_size": 56,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 136,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "bstrSample",
+                  "type": {
+                    "vartype": 8,
+                    "name": "BSTR"
+                  },
+                  "flags": 1
+                },
+                {
+                  "name": "varUserSid",
+                  "type": {
+                    "vartype": 12,
+                    "name": "VARIANT"
+                  },
+                  "flags": 1
+                }
+              ]
+            }
+          ],
+          "variables": []
+        },
+        {
+          "resource_offset": 1064,
+          "typekind": "coclass",
+          "name": "MsMpSimpleConfig",
+          "guid": "07dd3249-a591-4949-8f20-09cd347c69dc",
+          "function_count": 0,
+          "variable_count": 0,
+          "size": 8,
+          "implemented_types": 1,
+          "vtable_bytes": 0,
+          "member_data_offset": 5428,
+          "raw_words": [
+            475685,
+            5428,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            240,
+            2,
+            992,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            1,
+            8,
+            80,
+            0,
+            0,
+            -1
+          ],
+          "functions": [],
+          "variables": []
+        },
+        {
+          "resource_offset": 1164,
+          "typekind": "dispatch",
+          "name": "IMsMpSimpleConfig",
+          "guid": "cdfed399-7999-4309-b064-1ede04bc580d",
+          "function_count": 3,
+          "variable_count": 0,
+          "size": 8,
+          "implemented_types": 1,
+          "vtable_bytes": 80,
+          "member_data_offset": 5428,
+          "raw_words": [
+            541236,
+            5428,
+            0,
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            264,
+            4544,
+            1020,
+            0,
+            472,
+            0,
+            0,
+            -1,
+            5242881,
+            8,
+            1,
+            458754,
+            0,
+            -1
+          ],
+          "functions": [
+            {
+              "name": "ReadValue",
+              "memid": 1,
+              "resource_offset": 5432,
+              "record_size": 80,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 0,
+              "vtable_offset": 56,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "bstrKeyName",
+                  "type": {
+                    "vartype": 8,
+                    "name": "BSTR"
+                  },
+                  "flags": 1
+                },
+                {
+                  "name": "bstrValueName",
+                  "type": {
+                    "vartype": 8,
+                    "name": "BSTR"
+                  },
+                  "flags": 1
+                },
+                {
+                  "name": "pType",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 88,
+                    "raw_words": [
+                      26,
+                      16387,
+                      80,
+                      0
+                    ],
+                    "target": {
+                      "vartype": 29,
+                      "name": "USERDEFINED",
+                      "typedesc_offset": 80,
+                      "raw_words": [
+                        29,
+                        3,
+                        900,
+                        0
+                      ],
+                      "hreftype": 900,
+                      "type_name": "_MP_COM_CONFIG_TYPE"
+                    }
+                  },
+                  "flags": 2
+                },
+                {
+                  "name": "varValue",
+                  "type": {
+                    "vartype": 26,
+                    "name": "PTR",
+                    "typedesc_offset": 40,
+                    "raw_words": [
+                      26,
+                      16396,
+                      12,
+                      32780
+                    ],
+                    "target": {
+                      "vartype": 12,
+                      "name": "VARIANT"
+                    }
+                  },
+                  "flags": 2
+                }
+              ]
+            },
+            {
+              "name": "WriteValue",
+              "memid": 2,
+              "resource_offset": 5512,
+              "record_size": 80,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 64,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "bstrKeyName",
+                  "type": {
+                    "vartype": 8,
+                    "name": "BSTR"
+                  },
+                  "flags": 1
+                },
+                {
+                  "name": "bstrValueName",
+                  "type": {
+                    "vartype": 8,
+                    "name": "BSTR"
+                  },
+                  "flags": 1
+                },
+                {
+                  "name": "eType",
+                  "type": {
+                    "vartype": 29,
+                    "name": "USERDEFINED",
+                    "typedesc_offset": 80,
+                    "raw_words": [
+                      29,
+                      3,
+                      900,
+                      0
+                    ],
+                    "hreftype": 900,
+                    "type_name": "_MP_COM_CONFIG_TYPE"
+                  },
+                  "flags": 1
+                },
+                {
+                  "name": "varValue",
+                  "type": {
+                    "vartype": 12,
+                    "name": "VARIANT"
+                  },
+                  "flags": 1
+                }
+              ]
+            },
+            {
+              "name": "DeleteValue",
+              "memid": 3,
+              "resource_offset": 5592,
+              "record_size": 56,
+              "type": {
+                "vartype": 25,
+                "name": "HRESULT"
+              },
+              "flags": 64,
+              "vtable_offset": 72,
+              "callconv": 4,
+              "invkind": 1,
+              "funckind": 1,
+              "optional_arguments": 0,
+              "parameters": [
+                {
+                  "name": "bstrKeyName",
+                  "type": {
+                    "vartype": 8,
+                    "name": "BSTR"
+                  },
+                  "flags": 1
+                },
+                {
+                  "name": "bstrValueName",
+                  "type": {
+                    "vartype": 8,
+                    "name": "BSTR"
+                  },
+                  "flags": 1
+                }
+              ]
+            }
+          ],
+          "variables": []
+        },
+        {
+          "resource_offset": 1264,
+          "typekind": "enum",
+          "name": "_MP_COM_CONFIG_TYPE",
+          "guid": null,
+          "function_count": 0,
+          "variable_count": 5,
+          "size": 4,
+          "implemented_types": 0,
+          "vtable_bytes": 0,
+          "member_data_offset": 5684,
+          "raw_words": [
+            598304,
+            5684,
+            0,
+            0,
+            3,
+            0,
+            327680,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1052,
+            0,
+            -1,
+            0,
+            0,
+            -1,
+            0,
+            4,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "functions": [],
+          "variables": [
+            {
+              "name": "MP_COM_CONFIG_TYPE_NONE",
+              "memid": 1073741824,
+              "resource_offset": 5688,
+              "record_size": 20,
+              "type": {
+                "vartype": 22,
+                "name": "INT"
+              },
+              "flags": 0,
+              "varkind": 2,
+              "value_raw": -1946157056,
+              "value_vartype": 3,
+              "value": 0
+            },
+            {
+              "name": "MP_COM_CONFIG_TYPE_DWORD",
+              "memid": 1073741825,
+              "resource_offset": 5708,
+              "record_size": 20,
+              "type": {
+                "vartype": 22,
+                "name": "INT"
+              },
+              "flags": 0,
+              "varkind": 2,
+              "value_raw": -1946157055,
+              "value_vartype": 3,
+              "value": 1
+            },
+            {
+              "name": "MP_COM_CONFIG_TYPE_SZ",
+              "memid": 1073741826,
+              "resource_offset": 5728,
+              "record_size": 20,
+              "type": {
+                "vartype": 22,
+                "name": "INT"
+              },
+              "flags": 0,
+              "varkind": 2,
+              "value_raw": -1946157054,
+              "value_vartype": 3,
+              "value": 2
+            },
+            {
+              "name": "MP_COM_CONFIG_TYPE_MULTI_SZ",
+              "memid": 1073741827,
+              "resource_offset": 5748,
+              "record_size": 20,
+              "type": {
+                "vartype": 22,
+                "name": "INT"
+              },
+              "flags": 0,
+              "varkind": 2,
+              "value_raw": -1946157053,
+              "value_vartype": 3,
+              "value": 3
+            },
+            {
+              "name": "MP_COM_CONFIG_TYPE_BINARY",
+              "memid": 1073741828,
+              "resource_offset": 5768,
+              "record_size": 20,
+              "type": {
+                "vartype": 22,
+                "name": "INT"
+              },
+              "flags": 0,
+              "varkind": 2,
+              "value_raw": -1946157052,
+              "value_vartype": 3,
+              "value": 4
+            }
+          ]
+        }
+      ],
+      "library_name": "MpComExportsLib",
+      "library_guid": "8c389764-f036-48f2-9ae2-88c260dcf43b",
+      "limitations": [
+        "Selected MSFT method/parameter/enum metadata decoded using Wine format interpretation; not cross-checked with Windows LoadTypeLib. Import references, complex arrays and inherited interface layouts not fully resolved.",
+        "All offsets are relative to TYPELIB resource, not original PE file. Add resource file_offset."
+      ]
+    }
+  }
+]

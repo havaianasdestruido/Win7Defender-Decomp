@@ -1,0 +1,12 @@
+MpClient.dll loading
+MpClient.dll CFG 3510 functions 95.13 seconds
+Exception ignored in: <function WeakValueDictionary.__init__.<locals>.remove at 0x7f0247ec2de0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/weakref.py", line 105, in remove
+    def remove(wr, selfref=ref(self), _atomic_removal=_remove_dead_weakref):
+
+  File "/home/user/Win7Defender-Decomp/analysis/tools/decompile.py", line 16, in expire
+    def expire(signum,frame): raise Deadline()
+                              ^^^^^^^^^^^^^^^^
+Deadline: 
+MpClient.dll {'automated pseudocode; unverified': 2701, 'deferred: module decompilation time budget exhausted; rerun with larger --budget': 578, 'seed not recovered by CFG; inspect disassembly and exception-range boundaries': 7}

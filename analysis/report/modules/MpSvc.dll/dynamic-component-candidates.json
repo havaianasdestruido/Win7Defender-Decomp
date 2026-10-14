@@ -1,0 +1,97 @@
+[
+  {
+    "file_offset": 25864,
+    "encoding": "utf-16le",
+    "text": "msmplics.dll"
+  },
+  {
+    "file_offset": 26096,
+    "encoding": "utf-16le",
+    "text": "mpengine.dll"
+  },
+  {
+    "file_offset": 27920,
+    "encoding": "utf-16le",
+    "text": "verifier.dll"
+  },
+  {
+    "file_offset": 28142,
+    "encoding": "utf-16le",
+    "text": "xrpcrt4.dll"
+  },
+  {
+    "file_offset": 28248,
+    "encoding": "utf-16le",
+    "text": "mprtp.dll"
+  },
+  {
+    "file_offset": 30192,
+    "encoding": "utf-16le",
+    "text": "mpsvc.dll"
+  },
+  {
+    "file_offset": 30216,
+    "encoding": "utf-16le",
+    "text": "Drivers\\mpfilter\\mpfilter.sys"
+  },
+  {
+    "file_offset": 30624,
+    "encoding": "utf-16le",
+    "text": "SrClient.dll"
+  },
+  {
+    "file_offset": 33152,
+    "encoding": "utf-16le",
+    "text": "Wer.dll"
+  },
+  {
+    "file_offset": 36488,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun.exe"
+  },
+  {
+    "file_offset": 37824,
+    "encoding": "utf-16le",
+    "text": "psapi.dll"
+  },
+  {
+    "file_offset": 43936,
+    "encoding": "utf-16le",
+    "text": "wscapi.dll"
+  },
+  {
+    "file_offset": 44544,
+    "encoding": "utf-16le",
+    "text": "MsMpRes.dll"
+  },
+  {
+    "file_offset": 45632,
+    "encoding": "utf-16le",
+    "text": "MpSvc.dll"
+  },
+  {
+    "file_offset": 45656,
+    "encoding": "utf-16le",
+    "text": "msascui.exe"
+  },
+  {
+    "file_offset": 50712,
+    "encoding": "utf-16le",
+    "text": "MsMpLics.dll"
+  },
+  {
+    "file_offset": 930022,
+    "encoding": "ascii",
+    "text": "MpSvc.dll"
+  },
+  {
+    "file_offset": 1002528,
+    "encoding": "utf-16le",
+    "text": "MpSvc.dll"
+  },
+  {
+    "file_offset": 1002716,
+    "encoding": "utf-16le",
+    "text": "MpSvc.dll"
+  }
+]

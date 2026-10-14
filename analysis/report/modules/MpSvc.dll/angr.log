@@ -1,0 +1,3 @@
+MpSvc.dll loading
+MpSvc.dll CFG 6053 functions 180.45 seconds
+MpSvc.dll {'automated pseudocode; unverified': 4019, 'deferred: module decompilation time budget exhausted; rerun with larger --budget': 1774, 'seed not recovered by CFG; inspect disassembly and exception-range boundaries': 6}

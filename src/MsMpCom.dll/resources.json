@@ -1,0 +1,45 @@
+{
+  "input_sha256": "9e8396674ed1969a87e8108f9beceb8df84e5a5b1d52a40d694c3af88c9887a0",
+  "inventory": [
+    {
+      "path": [
+        "REGISTRY",
+        103,
+        1033
+      ],
+      "type": "REGISTRY",
+      "rva": 62608,
+      "file_offset": 53392,
+      "size": 159,
+      "codepage": 0,
+      "sha256": "0fe5f966f8ce0e2cb70ce3303402c454a9aae535b19d2b0b62b2597bfdfe448b"
+    },
+    {
+      "path": [
+        "TYPELIB",
+        1,
+        1033
+      ],
+      "type": "TYPELIB",
+      "rva": 62768,
+      "file_offset": 53552,
+      "size": 5848,
+      "codepage": 0,
+      "sha256": "4cf41b8113738350090a56098de39f19fb92d1d535b09d8066a3e2d25a63505c"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "type": "RT_VERSION",
+      "rva": 61712,
+      "file_offset": 52496,
+      "size": 892,
+      "codepage": 0,
+      "sha256": "7c53168cd23a0c5a572efab58dc7888cf3081ef104730fe245a75b6768e328d6"
+    }
+  ],
+  "decoded": []
+}

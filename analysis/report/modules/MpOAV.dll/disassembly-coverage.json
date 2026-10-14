@@ -1,0 +1,1199 @@
+[
+  {
+    "begin_rva": 14712,
+    "end_rva": 15010,
+    "decoded_bytes": 298,
+    "range_bytes": 298,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 15016,
+    "end_rva": 15046,
+    "decoded_bytes": 30,
+    "range_bytes": 30,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 15052,
+    "end_rva": 15242,
+    "decoded_bytes": 190,
+    "range_bytes": 190,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 15248,
+    "end_rva": 15314,
+    "decoded_bytes": 66,
+    "range_bytes": 66,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 15320,
+    "end_rva": 15489,
+    "decoded_bytes": 169,
+    "range_bytes": 169,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 15496,
+    "end_rva": 15603,
+    "decoded_bytes": 107,
+    "range_bytes": 107,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 15612,
+    "end_rva": 16034,
+    "decoded_bytes": 422,
+    "range_bytes": 422,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 16040,
+    "end_rva": 16075,
+    "decoded_bytes": 35,
+    "range_bytes": 35,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 16084,
+    "end_rva": 16366,
+    "decoded_bytes": 282,
+    "range_bytes": 282,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 16416,
+    "end_rva": 16527,
+    "decoded_bytes": 111,
+    "range_bytes": 111,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 16588,
+    "end_rva": 16620,
+    "decoded_bytes": 32,
+    "range_bytes": 32,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 16628,
+    "end_rva": 16789,
+    "decoded_bytes": 161,
+    "range_bytes": 161,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 16824,
+    "end_rva": 17143,
+    "decoded_bytes": 319,
+    "range_bytes": 319,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 17152,
+    "end_rva": 17460,
+    "decoded_bytes": 308,
+    "range_bytes": 308,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 17468,
+    "end_rva": 17494,
+    "decoded_bytes": 26,
+    "range_bytes": 26,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 17500,
+    "end_rva": 17590,
+    "decoded_bytes": 90,
+    "range_bytes": 90,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 17620,
+    "end_rva": 17903,
+    "decoded_bytes": 283,
+    "range_bytes": 283,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 17912,
+    "end_rva": 18219,
+    "decoded_bytes": 307,
+    "range_bytes": 307,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 18228,
+    "end_rva": 18270,
+    "decoded_bytes": 42,
+    "range_bytes": 42,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 18320,
+    "end_rva": 18362,
+    "decoded_bytes": 42,
+    "range_bytes": 42,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 18368,
+    "end_rva": 18461,
+    "decoded_bytes": 93,
+    "range_bytes": 93,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 18524,
+    "end_rva": 18618,
+    "decoded_bytes": 94,
+    "range_bytes": 94,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 18624,
+    "end_rva": 18733,
+    "decoded_bytes": 109,
+    "range_bytes": 109,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 18740,
+    "end_rva": 18769,
+    "decoded_bytes": 29,
+    "range_bytes": 29,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 18776,
+    "end_rva": 18840,
+    "decoded_bytes": 64,
+    "range_bytes": 64,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 18848,
+    "end_rva": 18941,
+    "decoded_bytes": 93,
+    "range_bytes": 93,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 18948,
+    "end_rva": 18981,
+    "decoded_bytes": 33,
+    "range_bytes": 33,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 19000,
+    "end_rva": 19290,
+    "decoded_bytes": 290,
+    "range_bytes": 290,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 19296,
+    "end_rva": 19486,
+    "decoded_bytes": 190,
+    "range_bytes": 190,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 19492,
+    "end_rva": 19515,
+    "decoded_bytes": 23,
+    "range_bytes": 23,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 19524,
+    "end_rva": 19697,
+    "decoded_bytes": 173,
+    "range_bytes": 173,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 19704,
+    "end_rva": 20253,
+    "decoded_bytes": 549,
+    "range_bytes": 549,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 20260,
+    "end_rva": 20407,
+    "decoded_bytes": 147,
+    "range_bytes": 147,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 20416,
+    "end_rva": 20921,
+    "decoded_bytes": 505,
+    "range_bytes": 505,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 20928,
+    "end_rva": 21692,
+    "decoded_bytes": 764,
+    "range_bytes": 764,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 21700,
+    "end_rva": 21727,
+    "decoded_bytes": 27,
+    "range_bytes": 27,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 21736,
+    "end_rva": 21758,
+    "decoded_bytes": 22,
+    "range_bytes": 22,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 21764,
+    "end_rva": 21882,
+    "decoded_bytes": 118,
+    "range_bytes": 118,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 21888,
+    "end_rva": 22054,
+    "decoded_bytes": 166,
+    "range_bytes": 166,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 22080,
+    "end_rva": 22126,
+    "decoded_bytes": 46,
+    "range_bytes": 46,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 22132,
+    "end_rva": 22171,
+    "decoded_bytes": 39,
+    "range_bytes": 39,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 22180,
+    "end_rva": 22318,
+    "decoded_bytes": 138,
+    "range_bytes": 138,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 22324,
+    "end_rva": 23193,
+    "decoded_bytes": 869,
+    "range_bytes": 869,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 23200,
+    "end_rva": 23308,
+    "decoded_bytes": 108,
+    "range_bytes": 108,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 23316,
+    "end_rva": 23731,
+    "decoded_bytes": 415,
+    "range_bytes": 415,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 23740,
+    "end_rva": 24690,
+    "decoded_bytes": 950,
+    "range_bytes": 950,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 24696,
+    "end_rva": 24748,
+    "decoded_bytes": 52,
+    "range_bytes": 52,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 24756,
+    "end_rva": 25055,
+    "decoded_bytes": 299,
+    "range_bytes": 299,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 25064,
+    "end_rva": 25465,
+    "decoded_bytes": 401,
+    "range_bytes": 401,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 25472,
+    "end_rva": 25499,
+    "decoded_bytes": 27,
+    "range_bytes": 27,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 25508,
+    "end_rva": 25621,
+    "decoded_bytes": 113,
+    "range_bytes": 113,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 25628,
+    "end_rva": 25735,
+    "decoded_bytes": 107,
+    "range_bytes": 107,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 25768,
+    "end_rva": 25815,
+    "decoded_bytes": 47,
+    "range_bytes": 47,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 25824,
+    "end_rva": 25882,
+    "decoded_bytes": 58,
+    "range_bytes": 58,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 25888,
+    "end_rva": 25921,
+    "decoded_bytes": 33,
+    "range_bytes": 33,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 25928,
+    "end_rva": 26065,
+    "decoded_bytes": 137,
+    "range_bytes": 137,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 26088,
+    "end_rva": 26188,
+    "decoded_bytes": 100,
+    "range_bytes": 100,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 26196,
+    "end_rva": 26293,
+    "decoded_bytes": 97,
+    "range_bytes": 97,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 26300,
+    "end_rva": 26529,
+    "decoded_bytes": 229,
+    "range_bytes": 229,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 26536,
+    "end_rva": 26588,
+    "decoded_bytes": 52,
+    "range_bytes": 52,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 26596,
+    "end_rva": 26882,
+    "decoded_bytes": 286,
+    "range_bytes": 286,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 26888,
+    "end_rva": 27037,
+    "decoded_bytes": 149,
+    "range_bytes": 149,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 27044,
+    "end_rva": 27140,
+    "decoded_bytes": 96,
+    "range_bytes": 96,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 27148,
+    "end_rva": 27178,
+    "decoded_bytes": 30,
+    "range_bytes": 30,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 27184,
+    "end_rva": 27250,
+    "decoded_bytes": 66,
+    "range_bytes": 66,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 27256,
+    "end_rva": 27378,
+    "decoded_bytes": 122,
+    "range_bytes": 122,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 27384,
+    "end_rva": 27540,
+    "decoded_bytes": 156,
+    "range_bytes": 156,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 27548,
+    "end_rva": 27692,
+    "decoded_bytes": 144,
+    "range_bytes": 144,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 27700,
+    "end_rva": 27821,
+    "decoded_bytes": 121,
+    "range_bytes": 121,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 27828,
+    "end_rva": 27990,
+    "decoded_bytes": 162,
+    "range_bytes": 162,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 27996,
+    "end_rva": 28160,
+    "decoded_bytes": 164,
+    "range_bytes": 164,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 28168,
+    "end_rva": 28366,
+    "decoded_bytes": 198,
+    "range_bytes": 198,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 28372,
+    "end_rva": 28729,
+    "decoded_bytes": 357,
+    "range_bytes": 357,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 28736,
+    "end_rva": 28939,
+    "decoded_bytes": 203,
+    "range_bytes": 203,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 28948,
+    "end_rva": 29444,
+    "decoded_bytes": 496,
+    "range_bytes": 496,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 29452,
+    "end_rva": 29485,
+    "decoded_bytes": 33,
+    "range_bytes": 33,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 29492,
+    "end_rva": 29675,
+    "decoded_bytes": 183,
+    "range_bytes": 183,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 29684,
+    "end_rva": 29733,
+    "decoded_bytes": 49,
+    "range_bytes": 49,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 29740,
+    "end_rva": 29792,
+    "decoded_bytes": 52,
+    "range_bytes": 52,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 29800,
+    "end_rva": 30068,
+    "decoded_bytes": 268,
+    "range_bytes": 268,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 30076,
+    "end_rva": 30245,
+    "decoded_bytes": 169,
+    "range_bytes": 169,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 30252,
+    "end_rva": 30506,
+    "decoded_bytes": 254,
+    "range_bytes": 254,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 30512,
+    "end_rva": 30848,
+    "decoded_bytes": 336,
+    "range_bytes": 336,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 30856,
+    "end_rva": 31060,
+    "decoded_bytes": 204,
+    "range_bytes": 204,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 31068,
+    "end_rva": 31455,
+    "decoded_bytes": 387,
+    "range_bytes": 387,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 31464,
+    "end_rva": 31553,
+    "decoded_bytes": 89,
+    "range_bytes": 89,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 31560,
+    "end_rva": 31599,
+    "decoded_bytes": 39,
+    "range_bytes": 39,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 31608,
+    "end_rva": 31668,
+    "decoded_bytes": 60,
+    "range_bytes": 60,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 31676,
+    "end_rva": 31730,
+    "decoded_bytes": 54,
+    "range_bytes": 54,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 31736,
+    "end_rva": 31800,
+    "decoded_bytes": 64,
+    "range_bytes": 64,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 31808,
+    "end_rva": 31872,
+    "decoded_bytes": 64,
+    "range_bytes": 64,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 31944,
+    "end_rva": 31995,
+    "decoded_bytes": 51,
+    "range_bytes": 51,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 32004,
+    "end_rva": 32333,
+    "decoded_bytes": 329,
+    "range_bytes": 329,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 32340,
+    "end_rva": 32397,
+    "decoded_bytes": 57,
+    "range_bytes": 57,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 32404,
+    "end_rva": 32457,
+    "decoded_bytes": 53,
+    "range_bytes": 53,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 32464,
+    "end_rva": 32574,
+    "decoded_bytes": 110,
+    "range_bytes": 110,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 32580,
+    "end_rva": 32852,
+    "decoded_bytes": 272,
+    "range_bytes": 272,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 32860,
+    "end_rva": 32887,
+    "decoded_bytes": 27,
+    "range_bytes": 27,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 32896,
+    "end_rva": 33163,
+    "decoded_bytes": 267,
+    "range_bytes": 267,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 33172,
+    "end_rva": 33279,
+    "decoded_bytes": 107,
+    "range_bytes": 107,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 33288,
+    "end_rva": 33329,
+    "decoded_bytes": 41,
+    "range_bytes": 41,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 33336,
+    "end_rva": 33384,
+    "decoded_bytes": 48,
+    "range_bytes": 48,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 33392,
+    "end_rva": 33544,
+    "decoded_bytes": 152,
+    "range_bytes": 152,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 33552,
+    "end_rva": 33702,
+    "decoded_bytes": 150,
+    "range_bytes": 150,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 33708,
+    "end_rva": 33794,
+    "decoded_bytes": 86,
+    "range_bytes": 86,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 33800,
+    "end_rva": 33912,
+    "decoded_bytes": 112,
+    "range_bytes": 112,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 33920,
+    "end_rva": 33949,
+    "decoded_bytes": 29,
+    "range_bytes": 29,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 33980,
+    "end_rva": 34027,
+    "decoded_bytes": 47,
+    "range_bytes": 47,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 34048,
+    "end_rva": 34137,
+    "decoded_bytes": 89,
+    "range_bytes": 89,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 34144,
+    "end_rva": 34248,
+    "decoded_bytes": 104,
+    "range_bytes": 104,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 34256,
+    "end_rva": 34399,
+    "decoded_bytes": 143,
+    "range_bytes": 143,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 34408,
+    "end_rva": 34449,
+    "decoded_bytes": 41,
+    "range_bytes": 41,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 34456,
+    "end_rva": 34583,
+    "decoded_bytes": 127,
+    "range_bytes": 127,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 34592,
+    "end_rva": 34692,
+    "decoded_bytes": 100,
+    "range_bytes": 100,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 34700,
+    "end_rva": 34752,
+    "decoded_bytes": 52,
+    "range_bytes": 52,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 34760,
+    "end_rva": 35226,
+    "decoded_bytes": 466,
+    "range_bytes": 466,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 35232,
+    "end_rva": 35725,
+    "decoded_bytes": 493,
+    "range_bytes": 493,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 35732,
+    "end_rva": 35793,
+    "decoded_bytes": 61,
+    "range_bytes": 61,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 35864,
+    "end_rva": 35912,
+    "decoded_bytes": 48,
+    "range_bytes": 48,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 35920,
+    "end_rva": 36054,
+    "decoded_bytes": 134,
+    "range_bytes": 134,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 36060,
+    "end_rva": 36083,
+    "decoded_bytes": 23,
+    "range_bytes": 23,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 36184,
+    "end_rva": 36283,
+    "decoded_bytes": 99,
+    "range_bytes": 99,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 36292,
+    "end_rva": 36321,
+    "decoded_bytes": 29,
+    "range_bytes": 29,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 36492,
+    "end_rva": 36557,
+    "decoded_bytes": 65,
+    "range_bytes": 65,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 36588,
+    "end_rva": 36767,
+    "decoded_bytes": 179,
+    "range_bytes": 179,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 36776,
+    "end_rva": 37065,
+    "decoded_bytes": 289,
+    "range_bytes": 289,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 37192,
+    "end_rva": 37335,
+    "decoded_bytes": 143,
+    "range_bytes": 143,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 37360,
+    "end_rva": 37438,
+    "decoded_bytes": 78,
+    "range_bytes": 78,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 37444,
+    "end_rva": 37527,
+    "decoded_bytes": 83,
+    "range_bytes": 83,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 37540,
+    "end_rva": 37623,
+    "decoded_bytes": 83,
+    "range_bytes": 83,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 37636,
+    "end_rva": 37719,
+    "decoded_bytes": 83,
+    "range_bytes": 83,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 37732,
+    "end_rva": 37824,
+    "decoded_bytes": 92,
+    "range_bytes": 92,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 37828,
+    "end_rva": 37911,
+    "decoded_bytes": 83,
+    "range_bytes": 83,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 37924,
+    "end_rva": 38007,
+    "decoded_bytes": 83,
+    "range_bytes": 83,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38020,
+    "end_rva": 38103,
+    "decoded_bytes": 83,
+    "range_bytes": 83,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38116,
+    "end_rva": 38208,
+    "decoded_bytes": 92,
+    "range_bytes": 92,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38212,
+    "end_rva": 38237,
+    "decoded_bytes": 25,
+    "range_bytes": 25,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38243,
+    "end_rva": 38268,
+    "decoded_bytes": 25,
+    "range_bytes": 25,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38274,
+    "end_rva": 38307,
+    "decoded_bytes": 33,
+    "range_bytes": 33,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38313,
+    "end_rva": 38346,
+    "decoded_bytes": 33,
+    "range_bytes": 33,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38352,
+    "end_rva": 38393,
+    "decoded_bytes": 41,
+    "range_bytes": 41,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38399,
+    "end_rva": 38423,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38429,
+    "end_rva": 38453,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38461,
+    "end_rva": 38502,
+    "decoded_bytes": 41,
+    "range_bytes": 41,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38508,
+    "end_rva": 38532,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38538,
+    "end_rva": 38562,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38570,
+    "end_rva": 38598,
+    "decoded_bytes": 28,
+    "range_bytes": 28,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38602,
+    "end_rva": 38630,
+    "decoded_bytes": 28,
+    "range_bytes": 28,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38636,
+    "end_rva": 38665,
+    "decoded_bytes": 29,
+    "range_bytes": 29,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38671,
+    "end_rva": 38712,
+    "decoded_bytes": 41,
+    "range_bytes": 41,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38718,
+    "end_rva": 38759,
+    "decoded_bytes": 41,
+    "range_bytes": 41,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38765,
+    "end_rva": 38806,
+    "decoded_bytes": 41,
+    "range_bytes": 41,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38812,
+    "end_rva": 38836,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38844,
+    "end_rva": 38872,
+    "decoded_bytes": 28,
+    "range_bytes": 28,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38876,
+    "end_rva": 38905,
+    "decoded_bytes": 29,
+    "range_bytes": 29,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38911,
+    "end_rva": 38940,
+    "decoded_bytes": 29,
+    "range_bytes": 29,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38946,
+    "end_rva": 38975,
+    "decoded_bytes": 29,
+    "range_bytes": 29,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 38981,
+    "end_rva": 39022,
+    "decoded_bytes": 41,
+    "range_bytes": 41,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39028,
+    "end_rva": 39056,
+    "decoded_bytes": 28,
+    "range_bytes": 28,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39062,
+    "end_rva": 39086,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39094,
+    "end_rva": 39118,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39124,
+    "end_rva": 39148,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39154,
+    "end_rva": 39178,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39186,
+    "end_rva": 39210,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39218,
+    "end_rva": 39242,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39250,
+    "end_rva": 39274,
+    "decoded_bytes": 24,
+    "range_bytes": 24,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39284,
+    "end_rva": 39463,
+    "decoded_bytes": 179,
+    "range_bytes": 179,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39492,
+    "end_rva": 39662,
+    "decoded_bytes": 170,
+    "range_bytes": 170,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39668,
+    "end_rva": 39790,
+    "decoded_bytes": 122,
+    "range_bytes": 122,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39800,
+    "end_rva": 39868,
+    "decoded_bytes": 68,
+    "range_bytes": 68,
+    "complete_linear_decode": true
+  },
+  {
+    "begin_rva": 39876,
+    "end_rva": 39907,
+    "decoded_bytes": 31,
+    "range_bytes": 31,
+    "complete_linear_decode": true
+  }
+]

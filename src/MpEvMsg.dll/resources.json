@@ -1,0 +1,45 @@
+{
+  "input_sha256": "7880b025413338a7b114becb5dc67605fc7a97142c26fd12f765a64a21805842",
+  "inventory": [
+    {
+      "path": [
+        "MUI",
+        1,
+        1033
+      ],
+      "type": "MUI",
+      "rva": 55216,
+      "file_offset": 51632,
+      "size": 232,
+      "codepage": 0,
+      "sha256": "2b406a1008f6b8408f37bcfc967a5b09c79bad19b94ac54cc817134ca8b01929"
+    },
+    {
+      "path": [
+        "WEVT_TEMPLATE",
+        1,
+        1033
+      ],
+      "type": "WEVT_TEMPLATE",
+      "rva": 5280,
+      "file_offset": 1696,
+      "size": 49930,
+      "codepage": 0,
+      "sha256": "ab3563a300846aef9a8f5e43fd2ec4ac0df574ef9fd49d8c23f42613004ac322"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "type": "RT_VERSION",
+      "rva": 4368,
+      "file_offset": 784,
+      "size": 912,
+      "codepage": 0,
+      "sha256": "22c80d5e5072827cdd42efdbf553ff5acfcabf7eb72e16c25c17d8c86b704f06"
+    }
+  ],
+  "decoded": []
+}

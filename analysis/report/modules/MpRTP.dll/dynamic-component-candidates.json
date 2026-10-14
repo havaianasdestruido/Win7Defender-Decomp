@@ -1,0 +1,22 @@
+[
+  {
+    "file_offset": 8176,
+    "encoding": "utf-16le",
+    "text": "Wer.dll"
+  },
+  {
+    "file_offset": 8808,
+    "encoding": "utf-16le",
+    "text": "MsMpLics.dll"
+  },
+  {
+    "file_offset": 184616,
+    "encoding": "ascii",
+    "text": "MpRtp.dll"
+  },
+  {
+    "file_offset": 198384,
+    "encoding": "utf-16le",
+    "text": "mprtp.dll"
+  }
+]

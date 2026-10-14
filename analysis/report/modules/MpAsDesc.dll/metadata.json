@@ -1,0 +1,712 @@
+{
+  "path": "bin/MpAsDesc.dll",
+  "module": "MpAsDesc.dll",
+  "size": 10752,
+  "sha256": "cb11e89d0d48baad659f120a9bb66fec7aa47bca0866ae3677539801638010ef",
+  "format": "PE32+",
+  "architecture": "IMAGE_FILE_MACHINE_AMD64",
+  "bitness": 64,
+  "endianness": "little",
+  "image_base": 8792432312320,
+  "entry_rva": 7344,
+  "coff_timestamp": 1458932381,
+  "coff_timestamp_utc": "2016-03-25T18:59:41+00:00",
+  "coff_characteristics": 8226,
+  "linker_version": "9.0",
+  "os_version": "6.1",
+  "subsystem": 2,
+  "dll_characteristics": 320,
+  "file_alignment": 512,
+  "section_alignment": 4096,
+  "size_of_image": 28672,
+  "checksum_stored": 66180,
+  "checksum_computed": 66180,
+  "coff_symbols": 0,
+  "managed_cli_directory": false,
+  "status": "structural analysis complete; semantic coverage tracked separately",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "virtual_size": 6589,
+      "file_offset": 1024,
+      "raw_size": 6656,
+      "characteristics": 1610612768,
+      "entropy": 5.9261
+    },
+    {
+      "name": ".data",
+      "rva": 12288,
+      "virtual_size": 1824,
+      "file_offset": 7680,
+      "raw_size": 512,
+      "characteristics": 3221225536,
+      "entropy": 0.8014
+    },
+    {
+      "name": ".pdata",
+      "rva": 16384,
+      "virtual_size": 312,
+      "file_offset": 8192,
+      "raw_size": 512,
+      "characteristics": 1073741888,
+      "entropy": 2.5107
+    },
+    {
+      "name": ".rsrc",
+      "rva": 20480,
+      "virtual_size": 1328,
+      "file_offset": 8704,
+      "raw_size": 1536,
+      "characteristics": 1073741888,
+      "entropy": 3.0055
+    },
+    {
+      "name": ".reloc",
+      "rva": 24576,
+      "virtual_size": 76,
+      "file_offset": 10240,
+      "raw_size": 512,
+      "characteristics": 1107296320,
+      "entropy": 0.2944
+    }
+  ],
+  "directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+      "address": 10544,
+      "size": 141,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "address": 9464,
+      "size": 100,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "address": 20480,
+      "size": 1328,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+      "address": 16384,
+      "size": 312,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "address": 0,
+      "size": 0,
+      "coordinate": "file offset"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+      "address": 24576,
+      "size": 32,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+      "address": 4432,
+      "size": 28,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "address": 4096,
+      "size": 296,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    }
+  ],
+  "imports": [
+    {
+      "dll": "msvcrt.dll",
+      "name": "_amsg_exit",
+      "ordinal": null,
+      "hint": 160,
+      "iat_va": 8792432316648,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_initterm",
+      "ordinal": null,
+      "hint": 364,
+      "iat_va": 8792432316656,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_XcptFilter",
+      "ordinal": null,
+      "hint": 82,
+      "iat_va": 8792432316664,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "malloc",
+      "ordinal": null,
+      "hint": 1140,
+      "iat_va": 8792432316672,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__C_specific_handler",
+      "ordinal": null,
+      "hint": 83,
+      "iat_va": 8792432316680,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "free",
+      "ordinal": null,
+      "hint": 1082,
+      "iat_va": 8792432316688,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memcpy",
+      "ordinal": null,
+      "hint": 1152,
+      "iat_va": 8792432316696,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlCaptureContext",
+      "ordinal": null,
+      "hint": 1050,
+      "iat_va": 8792432316472,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlLookupFunctionEntry",
+      "ordinal": null,
+      "hint": 1057,
+      "iat_va": 8792432316480,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlVirtualUnwind",
+      "ordinal": null,
+      "hint": 1064,
+      "iat_va": 8792432316488,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetUnhandledExceptionFilter",
+      "ordinal": null,
+      "hint": 1207,
+      "iat_va": 8792432316496,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "UnhandledExceptionFilter",
+      "ordinal": null,
+      "hint": 1257,
+      "iat_va": 8792432316504,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentProcess",
+      "ordinal": null,
+      "hint": 455,
+      "iat_va": 8792432316512,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TerminateProcess",
+      "ordinal": null,
+      "hint": 1236,
+      "iat_va": 8792432316520,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemTimeAsFileTime",
+      "ordinal": null,
+      "hint": 640,
+      "iat_va": 8792432316528,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentProcessId",
+      "ordinal": null,
+      "hint": 456,
+      "iat_va": 8792432316536,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentThreadId",
+      "ordinal": null,
+      "hint": 460,
+      "iat_va": 8792432316544,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FreeLibrary",
+      "ordinal": null,
+      "hint": 361,
+      "iat_va": 8792432316552,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LoadLibraryW",
+      "ordinal": null,
+      "hint": 835,
+      "iat_va": 8792432316560,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetProcAddress",
+      "ordinal": null,
+      "hint": 587,
+      "iat_va": 8792432316568,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DisableThreadLibraryCalls",
+      "ordinal": null,
+      "hint": 227,
+      "iat_va": 8792432316576,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LocalAlloc",
+      "ordinal": null,
+      "hint": 840,
+      "iat_va": 8792432316584,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LocalFree",
+      "ordinal": null,
+      "hint": 844,
+      "iat_va": 8792432316592,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetTickCount",
+      "ordinal": null,
+      "hint": 666,
+      "iat_va": 8792432316600,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "QueryPerformanceCounter",
+      "ordinal": null,
+      "hint": 938,
+      "iat_va": 8792432316608,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "Sleep",
+      "ordinal": null,
+      "hint": 1221,
+      "iat_va": 8792432316616,
+      "kind": "normal"
+    },
+    {
+      "dll": "USER32.dll",
+      "name": "LoadStringW",
+      "ordinal": null,
+      "hint": 510,
+      "iat_va": 8792432316632,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegisterTraceGuidsW",
+      "ordinal": null,
+      "hint": 651,
+      "iat_va": 8792432316416,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTraceEnableLevel",
+      "ordinal": null,
+      "hint": 349,
+      "iat_va": 8792432316424,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "UnregisterTraceGuids",
+      "ordinal": null,
+      "hint": 771,
+      "iat_va": 8792432316432,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "TraceEvent",
+      "ordinal": null,
+      "hint": 757,
+      "iat_va": 8792432316440,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTraceLoggerHandle",
+      "ordinal": null,
+      "hint": 350,
+      "iat_va": 8792432316448,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTraceEnableFlags",
+      "ordinal": null,
+      "hint": 348,
+      "iat_va": 8792432316456,
+      "kind": "normal"
+    }
+  ],
+  "exports": [
+    {
+      "name": "GetMpAsDescModuleHandle",
+      "ordinal": 1,
+      "rva": 5976,
+      "va": 8792432318296,
+      "forwarder": null
+    },
+    {
+      "name": "MpGetSignatureDescriptionResourceIdentifier",
+      "ordinal": 2,
+      "rva": 5992,
+      "va": 8792432318312,
+      "forwarder": null
+    }
+  ],
+  "runtime_functions": [
+    {
+      "begin_rva": 4728,
+      "end_rva": 5026,
+      "unwind_rva": 9372
+    },
+    {
+      "begin_rva": 5032,
+      "end_rva": 5062,
+      "unwind_rva": 9420
+    },
+    {
+      "begin_rva": 5068,
+      "end_rva": 5258,
+      "unwind_rva": 9428
+    },
+    {
+      "begin_rva": 5264,
+      "end_rva": 5330,
+      "unwind_rva": 9452
+    },
+    {
+      "begin_rva": 5336,
+      "end_rva": 5409,
+      "unwind_rva": 9364
+    },
+    {
+      "begin_rva": 5416,
+      "end_rva": 5496,
+      "unwind_rva": 9364
+    },
+    {
+      "begin_rva": 5504,
+      "end_rva": 5673,
+      "unwind_rva": 9348
+    },
+    {
+      "begin_rva": 5680,
+      "end_rva": 5969,
+      "unwind_rva": 9436
+    },
+    {
+      "begin_rva": 5992,
+      "end_rva": 6305,
+      "unwind_rva": 9396
+    },
+    {
+      "begin_rva": 6312,
+      "end_rva": 6364,
+      "unwind_rva": 9088
+    },
+    {
+      "begin_rva": 6372,
+      "end_rva": 6838,
+      "unwind_rva": 9096
+    },
+    {
+      "begin_rva": 6844,
+      "end_rva": 7337,
+      "unwind_rva": 9128
+    },
+    {
+      "begin_rva": 7344,
+      "end_rva": 7405,
+      "unwind_rva": 9348
+    },
+    {
+      "begin_rva": 7628,
+      "end_rva": 7693,
+      "unwind_rva": 9296
+    },
+    {
+      "begin_rva": 7736,
+      "end_rva": 7915,
+      "unwind_rva": 9328
+    },
+    {
+      "begin_rva": 7924,
+      "end_rva": 8213,
+      "unwind_rva": 9340
+    },
+    {
+      "begin_rva": 8256,
+      "end_rva": 8339,
+      "unwind_rva": 9120
+    },
+    {
+      "begin_rva": 8352,
+      "end_rva": 8435,
+      "unwind_rva": 9120
+    },
+    {
+      "begin_rva": 8448,
+      "end_rva": 8531,
+      "unwind_rva": 9120
+    },
+    {
+      "begin_rva": 8544,
+      "end_rva": 8636,
+      "unwind_rva": 9120
+    },
+    {
+      "begin_rva": 8640,
+      "end_rva": 8723,
+      "unwind_rva": 9120
+    },
+    {
+      "begin_rva": 8736,
+      "end_rva": 8819,
+      "unwind_rva": 9120
+    },
+    {
+      "begin_rva": 8832,
+      "end_rva": 8915,
+      "unwind_rva": 9120
+    },
+    {
+      "begin_rva": 8928,
+      "end_rva": 9020,
+      "unwind_rva": 9120
+    },
+    {
+      "begin_rva": 9024,
+      "end_rva": 9049,
+      "unwind_rva": 9120
+    },
+    {
+      "begin_rva": 9055,
+      "end_rva": 9088,
+      "unwind_rva": 9120
+    }
+  ],
+  "relocations": [
+    {
+      "rva": 4416,
+      "type": 10
+    },
+    {
+      "rva": 4488,
+      "type": 10
+    },
+    {
+      "rva": 4496,
+      "type": 10
+    },
+    {
+      "rva": 4096,
+      "type": 0
+    },
+    {
+      "rva": 12544,
+      "type": 10
+    },
+    {
+      "rva": 12584,
+      "type": 10
+    },
+    {
+      "rva": 12592,
+      "type": 10
+    },
+    {
+      "rva": 12600,
+      "type": 10
+    }
+  ],
+  "debug": [
+    {
+      "type": 2,
+      "file_offset": 1604,
+      "size": 37,
+      "signature": "RSDS",
+      "guid": "92026aa3-5a55-4623-b7e6-0e15bd787c00",
+      "age": 1,
+      "pdb_path": "MpAsDesc.pdb"
+    }
+  ],
+  "rich_header": {
+    "key": "a1e8f1cd",
+    "raw_data": "e5899f9ea1e8f1cda1e8f1cda1e8f1cda89064cda0e8f1cda1e8f0cd8de8f1cda89062cda8e8f1cda89072cda8e8f1cda89063cda0e8f1cda8907bcda0e8f1cda89075cda3e8f1cda89065cda0e8f1cda89060cda0e8f1cd",
+    "clear_data": "44616e530000000000000000000000000978950001000000000001002c00000009789300090000000978830009000000097892000100000009788a0001000000097884000200000009789400010000000978910001000000",
+    "checksum": 3455183009,
+    "values": [
+      9795593,
+      1,
+      65536,
+      44,
+      9664521,
+      9,
+      8615945,
+      9,
+      9598985,
+      1,
+      9074697,
+      1,
+      8681481,
+      2,
+      9730057,
+      1,
+      9533449,
+      1
+    ]
+  },
+  "load_config": {},
+  "tls": null,
+  "version": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Definition Update Descriptions",
+    "FileVersion": "6.1.7601.23403 (win7sp1_ldr.160325-0600)",
+    "InternalName": "mpasdesc",
+    "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "mpasdesc.dll",
+    "ProductName": "Microsoft® Windows® Operating System",
+    "ProductVersion": "6.1.7601.23403"
+  },
+  "resources": [
+    {
+      "path": [
+        "MUI",
+        1,
+        1033
+      ],
+      "type": "MUI",
+      "rva": 21600,
+      "file_offset": 9824,
+      "size": 208,
+      "codepage": 0,
+      "sha256": "7ab1f3d0488e24522782033acf61a2f758d0b7e73337e6193fc380866160b766"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "type": "RT_VERSION",
+      "rva": 20656,
+      "file_offset": 8880,
+      "size": 940,
+      "codepage": 0,
+      "sha256": "a9c729e0964b2011b75dcee79a00d3d788edfd57dd1c5fe16aef1321cf1d17ce"
+    }
+  ],
+  "resource_counts": {
+    "MUI": 1,
+    "16": 1
+  },
+  "overlay": null,
+  "certificates": [],
+  "embedded_candidates": [
+    {
+      "file_offset": 4420,
+      "magic": "4d5a",
+      "validated_nested_pe": false
+    }
+  ],
+  "warnings": [],
+  "objdump_exit_code": 0
+}

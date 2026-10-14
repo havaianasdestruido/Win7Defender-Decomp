@@ -1,0 +1,647 @@
+[
+  {
+    "module": "MSASCui.exe",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MSASCui.exe",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_7edd201e408eaf304df5a7ffffc4fc24dda069bf17d576cf1364465f0d744a5a"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MSASCui.exe",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_24f8792a6c68066c1e3e8704c0d4576fe6b6ee4f21ff1ac714635f9d342d91a0",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MpAsDesc.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpAsDesc.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_329a8650fa2dcfaa2df3c738ee955b1002cb5cb6d6b94e0b4284ee54dca45242"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpAsDesc.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_dcdcd07b9472e7ca7f20d3891675baf9a0e04f815a8a70f6f5175949402e8eac",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MpClient.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpClient.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_9c8179b1b927c51631e522dfb7e8ff43d314859e5c5f505e2ab541cba3bae4b0"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpClient.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_fc103789d88b90eeda2131016f7b9cd59c5f22ddf62d7491f39ced34c9b3b269",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MpCmdRun.exe",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpCmdRun.exe",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_1bb846e7358396c8456d48f3e842c6304b5c1edade2b511bd6611eca861ac3a4"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpCmdRun.exe",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_b1f4e84005ad6a62f8bd9d392e442eabbbdd6ab46a367b1974a4d127f48f163a",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MpCommu.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpCommu.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_7132a8fb3e620d404f49e3193436279b041067b6ade220c663ddbcc1f5a55ae2"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpCommu.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_4250a1495ec49c10c7481be013c991cd12f5cdf4b897b6388aa12a2238ed093d",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MpEvMsg.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpEvMsg.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_7af462968a4c76d81933e33168c9e7816c43122d925b5449d4a5925644de811b"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpEvMsg.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_dbad7b3ee50c3531d4fa3969d6e0b7f38cad56fc5bfd91ac43caa2997343832c",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MpOAV.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpOAV.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_fd0967734f32f96d804dcb0334ec7c79e7e6e65faff20c5ef9fc6400b49f9351"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpOAV.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_6f53eed54489067251c5d459edd21c0132cbe9f4f8587bdbdb628c4bc14eae74",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MpRTP.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpRTP.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_6b147e7451e99175a2ffcf69106a7f4a547b39b4157cd4a8774243c6761274a1"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpRTP.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_b0a88e77b5deefd7cc71690e4f49a17cc4badf2d4f3a4afa8ea6bc50208625a2",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MpSvc.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpSvc.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_b163b70bd6a67f1afaef9237df4766af4e30171dd6c1f2aa3e6ed08e2c12cc39"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MpSvc.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_64fdaa34a9ed66980b7b9fb8d15c26a6c6060ce86fe5daee806009be139b2d45",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MsMpCom.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MsMpCom.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_8950b1b708c3d1d20f319bc9b4a85737c68bb37525c17fc6e2accb45184984ca"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MsMpCom.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_1dc6cfe2f242520f426145f4bcc7d1c953a9d7d23d8e111f003eb69aad932780",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MsMpLics.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MsMpLics.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_77026d328c97e842cdca43d7e723d83dd63bc9d113971c6446b32ce9c9ea40a4"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MsMpLics.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_224b672389c94373d114fdc0230cc735fd07b2ebef7ddd6aaac09a5d5aa6654d",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "MsMpRes.dll",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MsMpRes.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_879a538244089b4cae62ca29b8532d29dc5c7c71e6c777a1d6f01c741a895bb3"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/MsMpRes.dll",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_04a5d050fe461f183125676118d849de358edfa18d466cd0777035d0bb690b63",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "pt-BR__MpAsDesc.dll.mui",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/pt-BR/MpAsDesc.dll.mui",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_e38918d188c14986c96c4d72211488de9394dbeefb968452c6fb1e797cf19db9"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/pt-BR/MpAsDesc.dll.mui",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_9a59ae495e72d641ab31cd490d483d5e14ebfdc52b359170024364bf633afe9e",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "pt-BR__MpEvMsg.dll.mui",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/pt-BR/MpEvMsg.dll.mui",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_422b8d2443feed5e1534b6d680a6148db6d28c333d18c037dfc7cf520e781343"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/pt-BR/MpEvMsg.dll.mui",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_dfd3b555cd0a46f48033faccbd58e5a93064c45ee3f559e7f507f8b169c19847",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  },
+  {
+    "module": "pt-BR__MsMpRes.dll.mui",
+    "operations": [
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-artifact",
+          "/home/user/Win7Defender-Decomp/bin/pt-BR/MsMpRes.dll.mui",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_1247bb4fda1c1884cc7e681bae0e288b1b10e71f8e84ee1dd97ab585ae46202e"
+      },
+      {
+        "command": [
+          "/home/user/Win7Defender-Decomp/analysis/tools/node_modules/.bin/rea",
+          "inspect-managed-artifact",
+          "/home/user/Win7Defender-Decomp/bin/pt-BR/MsMpRes.dll.mui",
+          "--json"
+        ],
+        "exit_code": 0,
+        "hash_matches_inventory": true,
+        "evidence_id": "ev_e706477a99710b9fa8bb110f4eee0289d62baf527e2fd7b6f0d6ee228810601d",
+        "classification": {
+          "status": "not-managed",
+          "container": "pe",
+          "runtime_family": "unknown",
+          "implementation": "not-managed",
+          "managed_architecture": "unknown",
+          "evidence": [
+            {
+              "code": "cli-directory-absent",
+              "detail": "The PE has no CLI data directory; managed metadata and CIL are unavailable.",
+              "file_offset": null
+            }
+          ]
+        },
+        "machine_matches_pefile": true,
+        "section_count_matches_pefile": true
+      }
+    ]
+  }
+]

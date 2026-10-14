@@ -1,0 +1,481 @@
+{
+  "path": "bin/pt-BR/MpAsDesc.dll.mui",
+  "module": "pt-BR__MpAsDesc.dll.mui",
+  "size": 38912,
+  "sha256": "e216a0aa285b6cbe242af409ff1a27678652c9c30b065f85d1ea2fec748d3586",
+  "format": "PE32+",
+  "architecture": "IMAGE_FILE_MACHINE_AMD64",
+  "bitness": 64,
+  "endianness": "little",
+  "image_base": 6442450944,
+  "entry_rva": 0,
+  "coff_timestamp": 1247529190,
+  "coff_timestamp_utc": "2009-07-13T23:53:10+00:00",
+  "coff_characteristics": 8226,
+  "linker_version": "9.0",
+  "os_version": "6.1",
+  "subsystem": 2,
+  "dll_characteristics": 320,
+  "file_alignment": 512,
+  "section_alignment": 4096,
+  "size_of_image": 45056,
+  "checksum_stored": 43020,
+  "checksum_computed": 43020,
+  "coff_symbols": 0,
+  "managed_cli_directory": false,
+  "status": "structural analysis complete; semantic coverage tracked separately",
+  "sections": [
+    {
+      "name": ".rsrc",
+      "rva": 4096,
+      "virtual_size": 40960,
+      "file_offset": 512,
+      "raw_size": 38400,
+      "characteristics": 1073741888,
+      "entropy": 3.3691
+    }
+  ],
+  "directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "address": 4096,
+      "size": 38252,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "address": 0,
+      "size": 0,
+      "coordinate": "file offset"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    }
+  ],
+  "imports": [],
+  "exports": [],
+  "runtime_functions": [],
+  "relocations": [],
+  "debug": [],
+  "rich_header": {
+    "key": "45149b8a",
+    "raw_data": "0175f5d945149b8a45149b8a45149b8a4c6c0f8a44149b8a4c6c0a8a44149b8a",
+    "clear_data": "44616e5300000000000000000000000009789400010000000978910001000000",
+    "checksum": 2325419077,
+    "values": [
+      9730057,
+      1,
+      9533449,
+      1
+    ]
+  },
+  "load_config": {},
+  "tls": null,
+  "version": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Descrições de Atualizações de Definições",
+    "FileVersion": "6.1.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "mpasdesc",
+    "LegalCopyright": "© Microsoft Corporation. Todos os direitos reservados.",
+    "OriginalFilename": "mpasdesc.dll.mui",
+    "ProductName": "Sistema Operacional Microsoft® Windows®",
+    "ProductVersion": "6.1.7600.16385"
+  },
+  "resources": [
+    {
+      "path": [
+        "MUI",
+        1,
+        1046
+      ],
+      "type": "MUI",
+      "rva": 5320,
+      "file_offset": 1736,
+      "size": 184,
+      "codepage": 1252,
+      "sha256": "75c6fc0978a39dc0bd2b42bb40bc5dd327d381e4c88602264529382f3d1c08c7"
+    },
+    {
+      "path": [
+        6,
+        63,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 5504,
+      "file_offset": 1920,
+      "size": 172,
+      "codepage": 1252,
+      "sha256": "77d74cbf3c208af33639aa3d46117be137ead34cb480d10081c7b8a2f0c71ae1"
+    },
+    {
+      "path": [
+        6,
+        64,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 5676,
+      "file_offset": 2092,
+      "size": 416,
+      "codepage": 1252,
+      "sha256": "5fe4fb907bbd1ec8b7c7e482176f2ac91b383c49e56f44c5dd8c4d280b8d48a7"
+    },
+    {
+      "path": [
+        6,
+        65,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 6092,
+      "file_offset": 2508,
+      "size": 652,
+      "codepage": 1252,
+      "sha256": "58a3c12792c19f715098b3069b1acb61990e7b630f2fb85820b6e5e3d18bf8e6"
+    },
+    {
+      "path": [
+        6,
+        66,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 6744,
+      "file_offset": 3160,
+      "size": 160,
+      "codepage": 1252,
+      "sha256": "74e5fadb141d26638086a807153b632870d86e5d89431f85e3a0cfa1fd735caf"
+    },
+    {
+      "path": [
+        6,
+        126,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 6904,
+      "file_offset": 3320,
+      "size": 2698,
+      "codepage": 1252,
+      "sha256": "568c05084b0ce73bf8e318e39878706360a87d00bc1c4e5b918d07ff16dd1dbd"
+    },
+    {
+      "path": [
+        6,
+        127,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 9604,
+      "file_offset": 6020,
+      "size": 1646,
+      "codepage": 1252,
+      "sha256": "a409627c8958d47989170199c39e3d6dd09bf25544a5bac794dd2f8b62af55e8"
+    },
+    {
+      "path": [
+        6,
+        128,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 11252,
+      "file_offset": 7668,
+      "size": 1854,
+      "codepage": 1252,
+      "sha256": "2b1740112c763e6d1d88b48397c8cef78e9b70ed1084a4725dd7688b367f3cfd"
+    },
+    {
+      "path": [
+        6,
+        188,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 13108,
+      "file_offset": 9524,
+      "size": 1000,
+      "codepage": 1252,
+      "sha256": "c5783c9564e3424d832d27ca0d582434d151f9bffe86226e65657ae8255a6cc6"
+    },
+    {
+      "path": [
+        6,
+        189,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 14108,
+      "file_offset": 10524,
+      "size": 2110,
+      "codepage": 1252,
+      "sha256": "a1327e974c3defe018ea6ac5cba8ef93be7e67d66419a5b9434ed24a18353a9d"
+    },
+    {
+      "path": [
+        6,
+        190,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 16220,
+      "file_offset": 12636,
+      "size": 1826,
+      "codepage": 1252,
+      "sha256": "a1cd070a3a9233dde3ea2368eb848167df452023119a5ebb0e1cb22027d719ba"
+    },
+    {
+      "path": [
+        6,
+        191,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 18048,
+      "file_offset": 14464,
+      "size": 1190,
+      "codepage": 1252,
+      "sha256": "21cf7adc1be5b307b5ff7e3aefb123979be105d7c1d51d0a54610a2d4c6e7874"
+    },
+    {
+      "path": [
+        6,
+        192,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 19240,
+      "file_offset": 15656,
+      "size": 1668,
+      "codepage": 1252,
+      "sha256": "ec1744f09dcebf8a8242507508802067f87eb66391f2898c46b10afea65d2eba"
+    },
+    {
+      "path": [
+        6,
+        193,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 20908,
+      "file_offset": 17324,
+      "size": 1700,
+      "codepage": 1252,
+      "sha256": "d7af8c65283cb025c5bf28cb2684461f672519fbe8537691d841ec8df5d5b8cd"
+    },
+    {
+      "path": [
+        6,
+        194,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 22608,
+      "file_offset": 19024,
+      "size": 1220,
+      "codepage": 1252,
+      "sha256": "7af1159cfab4b122f088e6abcd0450358822ddc666750937b60113c688296793"
+    },
+    {
+      "path": [
+        6,
+        195,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 23828,
+      "file_offset": 20244,
+      "size": 1262,
+      "codepage": 1252,
+      "sha256": "59583800f2fa564045de278e19aa76883c242e46ebacf86341e98177cd7a917b"
+    },
+    {
+      "path": [
+        6,
+        251,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 25092,
+      "file_offset": 21508,
+      "size": 1296,
+      "codepage": 1252,
+      "sha256": "fe97234a77abe025184b5a6485c37b54f50b14c3c0062902ec83e0f75b26aeb7"
+    },
+    {
+      "path": [
+        6,
+        313,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 26388,
+      "file_offset": 22804,
+      "size": 102,
+      "codepage": 1252,
+      "sha256": "e260bf4ffa5cf1902d477c4c20ee07402f40ccd4b6903adbd91c55b5f19bbb42"
+    },
+    {
+      "path": [
+        6,
+        376,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 26492,
+      "file_offset": 22908,
+      "size": 1674,
+      "codepage": 1252,
+      "sha256": "151330e51b78526034b9898be9e9facf3e98c9d255b823fcd137eb2bf08d1a77"
+    },
+    {
+      "path": [
+        6,
+        438,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 28168,
+      "file_offset": 24584,
+      "size": 176,
+      "codepage": 1252,
+      "sha256": "8bbee9154ac01086c5f816c28605fb9a07231f74438f89ca26267c8cbd105216"
+    },
+    {
+      "path": [
+        6,
+        439,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 28344,
+      "file_offset": 24760,
+      "size": 62,
+      "codepage": 1252,
+      "sha256": "4be5cfb7894277d0d4b8f9f3aa5211a8f58f3a2c8b89f2c7e2b1320ef46bfff0"
+    },
+    {
+      "path": [
+        11,
+        1,
+        1046
+      ],
+      "type": "RT_MESSAGETABLE",
+      "rva": 28408,
+      "file_offset": 24824,
+      "size": 12956,
+      "codepage": 1252,
+      "sha256": "364307b612aaa04c19d5a690c7a8238865934bbc97346c1a783dcd87e3fd1248"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1046
+      ],
+      "type": "RT_VERSION",
+      "rva": 41364,
+      "file_offset": 37780,
+      "size": 984,
+      "codepage": 1252,
+      "sha256": "e29510f5368348d1ca6b22d49cfef9f9072e28a35a6de90b254d64685ea54cf9"
+    }
+  ],
+  "resource_counts": {
+    "MUI": 1,
+    "6": 20,
+    "11": 1,
+    "16": 1
+  },
+  "overlay": null,
+  "certificates": [],
+  "embedded_candidates": [],
+  "warnings": [
+    "Byte 0x00 makes up 51.0896% of the file's contents. This may indicate truncation / malformation.",
+    "SizeOfHeaders is smaller than AddressOfEntryPoint: this file cannot run under Windows 8.",
+    "AddressOfEntryPoint lies outside the sections' boundaries. AddressOfEntryPoint: 0x0"
+  ],
+  "objdump_exit_code": 0
+}

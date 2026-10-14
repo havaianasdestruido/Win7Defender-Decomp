@@ -1,0 +1,42 @@
+[
+  {
+    "file_offset": 18064,
+    "encoding": "utf-16le",
+    "text": "pchealth\\helpctr\\binaries\\helpctr.exe"
+  },
+  {
+    "file_offset": 21152,
+    "encoding": "utf-16le",
+    "text": "%windir%\\hh.exe"
+  },
+  {
+    "file_offset": 22120,
+    "encoding": "utf-16le",
+    "text": "MSFTEDIT.DLL"
+  },
+  {
+    "file_offset": 22504,
+    "encoding": "utf-16le",
+    "text": "%s\\System32\\ntdll.dll"
+  },
+  {
+    "file_offset": 27196,
+    "encoding": "utf-16le",
+    "text": "*.EXE"
+  },
+  {
+    "file_offset": 787904,
+    "encoding": "utf-16le",
+    "text": "mpas-fe.exe"
+  },
+  {
+    "file_offset": 787928,
+    "encoding": "utf-16le",
+    "text": "mpam-fe.exe"
+  },
+  {
+    "file_offset": 848656,
+    "encoding": "utf-16le",
+    "text": "MSASCUI.exe"
+  }
+]

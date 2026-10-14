@@ -1,0 +1,32 @@
+{
+  "input_sha256": "cb11e89d0d48baad659f120a9bb66fec7aa47bca0866ae3677539801638010ef",
+  "inventory": [
+    {
+      "path": [
+        "MUI",
+        1,
+        1033
+      ],
+      "type": "MUI",
+      "rva": 21600,
+      "file_offset": 9824,
+      "size": 208,
+      "codepage": 0,
+      "sha256": "7ab1f3d0488e24522782033acf61a2f758d0b7e73337e6193fc380866160b766"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "type": "RT_VERSION",
+      "rva": 20656,
+      "file_offset": 8880,
+      "size": 940,
+      "codepage": 0,
+      "sha256": "a9c729e0964b2011b75dcee79a00d3d788edfd57dd1c5fe16aef1321cf1d17ce"
+    }
+  ],
+  "decoded": []
+}

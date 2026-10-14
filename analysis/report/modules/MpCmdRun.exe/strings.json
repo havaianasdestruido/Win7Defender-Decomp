@@ -1,0 +1,6057 @@
+[
+  {
+    "file_offset": 77,
+    "encoding": "ascii",
+    "text": "!This program cannot be run in DOS mode."
+  },
+  {
+    "file_offset": 504,
+    "encoding": "ascii",
+    "text": ".text"
+  },
+  {
+    "file_offset": 543,
+    "encoding": "ascii",
+    "text": "`.data"
+  },
+  {
+    "file_offset": 584,
+    "encoding": "ascii",
+    "text": ".pdata"
+  },
+  {
+    "file_offset": 623,
+    "encoding": "ascii",
+    "text": "@.rsrc"
+  },
+  {
+    "file_offset": 663,
+    "encoding": "ascii",
+    "text": "@.reloc"
+  },
+  {
+    "file_offset": 2840,
+    "encoding": "ascii",
+    "text": "string too long"
+  },
+  {
+    "file_offset": 2896,
+    "encoding": "ascii",
+    "text": "invalid string position"
+  },
+  {
+    "file_offset": 2944,
+    "encoding": "ascii",
+    "text": "Enter to"
+  },
+  {
+    "file_offset": 2960,
+    "encoding": "ascii",
+    "text": "bad allocation"
+  },
+  {
+    "file_offset": 2976,
+    "encoding": "utf-16le",
+    "text": "advapi32"
+  },
+  {
+    "file_offset": 3000,
+    "encoding": "ascii",
+    "text": "TraceMessage"
+  },
+  {
+    "file_offset": 3016,
+    "encoding": "ascii",
+    "text": "TraceMessageVa"
+  },
+  {
+    "file_offset": 3079,
+    "encoding": "ascii",
+    "text": "*HPM.S"
+  },
+  {
+    "file_offset": 3334,
+    "encoding": "ascii",
+    "text": "BqH~K8"
+  },
+  {
+    "file_offset": 3477,
+    "encoding": "ascii",
+    "text": "nY}7,"
+  },
+  {
+    "file_offset": 3576,
+    "encoding": "utf-16le",
+    "text": "MPTrace"
+  },
+  {
+    "file_offset": 3752,
+    "encoding": "utf-16le",
+    "text": "<NULL>"
+  },
+  {
+    "file_offset": 3784,
+    "encoding": "utf-16le",
+    "text": "%temp%\\MpCmdRun.log"
+  },
+  {
+    "file_offset": 3824,
+    "encoding": "utf-16le",
+    "text": "%1!s! Command Line Utility (c)2006-2008 Microsoft Corp"
+  },
+  {
+    "file_offset": 3934,
+    "encoding": "utf-16le",
+    "text": "Use this tool to automate and troubleshoot %1!s!"
+  },
+  {
+    "file_offset": 4034,
+    "encoding": "utf-16le",
+    "text": "Usage:"
+  },
+  {
+    "file_offset": 4048,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun.exe [command] [-options]"
+  },
+  {
+    "file_offset": 4118,
+    "encoding": "utf-16le",
+    "text": "Command Description"
+  },
+  {
+    "file_offset": 4158,
+    "encoding": "utf-16le",
+    "text": "   -? / -h                         Displays all available options for this tool"
+  },
+  {
+    "file_offset": 4318,
+    "encoding": "utf-16le",
+    "text": "   -Trace [-Grouping #] [-Level #] Starts diagnostic tracing"
+  },
+  {
+    "file_offset": 4440,
+    "encoding": "utf-16le",
+    "text": "   -RemoveDefinitions [-All]       Restores the installed signature definitions"
+  },
+  {
+    "file_offset": 4600,
+    "encoding": "utf-16le",
+    "text": "                                   to a previous backup copy or to the original"
+  },
+  {
+    "file_offset": 4760,
+    "encoding": "utf-16le",
+    "text": "                                   default set of signatures"
+  },
+  {
+    "file_offset": 4882,
+    "encoding": "utf-16le",
+    "text": "   -RestoreDefaults                Resets the registry values for"
+  },
+  {
+    "file_offset": 5014,
+    "encoding": "utf-16le",
+    "text": "                                   %1!s!"
+  },
+  {
+    "file_offset": 5096,
+    "encoding": "utf-16le",
+    "text": "                                   settings to known good defaults"
+  },
+  {
+    "file_offset": 5230,
+    "encoding": "utf-16le",
+    "text": "   -SignatureUpdate                Checks for new definition updates"
+  },
+  {
+    "file_offset": 5368,
+    "encoding": "utf-16le",
+    "text": "   -Scan [-ScanType]               Scans for malicious software"
+  },
+  {
+    "file_offset": 5504,
+    "encoding": "utf-16le",
+    "text": "   -GetFiles                       Collects support information"
+  },
+  {
+    "file_offset": 5634,
+    "encoding": "utf-16le",
+    "text": "Additional Information:"
+  },
+  {
+    "file_offset": 5684,
+    "encoding": "utf-16le",
+    "text": "Support information will be in the following directory:"
+  },
+  {
+    "file_offset": 5796,
+    "encoding": "utf-16le",
+    "text": "%2!s!"
+  },
+  {
+    "file_offset": 5810,
+    "encoding": "utf-16le",
+    "text": "   -Scan [-ScanType]"
+  },
+  {
+    "file_offset": 5852,
+    "encoding": "utf-16le",
+    "text": "        0  Default, according to your configuration"
+  },
+  {
+    "file_offset": 5956,
+    "encoding": "utf-16le",
+    "text": "        1  Quick scan"
+  },
+  {
+    "file_offset": 6000,
+    "encoding": "utf-16le",
+    "text": "        2  Full system scan"
+  },
+  {
+    "file_offset": 6058,
+    "encoding": "utf-16le",
+    "text": "   -Trace [-Grouping value] [-Level value]"
+  },
+  {
+    "file_offset": 6144,
+    "encoding": "utf-16le",
+    "text": "        Begins tracing %1!s!'s actions."
+  },
+  {
+    "file_offset": 6224,
+    "encoding": "utf-16le",
+    "text": "        You can specify the components for which tracing is enabled and"
+  },
+  {
+    "file_offset": 6368,
+    "encoding": "utf-16le",
+    "text": "        how much information is recorded."
+  },
+  {
+    "file_offset": 6452,
+    "encoding": "utf-16le",
+    "text": "        If no component is specified, all the components will be logged."
+  },
+  {
+    "file_offset": 6598,
+    "encoding": "utf-16le",
+    "text": "        If no level is specified, the Error, Warning and Informational levels"
+  },
+  {
+    "file_offset": 6754,
+    "encoding": "utf-16le",
+    "text": "        will be logged. The data will be stored in the support directory"
+  },
+  {
+    "file_offset": 6900,
+    "encoding": "utf-16le",
+    "text": "        as a file having the current timestamp in its name and bearing"
+  },
+  {
+    "file_offset": 7042,
+    "encoding": "utf-16le",
+    "text": "        the extension BIN."
+  },
+  {
+    "file_offset": 7098,
+    "encoding": "utf-16le",
+    "text": "        [-Grouping]"
+  },
+  {
+    "file_offset": 7138,
+    "encoding": "utf-16le",
+    "text": "        0x1    Service"
+  },
+  {
+    "file_offset": 7184,
+    "encoding": "utf-16le",
+    "text": "        0x2    Malware Protection Engine"
+  },
+  {
+    "file_offset": 7266,
+    "encoding": "utf-16le",
+    "text": "        0x4    User Interface"
+  },
+  {
+    "file_offset": 7326,
+    "encoding": "utf-16le",
+    "text": "        0x8    Real-Time Protection"
+  },
+  {
+    "file_offset": 7398,
+    "encoding": "utf-16le",
+    "text": "        0x10   Scheduled actions"
+  },
+  {
+    "file_offset": 7466,
+    "encoding": "utf-16le",
+    "text": "        [-Level]"
+  },
+  {
+    "file_offset": 7500,
+    "encoding": "utf-16le",
+    "text": "        0x1    Errors"
+  },
+  {
+    "file_offset": 7544,
+    "encoding": "utf-16le",
+    "text": "        0x2    Warnings"
+  },
+  {
+    "file_offset": 7592,
+    "encoding": "utf-16le",
+    "text": "        0x4    Informational messages"
+  },
+  {
+    "file_offset": 7668,
+    "encoding": "utf-16le",
+    "text": "        0x8    Function calls"
+  },
+  {
+    "file_offset": 7728,
+    "encoding": "utf-16le",
+    "text": "        0x10   Verbose"
+  },
+  {
+    "file_offset": 7776,
+    "encoding": "utf-16le",
+    "text": "   -GetFiles"
+  },
+  {
+    "file_offset": 7802,
+    "encoding": "utf-16le",
+    "text": "        Gathers the following log files and packages them together in a "
+  },
+  {
+    "file_offset": 7948,
+    "encoding": "utf-16le",
+    "text": "        compressed file in the support directory"
+  },
+  {
+    "file_offset": 8048,
+    "encoding": "utf-16le",
+    "text": "        - Any trace files from %1!s!"
+  },
+  {
+    "file_offset": 8128,
+    "encoding": "utf-16le",
+    "text": "        - The Windows Update history log"
+  },
+  {
+    "file_offset": 8210,
+    "encoding": "utf-16le",
+    "text": "        - All %3!s! or %3!s!Rtp events from the "
+  },
+  {
+    "file_offset": 8308,
+    "encoding": "utf-16le",
+    "text": "          System and Application event log"
+  },
+  {
+    "file_offset": 8400,
+    "encoding": "utf-16le",
+    "text": "        - All relevant %1!s! registry locations"
+  },
+  {
+    "file_offset": 8496,
+    "encoding": "utf-16le",
+    "text": "        - The log file of this tool"
+  },
+  {
+    "file_offset": 8568,
+    "encoding": "utf-16le",
+    "text": "        - The log file of the signature update helper tool"
+  },
+  {
+    "file_offset": 8688,
+    "encoding": "utf-16le",
+    "text": "   -RemoveDefinitions"
+  },
+  {
+    "file_offset": 8732,
+    "encoding": "utf-16le",
+    "text": "        Restores the last set of signature definitions"
+  },
+  {
+    "file_offset": 8844,
+    "encoding": "utf-16le",
+    "text": "        [-All]"
+  },
+  {
+    "file_offset": 8874,
+    "encoding": "utf-16le",
+    "text": "        Removes any installed signature and engine files.Use this "
+  },
+  {
+    "file_offset": 9008,
+    "encoding": "utf-16le",
+    "text": "        option if you have difficulties trying to update signatures."
+  },
+  {
+    "file_offset": 9148,
+    "encoding": "utf-16le",
+    "text": "   -RestoreDefaults"
+  },
+  {
+    "file_offset": 9188,
+    "encoding": "utf-16le",
+    "text": "        Resets all configuration options to their default values; this is the "
+  },
+  {
+    "file_offset": 9346,
+    "encoding": "utf-16le",
+    "text": "        equivalent of running %1!s! setup"
+  },
+  {
+    "file_offset": 9430,
+    "encoding": "utf-16le",
+    "text": "        unattended."
+  },
+  {
+    "file_offset": 9488,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpGetInstalledProductIdentifier failed (%X)"
+  },
+  {
+    "file_offset": 9592,
+    "encoding": "utf-16le",
+    "text": "%s%s%s"
+  },
+  {
+    "file_offset": 9608,
+    "encoding": "utf-16le",
+    "text": "%s%s%s%s"
+  },
+  {
+    "file_offset": 9640,
+    "encoding": "utf-16le",
+    "text": "ERROR: FormatMessageW (%X)"
+  },
+  {
+    "file_offset": 9696,
+    "encoding": "utf-16le",
+    "text": "Unable to display the usage information (error %X)!"
+  },
+  {
+    "file_offset": 9816,
+    "encoding": "ascii",
+    "text": "Bad Command line - %S"
+  },
+  {
+    "file_offset": 9840,
+    "encoding": "utf-16le",
+    "text": "MpCmdRunWithTracing"
+  },
+  {
+    "file_offset": 9880,
+    "encoding": "utf-16le",
+    "text": "RestrictPrivileges"
+  },
+  {
+    "file_offset": 9920,
+    "encoding": "utf-16le",
+    "text": "Reinvoke"
+  },
+  {
+    "file_offset": 9960,
+    "encoding": "utf-16le",
+    "text": "SignatureUpdate"
+  },
+  {
+    "file_offset": 9992,
+    "encoding": "utf-16le",
+    "text": "getfiles"
+  },
+  {
+    "file_offset": 10016,
+    "encoding": "utf-16le",
+    "text": "SpyNetService"
+  },
+  {
+    "file_offset": 10048,
+    "encoding": "utf-16le",
+    "text": "SignaturesUpdateService"
+  },
+  {
+    "file_offset": 10096,
+    "encoding": "utf-16le",
+    "text": "RemoveDefinitions"
+  },
+  {
+    "file_offset": 10136,
+    "encoding": "utf-16le",
+    "text": "Trace"
+  },
+  {
+    "file_offset": 10152,
+    "encoding": "utf-16le",
+    "text": "RestoreDefaults"
+  },
+  {
+    "file_offset": 10184,
+    "encoding": "utf-16le",
+    "text": "UnregisterWSC"
+  },
+  {
+    "file_offset": 10216,
+    "encoding": "utf-16le",
+    "text": "IdleTask"
+  },
+  {
+    "file_offset": 10240,
+    "encoding": "utf-16le",
+    "text": "BuildSFC"
+  },
+  {
+    "file_offset": 10280,
+    "encoding": "utf-16le",
+    "text": "ddd MMM dd yyyy"
+  },
+  {
+    "file_offset": 10312,
+    "encoding": "utf-16le",
+    "text": "HH':'mm':'ss"
+  },
+  {
+    "file_offset": 10344,
+    "encoding": "utf-16le",
+    "text": "%s %s"
+  },
+  {
+    "file_offset": 10370,
+    "encoding": "ascii",
+    "text": "-------------------------------------------------------------------------------------"
+  },
+  {
+    "file_offset": 10480,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun: Command Line: %s"
+  },
+  {
+    "file_offset": 10534,
+    "encoding": "utf-16le",
+    "text": " Start Time: %s"
+  },
+  {
+    "file_offset": 10576,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun: End Time: %s"
+  },
+  {
+    "file_offset": 10624,
+    "encoding": "ascii",
+    "text": "-------------------------------------------------------------------------------------"
+  },
+  {
+    "file_offset": 10712,
+    "encoding": "utf-16le",
+    "text": "Time Info - %s "
+  },
+  {
+    "file_offset": 10752,
+    "encoding": "utf-16le",
+    "text": "ScheduleJob"
+  },
+  {
+    "file_offset": 10784,
+    "encoding": "utf-16le",
+    "text": "Aborting full system scan since system running on batteries"
+  },
+  {
+    "file_offset": 10912,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpScanResult() Failed %X"
+  },
+  {
+    "file_offset": 10992,
+    "encoding": "utf-16le",
+    "text": "0F05C8FF-0B18-43E3-BDFB-9A0C84B0E5DA"
+  },
+  {
+    "file_offset": 11072,
+    "encoding": "utf-16le",
+    "text": "421CFC91-A93E-42AB-A35C-F06F127FCC44"
+  },
+  {
+    "file_offset": 11152,
+    "encoding": "utf-16le",
+    "text": "ScanType"
+  },
+  {
+    "file_offset": 11176,
+    "encoding": "utf-16le",
+    "text": "DailyScan"
+  },
+  {
+    "file_offset": 11200,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpSmartConfigInitialize Failed %X"
+  },
+  {
+    "file_offset": 11296,
+    "encoding": "utf-16le",
+    "text": "Start: MpScan(MP_FEATURE_SUPPORTED, dwOptions=%u)"
+  },
+  {
+    "file_offset": 11400,
+    "encoding": "utf-16le",
+    "text": "RestrictPrivilegesScan"
+  },
+  {
+    "file_offset": 11456,
+    "encoding": "utf-16le",
+    "text": "WARN: Product/Feature disabled"
+  },
+  {
+    "file_offset": 11520,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun_ScanTerminationTimeOut"
+  },
+  {
+    "file_offset": 11584,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpManagerOpen Failed %X"
+  },
+  {
+    "file_offset": 11648,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpScanStart(dwOptions=%u) Failed %X"
+  },
+  {
+    "file_offset": 11744,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpScan(dwOptions=%u) Completion Failed %X"
+  },
+  {
+    "file_offset": 11856,
+    "encoding": "utf-16le",
+    "text": "Finish: MpScanStart(MP_FEATURE_SUPPORTED, dwOptions=%u)"
+  },
+  {
+    "file_offset": 11984,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpCleanOpen() Failed %X"
+  },
+  {
+    "file_offset": 12048,
+    "encoding": "utf-16le",
+    "text": "Start: MpCleanStart()"
+  },
+  {
+    "file_offset": 12096,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpCleanStart() Failed %X"
+  },
+  {
+    "file_offset": 12176,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpCleanThreats() Completion Failed %X"
+  },
+  {
+    "file_offset": 12272,
+    "encoding": "utf-16le",
+    "text": "Finish: MpCleanThreats()"
+  },
+  {
+    "file_offset": 12328,
+    "encoding": "utf-16le",
+    "text": "MpScan() started"
+  },
+  {
+    "file_offset": 12368,
+    "encoding": "utf-16le",
+    "text": "Warning: MpScan() paused"
+  },
+  {
+    "file_offset": 12424,
+    "encoding": "utf-16le",
+    "text": "Warning: MpScan() resumed"
+  },
+  {
+    "file_offset": 12480,
+    "encoding": "utf-16le",
+    "text": "Warning: MpScan() was canceled!"
+  },
+  {
+    "file_offset": 12560,
+    "encoding": "utf-16le",
+    "text": "Warning: MpScan() encounter errror. hr = 0x%x"
+  },
+  {
+    "file_offset": 12656,
+    "encoding": "utf-16le",
+    "text": "MpScan() was completed"
+  },
+  {
+    "file_offset": 12704,
+    "encoding": "utf-16le",
+    "text": "MpCleanThreats() started"
+  },
+  {
+    "file_offset": 12768,
+    "encoding": "utf-16le",
+    "text": "MpCleanThreats() was completed"
+  },
+  {
+    "file_offset": 12832,
+    "encoding": "utf-16le",
+    "text": "MpCleanThreats() started for action %s on threat %I64u"
+  },
+  {
+    "file_offset": 12944,
+    "encoding": "utf-16le",
+    "text": "MpCleanThreats() completed for action %s on threat %I64u"
+  },
+  {
+    "file_offset": 13072,
+    "encoding": "utf-16le",
+    "text": "MpCleanThreats() failed for action %s on threat %I64u. hr = 0x%x"
+  },
+  {
+    "file_offset": 13208,
+    "encoding": "utf-16le",
+    "text": "ForceSignaturesUpdate"
+  },
+  {
+    "file_offset": 13256,
+    "encoding": "utf-16le",
+    "text": "NoSignatureUpdates"
+  },
+  {
+    "file_offset": 13296,
+    "encoding": "utf-16le",
+    "text": "CheckForSignaturesBeforeRunningScan"
+  },
+  {
+    "file_offset": 13368,
+    "encoding": "utf-16le",
+    "text": "ScanParameters"
+  },
+  {
+    "file_offset": 13408,
+    "encoding": "utf-16le",
+    "text": "MpScan() has detected %u threats."
+  },
+  {
+    "file_offset": 13488,
+    "encoding": "utf-16le",
+    "text": "DisableRoutinelyTakingAction"
+  },
+  {
+    "file_offset": 13552,
+    "encoding": "utf-16le",
+    "text": "Clean"
+  },
+  {
+    "file_offset": 13568,
+    "encoding": "utf-16le",
+    "text": "Quarantine"
+  },
+  {
+    "file_offset": 13592,
+    "encoding": "utf-16le",
+    "text": "Remove"
+  },
+  {
+    "file_offset": 13608,
+    "encoding": "utf-16le",
+    "text": "Allow"
+  },
+  {
+    "file_offset": 13624,
+    "encoding": "utf-16le",
+    "text": "Unknown"
+  },
+  {
+    "file_offset": 13640,
+    "encoding": "utf-16le",
+    "text": "WinTask"
+  },
+  {
+    "file_offset": 13656,
+    "encoding": "utf-16le",
+    "text": "ScheduleDay"
+  },
+  {
+    "file_offset": 13680,
+    "encoding": "utf-16le",
+    "text": "ScanOnlyIfIdle"
+  },
+  {
+    "file_offset": 13712,
+    "encoding": "utf-16le",
+    "text": "WARN: Removing zombie WinScanTask"
+  },
+  {
+    "file_offset": 13784,
+    "encoding": "utf-16le",
+    "text": "MP Scheduled Scan"
+  },
+  {
+    "file_offset": 13824,
+    "encoding": "utf-16le",
+    "text": "ERROR: RemoveMpTask(scan) Failed %X"
+  },
+  {
+    "file_offset": 13904,
+    "encoding": "utf-16le",
+    "text": "Microsoft OneCare Protection - Signature update not supported"
+  },
+  {
+    "file_offset": 14032,
+    "encoding": "ascii",
+    "text": "Microsoft OneCare Protection - Signature update not supported"
+  },
+  {
+    "file_offset": 14096,
+    "encoding": "utf-16le",
+    "text": "Start: MpSignatureUpdate()"
+  },
+  {
+    "file_offset": 14152,
+    "encoding": "ascii",
+    "text": "Signature update started . . ."
+  },
+  {
+    "file_offset": 14192,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun_SignatureUpdateTerminationTimeOut"
+  },
+  {
+    "file_offset": 14288,
+    "encoding": "utf-16le",
+    "text": "53C9D589-6B66-4F30-9BAB-9A0193B0BAFC"
+  },
+  {
+    "file_offset": 14368,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpUpdateStart failed with hr=%X"
+  },
+  {
+    "file_offset": 14448,
+    "encoding": "ascii",
+    "text": "ERROR: Signature Update failed with hr=%X"
+  },
+  {
+    "file_offset": 14496,
+    "encoding": "utf-16le",
+    "text": "ERROR: Signature Update failed with hr=%X"
+  },
+  {
+    "file_offset": 14584,
+    "encoding": "ascii",
+    "text": "Signature update finished."
+  },
+  {
+    "file_offset": 14616,
+    "encoding": "ascii",
+    "text": "Signature update finished. No updates needed"
+  },
+  {
+    "file_offset": 14664,
+    "encoding": "utf-16le",
+    "text": "Finish: MpSignatureUpdate()"
+  },
+  {
+    "file_offset": 14728,
+    "encoding": "utf-16le",
+    "text": "%u.%u.%u.%u"
+  },
+  {
+    "file_offset": 14753,
+    "encoding": "ascii",
+    "text": "Service Version: %S"
+  },
+  {
+    "file_offset": 14776,
+    "encoding": "ascii",
+    "text": "Engine Version: %S"
+  },
+  {
+    "file_offset": 14800,
+    "encoding": "ascii",
+    "text": "AntiSpyware Signature Version: %S"
+  },
+  {
+    "file_offset": 14840,
+    "encoding": "ascii",
+    "text": "AntiVirus Signature Version: %S"
+  },
+  {
+    "file_offset": 14896,
+    "encoding": "utf-16le",
+    "text": "Start: MpRemoveDefinitions(%d)"
+  },
+  {
+    "file_offset": 14960,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpOpen failed with hr=%X"
+  },
+  {
+    "file_offset": 15040,
+    "encoding": "utf-16le",
+    "text": "ERROR: PrintEngineVersion failed with hr=%X"
+  },
+  {
+    "file_offset": 15144,
+    "encoding": "ascii",
+    "text": "last known good"
+  },
+  {
+    "file_offset": 15161,
+    "encoding": "ascii",
+    "text": "Starting engine and signature rollback to %s..."
+  },
+  {
+    "file_offset": 15216,
+    "encoding": "ascii",
+    "text": "Failed! Error 0x%x"
+  },
+  {
+    "file_offset": 15248,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpRollbackSignature failed with hr=%X"
+  },
+  {
+    "file_offset": 15340,
+    "encoding": "ascii",
+    "text": "Done!"
+  },
+  {
+    "file_offset": 15352,
+    "encoding": "utf-16le",
+    "text": "Finish: MpRemoveDefinitions()"
+  },
+  {
+    "file_offset": 15416,
+    "encoding": "utf-16le",
+    "text": "Update started "
+  },
+  {
+    "file_offset": 15456,
+    "encoding": "utf-16le",
+    "text": "Search Started..."
+  },
+  {
+    "file_offset": 15496,
+    "encoding": "utf-16le",
+    "text": "Search Completed "
+  },
+  {
+    "file_offset": 15536,
+    "encoding": "utf-16le",
+    "text": "Download Started..."
+  },
+  {
+    "file_offset": 15584,
+    "encoding": "utf-16le",
+    "text": "Download Progress-"
+  },
+  {
+    "file_offset": 15622,
+    "encoding": "utf-16le",
+    "text": " Update Index:%d of %d - %d%%"
+  },
+  {
+    "file_offset": 15688,
+    "encoding": "utf-16le",
+    "text": "Download Completed "
+  },
+  {
+    "file_offset": 15736,
+    "encoding": "utf-16le",
+    "text": "Installation Started..."
+  },
+  {
+    "file_offset": 15792,
+    "encoding": "utf-16le",
+    "text": "Installation Progress-"
+  },
+  {
+    "file_offset": 15838,
+    "encoding": "utf-16le",
+    "text": " Percent Complete:%d,"
+  },
+  {
+    "file_offset": 15882,
+    "encoding": "utf-16le",
+    "text": " Current Update Index:%d (of %d)"
+  },
+  {
+    "file_offset": 15952,
+    "encoding": "utf-16le",
+    "text": "Installation Completed "
+  },
+  {
+    "file_offset": 16008,
+    "encoding": "utf-16le",
+    "text": "Reboot is required..."
+  },
+  {
+    "file_offset": 16064,
+    "encoding": "utf-16le",
+    "text": "Update completed succesfuly . no updates needed (hr:0x%08lx)"
+  },
+  {
+    "file_offset": 16192,
+    "encoding": "utf-16le",
+    "text": "Update completed succesfuly. (hr:0x%08lx)"
+  },
+  {
+    "file_offset": 16288,
+    "encoding": "utf-16le",
+    "text": "Update completed with hr: 0x%08lx"
+  },
+  {
+    "file_offset": 16368,
+    "encoding": "utf-16le",
+    "text": "SetEvent failed with error: 0x%08lx"
+  },
+  {
+    "file_offset": 16448,
+    "encoding": "utf-16le",
+    "text": "Update failed with hr: 0x%08lx"
+  },
+  {
+    "file_offset": 16512,
+    "encoding": "utf-16le",
+    "text": "unsupported notification(%d)"
+  },
+  {
+    "file_offset": 16608,
+    "encoding": "utf-16le",
+    "text": "NetworkService"
+  },
+  {
+    "file_offset": 16640,
+    "encoding": "utf-16le",
+    "text": "Error running as network service. hr = 0x%x"
+  },
+  {
+    "file_offset": 16736,
+    "encoding": "utf-16le",
+    "text": "Error running as restricted process. hr = 0x%x"
+  },
+  {
+    "file_offset": 16832,
+    "encoding": "utf-16le",
+    "text": "%ls -Reinvoke"
+  },
+  {
+    "file_offset": 16864,
+    "encoding": "utf-16le",
+    "text": "ERROR: RunWithRestrictedPriv(%s) Failed %X"
+  },
+  {
+    "file_offset": 16952,
+    "encoding": "utf-16le",
+    "text": "NT AUTHORITY"
+  },
+  {
+    "file_offset": 16992,
+    "encoding": "utf-16le",
+    "text": "ERROR: LogonUserExW(%s) Failed %X"
+  },
+  {
+    "file_offset": 17072,
+    "encoding": "utf-16le",
+    "text": "ERROR: RestrictTokenPrivileges() Failed %X"
+  },
+  {
+    "file_offset": 17168,
+    "encoding": "utf-16le",
+    "text": "ERROR: CreateProcessFromToken() Failed %X"
+  },
+  {
+    "file_offset": 17264,
+    "encoding": "utf-16le",
+    "text": "ERROR: OpenProcessToken() Failed %X"
+  },
+  {
+    "file_offset": 17344,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetUserNameW() Failed %X"
+  },
+  {
+    "file_offset": 17424,
+    "encoding": "utf-16le",
+    "text": "ERROR: CreateEnvironmentBlock() Failed %X"
+  },
+  {
+    "file_offset": 17520,
+    "encoding": "utf-16le",
+    "text": "ERROR: LoadUserProfile() Failed %X"
+  },
+  {
+    "file_offset": 17600,
+    "encoding": "utf-16le",
+    "text": "ERROR: CreateProcessAsUserW() Failed %X"
+  },
+  {
+    "file_offset": 17696,
+    "encoding": "utf-16le",
+    "text": "ERROR: CreateRestrictedToken(DISABLE_MAX_PRIVILEGE) Failed %X"
+  },
+  {
+    "file_offset": 17824,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun_EmulateW2K"
+  },
+  {
+    "file_offset": 17872,
+    "encoding": "utf-16le",
+    "text": "Self Terminating due to timeout"
+  },
+  {
+    "file_offset": 17944,
+    "encoding": "utf-16le",
+    "text": "%%temp%%\\MpCmdRun-%X-%s.lock"
+  },
+  {
+    "file_offset": 18008,
+    "encoding": "utf-16le",
+    "text": "CreateFileW(%ls) FAILED %X"
+  },
+  {
+    "file_offset": 18064,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun_RunningAsService"
+  },
+  {
+    "file_offset": 18120,
+    "encoding": "ascii",
+    "text": "Access is denied."
+  },
+  {
+    "file_offset": 18144,
+    "encoding": "utf-16le",
+    "text": "Microsoft Forefront Client Security"
+  },
+  {
+    "file_offset": 18216,
+    "encoding": "utf-16le",
+    "text": "ProductName"
+  },
+  {
+    "file_offset": 18240,
+    "encoding": "utf-16le",
+    "text": "FCSAM"
+  },
+  {
+    "file_offset": 18256,
+    "encoding": "utf-16le",
+    "text": "ServiceName"
+  },
+  {
+    "file_offset": 18280,
+    "encoding": "utf-16le",
+    "text": "ProductAppDataPath"
+  },
+  {
+    "file_offset": 18320,
+    "encoding": "utf-16le",
+    "text": "ERROR: Process Hand - timeout %u"
+  },
+  {
+    "file_offset": 18416,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpSmartConfigInitialize() failed (%X)"
+  },
+  {
+    "file_offset": 18512,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpConfigOpen(%ls) failed (%X)"
+  },
+  {
+    "file_offset": 18592,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpConfigGetValueString(%ls\\%ls) failed (%X)"
+  },
+  {
+    "file_offset": 18696,
+    "encoding": "utf-16le",
+    "text": "Support"
+  },
+  {
+    "file_offset": 18712,
+    "encoding": "utf-16le",
+    "text": "%s\\%s"
+  },
+  {
+    "file_offset": 18736,
+    "encoding": "utf-16le",
+    "text": "ERROR: NewSprintfW() failed (%X)"
+  },
+  {
+    "file_offset": 18816,
+    "encoding": "utf-16le",
+    "text": "ERROR: CreateDirectoryW(%ls) failed (%X)"
+  },
+  {
+    "file_offset": 18912,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpSmartCoInitialize failed (%X)"
+  },
+  {
+    "file_offset": 18992,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpSmartConfigInitialize failed (%X)"
+  },
+  {
+    "file_offset": 19088,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpGetInstalledProductIdentifier return unknown product (%X)."
+  },
+  {
+    "file_offset": 19232,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetSupportDir() failed (%X)"
+  },
+  {
+    "file_offset": 19312,
+    "encoding": "utf-16le",
+    "text": "Collecting events from Operational Event Log..."
+  },
+  {
+    "file_offset": 19416,
+    "encoding": "utf-16le",
+    "text": "OperationalEvents.txt"
+  },
+  {
+    "file_offset": 19472,
+    "encoding": "utf-16le",
+    "text": "Microsoft-Windows-Windows Defender/Operational"
+  },
+  {
+    "file_offset": 19568,
+    "encoding": "utf-16le",
+    "text": "ERROR: EventLogToFile() failed (%X)"
+  },
+  {
+    "file_offset": 19648,
+    "encoding": "utf-16le",
+    "text": "Collecting events from WHC Event Log..."
+  },
+  {
+    "file_offset": 19736,
+    "encoding": "utf-16le",
+    "text": "WHCEvents.txt"
+  },
+  {
+    "file_offset": 19776,
+    "encoding": "utf-16le",
+    "text": "Microsoft-Windows-Windows Defender/WHC"
+  },
+  {
+    "file_offset": 19856,
+    "encoding": "utf-16le",
+    "text": "Collecting events from System Event Log..."
+  },
+  {
+    "file_offset": 19944,
+    "encoding": "utf-16le",
+    "text": "System"
+  },
+  {
+    "file_offset": 19968,
+    "encoding": "utf-16le",
+    "text": "Collecting configuration information..."
+  },
+  {
+    "file_offset": 20064,
+    "encoding": "utf-16le",
+    "text": "ERROR: RunCommandConfigDump() failed %X"
+  },
+  {
+    "file_offset": 20152,
+    "encoding": "utf-16le",
+    "text": "Getting Windows Update log..."
+  },
+  {
+    "file_offset": 20216,
+    "encoding": "utf-16le",
+    "text": "WindowsUpdate.log"
+  },
+  {
+    "file_offset": 20256,
+    "encoding": "utf-16le",
+    "text": "%windir%"
+  },
+  {
+    "file_offset": 20288,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetLogFile(WINDOWS_UPDATE_LOG_FILENAME) failed (%X)"
+  },
+  {
+    "file_offset": 20408,
+    "encoding": "utf-16le",
+    "text": "Getting MpCmdRun log (1/3)..."
+  },
+  {
+    "file_offset": 20472,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun-System.log"
+  },
+  {
+    "file_offset": 20512,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun.log"
+  },
+  {
+    "file_offset": 20544,
+    "encoding": "utf-16le",
+    "text": "%windir%\\temp"
+  },
+  {
+    "file_offset": 20576,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetLogFile(MPCMDRUN_LOG_PATH1_FILE) failed (%X)"
+  },
+  {
+    "file_offset": 20688,
+    "encoding": "utf-16le",
+    "text": "Getting MpCmdRun log (2/3)..."
+  },
+  {
+    "file_offset": 20752,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun-NetworkService.log"
+  },
+  {
+    "file_offset": 20816,
+    "encoding": "utf-16le",
+    "text": "%allusersprofile%\\..\\NetworkService\\Local Settings\\Temp"
+  },
+  {
+    "file_offset": 20928,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetLogFile(MPCMDRUN_LOG_PATH2_FILE) failed (%X)"
+  },
+  {
+    "file_offset": 21040,
+    "encoding": "utf-16le",
+    "text": "Getting MpCmdRun log (3/3)..."
+  },
+  {
+    "file_offset": 21104,
+    "encoding": "utf-16le",
+    "text": "%windir%\\ServiceProfiles\\NetworkService\\AppData\\Local\\Temp"
+  },
+  {
+    "file_offset": 21232,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetLogFile(MPCMDRUN_LOG_PATH3_FILE) failed (%X)"
+  },
+  {
+    "file_offset": 21344,
+    "encoding": "utf-16le",
+    "text": "Getting MpSigStub log..."
+  },
+  {
+    "file_offset": 21400,
+    "encoding": "utf-16le",
+    "text": "MpSigStub.log"
+  },
+  {
+    "file_offset": 21440,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetLogFile(MPSIGSTUB_LOG_PATH_FILE) failed (%X)"
+  },
+  {
+    "file_offset": 21552,
+    "encoding": "utf-16le",
+    "text": "Getting product service(s) registration information..."
+  },
+  {
+    "file_offset": 21664,
+    "encoding": "utf-16le",
+    "text": "ERROR: RunCommandCollectServiceInfo(\"fcsam\") failed (%X)"
+  },
+  {
+    "file_offset": 21784,
+    "encoding": "utf-16le",
+    "text": "Creating CAB file..."
+  },
+  {
+    "file_offset": 21840,
+    "encoding": "utf-16le",
+    "text": "ERROR: CreateCab() failed (%X)"
+  },
+  {
+    "file_offset": 21904,
+    "encoding": "utf-16le",
+    "text": "SupportFiles.cab"
+  },
+  {
+    "file_offset": 21952,
+    "encoding": "utf-16le",
+    "text": "Files successfully created in %ls\\Mp%ls"
+  },
+  {
+    "file_offset": 22040,
+    "encoding": "utf-16le",
+    "text": "%ls\\%ls"
+  },
+  {
+    "file_offset": 22064,
+    "encoding": "utf-16le",
+    "text": "ERROR: UtilExpandEnvironmentStrings() failed (%X)"
+  },
+  {
+    "file_offset": 22176,
+    "encoding": "utf-16le",
+    "text": "ERROR: CopyFileW() failed (%X)"
+  },
+  {
+    "file_offset": 22248,
+    "encoding": "utf-16le",
+    "text": "%ls%ls"
+  },
+  {
+    "file_offset": 22272,
+    "encoding": "utf-16le",
+    "text": "ERROR: InitMpCab() failed (%X)"
+  },
+  {
+    "file_offset": 22352,
+    "encoding": "utf-16le",
+    "text": "ERROR: Invalid file handle in FindFirstFileW() (%X)"
+  },
+  {
+    "file_offset": 22464,
+    "encoding": "utf-16le",
+    "text": "ERROR: AddFileToMpCab() failed (%X)"
+  },
+  {
+    "file_offset": 22538,
+    "encoding": "utf-16le",
+    "text": "File: %ls"
+  },
+  {
+    "file_offset": 22560,
+    "encoding": "utf-16le",
+    "text": "Alias: %ls"
+  },
+  {
+    "file_offset": 22592,
+    "encoding": "utf-16le",
+    "text": "ERROR: FindNextFile() failed (%X)"
+  },
+  {
+    "file_offset": 22672,
+    "encoding": "utf-16le",
+    "text": "ERROR: FindClose() failed (%X)"
+  },
+  {
+    "file_offset": 22736,
+    "encoding": "utf-16le",
+    "text": "ERROR: CloseMpCab() failed (%X)"
+  },
+  {
+    "file_offset": 22816,
+    "encoding": "utf-16le",
+    "text": "ERROR: NULL output string in FormatTime"
+  },
+  {
+    "file_offset": 22912,
+    "encoding": "utf-16le",
+    "text": "ERROR: FileTimeToLocalFileTime(...) failed (%X)"
+  },
+  {
+    "file_offset": 23024,
+    "encoding": "utf-16le",
+    "text": "ERROR: FileTimeToSystemTime(...) failed (%X)"
+  },
+  {
+    "file_offset": 23136,
+    "encoding": "utf-16le",
+    "text": "%d/%d/%d %.2d:%.2d:%.2d %s"
+  },
+  {
+    "file_offset": 23200,
+    "encoding": "utf-16le",
+    "text": "ERROR: StringCchPrintfW failed (%X)"
+  },
+  {
+    "file_offset": 23280,
+    "encoding": "utf-16le",
+    "text": "ERROR: NULL parameter in ReadAndProcessEventLogRecord"
+  },
+  {
+    "file_offset": 23392,
+    "encoding": "utf-16le",
+    "text": "ERROR: ReadEventLog(dummy) failed (%X)"
+  },
+  {
+    "file_offset": 23472,
+    "encoding": "utf-16le",
+    "text": "ERROR: Failed to allocate %d bytes for event log record"
+  },
+  {
+    "file_offset": 23584,
+    "encoding": "utf-16le",
+    "text": "ERROR: ReadEventLog() failed (%X)"
+  },
+  {
+    "file_offset": 23664,
+    "encoding": "utf-16le",
+    "text": "ERROR: StringCchCopy failed (%X)"
+  },
+  {
+    "file_offset": 23744,
+    "encoding": "utf-16le",
+    "text": "ERROR: StringCchLength failed (%X)"
+  },
+  {
+    "file_offset": 23824,
+    "encoding": "utf-16le",
+    "text": "ERROR: FormatTime(...) failed (%X)"
+  },
+  {
+    "file_offset": 23904,
+    "encoding": "utf-16le",
+    "text": "ERROR: StringCchCopyW failed (%X)"
+  },
+  {
+    "file_offset": 23976,
+    "encoding": "utf-16le",
+    "text": "%.4x: "
+  },
+  {
+    "file_offset": 24000,
+    "encoding": "utf-16le",
+    "text": "ERROR: StringCchCat failed (%X)"
+  },
+  {
+    "file_offset": 24072,
+    "encoding": "utf-16le",
+    "text": "%.2x "
+  },
+  {
+    "file_offset": 24104,
+    "encoding": "utf-16le",
+    "text": "%%%%%u"
+  },
+  {
+    "file_offset": 24120,
+    "encoding": "utf-16le",
+    "text": "ERROR: swscanf_s(...) failed"
+  },
+  {
+    "file_offset": 24192,
+    "encoding": "utf-16le",
+    "text": "ERROR: FormatMessageW failed for string arg %d (%X)"
+  },
+  {
+    "file_offset": 24304,
+    "encoding": "utf-16le",
+    "text": "ERROR: StringCchCopyNW failed (%X)"
+  },
+  {
+    "file_offset": 24384,
+    "encoding": "utf-16le",
+    "text": "ERROR: FormatMessageW failed (%X)"
+  },
+  {
+    "file_offset": 24464,
+    "encoding": "utf-16le",
+    "text": "*******************************************************************************"
+  },
+  {
+    "file_offset": 24656,
+    "encoding": "utf-16le",
+    "text": "Error"
+  },
+  {
+    "file_offset": 24672,
+    "encoding": "utf-16le",
+    "text": "Warning"
+  },
+  {
+    "file_offset": 24696,
+    "encoding": "utf-16le",
+    "text": "Information"
+  },
+  {
+    "file_offset": 24720,
+    "encoding": "utf-16le",
+    "text": "Success Audit"
+  },
+  {
+    "file_offset": 24752,
+    "encoding": "utf-16le",
+    "text": "Failure Audit"
+  },
+  {
+    "file_offset": 24824,
+    "encoding": "utf-16le",
+    "text": "Parameters as they had been recorded by the older build:"
+  },
+  {
+    "file_offset": 24944,
+    "encoding": "utf-16le",
+    "text": "%u: %ls"
+  },
+  {
+    "file_offset": 24984,
+    "encoding": "utf-16le",
+    "text": "Data:"
+  },
+  {
+    "file_offset": 25008,
+    "encoding": "utf-16le",
+    "text": "SYSTEM\\CurrentControlSet\\Services\\Eventlog"
+  },
+  {
+    "file_offset": 25096,
+    "encoding": "utf-16le",
+    "text": "%s\\%s\\%s"
+  },
+  {
+    "file_offset": 25120,
+    "encoding": "utf-16le",
+    "text": "ERROR: RegOpenKeyEx failed (%X)"
+  },
+  {
+    "file_offset": 25192,
+    "encoding": "utf-16le",
+    "text": "EventMessageFile"
+  },
+  {
+    "file_offset": 25232,
+    "encoding": "utf-16le",
+    "text": "ERROR: RegQueryValueEx failed (%X)"
+  },
+  {
+    "file_offset": 25312,
+    "encoding": "utf-16le",
+    "text": "ERROR: ExpandEnvironmentStrings failed (%X)"
+  },
+  {
+    "file_offset": 25408,
+    "encoding": "utf-16le",
+    "text": "ERROR: LoadLibraryEx failed (%X)"
+  },
+  {
+    "file_offset": 25488,
+    "encoding": "utf-16le",
+    "text": "ERROR: NULL parameter in EventLogToFile(...)"
+  },
+  {
+    "file_offset": 25584,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpSmartConfigInitialize Failed (%X)"
+  },
+  {
+    "file_offset": 25672,
+    "encoding": "utf-16le",
+    "text": "SystemEvents.txt"
+  },
+  {
+    "file_offset": 25712,
+    "encoding": "utf-16le",
+    "text": "%s\\%s%s"
+  },
+  {
+    "file_offset": 25728,
+    "encoding": "utf-16le",
+    "text": "ERROR: StringCchPrintfW() failed (%X)"
+  },
+  {
+    "file_offset": 25808,
+    "encoding": "utf-16le",
+    "text": "ERROR: Unsupported event log name in EventLogToFile(%ls)"
+  },
+  {
+    "file_offset": 25936,
+    "encoding": "utf-16le",
+    "text": "ERROR: OpenEventLog(System) failed (%X)"
+  },
+  {
+    "file_offset": 26032,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetMesgFileHandle() failed (%X)"
+  },
+  {
+    "file_offset": 26112,
+    "encoding": "utf-16le",
+    "text": "ERROR: Failed to open log file (%X)"
+  },
+  {
+    "file_offset": 26192,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetOldestEventLogRecord() failed (%X)"
+  },
+  {
+    "file_offset": 26288,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetNumberOfEventLogRecords() failed (%X)"
+  },
+  {
+    "file_offset": 26400,
+    "encoding": "utf-16le",
+    "text": "MpSupport_EventLogNumRecsToRead"
+  },
+  {
+    "file_offset": 26464,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpConfigGetMiscDwordValue(MpSupport_EventLogRecordNum) failed (%X)"
+  },
+  {
+    "file_offset": 26624,
+    "encoding": "utf-16le",
+    "text": "ERROR: ReadAndProcessEventLogRecord(%ls, %ls, %ls, %ld) failed %X"
+  },
+  {
+    "file_offset": 26768,
+    "encoding": "utf-16le",
+    "text": "ERROR: CloseEventLog() failed (%X)"
+  },
+  {
+    "file_offset": 26872,
+    "encoding": "utf-16le",
+    "text": "UX Configuration"
+  },
+  {
+    "file_offset": 26912,
+    "encoding": "utf-16le",
+    "text": "Threats\\ThreatSeverityDefaultAction"
+  },
+  {
+    "file_offset": 26984,
+    "encoding": "utf-16le",
+    "text": "Threats\\ThreatIDDefaultAction"
+  },
+  {
+    "file_offset": 27048,
+    "encoding": "utf-16le",
+    "text": "Threats"
+  },
+  {
+    "file_offset": 27064,
+    "encoding": "utf-16le",
+    "text": "SpyNet"
+  },
+  {
+    "file_offset": 27080,
+    "encoding": "utf-16le",
+    "text": "Signature Updates"
+  },
+  {
+    "file_offset": 27120,
+    "encoding": "utf-16le",
+    "text": "Reporting"
+  },
+  {
+    "file_offset": 27144,
+    "encoding": "utf-16le",
+    "text": "Real-Time Protection"
+  },
+  {
+    "file_offset": 27192,
+    "encoding": "utf-16le",
+    "text": "Exclusions\\Processes"
+  },
+  {
+    "file_offset": 27240,
+    "encoding": "utf-16le",
+    "text": "Exclusions\\Paths"
+  },
+  {
+    "file_offset": 27280,
+    "encoding": "utf-16le",
+    "text": "Exclusions\\Extensions"
+  },
+  {
+    "file_offset": 27328,
+    "encoding": "utf-16le",
+    "text": "Miscellaneous Configuration"
+  },
+  {
+    "file_offset": 27520,
+    "encoding": "utf-16le",
+    "text": "MpSmartConfigInitialize Failed - %X"
+  },
+  {
+    "file_offset": 27600,
+    "encoding": "utf-16le",
+    "text": "Registry.txt"
+  },
+  {
+    "file_offset": 27632,
+    "encoding": "utf-16le",
+    "text": "system policy"
+  },
+  {
+    "file_offset": 27664,
+    "encoding": "utf-16le",
+    "text": "ERROR: ConfigDumpFromOrigin() failed for policy %X"
+  },
+  {
+    "file_offset": 27768,
+    "encoding": "utf-16le",
+    "text": "preferences"
+  },
+  {
+    "file_offset": 27792,
+    "encoding": "utf-16le",
+    "text": "ERROR: ConfigDumpFromOrigin() failed for preferences %X"
+  },
+  {
+    "file_offset": 27920,
+    "encoding": "utf-16le",
+    "text": "Current configuration options for location \"%s\""
+  },
+  {
+    "file_offset": 28040,
+    "encoding": "utf-16le",
+    "text": "LastScanRun"
+  },
+  {
+    "file_offset": 28064,
+    "encoding": "utf-16le",
+    "text": "ASSignatureApplied"
+  },
+  {
+    "file_offset": 28104,
+    "encoding": "utf-16le",
+    "text": "AVSignatureApplied"
+  },
+  {
+    "file_offset": 28144,
+    "encoding": "utf-16le",
+    "text": "InstallTime"
+  },
+  {
+    "file_offset": 28168,
+    "encoding": "utf-16le",
+    "text": "------------------"
+  },
+  {
+    "file_offset": 28208,
+    "encoding": "utf-16le",
+    "text": "Grouping"
+  },
+  {
+    "file_offset": 28232,
+    "encoding": "utf-16le",
+    "text": "Level"
+  },
+  {
+    "file_offset": 28256,
+    "encoding": "utf-16le",
+    "text": "%s-%02hu%02hu%04hu-%02hu%02hu%02hu%s"
+  },
+  {
+    "file_offset": 28336,
+    "encoding": "utf-16le",
+    "text": "ERROR: Creating IMpWppTracing Failed %X"
+  },
+  {
+    "file_offset": 28424,
+    "encoding": "ascii",
+    "text": "Tracing could not be started: error 0x%lx"
+  },
+  {
+    "file_offset": 28472,
+    "encoding": "ascii",
+    "text": "Trace started . . ."
+  },
+  {
+    "file_offset": 28496,
+    "encoding": "utf-16le",
+    "text": "Trace started . . ."
+  },
+  {
+    "file_offset": 28544,
+    "encoding": "utf-16le",
+    "text": "TraceTimeout"
+  },
+  {
+    "file_offset": 28576,
+    "encoding": "ascii",
+    "text": "Trace from %u Milliseconds"
+  },
+  {
+    "file_offset": 28608,
+    "encoding": "ascii",
+    "text": "Press any key to stop tracing . . ."
+  },
+  {
+    "file_offset": 28648,
+    "encoding": "utf-16le",
+    "text": "Trace ended . . ."
+  },
+  {
+    "file_offset": 28690,
+    "encoding": "utf-16le",
+    "text": "Trace file location: %s\\%s"
+  },
+  {
+    "file_offset": 28752,
+    "encoding": "utf-16le",
+    "text": "SpyNetReportingLocation"
+  },
+  {
+    "file_offset": 28800,
+    "encoding": "utf-16le",
+    "text": "SpyNetReporting"
+  },
+  {
+    "file_offset": 28832,
+    "encoding": "utf-16le",
+    "text": "SignatureLocation"
+  },
+  {
+    "file_offset": 28872,
+    "encoding": "utf-16le",
+    "text": "AVSignatureVersion"
+  },
+  {
+    "file_offset": 28912,
+    "encoding": "utf-16le",
+    "text": "ASSignatureVersion"
+  },
+  {
+    "file_offset": 28952,
+    "encoding": "utf-16le",
+    "text": "EngineVersion"
+  },
+  {
+    "file_offset": 28984,
+    "encoding": "utf-16le",
+    "text": "LastScanType"
+  },
+  {
+    "file_offset": 29016,
+    "encoding": "utf-16le",
+    "text": "LastQuickScanResourceCount"
+  },
+  {
+    "file_offset": 29072,
+    "encoding": "utf-16le",
+    "text": "LastFullScanBytesCount"
+  },
+  {
+    "file_offset": 29120,
+    "encoding": "utf-16le",
+    "text": "OfflineTargetOS"
+  },
+  {
+    "file_offset": 29152,
+    "encoding": "utf-16le",
+    "text": "InstallLocation"
+  },
+  {
+    "file_offset": 29456,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun_DontRestoreMiscConfig"
+  },
+  {
+    "file_offset": 29520,
+    "encoding": "utf-16le",
+    "text": "Removing value %ls\\%ls"
+  },
+  {
+    "file_offset": 29568,
+    "encoding": "utf-16le",
+    "text": "Failed to remove value %s\\%s, error 0x%lx"
+  },
+  {
+    "file_offset": 29664,
+    "encoding": "utf-16le",
+    "text": "Restoring configuration options to default values for location \"user preferences\""
+  },
+  {
+    "file_offset": 29840,
+    "encoding": "utf-16le",
+    "text": "MpService_SpyNetServiceWaitTimout"
+  },
+  {
+    "file_offset": 29920,
+    "encoding": "utf-16le",
+    "text": "MpService_SpyNetServiceIdleTimout"
+  },
+  {
+    "file_offset": 30000,
+    "encoding": "utf-16le",
+    "text": "MpService_SpyNetServiceBusyTimout"
+  },
+  {
+    "file_offset": 30080,
+    "encoding": "utf-16le",
+    "text": "ERROR: SpyNet Service Failed %X"
+  },
+  {
+    "file_offset": 30160,
+    "encoding": "utf-16le",
+    "text": "ERROR: SpyNet Service hanged! - timeout %u"
+  },
+  {
+    "file_offset": 30248,
+    "encoding": "utf-16le",
+    "text": "Start: Handling SpyNet Report"
+  },
+  {
+    "file_offset": 30320,
+    "encoding": "utf-16le",
+    "text": "MpService_SpyNetServiceDelayReport"
+  },
+  {
+    "file_offset": 30400,
+    "encoding": "utf-16le",
+    "text": "ERROR: Handling SpyNet Report Failed %X"
+  },
+  {
+    "file_offset": 30488,
+    "encoding": "utf-16le",
+    "text": "End  : Handling SpyNet Report"
+  },
+  {
+    "file_offset": 30560,
+    "encoding": "utf-16le",
+    "text": "ERROR: Generate SpyNet Report Failed %X"
+  },
+  {
+    "file_offset": 30656,
+    "encoding": "utf-16le",
+    "text": "ERROR: Send SpyNet Report Failed %X"
+  },
+  {
+    "file_offset": 30736,
+    "encoding": "utf-16le",
+    "text": "ERROR: Send SpyNet Response Failed %X"
+  },
+  {
+    "file_offset": 30816,
+    "encoding": "utf-16le",
+    "text": "ERROR: Send SpyNet Extended Report Failed %X"
+  },
+  {
+    "file_offset": 30912,
+    "encoding": "utf-16le",
+    "text": "AccessKey"
+  },
+  {
+    "file_offset": 30936,
+    "encoding": "utf-16le",
+    "text": "Start: SpyNet Service"
+  },
+  {
+    "file_offset": 30992,
+    "encoding": "utf-16le",
+    "text": "ERROR: Creating SpyNet Queue Failed %X"
+  },
+  {
+    "file_offset": 31072,
+    "encoding": "utf-16le",
+    "text": "End: SpyNet Service"
+  },
+  {
+    "file_offset": 31200,
+    "encoding": "utf-16le",
+    "text": "MpService_SigUpdServiceWaitTimout"
+  },
+  {
+    "file_offset": 31280,
+    "encoding": "utf-16le",
+    "text": "MpService_SigUpdServiceBusyTimout"
+  },
+  {
+    "file_offset": 31360,
+    "encoding": "utf-16le",
+    "text": "MpService_SigUpdServiceShutTimout"
+  },
+  {
+    "file_offset": 31440,
+    "encoding": "utf-16le",
+    "text": "ERROR: Signatures Update Service hanged! - timeout %u"
+  },
+  {
+    "file_offset": 31552,
+    "encoding": "utf-16le",
+    "text": "ERROR: Signatures Update Failed %X"
+  },
+  {
+    "file_offset": 31632,
+    "encoding": "utf-16le",
+    "text": "Cancel notification - cancelling update"
+  },
+  {
+    "file_offset": 31728,
+    "encoding": "utf-16le",
+    "text": "ERROR: SendProgressNotification Failed %X"
+  },
+  {
+    "file_offset": 31816,
+    "encoding": "utf-16le",
+    "text": "MpService_SigUpdServiceOptions"
+  },
+  {
+    "file_offset": 31880,
+    "encoding": "utf-16le",
+    "text": "HttpDownload"
+  },
+  {
+    "file_offset": 31920,
+    "encoding": "utf-16le",
+    "text": "Start: Signatures Update Service"
+  },
+  {
+    "file_offset": 32000,
+    "encoding": "utf-16le",
+    "text": "ERROR: Creating Signatures Update Service Context Failed %X"
+  },
+  {
+    "file_offset": 32128,
+    "encoding": "utf-16le",
+    "text": "ERROR: Creating Signatures Service Context Failed %X"
+  },
+  {
+    "file_offset": 32240,
+    "encoding": "utf-16le",
+    "text": "End: Signatures Update Service"
+  },
+  {
+    "file_offset": 32304,
+    "encoding": "utf-16le",
+    "text": "windows update"
+  },
+  {
+    "file_offset": 32336,
+    "encoding": "utf-16le",
+    "text": "Direct HTTP"
+  },
+  {
+    "file_offset": 32360,
+    "encoding": "utf-16le",
+    "text": "unknown type"
+  },
+  {
+    "file_offset": 32392,
+    "encoding": "utf-16le",
+    "text": "Update Started"
+  },
+  {
+    "file_offset": 32424,
+    "encoding": "utf-16le",
+    "text": "Search Started (%ls)..."
+  },
+  {
+    "file_offset": 32480,
+    "encoding": "utf-16le",
+    "text": "Update completed succesfuly"
+  },
+  {
+    "file_offset": 32544,
+    "encoding": "utf-16le",
+    "text": "Update completed succesfuly. no updates needed"
+  },
+  {
+    "file_offset": 32784,
+    "encoding": "utf-16le",
+    "text": "ERROR: CoCreateInstance(CLSID_WscIsv, IID_IWscASStatus) Failed %X"
+  },
+  {
+    "file_offset": 32928,
+    "encoding": "utf-16le",
+    "text": "ERROR: IWscASStatus::Unregister() Failed %X"
+  },
+  {
+    "file_offset": 33024,
+    "encoding": "utf-16le",
+    "text": "INFO: IWscASStatus::Unregister() Succeeded"
+  },
+  {
+    "file_offset": 33120,
+    "encoding": "utf-16le",
+    "text": "ERROR: CoCreateInstance(CLSID_WscIsv, IID_IWscAVStatus) Failed %X"
+  },
+  {
+    "file_offset": 33264,
+    "encoding": "utf-16le",
+    "text": "ERROR: IWscAVStatus::Unregister() Failed %X"
+  },
+  {
+    "file_offset": 33360,
+    "encoding": "utf-16le",
+    "text": "INFO: IWscAVStatus::Unregister() Succeeded"
+  },
+  {
+    "file_offset": 33448,
+    "encoding": "utf-16le",
+    "text": "\\\\.\\root\\SecurityCenter"
+  },
+  {
+    "file_offset": 33496,
+    "encoding": "utf-16le",
+    "text": "\\MsMpLics.dll"
+  },
+  {
+    "file_offset": 33536,
+    "encoding": "utf-16le",
+    "text": "AntiVirusProduct"
+  },
+  {
+    "file_offset": 33576,
+    "encoding": "utf-16le",
+    "text": "AntiSpywareProduct"
+  },
+  {
+    "file_offset": 33616,
+    "encoding": "utf-16le",
+    "text": "instanceGuid"
+  },
+  {
+    "file_offset": 33664,
+    "encoding": "utf-16le",
+    "text": "ERROR: Error deleting WMI instance %s Failed %X"
+  },
+  {
+    "file_offset": 33776,
+    "encoding": "utf-16le",
+    "text": "INFO: Deleted WMI instance %s "
+  },
+  {
+    "file_offset": 33840,
+    "encoding": "utf-16le",
+    "text": "InstallPath"
+  },
+  {
+    "file_offset": 33872,
+    "encoding": "utf-16le",
+    "text": "ERROR: RunCommandUnregisterWSC() Failed %X"
+  },
+  {
+    "file_offset": 33968,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpWscUnregister() Failed %X"
+  },
+  {
+    "file_offset": 34048,
+    "encoding": "utf-16le",
+    "text": "INFO: RunCommandUnregisterWSC() Succeeded %X"
+  },
+  {
+    "file_offset": 34224,
+    "encoding": "utf-16le",
+    "text": "Getting product service registration information..."
+  },
+  {
+    "file_offset": 34336,
+    "encoding": "utf-16le",
+    "text": "ERROR: CollectServiceInfo(\"fcsam\") failed (%X)"
+  },
+  {
+    "file_offset": 34432,
+    "encoding": "utf-16le",
+    "text": "Getting minifilter driver registration information..."
+  },
+  {
+    "file_offset": 34544,
+    "encoding": "utf-16le",
+    "text": "MpFilter"
+  },
+  {
+    "file_offset": 34576,
+    "encoding": "utf-16le",
+    "text": "ERROR: CollectServiceInfo(\"mpfilter\") failed (%X)"
+  },
+  {
+    "file_offset": 34682,
+    "encoding": "utf-16le",
+    "text": "State of '%s' service:"
+  },
+  {
+    "file_offset": 34736,
+    "encoding": "utf-16le",
+    "text": "WIN32_OWN_PROCESS "
+  },
+  {
+    "file_offset": 34776,
+    "encoding": "utf-16le",
+    "text": "WIN32_SHARE_PROCESS "
+  },
+  {
+    "file_offset": 34824,
+    "encoding": "utf-16le",
+    "text": "WIN32 "
+  },
+  {
+    "file_offset": 34840,
+    "encoding": "utf-16le",
+    "text": "ADAPTER "
+  },
+  {
+    "file_offset": 34864,
+    "encoding": "utf-16le",
+    "text": "KERNEL_DRIVER "
+  },
+  {
+    "file_offset": 34896,
+    "encoding": "utf-16le",
+    "text": "FILE_SYSTEM_DRIVER "
+  },
+  {
+    "file_offset": 34936,
+    "encoding": "utf-16le",
+    "text": "DRIVER "
+  },
+  {
+    "file_offset": 34952,
+    "encoding": "utf-16le",
+    "text": " ERROR "
+  },
+  {
+    "file_offset": 34968,
+    "encoding": "utf-16le",
+    "text": "STOPPED "
+  },
+  {
+    "file_offset": 34992,
+    "encoding": "utf-16le",
+    "text": "START_PENDING "
+  },
+  {
+    "file_offset": 35024,
+    "encoding": "utf-16le",
+    "text": "STOP_PENDING "
+  },
+  {
+    "file_offset": 35056,
+    "encoding": "utf-16le",
+    "text": "RUNNING "
+  },
+  {
+    "file_offset": 35080,
+    "encoding": "utf-16le",
+    "text": "CONTINUE_PENDING "
+  },
+  {
+    "file_offset": 35120,
+    "encoding": "utf-16le",
+    "text": "PAUSE_PENDING "
+  },
+  {
+    "file_offset": 35152,
+    "encoding": "utf-16le",
+    "text": "PAUSED "
+  },
+  {
+    "file_offset": 35168,
+    "encoding": "utf-16le",
+    "text": "STOPPABLE"
+  },
+  {
+    "file_offset": 35192,
+    "encoding": "utf-16le",
+    "text": "NOT_STOPPABLE"
+  },
+  {
+    "file_offset": 35224,
+    "encoding": "utf-16le",
+    "text": "PAUSABLE"
+  },
+  {
+    "file_offset": 35248,
+    "encoding": "utf-16le",
+    "text": "NOT_PAUSABLE"
+  },
+  {
+    "file_offset": 35280,
+    "encoding": "utf-16le",
+    "text": "ACCEPTS_SHUTDOWN"
+  },
+  {
+    "file_offset": 35320,
+    "encoding": "utf-16le",
+    "text": "IGNORES_SHUTDOWN"
+  },
+  {
+    "file_offset": 35360,
+    "encoding": "utf-16le",
+    "text": "RUNS_IN_SYSTEM_PROCESS"
+  },
+  {
+    "file_offset": 35408,
+    "encoding": "utf-16le",
+    "text": "SERVICE_NAME: %s"
+  },
+  {
+    "file_offset": 35442,
+    "encoding": "utf-16le",
+    "text": "      TYPE               : %-2x %s"
+  },
+  {
+    "file_offset": 35512,
+    "encoding": "utf-16le",
+    "text": "      STATE              : %-2x %s"
+  },
+  {
+    "file_offset": 35582,
+    "encoding": "utf-16le",
+    "text": "                              (%s, %s, %s)"
+  },
+  {
+    "file_offset": 35668,
+    "encoding": "utf-16le",
+    "text": "      WIN32_EXIT_CODE    : %d  (0x%x)"
+  },
+  {
+    "file_offset": 35744,
+    "encoding": "utf-16le",
+    "text": "      SERVICE_EXIT_CODE  : %d  (0x%x)"
+  },
+  {
+    "file_offset": 35820,
+    "encoding": "utf-16le",
+    "text": "      CHECKPOINT         : 0x%x"
+  },
+  {
+    "file_offset": 35884,
+    "encoding": "utf-16le",
+    "text": "      WAIT_HINT          : 0x%x"
+  },
+  {
+    "file_offset": 35948,
+    "encoding": "utf-16le",
+    "text": "      PID                : %d"
+  },
+  {
+    "file_offset": 36008,
+    "encoding": "utf-16le",
+    "text": "      FLAGS              : %s"
+  },
+  {
+    "file_offset": 36080,
+    "encoding": "utf-16le",
+    "text": "System\\CurrentControlSet\\Services\\%s"
+  },
+  {
+    "file_offset": 36160,
+    "encoding": "utf-16le",
+    "text": "HKEY_CLASSES_ROOT"
+  },
+  {
+    "file_offset": 36200,
+    "encoding": "utf-16le",
+    "text": "HKEY_CURRENT_USER"
+  },
+  {
+    "file_offset": 36240,
+    "encoding": "utf-16le",
+    "text": "HKEY_LOCAL_MACHINE"
+  },
+  {
+    "file_offset": 36280,
+    "encoding": "utf-16le",
+    "text": "HKEY_USERS"
+  },
+  {
+    "file_offset": 36304,
+    "encoding": "utf-16le",
+    "text": "HKEY_CURRENT_CONFIG"
+  },
+  {
+    "file_offset": 36344,
+    "encoding": "utf-16le",
+    "text": "<UnknownRoot>"
+  },
+  {
+    "file_offset": 36384,
+    "encoding": "utf-16le",
+    "text": "    %-40s [REG_DWORD]    : %lu (0X%lX)"
+  },
+  {
+    "file_offset": 36464,
+    "encoding": "utf-16le",
+    "text": "    %-40s [REG_SZ]       : %s"
+  },
+  {
+    "file_offset": 36528,
+    "encoding": "utf-16le",
+    "text": "    %-40s [REG_EXPAND_SZ]: %s"
+  },
+  {
+    "file_offset": 36592,
+    "encoding": "utf-16le",
+    "text": "    %-40s [REG_MULTI_SZ] : "
+  },
+  {
+    "file_offset": 36656,
+    "encoding": "utf-16le",
+    "text": "%62s%s"
+  },
+  {
+    "file_offset": 36672,
+    "encoding": "utf-16le",
+    "text": "    %-40s [REG_BINARY]   : "
+  },
+  {
+    "file_offset": 36736,
+    "encoding": "utf-16le",
+    "text": "Value: [REG_BINARY] - error while processing as date"
+  },
+  {
+    "file_offset": 36848,
+    "encoding": "utf-16le",
+    "text": "ERROR: Registry value size doesn't match for datesn"
+  },
+  {
+    "file_offset": 36960,
+    "encoding": "utf-16le",
+    "text": "ERROR: FileTimeToSystemTime() failed %X"
+  },
+  {
+    "file_offset": 37056,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetDateFormat() failed %X"
+  },
+  {
+    "file_offset": 37128,
+    "encoding": "utf-16le",
+    "text": "[UTC] %s "
+  },
+  {
+    "file_offset": 37152,
+    "encoding": "utf-16le",
+    "text": "ERROR: GetTimeFormat() failed %X"
+  },
+  {
+    "file_offset": 37232,
+    "encoding": "utf-16le",
+    "text": "[%s\\%s]"
+  },
+  {
+    "file_offset": 37256,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun_IdleTaskWaitTimeout"
+  },
+  {
+    "file_offset": 37320,
+    "encoding": "utf-16le",
+    "text": "Idle Task - service shutdown"
+  },
+  {
+    "file_offset": 37384,
+    "encoding": "utf-16le",
+    "text": "TaskName"
+  },
+  {
+    "file_offset": 37408,
+    "encoding": "utf-16le",
+    "text": "ERROR: Task name is NULL"
+  },
+  {
+    "file_offset": 37464,
+    "encoding": "utf-16le",
+    "text": "Start: Idle Task - %s"
+  },
+  {
+    "file_offset": 37520,
+    "encoding": "utf-16le",
+    "text": "ERROR: Creating Idle Notifier Context Failed %X"
+  },
+  {
+    "file_offset": 37624,
+    "encoding": "utf-16le",
+    "text": "ERROR: StartIdle Failed %X"
+  },
+  {
+    "file_offset": 37680,
+    "encoding": "utf-16le",
+    "text": "ERROR: StopIdle Failed %X"
+  },
+  {
+    "file_offset": 37744,
+    "encoding": "utf-16le",
+    "text": "Service stopped. Exiting Idle Task"
+  },
+  {
+    "file_offset": 37816,
+    "encoding": "utf-16le",
+    "text": "End: Idle Task - %s"
+  },
+  {
+    "file_offset": 37864,
+    "encoding": "utf-16le",
+    "text": "Scans\\History\\CacheManager"
+  },
+  {
+    "file_offset": 37920,
+    "encoding": "utf-16le",
+    "text": "\\MpSfc.bin"
+  },
+  {
+    "file_offset": 37944,
+    "encoding": "utf-16le",
+    "text": "Start: Idle Task "
+  },
+  {
+    "file_offset": 37984,
+    "encoding": "utf-16le",
+    "text": "MpIdleTask"
+  },
+  {
+    "file_offset": 38016,
+    "encoding": "utf-16le",
+    "text": "ERROR: WaitForCacheBuildCompletion Failed %X"
+  },
+  {
+    "file_offset": 38112,
+    "encoding": "utf-16le",
+    "text": "End: Build Cache "
+  },
+  {
+    "file_offset": 38192,
+    "encoding": "utf-16le",
+    "text": "ERROR: pfn_EvtClose() failed (%X)"
+  },
+  {
+    "file_offset": 38264,
+    "encoding": "utf-16le",
+    "text": "wevtapi.dll"
+  },
+  {
+    "file_offset": 38288,
+    "encoding": "ascii",
+    "text": "EvtQuery"
+  },
+  {
+    "file_offset": 38304,
+    "encoding": "utf-16le",
+    "text": "ERROR: UtilGetProcAddress(EvtQuery) failed (%X)"
+  },
+  {
+    "file_offset": 38408,
+    "encoding": "ascii",
+    "text": "EvtCreateRenderContext"
+  },
+  {
+    "file_offset": 38432,
+    "encoding": "utf-16le",
+    "text": "ERROR: UtilGetProcAddress(EvtCreateRenderContext) failed (%X)"
+  },
+  {
+    "file_offset": 38560,
+    "encoding": "ascii",
+    "text": "EvtRender"
+  },
+  {
+    "file_offset": 38576,
+    "encoding": "utf-16le",
+    "text": "ERROR: UtilGetProcAddress(EvtRender) failed (%X)"
+  },
+  {
+    "file_offset": 38680,
+    "encoding": "ascii",
+    "text": "EvtNext"
+  },
+  {
+    "file_offset": 38686,
+    "encoding": "utf-16le",
+    "text": "tERROR: UtilGetProcAddress(EvtNex) failed (%X)"
+  },
+  {
+    "file_offset": 38784,
+    "encoding": "ascii",
+    "text": "EvtClose"
+  },
+  {
+    "file_offset": 38800,
+    "encoding": "utf-16le",
+    "text": "ERROR: UtilGetProcAddress(EvtClose) failed (%X)"
+  },
+  {
+    "file_offset": 38904,
+    "encoding": "ascii",
+    "text": "EvtOpenPublisherMetadata"
+  },
+  {
+    "file_offset": 38944,
+    "encoding": "utf-16le",
+    "text": "ERROR: UtilGetProcAddress(EvtOpenPublisherMetadata) failed (%X)"
+  },
+  {
+    "file_offset": 39080,
+    "encoding": "ascii",
+    "text": "EvtFormatMessage"
+  },
+  {
+    "file_offset": 39104,
+    "encoding": "utf-16le",
+    "text": "ERROR: UtilGetProcAddress(EvtFormatMessage) failed (%X)"
+  },
+  {
+    "file_offset": 39232,
+    "encoding": "utf-16le",
+    "text": "ERROR: EvtCreateRenderContex() failed (%X)"
+  },
+  {
+    "file_offset": 39328,
+    "encoding": "utf-16le",
+    "text": "ERROR: HrStdVectorResize failed (%X)"
+  },
+  {
+    "file_offset": 39408,
+    "encoding": "utf-16le",
+    "text": "ERROR: EvtRender(dummy) failed (%X)"
+  },
+  {
+    "file_offset": 39488,
+    "encoding": "utf-16le",
+    "text": "ERROR: std::vector::resize() failed (%X)"
+  },
+  {
+    "file_offset": 39584,
+    "encoding": "utf-16le",
+    "text": "Microsoft-Windows-Windows Defender"
+  },
+  {
+    "file_offset": 39664,
+    "encoding": "utf-16le",
+    "text": "ERROR: EvtOpenPublisherMetadata() failed (%X)"
+  },
+  {
+    "file_offset": 39760,
+    "encoding": "utf-16le",
+    "text": "ERROR: EvtFormatMessage() failed (%X)"
+  },
+  {
+    "file_offset": 39840,
+    "encoding": "utf-16le",
+    "text": "ERROR: ExtractStringPropertyFromPayload failed (%X)"
+  },
+  {
+    "file_offset": 39952,
+    "encoding": "utf-16le",
+    "text": "ERROR: awszProperty failed (%X)"
+  },
+  {
+    "file_offset": 40032,
+    "encoding": "utf-16le",
+    "text": "ERROR: ExtractTimePropertyFromPayload failed (%X)"
+  },
+  {
+    "file_offset": 40144,
+    "encoding": "utf-16le",
+    "text": "ERROR: NewSprintfW failed (%X)"
+  },
+  {
+    "file_offset": 40208,
+    "encoding": "utf-16le",
+    "text": "ERROR: CreateRenderBuffer failed (%X)"
+  },
+  {
+    "file_offset": 40288,
+    "encoding": "utf-16le",
+    "text": "ERROR: ExtractEventIdPropertyFromPayload failed (%X)"
+  },
+  {
+    "file_offset": 40400,
+    "encoding": "utf-16le",
+    "text": "ERROR: ExtractEventLevelPropertyFromPayload failed (%X)"
+  },
+  {
+    "file_offset": 40528,
+    "encoding": "utf-16le",
+    "text": "ERROR: ExtractEventMessage failed (%X)"
+  },
+  {
+    "file_offset": 40608,
+    "encoding": "utf-16le",
+    "text": "Critical"
+  },
+  {
+    "file_offset": 40632,
+    "encoding": "utf-16le",
+    "text": "Information"
+  },
+  {
+    "file_offset": 40664,
+    "encoding": "utf-16le",
+    "text": "Verbose"
+  },
+  {
+    "file_offset": 40688,
+    "encoding": "utf-16le",
+    "text": "LogAlways"
+  },
+  {
+    "file_offset": 40720,
+    "encoding": "utf-16le",
+    "text": "ERROR: LoadWevtApi Failed (%X)"
+  },
+  {
+    "file_offset": 40784,
+    "encoding": "utf-16le",
+    "text": "*[System[Provider[@Name='Microsoft-Windows-Windows Defender']]]"
+  },
+  {
+    "file_offset": 40912,
+    "encoding": "utf-16le",
+    "text": "ERROR: EvtQuery failed (%X)"
+  },
+  {
+    "file_offset": 40976,
+    "encoding": "utf-16le",
+    "text": "ERROR: MpGetEventSourceName Failed (%X)"
+  },
+  {
+    "file_offset": 41064,
+    "encoding": "ascii",
+    "text": "vector<T> too long"
+  },
+  {
+    "file_offset": 41232,
+    "encoding": "utf-16le",
+    "text": "Command file %s not found!"
+  },
+  {
+    "file_offset": 41296,
+    "encoding": "utf-16le",
+    "text": "__NO_STRING_EXPANSION"
+  },
+  {
+    "file_offset": 41344,
+    "encoding": "utf-16le",
+    "text": "CommandFile %s line %u"
+  },
+  {
+    "file_offset": 41390,
+    "encoding": "utf-16le",
+    "text": "Bad entry - %s"
+  },
+  {
+    "file_offset": 41424,
+    "encoding": "utf-16le",
+    "text": "CommandFile %s line %u"
+  },
+  {
+    "file_offset": 41470,
+    "encoding": "utf-16le",
+    "text": "Command Line - Option already specified %s"
+  },
+  {
+    "file_offset": 41568,
+    "encoding": "utf-16le",
+    "text": "Command Line - Option should start with '-' or '/' %s"
+  },
+  {
+    "file_offset": 41680,
+    "encoding": "utf-16le",
+    "text": "Command Line - Option already specified %s"
+  },
+  {
+    "file_offset": 41768,
+    "encoding": "ascii",
+    "text": "list<T> too long"
+  },
+  {
+    "file_offset": 42000,
+    "encoding": "utf-16le",
+    "text": "EventLogSourceName"
+  },
+  {
+    "file_offset": 42048,
+    "encoding": "utf-16le",
+    "text": "MpConfig_SystemRunningOnBatteries"
+  },
+  {
+    "file_offset": 42120,
+    "encoding": "utf-16le",
+    "text": "MpCommu.dll"
+  },
+  {
+    "file_offset": 42144,
+    "encoding": "ascii",
+    "text": "MpCommunicationInitialize"
+  },
+  {
+    "file_offset": 42176,
+    "encoding": "ascii",
+    "text": "MpCommunicationUninitialize"
+  },
+  {
+    "file_offset": 42208,
+    "encoding": "ascii",
+    "text": "MpCommunicationCreateInstance"
+  },
+  {
+    "file_offset": 42272,
+    "encoding": "utf-16le",
+    "text": "MPSVC_"
+  },
+  {
+    "file_offset": 42288,
+    "encoding": "ascii",
+    "text": "%s_%d.CAB"
+  },
+  {
+    "file_offset": 42304,
+    "encoding": "ascii",
+    "text": "MpSvcData"
+  },
+  {
+    "file_offset": 45431,
+    "encoding": "ascii",
+    "text": "s'+@G"
+  },
+  {
+    "file_offset": 45448,
+    "encoding": "ascii",
+    "text": "MpCmdRun.pdb"
+  },
+  {
+    "file_offset": 49942,
+    "encoding": "ascii",
+    "text": "H VWATH"
+  },
+  {
+    "file_offset": 50467,
+    "encoding": "ascii",
+    "text": "L$ SVWH"
+  },
+  {
+    "file_offset": 50553,
+    "encoding": "ascii",
+    "text": "x ATH"
+  },
+  {
+    "file_offset": 50658,
+    "encoding": "ascii",
+    "text": "fA91t"
+  },
+  {
+    "file_offset": 50693,
+    "encoding": "ascii",
+    "text": "fA91M"
+  },
+  {
+    "file_offset": 51123,
+    "encoding": "ascii",
+    "text": "UVWATAUH"
+  },
+  {
+    "file_offset": 51923,
+    "encoding": "ascii",
+    "text": "pA]A\\_^]"
+  },
+  {
+    "file_offset": 52096,
+    "encoding": "ascii",
+    "text": "@SUVWH"
+  },
+  {
+    "file_offset": 52844,
+    "encoding": "ascii",
+    "text": "@SUVWATAUAVH"
+  },
+  {
+    "file_offset": 52900,
+    "encoding": "ascii",
+    "text": "H!|$@3"
+  },
+  {
+    "file_offset": 54751,
+    "encoding": "ascii",
+    "text": "`A^A]A\\_^]["
+  },
+  {
+    "file_offset": 54929,
+    "encoding": "ascii",
+    "text": "H SWH"
+  },
+  {
+    "file_offset": 55048,
+    "encoding": "ascii",
+    "text": "fA9(tqH;"
+  },
+  {
+    "file_offset": 55177,
+    "encoding": "ascii",
+    "text": "D$(H;"
+  },
+  {
+    "file_offset": 55227,
+    "encoding": "ascii",
+    "text": "VWATAUAVH"
+  },
+  {
+    "file_offset": 55372,
+    "encoding": "ascii",
+    "text": "d$ E3"
+  },
+  {
+    "file_offset": 56021,
+    "encoding": "ascii",
+    "text": "`A^A]A\\_^"
+  },
+  {
+    "file_offset": 56083,
+    "encoding": "ascii",
+    "text": "SUVWATAUAVAWH"
+  },
+  {
+    "file_offset": 56395,
+    "encoding": "ascii",
+    "text": "tvfE9.tpM;"
+  },
+  {
+    "file_offset": 56809,
+    "encoding": "ascii",
+    "text": "8A_A^A]A\\_^]["
+  },
+  {
+    "file_offset": 56884,
+    "encoding": "ascii",
+    "text": "t$ WH"
+  },
+  {
+    "file_offset": 57065,
+    "encoding": "ascii",
+    "text": "L$0H;"
+  },
+  {
+    "file_offset": 57171,
+    "encoding": "ascii",
+    "text": "L$0H;"
+  },
+  {
+    "file_offset": 57699,
+    "encoding": "ascii",
+    "text": "ET$0H"
+  },
+  {
+    "file_offset": 58085,
+    "encoding": "ascii",
+    "text": "H SWH"
+  },
+  {
+    "file_offset": 58635,
+    "encoding": "ascii",
+    "text": "t fE9"
+  },
+  {
+    "file_offset": 58795,
+    "encoding": "ascii",
+    "text": "t fE9"
+  },
+  {
+    "file_offset": 59403,
+    "encoding": "ascii",
+    "text": "WATAUAVAWH"
+  },
+  {
+    "file_offset": 60202,
+    "encoding": "ascii",
+    "text": "D$ E3"
+  },
+  {
+    "file_offset": 60785,
+    "encoding": "ascii",
+    "text": "|$pA;"
+  },
+  {
+    "file_offset": 60864,
+    "encoding": "ascii",
+    "text": "L$hI;"
+  },
+  {
+    "file_offset": 60881,
+    "encoding": "ascii",
+    "text": "L$PI;"
+  },
+  {
+    "file_offset": 60897,
+    "encoding": "ascii",
+    "text": "L$8I;"
+  },
+  {
+    "file_offset": 60933,
+    "encoding": "ascii",
+    "text": "L$HI;"
+  },
+  {
+    "file_offset": 60953,
+    "encoding": "ascii",
+    "text": "D$XI;"
+  },
+  {
+    "file_offset": 61002,
+    "encoding": "ascii",
+    "text": "T$`I;"
+  },
+  {
+    "file_offset": 61071,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_"
+  },
+  {
+    "file_offset": 61098,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 61854,
+    "encoding": "ascii",
+    "text": "0A]A\\_"
+  },
+  {
+    "file_offset": 62559,
+    "encoding": "ascii",
+    "text": "H!\\$HH"
+  },
+  {
+    "file_offset": 63537,
+    "encoding": "ascii",
+    "text": "(D$Pf"
+  },
+  {
+    "file_offset": 63945,
+    "encoding": "ascii",
+    "text": "L$`H3"
+  },
+  {
+    "file_offset": 64303,
+    "encoding": "ascii",
+    "text": "9\\$ht"
+  },
+  {
+    "file_offset": 64325,
+    "encoding": "ascii",
+    "text": "#L$4;"
+  },
+  {
+    "file_offset": 64363,
+    "encoding": "ascii",
+    "text": "L$ SUVWH"
+  },
+  {
+    "file_offset": 64453,
+    "encoding": "ascii",
+    "text": "(_^]["
+  },
+  {
+    "file_offset": 64468,
+    "encoding": "ascii",
+    "text": "@SUVWATH"
+  },
+  {
+    "file_offset": 64830,
+    "encoding": "ascii",
+    "text": "D$PH;"
+  },
+  {
+    "file_offset": 64927,
+    "encoding": "ascii",
+    "text": "D$xH;"
+  },
+  {
+    "file_offset": 65389,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 65452,
+    "encoding": "ascii",
+    "text": "D$0H;"
+  },
+  {
+    "file_offset": 65488,
+    "encoding": "ascii",
+    "text": "T$HH;"
+  },
+  {
+    "file_offset": 65508,
+    "encoding": "ascii",
+    "text": "H9t$8t"
+  },
+  {
+    "file_offset": 65527,
+    "encoding": "ascii",
+    "text": "A\\_^]["
+  },
+  {
+    "file_offset": 66088,
+    "encoding": "ascii",
+    "text": "@WATAUH"
+  },
+  {
+    "file_offset": 66652,
+    "encoding": "ascii",
+    "text": "@A]A\\_"
+  },
+  {
+    "file_offset": 67630,
+    "encoding": "ascii",
+    "text": "|$PE3"
+  },
+  {
+    "file_offset": 68320,
+    "encoding": "ascii",
+    "text": "|$ AUH"
+  },
+  {
+    "file_offset": 68583,
+    "encoding": "ascii",
+    "text": "H!|$HH"
+  },
+  {
+    "file_offset": 68947,
+    "encoding": "ascii",
+    "text": "WATAWH"
+  },
+  {
+    "file_offset": 69034,
+    "encoding": "ascii",
+    "text": "H!D$hH!D$`H"
+  },
+  {
+    "file_offset": 69046,
+    "encoding": "ascii",
+    "text": "L$pE3"
+  },
+  {
+    "file_offset": 69667,
+    "encoding": "ascii",
+    "text": "A_A\\_"
+  },
+  {
+    "file_offset": 69683,
+    "encoding": "ascii",
+    "text": "SUVWATH"
+  },
+  {
+    "file_offset": 70147,
+    "encoding": "ascii",
+    "text": "pA\\_^]["
+  },
+  {
+    "file_offset": 70789,
+    "encoding": "ascii",
+    "text": "\\$JEk"
+  },
+  {
+    "file_offset": 72263,
+    "encoding": "ascii",
+    "text": "t fE9"
+  },
+  {
+    "file_offset": 72393,
+    "encoding": "ascii",
+    "text": "x AUH"
+  },
+  {
+    "file_offset": 72426,
+    "encoding": "ascii",
+    "text": "t fA9*u"
+  },
+  {
+    "file_offset": 72477,
+    "encoding": "ascii",
+    "text": "fA9*M"
+  },
+  {
+    "file_offset": 72499,
+    "encoding": "ascii",
+    "text": "fA9)t"
+  },
+  {
+    "file_offset": 72537,
+    "encoding": "ascii",
+    "text": "fA9)M"
+  },
+  {
+    "file_offset": 72664,
+    "encoding": "ascii",
+    "text": "L$ WH"
+  },
+  {
+    "file_offset": 72694,
+    "encoding": "ascii",
+    "text": "t fA9"
+  },
+  {
+    "file_offset": 72931,
+    "encoding": "ascii",
+    "text": "SUVWAUH"
+  },
+  {
+    "file_offset": 72946,
+    "encoding": "ascii",
+    "text": "H!x H!x"
+  },
+  {
+    "file_offset": 73656,
+    "encoding": "ascii",
+    "text": "@A]_^]["
+  },
+  {
+    "file_offset": 73675,
+    "encoding": "ascii",
+    "text": "SUWATAUAVAWH"
+  },
+  {
+    "file_offset": 75528,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_]["
+  },
+  {
+    "file_offset": 75563,
+    "encoding": "ascii",
+    "text": "ATAUAWH"
+  },
+  {
+    "file_offset": 75950,
+    "encoding": "ascii",
+    "text": "L$(E3"
+  },
+  {
+    "file_offset": 76099,
+    "encoding": "ascii",
+    "text": "0A_A]A\\"
+  },
+  {
+    "file_offset": 76119,
+    "encoding": "ascii",
+    "text": "ATAUAVH"
+  },
+  {
+    "file_offset": 76184,
+    "encoding": "ascii",
+    "text": "|$HH!|$P3"
+  },
+  {
+    "file_offset": 76196,
+    "encoding": "ascii",
+    "text": "\\$8H!\\$@L"
+  },
+  {
+    "file_offset": 77214,
+    "encoding": "ascii",
+    "text": "A^A]A\\"
+  },
+  {
+    "file_offset": 77709,
+    "encoding": "ascii",
+    "text": "x ATAUAVH"
+  },
+  {
+    "file_offset": 77757,
+    "encoding": "ascii",
+    "text": "t fE9*u"
+  },
+  {
+    "file_offset": 77806,
+    "encoding": "ascii",
+    "text": "fE9*L"
+  },
+  {
+    "file_offset": 77834,
+    "encoding": "ascii",
+    "text": "t'fD9*u"
+  },
+  {
+    "file_offset": 77883,
+    "encoding": "ascii",
+    "text": "fD9*H"
+  },
+  {
+    "file_offset": 77905,
+    "encoding": "ascii",
+    "text": "fE9)t"
+  },
+  {
+    "file_offset": 77940,
+    "encoding": "ascii",
+    "text": "fE9)H"
+  },
+  {
+    "file_offset": 78086,
+    "encoding": "ascii",
+    "text": "A^A]A\\"
+  },
+  {
+    "file_offset": 78112,
+    "encoding": "ascii",
+    "text": "L$ VWAUH"
+  },
+  {
+    "file_offset": 78151,
+    "encoding": "ascii",
+    "text": "t fA9)u"
+  },
+  {
+    "file_offset": 78203,
+    "encoding": "ascii",
+    "text": "fA9)M"
+  },
+  {
+    "file_offset": 78584,
+    "encoding": "ascii",
+    "text": "L$xHi"
+  },
+  {
+    "file_offset": 78991,
+    "encoding": "ascii",
+    "text": "SUVWATAUAVAWH"
+  },
+  {
+    "file_offset": 79273,
+    "encoding": "ascii",
+    "text": "t$HE3"
+  },
+  {
+    "file_offset": 79579,
+    "encoding": "ascii",
+    "text": "D$hI;"
+  },
+  {
+    "file_offset": 79753,
+    "encoding": "ascii",
+    "text": "T$hI;"
+  },
+  {
+    "file_offset": 79770,
+    "encoding": "ascii",
+    "text": "fD9!t"
+  },
+  {
+    "file_offset": 79979,
+    "encoding": "ascii",
+    "text": "D$xI;"
+  },
+  {
+    "file_offset": 80245,
+    "encoding": "ascii",
+    "text": "D$`E3"
+  },
+  {
+    "file_offset": 80426,
+    "encoding": "ascii",
+    "text": "D$`I;"
+  },
+  {
+    "file_offset": 80550,
+    "encoding": "ascii",
+    "text": "o4A+o$I"
+  },
+  {
+    "file_offset": 80985,
+    "encoding": "ascii",
+    "text": "L;t$@"
+  },
+  {
+    "file_offset": 81075,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 81098,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 81179,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 81289,
+    "encoding": "ascii",
+    "text": "D$PE3"
+  },
+  {
+    "file_offset": 81314,
+    "encoding": "ascii",
+    "text": "D$PfD"
+  },
+  {
+    "file_offset": 81856,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 81937,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 82018,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 82099,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 82180,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 82261,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 82392,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 82473,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 82499,
+    "encoding": "ascii",
+    "text": "L9T$@"
+  },
+  {
+    "file_offset": 83088,
+    "encoding": "ascii",
+    "text": "L;d$@s$"
+  },
+  {
+    "file_offset": 83107,
+    "encoding": "ascii",
+    "text": "|$@E3"
+  },
+  {
+    "file_offset": 83298,
+    "encoding": "ascii",
+    "text": "fD;!t;A"
+  },
+  {
+    "file_offset": 83819,
+    "encoding": "ascii",
+    "text": "T$PI;"
+  },
+  {
+    "file_offset": 83914,
+    "encoding": "ascii",
+    "text": "t$HE3"
+  },
+  {
+    "file_offset": 84011,
+    "encoding": "ascii",
+    "text": "L$PI;"
+  },
+  {
+    "file_offset": 84031,
+    "encoding": "ascii",
+    "text": "L$XI;"
+  },
+  {
+    "file_offset": 84074,
+    "encoding": "ascii",
+    "text": "L$`I;"
+  },
+  {
+    "file_offset": 84094,
+    "encoding": "ascii",
+    "text": "L$hI;"
+  },
+  {
+    "file_offset": 84137,
+    "encoding": "ascii",
+    "text": "L$xI;"
+  },
+  {
+    "file_offset": 84199,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_^]["
+  },
+  {
+    "file_offset": 84223,
+    "encoding": "ascii",
+    "text": "VWAUH"
+  },
+  {
+    "file_offset": 84595,
+    "encoding": "ascii",
+    "text": "L$0E3"
+  },
+  {
+    "file_offset": 85073,
+    "encoding": "ascii",
+    "text": "L$8H;"
+  },
+  {
+    "file_offset": 85093,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 85113,
+    "encoding": "ascii",
+    "text": "L$HH;"
+  },
+  {
+    "file_offset": 85135,
+    "encoding": "ascii",
+    "text": "L$`H;"
+  },
+  {
+    "file_offset": 85187,
+    "encoding": "ascii",
+    "text": "VWATAUAWH"
+  },
+  {
+    "file_offset": 85290,
+    "encoding": "ascii",
+    "text": "D$XxV4"
+  },
+  {
+    "file_offset": 86360,
+    "encoding": "ascii",
+    "text": "D;d$H"
+  },
+  {
+    "file_offset": 86759,
+    "encoding": "ascii",
+    "text": "A_A]A\\_^"
+  },
+  {
+    "file_offset": 86920,
+    "encoding": "ascii",
+    "text": "@SUVWATH"
+  },
+  {
+    "file_offset": 87334,
+    "encoding": "ascii",
+    "text": "L$0H;"
+  },
+  {
+    "file_offset": 87565,
+    "encoding": "ascii",
+    "text": "L$0H;"
+  },
+  {
+    "file_offset": 87795,
+    "encoding": "ascii",
+    "text": "L$0H;"
+  },
+  {
+    "file_offset": 88025,
+    "encoding": "ascii",
+    "text": "L$0H;"
+  },
+  {
+    "file_offset": 88175,
+    "encoding": "ascii",
+    "text": "L$0H;"
+  },
+  {
+    "file_offset": 88236,
+    "encoding": "ascii",
+    "text": "A\\_^]["
+  },
+  {
+    "file_offset": 88961,
+    "encoding": "ascii",
+    "text": "L$hH3"
+  },
+  {
+    "file_offset": 89027,
+    "encoding": "ascii",
+    "text": "UVWATAUAVAWH"
+  },
+  {
+    "file_offset": 90094,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_^]"
+  },
+  {
+    "file_offset": 90112,
+    "encoding": "ascii",
+    "text": "@SUVWAUH"
+  },
+  {
+    "file_offset": 90875,
+    "encoding": "ascii",
+    "text": "PA]_^]["
+  },
+  {
+    "file_offset": 91140,
+    "encoding": "ascii",
+    "text": "(D$0f"
+  },
+  {
+    "file_offset": 91201,
+    "encoding": "ascii",
+    "text": "L$@H3"
+  },
+  {
+    "file_offset": 91335,
+    "encoding": "ascii",
+    "text": "l$ VWATAVAWH"
+  },
+  {
+    "file_offset": 91464,
+    "encoding": "ascii",
+    "text": "d$`;|$Pv"
+  },
+  {
+    "file_offset": 91585,
+    "encoding": "ascii",
+    "text": "9D$Pw"
+  },
+  {
+    "file_offset": 91722,
+    "encoding": "ascii",
+    "text": " A_A^A\\_^"
+  },
+  {
+    "file_offset": 92416,
+    "encoding": "ascii",
+    "text": "D$ E3"
+  },
+  {
+    "file_offset": 93150,
+    "encoding": "ascii",
+    "text": "(D$`f"
+  },
+  {
+    "file_offset": 93380,
+    "encoding": "ascii",
+    "text": "(D$`f"
+  },
+  {
+    "file_offset": 94168,
+    "encoding": "ascii",
+    "text": "@SUVATAUAVAWH"
+  },
+  {
+    "file_offset": 94306,
+    "encoding": "ascii",
+    "text": ";\\$pv"
+  },
+  {
+    "file_offset": 94450,
+    "encoding": "ascii",
+    "text": "9D$pw"
+  },
+  {
+    "file_offset": 94459,
+    "encoding": "ascii",
+    "text": "9L$pv3"
+  },
+  {
+    "file_offset": 94724,
+    "encoding": "ascii",
+    "text": "0A_A^A]A\\^]["
+  },
+  {
+    "file_offset": 95359,
+    "encoding": "ascii",
+    "text": "VWATAUAVH"
+  },
+  {
+    "file_offset": 95655,
+    "encoding": "ascii",
+    "text": "(D$0f"
+  },
+  {
+    "file_offset": 96403,
+    "encoding": "ascii",
+    "text": "A^A]A\\_^"
+  },
+  {
+    "file_offset": 96543,
+    "encoding": "ascii",
+    "text": "UVWAUAVH"
+  },
+  {
+    "file_offset": 96641,
+    "encoding": "ascii",
+    "text": "H!l$0E3"
+  },
+  {
+    "file_offset": 97323,
+    "encoding": "ascii",
+    "text": "PA^A]_^]"
+  },
+  {
+    "file_offset": 97343,
+    "encoding": "ascii",
+    "text": "VWAUAVAWH"
+  },
+  {
+    "file_offset": 97483,
+    "encoding": "ascii",
+    "text": "l$hE3"
+  },
+  {
+    "file_offset": 98062,
+    "encoding": "ascii",
+    "text": "l$ E3"
+  },
+  {
+    "file_offset": 98164,
+    "encoding": "ascii",
+    "text": "L$`H;"
+  },
+  {
+    "file_offset": 98181,
+    "encoding": "ascii",
+    "text": "L$XH;"
+  },
+  {
+    "file_offset": 98569,
+    "encoding": "ascii",
+    "text": "H9l$ht"
+  },
+  {
+    "file_offset": 98617,
+    "encoding": "ascii",
+    "text": "A_A^A]_^"
+  },
+  {
+    "file_offset": 98919,
+    "encoding": "ascii",
+    "text": "VWAUH"
+  },
+  {
+    "file_offset": 99042,
+    "encoding": "ascii",
+    "text": "C\\$@L"
+  },
+  {
+    "file_offset": 99222,
+    "encoding": "ascii",
+    "text": "L$`H3"
+  },
+  {
+    "file_offset": 99340,
+    "encoding": "ascii",
+    "text": "CL$@L"
+  },
+  {
+    "file_offset": 99466,
+    "encoding": "ascii",
+    "text": "L$`H3"
+  },
+  {
+    "file_offset": 100163,
+    "encoding": "ascii",
+    "text": "VWATH"
+  },
+  {
+    "file_offset": 100527,
+    "encoding": "ascii",
+    "text": "@A\\_^"
+  },
+  {
+    "file_offset": 100799,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 101166,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 101195,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 101394,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 101423,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 101626,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 101657,
+    "encoding": "ascii",
+    "text": "x ATH"
+  },
+  {
+    "file_offset": 101851,
+    "encoding": "ascii",
+    "text": "WATAUAVAWH"
+  },
+  {
+    "file_offset": 102320,
+    "encoding": "ascii",
+    "text": "0A_A^A]A\\_"
+  },
+  {
+    "file_offset": 102383,
+    "encoding": "ascii",
+    "text": "H9w s"
+  },
+  {
+    "file_offset": 102479,
+    "encoding": "ascii",
+    "text": "WATAUAVAWH"
+  },
+  {
+    "file_offset": 102604,
+    "encoding": "ascii",
+    "text": "L$pL9"
+  },
+  {
+    "file_offset": 103207,
+    "encoding": "ascii",
+    "text": "L$pH+"
+  },
+  {
+    "file_offset": 103350,
+    "encoding": "ascii",
+    "text": " A_A^A]A\\_"
+  },
+  {
+    "file_offset": 103383,
+    "encoding": "ascii",
+    "text": "SVWATAUH"
+  },
+  {
+    "file_offset": 103699,
+    "encoding": "ascii",
+    "text": "`A]A\\_^["
+  },
+  {
+    "file_offset": 103900,
+    "encoding": "ascii",
+    "text": "@SUWATAUAVAWH"
+  },
+  {
+    "file_offset": 104195,
+    "encoding": "ascii",
+    "text": "L$0I;"
+  },
+  {
+    "file_offset": 104298,
+    "encoding": "ascii",
+    "text": "L$8I;"
+  },
+  {
+    "file_offset": 104313,
+    "encoding": "ascii",
+    "text": "L$0I;"
+  },
+  {
+    "file_offset": 104345,
+    "encoding": "ascii",
+    "text": "L$0I;"
+  },
+  {
+    "file_offset": 104969,
+    "encoding": "ascii",
+    "text": "`A_A^A]A\\_]["
+  },
+  {
+    "file_offset": 105281,
+    "encoding": "ascii",
+    "text": "x ATH"
+  },
+  {
+    "file_offset": 105978,
+    "encoding": "ascii",
+    "text": "VWATH"
+  },
+  {
+    "file_offset": 106082,
+    "encoding": "ascii",
+    "text": "f9+tRI;"
+  },
+  {
+    "file_offset": 106154,
+    "encoding": "ascii",
+    "text": "Kf9+u"
+  },
+  {
+    "file_offset": 106620,
+    "encoding": "ascii",
+    "text": "D$0E3"
+  },
+  {
+    "file_offset": 106879,
+    "encoding": "ascii",
+    "text": "SUVWH"
+  },
+  {
+    "file_offset": 107076,
+    "encoding": "ascii",
+    "text": "L$0H;"
+  },
+  {
+    "file_offset": 107201,
+    "encoding": "ascii",
+    "text": "T$HH;"
+  },
+  {
+    "file_offset": 107979,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 108300,
+    "encoding": "ascii",
+    "text": "0A]A\\_"
+  },
+  {
+    "file_offset": 108335,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 109044,
+    "encoding": "ascii",
+    "text": "(t$@f"
+  },
+  {
+    "file_offset": 109477,
+    "encoding": "ascii",
+    "text": "A]A\\_"
+  },
+  {
+    "file_offset": 109723,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 109759,
+    "encoding": "ascii",
+    "text": "H!X H!X"
+  },
+  {
+    "file_offset": 109792,
+    "encoding": "ascii",
+    "text": "|$0E3"
+  },
+  {
+    "file_offset": 110774,
+    "encoding": "ascii",
+    "text": "PA]A\\_"
+  },
+  {
+    "file_offset": 110913,
+    "encoding": "ascii",
+    "text": "(D$ f"
+  },
+  {
+    "file_offset": 110944,
+    "encoding": "ascii",
+    "text": "L$0H3"
+  },
+  {
+    "file_offset": 112163,
+    "encoding": "ascii",
+    "text": "VWATH"
+  },
+  {
+    "file_offset": 113039,
+    "encoding": "ascii",
+    "text": "VATAUH"
+  },
+  {
+    "file_offset": 113926,
+    "encoding": "ascii",
+    "text": "A]A\\^"
+  },
+  {
+    "file_offset": 115004,
+    "encoding": "ascii",
+    "text": "@SUVWATAUAVH"
+  },
+  {
+    "file_offset": 116477,
+    "encoding": "ascii",
+    "text": "pA^A]A\\_^]["
+  },
+  {
+    "file_offset": 116499,
+    "encoding": "ascii",
+    "text": "WATAUAVAWH"
+  },
+  {
+    "file_offset": 117007,
+    "encoding": "ascii",
+    "text": "L$PI;"
+  },
+  {
+    "file_offset": 118309,
+    "encoding": "ascii",
+    "text": "L$HE3"
+  },
+  {
+    "file_offset": 118326,
+    "encoding": "ascii",
+    "text": "d$HI;"
+  },
+  {
+    "file_offset": 118551,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_"
+  },
+  {
+    "file_offset": 118674,
+    "encoding": "ascii",
+    "text": "D$0L;"
+  },
+  {
+    "file_offset": 118823,
+    "encoding": "ascii",
+    "text": "VWATAUAVH"
+  },
+  {
+    "file_offset": 119670,
+    "encoding": "ascii",
+    "text": "A^A]A\\_^"
+  },
+  {
+    "file_offset": 119832,
+    "encoding": "ascii",
+    "text": "H9w s"
+  },
+  {
+    "file_offset": 120659,
+    "encoding": "ascii",
+    "text": "SVWATH"
+  },
+  {
+    "file_offset": 120959,
+    "encoding": "ascii",
+    "text": "hA\\_^["
+  },
+  {
+    "file_offset": 120989,
+    "encoding": "ascii",
+    "text": "x ATH"
+  },
+  {
+    "file_offset": 121086,
+    "encoding": "ascii",
+    "text": "H9{ s"
+  },
+  {
+    "file_offset": 122635,
+    "encoding": "ascii",
+    "text": "SVWATAUH"
+  },
+  {
+    "file_offset": 122861,
+    "encoding": "ascii",
+    "text": "D$0H;"
+  },
+  {
+    "file_offset": 123019,
+    "encoding": "ascii",
+    "text": "PA]A\\_^["
+  },
+  {
+    "file_offset": 123276,
+    "encoding": "ascii",
+    "text": "@VWATH"
+  },
+  {
+    "file_offset": 123443,
+    "encoding": "ascii",
+    "text": "0A\\_^"
+  },
+  {
+    "file_offset": 123555,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 123609,
+    "encoding": "ascii",
+    "text": "fD9(u"
+  },
+  {
+    "file_offset": 123632,
+    "encoding": "ascii",
+    "text": "fD9(u"
+  },
+  {
+    "file_offset": 123726,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 123747,
+    "encoding": "ascii",
+    "text": "UVWATAUAVAWH"
+  },
+  {
+    "file_offset": 123946,
+    "encoding": "ascii",
+    "text": "L$0H;"
+  },
+  {
+    "file_offset": 124099,
+    "encoding": "ascii",
+    "text": "t$8@8"
+  },
+  {
+    "file_offset": 124694,
+    "encoding": "ascii",
+    "text": "`A_A^A]A\\_^]"
+  },
+  {
+    "file_offset": 124723,
+    "encoding": "ascii",
+    "text": "H;J r"
+  },
+  {
+    "file_offset": 124796,
+    "encoding": "ascii",
+    "text": "t$ WATAUH"
+  },
+  {
+    "file_offset": 124849,
+    "encoding": "ascii",
+    "text": "H!\\$@H"
+  },
+  {
+    "file_offset": 124969,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 124989,
+    "encoding": "ascii",
+    "text": "SUVWAUAVAWH"
+  },
+  {
+    "file_offset": 125195,
+    "encoding": "ascii",
+    "text": "t$pE2"
+  },
+  {
+    "file_offset": 125447,
+    "encoding": "ascii",
+    "text": " A_A^A]_^]["
+  },
+  {
+    "file_offset": 125855,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 126074,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 126093,
+    "encoding": "ascii",
+    "text": "UVWATAUAVAWH"
+  },
+  {
+    "file_offset": 126162,
+    "encoding": "ascii",
+    "text": "A0H+A(H"
+  },
+  {
+    "file_offset": 126198,
+    "encoding": "ascii",
+    "text": "I0H+N(H"
+  },
+  {
+    "file_offset": 126370,
+    "encoding": "ascii",
+    "text": "A@H;AHs"
+  },
+  {
+    "file_offset": 126418,
+    "encoding": "ascii",
+    "text": "0J;\\0"
+  },
+  {
+    "file_offset": 126519,
+    "encoding": "ascii",
+    "text": "L#n@L;"
+  },
+  {
+    "file_offset": 126710,
+    "encoding": "ascii",
+    "text": "F(J;\\0"
+  },
+  {
+    "file_offset": 126788,
+    "encoding": "ascii",
+    "text": "F(H;<"
+  },
+  {
+    "file_offset": 126857,
+    "encoding": "ascii",
+    "text": "F(H;<"
+  },
+  {
+    "file_offset": 126883,
+    "encoding": "ascii",
+    "text": "F(H;<"
+  },
+  {
+    "file_offset": 126912,
+    "encoding": "ascii",
+    "text": "0A_A^A]A\\_^]"
+  },
+  {
+    "file_offset": 126944,
+    "encoding": "ascii",
+    "text": "t$ WATAUH"
+  },
+  {
+    "file_offset": 127052,
+    "encoding": "ascii",
+    "text": "H9FHw"
+  },
+  {
+    "file_offset": 127085,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 127259,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 127455,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 127511,
+    "encoding": "ascii",
+    "text": "H9w s"
+  },
+  {
+    "file_offset": 127787,
+    "encoding": "ascii",
+    "text": "SVWATAUH"
+  },
+  {
+    "file_offset": 128685,
+    "encoding": "ascii",
+    "text": "A]A\\_^["
+  },
+  {
+    "file_offset": 128717,
+    "encoding": "ascii",
+    "text": "x ATH"
+  },
+  {
+    "file_offset": 129743,
+    "encoding": "ascii",
+    "text": "t fE9"
+  },
+  {
+    "file_offset": 131551,
+    "encoding": "ascii",
+    "text": "l$ VWATH"
+  },
+  {
+    "file_offset": 131627,
+    "encoding": "ascii",
+    "text": "|$ H;"
+  },
+  {
+    "file_offset": 131722,
+    "encoding": "ascii",
+    "text": "|$ H;"
+  },
+  {
+    "file_offset": 132090,
+    "encoding": "ascii",
+    "text": "\\$ UVWATAUAVAWH"
+  },
+  {
+    "file_offset": 132572,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_^]"
+  },
+  {
+    "file_offset": 133242,
+    "encoding": "ascii",
+    "text": "tWfA9DP"
+  },
+  {
+    "file_offset": 133256,
+    "encoding": "ascii",
+    "text": "tGfA9DP"
+  },
+  {
+    "file_offset": 133299,
+    "encoding": "ascii",
+    "text": "fA9DP"
+  },
+  {
+    "file_offset": 133391,
+    "encoding": "ascii",
+    "text": "t*f9lz"
+  },
+  {
+    "file_offset": 133658,
+    "encoding": "ascii",
+    "text": "v&f9|Z"
+  },
+  {
+    "file_offset": 133710,
+    "encoding": "ascii",
+    "text": "vSf9|Z"
+  },
+  {
+    "file_offset": 134333,
+    "encoding": "ascii",
+    "text": "SVWATAUAVAWH"
+  },
+  {
+    "file_offset": 134356,
+    "encoding": "ascii",
+    "text": "H9Q u"
+  },
+  {
+    "file_offset": 134859,
+    "encoding": "ascii",
+    "text": "PA_A^A]A\\_^["
+  },
+  {
+    "file_offset": 134967,
+    "encoding": "ascii",
+    "text": "VWATH"
+  },
+  {
+    "file_offset": 135079,
+    "encoding": "ascii",
+    "text": "H!_ H"
+  },
+  {
+    "file_offset": 135202,
+    "encoding": "ascii",
+    "text": " A\\_^"
+  },
+  {
+    "file_offset": 135231,
+    "encoding": "ascii",
+    "text": "VWATAUAWH"
+  },
+  {
+    "file_offset": 135274,
+    "encoding": "ascii",
+    "text": "T$@H;"
+  },
+  {
+    "file_offset": 135305,
+    "encoding": "ascii",
+    "text": "A_A]A\\_^"
+  },
+  {
+    "file_offset": 135753,
+    "encoding": "ascii",
+    "text": "s WATAUAVAWH"
+  },
+  {
+    "file_offset": 135918,
+    "encoding": "ascii",
+    "text": "|$@H;{(v<H"
+  },
+  {
+    "file_offset": 135995,
+    "encoding": "ascii",
+    "text": "H;{8v,H"
+  },
+  {
+    "file_offset": 136190,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_"
+  },
+  {
+    "file_offset": 136311,
+    "encoding": "ascii",
+    "text": "VWATH"
+  },
+  {
+    "file_offset": 136434,
+    "encoding": "ascii",
+    "text": "H!{ H"
+  },
+  {
+    "file_offset": 136502,
+    "encoding": "ascii",
+    "text": "H!{0H"
+  },
+  {
+    "file_offset": 136611,
+    "encoding": "ascii",
+    "text": " A\\_^"
+  },
+  {
+    "file_offset": 137339,
+    "encoding": "ascii",
+    "text": "SVWATAUAVH"
+  },
+  {
+    "file_offset": 137923,
+    "encoding": "ascii",
+    "text": "A^A]A\\_^["
+  },
+  {
+    "file_offset": 138813,
+    "encoding": "ascii",
+    "text": "D$0`*$!"
+  },
+  {
+    "file_offset": 138881,
+    "encoding": "ascii",
+    "text": "(D$0f"
+  },
+  {
+    "file_offset": 138977,
+    "encoding": "ascii",
+    "text": "L$@H3"
+  },
+  {
+    "file_offset": 139008,
+    "encoding": "ascii",
+    "text": "@SVWH"
+  },
+  {
+    "file_offset": 139219,
+    "encoding": "ascii",
+    "text": "L$`H;"
+  },
+  {
+    "file_offset": 139254,
+    "encoding": "ascii",
+    "text": "L$`H;"
+  },
+  {
+    "file_offset": 139294,
+    "encoding": "ascii",
+    "text": "L$pH3"
+  },
+  {
+    "file_offset": 139444,
+    "encoding": "ascii",
+    "text": "@VWATH"
+  },
+  {
+    "file_offset": 139930,
+    "encoding": "ascii",
+    "text": "0A\\_^"
+  },
+  {
+    "file_offset": 140463,
+    "encoding": "ascii",
+    "text": "L$ SVWH"
+  },
+  {
+    "file_offset": 140597,
+    "encoding": "ascii",
+    "text": "x ATH"
+  },
+  {
+    "file_offset": 140787,
+    "encoding": "ascii",
+    "text": "WATAUAVAWH"
+  },
+  {
+    "file_offset": 140933,
+    "encoding": "ascii",
+    "text": "H!\\$8H!\\$0E"
+  },
+  {
+    "file_offset": 141033,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_"
+  },
+  {
+    "file_offset": 141069,
+    "encoding": "ascii",
+    "text": "x ATAUAVH"
+  },
+  {
+    "file_offset": 141303,
+    "encoding": "ascii",
+    "text": "0A^A]A\\"
+  },
+  {
+    "file_offset": 141449,
+    "encoding": "ascii",
+    "text": "t$PHc"
+  },
+  {
+    "file_offset": 141867,
+    "encoding": "ascii",
+    "text": "WAUAVH"
+  },
+  {
+    "file_offset": 142112,
+    "encoding": "ascii",
+    "text": "fD96t"
+  },
+  {
+    "file_offset": 142121,
+    "encoding": "ascii",
+    "text": "fD90u"
+  },
+  {
+    "file_offset": 142171,
+    "encoding": "ascii",
+    "text": "L9t$ t"
+  },
+  {
+    "file_offset": 142208,
+    "encoding": "ascii",
+    "text": "@A^A]_"
+  },
+  {
+    "file_offset": 142319,
+    "encoding": "ascii",
+    "text": "ATAUAVH"
+  },
+  {
+    "file_offset": 142407,
+    "encoding": "ascii",
+    "text": "t$0E3"
+  },
+  {
+    "file_offset": 142610,
+    "encoding": "ascii",
+    "text": "L9t$Ht"
+  },
+  {
+    "file_offset": 142653,
+    "encoding": "ascii",
+    "text": "A^A]A\\"
+  },
+  {
+    "file_offset": 142680,
+    "encoding": "ascii",
+    "text": "t$ WATAUH"
+  },
+  {
+    "file_offset": 143123,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 143149,
+    "encoding": "ascii",
+    "text": "p WATAUH"
+  },
+  {
+    "file_offset": 143259,
+    "encoding": "ascii",
+    "text": "fD9'uO"
+  },
+  {
+    "file_offset": 143334,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 143418,
+    "encoding": "ascii",
+    "text": "\\$ UVWATAUH"
+  },
+  {
+    "file_offset": 143469,
+    "encoding": "ascii",
+    "text": "H!|$xH!"
+  },
+  {
+    "file_offset": 143482,
+    "encoding": "ascii",
+    "text": "!|$pL"
+  },
+  {
+    "file_offset": 143794,
+    "encoding": "ascii",
+    "text": "L$pH+"
+  },
+  {
+    "file_offset": 144764,
+    "encoding": "ascii",
+    "text": "A]A\\_^]"
+  },
+  {
+    "file_offset": 145199,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 145645,
+    "encoding": "ascii",
+    "text": "H96tCL"
+  },
+  {
+    "file_offset": 145816,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 147177,
+    "encoding": "ascii",
+    "text": "D$ I;"
+  },
+  {
+    "file_offset": 148112,
+    "encoding": "ascii",
+    "text": "HcH<H"
+  },
+  {
+    "file_offset": 148160,
+    "encoding": "ascii",
+    "text": "LcA<E3"
+  },
+  {
+    "file_offset": 148529,
+    "encoding": "ascii",
+    "text": "u*9Q<|%"
+  },
+  {
+    "file_offset": 148545,
+    "encoding": "ascii",
+    "text": "HcA<H"
+  },
+  {
+    "file_offset": 148635,
+    "encoding": "ascii",
+    "text": "f9H\\u"
+  },
+  {
+    "file_offset": 148787,
+    "encoding": "ascii",
+    "text": "\\$8L3"
+  },
+  {
+    "file_offset": 148894,
+    "encoding": "ascii",
+    "text": "\\$XE3"
+  },
+  {
+    "file_offset": 149749,
+    "encoding": "ascii",
+    "text": "x ATH"
+  },
+  {
+    "file_offset": 174058,
+    "encoding": "ascii",
+    "text": "TraceEvent"
+  },
+  {
+    "file_offset": 174072,
+    "encoding": "ascii",
+    "text": "GetTraceLoggerHandle"
+  },
+  {
+    "file_offset": 174096,
+    "encoding": "ascii",
+    "text": "GetTraceEnableLevel"
+  },
+  {
+    "file_offset": 174118,
+    "encoding": "ascii",
+    "text": "GetTraceEnableFlags"
+  },
+  {
+    "file_offset": 174140,
+    "encoding": "ascii",
+    "text": "RegisterTraceGuidsW"
+  },
+  {
+    "file_offset": 174162,
+    "encoding": "ascii",
+    "text": "UnregisterTraceGuids"
+  },
+  {
+    "file_offset": 174186,
+    "encoding": "ascii",
+    "text": "FreeSid"
+  },
+  {
+    "file_offset": 174196,
+    "encoding": "ascii",
+    "text": "LogonUserW"
+  },
+  {
+    "file_offset": 174210,
+    "encoding": "ascii",
+    "text": "OpenProcessToken"
+  },
+  {
+    "file_offset": 174230,
+    "encoding": "ascii",
+    "text": "GetUserNameW"
+  },
+  {
+    "file_offset": 174246,
+    "encoding": "ascii",
+    "text": "CreateProcessAsUserW"
+  },
+  {
+    "file_offset": 174270,
+    "encoding": "ascii",
+    "text": "CreateRestrictedToken"
+  },
+  {
+    "file_offset": 174294,
+    "encoding": "ascii",
+    "text": "RegCloseKey"
+  },
+  {
+    "file_offset": 174308,
+    "encoding": "ascii",
+    "text": "ReadEventLogW"
+  },
+  {
+    "file_offset": 174324,
+    "encoding": "ascii",
+    "text": "RegOpenKeyExW"
+  },
+  {
+    "file_offset": 174340,
+    "encoding": "ascii",
+    "text": "RegQueryValueExW"
+  },
+  {
+    "file_offset": 174360,
+    "encoding": "ascii",
+    "text": "OpenEventLogW"
+  },
+  {
+    "file_offset": 174376,
+    "encoding": "ascii",
+    "text": "GetOldestEventLogRecord"
+  },
+  {
+    "file_offset": 174402,
+    "encoding": "ascii",
+    "text": "GetNumberOfEventLogRecords"
+  },
+  {
+    "file_offset": 174432,
+    "encoding": "ascii",
+    "text": "CloseEventLog"
+  },
+  {
+    "file_offset": 174448,
+    "encoding": "ascii",
+    "text": "OpenSCManagerW"
+  },
+  {
+    "file_offset": 174466,
+    "encoding": "ascii",
+    "text": "OpenServiceW"
+  },
+  {
+    "file_offset": 174482,
+    "encoding": "ascii",
+    "text": "QueryServiceStatusEx"
+  },
+  {
+    "file_offset": 174506,
+    "encoding": "ascii",
+    "text": "CloseServiceHandle"
+  },
+  {
+    "file_offset": 174526,
+    "encoding": "ascii",
+    "text": "ADVAPI32.dll"
+  },
+  {
+    "file_offset": 174542,
+    "encoding": "ascii",
+    "text": "FreeLibrary"
+  },
+  {
+    "file_offset": 174556,
+    "encoding": "ascii",
+    "text": "LocalAlloc"
+  },
+  {
+    "file_offset": 174570,
+    "encoding": "ascii",
+    "text": "LocalFree"
+  },
+  {
+    "file_offset": 174582,
+    "encoding": "ascii",
+    "text": "LoadLibraryW"
+  },
+  {
+    "file_offset": 174598,
+    "encoding": "ascii",
+    "text": "GetProcAddress"
+  },
+  {
+    "file_offset": 174616,
+    "encoding": "ascii",
+    "text": "SetErrorMode"
+  },
+  {
+    "file_offset": 174632,
+    "encoding": "ascii",
+    "text": "FormatMessageW"
+  },
+  {
+    "file_offset": 174650,
+    "encoding": "ascii",
+    "text": "GetLastError"
+  },
+  {
+    "file_offset": 174666,
+    "encoding": "ascii",
+    "text": "SetLastError"
+  },
+  {
+    "file_offset": 174682,
+    "encoding": "ascii",
+    "text": "GetDateFormatW"
+  },
+  {
+    "file_offset": 174700,
+    "encoding": "ascii",
+    "text": "GetTimeFormatW"
+  },
+  {
+    "file_offset": 174718,
+    "encoding": "ascii",
+    "text": "GetLocalTime"
+  },
+  {
+    "file_offset": 174734,
+    "encoding": "ascii",
+    "text": "GetCommandLineW"
+  },
+  {
+    "file_offset": 174752,
+    "encoding": "ascii",
+    "text": "GetTickCount"
+  },
+  {
+    "file_offset": 174768,
+    "encoding": "ascii",
+    "text": "CloseHandle"
+  },
+  {
+    "file_offset": 174782,
+    "encoding": "ascii",
+    "text": "SetEvent"
+  },
+  {
+    "file_offset": 174794,
+    "encoding": "ascii",
+    "text": "GetCurrentProcess"
+  },
+  {
+    "file_offset": 174814,
+    "encoding": "ascii",
+    "text": "WaitForSingleObject"
+  },
+  {
+    "file_offset": 174836,
+    "encoding": "ascii",
+    "text": "TerminateProcess"
+  },
+  {
+    "file_offset": 174856,
+    "encoding": "ascii",
+    "text": "GetSystemTime"
+  },
+  {
+    "file_offset": 174872,
+    "encoding": "ascii",
+    "text": "CreateFileW"
+  },
+  {
+    "file_offset": 174886,
+    "encoding": "ascii",
+    "text": "DeleteTimerQueueTimer"
+  },
+  {
+    "file_offset": 174910,
+    "encoding": "ascii",
+    "text": "CreateDirectoryW"
+  },
+  {
+    "file_offset": 174930,
+    "encoding": "ascii",
+    "text": "CopyFileW"
+  },
+  {
+    "file_offset": 174942,
+    "encoding": "ascii",
+    "text": "FindFirstFileW"
+  },
+  {
+    "file_offset": 174960,
+    "encoding": "ascii",
+    "text": "FindNextFileW"
+  },
+  {
+    "file_offset": 174976,
+    "encoding": "ascii",
+    "text": "FindClose"
+  },
+  {
+    "file_offset": 174988,
+    "encoding": "ascii",
+    "text": "FileTimeToLocalFileTime"
+  },
+  {
+    "file_offset": 175014,
+    "encoding": "ascii",
+    "text": "FileTimeToSystemTime"
+  },
+  {
+    "file_offset": 175038,
+    "encoding": "ascii",
+    "text": "ExpandEnvironmentStringsW"
+  },
+  {
+    "file_offset": 175066,
+    "encoding": "ascii",
+    "text": "LoadLibraryExW"
+  },
+  {
+    "file_offset": 175084,
+    "encoding": "ascii",
+    "text": "Sleep"
+  },
+  {
+    "file_offset": 175090,
+    "encoding": "ascii",
+    "text": "KERNEL32.dll"
+  },
+  {
+    "file_offset": 175106,
+    "encoding": "ascii",
+    "text": "wprintf"
+  },
+  {
+    "file_offset": 175116,
+    "encoding": "ascii",
+    "text": "printf"
+  },
+  {
+    "file_offset": 175126,
+    "encoding": "ascii",
+    "text": "_wcsicmp"
+  },
+  {
+    "file_offset": 175138,
+    "encoding": "ascii",
+    "text": "_vsnwprintf"
+  },
+  {
+    "file_offset": 175152,
+    "encoding": "ascii",
+    "text": "wcschr"
+  },
+  {
+    "file_offset": 175162,
+    "encoding": "ascii",
+    "text": "wcsstr"
+  },
+  {
+    "file_offset": 175172,
+    "encoding": "ascii",
+    "text": "vwprintf"
+  },
+  {
+    "file_offset": 175184,
+    "encoding": "ascii",
+    "text": "iswprint"
+  },
+  {
+    "file_offset": 175196,
+    "encoding": "ascii",
+    "text": "swscanf_s"
+  },
+  {
+    "file_offset": 175208,
+    "encoding": "ascii",
+    "text": "wcstoul"
+  },
+  {
+    "file_offset": 175218,
+    "encoding": "ascii",
+    "text": "_getch"
+  },
+  {
+    "file_offset": 175228,
+    "encoding": "ascii",
+    "text": "_purecall"
+  },
+  {
+    "file_offset": 175240,
+    "encoding": "ascii",
+    "text": "memcpy_s"
+  },
+  {
+    "file_offset": 175252,
+    "encoding": "ascii",
+    "text": "memmove_s"
+  },
+  {
+    "file_offset": 175264,
+    "encoding": "ascii",
+    "text": "swscanf"
+  },
+  {
+    "file_offset": 175274,
+    "encoding": "ascii",
+    "text": "??0exception@@QEAA@AEBV0@@Z"
+  },
+  {
+    "file_offset": 175304,
+    "encoding": "ascii",
+    "text": "??1exception@@UEAA@XZ"
+  },
+  {
+    "file_offset": 175328,
+    "encoding": "ascii",
+    "text": "?what@exception@@UEBAPEBDXZ"
+  },
+  {
+    "file_offset": 175358,
+    "encoding": "ascii",
+    "text": "??0exception@@QEAA@AEBQEBD@Z"
+  },
+  {
+    "file_offset": 175390,
+    "encoding": "ascii",
+    "text": "??0exception@@QEAA@XZ"
+  },
+  {
+    "file_offset": 175422,
+    "encoding": "ascii",
+    "text": "malloc"
+  },
+  {
+    "file_offset": 175432,
+    "encoding": "ascii",
+    "text": "??0exception@@QEAA@AEBQEBDH@Z"
+  },
+  {
+    "file_offset": 175464,
+    "encoding": "ascii",
+    "text": "_CxxThrowException"
+  },
+  {
+    "file_offset": 175486,
+    "encoding": "ascii",
+    "text": "__CxxFrameHandler3"
+  },
+  {
+    "file_offset": 175508,
+    "encoding": "ascii",
+    "text": "__wgetmainargs"
+  },
+  {
+    "file_offset": 175526,
+    "encoding": "ascii",
+    "text": "__C_specific_handler"
+  },
+  {
+    "file_offset": 175550,
+    "encoding": "ascii",
+    "text": "_XcptFilter"
+  },
+  {
+    "file_offset": 175564,
+    "encoding": "ascii",
+    "text": "_exit"
+  },
+  {
+    "file_offset": 175572,
+    "encoding": "ascii",
+    "text": "_cexit"
+  },
+  {
+    "file_offset": 175590,
+    "encoding": "ascii",
+    "text": "_initterm"
+  },
+  {
+    "file_offset": 175602,
+    "encoding": "ascii",
+    "text": "_amsg_exit"
+  },
+  {
+    "file_offset": 175616,
+    "encoding": "ascii",
+    "text": "__setusermatherr"
+  },
+  {
+    "file_offset": 175636,
+    "encoding": "ascii",
+    "text": "_commode"
+  },
+  {
+    "file_offset": 175648,
+    "encoding": "ascii",
+    "text": "_fmode"
+  },
+  {
+    "file_offset": 175658,
+    "encoding": "ascii",
+    "text": "__set_app_type"
+  },
+  {
+    "file_offset": 175676,
+    "encoding": "ascii",
+    "text": "??1type_info@@UEAA@XZ"
+  },
+  {
+    "file_offset": 175698,
+    "encoding": "ascii",
+    "text": "msvcrt.dll"
+  },
+  {
+    "file_offset": 175712,
+    "encoding": "ascii",
+    "text": "?terminate@@YAXXZ"
+  },
+  {
+    "file_offset": 175732,
+    "encoding": "ascii",
+    "text": "_unlock"
+  },
+  {
+    "file_offset": 175742,
+    "encoding": "ascii",
+    "text": "__dllonexit"
+  },
+  {
+    "file_offset": 175756,
+    "encoding": "ascii",
+    "text": "_lock"
+  },
+  {
+    "file_offset": 175764,
+    "encoding": "ascii",
+    "text": "_onexit"
+  },
+  {
+    "file_offset": 175774,
+    "encoding": "ascii",
+    "text": "CoUninitialize"
+  },
+  {
+    "file_offset": 175792,
+    "encoding": "ascii",
+    "text": "StringFromGUID2"
+  },
+  {
+    "file_offset": 175810,
+    "encoding": "ascii",
+    "text": "CoCreateInstance"
+  },
+  {
+    "file_offset": 175828,
+    "encoding": "ascii",
+    "text": "ole32.dll"
+  },
+  {
+    "file_offset": 175838,
+    "encoding": "ascii",
+    "text": "OLEAUT32.dll"
+  },
+  {
+    "file_offset": 175854,
+    "encoding": "ascii",
+    "text": "UuidFromStringW"
+  },
+  {
+    "file_offset": 175870,
+    "encoding": "ascii",
+    "text": "RPCRT4.dll"
+  },
+  {
+    "file_offset": 175884,
+    "encoding": "ascii",
+    "text": "CreateEnvironmentBlock"
+  },
+  {
+    "file_offset": 175910,
+    "encoding": "ascii",
+    "text": "LoadUserProfileW"
+  },
+  {
+    "file_offset": 175930,
+    "encoding": "ascii",
+    "text": "UnloadUserProfile"
+  },
+  {
+    "file_offset": 175950,
+    "encoding": "ascii",
+    "text": "DestroyEnvironmentBlock"
+  },
+  {
+    "file_offset": 175974,
+    "encoding": "ascii",
+    "text": "USERENV.dll"
+  },
+  {
+    "file_offset": 175988,
+    "encoding": "ascii",
+    "text": "MpClientUtilExportFunctions"
+  },
+  {
+    "file_offset": 176018,
+    "encoding": "ascii",
+    "text": "MpConfigInitialize"
+  },
+  {
+    "file_offset": 176040,
+    "encoding": "ascii",
+    "text": "MpConfigUninitialize"
+  },
+  {
+    "file_offset": 176064,
+    "encoding": "ascii",
+    "text": "MpFreeMemory"
+  },
+  {
+    "file_offset": 176080,
+    "encoding": "ascii",
+    "text": "MpHandleClose"
+  },
+  {
+    "file_offset": 176096,
+    "encoding": "ascii",
+    "text": "MpScanResult"
+  },
+  {
+    "file_offset": 176112,
+    "encoding": "ascii",
+    "text": "MpManagerOpen"
+  },
+  {
+    "file_offset": 176128,
+    "encoding": "ascii",
+    "text": "MpScanStart"
+  },
+  {
+    "file_offset": 176142,
+    "encoding": "ascii",
+    "text": "MpCleanOpen"
+  },
+  {
+    "file_offset": 176156,
+    "encoding": "ascii",
+    "text": "MpCleanStart"
+  },
+  {
+    "file_offset": 176172,
+    "encoding": "ascii",
+    "text": "MpConfigOpen"
+  },
+  {
+    "file_offset": 176188,
+    "encoding": "ascii",
+    "text": "MpConfigGetValue"
+  },
+  {
+    "file_offset": 176208,
+    "encoding": "ascii",
+    "text": "MpConfigClose"
+  },
+  {
+    "file_offset": 176224,
+    "encoding": "ascii",
+    "text": "MpUpdateStart"
+  },
+  {
+    "file_offset": 176240,
+    "encoding": "ascii",
+    "text": "MpManagerVersionQuery"
+  },
+  {
+    "file_offset": 176264,
+    "encoding": "ascii",
+    "text": "MpConfigGetValueAlloc"
+  },
+  {
+    "file_offset": 176288,
+    "encoding": "ascii",
+    "text": "MpConfigIteratorOpen"
+  },
+  {
+    "file_offset": 176312,
+    "encoding": "ascii",
+    "text": "MpConfigIteratorEnum"
+  },
+  {
+    "file_offset": 176336,
+    "encoding": "ascii",
+    "text": "MpConfigIteratorClose"
+  },
+  {
+    "file_offset": 176360,
+    "encoding": "ascii",
+    "text": "MpConfigDelValue"
+  },
+  {
+    "file_offset": 176380,
+    "encoding": "ascii",
+    "text": "MpUtilsExportFunctions"
+  },
+  {
+    "file_offset": 176404,
+    "encoding": "ascii",
+    "text": "MpClient.dll"
+  },
+  {
+    "file_offset": 176420,
+    "encoding": "ascii",
+    "text": "RegEnumValueW"
+  },
+  {
+    "file_offset": 176436,
+    "encoding": "ascii",
+    "text": "RegEnumKeyExW"
+  },
+  {
+    "file_offset": 176452,
+    "encoding": "ascii",
+    "text": "AllocateAndInitializeSid"
+  },
+  {
+    "file_offset": 176480,
+    "encoding": "ascii",
+    "text": "IsValidSid"
+  },
+  {
+    "file_offset": 176494,
+    "encoding": "ascii",
+    "text": "CheckTokenMembership"
+  },
+  {
+    "file_offset": 176518,
+    "encoding": "ascii",
+    "text": "SetUnhandledExceptionFilter"
+  },
+  {
+    "file_offset": 176548,
+    "encoding": "ascii",
+    "text": "GetModuleHandleW"
+  },
+  {
+    "file_offset": 176568,
+    "encoding": "ascii",
+    "text": "QueryPerformanceCounter"
+  },
+  {
+    "file_offset": 176594,
+    "encoding": "ascii",
+    "text": "GetCurrentThreadId"
+  },
+  {
+    "file_offset": 176616,
+    "encoding": "ascii",
+    "text": "GetCurrentProcessId"
+  },
+  {
+    "file_offset": 176638,
+    "encoding": "ascii",
+    "text": "GetSystemTimeAsFileTime"
+  },
+  {
+    "file_offset": 176664,
+    "encoding": "ascii",
+    "text": "UnhandledExceptionFilter"
+  },
+  {
+    "file_offset": 176692,
+    "encoding": "ascii",
+    "text": "RtlVirtualUnwind"
+  },
+  {
+    "file_offset": 176712,
+    "encoding": "ascii",
+    "text": "RtlLookupFunctionEntry"
+  },
+  {
+    "file_offset": 176738,
+    "encoding": "ascii",
+    "text": "RtlCaptureContext"
+  },
+  {
+    "file_offset": 176758,
+    "encoding": "ascii",
+    "text": "SetFilePointerEx"
+  },
+  {
+    "file_offset": 176778,
+    "encoding": "ascii",
+    "text": "WriteFile"
+  },
+  {
+    "file_offset": 176790,
+    "encoding": "ascii",
+    "text": "GetSystemDirectoryW"
+  },
+  {
+    "file_offset": 176812,
+    "encoding": "ascii",
+    "text": "GetFileAttributesW"
+  },
+  {
+    "file_offset": 176834,
+    "encoding": "ascii",
+    "text": "CreateTimerQueueTimer"
+  },
+  {
+    "file_offset": 176858,
+    "encoding": "ascii",
+    "text": "CreateEventW"
+  },
+  {
+    "file_offset": 176874,
+    "encoding": "ascii",
+    "text": "HeapSetInformation"
+  },
+  {
+    "file_offset": 176896,
+    "encoding": "ascii",
+    "text": "GetSystemPowerStatus"
+  },
+  {
+    "file_offset": 176920,
+    "encoding": "ascii",
+    "text": "FileTimeToDosDateTime"
+  },
+  {
+    "file_offset": 176944,
+    "encoding": "ascii",
+    "text": "WideCharToMultiByte"
+  },
+  {
+    "file_offset": 176966,
+    "encoding": "ascii",
+    "text": "MultiByteToWideChar"
+  },
+  {
+    "file_offset": 176988,
+    "encoding": "ascii",
+    "text": "GetFileInformationByHandle"
+  },
+  {
+    "file_offset": 177018,
+    "encoding": "ascii",
+    "text": "HeapAlloc"
+  },
+  {
+    "file_offset": 177030,
+    "encoding": "ascii",
+    "text": "HeapFree"
+  },
+  {
+    "file_offset": 177042,
+    "encoding": "ascii",
+    "text": "DeleteFileW"
+  },
+  {
+    "file_offset": 177056,
+    "encoding": "ascii",
+    "text": "SetFileAttributesW"
+  },
+  {
+    "file_offset": 177078,
+    "encoding": "ascii",
+    "text": "__RTDynamicCast"
+  },
+  {
+    "file_offset": 177104,
+    "encoding": "ascii",
+    "text": "fgetws"
+  },
+  {
+    "file_offset": 177114,
+    "encoding": "ascii",
+    "text": "iswspace"
+  },
+  {
+    "file_offset": 177126,
+    "encoding": "ascii",
+    "text": "fclose"
+  },
+  {
+    "file_offset": 177136,
+    "encoding": "ascii",
+    "text": "towlower"
+  },
+  {
+    "file_offset": 177148,
+    "encoding": "ascii",
+    "text": "memmove"
+  },
+  {
+    "file_offset": 177158,
+    "encoding": "ascii",
+    "text": "_wfopen"
+  },
+  {
+    "file_offset": 177168,
+    "encoding": "ascii",
+    "text": "_errno"
+  },
+  {
+    "file_offset": 177178,
+    "encoding": "ascii",
+    "text": "wcsrchr"
+  },
+  {
+    "file_offset": 177188,
+    "encoding": "ascii",
+    "text": "_vsnprintf"
+  },
+  {
+    "file_offset": 177202,
+    "encoding": "ascii",
+    "text": "_wopen"
+  },
+  {
+    "file_offset": 177212,
+    "encoding": "ascii",
+    "text": "__doserrno"
+  },
+  {
+    "file_offset": 177226,
+    "encoding": "ascii",
+    "text": "_wremove"
+  },
+  {
+    "file_offset": 177238,
+    "encoding": "ascii",
+    "text": "_wtempnam"
+  },
+  {
+    "file_offset": 177250,
+    "encoding": "ascii",
+    "text": "_read"
+  },
+  {
+    "file_offset": 177258,
+    "encoding": "ascii",
+    "text": "_lseek"
+  },
+  {
+    "file_offset": 177268,
+    "encoding": "ascii",
+    "text": "_write"
+  },
+  {
+    "file_offset": 177278,
+    "encoding": "ascii",
+    "text": "_close"
+  },
+  {
+    "file_offset": 177288,
+    "encoding": "ascii",
+    "text": "CoInitializeEx"
+  },
+  {
+    "file_offset": 177304,
+    "encoding": "ascii",
+    "text": "Cabinet.dll"
+  },
+  {
+    "file_offset": 177318,
+    "encoding": "ascii",
+    "text": "memset"
+  },
+  {
+    "file_offset": 177328,
+    "encoding": "ascii",
+    "text": "memcpy"
+  },
+  {
+    "file_offset": 178232,
+    "encoding": "ascii",
+    "text": ".?AVexception@@"
+  },
+  {
+    "file_offset": 178264,
+    "encoding": "ascii",
+    "text": ".?AVCRefObject@CommonUtil@@"
+  },
+  {
+    "file_offset": 178312,
+    "encoding": "ascii",
+    "text": ".?AVCUpdateNotifications@@"
+  },
+  {
+    "file_offset": 178360,
+    "encoding": "ascii",
+    "text": ".?AVCUniqueNamedObject@MpCmdUtils@@"
+  },
+  {
+    "file_offset": 178416,
+    "encoding": "ascii",
+    "text": ".?AVHModule@@"
+  },
+  {
+    "file_offset": 178448,
+    "encoding": "ascii",
+    "text": ".?AVCRegHandle@@"
+  },
+  {
+    "file_offset": 178496,
+    "encoding": "ascii",
+    "text": ".?AV?$CRefObjectFor@UIMpSpyNetQueueCallback@MpClient@@@CommonUtil@@"
+  },
+  {
+    "file_offset": 178584,
+    "encoding": "ascii",
+    "text": ".?AVCMpSpyNetQueueCallback@@"
+  },
+  {
+    "file_offset": 178632,
+    "encoding": "ascii",
+    "text": ".?AUIRefObject@CommonUtil@@"
+  },
+  {
+    "file_offset": 178680,
+    "encoding": "ascii",
+    "text": ".?AUIMpSpyNetQueueCallback@MpClient@@"
+  },
+  {
+    "file_offset": 178736,
+    "encoding": "ascii",
+    "text": ".?AVCMpSignaturesUpdateServiceCallback@@"
+  },
+  {
+    "file_offset": 178800,
+    "encoding": "ascii",
+    "text": ".?AUIMpSignaturesUpdateCallback@MpCommunication@@"
+  },
+  {
+    "file_offset": 178880,
+    "encoding": "ascii",
+    "text": ".?AUIMpSignaturesUpdateServiceCallback@MpClient@@"
+  },
+  {
+    "file_offset": 178952,
+    "encoding": "ascii",
+    "text": ".?AVCAtlException@ATL@@"
+  },
+  {
+    "file_offset": 178992,
+    "encoding": "ascii",
+    "text": ".?AV_com_error@@"
+  },
+  {
+    "file_offset": 179032,
+    "encoding": "ascii",
+    "text": ".?AVbad_alloc@std@@"
+  },
+  {
+    "file_offset": 179072,
+    "encoding": "ascii",
+    "text": ".?AV?$CRefObjectFor@UIMpIdleNotifierCallback@MpClient@@@CommonUtil@@"
+  },
+  {
+    "file_offset": 179160,
+    "encoding": "ascii",
+    "text": ".?AVCMpIdleNotifierCallback@@"
+  },
+  {
+    "file_offset": 179208,
+    "encoding": "ascii",
+    "text": ".?AUIMpIdleNotifierCallback@MpClient@@"
+  },
+  {
+    "file_offset": 179264,
+    "encoding": "ascii",
+    "text": ".?AVlogic_error@std@@"
+  },
+  {
+    "file_offset": 179304,
+    "encoding": "ascii",
+    "text": ".?AVlength_error@std@@"
+  },
+  {
+    "file_offset": 179344,
+    "encoding": "ascii",
+    "text": ".?AVinvalid_argument@std@@"
+  },
+  {
+    "file_offset": 179392,
+    "encoding": "ascii",
+    "text": ".?AVout_of_range@std@@"
+  },
+  {
+    "file_offset": 179432,
+    "encoding": "ascii",
+    "text": ".?AVCHResultExceptionImpl@CommonUtil@@"
+  },
+  {
+    "file_offset": 179488,
+    "encoding": "ascii",
+    "text": ".?AVCHResultException@CommonUtil@@"
+  },
+  {
+    "file_offset": 179552,
+    "encoding": "ascii",
+    "text": ".?AV?$CRefObjectFor@U?$IForwardIterator@$$CBG@CommonUtil@@@CommonUtil@@"
+  },
+  {
+    "file_offset": 179640,
+    "encoding": "ascii",
+    "text": ".?AVCArgsIter@CommonUtil@@"
+  },
+  {
+    "file_offset": 179688,
+    "encoding": "ascii",
+    "text": ".?AU?$IForwardIterator@$$CBG@CommonUtil@@"
+  },
+  {
+    "file_offset": 179760,
+    "encoding": "ascii",
+    "text": ".?AVCSimpleMapItem@CCmdOptionsLookupMap@CommonUtil@@"
+  },
+  {
+    "file_offset": 179832,
+    "encoding": "ascii",
+    "text": ".?AVCCmdOptionsLookupMap@CommonUtil@@"
+  },
+  {
+    "file_offset": 179888,
+    "encoding": "ascii",
+    "text": ".?AU?$ISimpleIterator@$$CBG@CommonUtil@@"
+  },
+  {
+    "file_offset": 179952,
+    "encoding": "ascii",
+    "text": ".?AUICmdOptionsLookup@CommonUtil@@"
+  },
+  {
+    "file_offset": 180008,
+    "encoding": "ascii",
+    "text": ".?AVCUtilRegEnumKeyValues@CommonUtil@@"
+  },
+  {
+    "file_offset": 180064,
+    "encoding": "ascii",
+    "text": ".?AVCUtilRegEnumSubKeys@CommonUtil@@"
+  },
+  {
+    "file_offset": 180120,
+    "encoding": "ascii",
+    "text": ".?AUIUtilRegEnumKeyValues@CommonUtil@@"
+  },
+  {
+    "file_offset": 180176,
+    "encoding": "ascii",
+    "text": ".?AUIUtilRegEnumSubKeys@CommonUtil@@"
+  },
+  {
+    "file_offset": 180232,
+    "encoding": "ascii",
+    "text": ".?AVCError@@"
+  },
+  {
+    "file_offset": 180272,
+    "encoding": "ascii",
+    "text": ".?AV?$CRefObjectFor@UIMpCommunicationLibrary@MpCommunication@@@CommonUtil@@"
+  },
+  {
+    "file_offset": 180368,
+    "encoding": "ascii",
+    "text": ".?AVCMpCommunicationLibrary@MpCommunication@@"
+  },
+  {
+    "file_offset": 180432,
+    "encoding": "ascii",
+    "text": ".?AUIMpCommunicationLibrary@MpCommunication@@"
+  },
+  {
+    "file_offset": 187552,
+    "encoding": "ascii",
+    "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?> "
+  },
+  {
+    "file_offset": 187594,
+    "encoding": "ascii",
+    "text": "<!-- Copyright (c) Microsoft Corporation -->"
+  },
+  {
+    "file_offset": 187640,
+    "encoding": "ascii",
+    "text": "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">"
+  },
+  {
+    "file_offset": 187715,
+    "encoding": "ascii",
+    "text": "    <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">"
+  },
+  {
+    "file_offset": 187773,
+    "encoding": "ascii",
+    "text": "        <security>"
+  },
+  {
+    "file_offset": 187793,
+    "encoding": "ascii",
+    "text": "            <requestedPrivileges>"
+  },
+  {
+    "file_offset": 187828,
+    "encoding": "ascii",
+    "text": "                <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\" /> "
+  },
+  {
+    "file_offset": 187909,
+    "encoding": "ascii",
+    "text": "            </requestedPrivileges>"
+  },
+  {
+    "file_offset": 187945,
+    "encoding": "ascii",
+    "text": "        </security>"
+  },
+  {
+    "file_offset": 187966,
+    "encoding": "ascii",
+    "text": "    </trustInfo>"
+  },
+  {
+    "file_offset": 187984,
+    "encoding": "ascii",
+    "text": "</assembly>"
+  },
+  {
+    "file_offset": 188006,
+    "encoding": "utf-16le",
+    "text": "VS_VERSION_INFO"
+  },
+  {
+    "file_offset": 188098,
+    "encoding": "utf-16le",
+    "text": "StringFileInfo"
+  },
+  {
+    "file_offset": 188134,
+    "encoding": "utf-16le",
+    "text": "040904B0"
+  },
+  {
+    "file_offset": 188158,
+    "encoding": "utf-16le",
+    "text": "CompanyName"
+  },
+  {
+    "file_offset": 188184,
+    "encoding": "utf-16le",
+    "text": "Microsoft Corporation"
+  },
+  {
+    "file_offset": 188234,
+    "encoding": "utf-16le",
+    "text": "FileDescription"
+  },
+  {
+    "file_offset": 188268,
+    "encoding": "utf-16le",
+    "text": "Microsoft Malware Protection Command Line Utility"
+  },
+  {
+    "file_offset": 188374,
+    "encoding": "utf-16le",
+    "text": "FileVersion"
+  },
+  {
+    "file_offset": 188400,
+    "encoding": "utf-16le",
+    "text": "6.1.7601.23403 (win7sp1_ldr.160325-0600)"
+  },
+  {
+    "file_offset": 188490,
+    "encoding": "utf-16le",
+    "text": "InternalName"
+  },
+  {
+    "file_offset": 188516,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun"
+  },
+  {
+    "file_offset": 188542,
+    "encoding": "utf-16le",
+    "text": "LegalCopyright"
+  },
+  {
+    "file_offset": 188574,
+    "encoding": "utf-16le",
+    "text": " Microsoft Corporation. All rights reserved."
+  },
+  {
+    "file_offset": 188670,
+    "encoding": "utf-16le",
+    "text": "OriginalFilename"
+  },
+  {
+    "file_offset": 188704,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun.exe"
+  },
+  {
+    "file_offset": 188738,
+    "encoding": "utf-16le",
+    "text": "ProductName"
+  },
+  {
+    "file_offset": 188764,
+    "encoding": "utf-16le",
+    "text": "Microsoft"
+  },
+  {
+    "file_offset": 188784,
+    "encoding": "utf-16le",
+    "text": " Windows"
+  },
+  {
+    "file_offset": 188802,
+    "encoding": "utf-16le",
+    "text": " Operating System"
+  },
+  {
+    "file_offset": 188846,
+    "encoding": "utf-16le",
+    "text": "ProductVersion"
+  },
+  {
+    "file_offset": 188876,
+    "encoding": "utf-16le",
+    "text": "6.1.7601.23403"
+  },
+  {
+    "file_offset": 188914,
+    "encoding": "utf-16le",
+    "text": "VarFileInfo"
+  },
+  {
+    "file_offset": 188946,
+    "encoding": "utf-16le",
+    "text": "Translation"
+  }
+]

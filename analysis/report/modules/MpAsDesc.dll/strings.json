@@ -1,0 +1,462 @@
+[
+  {
+    "file_offset": 77,
+    "encoding": "ascii",
+    "text": "!This program cannot be run in DOS mode."
+  },
+  {
+    "file_offset": 512,
+    "encoding": "ascii",
+    "text": ".text"
+  },
+  {
+    "file_offset": 551,
+    "encoding": "ascii",
+    "text": "`.data"
+  },
+  {
+    "file_offset": 592,
+    "encoding": "ascii",
+    "text": ".pdata"
+  },
+  {
+    "file_offset": 631,
+    "encoding": "ascii",
+    "text": "@.rsrc"
+  },
+  {
+    "file_offset": 671,
+    "encoding": "ascii",
+    "text": "@.reloc"
+  },
+  {
+    "file_offset": 1392,
+    "encoding": "ascii",
+    "text": "bad allocation"
+  },
+  {
+    "file_offset": 1432,
+    "encoding": "utf-16le",
+    "text": "advapi32"
+  },
+  {
+    "file_offset": 1456,
+    "encoding": "ascii",
+    "text": "TraceMessage"
+  },
+  {
+    "file_offset": 1472,
+    "encoding": "ascii",
+    "text": "TraceMessageVa"
+  },
+  {
+    "file_offset": 1628,
+    "encoding": "ascii",
+    "text": "MpAsDesc.pdb"
+  },
+  {
+    "file_offset": 1670,
+    "encoding": "ascii",
+    "text": "H VWATH"
+  },
+  {
+    "file_offset": 2195,
+    "encoding": "ascii",
+    "text": "L$ SVWH"
+  },
+  {
+    "file_offset": 2932,
+    "encoding": "ascii",
+    "text": "t$ WATAUH"
+  },
+  {
+    "file_offset": 3226,
+    "encoding": "ascii",
+    "text": "0A]A\\_"
+  },
+  {
+    "file_offset": 3310,
+    "encoding": "ascii",
+    "text": "VWATAUAVH"
+  },
+  {
+    "file_offset": 3756,
+    "encoding": "ascii",
+    "text": " A^A]A\\_^"
+  },
+  {
+    "file_offset": 4056,
+    "encoding": "ascii",
+    "text": "\\$ E3"
+  },
+  {
+    "file_offset": 4432,
+    "encoding": "ascii",
+    "text": "HcH<H"
+  },
+  {
+    "file_offset": 4480,
+    "encoding": "ascii",
+    "text": "LcA<E3"
+  },
+  {
+    "file_offset": 4779,
+    "encoding": "ascii",
+    "text": "\\$8L3"
+  },
+  {
+    "file_offset": 4886,
+    "encoding": "ascii",
+    "text": "\\$XE3"
+  },
+  {
+    "file_offset": 5222,
+    "encoding": "ascii",
+    "text": "EP=csm"
+  },
+  {
+    "file_offset": 5318,
+    "encoding": "ascii",
+    "text": "Ep=csm"
+  },
+  {
+    "file_offset": 5414,
+    "encoding": "ascii",
+    "text": "E`=csm"
+  },
+  {
+    "file_offset": 5606,
+    "encoding": "ascii",
+    "text": "E(=csm"
+  },
+  {
+    "file_offset": 5702,
+    "encoding": "ascii",
+    "text": "E@=csm"
+  },
+  {
+    "file_offset": 5798,
+    "encoding": "ascii",
+    "text": "EX=csm"
+  },
+  {
+    "file_offset": 5894,
+    "encoding": "ascii",
+    "text": "Ex=csm"
+  },
+  {
+    "file_offset": 6802,
+    "encoding": "ascii",
+    "text": "malloc"
+  },
+  {
+    "file_offset": 6812,
+    "encoding": "ascii",
+    "text": "_XcptFilter"
+  },
+  {
+    "file_offset": 6826,
+    "encoding": "ascii",
+    "text": "_initterm"
+  },
+  {
+    "file_offset": 6838,
+    "encoding": "ascii",
+    "text": "_amsg_exit"
+  },
+  {
+    "file_offset": 6852,
+    "encoding": "ascii",
+    "text": "__C_specific_handler"
+  },
+  {
+    "file_offset": 6874,
+    "encoding": "ascii",
+    "text": "msvcrt.dll"
+  },
+  {
+    "file_offset": 6888,
+    "encoding": "ascii",
+    "text": "FreeLibrary"
+  },
+  {
+    "file_offset": 6902,
+    "encoding": "ascii",
+    "text": "LoadLibraryW"
+  },
+  {
+    "file_offset": 6918,
+    "encoding": "ascii",
+    "text": "GetProcAddress"
+  },
+  {
+    "file_offset": 6936,
+    "encoding": "ascii",
+    "text": "DisableThreadLibraryCalls"
+  },
+  {
+    "file_offset": 6964,
+    "encoding": "ascii",
+    "text": "LocalAlloc"
+  },
+  {
+    "file_offset": 6978,
+    "encoding": "ascii",
+    "text": "LocalFree"
+  },
+  {
+    "file_offset": 6990,
+    "encoding": "ascii",
+    "text": "Sleep"
+  },
+  {
+    "file_offset": 6998,
+    "encoding": "ascii",
+    "text": "QueryPerformanceCounter"
+  },
+  {
+    "file_offset": 7024,
+    "encoding": "ascii",
+    "text": "GetTickCount"
+  },
+  {
+    "file_offset": 7040,
+    "encoding": "ascii",
+    "text": "GetCurrentThreadId"
+  },
+  {
+    "file_offset": 7062,
+    "encoding": "ascii",
+    "text": "GetCurrentProcessId"
+  },
+  {
+    "file_offset": 7084,
+    "encoding": "ascii",
+    "text": "GetSystemTimeAsFileTime"
+  },
+  {
+    "file_offset": 7110,
+    "encoding": "ascii",
+    "text": "TerminateProcess"
+  },
+  {
+    "file_offset": 7130,
+    "encoding": "ascii",
+    "text": "GetCurrentProcess"
+  },
+  {
+    "file_offset": 7150,
+    "encoding": "ascii",
+    "text": "UnhandledExceptionFilter"
+  },
+  {
+    "file_offset": 7178,
+    "encoding": "ascii",
+    "text": "SetUnhandledExceptionFilter"
+  },
+  {
+    "file_offset": 7208,
+    "encoding": "ascii",
+    "text": "RtlVirtualUnwind"
+  },
+  {
+    "file_offset": 7228,
+    "encoding": "ascii",
+    "text": "RtlLookupFunctionEntry"
+  },
+  {
+    "file_offset": 7254,
+    "encoding": "ascii",
+    "text": "RtlCaptureContext"
+  },
+  {
+    "file_offset": 7272,
+    "encoding": "ascii",
+    "text": "KERNEL32.dll"
+  },
+  {
+    "file_offset": 7288,
+    "encoding": "ascii",
+    "text": "LoadStringW"
+  },
+  {
+    "file_offset": 7300,
+    "encoding": "ascii",
+    "text": "USER32.dll"
+  },
+  {
+    "file_offset": 7314,
+    "encoding": "ascii",
+    "text": "GetTraceEnableFlags"
+  },
+  {
+    "file_offset": 7336,
+    "encoding": "ascii",
+    "text": "GetTraceLoggerHandle"
+  },
+  {
+    "file_offset": 7360,
+    "encoding": "ascii",
+    "text": "TraceEvent"
+  },
+  {
+    "file_offset": 7374,
+    "encoding": "ascii",
+    "text": "UnregisterTraceGuids"
+  },
+  {
+    "file_offset": 7398,
+    "encoding": "ascii",
+    "text": "GetTraceEnableLevel"
+  },
+  {
+    "file_offset": 7420,
+    "encoding": "ascii",
+    "text": "RegisterTraceGuidsW"
+  },
+  {
+    "file_offset": 7440,
+    "encoding": "ascii",
+    "text": "ADVAPI32.dll"
+  },
+  {
+    "file_offset": 7456,
+    "encoding": "ascii",
+    "text": "memcpy"
+  },
+  {
+    "file_offset": 7532,
+    "encoding": "ascii",
+    "text": "MpAsDesc.dll"
+  },
+  {
+    "file_offset": 7545,
+    "encoding": "ascii",
+    "text": "GetMpAsDescModuleHandle"
+  },
+  {
+    "file_offset": 7569,
+    "encoding": "ascii",
+    "text": "MpGetSignatureDescriptionResourceIdentifier"
+  },
+  {
+    "file_offset": 8886,
+    "encoding": "utf-16le",
+    "text": "VS_VERSION_INFO"
+  },
+  {
+    "file_offset": 8978,
+    "encoding": "utf-16le",
+    "text": "StringFileInfo"
+  },
+  {
+    "file_offset": 9014,
+    "encoding": "utf-16le",
+    "text": "040904B0"
+  },
+  {
+    "file_offset": 9038,
+    "encoding": "utf-16le",
+    "text": "CompanyName"
+  },
+  {
+    "file_offset": 9064,
+    "encoding": "utf-16le",
+    "text": "Microsoft Corporation"
+  },
+  {
+    "file_offset": 9114,
+    "encoding": "utf-16le",
+    "text": "FileDescription"
+  },
+  {
+    "file_offset": 9148,
+    "encoding": "utf-16le",
+    "text": "Definition Update Descriptions"
+  },
+  {
+    "file_offset": 9218,
+    "encoding": "utf-16le",
+    "text": "FileVersion"
+  },
+  {
+    "file_offset": 9244,
+    "encoding": "utf-16le",
+    "text": "6.1.7601.23403 (win7sp1_ldr.160325-0600)"
+  },
+  {
+    "file_offset": 9334,
+    "encoding": "utf-16le",
+    "text": "InternalName"
+  },
+  {
+    "file_offset": 9360,
+    "encoding": "utf-16le",
+    "text": "mpasdesc"
+  },
+  {
+    "file_offset": 9386,
+    "encoding": "utf-16le",
+    "text": "LegalCopyright"
+  },
+  {
+    "file_offset": 9418,
+    "encoding": "utf-16le",
+    "text": " Microsoft Corporation. All rights reserved."
+  },
+  {
+    "file_offset": 9514,
+    "encoding": "utf-16le",
+    "text": "OriginalFilename"
+  },
+  {
+    "file_offset": 9548,
+    "encoding": "utf-16le",
+    "text": "mpasdesc.dll"
+  },
+  {
+    "file_offset": 9582,
+    "encoding": "utf-16le",
+    "text": "ProductName"
+  },
+  {
+    "file_offset": 9608,
+    "encoding": "utf-16le",
+    "text": "Microsoft"
+  },
+  {
+    "file_offset": 9628,
+    "encoding": "utf-16le",
+    "text": " Windows"
+  },
+  {
+    "file_offset": 9646,
+    "encoding": "utf-16le",
+    "text": " Operating System"
+  },
+  {
+    "file_offset": 9690,
+    "encoding": "utf-16le",
+    "text": "ProductVersion"
+  },
+  {
+    "file_offset": 9720,
+    "encoding": "utf-16le",
+    "text": "6.1.7601.23403"
+  },
+  {
+    "file_offset": 9758,
+    "encoding": "utf-16le",
+    "text": "VarFileInfo"
+  },
+  {
+    "file_offset": 9790,
+    "encoding": "utf-16le",
+    "text": "Translation"
+  },
+  {
+    "file_offset": 10016,
+    "encoding": "utf-16le",
+    "text": "en-US"
+  }
+]

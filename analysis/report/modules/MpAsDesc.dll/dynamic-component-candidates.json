@@ -1,0 +1,12 @@
+[
+  {
+    "file_offset": 7532,
+    "encoding": "ascii",
+    "text": "MpAsDesc.dll"
+  },
+  {
+    "file_offset": 9548,
+    "encoding": "utf-16le",
+    "text": "mpasdesc.dll"
+  }
+]

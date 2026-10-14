@@ -1,0 +1,1284 @@
+{
+  "result": "pass",
+  "unicorn_version": "2.1.4",
+  "resolver_cases": 21180,
+  "table_matches_original": true,
+  "resource_modes": [
+    "all absent",
+    "all present",
+    "nonempty pt-BR RT_STRING IDs (modeled, not Windows MUI loader)"
+  ],
+  "outcomes_sha256": "e712c1be4e56bde4298a02bbb50a7b2eadb61719e1b34a05ec5a88557ff6ad7a",
+  "seconds": 18.265,
+  "boundary_examples": [
+    {
+      "resource_mode": 0,
+      "category": -2147483648,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": -2147483648,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": -2147483648,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": -2147483648,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": -1,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": -1,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": -1,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": -1,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 0,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 0,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 0,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 0,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 1,
+      "value": 0,
+      "return": 0,
+      "output": 1027,
+      "probe_ids": [
+        1000
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 1,
+      "value": 999,
+      "return": 0,
+      "output": 1027,
+      "probe_ids": [
+        1999
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 1,
+      "value": 1000,
+      "return": 0,
+      "output": 1027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 1,
+      "value": 4294967295,
+      "return": 0,
+      "output": 1027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 2,
+      "value": 0,
+      "return": 0,
+      "output": 2027,
+      "probe_ids": [
+        2000
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 2,
+      "value": 999,
+      "return": 0,
+      "output": 2027,
+      "probe_ids": [
+        2999
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 2,
+      "value": 1000,
+      "return": 0,
+      "output": 2027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 2,
+      "value": 4294967295,
+      "return": 0,
+      "output": 2027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 3,
+      "value": 0,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": [
+        3000
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 3,
+      "value": 999,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": [
+        3999
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 3,
+      "value": 1000,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 3,
+      "value": 4294967295,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 4,
+      "value": 0,
+      "return": 0,
+      "output": 4002,
+      "probe_ids": [
+        4000
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 4,
+      "value": 999,
+      "return": 0,
+      "output": 4002,
+      "probe_ids": [
+        4999
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 4,
+      "value": 1000,
+      "return": 0,
+      "output": 4002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 4,
+      "value": 4294967295,
+      "return": 0,
+      "output": 4002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 5,
+      "value": 0,
+      "return": 0,
+      "output": 5002,
+      "probe_ids": [
+        5000
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 5,
+      "value": 999,
+      "return": 0,
+      "output": 5002,
+      "probe_ids": [
+        5999
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 5,
+      "value": 1000,
+      "return": 0,
+      "output": 5002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 5,
+      "value": 4294967295,
+      "return": 0,
+      "output": 5002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 6,
+      "value": 0,
+      "return": 0,
+      "output": 6002,
+      "probe_ids": [
+        6000
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 6,
+      "value": 999,
+      "return": 0,
+      "output": 6002,
+      "probe_ids": [
+        6999
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 6,
+      "value": 1000,
+      "return": 0,
+      "output": 6002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 6,
+      "value": 4294967295,
+      "return": 0,
+      "output": 6002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 7,
+      "value": 0,
+      "return": 0,
+      "output": 7005,
+      "probe_ids": [
+        7000
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 7,
+      "value": 999,
+      "return": 0,
+      "output": 7005,
+      "probe_ids": [
+        7999
+      ]
+    },
+    {
+      "resource_mode": 0,
+      "category": 7,
+      "value": 1000,
+      "return": 0,
+      "output": 7005,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 7,
+      "value": 4294967295,
+      "return": 0,
+      "output": 7005,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 8,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 8,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 8,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 8,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 2147483647,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 2147483647,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 2147483647,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 0,
+      "category": 2147483647,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": -2147483648,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": -2147483648,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": -2147483648,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": -2147483648,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": -1,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": -1,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": -1,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": -1,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 0,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 0,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 0,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 0,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 1,
+      "value": 0,
+      "return": 0,
+      "output": 1000,
+      "probe_ids": [
+        1000
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 1,
+      "value": 999,
+      "return": 0,
+      "output": 1999,
+      "probe_ids": [
+        1999
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 1,
+      "value": 1000,
+      "return": 0,
+      "output": 1027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 1,
+      "value": 4294967295,
+      "return": 0,
+      "output": 1027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 2,
+      "value": 0,
+      "return": 0,
+      "output": 2000,
+      "probe_ids": [
+        2000
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 2,
+      "value": 999,
+      "return": 0,
+      "output": 2999,
+      "probe_ids": [
+        2999
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 2,
+      "value": 1000,
+      "return": 0,
+      "output": 2027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 2,
+      "value": 4294967295,
+      "return": 0,
+      "output": 2027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 3,
+      "value": 0,
+      "return": 0,
+      "output": 3000,
+      "probe_ids": [
+        3000
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 3,
+      "value": 999,
+      "return": 0,
+      "output": 3999,
+      "probe_ids": [
+        3999
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 3,
+      "value": 1000,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 3,
+      "value": 4294967295,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 4,
+      "value": 0,
+      "return": 0,
+      "output": 4000,
+      "probe_ids": [
+        4000
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 4,
+      "value": 999,
+      "return": 0,
+      "output": 4999,
+      "probe_ids": [
+        4999
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 4,
+      "value": 1000,
+      "return": 0,
+      "output": 4002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 4,
+      "value": 4294967295,
+      "return": 0,
+      "output": 4002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 5,
+      "value": 0,
+      "return": 0,
+      "output": 5000,
+      "probe_ids": [
+        5000
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 5,
+      "value": 999,
+      "return": 0,
+      "output": 5999,
+      "probe_ids": [
+        5999
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 5,
+      "value": 1000,
+      "return": 0,
+      "output": 5002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 5,
+      "value": 4294967295,
+      "return": 0,
+      "output": 5002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 6,
+      "value": 0,
+      "return": 0,
+      "output": 6000,
+      "probe_ids": [
+        6000
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 6,
+      "value": 999,
+      "return": 0,
+      "output": 6999,
+      "probe_ids": [
+        6999
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 6,
+      "value": 1000,
+      "return": 0,
+      "output": 6002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 6,
+      "value": 4294967295,
+      "return": 0,
+      "output": 6002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 7,
+      "value": 0,
+      "return": 0,
+      "output": 7000,
+      "probe_ids": [
+        7000
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 7,
+      "value": 999,
+      "return": 0,
+      "output": 7999,
+      "probe_ids": [
+        7999
+      ]
+    },
+    {
+      "resource_mode": 1,
+      "category": 7,
+      "value": 1000,
+      "return": 0,
+      "output": 7005,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 7,
+      "value": 4294967295,
+      "return": 0,
+      "output": 7005,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 8,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 8,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 8,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 8,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 2147483647,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 2147483647,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 2147483647,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 1,
+      "category": 2147483647,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": -2147483648,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": -2147483648,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": -2147483648,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": -2147483648,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": -1,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": -1,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": -1,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": -1,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 0,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 0,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 0,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 0,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 1,
+      "value": 0,
+      "return": 0,
+      "output": 1000,
+      "probe_ids": [
+        1000
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 1,
+      "value": 999,
+      "return": 0,
+      "output": 1027,
+      "probe_ids": [
+        1999
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 1,
+      "value": 1000,
+      "return": 0,
+      "output": 1027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 1,
+      "value": 4294967295,
+      "return": 0,
+      "output": 1027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 2,
+      "value": 0,
+      "return": 0,
+      "output": 2000,
+      "probe_ids": [
+        2000
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 2,
+      "value": 999,
+      "return": 0,
+      "output": 2027,
+      "probe_ids": [
+        2999
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 2,
+      "value": 1000,
+      "return": 0,
+      "output": 2027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 2,
+      "value": 4294967295,
+      "return": 0,
+      "output": 2027,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 3,
+      "value": 0,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": [
+        3000
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 3,
+      "value": 999,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": [
+        3999
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 3,
+      "value": 1000,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 3,
+      "value": 4294967295,
+      "return": 0,
+      "output": 3063,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 4,
+      "value": 0,
+      "return": 0,
+      "output": 4000,
+      "probe_ids": [
+        4000
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 4,
+      "value": 999,
+      "return": 0,
+      "output": 4002,
+      "probe_ids": [
+        4999
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 4,
+      "value": 1000,
+      "return": 0,
+      "output": 4002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 4,
+      "value": 4294967295,
+      "return": 0,
+      "output": 4002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 5,
+      "value": 0,
+      "return": 0,
+      "output": 5000,
+      "probe_ids": [
+        5000
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 5,
+      "value": 999,
+      "return": 0,
+      "output": 5002,
+      "probe_ids": [
+        5999
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 5,
+      "value": 1000,
+      "return": 0,
+      "output": 5002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 5,
+      "value": 4294967295,
+      "return": 0,
+      "output": 5002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 6,
+      "value": 0,
+      "return": 0,
+      "output": 6000,
+      "probe_ids": [
+        6000
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 6,
+      "value": 999,
+      "return": 0,
+      "output": 6002,
+      "probe_ids": [
+        6999
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 6,
+      "value": 1000,
+      "return": 0,
+      "output": 6002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 6,
+      "value": 4294967295,
+      "return": 0,
+      "output": 6002,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 7,
+      "value": 0,
+      "return": 0,
+      "output": 7000,
+      "probe_ids": [
+        7000
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 7,
+      "value": 999,
+      "return": 0,
+      "output": 7005,
+      "probe_ids": [
+        7999
+      ]
+    },
+    {
+      "resource_mode": 2,
+      "category": 7,
+      "value": 1000,
+      "return": 0,
+      "output": 7005,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 7,
+      "value": 4294967295,
+      "return": 0,
+      "output": 7005,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 8,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 8,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 8,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 8,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 2147483647,
+      "value": 0,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 2147483647,
+      "value": 999,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 2147483647,
+      "value": 1000,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    },
+    {
+      "resource_mode": 2,
+      "category": 2147483647,
+      "value": 4294967295,
+      "return": 2147942487,
+      "output": 3735928559,
+      "probe_ids": []
+    }
+  ],
+  "simple_exports": [
+    {
+      "file": "MpAsDesc.dll",
+      "rva": 5976,
+      "cases": 2,
+      "result": "pass: returns controlled 64-bit global"
+    },
+    {
+      "file": "MsMpRes.dll",
+      "rva": 5696,
+      "cases": 2,
+      "result": "pass: returns controlled 64-bit global"
+    },
+    {
+      "file": "MpOAV.dll",
+      "rva": 16372,
+      "cases": 1,
+      "result": "pass: aliased registration exports return 0x80070032"
+    },
+    {
+      "file": "MsMpCom.dll",
+      "rva": 15116,
+      "cases": 1,
+      "result": "pass: aliased registration exports return 0x80070032"
+    }
+  ],
+  "limitations": [
+    "WPP tracing explicitly disabled by self-sentinel state",
+    "LoadStringW stubbed, not a Windows API implementation",
+    "DLL initialization, exception handling, service/UI and actual MUI fallback not executed",
+    "Writable valid output or null tested; access violations not modeled",
+    "No original software process launched; only selected bounded subroutines emulated"
+  ]
+}

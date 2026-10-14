@@ -1,0 +1,46 @@
+[
+  {
+    "resource": [
+      "MUI",
+      1,
+      1033
+    ],
+    "rva": 55216,
+    "file_offset": 51632,
+    "size": 232,
+    "sha256": "2b406a1008f6b8408f37bcfc967a5b09c79bad19b94ac54cc817134ca8b01929",
+    "prefix_hex": "cdfecdfee80000000000010000000000110000000000000002000000d60aa4a6",
+    "observed_u32_prefix": [
+      4274912973,
+      232,
+      65536,
+      0,
+      17,
+      0,
+      2
+    ],
+    "interpretation": "magic/length/version candidate; remaining fields opaque"
+  },
+  {
+    "resource": [
+      "WEVT_TEMPLATE",
+      1,
+      1033
+    ],
+    "rva": 5280,
+    "file_offset": 1696,
+    "size": 49930,
+    "sha256": "ab3563a300846aef9a8f5e43fd2ec4ac0df574ef9fd49d8c23f42613004ac322",
+    "prefix_hex": "4352494d08c3000003000100010000008a95cd1107c5f34eb3f25fd9dfbd2c78",
+    "observed_crim_header": {
+      "magic": "CRIM",
+      "u32_at_4": 49928,
+      "u16_at_8": 3,
+      "u16_at_10": 1,
+      "u32_at_12": 1,
+      "guid_at_16": "11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78",
+      "u32_at_32": 36
+    },
+    "interpretation": "CRIM + WEVT signatures observed; provider GUID candidate at +16, payload schema not fully decoded"
+  }
+]

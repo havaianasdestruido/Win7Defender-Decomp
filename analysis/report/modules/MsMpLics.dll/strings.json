@@ -1,0 +1,192 @@
+[
+  {
+    "file_offset": 77,
+    "encoding": "ascii",
+    "text": "!This program cannot be run in DOS mode."
+  },
+  {
+    "file_offset": 160,
+    "encoding": "ascii",
+    "text": "RichE"
+  },
+  {
+    "file_offset": 448,
+    "encoding": "ascii",
+    "text": ".rsrc"
+  },
+  {
+    "file_offset": 822,
+    "encoding": "utf-16le",
+    "text": "VS_VERSION_INFO"
+  },
+  {
+    "file_offset": 914,
+    "encoding": "utf-16le",
+    "text": "StringFileInfo"
+  },
+  {
+    "file_offset": 950,
+    "encoding": "utf-16le",
+    "text": "040904B0"
+  },
+  {
+    "file_offset": 974,
+    "encoding": "utf-16le",
+    "text": "CompanyName"
+  },
+  {
+    "file_offset": 1000,
+    "encoding": "utf-16le",
+    "text": "Microsoft Corporation"
+  },
+  {
+    "file_offset": 1050,
+    "encoding": "utf-16le",
+    "text": "FileDescription"
+  },
+  {
+    "file_offset": 1084,
+    "encoding": "utf-16le",
+    "text": "License Module"
+  },
+  {
+    "file_offset": 1122,
+    "encoding": "utf-16le",
+    "text": "FileVersion"
+  },
+  {
+    "file_offset": 1148,
+    "encoding": "utf-16le",
+    "text": "6.1.7601.23403 (win7sp1_ldr.160325-0600)"
+  },
+  {
+    "file_offset": 1238,
+    "encoding": "utf-16le",
+    "text": "InternalName"
+  },
+  {
+    "file_offset": 1264,
+    "encoding": "utf-16le",
+    "text": "MsMpLics"
+  },
+  {
+    "file_offset": 1290,
+    "encoding": "utf-16le",
+    "text": "LegalCopyright"
+  },
+  {
+    "file_offset": 1322,
+    "encoding": "utf-16le",
+    "text": " Microsoft Corporation. All rights reserved."
+  },
+  {
+    "file_offset": 1418,
+    "encoding": "utf-16le",
+    "text": "OriginalFilename"
+  },
+  {
+    "file_offset": 1452,
+    "encoding": "utf-16le",
+    "text": "MsMpLics.dll"
+  },
+  {
+    "file_offset": 1486,
+    "encoding": "utf-16le",
+    "text": "ProductName"
+  },
+  {
+    "file_offset": 1512,
+    "encoding": "utf-16le",
+    "text": "Microsoft"
+  },
+  {
+    "file_offset": 1532,
+    "encoding": "utf-16le",
+    "text": " Windows"
+  },
+  {
+    "file_offset": 1550,
+    "encoding": "utf-16le",
+    "text": " Operating System"
+  },
+  {
+    "file_offset": 1594,
+    "encoding": "utf-16le",
+    "text": "ProductVersion"
+  },
+  {
+    "file_offset": 1624,
+    "encoding": "utf-16le",
+    "text": "6.1.7601.23403"
+  },
+  {
+    "file_offset": 1662,
+    "encoding": "utf-16le",
+    "text": "VarFileInfo"
+  },
+  {
+    "file_offset": 1694,
+    "encoding": "utf-16le",
+    "text": "Translation"
+  },
+  {
+    "file_offset": 1738,
+    "encoding": "utf-16le",
+    "text": "AntiSpyware#SOFTWARE\\Microsoft\\Windows Defender,SOFTWARE\\Policies\\Microsoft\\Windows Defender$925A3ACA-C353-458A-AC8D-A7E5EB378092"
+  },
+  {
+    "file_offset": 1998,
+    "encoding": "utf-16le",
+    "text": "WinDefend$A2D75874-6750-4931-94C1-C99D3BC9D0C7"
+  },
+  {
+    "file_offset": 2096,
+    "encoding": "utf-16le",
+    "text": "Vista"
+  },
+  {
+    "file_offset": 2108,
+    "encoding": "utf-16le",
+    "text": "MP_CONFIG_ORIGIN_PREFERENCES"
+  },
+  {
+    "file_offset": 2166,
+    "encoding": "utf-16le",
+    "text": "Microsoft\\Windows Defender"
+  },
+  {
+    "file_offset": 2220,
+    "encoding": "utf-16le",
+    "text": "Windows Defender"
+  },
+  {
+    "file_offset": 2274,
+    "encoding": "utf-16le",
+    "text": "*SOF*3., DisableAntiSpyware, , , MP_CONFIG_ORIGIN_POLICY,GScan, CheckForSignaturesBeforeRunningScan, , , MP_CONFIG_ORIGIN_POLICY,"
+  },
+  {
+    "file_offset": 2534,
+    "encoding": "utf-16le",
+    "text": "5SpyNet, SpyNetReporting, , , MP_CONFIG_ORIGIN_POLICY,OSignature Updates, CheckAlternateDownloadLocation, , , MP_CONFIG_ORIGIN_POLICY,9., DisableLocalAdminMerge, 0, , MP_CONFIG_ORIGIN_DEFAULT,\"., AllowFastServiceStartup, 0, , ,"
+  },
+  {
+    "file_offset": 2992,
+    "encoding": "utf-16le",
+    "text": "KSignature Updates, CheckAlternateHttpLocation, , , MP_CONFIG_ORIGIN_POLICY,PReal-Time Protection, DisableBehaviorMonitoring, 1 , , MP_CONFIG_ORIGIN_DEFAULT,3., DisableAntiVirus, 1, , MP_CONFIG_ORIGIN_DEFAULT,MReal-Time Protection, DisableRealtimeMonitoring, , , MP_CONFIG_ORIGIN_POLICY,=., DisableRoutinelyTakingAction, , , MP_CONFIG_ORIGIN_POLICY,=Scan, DisableCatchupQuickScan, 1, , MP_CONFIG_ORIGIN_DEFAULT,<Scan, DisableCatchupFullScan, 1, , MP_CONFIG_ORIGIN_DEFAULT,7Scan, QuickScanInterval, 0, , MP_CONFIG_ORIGIN_DEFAULT,JSignature Updates, SignatureUpdateInterval, 0, , MP_CONFIG_ORIGIN_DEFAULT,;Scan, ScheduleQuickScanTime, 0, , MP_CONFIG_ORIGIN_DEFAULT,"
+  },
+  {
+    "file_offset": 4326,
+    "encoding": "utf-16le",
+    "text": "*EOF*"
+  },
+  {
+    "file_offset": 4344,
+    "encoding": "utf-16le",
+    "text": "&{2781761E-28E0-4109-99FE-B9D127C57AFE}"
+  },
+  {
+    "file_offset": 4428,
+    "encoding": "utf-16le",
+    "text": "WinDefend"
+  }
+]

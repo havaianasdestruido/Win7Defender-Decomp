@@ -1,0 +1,2596 @@
+{
+  "input_sha256": "e216a0aa285b6cbe242af409ff1a27678652c9c30b065f85d1ea2fec748d3586",
+  "inventory": [
+    {
+      "path": [
+        "MUI",
+        1,
+        1046
+      ],
+      "type": "MUI",
+      "rva": 5320,
+      "file_offset": 1736,
+      "size": 184,
+      "codepage": 1252,
+      "sha256": "75c6fc0978a39dc0bd2b42bb40bc5dd327d381e4c88602264529382f3d1c08c7"
+    },
+    {
+      "path": [
+        6,
+        63,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 5504,
+      "file_offset": 1920,
+      "size": 172,
+      "codepage": 1252,
+      "sha256": "77d74cbf3c208af33639aa3d46117be137ead34cb480d10081c7b8a2f0c71ae1"
+    },
+    {
+      "path": [
+        6,
+        64,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 5676,
+      "file_offset": 2092,
+      "size": 416,
+      "codepage": 1252,
+      "sha256": "5fe4fb907bbd1ec8b7c7e482176f2ac91b383c49e56f44c5dd8c4d280b8d48a7"
+    },
+    {
+      "path": [
+        6,
+        65,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 6092,
+      "file_offset": 2508,
+      "size": 652,
+      "codepage": 1252,
+      "sha256": "58a3c12792c19f715098b3069b1acb61990e7b630f2fb85820b6e5e3d18bf8e6"
+    },
+    {
+      "path": [
+        6,
+        66,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 6744,
+      "file_offset": 3160,
+      "size": 160,
+      "codepage": 1252,
+      "sha256": "74e5fadb141d26638086a807153b632870d86e5d89431f85e3a0cfa1fd735caf"
+    },
+    {
+      "path": [
+        6,
+        126,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 6904,
+      "file_offset": 3320,
+      "size": 2698,
+      "codepage": 1252,
+      "sha256": "568c05084b0ce73bf8e318e39878706360a87d00bc1c4e5b918d07ff16dd1dbd"
+    },
+    {
+      "path": [
+        6,
+        127,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 9604,
+      "file_offset": 6020,
+      "size": 1646,
+      "codepage": 1252,
+      "sha256": "a409627c8958d47989170199c39e3d6dd09bf25544a5bac794dd2f8b62af55e8"
+    },
+    {
+      "path": [
+        6,
+        128,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 11252,
+      "file_offset": 7668,
+      "size": 1854,
+      "codepage": 1252,
+      "sha256": "2b1740112c763e6d1d88b48397c8cef78e9b70ed1084a4725dd7688b367f3cfd"
+    },
+    {
+      "path": [
+        6,
+        188,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 13108,
+      "file_offset": 9524,
+      "size": 1000,
+      "codepage": 1252,
+      "sha256": "c5783c9564e3424d832d27ca0d582434d151f9bffe86226e65657ae8255a6cc6"
+    },
+    {
+      "path": [
+        6,
+        189,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 14108,
+      "file_offset": 10524,
+      "size": 2110,
+      "codepage": 1252,
+      "sha256": "a1327e974c3defe018ea6ac5cba8ef93be7e67d66419a5b9434ed24a18353a9d"
+    },
+    {
+      "path": [
+        6,
+        190,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 16220,
+      "file_offset": 12636,
+      "size": 1826,
+      "codepage": 1252,
+      "sha256": "a1cd070a3a9233dde3ea2368eb848167df452023119a5ebb0e1cb22027d719ba"
+    },
+    {
+      "path": [
+        6,
+        191,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 18048,
+      "file_offset": 14464,
+      "size": 1190,
+      "codepage": 1252,
+      "sha256": "21cf7adc1be5b307b5ff7e3aefb123979be105d7c1d51d0a54610a2d4c6e7874"
+    },
+    {
+      "path": [
+        6,
+        192,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 19240,
+      "file_offset": 15656,
+      "size": 1668,
+      "codepage": 1252,
+      "sha256": "ec1744f09dcebf8a8242507508802067f87eb66391f2898c46b10afea65d2eba"
+    },
+    {
+      "path": [
+        6,
+        193,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 20908,
+      "file_offset": 17324,
+      "size": 1700,
+      "codepage": 1252,
+      "sha256": "d7af8c65283cb025c5bf28cb2684461f672519fbe8537691d841ec8df5d5b8cd"
+    },
+    {
+      "path": [
+        6,
+        194,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 22608,
+      "file_offset": 19024,
+      "size": 1220,
+      "codepage": 1252,
+      "sha256": "7af1159cfab4b122f088e6abcd0450358822ddc666750937b60113c688296793"
+    },
+    {
+      "path": [
+        6,
+        195,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 23828,
+      "file_offset": 20244,
+      "size": 1262,
+      "codepage": 1252,
+      "sha256": "59583800f2fa564045de278e19aa76883c242e46ebacf86341e98177cd7a917b"
+    },
+    {
+      "path": [
+        6,
+        251,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 25092,
+      "file_offset": 21508,
+      "size": 1296,
+      "codepage": 1252,
+      "sha256": "fe97234a77abe025184b5a6485c37b54f50b14c3c0062902ec83e0f75b26aeb7"
+    },
+    {
+      "path": [
+        6,
+        313,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 26388,
+      "file_offset": 22804,
+      "size": 102,
+      "codepage": 1252,
+      "sha256": "e260bf4ffa5cf1902d477c4c20ee07402f40ccd4b6903adbd91c55b5f19bbb42"
+    },
+    {
+      "path": [
+        6,
+        376,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 26492,
+      "file_offset": 22908,
+      "size": 1674,
+      "codepage": 1252,
+      "sha256": "151330e51b78526034b9898be9e9facf3e98c9d255b823fcd137eb2bf08d1a77"
+    },
+    {
+      "path": [
+        6,
+        438,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 28168,
+      "file_offset": 24584,
+      "size": 176,
+      "codepage": 1252,
+      "sha256": "8bbee9154ac01086c5f816c28605fb9a07231f74438f89ca26267c8cbd105216"
+    },
+    {
+      "path": [
+        6,
+        439,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 28344,
+      "file_offset": 24760,
+      "size": 62,
+      "codepage": 1252,
+      "sha256": "4be5cfb7894277d0d4b8f9f3aa5211a8f58f3a2c8b89f2c7e2b1320ef46bfff0"
+    },
+    {
+      "path": [
+        11,
+        1,
+        1046
+      ],
+      "type": "RT_MESSAGETABLE",
+      "rva": 28408,
+      "file_offset": 24824,
+      "size": 12956,
+      "codepage": 1252,
+      "sha256": "364307b612aaa04c19d5a690c7a8238865934bbc97346c1a783dcd87e3fd1248"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1046
+      ],
+      "type": "RT_VERSION",
+      "rva": 41364,
+      "file_offset": 37780,
+      "size": 984,
+      "codepage": 1252,
+      "sha256": "e29510f5368348d1ca6b22d49cfef9f9072e28a35a6de90b254d64685ea54cf9"
+    }
+  ],
+  "decoded": [
+    {
+      "resource": [
+        6,
+        63,
+        1046
+      ],
+      "id": 1000,
+      "rva": 5522,
+      "kind": "string",
+      "text": "Desconhecido"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1046
+      ],
+      "id": 1001,
+      "rva": 5548,
+      "kind": "string",
+      "text": "Adware"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1046
+      ],
+      "id": 1002,
+      "rva": 5562,
+      "kind": "string",
+      "text": "Spyware"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1046
+      ],
+      "id": 1003,
+      "rva": 5578,
+      "kind": "string",
+      "text": "Password Stealer"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1046
+      ],
+      "id": 1004,
+      "rva": 5612,
+      "kind": "string",
+      "text": "Trojan Downloader"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1046
+      ],
+      "id": 1005,
+      "rva": 5648,
+      "kind": "string",
+      "text": "Worm"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1046
+      ],
+      "id": 1006,
+      "rva": 5658,
+      "kind": "string",
+      "text": "Backdoor"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1046
+      ],
+      "id": 1008,
+      "rva": 5678,
+      "kind": "string",
+      "text": "Cavalo de Tróia"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1046
+      ],
+      "id": 1009,
+      "rva": 5710,
+      "kind": "string",
+      "text": "Email Flooder (inundador)"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1046
+      ],
+      "id": 1011,
+      "rva": 5764,
+      "kind": "string",
+      "text": "Discagem"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1046
+      ],
+      "id": 1012,
+      "rva": 5782,
+      "kind": "string",
+      "text": "Software de Monitoramento"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1046
+      ],
+      "id": 1013,
+      "rva": 5834,
+      "kind": "string",
+      "text": "Modificador de Navegador"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1046
+      ],
+      "id": 1019,
+      "rva": 5894,
+      "kind": "string",
+      "text": "Programa de Piadas"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1046
+      ],
+      "id": 1021,
+      "rva": 5934,
+      "kind": "string",
+      "text": "Software Embarcado"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1046
+      ],
+      "id": 1022,
+      "rva": 5972,
+      "kind": "string",
+      "text": "Notificador de Cavalos de Tróia"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1046
+      ],
+      "id": 1023,
+      "rva": 6036,
+      "kind": "string",
+      "text": "Modificador de Configurações"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1027,
+      "rva": 6100,
+      "kind": "string",
+      "text": "Software Potencialmente Indesejado"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1030,
+      "rva": 6174,
+      "kind": "string",
+      "text": "Explorar"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1031,
+      "rva": 6192,
+      "kind": "string",
+      "text": "Programa de Compartilhamento de Arquivo"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1032,
+      "rva": 6272,
+      "kind": "string",
+      "text": "Ferramenta de Criação de Malware"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1033,
+      "rva": 6338,
+      "kind": "string",
+      "text": "Software de Controle Remoto"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1034,
+      "rva": 6394,
+      "kind": "string",
+      "text": "Ferramenta"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1036,
+      "rva": 6418,
+      "kind": "string",
+      "text": "Ataque de Negação de Serviço de Cavalo de Tróia"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1037,
+      "rva": 6514,
+      "kind": "string",
+      "text": "Instalador de Cavalos de Tróia"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1038,
+      "rva": 6576,
+      "kind": "string",
+      "text": "Mensageiro de Cavalos de Tróia em Massa"
+    },
+    {
+      "resource": [
+        6,
+        65,
+        1046
+      ],
+      "id": 1039,
+      "rva": 6656,
+      "kind": "string",
+      "text": "Software de Monitoramento de Cavalo de Tróia"
+    },
+    {
+      "resource": [
+        6,
+        66,
+        1046
+      ],
+      "id": 1040,
+      "rva": 6746,
+      "kind": "string",
+      "text": "Servidor Proxy de Cavalos de Tróia"
+    },
+    {
+      "resource": [
+        6,
+        66,
+        1046
+      ],
+      "id": 1042,
+      "rva": 6818,
+      "kind": "string",
+      "text": "Vírus"
+    },
+    {
+      "resource": [
+        6,
+        66,
+        1046
+      ],
+      "id": 1043,
+      "rva": 6830,
+      "kind": "string",
+      "text": "Permitido"
+    },
+    {
+      "resource": [
+        6,
+        66,
+        1046
+      ],
+      "id": 1044,
+      "rva": 6850,
+      "kind": "string",
+      "text": "Não Classificado"
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2000,
+      "rva": 6906,
+      "kind": "string",
+      "text": "Alteração detectada no sistema. Isso geralmente ocorre quando um software é instalado."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2001,
+      "rva": 7080,
+      "kind": "string",
+      "text": "Programa que exibe anúncios. Embora alguns adwares possam ser úteis, por subsidiar um programa ou serviço, outros podem exibir anúncios sem o devido consentimento."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2002,
+      "rva": 7408,
+      "kind": "string",
+      "text": "Programa que coleta informações, como sites visitados por um usuário, sem o devido consentimento. Ações não autorizadas podem incluir instalação sem aviso prévio ou execução sem um método claro para desabilitar o programa."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2003,
+      "rva": 7854,
+      "kind": "string",
+      "text": "Cavalo de Tróia que captura ou transmite senhas a um invasor."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2004,
+      "rva": 7978,
+      "kind": "string",
+      "text": "Cavalo de Tróia que instala outros programas silenciosamente, sem o devido consentimento."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2005,
+      "rva": 8158,
+      "kind": "string",
+      "text": "Código mal-intencionado de autopropagação que pode se autodistribuir automaticamente entre computadores por conexões de rede."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2006,
+      "rva": 8410,
+      "kind": "string",
+      "text": "Cavalo de Tróia usado para ignorar diretivas de segurança ou ganhar acesso a um computador."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2008,
+      "rva": 8596,
+      "kind": "string",
+      "text": "Programa que parece ser útil ou inofensivo, mas que contém código oculto desenvolvido para explorar ou danificar o sistema em que é executado."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2009,
+      "rva": 8882,
+      "kind": "string",
+      "text": "Cavalo de Tróia criado para saturar a caixa de entrada do usuário com emails."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2011,
+      "rva": 9040,
+      "kind": "string",
+      "text": "Cavalo de Tróia que usa o modem do computador para gerar tarifas telefônicas não autorizadas."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2012,
+      "rva": 9228,
+      "kind": "string",
+      "text": "Programa que monitora atividades, como pressionamentos de tecla ou imagens na tela."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2013,
+      "rva": 9396,
+      "kind": "string",
+      "text": "Programa que altera as configurações do navegador, como a página inicial, sem o devido consentimento."
+    },
+    {
+      "resource": [
+        6,
+        127,
+        1046
+      ],
+      "id": 2019,
+      "rva": 9612,
+      "kind": "string",
+      "text": "Programa criado para divertir ou assustar um usuário, por exemplo, imitando um vírus sem executar uma ação."
+    },
+    {
+      "resource": [
+        6,
+        127,
+        1046
+      ],
+      "id": 2021,
+      "rva": 9830,
+      "kind": "string",
+      "text": "Programa que instala outros softwares potencialmente indesejados, como adware ou spyware. O contrato de licença do programa embarcado pode exigir esses outros componentes para funcionar."
+    },
+    {
+      "resource": [
+        6,
+        127,
+        1046
+      ],
+      "id": 2022,
+      "rva": 10204,
+      "kind": "string",
+      "text": "Cavalo de Tróia usado para notificar um invasor quando o software tiver sido instalado."
+    },
+    {
+      "resource": [
+        6,
+        127,
+        1046
+      ],
+      "id": 2023,
+      "rva": 10380,
+      "kind": "string",
+      "text": "Programa que altera configurações sem o devido consentimento."
+    },
+    {
+      "resource": [
+        6,
+        127,
+        1046
+      ],
+      "id": 2027,
+      "rva": 10510,
+      "kind": "string",
+      "text": "Programa com comportamento potencialmente indesejado que chama a atenção do usuário para análise. Esse comportamento pode ter impacto sobre a privacidade, a segurança e a experiência de computação do usuário."
+    },
+    {
+      "resource": [
+        6,
+        127,
+        1046
+      ],
+      "id": 2030,
+      "rva": 10932,
+      "kind": "string",
+      "text": "Programa que explora uma vulnerabilidade na segurança."
+    },
+    {
+      "resource": [
+        6,
+        127,
+        1046
+      ],
+      "id": 2031,
+      "rva": 11042,
+      "kind": "string",
+      "text": "Programa usado para distribuir e baixar arquivos, geralmente como parte de uma rede ponto a ponto (P2P)."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2032,
+      "rva": 11254,
+      "kind": "string",
+      "text": "Ferramenta usada para criar vírus, worms e outros tipos de malware."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2033,
+      "rva": 11390,
+      "kind": "string",
+      "text": "Programa que fornece acesso a um computador de um local remoto. Esses programas geralmente são instalados pelo proprietário ou administrador do computador e só representam risco se inesperados."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2034,
+      "rva": 11778,
+      "kind": "string",
+      "text": "Ferramenta que pode ser explorada por um invasor e que pode ser usada para ignorar ou reduzir a segurança."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2036,
+      "rva": 11994,
+      "kind": "string",
+      "text": "Programa que cria um ataque de Negação de Serviço."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2037,
+      "rva": 12096,
+      "kind": "string",
+      "text": "Programa que vem com um Cavalo de Tróia."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2038,
+      "rva": 12178,
+      "kind": "string",
+      "text": "Cavalo de Tróia que envia grandes volumes de email."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2039,
+      "rva": 12282,
+      "kind": "string",
+      "text": "Cavalo de Tróia que registra as atividades do usuário, como pressionamentos de tecla. Essas informações podem ser enviadas a um invasor por email ou outros métodos."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2040,
+      "rva": 12612,
+      "kind": "string",
+      "text": "Cavalo de Tróia que instala um servidor proxy em uma máquina."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2042,
+      "rva": 12738,
+      "kind": "string",
+      "text": "Código mal-intencionado que tenta se espalhar por computadores, anexando-se a um programa host."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2043,
+      "rva": 12930,
+      "kind": "string",
+      "text": "Programa classificado e com permissão para execução."
+    },
+    {
+      "resource": [
+        6,
+        128,
+        1046
+      ],
+      "id": 2044,
+      "rva": 13036,
+      "kind": "string",
+      "text": "Programa ainda não classificado."
+    },
+    {
+      "resource": [
+        6,
+        188,
+        1046
+      ],
+      "id": 3001,
+      "rva": 13128,
+      "kind": "string",
+      "text": "Este programa envia anúncios potencialmente indesejados para o computador."
+    },
+    {
+      "resource": [
+        6,
+        188,
+        1046
+      ],
+      "id": 3002,
+      "rva": 13278,
+      "kind": "string",
+      "text": "Este programa parece ser um software de remoção de spyware, mas não revela comportamento de anúncio."
+    },
+    {
+      "resource": [
+        6,
+        188,
+        1046
+      ],
+      "id": 3003,
+      "rva": 13480,
+      "kind": "string",
+      "text": "Este programa exibe anúncios separadamente do programa pai."
+    },
+    {
+      "resource": [
+        6,
+        188,
+        1046
+      ],
+      "id": 3004,
+      "rva": 13600,
+      "kind": "string",
+      "text": "Este programa exibe pop-ups com anúncio."
+    },
+    {
+      "resource": [
+        6,
+        188,
+        1046
+      ],
+      "id": 3005,
+      "rva": 13682,
+      "kind": "string",
+      "text": "Este programa exibe anúncios com base nos hábitos de navegação na Web."
+    },
+    {
+      "resource": [
+        6,
+        188,
+        1046
+      ],
+      "id": 3006,
+      "rva": 13824,
+      "kind": "string",
+      "text": "Este programa exibe anúncios com conteúdo somente para adultos."
+    },
+    {
+      "resource": [
+        6,
+        188,
+        1046
+      ],
+      "id": 3007,
+      "rva": 13952,
+      "kind": "string",
+      "text": "Este programa exibe anúncios e geralmente vem acompanhado de outros programas."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3008,
+      "rva": 14110,
+      "kind": "string",
+      "text": "Este programa exibe anúncios, e pode ser difícil removê-lo."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3009,
+      "rva": 14230,
+      "kind": "string",
+      "text": "Este programa exibe anúncios com base nos hábitos de pesquisa na Web."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3010,
+      "rva": 14370,
+      "kind": "string",
+      "text": "Este programa envia anúncios e rastreia atividades."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3011,
+      "rva": 14474,
+      "kind": "string",
+      "text": "Este programa exibe anúncios e pode ser implantado por instalação não solicitada."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3012,
+      "rva": 14638,
+      "kind": "string",
+      "text": "Este programa exibe anúncios e é executado sem uma interface do usuário."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3013,
+      "rva": 14784,
+      "kind": "string",
+      "text": "Este programa exibe anúncios dentro de outro software."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3014,
+      "rva": 14894,
+      "kind": "string",
+      "text": "Este programa exibe mensagens de produtos enganosos."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3015,
+      "rva": 15000,
+      "kind": "string",
+      "text": "Este programa exibe anúncios e pode instalar outro software."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3016,
+      "rva": 15122,
+      "kind": "string",
+      "text": "Este programa é usado para ignorar diretivas de segurança."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3017,
+      "rva": 15240,
+      "kind": "string",
+      "text": "Este programa altera várias configurações do navegador da Web sem o devido consentimento."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3018,
+      "rva": 15420,
+      "kind": "string",
+      "text": "Este programa altera a página inicial padrão."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3019,
+      "rva": 15512,
+      "kind": "string",
+      "text": "Este programa altera o mecanismo de pesquisa e a página inicial padrão."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3020,
+      "rva": 15656,
+      "kind": "string",
+      "text": "Este programa altera o mecanismo de pesquisa e a página inicial padrão e outras configurações do navegador."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3021,
+      "rva": 15872,
+      "kind": "string",
+      "text": "Este programa redireciona o acesso a páginas da Web."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3022,
+      "rva": 15978,
+      "kind": "string",
+      "text": "Este programa altera as configurações do navegador e exibe anúncios."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3023,
+      "rva": 16116,
+      "kind": "string",
+      "text": "Este programa modifica o conteúdo da página da Web."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3024,
+      "rva": 16222,
+      "kind": "string",
+      "text": "Este programa altera links de páginas da Web."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3025,
+      "rva": 16314,
+      "kind": "string",
+      "text": "Este programa adiciona links a conteúdo somente para adultos."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3026,
+      "rva": 16438,
+      "kind": "string",
+      "text": "Este programa adiciona uma barra de ferramentas ao navegador e pode ser implantado por instalação não solicitada."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3027,
+      "rva": 16666,
+      "kind": "string",
+      "text": "Este programa adiciona uma barra lateral ao navegador para exibir anúncios."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3028,
+      "rva": 16818,
+      "kind": "string",
+      "text": "Este programa exibe conteúdo somente para adultos."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3029,
+      "rva": 16920,
+      "kind": "string",
+      "text": "Este programa altera o mecanismo de pesquisa padrão."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3030,
+      "rva": 17026,
+      "kind": "string",
+      "text": "Este programa altera as configurações do navegador e geralmente vem acompanhado de outros programas."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3035,
+      "rva": 17236,
+      "kind": "string",
+      "text": "Este programa disca telefones não-gratuitos para gerar tarifas telefônicas."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3036,
+      "rva": 17388,
+      "kind": "string",
+      "text": "Este programa disca telefones não-gratuitos para ganhar acesso a conteúdo somente para adultos."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3037,
+      "rva": 17580,
+      "kind": "string",
+      "text": "Este programa disca telefones não-gratuitos e envia anúncios de conteúdo somente para adultos."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3038,
+      "rva": 17770,
+      "kind": "string",
+      "text": "Este programa pode ser usado para executar um ataque de negação de serviço."
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3039,
+      "rva": 17922,
+      "kind": "string",
+      "text": "Este programa satura a caixa de entrada do usuário com emails."
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3041,
+      "rva": 18052,
+      "kind": "string",
+      "text": "Este programa tira proveito de uma vulnerabilidade na segurança."
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3042,
+      "rva": 18182,
+      "kind": "string",
+      "text": "Este programa permite que os usuários baixem ou compartilhem arquivos."
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3046,
+      "rva": 18330,
+      "kind": "string",
+      "text": "Este programa é criado para divertir ou assustar o usuário."
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3047,
+      "rva": 18450,
+      "kind": "string",
+      "text": "Este programa monitora a atividade do usuário, como pressionamentos de tecla."
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3049,
+      "rva": 18608,
+      "kind": "string",
+      "text": "Este programa é usado para criar vírus, worms e outros tipos de malware."
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3050,
+      "rva": 18754,
+      "kind": "string",
+      "text": "Este programa monitora as informações do usuário."
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3052,
+      "rva": 18856,
+      "kind": "string",
+      "text": "Este programa é perigoso e captura senhas de usuários."
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3054,
+      "rva": 18968,
+      "kind": "string",
+      "text": "Este programa é geralmente instalado com outros programas."
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3055,
+      "rva": 19086,
+      "kind": "string",
+      "text": "Este programa pode ter sido instalado sem o devido consentimento do usuário."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3056,
+      "rva": 19242,
+      "kind": "string",
+      "text": "Este programa é executado automaticamente, sem a devida notificação ao usuário."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3058,
+      "rva": 19404,
+      "kind": "string",
+      "text": "Este programa pode ser atualizado sem o devido consentimento do usuário e pode ser implantado por instalação não solicitada."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3059,
+      "rva": 19654,
+      "kind": "string",
+      "text": "Este programa é atualizado automaticamente, sem o devido consentimento do usuário."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3061,
+      "rva": 19822,
+      "kind": "string",
+      "text": "Este programa não revela de forma adequada comportamento potencialmente indesejado."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3062,
+      "rva": 19990,
+      "kind": "string",
+      "text": "Este programa é geralmente distribuído como componente de outro software potencialmente indesejado."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3063,
+      "rva": 20190,
+      "kind": "string",
+      "text": "Este programa apresenta comportamento potencialmente indesejado."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3064,
+      "rva": 20320,
+      "kind": "string",
+      "text": "Este programa desabilita outro software como parte de sua instalação."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3066,
+      "rva": 20462,
+      "kind": "string",
+      "text": "Este programa fornece acesso remoto ao computador em que está instalado."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3069,
+      "rva": 20612,
+      "kind": "string",
+      "text": "Este programa altera várias configurações do computador sem o devido consentimento."
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3070,
+      "rva": 20780,
+      "kind": "string",
+      "text": "Este programa instala outro software potencialmente indesejado."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3072,
+      "rva": 20910,
+      "kind": "string",
+      "text": "Este programa pode instalar outro software potencialmente indesejado."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3073,
+      "rva": 21050,
+      "kind": "string",
+      "text": "Este programa instala adware."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3074,
+      "rva": 21110,
+      "kind": "string",
+      "text": "Este programa instala spyware."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3075,
+      "rva": 21172,
+      "kind": "string",
+      "text": "Este programa instala modificadores de navegadores."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3076,
+      "rva": 21276,
+      "kind": "string",
+      "text": "Este programa instala software que exibe conteúdo somente para adultos."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3077,
+      "rva": 21420,
+      "kind": "string",
+      "text": "Este programa envia email não autorizado."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3078,
+      "rva": 21504,
+      "kind": "string",
+      "text": "Este programa coleta informações do usuário."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3079,
+      "rva": 21594,
+      "kind": "string",
+      "text": "Este programa rastreia atividades e envia anúncios."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3080,
+      "rva": 21698,
+      "kind": "string",
+      "text": "Este programa rastreia atividades e pode desabilitar outros programas."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3081,
+      "rva": 21840,
+      "kind": "string",
+      "text": "Este programa rastreia atividades e geralmente vem acompanhado de outros programas."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3082,
+      "rva": 22008,
+      "kind": "string",
+      "text": "Este programa rastreia atividades, e pode ser difícil removê-lo."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3083,
+      "rva": 22138,
+      "kind": "string",
+      "text": "Este programa rastreia atividades e o conteúdo de todas as páginas da Web, incluindo páginas seguras."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3084,
+      "rva": 22342,
+      "kind": "string",
+      "text": "Este programa se conecta à Internet em segundo plano."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3087,
+      "rva": 22454,
+      "kind": "string",
+      "text": "Este programa pode ser usado de forma mal-intencionada quando não autorizado."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3089,
+      "rva": 22612,
+      "kind": "string",
+      "text": "Este programa é perigoso e explora o computador em que é executado."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3090,
+      "rva": 22748,
+      "kind": "string",
+      "text": "Este programa é perigoso, explora o computador e fornece acesso a arquivos do usuário."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3091,
+      "rva": 22922,
+      "kind": "string",
+      "text": "Este programa é perigoso, explora o computador e compartilha as informações do usuário."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3092,
+      "rva": 23098,
+      "kind": "string",
+      "text": "Este programa é perigoso e baixa outros programas."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3093,
+      "rva": 23200,
+      "kind": "string",
+      "text": "Este programa é perigoso e instala outros programas."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3095,
+      "rva": 23308,
+      "kind": "string",
+      "text": "Este programa é perigoso e registra as atividades do usuário."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3096,
+      "rva": 23432,
+      "kind": "string",
+      "text": "Este programa informa um servidor, de forma silenciosa, quando for instalado."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3097,
+      "rva": 23588,
+      "kind": "string",
+      "text": "Este programa é perigoso e atua como servidor proxy."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3100,
+      "rva": 23698,
+      "kind": "string",
+      "text": "Este programa é perigoso e se autopropaga por conexão de rede."
+    },
+    {
+      "resource": [
+        6,
+        195,
+        1046
+      ],
+      "id": 3104,
+      "rva": 23830,
+      "kind": "string",
+      "text": "Este programa monitora as informações do usuário, como hábitos de navegação na Web."
+    },
+    {
+      "resource": [
+        6,
+        195,
+        1046
+      ],
+      "id": 3105,
+      "rva": 23998,
+      "kind": "string",
+      "text": "Este programa altera várias configurações do computador."
+    },
+    {
+      "resource": [
+        6,
+        195,
+        1046
+      ],
+      "id": 3106,
+      "rva": 24112,
+      "kind": "string",
+      "text": "Este programa altera o arquivo HOSTS do sistema."
+    },
+    {
+      "resource": [
+        6,
+        195,
+        1046
+      ],
+      "id": 3108,
+      "rva": 24212,
+      "kind": "string",
+      "text": "Este programa monitora informações confidenciais, como pressionamentos de tecla."
+    },
+    {
+      "resource": [
+        6,
+        195,
+        1046
+      ],
+      "id": 3109,
+      "rva": 24374,
+      "kind": "string",
+      "text": "Este programa é perigoso e monitora as informações do usuário."
+    },
+    {
+      "resource": [
+        6,
+        195,
+        1046
+      ],
+      "id": 3110,
+      "rva": 24500,
+      "kind": "string",
+      "text": "Este programa é perigoso e se replica, infectando outros arquivos."
+    },
+    {
+      "resource": [
+        6,
+        195,
+        1046
+      ],
+      "id": 3111,
+      "rva": 24634,
+      "kind": "string",
+      "text": "Este programa é perigoso e pode ocultar programas ou ignorar a segurança."
+    },
+    {
+      "resource": [
+        6,
+        195,
+        1046
+      ],
+      "id": 3112,
+      "rva": 24782,
+      "kind": "string",
+      "text": "Este programa é perigoso e executa os comandos de um invasor."
+    },
+    {
+      "resource": [
+        6,
+        195,
+        1046
+      ],
+      "id": 3113,
+      "rva": 24906,
+      "kind": "string",
+      "text": "Alteração detectada no sistema. Isso geralmente ocorre quando um software é instalado."
+    },
+    {
+      "resource": [
+        6,
+        251,
+        1046
+      ],
+      "id": 4000,
+      "rva": 25094,
+      "kind": "string",
+      "text": "Permitir item detectado somente se você confiar no programa ou no fornecedor do software."
+    },
+    {
+      "resource": [
+        6,
+        251,
+        1046
+      ],
+      "id": 4001,
+      "rva": 25274,
+      "kind": "string",
+      "text": "Este software geralmente é benigno quando executado no computador, a menos que tenha sido instalado sem o seu conhecimento. Se não tiver certeza se deve permitir sua execução, verifique os detalhes de alerta ou se reconhece e confia no fornecedor do software."
+    },
+    {
+      "resource": [
+        6,
+        251,
+        1046
+      ],
+      "id": 4002,
+      "rva": 25794,
+      "kind": "string",
+      "text": "Verifique os detalhes de alerta para ver por que o software foi detectado. Se não gosta da forma como ele funciona ou se não reconhece e confia no fornecedor, considere a possibilidade de bloqueá-lo ou removê-lo."
+    },
+    {
+      "resource": [
+        6,
+        251,
+        1046
+      ],
+      "id": 4004,
+      "rva": 26222,
+      "kind": "string",
+      "text": "Remover este software imediatamente."
+    },
+    {
+      "resource": [
+        6,
+        251,
+        1046
+      ],
+      "id": 4005,
+      "rva": 26296,
+      "kind": "string",
+      "text": "Remover este software imediatamente."
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5000,
+      "rva": 26406,
+      "kind": "string",
+      "text": "Não Classificado"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5001,
+      "rva": 26440,
+      "kind": "string",
+      "text": "Baixo"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5002,
+      "rva": 26452,
+      "kind": "string",
+      "text": "Médio"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5004,
+      "rva": 26466,
+      "kind": "string",
+      "text": "Alto"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5005,
+      "rva": 26476,
+      "kind": "string",
+      "text": "Grave"
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6000,
+      "rva": 26494,
+      "kind": "string",
+      "text": "Alteração detectada no sistema. Isso geralmente ocorre quando um software é instalado."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6001,
+      "rva": 26668,
+      "kind": "string",
+      "text": "Programas geralmente benignos, a menos que tenham sido instalados no computador sem o seu conhecimento."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6002,
+      "rva": 26876,
+      "kind": "string",
+      "text": "Programas que podem afetar a privacidade ou fazer alterações no computador e ter um impacto negativo sobre a sua experiência de computação, podendo, por exemplo, coletar informações pessoais ou alterar configurações."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6004,
+      "rva": 27312,
+      "kind": "string",
+      "text": "Programas que podem coletar informações pessoais e afetar negativamente a privacidade ou danificar o computador, podendo, por exemplo, coletar informações ou alterar configurações, geralmente sem o seu conhecimento ou consentimento."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6005,
+      "rva": 27778,
+      "kind": "string",
+      "text": "Programas amplamente difundidos ou excepcionalmente prejudiciais, semelhantes a vírus ou worms, que afetam negativamente a privacidade e a segurança do computador, além de danificá-lo."
+    },
+    {
+      "resource": [
+        6,
+        438,
+        1046
+      ],
+      "id": 7000,
+      "rva": 28186,
+      "kind": "string",
+      "text": "Desconhecido"
+    },
+    {
+      "resource": [
+        6,
+        438,
+        1046
+      ],
+      "id": 7001,
+      "rva": 28212,
+      "kind": "string",
+      "text": "Limpar"
+    },
+    {
+      "resource": [
+        6,
+        438,
+        1046
+      ],
+      "id": 7002,
+      "rva": 28226,
+      "kind": "string",
+      "text": "Quarentena"
+    },
+    {
+      "resource": [
+        6,
+        438,
+        1046
+      ],
+      "id": 7003,
+      "rva": 28248,
+      "kind": "string",
+      "text": "Remover"
+    },
+    {
+      "resource": [
+        6,
+        438,
+        1046
+      ],
+      "id": 7004,
+      "rva": 28264,
+      "kind": "string",
+      "text": "Bloquear"
+    },
+    {
+      "resource": [
+        6,
+        438,
+        1046
+      ],
+      "id": 7005,
+      "rva": 28282,
+      "kind": "string",
+      "text": "Ignorar"
+    },
+    {
+      "resource": [
+        6,
+        438,
+        1046
+      ],
+      "id": 7006,
+      "rva": 28298,
+      "kind": "string",
+      "text": "Ignorar Sempre"
+    },
+    {
+      "resource": [
+        6,
+        438,
+        1046
+      ],
+      "id": 7007,
+      "rva": 28328,
+      "kind": "string",
+      "text": "Reverter"
+    },
+    {
+      "resource": [
+        6,
+        439,
+        1046
+      ],
+      "id": 7008,
+      "rva": 28346,
+      "kind": "string",
+      "text": "Selecionar Ação"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2147550901,
+      "rva": 28628,
+      "kind": "message",
+      "flags": 1,
+      "text": "O serviço deste programa parou. Inicie o serviço manualmente ou reinicie o computador, o que iniciará o serviço.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2147550906,
+      "rva": 28864,
+      "kind": "message",
+      "flags": 1,
+      "text": "O serviço deste programa parou. Inicie o serviço manualmente ou reinicie o computador, o que iniciará o serviço.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2147550910,
+      "rva": 29100,
+      "kind": "message",
+      "flags": 1,
+      "text": "O serviço deste programa parou. Inicie o serviço manualmente ou reinicie o computador, o que iniciará o serviço.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2147550911,
+      "rva": 29336,
+      "kind": "message",
+      "flags": 1,
+      "text": "O serviço deste programa parou. Inicie o serviço manualmente ou reinicie o computador, o que iniciará o serviço.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2147942616,
+      "rva": 29572,
+      "kind": "message",
+      "flags": 1,
+      "text": "Esta versão do software não é compatível com a versão do Windows sendo executada. Verifique nas informações do sistema do computador se você precisa de uma versão x86 (32 bits) ou x64 (64 bits) do programa e contate o fornecedor do software.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2147944001,
+      "rva": 30064,
+      "kind": "message",
+      "flags": 1,
+      "text": "Não foi possível acessar o Serviço Windows Installer. Certifique-se de que o Windows Installer foi instalado e de que você não esteja executando o Windows no modo de segurança. Tente novamente.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2149842944,
+      "rva": 30460,
+      "kind": "message",
+      "flags": 1,
+      "text": "Erro inesperado ao verificar atualizações. Para obter informações sobre como instalar ou solucionar problemas de atualizações, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2149842978,
+      "rva": 30776,
+      "kind": "message",
+      "flags": 1,
+      "text": "O programa não pode verificar se há atualizações de definições.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152726528,
+      "rva": 30912,
+      "kind": "message",
+      "flags": 1,
+      "text": "Problema inesperado. Instale todas as atualizações disponíveis e tente iniciar o programa novamente. Para obter informações sobre como instalar atualizações, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152730625,
+      "rva": 31288,
+      "kind": "message",
+      "flags": 1,
+      "text": "Não foi possível concluir uma ou mais ações com êxito. Para obter detalhes, clique em um item individual ou consulte o Histórico.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152730626,
+      "rva": 31556,
+      "kind": "message",
+      "flags": 1,
+      "text": "O programa não pode localizar arquivos de definição que ajudam a detectar software indesejado. Verifique se há atualizações de arquivos de definição e tente novamente. Para obter informações sobre como instalar atualizações, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759297,
+      "rva": 32068,
+      "kind": "message",
+      "flags": 1,
+      "text": "Um problema está impedindo que o programa seja iniciado. Instale as atualizações disponíveis e tente iniciar o programa novamente. Para obter informações sobre como instalar atualizações, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759298,
+      "rva": 32504,
+      "kind": "message",
+      "flags": 1,
+      "text": "Um problema está impedindo que o programa seja iniciado. Instale as atualizações disponíveis e tente iniciar o programa novamente. Para obter informações sobre como instalar atualizações, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759300,
+      "rva": 32940,
+      "kind": "message",
+      "flags": 1,
+      "text": "Um problema está impedindo que o programa seja iniciado. Instale as atualizações disponíveis e tente iniciar o programa novamente. Para obter informações sobre como instalar atualizações, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759303,
+      "rva": 33376,
+      "kind": "message",
+      "flags": 1,
+      "text": "Memória insuficiente no computador. Feche alguns programas e tente novamente, ou consulte Ajuda e Suporte para obter informações sobre como evitar problemas de memória insuficiente.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759309,
+      "rva": 33748,
+      "kind": "message",
+      "flags": 1,
+      "text": "Não foi possível exibir alguns itens do histórico. Aguarde alguns minutos e tente novamente. Se isso não funcionar, limpe o histórico e tente de novo.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759310,
+      "rva": 34060,
+      "kind": "message",
+      "flags": 1,
+      "text": "Para usar este programa, é necessário instalar as atualizações mais recentes para o computador. Para obter informações sobre como instalar atualizações, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759313,
+      "rva": 34428,
+      "kind": "message",
+      "flags": 1,
+      "text": "Um problema inesperado impediu o programa de verificar a existência de software indesejado no computador. Tente verificar o computador novamente.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759314,
+      "rva": 34728,
+      "kind": "message",
+      "flags": 1,
+      "text": "Um problema inesperado impediu o programa de verificar a existência de software indesejado no computador. Tente verificar o computador novamente.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759315,
+      "rva": 35028,
+      "kind": "message",
+      "flags": 1,
+      "text": "Um problema inesperado impediu o programa de verificar a existência de software indesejado no computador. Tente limpar o histórico do programa e verifique o computador novamente.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759316,
+      "rva": 35396,
+      "kind": "message",
+      "flags": 1,
+      "text": "O item em quarentena não pode ser restaurado.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759319,
+      "rva": 35496,
+      "kind": "message",
+      "flags": 1,
+      "text": "Não foi possível aplicar algumas ações a itens potencialmente prejudiciais. Os itens podem ser armazenados em um local somente leitura. Exclua os arquivos ou pastas que contenham os itens, ou, para obter informações sobre como remover permissões somente leitura de arquivos e pastas, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759321,
+      "rva": 36124,
+      "kind": "message",
+      "flags": 1,
+      "text": "O arquivo ou unidade que você está tentando verificar não existe neste computador. Escolha outro arquivo ou unidade e verifique o computador novamente.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759330,
+      "rva": 36436,
+      "kind": "message",
+      "flags": 1,
+      "text": "Para finalizar a remoção de spyware e outro software indesejado, reinicie o computador.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759331,
+      "rva": 36620,
+      "kind": "message",
+      "flags": 1,
+      "text": "O programa não encontrou spyware e outros softwares potencialmente indesejados neste computador.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759332,
+      "rva": 36824,
+      "kind": "message",
+      "flags": 1,
+      "text": "Para finalizar a remoção de spyware ou de outros softwares potencialmente indesejados, é necessário executar uma verificação completa. Para obter informações sobre opções de verificação, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759333,
+      "rva": 37260,
+      "kind": "message",
+      "flags": 1,
+      "text": "Para saber como finalizar a remoção de spyware ou de outros softwares potencialmente indesejados, consulte este artigo de suporte no site Microsoft Security.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759334,
+      "rva": 37584,
+      "kind": "message",
+      "flags": 1,
+      "text": "Este programa não pode remover um item potencialmente prejudicial do conteúdo de um arquivo compactado. Para removê-lo, é necessário excluir o arquivo. Para obter mais informações, pesquise remoção de spyware em Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759335,
+      "rva": 38052,
+      "kind": "message",
+      "flags": 1,
+      "text": "Esta cópia do Windows não é original. Para receber a proteção completa deste programa, você precisa verificar se a cópia do Windows é original. Até você validar a cópia do Windows com êxito, este programa só removerá algumas ameaças. Apenas usuários de software original da Microsoft podem acessar atualizações e recursos mais recentes e o suporte ao produto.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152759336,
+      "rva": 38780,
+      "kind": "message",
+      "flags": 1,
+      "text": "Alguns componentes de email são armazenados em um local que não pode ser modificado. Uma lista de mensagens de email infectadas será exibida no painel de detalhes. Tente remover essas mensagens usando seu cliente de email.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152767489,
+      "rva": 39236,
+      "kind": "message",
+      "flags": 1,
+      "text": "O programa não pode localizar arquivos de definição que ajudam a detectar software indesejado. Verifique se há atualizações de arquivos de definição e tente novamente. Para obter informações sobre como instalar atualizações, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152767490,
+      "rva": 39748,
+      "kind": "message",
+      "flags": 1,
+      "text": "O programa não pode localizar arquivos de definição que ajudam a detectar software indesejado. Verifique se há atualizações de arquivos de definição e tente novamente. Para obter informações sobre como instalar atualizações, consulte Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152767491,
+      "rva": 40260,
+      "kind": "message",
+      "flags": 1,
+      "text": "Este pacote não contém arquivos de definição atualizados para este programa. Para obter mais informações, consulte o Centro de Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152767492,
+      "rva": 40556,
+      "kind": "message",
+      "flags": 1,
+      "text": "Este pacote não contém arquivos de definição atualizados para este programa. Para obter mais informações, consulte o Centro de Ajuda e Suporte.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2152767493,
+      "rva": 40852,
+      "kind": "message",
+      "flags": 1,
+      "text": "O programa não pode localizar arquivos de definição que ajudam a detectar software indesejado. Verifique se há atualizações de arquivos de definição e tente novamente. Para obter informações sobre como instalar atualizações, consulte Ajuda e Suporte.\r\n"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "file_offset": 5768,
+    "encoding": "utf-16le",
+    "text": "%s\\MPCLIENT.DLL"
+  },
+  {
+    "file_offset": 42464,
+    "encoding": "ascii",
+    "text": "MpOAv.DLL"
+  },
+  {
+    "file_offset": 49556,
+    "encoding": "utf-16le",
+    "text": "MpOAV.dll"
+  }
+]

@@ -1,0 +1,3802 @@
+[
+  {
+    "file_offset": 77,
+    "encoding": "ascii",
+    "text": "!This program cannot be run in DOS mode."
+  },
+  {
+    "file_offset": 160,
+    "encoding": "ascii",
+    "text": "RichE"
+  },
+  {
+    "file_offset": 448,
+    "encoding": "ascii",
+    "text": ".rsrc"
+  },
+  {
+    "file_offset": 4168,
+    "encoding": "utf-16le",
+    "text": "pt-BR"
+  },
+  {
+    "file_offset": 4190,
+    "encoding": "utf-16le",
+    "text": "__HELP__"
+  },
+  {
+    "file_offset": 4212,
+    "encoding": "utf-16le",
+    "text": "Exibir A&juda"
+  },
+  {
+    "file_offset": 4250,
+    "encoding": "utf-16le",
+    "text": "&Verificar se h"
+  },
+  {
+    "file_offset": 4282,
+    "encoding": "utf-16le",
+    "text": " atualiza"
+  },
+  {
+    "file_offset": 4314,
+    "encoding": "utf-16le",
+    "text": "Exibir a declara"
+  },
+  {
+    "file_offset": 4350,
+    "encoding": "utf-16le",
+    "text": "o de privacidade &online"
+  },
+  {
+    "file_offset": 4410,
+    "encoding": "utf-16le",
+    "text": "&Sobre o Windows Defender"
+  },
+  {
+    "file_offset": 4470,
+    "encoding": "utf-16le",
+    "text": "__SCAN__"
+  },
+  {
+    "file_offset": 4492,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 4536,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 4556,
+    "encoding": "utf-16le",
+    "text": "o &completa"
+  },
+  {
+    "file_offset": 4584,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 4604,
+    "encoding": "utf-16le",
+    "text": "o &personalizada..."
+  },
+  {
+    "file_offset": 4654,
+    "encoding": "utf-16le",
+    "text": "C&ancelar verifica"
+  },
+  {
+    "file_offset": 4730,
+    "encoding": "utf-16le",
+    "text": "Default Banner Dialog"
+  },
+  {
+    "file_offset": 4780,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 4864,
+    "encoding": "utf-16le",
+    "text": "SysLink"
+  },
+  {
+    "file_offset": 4948,
+    "encoding": "utf-16le",
+    "text": "SysLink"
+  },
+  {
+    "file_offset": 5028,
+    "encoding": "utf-16le",
+    "text": "Cancelar"
+  },
+  {
+    "file_offset": 5174,
+    "encoding": "utf-16le",
+    "text": "Windows Defender"
+  },
+  {
+    "file_offset": 5214,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 5396,
+    "encoding": "utf-16le",
+    "text": "Copyright "
+  },
+  {
+    "file_offset": 5418,
+    "encoding": "utf-16le",
+    "text": " 2008, Microsoft Corporation. Todos os direitos reservados."
+  },
+  {
+    "file_offset": 5568,
+    "encoding": "utf-16le",
+    "text": "Informa"
+  },
+  {
+    "file_offset": 5586,
+    "encoding": "utf-16le",
+    "text": "es do sistema:"
+  },
+  {
+    "file_offset": 5758,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 5812,
+    "encoding": "utf-16le",
+    "text": "&Selecione as unidades de disco e pastas a serem verificadas:"
+  },
+  {
+    "file_offset": 5964,
+    "encoding": "utf-16le",
+    "text": "SysTreeView32"
+  },
+  {
+    "file_offset": 6060,
+    "encoding": "utf-16le",
+    "text": "Cancelar"
+  },
+  {
+    "file_offset": 6110,
+    "encoding": "utf-16le",
+    "text": "Windows Defender"
+  },
+  {
+    "file_offset": 6150,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 6364,
+    "encoding": "utf-16le",
+    "text": "Fechar"
+  },
+  {
+    "file_offset": 6410,
+    "encoding": "utf-16le",
+    "text": "Envio de Exemplo para o Windows Defender"
+  },
+  {
+    "file_offset": 6498,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 6680,
+    "encoding": "utf-16le",
+    "text": "O envio desses arquivos pode ajudar a Microsoft a melhorar a efic"
+  },
+  {
+    "file_offset": 6812,
+    "encoding": "utf-16le",
+    "text": "cia deste programa. Caso n"
+  },
+  {
+    "file_offset": 6866,
+    "encoding": "utf-16le",
+    "text": "o deseje enviar um arquivo, desmarque a caixa de sele"
+  },
+  {
+    "file_offset": 6976,
+    "encoding": "utf-16le",
+    "text": "o ao lado do arquivo."
+  },
+  {
+    "file_offset": 7052,
+    "encoding": "utf-16le",
+    "text": "Para que a privacidade de outros usu"
+  },
+  {
+    "file_offset": 7126,
+    "encoding": "utf-16le",
+    "text": "rios seja protegida, alguns arquivos ficam ocultos. Clique no bot"
+  },
+  {
+    "file_offset": 7258,
+    "encoding": "utf-16le",
+    "text": "o Exibir tudo para visualizar esses arquivos. "
+  },
+  {
+    "file_offset": 7380,
+    "encoding": "utf-16le",
+    "text": "SysListView32"
+  },
+  {
+    "file_offset": 7440,
+    "encoding": "utf-16le",
+    "text": "E&xibir tudo"
+  },
+  {
+    "file_offset": 7496,
+    "encoding": "utf-16le",
+    "text": "&Enviar"
+  },
+  {
+    "file_offset": 7544,
+    "encoding": "utf-16le",
+    "text": "Cancelar"
+  },
+  {
+    "file_offset": 7626,
+    "encoding": "utf-16le",
+    "text": "Alerta do Windows Defender"
+  },
+  {
+    "file_offset": 7686,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 7896,
+    "encoding": "utf-16le",
+    "text": "msctls_progress32"
+  },
+  {
+    "file_offset": 7960,
+    "encoding": "utf-16le",
+    "text": "SysListView32"
+  },
+  {
+    "file_offset": 8052,
+    "encoding": "utf-16le",
+    "text": "Mostrar &detalhes >>"
+  },
+  {
+    "file_offset": 8124,
+    "encoding": "utf-16le",
+    "text": "&Limpar sistema"
+  },
+  {
+    "file_offset": 8188,
+    "encoding": "utf-16le",
+    "text": "&Aplicar a"
+  },
+  {
+    "file_offset": 8248,
+    "encoding": "utf-16le",
+    "text": "&Ignorar"
+  },
+  {
+    "file_offset": 8298,
+    "encoding": "utf-16le",
+    "text": "Windows Defender"
+  },
+  {
+    "file_offset": 8338,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 8552,
+    "encoding": "utf-16le",
+    "text": "&Fechar"
+  },
+  {
+    "file_offset": 8602,
+    "encoding": "utf-16le",
+    "text": "Windows Defender"
+  },
+  {
+    "file_offset": 8642,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 8696,
+    "encoding": "utf-16le",
+    "text": "S&elecione o sistema operacional a ser verificado:"
+  },
+  {
+    "file_offset": 8824,
+    "encoding": "utf-16le",
+    "text": "SysListView32"
+  },
+  {
+    "file_offset": 8884,
+    "encoding": "utf-16le",
+    "text": "&Se seu sistema operacional n"
+  },
+  {
+    "file_offset": 8944,
+    "encoding": "utf-16le",
+    "text": "o estiver na lista, insira a pasta do Windows ou clique em Procurar:"
+  },
+  {
+    "file_offset": 9144,
+    "encoding": "utf-16le",
+    "text": "&Procurar..."
+  },
+  {
+    "file_offset": 9236,
+    "encoding": "utf-16le",
+    "text": "Cancelar"
+  },
+  {
+    "file_offset": 9286,
+    "encoding": "utf-16le",
+    "text": "Windows Defender"
+  },
+  {
+    "file_offset": 9326,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 9412,
+    "encoding": "utf-16le",
+    "text": "Deseja enviar informa"
+  },
+  {
+    "file_offset": 9468,
+    "encoding": "utf-16le",
+    "text": "sicas da Microsoft sobre o software detectado pelo programa? Essas informa"
+  },
+  {
+    "file_offset": 9620,
+    "encoding": "utf-16le",
+    "text": "es ser"
+  },
+  {
+    "file_offset": 9634,
+    "encoding": "utf-16le",
+    "text": "o usadas para ajudar a interromper a propaga"
+  },
+  {
+    "file_offset": 9726,
+    "encoding": "utf-16le",
+    "text": "o de novas infec"
+  },
+  {
+    "file_offset": 9762,
+    "encoding": "utf-16le",
+    "text": "es de malware."
+  },
+  {
+    "file_offset": 9904,
+    "encoding": "utf-16le",
+    "text": "&Mais informa"
+  },
+  {
+    "file_offset": 9974,
+    "encoding": "utf-16le",
+    "text": "Windows Defender"
+  },
+  {
+    "file_offset": 10014,
+    "encoding": "utf-16le",
+    "text": "MS Shell Dlg"
+  },
+  {
+    "file_offset": 10196,
+    "encoding": "utf-16le",
+    "text": "Inicializando..."
+  },
+  {
+    "file_offset": 10256,
+    "encoding": "utf-16le",
+    "text": "msctls_progress32"
+  },
+  {
+    "file_offset": 10312,
+    "encoding": "utf-16le",
+    "text": "Windows Defender"
+  },
+  {
+    "file_offset": 10346,
+    "encoding": "utf-16le",
+    "text": "Windows Defender"
+  },
+  {
+    "file_offset": 10380,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 10400,
+    "encoding": "utf-16le",
+    "text": "o completa"
+  },
+  {
+    "file_offset": 10422,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 10470,
+    "encoding": "utf-16le",
+    "text": "Executando a"
+  },
+  {
+    "file_offset": 10498,
+    "encoding": "utf-16le",
+    "text": "es..."
+  },
+  {
+    "file_offset": 10520,
+    "encoding": "utf-16le",
+    "text": "o %1!s! criada em %2!s! Aplicar a"
+  },
+  {
+    "file_offset": 10590,
+    "encoding": "utf-16le",
+    "text": "es a itens detectados"
+  },
+  {
+    "file_offset": 10634,
+    "encoding": "utf-16le",
+    "text": "A Microsoft ainda n"
+  },
+  {
+    "file_offset": 10674,
+    "encoding": "utf-16le",
+    "text": "o analisou os poss"
+  },
+  {
+    "file_offset": 10712,
+    "encoding": "utf-16le",
+    "text": "veis riscos do software que fez essas altera"
+  },
+  {
+    "file_offset": 10804,
+    "encoding": "utf-16le",
+    "text": "es. Voc"
+  },
+  {
+    "file_offset": 10826,
+    "encoding": "utf-16le",
+    "text": " deve permitir altera"
+  },
+  {
+    "file_offset": 10872,
+    "encoding": "utf-16le",
+    "text": "es se confiar no programa ou no fornecedor do software. Uma vez permitidas, as altera"
+  },
+  {
+    "file_offset": 11056,
+    "encoding": "utf-16le",
+    "text": "o podem ser desfeitas.3Examinar altera"
+  },
+  {
+    "file_offset": 11136,
+    "encoding": "utf-16le",
+    "text": "es nas configura"
+  },
+  {
+    "file_offset": 11172,
+    "encoding": "utf-16le",
+    "text": "es do computador"
+  },
+  {
+    "file_offset": 11206,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 11226,
+    "encoding": "utf-16le",
+    "text": "o personalizada"
+  },
+  {
+    "file_offset": 11262,
+    "encoding": "utf-16le",
+    "text": "o dispon"
+  },
+  {
+    "file_offset": 11298,
+    "encoding": "utf-16le",
+    "text": "es em andamento. Aguarde..."
+  },
+  {
+    "file_offset": 11374,
+    "encoding": "utf-16le",
+    "text": "Itens em quarentena"
+  },
+  {
+    "file_offset": 11414,
+    "encoding": "utf-16le",
+    "text": "Total: %1!d! itensV<a href=\"ReviewRTPThreats\">Examinar itens detectados pela prote"
+  },
+  {
+    "file_offset": 11582,
+    "encoding": "utf-16le",
+    "text": "o em tempo real.</a> "
+  },
+  {
+    "file_offset": 11640,
+    "encoding": "utf-16le",
+    "text": "Categoria:"
+  },
+  {
+    "file_offset": 11682,
+    "encoding": "utf-16le",
+    "text": "Alterado:!O computador deve ser reiniciado.WPara terminar de remover spyware e outros programas indesejados, reinicie o computador."
+  },
+  {
+    "file_offset": 11946,
+    "encoding": "utf-16le",
+    "text": "&Reiniciar..."
+  },
+  {
+    "file_offset": 11990,
+    "encoding": "utf-16le",
+    "text": "%1!s! (%2!s!)3A execu"
+  },
+  {
+    "file_offset": 12036,
+    "encoding": "utf-16le",
+    "text": "o desses itens no computador foi impedida.#&Selecione uma a"
+  },
+  {
+    "file_offset": 12158,
+    "encoding": "utf-16le",
+    "text": "o a ser aplicada:"
+  },
+  {
+    "file_offset": 12194,
+    "encoding": "utf-16le",
+    "text": "Aplicar A"
+  },
+  {
+    "file_offset": 12238,
+    "encoding": "utf-16le",
+    "text": "vel de Alerta"
+  },
+  {
+    "file_offset": 12278,
+    "encoding": "utf-16le",
+    "text": "Altera"
+  },
+  {
+    "file_offset": 12294,
+    "encoding": "utf-16le",
+    "text": "o na Configura"
+  },
+  {
+    "file_offset": 12330,
+    "encoding": "utf-16le",
+    "text": "Permita esta altera"
+  },
+  {
+    "file_offset": 12372,
+    "encoding": "utf-16le",
+    "text": "o da configura"
+  },
+  {
+    "file_offset": 12404,
+    "encoding": "utf-16le",
+    "text": "o caso voc"
+  },
+  {
+    "file_offset": 12426,
+    "encoding": "utf-16le",
+    "text": " confie em sua origem. "
+  },
+  {
+    "file_offset": 12474,
+    "encoding": "utf-16le",
+    "text": " recomend"
+  },
+  {
+    "file_offset": 12494,
+    "encoding": "utf-16le",
+    "text": "vel executar uma verifica"
+  },
+  {
+    "file_offset": 12556,
+    "encoding": "utf-16le",
+    "text": "pida caso voc"
+  },
+  {
+    "file_offset": 12584,
+    "encoding": "utf-16le",
+    "text": " decida negar esta altera"
+  },
+  {
+    "file_offset": 12650,
+    "encoding": "utf-16le",
+    "text": "digo de Erro: 0x%1!0x!)"
+  },
+  {
+    "file_offset": 12698,
+    "encoding": "utf-16le",
+    "text": "Analise as a"
+  },
+  {
+    "file_offset": 12726,
+    "encoding": "utf-16le",
+    "text": "es efetuadas em software potencialmente indesejado."
+  },
+  {
+    "file_offset": 12830,
+    "encoding": "utf-16le",
+    "text": "Para analisar ou monitorar software cuja execu"
+  },
+  {
+    "file_offset": 12926,
+    "encoding": "utf-16le",
+    "text": "o voc"
+  },
+  {
+    "file_offset": 12938,
+    "encoding": "utf-16le",
+    "text": " permitiu, v"
+  },
+  {
+    "file_offset": 12964,
+    "encoding": "utf-16le",
+    "text": " para <A HREF=\"Command://ActionExceptionList\">Itens permitidos</A>. "
+  },
+  {
+    "file_offset": 13102,
+    "encoding": "utf-16le",
+    "text": "Para remover ou restaurar software cuja execu"
+  },
+  {
+    "file_offset": 13196,
+    "encoding": "utf-16le",
+    "text": "o foi impedida, v"
+  },
+  {
+    "file_offset": 13232,
+    "encoding": "utf-16le",
+    "text": " para <A HREF=\"Command://ActionCleanedItems\">Itens em quarentena</A>. "
+  },
+  {
+    "file_offset": 13380,
+    "encoding": "utf-16le",
+    "text": "es efetuadas em &programas:"
+  },
+  {
+    "file_offset": 13438,
+    "encoding": "utf-16le",
+    "text": "KPara proteger o computador, "
+  },
+  {
+    "file_offset": 13498,
+    "encoding": "utf-16le",
+    "text": " preciso reinici"
+  },
+  {
+    "file_offset": 13532,
+    "encoding": "utf-16le",
+    "text": "-lo. Deseja fazer isso agora?"
+  },
+  {
+    "file_offset": 13592,
+    "encoding": "utf-16le",
+    "text": "Selecionar uma a"
+  },
+  {
+    "file_offset": 13628,
+    "encoding": "utf-16le",
+    "text": "oVPara continuar, selecione uma a"
+  },
+  {
+    "file_offset": 13698,
+    "encoding": "utf-16le",
+    "text": "o para cada item listado ou clique em Limpar sistema."
+  },
+  {
+    "file_offset": 13828,
+    "encoding": "utf-16le",
+    "text": "Baixo"
+  },
+  {
+    "file_offset": 13840,
+    "encoding": "utf-16le",
+    "text": ":8Nenhum programa indesejado ou prejudicial foi detectado."
+  },
+  {
+    "file_offset": 13958,
+    "encoding": "utf-16le",
+    "text": "Privilegiado"
+  },
+  {
+    "file_offset": 13988,
+    "encoding": "utf-16le",
+    "text": "Erro:"
+  },
+  {
+    "file_offset": 14002,
+    "encoding": "utf-16le",
+    "text": "Verificando..."
+  },
+  {
+    "file_offset": 14034,
+    "encoding": "utf-16le",
+    "text": "Diretiva de Grupo"
+  },
+  {
+    "file_offset": 14072,
+    "encoding": "utf-16le",
+    "text": "Voltar"
+  },
+  {
+    "file_offset": 14086,
+    "encoding": "utf-16le",
+    "text": "Voltar0Deseja salvar as configura"
+  },
+  {
+    "file_offset": 14156,
+    "encoding": "utf-16le",
+    "text": "es que voc"
+  },
+  {
+    "file_offset": 14178,
+    "encoding": "utf-16le",
+    "text": " alterou?(A"
+  },
+  {
+    "file_offset": 14204,
+    "encoding": "utf-16le",
+    "text": "o recomendada com base nas defini"
+  },
+  {
+    "file_offset": 14280,
+    "encoding": "utf-16le",
+    "text": "Remover%Verificar anexos e arquivos bai&xados"
+  },
+  {
+    "file_offset": 14374,
+    "encoding": "utf-16le",
+    "text": "&Salvar"
+  },
+  {
+    "file_offset": 14390,
+    "encoding": "utf-16le",
+    "text": "Cancela&r"
+  },
+  {
+    "file_offset": 14410,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 14430,
+    "encoding": "utf-16le",
+    "text": "o autom"
+  },
+  {
+    "file_offset": 14446,
+    "encoding": "utf-16le",
+    "text": "tica7V&erificar meu computador automaticamente (recomendado)"
+  },
+  {
+    "file_offset": 14568,
+    "encoding": "utf-16le",
+    "text": "&Frequ"
+  },
+  {
+    "file_offset": 14582,
+    "encoding": "utf-16le",
+    "text": "ncia:"
+  },
+  {
+    "file_offset": 14594,
+    "encoding": "utf-16le",
+    "text": "&Hora aproximada:"
+  },
+  {
+    "file_offset": 14630,
+    "encoding": "utf-16le",
+    "text": "Diariamente"
+  },
+  {
+    "file_offset": 14662,
+    "encoding": "utf-16le",
+    "text": "digo 0x%1!0x!."
+  },
+  {
+    "file_offset": 14698,
+    "encoding": "utf-16le",
+    "text": "&Fechar"
+  },
+  {
+    "file_offset": 14714,
+    "encoding": "utf-16le",
+    "text": "Grave"
+  },
+  {
+    "file_offset": 14726,
+    "encoding": "utf-16le",
+    "text": "Desconhecido"
+  },
+  {
+    "file_offset": 14752,
+    "encoding": "utf-16le",
+    "text": "Prote"
+  },
+  {
+    "file_offset": 14766,
+    "encoding": "utf-16le",
+    "text": "o em tempo real*Usar prote"
+  },
+  {
+    "file_offset": 14822,
+    "encoding": "utf-16le",
+    "text": "o em &tempo real (recomendado)"
+  },
+  {
+    "file_offset": 14900,
+    "encoding": "utf-16le",
+    "text": "Extens"
+  },
+  {
+    "file_offset": 14918,
+    "encoding": "utf-16le",
+    "text": "Tipo de Arquivo"
+  },
+  {
+    "file_offset": 14964,
+    "encoding": "utf-16le",
+    "text": "Ingressar na Microsoft SpyNet"
+  },
+  {
+    "file_offset": 15024,
+    "encoding": "utf-16le",
+    "text": "Microsoft SpyNet "
+  },
+  {
+    "file_offset": 15060,
+    "encoding": "utf-16le",
+    "text": " a comunidade online que ajuda voc"
+  },
+  {
+    "file_offset": 15130,
+    "encoding": "utf-16le",
+    "text": " a decidir como responder a poss"
+  },
+  {
+    "file_offset": 15196,
+    "encoding": "utf-16le",
+    "text": "veis amea"
+  },
+  {
+    "file_offset": 15216,
+    "encoding": "utf-16le",
+    "text": "as de spyware. A comunidade tamb"
+  },
+  {
+    "file_offset": 15282,
+    "encoding": "utf-16le",
+    "text": "m ajuda a impedir a dissemina"
+  },
+  {
+    "file_offset": 15344,
+    "encoding": "utf-16le",
+    "text": "o de novas infec"
+  },
+  {
+    "file_offset": 15380,
+    "encoding": "utf-16le",
+    "text": "es por spyware."
+  },
+  {
+    "file_offset": 15426,
+    "encoding": "utf-16le",
+    "text": " pode optar por enviar informa"
+  },
+  {
+    "file_offset": 15500,
+    "encoding": "utf-16le",
+    "text": "sicas ou adicionais sobre o software detectado. As informa"
+  },
+  {
+    "file_offset": 15620,
+    "encoding": "utf-16le",
+    "text": "es adicionais ajudam a Microsoft a criar novas defini"
+  },
+  {
+    "file_offset": 15730,
+    "encoding": "utf-16le",
+    "text": "es para melhor proteger o seu computador. Elas podem incluir, por exemplo, o local dos itens detectados no computador caso um software prejudicial tenha sido removido. As informa"
+  },
+  {
+    "file_offset": 16090,
+    "encoding": "utf-16le",
+    "text": "es ser"
+  },
+  {
+    "file_offset": 16104,
+    "encoding": "utf-16le",
+    "text": "o coletadas e enviadas automaticamente."
+  },
+  {
+    "file_offset": 16192,
+    "encoding": "utf-16le",
+    "text": "o desejo ingressar na Microsoft SpyNet agora"
+  },
+  {
+    "file_offset": 16282,
+    "encoding": "utf-16le",
+    "text": "Administrador"
+  },
+  {
+    "file_offset": 16328,
+    "encoding": "utf-16le",
+    "text": "es de verifica"
+  },
+  {
+    "file_offset": 16364,
+    "encoding": "utf-16le",
+    "text": "Escolha o que ser"
+  },
+  {
+    "file_offset": 16400,
+    "encoding": "utf-16le",
+    "text": " verificado:"
+  },
+  {
+    "file_offset": 16426,
+    "encoding": "utf-16le",
+    "text": "&Verifica"
+  },
+  {
+    "file_offset": 16466,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 16486,
+    "encoding": "utf-16le",
+    "text": "o &completa)Verificar uni&dades e pastas selecionadas"
+  },
+  {
+    "file_offset": 16598,
+    "encoding": "utf-16le",
+    "text": "&Selecionar..."
+  },
+  {
+    "file_offset": 16628,
+    "encoding": "utf-16le",
+    "text": "Verificar &agora#N"
+  },
+  {
+    "file_offset": 16666,
+    "encoding": "utf-16le",
+    "text": "o executar verifica"
+  },
+  {
+    "file_offset": 16708,
+    "encoding": "utf-16le",
+    "text": "o autom"
+  },
+  {
+    "file_offset": 16744,
+    "encoding": "utf-16le",
+    "text": "o do Cliente:  %1!s!"
+  },
+  {
+    "file_offset": 16788,
+    "encoding": "utf-16le",
+    "text": "m<a href=\"http://go.microsoft.com/fwlink/?LinkId=52661\">Exiba mais informa"
+  },
+  {
+    "file_offset": 16940,
+    "encoding": "utf-16le",
+    "text": "es sobre este programa online</a> "
+  },
+  {
+    "file_offset": 17012,
+    "encoding": "utf-16le",
+    "text": "Permitir %1!d!%%"
+  },
+  {
+    "file_offset": 17046,
+    "encoding": "utf-16le",
+    "text": "Usar &heur"
+  },
+  {
+    "file_offset": 17068,
+    "encoding": "utf-16le",
+    "text": "stica"
+  },
+  {
+    "file_offset": 17088,
+    "encoding": "utf-16le",
+    "text": "o verificar os seguintes arquivos ou locais:"
+  },
+  {
+    "file_offset": 17178,
+    "encoding": "utf-16le",
+    "text": "&Adicionar"
+  },
+  {
+    "file_offset": 17200,
+    "encoding": "utf-16le",
+    "text": "&Remover"
+  },
+  {
+    "file_offset": 17218,
+    "encoding": "utf-16le",
+    "text": "&Adicionar..."
+  },
+  {
+    "file_offset": 17254,
+    "encoding": "utf-16le",
+    "text": "Caminho do ArquivoIhttp://go.microsoft.com/fwlink/?linkid=37020&name=%1!s!&threatid=%2!I32u!.Exibir mais informa"
+  },
+  {
+    "file_offset": 17482,
+    "encoding": "utf-16le",
+    "text": "es sobre este item online"
+  },
+  {
+    "file_offset": 17546,
+    "encoding": "utf-16le",
+    "text": "es da Porta do Firewall"
+  },
+  {
+    "file_offset": 17594,
+    "encoding": "utf-16le",
+    "text": "Remover &tudocVoc"
+  },
+  {
+    "file_offset": 17636,
+    "encoding": "utf-16le",
+    "text": "o selecionou unidades de disco ou pastas para serem verificadas. Deseja selecion"
+  },
+  {
+    "file_offset": 17798,
+    "encoding": "utf-16le",
+    "text": "-las agora?"
+  },
+  {
+    "file_offset": 17828,
+    "encoding": "utf-16le",
+    "text": "Seu programa est"
+  },
+  {
+    "file_offset": 17862,
+    "encoding": "utf-16le",
+    "text": " atualizado.\"Opera"
+  },
+  {
+    "file_offset": 17902,
+    "encoding": "utf-16le",
+    "text": "o de atualiza"
+  },
+  {
+    "file_offset": 17932,
+    "encoding": "utf-16le",
+    "text": "o cancelada."
+  },
+  {
+    "file_offset": 17970,
+    "encoding": "utf-16le",
+    "text": "%1!s! "
+  },
+  {
+    "file_offset": 17984,
+    "encoding": "utf-16le",
+    "text": "s %2!s!"
+  },
+  {
+    "file_offset": 18000,
+    "encoding": "utf-16le",
+    "text": "Agente"
+  },
+  {
+    "file_offset": 18014,
+    "encoding": "utf-16le",
+    "text": "Ponto de Verifica"
+  },
+  {
+    "file_offset": 18052,
+    "encoding": "utf-16le",
+    "text": "o$Ingressar com uma associa"
+  },
+  {
+    "file_offset": 18140,
+    "encoding": "utf-16le",
+    "text": "o Executada"
+  },
+  {
+    "file_offset": 18166,
+    "encoding": "utf-16le",
+    "text": "Fornecedor"
+  },
+  {
+    "file_offset": 18222,
+    "encoding": "utf-16le",
+    "text": "Limpar &hist"
+  },
+  {
+    "file_offset": 18268,
+    "encoding": "utf-16le",
+    "text": "&Remover"
+  },
+  {
+    "file_offset": 18286,
+    "encoding": "utf-16le",
+    "text": "Res&taurar3Recuperando a Classifica"
+  },
+  {
+    "file_offset": 18360,
+    "encoding": "utf-16le",
+    "text": "o da Comunidade SpyNet..."
+  },
+  {
+    "file_offset": 18414,
+    "encoding": "utf-16le",
+    "text": "A restaura"
+  },
+  {
+    "file_offset": 18438,
+    "encoding": "utf-16le",
+    "text": "o desses itens pode prejudicar sua privacidade e seguran"
+  },
+  {
+    "file_offset": 18552,
+    "encoding": "utf-16le",
+    "text": "a ou o desempenho do computador. Tem certeza de que deseja restaur"
+  },
+  {
+    "file_offset": 18686,
+    "encoding": "utf-16le",
+    "text": "-los?"
+  },
+  {
+    "file_offset": 18698,
+    "encoding": "utf-16le",
+    "text": "&Tipo:"
+  },
+  {
+    "file_offset": 18720,
+    "encoding": "utf-16le",
+    "text": "es de verifica"
+  },
+  {
+    "file_offset": 18752,
+    "encoding": "utf-16le",
+    "text": "o;Conferir se h"
+  },
+  {
+    "file_offset": 18784,
+    "encoding": "utf-16le",
+    "text": " defini"
+  },
+  {
+    "file_offset": 18802,
+    "encoding": "utf-16le",
+    "text": "es atuali&zadas antes da verifica"
+  },
+  {
+    "file_offset": 18882,
+    "encoding": "utf-16le",
+    "text": "es padr"
+  },
+  {
+    "file_offset": 18902,
+    "encoding": "utf-16le",
+    "text": "Escolha a a"
+  },
+  {
+    "file_offset": 18928,
+    "encoding": "utf-16le",
+    "text": "o que voc"
+  },
+  {
+    "file_offset": 18948,
+    "encoding": "utf-16le",
+    "text": " deseja exibir ou aplicar quando itens com esses n"
+  },
+  {
+    "file_offset": 19050,
+    "encoding": "utf-16le",
+    "text": "veis de alerta forem detectados. <a href=\"Help://AlertLevels\">O que s"
+  },
+  {
+    "file_offset": 19200,
+    "encoding": "utf-16le",
+    "text": "es e n"
+  },
+  {
+    "file_offset": 19214,
+    "encoding": "utf-16le",
+    "text": "veis de alerta?</a> "
+  },
+  {
+    "file_offset": 19256,
+    "encoding": "utf-16le",
+    "text": "Ite&ns de alerta alto:"
+  },
+  {
+    "file_offset": 19302,
+    "encoding": "utf-16le",
+    "text": "Verificando o computador...dN"
+  },
+  {
+    "file_offset": 19362,
+    "encoding": "utf-16le",
+    "text": "o foi poss"
+  },
+  {
+    "file_offset": 19384,
+    "encoding": "utf-16le",
+    "text": "vel reiniciar o computador. Para proteger o sistema, reinicie o computador manualmente.4N"
+  },
+  {
+    "file_offset": 19572,
+    "encoding": "utf-16le",
+    "text": " novas defini"
+  },
+  {
+    "file_offset": 19602,
+    "encoding": "utf-16le",
+    "text": "es ou atualiza"
+  },
+  {
+    "file_offset": 19634,
+    "encoding": "utf-16le",
+    "text": "es dispon"
+  },
+  {
+    "file_offset": 19654,
+    "encoding": "utf-16le",
+    "text": "veis."
+  },
+  {
+    "file_offset": 19666,
+    "encoding": "utf-16le",
+    "text": "Programa desativado1N"
+  },
+  {
+    "file_offset": 19718,
+    "encoding": "utf-16le",
+    "text": " software desconhecido para ser verificado."
+  },
+  {
+    "file_offset": 19814,
+    "encoding": "utf-16le",
+    "text": "es da Ajuda"
+  },
+  {
+    "file_offset": 19838,
+    "encoding": "utf-16le",
+    "text": "&Verificar agora#Verificar se h"
+  },
+  {
+    "file_offset": 19902,
+    "encoding": "utf-16le",
+    "text": " &atualiza"
+  },
+  {
+    "file_offset": 19926,
+    "encoding": "utf-16le",
+    "text": "es agora"
+  },
+  {
+    "file_offset": 19944,
+    "encoding": "utf-16le",
+    "text": "Itens Detectados"
+  },
+  {
+    "file_offset": 19978,
+    "encoding": "utf-16le",
+    "text": "%1!s! bytes!N"
+  },
+  {
+    "file_offset": 20006,
+    "encoding": "utf-16le",
+    "text": "vel de alerta Grave/Alto: %1!d!#N"
+  },
+  {
+    "file_offset": 20074,
+    "encoding": "utf-16le",
+    "text": "vel de alertas M"
+  },
+  {
+    "file_offset": 20108,
+    "encoding": "utf-16le",
+    "text": "dio/Baixo: %1!d!"
+  },
+  {
+    "file_offset": 20146,
+    "encoding": "utf-16le",
+    "text": "O ASSINADO/Falha na inicializa"
+  },
+  {
+    "file_offset": 20210,
+    "encoding": "utf-16le",
+    "text": "o do aplicativo: 0x%1!0x!."
+  },
+  {
+    "file_offset": 20264,
+    "encoding": "utf-16le",
+    "text": "Itens permitidosCRemova itens dessa lista para que eles sejam monitorados novamente."
+  },
+  {
+    "file_offset": 20434,
+    "encoding": "utf-16le",
+    "text": "Itens de alerta &m"
+  },
+  {
+    "file_offset": 20482,
+    "encoding": "utf-16le",
+    "text": "Itens de alerta &baixo:e<a href=\"http://go.microsoft.com/fwlink/?LinkId=63849\">Veja dicas de solu"
+  },
+  {
+    "file_offset": 20680,
+    "encoding": "utf-16le",
+    "text": "o de problemas online</a> |Escolha os agentes de seguran"
+  },
+  {
+    "file_offset": 20794,
+    "encoding": "utf-16le",
+    "text": "a que deseja executar. <a href=\"Help://RTP\">No"
+  },
+  {
+    "file_offset": 20900,
+    "encoding": "utf-16le",
+    "text": "sicas sobre a prote"
+  },
+  {
+    "file_offset": 20942,
+    "encoding": "utf-16le",
+    "text": "o em tempo real</a> "
+  },
+  {
+    "file_offset": 20988,
+    "encoding": "utf-16le",
+    "text": "Hora de in"
+  },
+  {
+    "file_offset": 21020,
+    "encoding": "utf-16le",
+    "text": "Tempo decorrido:"
+  },
+  {
+    "file_offset": 21054,
+    "encoding": "utf-16le",
+    "text": "Assinado Digitalmente por:`Se desejar usar esse programa, <a href=\"Command://EnableProduct\">clique aqui para ativ"
+  },
+  {
+    "file_offset": 21282,
+    "encoding": "utf-16le",
+    "text": "-lo</a>. "
+  },
+  {
+    "file_offset": 21302,
+    "encoding": "utf-16le",
+    "text": "Verificar &arquivos compactados&Ingressar com uma associa"
+  },
+  {
+    "file_offset": 21420,
+    "encoding": "utf-16le",
+    "text": "o &avan"
+  },
+  {
+    "file_offset": 21444,
+    "encoding": "utf-16le",
+    "text": "Envia "
+  },
+  {
+    "file_offset": 21458,
+    "encoding": "utf-16le",
+    "text": " Microsoft informa"
+  },
+  {
+    "file_offset": 21508,
+    "encoding": "utf-16le",
+    "text": "sicas sobre o software detectado, incluindo a proced"
+  },
+  {
+    "file_offset": 21614,
+    "encoding": "utf-16le",
+    "text": "ncia do software e as a"
+  },
+  {
+    "file_offset": 21664,
+    "encoding": "utf-16le",
+    "text": "es aplicadas por voc"
+  },
+  {
+    "file_offset": 21706,
+    "encoding": "utf-16le",
+    "text": " ou automaticamente pelo programa. O programa tamb"
+  },
+  {
+    "file_offset": 21808,
+    "encoding": "utf-16le",
+    "text": "m relata se as a"
+  },
+  {
+    "file_offset": 21844,
+    "encoding": "utf-16le",
+    "text": "es foram bem-sucedidas. Em alguns casos, informa"
+  },
+  {
+    "file_offset": 21944,
+    "encoding": "utf-16le",
+    "text": "es pessoais poder"
+  },
+  {
+    "file_offset": 21980,
+    "encoding": "utf-16le",
+    "text": "o ser enviadas "
+  },
+  {
+    "file_offset": 22012,
+    "encoding": "utf-16le",
+    "text": " Microsoft acidentalmente; por"
+  },
+  {
+    "file_offset": 22074,
+    "encoding": "utf-16le",
+    "text": "m, a Microsoft n"
+  },
+  {
+    "file_offset": 22108,
+    "encoding": "utf-16le",
+    "text": "o as utilizar"
+  },
+  {
+    "file_offset": 22136,
+    "encoding": "utf-16le",
+    "text": " para identificar ou contatar voc"
+  },
+  {
+    "file_offset": 22216,
+    "encoding": "utf-16le",
+    "text": "m das informa"
+  },
+  {
+    "file_offset": 22256,
+    "encoding": "utf-16le",
+    "text": "sicas, o programa envia "
+  },
+  {
+    "file_offset": 22306,
+    "encoding": "utf-16le",
+    "text": " Microsoft mais informa"
+  },
+  {
+    "file_offset": 22356,
+    "encoding": "utf-16le",
+    "text": "es sobre spyware e software potencialmente indesejado, incluindo a localiza"
+  },
+  {
+    "file_offset": 22510,
+    "encoding": "utf-16le",
+    "text": "o do software, nomes de arquivo, como o software opera e qual foi o impacto no computador. Em alguns casos, informa"
+  },
+  {
+    "file_offset": 22744,
+    "encoding": "utf-16le",
+    "text": "es pessoais poder"
+  },
+  {
+    "file_offset": 22780,
+    "encoding": "utf-16le",
+    "text": "o ser enviadas "
+  },
+  {
+    "file_offset": 22812,
+    "encoding": "utf-16le",
+    "text": " Microsoft acidentalmente; por"
+  },
+  {
+    "file_offset": 22874,
+    "encoding": "utf-16le",
+    "text": "m, a Microsoft n"
+  },
+  {
+    "file_offset": 22908,
+    "encoding": "utf-16le",
+    "text": "o as utilizar"
+  },
+  {
+    "file_offset": 22936,
+    "encoding": "utf-16le",
+    "text": " para identificar ou contatar voc"
+  },
+  {
+    "file_offset": 23008,
+    "encoding": "utf-16le",
+    "text": "Ajude a impedir a dissemina"
+  },
+  {
+    "file_offset": 23066,
+    "encoding": "utf-16le",
+    "text": "o de software prejudicial e potencialmente indesejado. <A HREF=\"view://Settings\">Participe da Microsoft SpyNet</A> nVoc"
+  },
+  {
+    "file_offset": 23306,
+    "encoding": "utf-16le",
+    "text": " se inscreveu na Microsoft SpyNet (inscri"
+  },
+  {
+    "file_offset": 23400,
+    "encoding": "utf-16le",
+    "text": "sica). <A HREF=\"view://Settings\">Alterar configura"
+  },
+  {
+    "file_offset": 23504,
+    "encoding": "utf-16le",
+    "text": "es</A> "
+  },
+  {
+    "file_offset": 23530,
+    "encoding": "utf-16le",
+    "text": " se inscreveu na Microsoft SpyNet (inscri"
+  },
+  {
+    "file_offset": 23616,
+    "encoding": "utf-16le",
+    "text": "o avan"
+  },
+  {
+    "file_offset": 23630,
+    "encoding": "utf-16le",
+    "text": "ada). <A HREF=\"view://Settings\">Alterar configura"
+  },
+  {
+    "file_offset": 23732,
+    "encoding": "utf-16le",
+    "text": "es</A> e<A HREF=\"http://go.microsoft.com/fwlink/?linkid=104288\">Leia a declara"
+  },
+  {
+    "file_offset": 23892,
+    "encoding": "utf-16le",
+    "text": "o de privacidade online.</A> "
+  },
+  {
+    "file_offset": 23954,
+    "encoding": "utf-16le",
+    "text": "Ponto de Verifica"
+  },
+  {
+    "file_offset": 24008,
+    "encoding": "utf-16le",
+    "text": "Pressionar%Falha do aplicativo ao criar janelas."
+  },
+  {
+    "file_offset": 24108,
+    "encoding": "utf-16le",
+    "text": "Remover da l&ista"
+  },
+  {
+    "file_offset": 24144,
+    "encoding": "utf-16le",
+    "text": "Criar ponto de res&taura"
+  },
+  {
+    "file_offset": 24202,
+    "encoding": "utf-16le",
+    "text": "Algumas configura"
+  },
+  {
+    "file_offset": 24250,
+    "encoding": "utf-16le",
+    "text": "o gerenciadas pelo administrador do sistema.<a href=\"Help://GroupPolicy\">Por que n"
+  },
+  {
+    "file_offset": 24416,
+    "encoding": "utf-16le",
+    "text": "o consigo alterar certas configura"
+  },
+  {
+    "file_offset": 24488,
+    "encoding": "utf-16le",
+    "text": "es?</a> "
+  },
+  {
+    "file_offset": 24506,
+    "encoding": "utf-16le",
+    "text": "Se estiver usando outro programa que verifica por softwares indesejados ou prejudiciais, use a Central de A"
+  },
+  {
+    "file_offset": 24724,
+    "encoding": "utf-16le",
+    "text": "es para verificar o status do programa."
+  },
+  {
+    "file_offset": 24806,
+    "encoding": "utf-16le",
+    "text": "rSeu computador n"
+  },
+  {
+    "file_offset": 24848,
+    "encoding": "utf-16le",
+    "text": " verificado h"
+  },
+  {
+    "file_offset": 24882,
+    "encoding": "utf-16le",
+    "text": "rios dias. Recomendamos que voc"
+  },
+  {
+    "file_offset": 24946,
+    "encoding": "utf-16le",
+    "text": " agende uma verifica"
+  },
+  {
+    "file_offset": 25000,
+    "encoding": "utf-16le",
+    "text": "ria do computador."
+  },
+  {
+    "file_offset": 25038,
+    "encoding": "utf-16le",
+    "text": "Para ajudar a proteger o computador contra software prejudicial ou potencialmente indesejado, contate o administrador do sistema para habilitar o programa atrav"
+  },
+  {
+    "file_offset": 25360,
+    "encoding": "utf-16le",
+    "text": "s de uma diretiva de grupo."
+  },
+  {
+    "file_offset": 25416,
+    "encoding": "utf-16le",
+    "text": "AtivoFProcurar spyware e outros tipos de software potencialmente indesejadoskSeu computador n"
+  },
+  {
+    "file_offset": 25610,
+    "encoding": "utf-16le",
+    "text": " verificado h"
+  },
+  {
+    "file_offset": 25638,
+    "encoding": "utf-16le",
+    "text": " %1!d! dias. "
+  },
+  {
+    "file_offset": 25666,
+    "encoding": "utf-16le",
+    "text": " recomend"
+  },
+  {
+    "file_offset": 25686,
+    "encoding": "utf-16le",
+    "text": "vel agendar uma verifica"
+  },
+  {
+    "file_offset": 25748,
+    "encoding": "utf-16le",
+    "text": "ria do computador."
+  },
+  {
+    "file_offset": 25786,
+    "encoding": "utf-16le",
+    "text": "Procurar novas defini"
+  },
+  {
+    "file_offset": 25838,
+    "encoding": "utf-16le",
+    "text": "Defini"
+  },
+  {
+    "file_offset": 25854,
+    "encoding": "utf-16le",
+    "text": "es atualizadas permitem a detec"
+  },
+  {
+    "file_offset": 25920,
+    "encoding": "utf-16le",
+    "text": "o dos softwares prejudiciais ou indesejados mais recentes e impedem sua execu"
+  },
+  {
+    "file_offset": 26078,
+    "encoding": "utf-16le",
+    "text": "o no computador.T<A HREF=\"http://go.microsoft.com/fwlink/?LinkId=55273\">Site do Windows Defender</A> "
+  },
+  {
+    "file_offset": 26282,
+    "encoding": "utf-16le",
+    "text": "2Escolha como deseja que o programa seja executado.VIngressar na comunidade online que ajuda a identificar e evitar infec"
+  },
+  {
+    "file_offset": 26528,
+    "encoding": "utf-16le",
+    "text": "es por spyware.@Remover ou restaurar software cuja execu"
+  },
+  {
+    "file_offset": 26644,
+    "encoding": "utf-16le",
+    "text": "o tenha sido impedida."
+  },
+  {
+    "file_offset": 26690,
+    "encoding": "utf-16le",
+    "text": "&Iniciar agora1Exibir software que voc"
+  },
+  {
+    "file_offset": 26768,
+    "encoding": "utf-16le",
+    "text": " optou por n"
+  },
+  {
+    "file_offset": 26794,
+    "encoding": "utf-16le",
+    "text": "o monitorar.JObter mais ferramentas e as informa"
+  },
+  {
+    "file_offset": 26894,
+    "encoding": "utf-16le",
+    "text": "es de seguran"
+  },
+  {
+    "file_offset": 26922,
+    "encoding": "utf-16le",
+    "text": "a mais recentes online."
+  },
+  {
+    "file_offset": 26972,
+    "encoding": "utf-16le",
+    "text": "Verificar"
+  },
+  {
+    "file_offset": 27012,
+    "encoding": "utf-16le",
+    "text": "Ferramentas e configura"
+  },
+  {
+    "file_offset": 27068,
+    "encoding": "utf-16le",
+    "text": "Configura"
+  },
+  {
+    "file_offset": 27096,
+    "encoding": "utf-16le",
+    "text": "Ferramentas.<A HREF=\"Command://ActionSettings\">Op"
+  },
+  {
+    "file_offset": 27198,
+    "encoding": "utf-16le",
+    "text": "es</A> 9<A HREF=\"Command://ActionCommunity\">Microsoft SpyNet</A> "
+  },
+  {
+    "file_offset": 27330,
+    "encoding": "utf-16le",
+    "text": "Tem certeza de que deseja sair??<A HREF=\"Command://ActionCleanedItems\">Itens em quarentena</A> =<A HREF=\"Command://ActionExceptionList\">Itens permitidos</A> "
+  },
+  {
+    "file_offset": 27646,
+    "encoding": "utf-16le",
+    "text": "Desinfetar"
+  },
+  {
+    "file_offset": 27674,
+    "encoding": "utf-16le",
+    "text": "Itens de alerta gra&ves:"
+  },
+  {
+    "file_offset": 27750,
+    "encoding": "utf-16le",
+    "text": "Iniciar Automaticamente"
+  },
+  {
+    "file_offset": 27798,
+    "encoding": "utf-16le",
+    "text": "Configura"
+  },
+  {
+    "file_offset": 27820,
+    "encoding": "utf-16le",
+    "text": "o do Sistema!Complementos do Internet Explorer\"Configura"
+  },
+  {
+    "file_offset": 27936,
+    "encoding": "utf-16le",
+    "text": "es do Internet Explorer"
+  },
+  {
+    "file_offset": 27986,
+    "encoding": "utf-16le",
+    "text": "Servi"
+  },
+  {
+    "file_offset": 27998,
+    "encoding": "utf-16le",
+    "text": "os e Drivers"
+  },
+  {
+    "file_offset": 28024,
+    "encoding": "utf-16le",
+    "text": "Execu"
+  },
+  {
+    "file_offset": 28038,
+    "encoding": "utf-16le",
+    "text": "o do Aplicativo"
+  },
+  {
+    "file_offset": 28070,
+    "encoding": "utf-16le",
+    "text": "Registro do Aplicativo"
+  },
+  {
+    "file_offset": 28116,
+    "encoding": "utf-16le",
+    "text": "Complementos do Windows"
+  },
+  {
+    "file_offset": 28164,
+    "encoding": "utf-16le",
+    "text": "Downloads do Internet Explorer)Classifica"
+  },
+  {
+    "file_offset": 28250,
+    "encoding": "utf-16le",
+    "text": "o da Comunidade SpyNet: %1!s!"
+  },
+  {
+    "file_offset": 28330,
+    "encoding": "utf-16le",
+    "text": "Downloads do ActiveX#DLLs de Inicializa"
+  },
+  {
+    "file_offset": 28412,
+    "encoding": "utf-16le",
+    "text": "o de Aplicativo"
+  },
+  {
+    "file_offset": 28444,
+    "encoding": "utf-16le",
+    "text": "Autorun"
+  },
+  {
+    "file_offset": 28460,
+    "encoding": "utf-16le",
+    "text": "Objetos Auxiliares de Navegador"
+  },
+  {
+    "file_offset": 28524,
+    "encoding": "utf-16le",
+    "text": "Drivers"
+  },
+  {
+    "file_offset": 28552,
+    "encoding": "utf-16le",
+    "text": "es do Firewall"
+  },
+  {
+    "file_offset": 28582,
+    "encoding": "utf-16le",
+    "text": "Arquivo de Hosts"
+  },
+  {
+    "file_offset": 28616,
+    "encoding": "utf-16le",
+    "text": "Barras do Internet Explorer"
+  },
+  {
+    "file_offset": 28672,
+    "encoding": "utf-16le",
+    "text": "Extens"
+  },
+  {
+    "file_offset": 28686,
+    "encoding": "utf-16le",
+    "text": "es do Internet Explorer"
+  },
+  {
+    "file_offset": 28734,
+    "encoding": "utf-16le",
+    "text": "Plug-ins do Internet Explorer"
+  },
+  {
+    "file_offset": 28794,
+    "encoding": "utf-16le",
+    "text": "Mapeamento de Arquivos Ini"
+  },
+  {
+    "file_offset": 28848,
+    "encoding": "utf-16le",
+    "text": "Prote"
+  },
+  {
+    "file_offset": 28862,
+    "encoding": "utf-16le",
+    "text": "o de Servidor de Nomes&Provedor de Servi"
+  },
+  {
+    "file_offset": 28944,
+    "encoding": "utf-16le",
+    "text": "o em Camadas Winsock"
+  },
+  {
+    "file_offset": 28986,
+    "encoding": "utf-16le",
+    "text": "Chaves Run"
+  },
+  {
+    "file_offset": 29008,
+    "encoding": "utf-16le",
+    "text": "Executando Processos"
+  },
+  {
+    "file_offset": 29050,
+    "encoding": "utf-16le",
+    "text": "Inicializa"
+  },
+  {
+    "file_offset": 29074,
+    "encoding": "utf-16le",
+    "text": "o Segura"
+  },
+  {
+    "file_offset": 29094,
+    "encoding": "utf-16le",
+    "text": "Prote"
+  },
+  {
+    "file_offset": 29108,
+    "encoding": "utf-16le",
+    "text": "o de tela"
+  },
+  {
+    "file_offset": 29128,
+    "encoding": "utf-16le",
+    "text": "Servi"
+  },
+  {
+    "file_offset": 29146,
+    "encoding": "utf-16le",
+    "text": "Ganchos de Execu"
+  },
+  {
+    "file_offset": 29182,
+    "encoding": "utf-16le",
+    "text": "o do Shell"
+  },
+  {
+    "file_offset": 29204,
+    "encoding": "utf-16le",
+    "text": "Comando de Abertura do Shell"
+  },
+  {
+    "file_offset": 29262,
+    "encoding": "utf-16le",
+    "text": "Pasta Inicializar"
+  },
+  {
+    "file_offset": 29298,
+    "encoding": "utf-16le",
+    "text": "Agendador de Tarefas"
+  },
+  {
+    "file_offset": 29340,
+    "encoding": "utf-16le",
+    "text": "IDs de Classe!Manipuladores de Menu de Contexto"
+  },
+  {
+    "file_offset": 29436,
+    "encoding": "utf-16le",
+    "text": "Execu"
+  },
+  {
+    "file_offset": 29450,
+    "encoding": "utf-16le",
+    "text": "o do Aplicativo)Barra de Ferramentas do Internet Explorer%Navegador da Web do Internet Explorer'Navegador do Shell do Internet Explorer"
+  },
+  {
+    "file_offset": 29722,
+    "encoding": "utf-16le",
+    "text": "Pesquisa do Internet Explorer$URL de Pesquisa do Internet Explorer+Caixa de Di"
+  },
+  {
+    "file_offset": 29880,
+    "encoding": "utf-16le",
+    "text": "logo Sobre do Internet Explorer#P"
+  },
+  {
+    "file_offset": 29948,
+    "encoding": "utf-16le",
+    "text": "gina Inicial do Internet Explorer"
+  },
+  {
+    "file_offset": 30016,
+    "encoding": "utf-16le",
+    "text": "%Extens"
+  },
+  {
+    "file_offset": 30032,
+    "encoding": "utf-16le",
+    "text": "o de Menu do Internet Explorer/Ganchos de Pesquisa de URL do Internet Explorer"
+  },
+  {
+    "file_offset": 30190,
+    "encoding": "utf-16le",
+    "text": "Chaves de Execu"
+  },
+  {
+    "file_offset": 30240,
+    "encoding": "utf-16le",
+    "text": "Execu"
+  },
+  {
+    "file_offset": 30254,
+    "encoding": "utf-16le",
+    "text": "o Restrita"
+  },
+  {
+    "file_offset": 30276,
+    "encoding": "utf-16le",
+    "text": "Pastas do Shell do Usu"
+  },
+  {
+    "file_offset": 30322,
+    "encoding": "utf-16le",
+    "text": "rio!Complementos do Internet Explorer"
+  },
+  {
+    "file_offset": 30398,
+    "encoding": "utf-16le",
+    "text": "Downloads do Internet Explorer"
+  },
+  {
+    "file_offset": 30484,
+    "encoding": "utf-16le",
+    "text": "Conselho:"
+  },
+  {
+    "file_offset": 30504,
+    "encoding": "utf-16le",
+    "text": "Descri"
+  },
+  {
+    "file_offset": 30526,
+    "encoding": "utf-16le",
+    "text": "Recursos:"
+  },
+  {
+    "file_offset": 30546,
+    "encoding": "utf-16le",
+    "text": "Altera"
+  },
+  {
+    "file_offset": 30562,
+    "encoding": "utf-16le",
+    "text": "es detectadas:"
+  },
+  {
+    "file_offset": 30592,
+    "encoding": "utf-16le",
+    "text": "Detectado por:"
+  },
+  {
+    "file_offset": 30622,
+    "encoding": "utf-16le",
+    "text": "Nome do produto:"
+  },
+  {
+    "file_offset": 30656,
+    "encoding": "utf-16le",
+    "text": "Descri"
+  },
+  {
+    "file_offset": 30678,
+    "encoding": "utf-16le",
+    "text": "Caminho:"
+  },
+  {
+    "file_offset": 30696,
+    "encoding": "utf-16le",
+    "text": "Fornecedor:"
+  },
+  {
+    "file_offset": 30720,
+    "encoding": "utf-16le",
+    "text": "Tamanho:"
+  },
+  {
+    "file_offset": 30754,
+    "encoding": "utf-16le",
+    "text": "Tipo:"
+  },
+  {
+    "file_offset": 30766,
+    "encoding": "utf-16le",
+    "text": "Data de cria"
+  },
+  {
+    "file_offset": 30802,
+    "encoding": "utf-16le",
+    "text": "Nome original:"
+  },
+  {
+    "file_offset": 30834,
+    "encoding": "utf-16le",
+    "text": "Original: "
+  },
+  {
+    "file_offset": 30856,
+    "encoding": "utf-16le",
+    "text": "Novo: "
+  },
+  {
+    "file_offset": 30870,
+    "encoding": "utf-16le",
+    "text": "Arquivo de defini"
+  },
+  {
+    "file_offset": 30922,
+    "encoding": "utf-16le",
+    "text": "stica"
+  },
+  {
+    "file_offset": 30934,
+    "encoding": "utf-16le",
+    "text": "Resumo:"
+  },
+  {
+    "file_offset": 30950,
+    "encoding": "utf-16le",
+    "text": "Adicionado:"
+  },
+  {
+    "file_offset": 30974,
+    "encoding": "utf-16le",
+    "text": " (novo)"
+  },
+  {
+    "file_offset": 30990,
+    "encoding": "utf-16le",
+    "text": " (Alterado)"
+  },
+  {
+    "file_offset": 31014,
+    "encoding": "utf-16le",
+    "text": " (Exclu"
+  },
+  {
+    "file_offset": 31038,
+    "encoding": "utf-16le",
+    "text": "Removido:"
+  },
+  {
+    "file_offset": 31066,
+    "encoding": "utf-16le",
+    "text": "tipo de arquivo desconhecido"
+  },
+  {
+    "file_offset": 31124,
+    "encoding": "utf-16le",
+    "text": "Aplicativo$biblioteca de v"
+  },
+  {
+    "file_offset": 31178,
+    "encoding": "utf-16le",
+    "text": "nculo din"
+  },
+  {
+    "file_offset": 31198,
+    "encoding": "utf-16le",
+    "text": "mico (DLL)"
+  },
+  {
+    "file_offset": 31220,
+    "encoding": "utf-16le",
+    "text": "unidade"
+  },
+  {
+    "file_offset": 31236,
+    "encoding": "utf-16le",
+    "text": "Fonte"
+  },
+  {
+    "file_offset": 31248,
+    "encoding": "utf-16le",
+    "text": "driver de dispositivo (VXD)"
+  },
+  {
+    "file_offset": 31304,
+    "encoding": "utf-16le",
+    "text": "biblioteca est"
+  },
+  {
+    "file_offset": 31334,
+    "encoding": "utf-16le",
+    "text": "tica (.lib)"
+  },
+  {
+    "file_offset": 31368,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo: %1!s!"
+  },
+  {
+    "file_offset": 31424,
+    "encoding": "utf-16le",
+    "text": " executar verifica"
+  },
+  {
+    "file_offset": 31464,
+    "encoding": "utf-16le",
+    "text": "o quando o sistema estiver ocioso"
+  },
+  {
+    "file_offset": 31620,
+    "encoding": "utf-16le",
+    "text": "Aviso: este programa de software est"
+  },
+  {
+    "file_offset": 31694,
+    "encoding": "utf-16le",
+    "text": " protegido por leis de direitos autorais e tratados internacionais. A reprodu"
+  },
+  {
+    "file_offset": 31852,
+    "encoding": "utf-16le",
+    "text": "o ou distribui"
+  },
+  {
+    "file_offset": 31892,
+    "encoding": "utf-16le",
+    "text": "o autorizada deste programa, no todo ou em parte, poder"
+  },
+  {
+    "file_offset": 32004,
+    "encoding": "utf-16le",
+    "text": " resultar em severas puni"
+  },
+  {
+    "file_offset": 32058,
+    "encoding": "utf-16le",
+    "text": "es nas varas civil ou criminal e ser"
+  },
+  {
+    "file_offset": 32132,
+    "encoding": "utf-16le",
+    "text": " processada com o m"
+  },
+  {
+    "file_offset": 32172,
+    "encoding": "utf-16le",
+    "text": "ximo rigor permitido pela lei."
+  },
+  {
+    "file_offset": 32268,
+    "encoding": "utf-16le",
+    "text": "es conclu"
+  },
+  {
+    "file_offset": 32298,
+    "encoding": "utf-16le",
+    "text": "Reinicializa"
+  },
+  {
+    "file_offset": 32326,
+    "encoding": "utf-16le",
+    "text": "o necess"
+  },
+  {
+    "file_offset": 32354,
+    "encoding": "utf-16le",
+    "text": ",Nenhuma informa"
+  },
+  {
+    "file_offset": 32390,
+    "encoding": "utf-16le",
+    "text": "o ser"
+  },
+  {
+    "file_offset": 32402,
+    "encoding": "utf-16le",
+    "text": " enviada "
+  },
+  {
+    "file_offset": 32422,
+    "encoding": "utf-16le",
+    "text": " Microsoft.3Esse programa foi desativado pela diretiva de grupo"
+  },
+  {
+    "file_offset": 32550,
+    "encoding": "utf-16le",
+    "text": "A vers"
+  },
+  {
+    "file_offset": 32564,
+    "encoding": "utf-16le",
+    "text": "o beta expirou"
+  },
+  {
+    "file_offset": 32594,
+    "encoding": "utf-16le",
+    "text": "Obrigado por participar do programa beta. Esta vers"
+  },
+  {
+    "file_offset": 32698,
+    "encoding": "utf-16le",
+    "text": "o beta expirou."
+  },
+  {
+    "file_offset": 32732,
+    "encoding": "utf-16le",
+    "text": "Para instalar uma vers"
+  },
+  {
+    "file_offset": 32778,
+    "encoding": "utf-16le",
+    "text": "o atualizada, acesse o site do <a href=\"http://go.microsoft.com/fwlink/?LinkId=55273\">Centro de Download da Microsoft</a> "
+  },
+  {
+    "file_offset": 33024,
+    "encoding": "utf-16le",
+    "text": "&Usar este programa"
+  },
+  {
+    "file_offset": 33064,
+    "encoding": "utf-16le",
+    "text": "Quando estiver ativado nesta configura"
+  },
+  {
+    "file_offset": 33144,
+    "encoding": "utf-16le",
+    "text": "o, o programa alertar"
+  },
+  {
+    "file_offset": 33188,
+    "encoding": "utf-16le",
+    "text": " todos os usu"
+  },
+  {
+    "file_offset": 33216,
+    "encoding": "utf-16le",
+    "text": "rios caso ocorra uma tentativa de execu"
+  },
+  {
+    "file_offset": 33298,
+    "encoding": "utf-16le",
+    "text": "o ou instala"
+  },
+  {
+    "file_offset": 33326,
+    "encoding": "utf-16le",
+    "text": "o de um spyware ou outro tipo de software potencialmente indesejado neste computador."
+  },
+  {
+    "file_offset": 33498,
+    "encoding": "utf-16le",
+    "text": "Estat"
+  },
+  {
+    "file_offset": 33510,
+    "encoding": "utf-16le",
+    "text": "sticas de verifica"
+  },
+  {
+    "file_offset": 33550,
+    "encoding": "utf-16le",
+    "text": "o<Prote"
+  },
+  {
+    "file_offset": 33568,
+    "encoding": "utf-16le",
+    "text": "o contra spyware e software potencialmente indesejado"
+  },
+  {
+    "file_offset": 33676,
+    "encoding": "utf-16le",
+    "text": "Quando estiver ativado nesta configura"
+  },
+  {
+    "file_offset": 33756,
+    "encoding": "utf-16le",
+    "text": "o, o programa permitir"
+  },
+  {
+    "file_offset": 33802,
+    "encoding": "utf-16le",
+    "text": " que voc"
+  },
+  {
+    "file_offset": 33820,
+    "encoding": "utf-16le",
+    "text": " veja o Hist"
+  },
+  {
+    "file_offset": 33846,
+    "encoding": "utf-16le",
+    "text": "rico, os Itens permitidos e os Itens em quarantena de todos os usu"
+  },
+  {
+    "file_offset": 33980,
+    "encoding": "utf-16le",
+    "text": "rios. Os itens ficam ocultos por padr"
+  },
+  {
+    "file_offset": 34056,
+    "encoding": "utf-16le",
+    "text": "o para proteger a privacidade do usu"
+  },
+  {
+    "file_offset": 34142,
+    "encoding": "utf-16le",
+    "text": "Gina Dll"
+  },
+  {
+    "file_offset": 34160,
+    "encoding": "utf-16le",
+    "text": "Winlogon Userinit"
+  },
+  {
+    "file_offset": 34196,
+    "encoding": "utf-16le",
+    "text": "Prote"
+  },
+  {
+    "file_offset": 34210,
+    "encoding": "utf-16le",
+    "text": "o Antiv"
+  },
+  {
+    "file_offset": 34226,
+    "encoding": "utf-16le",
+    "text": "rus ao Acessar Prote"
+  },
+  {
+    "file_offset": 34270,
+    "encoding": "utf-16le",
+    "text": "o Anti-spyware ao Acessar"
+  },
+  {
+    "file_offset": 34322,
+    "encoding": "utf-16le",
+    "text": "Prote"
+  },
+  {
+    "file_offset": 34336,
+    "encoding": "utf-16le",
+    "text": "o ao Acessar"
+  },
+  {
+    "file_offset": 34362,
+    "encoding": "utf-16le",
+    "text": "1<A HREF=\"view://Scan\">Verificar o computador</A> B<A HREF=\"view://ScanResults\">Exibir resultados da verifica"
+  },
+  {
+    "file_offset": 34584,
+    "encoding": "utf-16le",
+    "text": "o</A> ><A HREF=\"view://RTPThreats\">Remover programas indesejados</A> J<A HREF=\"view://RTPPotentialThreats\">Examinar programas desconhecidos</A> "
+  },
+  {
+    "file_offset": 34874,
+    "encoding": "utf-16le",
+    "text": "Altera"
+  },
+  {
+    "file_offset": 34890,
+    "encoding": "utf-16le",
+    "text": "o de %1!s!.><A HREF=\"view://Settings\">Exibir ou alterar configura"
+  },
+  {
+    "file_offset": 35024,
+    "encoding": "utf-16le",
+    "text": "es</A> K<A HREF=\"view://QuarantinedPrograms\">Gerenciar programas em quarentena</A> =<A HREF=\"view://ActionHistory\">Exibir hist"
+  },
+  {
+    "file_offset": 35278,
+    "encoding": "utf-16le",
+    "text": "rico de a"
+  },
+  {
+    "file_offset": 35300,
+    "encoding": "utf-16le",
+    "text": "es</A> ,<A HREF=\"view://Summary\">P"
+  },
+  {
+    "file_offset": 35370,
+    "encoding": "utf-16le",
+    "text": "gina inicial</A> "
+  },
+  {
+    "file_offset": 35406,
+    "encoding": "utf-16le",
+    "text": "Os resultados da verifica"
+  },
+  {
+    "file_offset": 35460,
+    "encoding": "utf-16le",
+    "text": "o preliminar mostram que pode existir software mal-intencionado ou potencialmente indesejado no sistema. Voc"
+  },
+  {
+    "file_offset": 35678,
+    "encoding": "utf-16le",
+    "text": " poder"
+  },
+  {
+    "file_offset": 35692,
+    "encoding": "utf-16le",
+    "text": " analisar os itens detectados quando a verifica"
+  },
+  {
+    "file_offset": 35790,
+    "encoding": "utf-16le",
+    "text": "o tiver sido conclu"
+  },
+  {
+    "file_offset": 35838,
+    "encoding": "utf-16le",
+    "text": "%ShowDefaultBranding (Do not localize)"
+  },
+  {
+    "file_offset": 35934,
+    "encoding": "utf-16le",
+    "text": "Nenhum"
+  },
+  {
+    "file_offset": 35948,
+    "encoding": "utf-16le",
+    "text": "Permitir"
+  },
+  {
+    "file_offset": 35966,
+    "encoding": "utf-16le",
+    "text": "Negar"
+  },
+  {
+    "file_offset": 35980,
+    "encoding": "utf-16le",
+    "text": "Reverter"
+  },
+  {
+    "file_offset": 35998,
+    "encoding": "utf-16le",
+    "text": "Quarentena"
+  },
+  {
+    "file_offset": 36020,
+    "encoding": "utf-16le",
+    "text": "Remover"
+  },
+  {
+    "file_offset": 36040,
+    "encoding": "utf-16le",
+    "text": "o sei"
+  },
+  {
+    "file_offset": 36052,
+    "encoding": "utf-16le",
+    "text": "Permitir"
+  },
+  {
+    "file_offset": 36074,
+    "encoding": "utf-16le",
+    "text": "o especificado"
+  },
+  {
+    "file_offset": 36106,
+    "encoding": "utf-16le",
+    "text": "5Examinar itens possivelmente indesejados: %1!d! totalEExaminar itens prejudiciais ou possivelmente indesejados: %1!d! total*O computador est"
+  },
+  {
+    "file_offset": 36390,
+    "encoding": "utf-16le",
+    "text": " funcionando normalmente."
+  },
+  {
+    "file_offset": 36456,
+    "encoding": "utf-16le",
+    "text": "3Examinar itens ainda n"
+  },
+  {
+    "file_offset": 36504,
+    "encoding": "utf-16le",
+    "text": "o classificados. %1!d! total"
+  },
+  {
+    "file_offset": 36570,
+    "encoding": "utf-16le",
+    "text": " pode usar informa"
+  },
+  {
+    "file_offset": 36610,
+    "encoding": "utf-16le",
+    "text": "es sobre o funcionamento desses programas para decidir entre negar ou permitir sua execu"
+  },
+  {
+    "file_offset": 36790,
+    "encoding": "utf-16le",
+    "text": "o no computador."
+  },
+  {
+    "file_offset": 36824,
+    "encoding": "utf-16le",
+    "text": "A<a href=\"ReviewRTPPotentialThreats\">Analisar e executar a"
+  },
+  {
+    "file_offset": 36944,
+    "encoding": "utf-16le",
+    "text": "o</a> "
+  },
+  {
+    "file_offset": 36964,
+    "encoding": "utf-16le",
+    "text": "@<a href=\"ReviewActiveThreats\">Analisar os itens detectados.</a> "
+  },
+  {
+    "file_offset": 37100,
+    "encoding": "utf-16le",
+    "text": "o encontrado"
+  },
+  {
+    "file_offset": 37156,
+    "encoding": "utf-16le",
+    "text": "Status"
+  },
+  {
+    "file_offset": 37172,
+    "encoding": "utf-16le",
+    "text": "ltima verifica"
+  },
+  {
+    "file_offset": 37212,
+    "encoding": "utf-16le",
+    "text": "Agenda de verifica"
+  },
+  {
+    "file_offset": 37252,
+    "encoding": "utf-16le",
+    "text": "o: %1!s! por volta de %2!s! (%3!s!)"
+  },
+  {
+    "file_offset": 37324,
+    "encoding": "utf-16le",
+    "text": "Prote"
+  },
+  {
+    "file_offset": 37338,
+    "encoding": "utf-16le",
+    "text": "o em tempo real:"
+  },
+  {
+    "file_offset": 37372,
+    "encoding": "utf-16le",
+    "text": "Ativado"
+  },
+  {
+    "file_offset": 37388,
+    "encoding": "utf-16le",
+    "text": "Desligado"
+  },
+  {
+    "file_offset": 37414,
+    "encoding": "utf-16le",
+    "text": "Itens detectados"
+  },
+  {
+    "file_offset": 37448,
+    "encoding": "utf-16le",
+    "text": "Status"
+  },
+  {
+    "file_offset": 37476,
+    "encoding": "utf-16le",
+    "text": "Porcentagem Conclu"
+  },
+  {
+    "file_offset": 37522,
+    "encoding": "utf-16le",
+    "text": "Recursos verificados:"
+  },
+  {
+    "file_offset": 37566,
+    "encoding": "utf-16le",
+    "text": "Recurso:"
+  },
+  {
+    "file_offset": 37596,
+    "encoding": "utf-16le",
+    "text": "%1!02u!:%2!02u!:%3!02u!"
+  },
+  {
+    "file_offset": 37644,
+    "encoding": "utf-16le",
+    "text": "Ajuda"
+  },
+  {
+    "file_offset": 37656,
+    "encoding": "utf-16le",
+    "text": "Voltar"
+  },
+  {
+    "file_offset": 37690,
+    "encoding": "utf-16le",
+    "text": "gina Inicial"
+  },
+  {
+    "file_offset": 37716,
+    "encoding": "utf-16le",
+    "text": "Verificar o computador"
+  },
+  {
+    "file_offset": 37762,
+    "encoding": "utf-16le",
+    "text": "Exibir Hist"
+  },
+  {
+    "file_offset": 37796,
+    "encoding": "utf-16le",
+    "text": "Ferramentas e configura"
+  },
+  {
+    "file_offset": 37852,
+    "encoding": "utf-16le",
+    "text": "Ajuda"
+  },
+  {
+    "file_offset": 37874,
+    "encoding": "utf-16le",
+    "text": "?O programa n"
+  },
+  {
+    "file_offset": 37902,
+    "encoding": "utf-16le",
+    "text": "o pode verificar se h"
+  },
+  {
+    "file_offset": 37946,
+    "encoding": "utf-16le",
+    "text": " atualiza"
+  },
+  {
+    "file_offset": 37968,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 37996,
+    "encoding": "utf-16le",
+    "text": "es.6O programa n"
+  },
+  {
+    "file_offset": 38030,
+    "encoding": "utf-16le",
+    "text": "o pode baixar atualiza"
+  },
+  {
+    "file_offset": 38078,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 38106,
+    "encoding": "utf-16le",
+    "text": "es.8O programa n"
+  },
+  {
+    "file_offset": 38140,
+    "encoding": "utf-16le",
+    "text": "o pode instalar atualiza"
+  },
+  {
+    "file_offset": 38192,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 38228,
+    "encoding": "utf-16le",
+    "text": "Erro: 0x%1!0x!.e<a href=\"http://go.microsoft.com/fwlink/?LinkId=67233\">Veja dicas de solu"
+  },
+  {
+    "file_offset": 38410,
+    "encoding": "utf-16le",
+    "text": "o de problemas online</a> e<a href=\"http://go.microsoft.com/fwlink/?LinkId=67234\">Veja dicas de solu"
+  },
+  {
+    "file_offset": 38614,
+    "encoding": "utf-16le",
+    "text": "o de problemas online</a> e<a href=\"http://go.microsoft.com/fwlink/?LinkId=67235\">Veja dicas de solu"
+  },
+  {
+    "file_offset": 38818,
+    "encoding": "utf-16le",
+    "text": "o de problemas online</a> "
+  },
+  {
+    "file_offset": 38872,
+    "encoding": "utf-16le",
+    "text": "Servi"
+  },
+  {
+    "file_offset": 38884,
+    "encoding": "utf-16le",
+    "text": "o interrompido"
+  },
+  {
+    "file_offset": 38914,
+    "encoding": "utf-16le",
+    "text": "Um problema causou a interrup"
+  },
+  {
+    "file_offset": 38976,
+    "encoding": "utf-16le",
+    "text": "o do servi"
+  },
+  {
+    "file_offset": 38998,
+    "encoding": "utf-16le",
+    "text": "o deste programa. Para iniciar o servi"
+  },
+  {
+    "file_offset": 39076,
+    "encoding": "utf-16le",
+    "text": "o, clique no bot"
+  },
+  {
+    "file_offset": 39110,
+    "encoding": "utf-16le",
+    "text": "o Iniciar agora ou reinicie o computador.,(Gerenciado por um administrador do sistema)$O servi"
+  },
+  {
+    "file_offset": 39300,
+    "encoding": "utf-16le",
+    "text": "o est"
+  },
+  {
+    "file_offset": 39312,
+    "encoding": "utf-16le",
+    "text": " sendo inicializado... Obtenha uma c"
+  },
+  {
+    "file_offset": 39386,
+    "encoding": "utf-16le",
+    "text": "pia original agora,http://go.microsoft.com/fwlink/?linkid=62022%Deseja exibir os detalhes deste erro?-http://go.microsoft.com/fwlink/?linkid=104288"
+  },
+  {
+    "file_offset": 39682,
+    "encoding": "utf-16le",
+    "text": "Tipo de verifica"
+  },
+  {
+    "file_offset": 39724,
+    "encoding": "utf-16le",
+    "text": "Isso pode levar alguns minutos."
+  },
+  {
+    "file_offset": 39788,
+    "encoding": "utf-16le",
+    "text": "Isso pode levar algumas horas."
+  },
+  {
+    "file_offset": 39850,
+    "encoding": "utf-16le",
+    "text": "E&xibir"
+  },
+  {
+    "file_offset": 39906,
+    "encoding": "utf-16le",
+    "text": "Defini"
+  },
+  {
+    "file_offset": 39922,
+    "encoding": "utf-16le",
+    "text": "es de antiv"
+  },
+  {
+    "file_offset": 39956,
+    "encoding": "utf-16le",
+    "text": "Defini"
+  },
+  {
+    "file_offset": 39972,
+    "encoding": "utf-16le",
+    "text": "es de anti-spyware:I%1!s! por volta das %2!s! %3!s! e a cada %4!d! horas (Verifica"
+  },
+  {
+    "file_offset": 40148,
+    "encoding": "utf-16le",
+    "text": "pida) Defini"
+  },
+  {
+    "file_offset": 40176,
+    "encoding": "utf-16le",
+    "text": "es de antiv"
+  },
+  {
+    "file_offset": 40200,
+    "encoding": "utf-16le",
+    "text": "rus: %1!s!"
+  },
+  {
+    "file_offset": 40224,
+    "encoding": "utf-16le",
+    "text": "#Defini"
+  },
+  {
+    "file_offset": 40242,
+    "encoding": "utf-16le",
+    "text": "es de anti-spyware: %1!s!"
+  },
+  {
+    "file_offset": 40304,
+    "encoding": "utf-16le",
+    "text": "o verifique estas extens"
+  },
+  {
+    "file_offset": 40354,
+    "encoding": "utf-16le",
+    "text": "es de arquivo (exemplo *.jpg):"
+  },
+  {
+    "file_offset": 40420,
+    "encoding": "utf-16le",
+    "text": "GExecu&tar uma verifica"
+  },
+  {
+    "file_offset": 40478,
+    "encoding": "utf-16le",
+    "text": "pida no meu computador v"
+  },
+  {
+    "file_offset": 40528,
+    "encoding": "utf-16le",
+    "text": "rias vezes por dia"
+  },
+  {
+    "file_offset": 40566,
+    "encoding": "utf-16le",
+    "text": "Intervalo da &verifica"
+  },
+  {
+    "file_offset": 40620,
+    "encoding": "utf-16le",
+    "text": "A cada %1!d! horas"
+  },
+  {
+    "file_offset": 40658,
+    "encoding": "utf-16le",
+    "text": "Prote"
+  },
+  {
+    "file_offset": 40672,
+    "encoding": "utf-16le",
+    "text": "o ao Ac&essarTProteger o sistema contra &v"
+  },
+  {
+    "file_offset": 40758,
+    "encoding": "utf-16le",
+    "text": "rus e outros softwares mal-intencionados (recomend"
+  },
+  {
+    "file_offset": 40860,
+    "encoding": "utf-16le",
+    "text": "vel)XProteger o sistema contra s&pyware e softwares potencialmente indesejados (recomend"
+  },
+  {
+    "file_offset": 41048,
+    "encoding": "utf-16le",
+    "text": "Aplicando a"
+  },
+  {
+    "file_offset": 41074,
+    "encoding": "utf-16le",
+    "text": "es selecionadas."
+  },
+  {
+    "file_offset": 41108,
+    "encoding": "utf-16le",
+    "text": "Esse processo pode levar alguns minutos para garantir que as a"
+  },
+  {
+    "file_offset": 41236,
+    "encoding": "utf-16le",
+    "text": "es tenham sido completamente aplicadas.YAs a"
+  },
+  {
+    "file_offset": 41328,
+    "encoding": "utf-16le",
+    "text": "es selecionadas foram aplicadas e os resultados ser"
+  },
+  {
+    "file_offset": 41432,
+    "encoding": "utf-16le",
+    "text": "o exibidos na coluna de status.VUm ou mais erros foram encontrados e os resultados ser"
+  },
+  {
+    "file_offset": 41606,
+    "encoding": "utf-16le",
+    "text": "o exibidos na coluna de status."
+  },
+  {
+    "file_offset": 41670,
+    "encoding": "utf-16le",
+    "text": "&Limpar sistemaDPara sua prote"
+  },
+  {
+    "file_offset": 41734,
+    "encoding": "utf-16le",
+    "text": "o, os itens detectados foram limpos automaticamente."
+  },
+  {
+    "file_offset": 41844,
+    "encoding": "utf-16le",
+    "text": "Suspenso8&N"
+  },
+  {
+    "file_offset": 41868,
+    "encoding": "utf-16le",
+    "text": "o examinar os arquivos acessados por estes processos:"
+  },
+  {
+    "file_offset": 41980,
+    "encoding": "utf-16le",
+    "text": "Foram detectados programas que podem comprometer sua privacidade ou danificar seu computador. <a href=\"Help://AlertLevels\">O que os n"
+  },
+  {
+    "file_offset": 42248,
+    "encoding": "utf-16le",
+    "text": "veis de alerta significam?</a> "
+  },
+  {
+    "file_offset": 42312,
+    "encoding": "utf-16le",
+    "text": "&Aplicar a"
+  },
+  {
+    "file_offset": 42336,
+    "encoding": "utf-16le",
+    "text": "es recomendadasPAs extens"
+  },
+  {
+    "file_offset": 42388,
+    "encoding": "utf-16le",
+    "text": "es de arquivo n"
+  },
+  {
+    "file_offset": 42420,
+    "encoding": "utf-16le",
+    "text": "o podem conter nenhum dos seguintes caracteres:\\/:\"<>|aPara ajudar a proteger o computador, aplique as a"
+  },
+  {
+    "file_offset": 42632,
+    "encoding": "utf-16le",
+    "text": "es recomendadas quando itens forem detectados."
+  },
+  {
+    "file_offset": 42726,
+    "encoding": "utf-16le",
+    "text": "Arquivos e pastas exclu"
+  },
+  {
+    "file_offset": 42782,
+    "encoding": "utf-16le",
+    "text": "Tipos de arquivo exclu"
+  },
+  {
+    "file_offset": 42836,
+    "encoding": "utf-16le",
+    "text": "Processar exclus"
+  },
+  {
+    "file_offset": 42916,
+    "encoding": "utf-16le",
+    "text": "wPara que a privacidade do usu"
+  },
+  {
+    "file_offset": 42978,
+    "encoding": "utf-16le",
+    "text": "rio seja protegida, esses itens ficam ocultos. Clique no bot"
+  },
+  {
+    "file_offset": 43100,
+    "encoding": "utf-16le",
+    "text": "o Exibir para visualiz"
+  },
+  {
+    "file_offset": 43146,
+    "encoding": "utf-16le",
+    "text": "-los.0&Exibir itens de todos os usu"
+  },
+  {
+    "file_offset": 43218,
+    "encoding": "utf-16le",
+    "text": "rios do computador"
+  },
+  {
+    "file_offset": 43260,
+    "encoding": "utf-16le",
+    "text": "hA verifica"
+  },
+  {
+    "file_offset": 43286,
+    "encoding": "utf-16le",
+    "text": "o completa ajuda voc"
+  },
+  {
+    "file_offset": 43328,
+    "encoding": "utf-16le",
+    "text": " a proteger o sistema contra softwares mal-intencionados e indesejados."
+  },
+  {
+    "file_offset": 43474,
+    "encoding": "utf-16le",
+    "text": "ltima verifica"
+  },
+  {
+    "file_offset": 43506,
+    "encoding": "utf-16le",
+    "text": "o: %1!s!"
+  },
+  {
+    "file_offset": 43524,
+    "encoding": "utf-16le",
+    "text": "Este programa requer defini"
+  },
+  {
+    "file_offset": 43582,
+    "encoding": "utf-16le",
+    "text": "es atualizadas. Instale as atualiza"
+  },
+  {
+    "file_offset": 43656,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 43684,
+    "encoding": "utf-16le",
+    "text": "es mais recentes antes de executar a verifica"
+  },
+  {
+    "file_offset": 43784,
+    "encoding": "utf-16le",
+    "text": "Este programa requer defini"
+  },
+  {
+    "file_offset": 43842,
+    "encoding": "utf-16le",
+    "text": "es atualizadas. "
+  },
+  {
+    "file_offset": 43876,
+    "encoding": "utf-16le",
+    "text": " recomend"
+  },
+  {
+    "file_offset": 43896,
+    "encoding": "utf-16le",
+    "text": "vel instalar as atualiza"
+  },
+  {
+    "file_offset": 43948,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 43976,
+    "encoding": "utf-16le",
+    "text": "es mais recentes antes de executar a verifica"
+  },
+  {
+    "file_offset": 44070,
+    "encoding": "utf-16le",
+    "text": "o. Clique no bot"
+  },
+  {
+    "file_offset": 44104,
+    "encoding": "utf-16le",
+    "text": "o de verifica"
+  },
+  {
+    "file_offset": 44134,
+    "encoding": "utf-16le",
+    "text": "o na barra de ferramentas acima para iniciar o processo.*Verificar se h"
+  },
+  {
+    "file_offset": 44278,
+    "encoding": "utf-16le",
+    "text": " atualiza"
+  },
+  {
+    "file_offset": 44300,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 44334,
+    "encoding": "utf-16le",
+    "text": "Este programa requer defini"
+  },
+  {
+    "file_offset": 44392,
+    "encoding": "utf-16le",
+    "text": "es atualizadas. "
+  },
+  {
+    "file_offset": 44426,
+    "encoding": "utf-16le",
+    "text": " recomend"
+  },
+  {
+    "file_offset": 44446,
+    "encoding": "utf-16le",
+    "text": "vel instalar as atualiza"
+  },
+  {
+    "file_offset": 44498,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 44526,
+    "encoding": "utf-16le",
+    "text": "es mais recentes antes de executar a verifica"
+  },
+  {
+    "file_offset": 44632,
+    "encoding": "utf-16le",
+    "text": "Escolha um m"
+  },
+  {
+    "file_offset": 44658,
+    "encoding": "utf-16le",
+    "text": "todo de atualiza"
+  },
+  {
+    "file_offset": 44694,
+    "encoding": "utf-16le",
+    "text": "o::Procurar atualiza"
+  },
+  {
+    "file_offset": 44738,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 44766,
+    "encoding": "utf-16le",
+    "text": "es no sistema manualmente"
+  },
+  {
+    "file_offset": 44818,
+    "encoding": "utf-16le",
+    "text": "As atualiza"
+  },
+  {
+    "file_offset": 44844,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 44872,
+    "encoding": "utf-16le",
+    "text": "es podem ser encontradas no site abaixo. Em um computador que esteja conectado "
+  },
+  {
+    "file_offset": 45032,
+    "encoding": "utf-16le",
+    "text": " Internet, copie o pacote de instala"
+  },
+  {
+    "file_offset": 45108,
+    "encoding": "utf-16le",
+    "text": "o para uma m"
+  },
+  {
+    "file_offset": 45134,
+    "encoding": "utf-16le",
+    "text": "dia remov"
+  },
+  {
+    "file_offset": 45154,
+    "encoding": "utf-16le",
+    "text": "vel, como uma unidade USB. Em seguida, insira a unidade USB neste sistema e procure o pacote de atualiza"
+  },
+  {
+    "file_offset": 45366,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 45408,
+    "encoding": "utf-16le",
+    "text": "http://go.microsoft.com/fwlink/?LinkID=96776"
+  },
+  {
+    "file_offset": 45498,
+    "encoding": "utf-16le",
+    "text": "&Procurar...dBaixar as atualiza"
+  },
+  {
+    "file_offset": 45564,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 45592,
+    "encoding": "utf-16le",
+    "text": "es mais recentes do Centro de Prote"
+  },
+  {
+    "file_offset": 45666,
+    "encoding": "utf-16le",
+    "text": "o contra Malware da MicrosoftRVerifique se possui uma conex"
+  },
+  {
+    "file_offset": 45786,
+    "encoding": "utf-16le",
+    "text": "o ativa com a Internet antes de escolher essa op"
+  },
+  {
+    "file_offset": 45892,
+    "encoding": "utf-16le",
+    "text": "&Download"
+  },
+  {
+    "file_offset": 45912,
+    "encoding": "utf-16le",
+    "text": "Pesquisando..."
+  },
+  {
+    "file_offset": 45942,
+    "encoding": "utf-16le",
+    "text": "Baixando..."
+  },
+  {
+    "file_offset": 45966,
+    "encoding": "utf-16le",
+    "text": "Instalando..."
+  },
+  {
+    "file_offset": 45996,
+    "encoding": "utf-16le",
+    "text": "`%1!s! Clique no bot"
+  },
+  {
+    "file_offset": 46038,
+    "encoding": "utf-16le",
+    "text": "o de verifica"
+  },
+  {
+    "file_offset": 46068,
+    "encoding": "utf-16le",
+    "text": "o na barra de ferramentas acima para iniciar uma verifica"
+  },
+  {
+    "file_offset": 46210,
+    "encoding": "utf-16le",
+    "text": "As atualiza"
+  },
+  {
+    "file_offset": 46236,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 46264,
+    "encoding": "utf-16le",
+    "text": "es podem ser encontradas no site abaixo. Em um computador que esteja conectado "
+  },
+  {
+    "file_offset": 46424,
+    "encoding": "utf-16le",
+    "text": " Internet, copie o pacote de instala"
+  },
+  {
+    "file_offset": 46500,
+    "encoding": "utf-16le",
+    "text": "o para uma m"
+  },
+  {
+    "file_offset": 46526,
+    "encoding": "utf-16le",
+    "text": "dia remov"
+  },
+  {
+    "file_offset": 46546,
+    "encoding": "utf-16le",
+    "text": "vel, como uma unidade USB. Em seguida, insira a unidade USB neste sistema e procure o pacote de atualiza"
+  },
+  {
+    "file_offset": 46758,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 46800,
+    "encoding": "utf-16le",
+    "text": "<a href=\"http://go.microsoft.com/fwlink/?LinkID=96776\">http://go.microsoft.com/fwlink/?LinkID=96776</a> "
+  },
+  {
+    "file_offset": 47016,
+    "encoding": "utf-16le",
+    "text": "Iniciar &verifica"
+  },
+  {
+    "file_offset": 47054,
+    "encoding": "utf-16le",
+    "text": "o completa9Recuperando dados do sistema para preparar verifica"
+  },
+  {
+    "file_offset": 47192,
+    "encoding": "utf-16le",
+    "text": "^Procure softwares mal-intencionados ou indesejados em arquivos compactados, como .ZIP ou .CAB."
+  },
+  {
+    "file_offset": 47384,
+    "encoding": "utf-16le",
+    "text": "Verificar &emailUProcure softwares mal-intencionados ou indesejados no conte"
+  },
+  {
+    "file_offset": 47538,
+    "encoding": "utf-16le",
+    "text": "do ou em anexos de email."
+  },
+  {
+    "file_offset": 47590,
+    "encoding": "utf-16le",
+    "text": "Verificar unidades re&mov"
+  },
+  {
+    "file_offset": 47642,
+    "encoding": "utf-16le",
+    "text": "veisoProcure softwares mal-intencionados ou indesejados no conte"
+  },
+  {
+    "file_offset": 47772,
+    "encoding": "utf-16le",
+    "text": "do de unidades remov"
+  },
+  {
+    "file_offset": 47814,
+    "encoding": "utf-16le",
+    "text": "veis, como unidades flash USB.|Detecte softwares mal-intencionados ou indesejados examinando itens que correspondam parcialmente a uma defini"
+  },
+  {
+    "file_offset": 48100,
+    "encoding": "utf-16le",
+    "text": "o existente.SCrie um ponto de restaura"
+  },
+  {
+    "file_offset": 48180,
+    "encoding": "utf-16le",
+    "text": "o antes de aplicar quaisquer a"
+  },
+  {
+    "file_offset": 48244,
+    "encoding": "utf-16le",
+    "text": "es aos itens detectados."
+  },
+  {
+    "file_offset": 48338,
+    "encoding": "utf-16le",
+    "text": "Verificar se h"
+  },
+  {
+    "file_offset": 48368,
+    "encoding": "utf-16le",
+    "text": " atualiza"
+  },
+  {
+    "file_offset": 48420,
+    "encoding": "utf-16le",
+    "text": "Mostrar &detalhes >>"
+  },
+  {
+    "file_offset": 48462,
+    "encoding": "utf-16le",
+    "text": "Ocultar &detalhes <<"
+  },
+  {
+    "file_offset": 48540,
+    "encoding": "utf-16le",
+    "text": "Sistema operacional"
+  },
+  {
+    "file_offset": 48580,
+    "encoding": "utf-16le",
+    "text": "Tamanho do Disco"
+  },
+  {
+    "file_offset": 48614,
+    "encoding": "utf-16le",
+    "text": "Pasta Windows'Microsoft Windows (vers"
+  },
+  {
+    "file_offset": 48690,
+    "encoding": "utf-16le",
+    "text": "o desconhecida)"
+  },
+  {
+    "file_offset": 48722,
+    "encoding": "utf-16le",
+    "text": "Microsoft Windows 2000"
+  },
+  {
+    "file_offset": 48768,
+    "encoding": "utf-16le",
+    "text": "Microsoft Windows XP"
+  },
+  {
+    "file_offset": 48810,
+    "encoding": "utf-16le",
+    "text": "Microsoft Windows Server 2003"
+  },
+  {
+    "file_offset": 48870,
+    "encoding": "utf-16le",
+    "text": "Microsoft Windows Vista"
+  },
+  {
+    "file_offset": 48918,
+    "encoding": "utf-16le",
+    "text": "%1!I64u! MB"
+  },
+  {
+    "file_offset": 48942,
+    "encoding": "utf-16le",
+    "text": "Pasta Windows inv"
+  },
+  {
+    "file_offset": 48978,
+    "encoding": "utf-16le",
+    "text": "lida.+&Selecionar pasta Windows a ser verificada:"
+  },
+  {
+    "file_offset": 49122,
+    "encoding": "utf-16le",
+    "text": "Atualizar status"
+  },
+  {
+    "file_offset": 49156,
+    "encoding": "utf-16le",
+    "text": "Status:"
+  },
+  {
+    "file_offset": 49172,
+    "encoding": "utf-16le",
+    "text": "QForam encontradas atualiza"
+  },
+  {
+    "file_offset": 49230,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 49258,
+    "encoding": "utf-16le",
+    "text": "es no Portal de Seguran"
+  },
+  {
+    "file_offset": 49306,
+    "encoding": "utf-16le",
+    "text": "a da Microsoft."
+  },
+  {
+    "file_offset": 49350,
+    "encoding": "utf-16le",
+    "text": ":Verificar software prejudicial ou possivelmente indesejado.As a"
+  },
+  {
+    "file_offset": 49482,
+    "encoding": "utf-16le",
+    "text": "es solicitadas foram aplicadas com "
+  },
+  {
+    "file_offset": 49554,
+    "encoding": "utf-16le",
+    "text": "xito0Os itens detectados foram limpos automaticamente"
+  },
+  {
+    "file_offset": 49692,
+    "encoding": "utf-16le",
+    "text": "1Verificar &programas executados no meu computadorlH"
+  },
+  {
+    "file_offset": 49798,
+    "encoding": "utf-16le",
+    "text": " uma verifica"
+  },
+  {
+    "file_offset": 49828,
+    "encoding": "utf-16le",
+    "text": "o em andamento. Tem certeza de que deseja sair?"
+  },
+  {
+    "file_offset": 49924,
+    "encoding": "utf-16le",
+    "text": "Se voc"
+  },
+  {
+    "file_offset": 49938,
+    "encoding": "utf-16le",
+    "text": " sair, a verifica"
+  },
+  {
+    "file_offset": 49976,
+    "encoding": "utf-16le",
+    "text": "o ser"
+  },
+  {
+    "file_offset": 49988,
+    "encoding": "utf-16le",
+    "text": " cancelada."
+  },
+  {
+    "file_offset": 50028,
+    "encoding": "utf-16le",
+    "text": "k<A HREF=\"http://go.microsoft.com/fwlink/?LinkID=121338\">Centro de Prote"
+  },
+  {
+    "file_offset": 50176,
+    "encoding": "utf-16le",
+    "text": "o contra Malware da Microsoft</A> ]Obtenha informa"
+  },
+  {
+    "file_offset": 50280,
+    "encoding": "utf-16le",
+    "text": "es sobre atualiza"
+  },
+  {
+    "file_offset": 50318,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 50346,
+    "encoding": "utf-16le",
+    "text": "es e informa"
+  },
+  {
+    "file_offset": 50374,
+    "encoding": "utf-16le",
+    "text": "es atualizadas sobre malware."
+  },
+  {
+    "file_offset": 50480,
+    "encoding": "utf-16le",
+    "text": "Parada de mecanismo antimalware4Foi detectada uma parada no mecanismo de verifica"
+  },
+  {
+    "file_offset": 50650,
+    "encoding": "utf-16le",
+    "text": "Nome do Aplicativo"
+  },
+  {
+    "file_offset": 50700,
+    "encoding": "utf-16le",
+    "text": "o do Aplicativo"
+  },
+  {
+    "file_offset": 50742,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo"
+  },
+  {
+    "file_offset": 50846,
+    "encoding": "utf-16le",
+    "text": "VS_VERSION_INFO"
+  },
+  {
+    "file_offset": 50938,
+    "encoding": "utf-16le",
+    "text": "StringFileInfo"
+  },
+  {
+    "file_offset": 50974,
+    "encoding": "utf-16le",
+    "text": "041604B0"
+  },
+  {
+    "file_offset": 50998,
+    "encoding": "utf-16le",
+    "text": "CompanyName"
+  },
+  {
+    "file_offset": 51024,
+    "encoding": "utf-16le",
+    "text": "Microsoft Corporation"
+  },
+  {
+    "file_offset": 51074,
+    "encoding": "utf-16le",
+    "text": "FileDescription"
+  },
+  {
+    "file_offset": 51112,
+    "encoding": "utf-16le",
+    "text": "dulos de Recursos do Windows Defender"
+  },
+  {
+    "file_offset": 51194,
+    "encoding": "utf-16le",
+    "text": "FileVersion"
+  },
+  {
+    "file_offset": 51220,
+    "encoding": "utf-16le",
+    "text": "6.1.7600.16385 (win7_rtm.090713-1255)"
+  },
+  {
+    "file_offset": 51302,
+    "encoding": "utf-16le",
+    "text": "InternalName"
+  },
+  {
+    "file_offset": 51328,
+    "encoding": "utf-16le",
+    "text": "MsMpRes"
+  },
+  {
+    "file_offset": 51350,
+    "encoding": "utf-16le",
+    "text": "LegalCopyright"
+  },
+  {
+    "file_offset": 51382,
+    "encoding": "utf-16le",
+    "text": " Microsoft Corporation. Todos os direitos reservados."
+  },
+  {
+    "file_offset": 51498,
+    "encoding": "utf-16le",
+    "text": "OriginalFilename"
+  },
+  {
+    "file_offset": 51532,
+    "encoding": "utf-16le",
+    "text": "MsMpRes.dll.mui"
+  },
+  {
+    "file_offset": 51570,
+    "encoding": "utf-16le",
+    "text": "ProductName"
+  },
+  {
+    "file_offset": 51596,
+    "encoding": "utf-16le",
+    "text": "Sistema Operacional Microsoft"
+  },
+  {
+    "file_offset": 51656,
+    "encoding": "utf-16le",
+    "text": " Windows"
+  },
+  {
+    "file_offset": 51682,
+    "encoding": "utf-16le",
+    "text": "ProductVersion"
+  },
+  {
+    "file_offset": 51712,
+    "encoding": "utf-16le",
+    "text": "6.1.7600.16385"
+  },
+  {
+    "file_offset": 51750,
+    "encoding": "utf-16le",
+    "text": "VarFileInfo"
+  },
+  {
+    "file_offset": 51782,
+    "encoding": "utf-16le",
+    "text": "Translation"
+  },
+  {
+    "file_offset": 51812,
+    "encoding": "ascii",
+    "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "resource": [
+      "MUI",
+      1,
+      1033
+    ],
+    "rva": 21600,
+    "file_offset": 9824,
+    "size": 208,
+    "sha256": "7ab1f3d0488e24522782033acf61a2f758d0b7e73337e6193fc380866160b766",
+    "prefix_hex": "cdfecdfed000000000000100000000001100000000000000020000005b454c4f",
+    "observed_u32_prefix": [
+      4274912973,
+      208,
+      65536,
+      0,
+      17,
+      0,
+      2
+    ],
+    "interpretation": "magic/length/version candidate; remaining fields opaque"
+  }
+]

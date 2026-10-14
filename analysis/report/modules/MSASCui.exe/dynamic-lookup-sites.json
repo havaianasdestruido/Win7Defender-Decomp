@@ -1,0 +1,74 @@
+[
+  {
+    "function_start_va": 4295089404,
+    "call_instruction_va": 4295089417,
+    "api": "LoadLibraryW",
+    "literal_argument": "advapi32",
+    "definition": {
+      "instruction_va": 4295089410,
+      "literal_va": 4294989376,
+      "bytes": "488d0d3779feff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 4295089404,
+    "call_instruction_va": 4295089441,
+    "api": "GetProcAddress",
+    "literal_argument": "TraceMessage",
+    "definition": {
+      "instruction_va": 4295089431,
+      "literal_va": 4294989400,
+      "bytes": "488d153a79feff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 4295089404,
+    "call_instruction_va": 4295089515,
+    "api": "GetProcAddress",
+    "literal_argument": "TraceMessageVa",
+    "definition": {
+      "instruction_va": 4295089495,
+      "literal_va": 4294989416,
+      "bytes": "488d150a79feff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 4295149468,
+    "call_instruction_va": 4295149526,
+    "api": "LoadLibraryW",
+    "literal_argument": "MSFTEDIT.DLL",
+    "definition": {
+      "instruction_va": 4295149519,
+      "literal_va": 4294992488,
+      "bytes": "488d0d929afdff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 4295489012,
+    "call_instruction_va": 4295489044,
+    "api": "GetModuleHandleW",
+    "literal_argument": null,
+    "definition": null,
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 4295489012,
+    "call_instruction_va": 4295489128,
+    "api": "GetProcAddress",
+    "literal_argument": null,
+    "definition": null,
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 4295612084,
+    "call_instruction_va": 4295612094,
+    "api": "GetModuleHandleW",
+    "literal_argument": null,
+    "definition": null,
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  }
+]

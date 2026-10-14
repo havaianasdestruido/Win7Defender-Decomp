@@ -1,0 +1,220 @@
+{
+  "path": "bin/pt-BR/MpEvMsg.dll.mui",
+  "module": "pt-BR__MpEvMsg.dll.mui",
+  "size": 16384,
+  "sha256": "c9c0337c6758cc8fe1b13130c1fcc730483e23728579f2d2095f3c9f303ac885",
+  "format": "PE32+",
+  "architecture": "IMAGE_FILE_MACHINE_AMD64",
+  "bitness": 64,
+  "endianness": "little",
+  "image_base": 6442450944,
+  "entry_rva": 0,
+  "coff_timestamp": 1247529191,
+  "coff_timestamp_utc": "2009-07-13T23:53:11+00:00",
+  "coff_characteristics": 8226,
+  "linker_version": "9.0",
+  "os_version": "6.1",
+  "subsystem": 2,
+  "dll_characteristics": 320,
+  "file_alignment": 512,
+  "section_alignment": 4096,
+  "size_of_image": 20480,
+  "checksum_stored": 77731,
+  "checksum_computed": 77731,
+  "coff_symbols": 0,
+  "managed_cli_directory": false,
+  "status": "structural analysis complete; semantic coverage tracked separately",
+  "sections": [
+    {
+      "name": ".rsrc",
+      "rva": 4096,
+      "virtual_size": 16384,
+      "file_offset": 512,
+      "raw_size": 15872,
+      "characteristics": 1073741888,
+      "entropy": 3.5538
+    }
+  ],
+  "directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "address": 4096,
+      "size": 15820,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "address": 0,
+      "size": 0,
+      "coordinate": "file offset"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    }
+  ],
+  "imports": [],
+  "exports": [],
+  "runtime_functions": [],
+  "relocations": [],
+  "debug": [],
+  "rich_header": {
+    "key": "45149b8a",
+    "raw_data": "0175f5d945149b8a45149b8a45149b8a4c6c0f8a44149b8a4c6c0a8a44149b8a",
+    "clear_data": "44616e5300000000000000000000000009789400010000000978910001000000",
+    "checksum": 2325419077,
+    "values": [
+      9730057,
+      1,
+      9533449,
+      1
+    ]
+  },
+  "load_config": {},
+  "tls": null,
+  "version": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Módulo de Recursos de Eventos",
+    "FileVersion": "6.1.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "MpEvMsg.dll",
+    "LegalCopyright": "© Microsoft Corporation. Todos os direitos reservados.",
+    "OriginalFilename": "MpEvMsg.dll.mui",
+    "ProductName": "Sistema Operacional Microsoft® Windows®",
+    "ProductVersion": "6.1.7600.16385"
+  },
+  "resources": [
+    {
+      "path": [
+        "MUI",
+        1,
+        1046
+      ],
+      "type": "MUI",
+      "rva": 4336,
+      "file_offset": 752,
+      "size": 176,
+      "codepage": 1252,
+      "sha256": "40da5250e8d1d1268406956aa8f141f9f15e03f69c04b9c3b40a92a1265a499f"
+    },
+    {
+      "path": [
+        11,
+        1,
+        1046
+      ],
+      "type": "RT_MESSAGETABLE",
+      "rva": 4512,
+      "file_offset": 928,
+      "size": 14444,
+      "codepage": 1252,
+      "sha256": "7dc8c61c934df9f353bcd330d801ddeb7ca15bc7c63dcbaf291cc6cc1718fbd8"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1046
+      ],
+      "type": "RT_VERSION",
+      "rva": 18956,
+      "file_offset": 15372,
+      "size": 960,
+      "codepage": 1252,
+      "sha256": "8f4b70e45e6bfa11a2fd1ac13a4284cfc1fd131ff09a50a31f6feef52a885dd7"
+    }
+  ],
+  "resource_counts": {
+    "MUI": 1,
+    "11": 1,
+    "16": 1
+  },
+  "overlay": null,
+  "certificates": [],
+  "embedded_candidates": [],
+  "warnings": [
+    "Byte 0x00 makes up 51.7212% of the file's contents. This may indicate truncation / malformation.",
+    "SizeOfHeaders is smaller than AddressOfEntryPoint: this file cannot run under Windows 8.",
+    "AddressOfEntryPoint lies outside the sections' boundaries. AddressOfEntryPoint: 0x0"
+  ],
+  "objdump_exit_code": 0
+}

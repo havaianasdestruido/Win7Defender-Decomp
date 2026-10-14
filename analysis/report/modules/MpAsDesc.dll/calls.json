@@ -1,0 +1,457 @@
+[
+  {
+    "caller_va": 8792432316945,
+    "call_block_va": 8792432317204,
+    "target_va": 8792432443560,
+    "target_name": "LocalAlloc",
+    "return_va": 8792432317215
+  },
+  {
+    "caller_va": 8792432316945,
+    "call_block_va": 8792432317243,
+    "target_va": 8792432320564,
+    "target_name": "memcpy",
+    "return_va": 8792432317262
+  },
+  {
+    "caller_va": 8792432316945,
+    "call_block_va": 8792432317292,
+    "target_va": 8792432443632,
+    "target_name": "TraceEvent",
+    "return_va": 8792432317306
+  },
+  {
+    "caller_va": 8792432316945,
+    "call_block_va": 8792432317311,
+    "target_va": 8792432443568,
+    "target_name": "LocalFree",
+    "return_va": 8792432317320
+  },
+  {
+    "caller_va": 8792432317352,
+    "call_block_va": 8792432317352,
+    "target_va": 8792432317048,
+    "target_name": "sub_7ff25ce1278",
+    "return_va": 8792432317377
+  },
+  {
+    "caller_va": 8792432317388,
+    "call_block_va": 8792432317388,
+    "target_va": 8792432443536,
+    "target_name": "LoadLibraryW",
+    "return_va": 8792432317407
+  },
+  {
+    "caller_va": 8792432317388,
+    "call_block_va": 8792432317415,
+    "target_va": 8792432443544,
+    "target_name": "GetProcAddress",
+    "return_va": 8792432317431
+  },
+  {
+    "caller_va": 8792432317388,
+    "call_block_va": 8792432317479,
+    "target_va": 8792432443544,
+    "target_name": "GetProcAddress",
+    "return_va": 8792432317505
+  },
+  {
+    "caller_va": 8792432317388,
+    "call_block_va": 8792432317526,
+    "target_va": 8792432443528,
+    "target_name": "FreeLibrary",
+    "return_va": 8792432317535
+  },
+  {
+    "caller_va": 8792432317584,
+    "call_block_va": 8792432317584,
+    "target_va": 8792432317388,
+    "target_name": "sub_7ff25ce13cc",
+    "return_va": 8792432317610
+  },
+  {
+    "caller_va": 8792432317584,
+    "call_block_va": 8792432317610,
+    "target_va": 8792432317048,
+    "target_name": "sub_7ff25ce1278",
+    "return_va": 8792432317640
+  },
+  {
+    "caller_va": 8792432317656,
+    "call_block_va": 8792432317656,
+    "target_va": 8792432317584,
+    "target_name": "sub_7ff25ce1490",
+    "return_va": 8792432317724
+  },
+  {
+    "caller_va": 8792432317736,
+    "call_block_va": 8792432317736,
+    "target_va": 8792432317584,
+    "target_name": "sub_7ff25ce1490",
+    "return_va": 8792432317811
+  },
+  {
+    "caller_va": 8792432317824,
+    "call_block_va": 8792432317872,
+    "target_va": 8792432443640,
+    "target_name": "GetTraceLoggerHandle",
+    "return_va": 8792432317881
+  },
+  {
+    "caller_va": 8792432317824,
+    "call_block_va": 8792432317881,
+    "target_va": 8792432443616,
+    "target_name": "GetTraceEnableLevel",
+    "return_va": 8792432317893
+  },
+  {
+    "caller_va": 8792432317824,
+    "call_block_va": 8792432317893,
+    "target_va": 8792432443648,
+    "target_name": "GetTraceEnableFlags",
+    "return_va": 8792432317905
+  },
+  {
+    "caller_va": 8792432318000,
+    "call_block_va": 8792432318034,
+    "target_va": 8792432443552,
+    "target_name": "DisableThreadLibraryCalls",
+    "return_va": 8792432318047
+  },
+  {
+    "caller_va": 8792432318000,
+    "call_block_va": 8792432318047,
+    "target_va": 8792432317388,
+    "target_name": "sub_7ff25ce13cc",
+    "return_va": 8792432318052
+  },
+  {
+    "caller_va": 8792432318000,
+    "call_block_va": 8792432318128,
+    "target_va": 8792432443608,
+    "target_name": "RegisterTraceGuidsW",
+    "return_va": 8792432318196
+  },
+  {
+    "caller_va": 8792432318000,
+    "call_block_va": 8792432318243,
+    "target_va": 8792432443624,
+    "target_name": "UnregisterTraceGuids",
+    "return_va": 8792432318249
+  },
+  {
+    "caller_va": 8792432318312,
+    "call_block_va": 8792432318432,
+    "target_va": 8792432317656,
+    "target_name": "sub_7ff25ce14d8",
+    "return_va": 8792432318455
+  },
+  {
+    "caller_va": 8792432318312,
+    "call_block_va": 8792432318469,
+    "target_va": 8792432443600,
+    "target_name": "LoadStringW",
+    "return_va": 8792432318500
+  },
+  {
+    "caller_va": 8792432318312,
+    "call_block_va": 8792432318566,
+    "target_va": 8792432317736,
+    "target_name": "sub_7ff25ce1528",
+    "return_va": 8792432318595
+  },
+  {
+    "caller_va": 8792432318632,
+    "call_block_va": 8792432318632,
+    "target_va": 8792432443416,
+    "target_name": "malloc",
+    "return_va": 8792432318647
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432318757,
+    "target_va": 8792432443592,
+    "target_name": "Sleep",
+    "return_va": 8792432318768
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432318792,
+    "target_va": 8792432320032,
+    "target_name": "_amsg_exit",
+    "return_va": 8792432318802
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432318840,
+    "target_va": 8792433496144,
+    "target_name": "UnresolvableCallTarget",
+    "return_va": 8792432318842
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432318851,
+    "target_va": 8792432443432,
+    "target_name": "free",
+    "return_va": 8792432318860
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432318934,
+    "target_va": 8792432443592,
+    "target_name": "Sleep",
+    "return_va": 8792432318945
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432318972,
+    "target_va": 8792432320032,
+    "target_name": "_amsg_exit",
+    "return_va": 8792432318982
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432319023,
+    "target_va": 8792433496144,
+    "target_name": "UnresolvableCallTarget",
+    "return_va": 8792432319025
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432319042,
+    "target_va": 8792432320020,
+    "target_name": "_initterm",
+    "return_va": 8792432319061
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432319094,
+    "target_va": 8792432319948,
+    "target_name": "sub_7ff25ce1dcc",
+    "return_va": 8792432319106
+  },
+  {
+    "caller_va": 8792432318692,
+    "call_block_va": 8792432319110,
+    "target_va": 8792433496144,
+    "target_name": "UnresolvableCallTarget",
+    "return_va": 8792432319127
+  },
+  {
+    "caller_va": 8792432319164,
+    "call_block_va": 8792432319253,
+    "target_va": 8792433496144,
+    "target_name": "UnresolvableCallTarget",
+    "return_va": 8792432319273
+  },
+  {
+    "caller_va": 8792432319164,
+    "call_block_va": 8792432319306,
+    "target_va": 8792432318692,
+    "target_name": "sub_7ff25ce18e4",
+    "return_va": 8792432319324
+  },
+  {
+    "caller_va": 8792432319164,
+    "call_block_va": 8792432319361,
+    "target_va": 8792432318000,
+    "target_name": "sub_7ff25ce1630",
+    "return_va": 8792432319379
+  },
+  {
+    "caller_va": 8792432319164,
+    "call_block_va": 8792432319417,
+    "target_va": 8792432318000,
+    "target_name": "sub_7ff25ce1630",
+    "return_va": 8792432319430
+  },
+  {
+    "caller_va": 8792432319164,
+    "call_block_va": 8792432319451,
+    "target_va": 8792432318692,
+    "target_name": "sub_7ff25ce18e4",
+    "return_va": 8792432319464
+  },
+  {
+    "caller_va": 8792432319164,
+    "call_block_va": 8792432319497,
+    "target_va": 8792433496144,
+    "target_name": "UnresolvableCallTarget",
+    "return_va": 8792432319507
+  },
+  {
+    "caller_va": 8792432319164,
+    "call_block_va": 8792432319537,
+    "target_va": 8792432318692,
+    "target_name": "sub_7ff25ce18e4",
+    "return_va": 8792432319555
+  },
+  {
+    "caller_va": 8792432319164,
+    "call_block_va": 8792432319605,
+    "target_va": 8792433496144,
+    "target_name": "UnresolvableCallTarget",
+    "return_va": 8792432319620
+  },
+  {
+    "caller_va": 8792432319664,
+    "call_block_va": 8792432319692,
+    "target_va": 8792432320056,
+    "target_name": "_security_init_cookie",
+    "return_va": 8792432319697
+  },
+  {
+    "caller_va": 8792432319948,
+    "call_block_va": 8792432319948,
+    "target_va": 8792432319808,
+    "target_name": "sub_7ff25ce1d40",
+    "return_va": 8792432319970
+  },
+  {
+    "caller_va": 8792432319948,
+    "call_block_va": 8792432319974,
+    "target_va": 8792432319872,
+    "target_name": "sub_7ff25ce1d80",
+    "return_va": 8792432319988
+  },
+  {
+    "caller_va": 8792432320056,
+    "call_block_va": 8792432320106,
+    "target_va": 8792432443504,
+    "target_name": "GetSystemTimeAsFileTime",
+    "return_va": 8792432320117
+  },
+  {
+    "caller_va": 8792432320056,
+    "call_block_va": 8792432320117,
+    "target_va": 8792432443512,
+    "target_name": "GetCurrentProcessId",
+    "return_va": 8792432320128
+  },
+  {
+    "caller_va": 8792432320056,
+    "call_block_va": 8792432320128,
+    "target_va": 8792432443520,
+    "target_name": "GetCurrentThreadId",
+    "return_va": 8792432320140
+  },
+  {
+    "caller_va": 8792432320056,
+    "call_block_va": 8792432320140,
+    "target_va": 8792432443576,
+    "target_name": "GetTickCount",
+    "return_va": 8792432320152
+  },
+  {
+    "caller_va": 8792432320056,
+    "call_block_va": 8792432320152,
+    "target_va": 8792432443584,
+    "target_name": "QueryPerformanceCounter",
+    "return_va": 8792432320169
+  },
+  {
+    "caller_va": 8792432320244,
+    "call_block_va": 8792432320244,
+    "target_va": 8792432443448,
+    "target_name": "RtlCaptureContext",
+    "return_va": 8792432320269
+  },
+  {
+    "caller_va": 8792432320244,
+    "call_block_va": 8792432320269,
+    "target_va": 8792432320552,
+    "target_name": "RtlLookupFunctionEntry",
+    "return_va": 8792432320299
+  },
+  {
+    "caller_va": 8792432320244,
+    "call_block_va": 8792432320312,
+    "target_va": 8792432320540,
+    "target_name": "RtlVirtualUnwind",
+    "return_va": 8792432320375
+  },
+  {
+    "caller_va": 8792432320244,
+    "call_block_va": 8792432320411,
+    "target_va": 8792432443472,
+    "target_name": "SetUnhandledExceptionFilter",
+    "return_va": 8792432320492
+  },
+  {
+    "caller_va": 8792432320244,
+    "call_block_va": 8792432320492,
+    "target_va": 8792432443480,
+    "target_name": "UnhandledExceptionFilter",
+    "return_va": 8792432320505
+  },
+  {
+    "caller_va": 8792432320244,
+    "call_block_va": 8792432320505,
+    "target_va": 8792432443488,
+    "target_name": "GetCurrentProcess",
+    "return_va": 8792432320511
+  },
+  {
+    "caller_va": 8792432320244,
+    "call_block_va": 8792432320511,
+    "target_va": 8792432443496,
+    "target_name": "TerminateProcess",
+    "return_va": 8792432320525
+  },
+  {
+    "caller_va": 8792432320576,
+    "call_block_va": 8792432320623,
+    "target_va": 8792432319782,
+    "target_name": "_XcptFilter",
+    "return_va": 8792432320638
+  },
+  {
+    "caller_va": 8792432320672,
+    "call_block_va": 8792432320719,
+    "target_va": 8792432319782,
+    "target_name": "_XcptFilter",
+    "return_va": 8792432320734
+  },
+  {
+    "caller_va": 8792432320768,
+    "call_block_va": 8792432320815,
+    "target_va": 8792432319782,
+    "target_name": "_XcptFilter",
+    "return_va": 8792432320830
+  },
+  {
+    "caller_va": 8792432320864,
+    "call_block_va": 8792432320917,
+    "target_va": 8792432319782,
+    "target_name": "_XcptFilter",
+    "return_va": 8792432320935
+  },
+  {
+    "caller_va": 8792432320960,
+    "call_block_va": 8792432321007,
+    "target_va": 8792432319782,
+    "target_name": "_XcptFilter",
+    "return_va": 8792432321022
+  },
+  {
+    "caller_va": 8792432321056,
+    "call_block_va": 8792432321103,
+    "target_va": 8792432319782,
+    "target_name": "_XcptFilter",
+    "return_va": 8792432321118
+  },
+  {
+    "caller_va": 8792432321152,
+    "call_block_va": 8792432321199,
+    "target_va": 8792432319782,
+    "target_name": "_XcptFilter",
+    "return_va": 8792432321214
+  },
+  {
+    "caller_va": 8792432321248,
+    "call_block_va": 8792432321295,
+    "target_va": 8792432319782,
+    "target_name": "_XcptFilter",
+    "return_va": 8792432321310
+  }
+]

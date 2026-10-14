@@ -1,0 +1,32 @@
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc
+Change Dir: '/home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc'
+
+Run Build Command(s): /home/user/Win7Defender-Decomp/analysis/tools/.venv/lib/python3.11/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile
+/home/user/Win7Defender-Decomp/analysis/tools/.venv/lib/python3.11/site-packages/cmake/data/bin/cmake -S/home/user/Win7Defender-Decomp/src/MpAsDesc.dll -B/home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc --check-build-system CMakeFiles/Makefile.cmake 0
+/home/user/Win7Defender-Decomp/analysis/tools/.venv/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc/CMakeFiles /home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc'
+/usr/bin/gmake  -f CMakeFiles/mpasdesc_model.dir/build.make CMakeFiles/mpasdesc_model.dir/depend
+gmake[2]: Entering directory '/home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc'
+cd /home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc && /home/user/Win7Defender-Decomp/analysis/tools/.venv/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/user/Win7Defender-Decomp/src/MpAsDesc.dll /home/user/Win7Defender-Decomp/src/MpAsDesc.dll /home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc /home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc /home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc/CMakeFiles/mpasdesc_model.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc'
+/usr/bin/gmake  -f CMakeFiles/mpasdesc_model.dir/build.make CMakeFiles/mpasdesc_model.dir/build
+gmake[2]: Entering directory '/home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc'
+[ 50%] Building C object CMakeFiles/mpasdesc_model.dir/compatibility.c.o
+/usr/bin/cc -Dmpasdesc_model_EXPORTS -I/home/user/Win7Defender-Decomp/src/MpAsDesc.dll -g -fPIC -Wall -Wextra -Werror -Wpedantic -MD -MT CMakeFiles/mpasdesc_model.dir/compatibility.c.o -MF CMakeFiles/mpasdesc_model.dir/compatibility.c.o.d -o CMakeFiles/mpasdesc_model.dir/compatibility.c.o -c /home/user/Win7Defender-Decomp/src/MpAsDesc.dll/compatibility.c
+[100%] Linking C shared library libmpasdesc_model.so
+/home/user/Win7Defender-Decomp/analysis/tools/.venv/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/mpasdesc_model.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,libmpasdesc_model.so -o libmpasdesc_model.so CMakeFiles/mpasdesc_model.dir/compatibility.c.o
+gmake[2]: Leaving directory '/home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc'
+[100%] Built target mpasdesc_model
+gmake[1]: Leaving directory '/home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc'
+/home/user/Win7Defender-Decomp/analysis/tools/.venv/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/user/Win7Defender-Decomp/analysis/report/work/mpasdesc/CMakeFiles 0
+
