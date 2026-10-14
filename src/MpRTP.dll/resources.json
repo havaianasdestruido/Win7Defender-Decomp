@@ -1,0 +1,19 @@
+{
+  "input_sha256": "e82f41ffe21897c806693dd197f61f00709d31f6edc3cb9f808d7cd9a33941b5",
+  "inventory": [
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "type": "RT_VERSION",
+      "rva": 208992,
+      "file_offset": 197728,
+      "size": 920,
+      "codepage": 0,
+      "sha256": "230eeca15a6b9f50c2a76325a60d61ff896cee9296ca734e35d4abd2182eb863"
+    }
+  ],
+  "decoded": []
+}

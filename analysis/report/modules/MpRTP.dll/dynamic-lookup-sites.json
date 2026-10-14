@@ -1,0 +1,134 @@
+[
+  {
+    "function_start_va": 8792629598060,
+    "call_instruction_va": 8792629598073,
+    "api": "LoadLibraryW",
+    "literal_argument": "advapi32",
+    "definition": {
+      "instruction_va": 8792629598066,
+      "literal_va": 8792629581280,
+      "bytes": "488d0d67beffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629598060,
+    "call_instruction_va": 8792629598097,
+    "api": "GetProcAddress",
+    "literal_argument": "TraceMessage",
+    "definition": {
+      "instruction_va": 8792629598087,
+      "literal_va": 8792629581304,
+      "bytes": "488d156abeffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629598060,
+    "call_instruction_va": 8792629598171,
+    "api": "GetProcAddress",
+    "literal_argument": "TraceMessageVa",
+    "definition": {
+      "instruction_va": 8792629598151,
+      "literal_va": 8792629581320,
+      "bytes": "488d153abeffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629645984,
+    "call_instruction_va": 8792629646245,
+    "api": "LoadLibraryW",
+    "literal_argument": "Kernel32.dll",
+    "definition": {
+      "instruction_va": 8792629646238,
+      "literal_va": 8792629583064,
+      "bytes": "488d0d3309ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629645984,
+    "call_instruction_va": 8792629646341,
+    "api": "GetProcAddress",
+    "literal_argument": "GetVolumePathNamesForVolumeNameW",
+    "definition": {
+      "instruction_va": 8792629646334,
+      "literal_va": 8792629583096,
+      "bytes": "488d15f308ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629695892,
+    "call_instruction_va": 8792629696424,
+    "api": "LoadLibraryW",
+    "literal_argument": "Wer.dll",
+    "definition": {
+      "instruction_va": 8792629696417,
+      "literal_va": 8792629586928,
+      "bytes": "488d0d4854feff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629695892,
+    "call_instruction_va": 8792629696543,
+    "api": "GetProcAddress",
+    "literal_argument": "WerReportCreate",
+    "definition": {
+      "instruction_va": 8792629696533,
+      "literal_va": 8792629586944,
+      "bytes": "488d15e453feff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629695892,
+    "call_instruction_va": 8792629696663,
+    "api": "GetProcAddress",
+    "literal_argument": "WerReportAddFile",
+    "definition": {
+      "instruction_va": 8792629696653,
+      "literal_va": 8792629586960,
+      "bytes": "488d157c53feff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629695892,
+    "call_instruction_va": 8792629696779,
+    "api": "GetProcAddress",
+    "literal_argument": "WerReportSubmit",
+    "definition": {
+      "instruction_va": 8792629696769,
+      "literal_va": 8792629586984,
+      "bytes": "488d152053feff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629695892,
+    "call_instruction_va": 8792629696904,
+    "api": "GetProcAddress",
+    "literal_argument": "WerReportCloseHandle",
+    "definition": {
+      "instruction_va": 8792629696894,
+      "literal_va": 8792629587000,
+      "bytes": "488d15b352feff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792629695892,
+    "call_instruction_va": 8792629697020,
+    "api": "GetProcAddress",
+    "literal_argument": "WerReportSetParameter",
+    "definition": {
+      "instruction_va": 8792629697010,
+      "literal_va": 8792629587024,
+      "bytes": "488d155752feff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  }
+]

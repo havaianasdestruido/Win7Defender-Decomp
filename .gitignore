@@ -1,0 +1,10 @@
+# Reproducible, downloaded analysis dependencies (not deliverables)
+analysis/tools/vendor/
+analysis/tools/.venv/
+analysis/tools/node_modules/
+analysis/tools/runtime/
+analysis/tools/__pycache__/
+analysis/report/work/
+
+# Compatibility build products
+src/**/build/

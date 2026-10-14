@@ -1,0 +1,590 @@
+[
+  {
+    "from": "MSASCui.exe",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 15,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "COMCTL32.dll",
+    "kind": "PE import",
+    "symbols": 8,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "COMDLG32.dll",
+    "kind": "PE import",
+    "symbols": 2,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "GDI32.dll",
+    "kind": "PE import",
+    "symbols": 35,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 87,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "MpClient.dll",
+    "kind": "PE import",
+    "symbols": 35,
+    "supplied": true
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "MsMpRes.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": true
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "OLEACC.dll",
+    "kind": "PE import",
+    "symbols": 2,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "OLEAUT32.dll",
+    "kind": "PE import",
+    "symbols": 24,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "RPCRT4.dll",
+    "kind": "PE import",
+    "symbols": 9,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "SHELL32.dll",
+    "kind": "PE import",
+    "symbols": 7,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "SHLWAPI.dll",
+    "kind": "PE import",
+    "symbols": 8,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "USER32.dll",
+    "kind": "PE import",
+    "symbols": 121,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "VERSION.dll",
+    "kind": "PE import",
+    "symbols": 3,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "gdiplus.dll",
+    "kind": "PE import",
+    "symbols": 47,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 58,
+    "supplied": false
+  },
+  {
+    "from": "MSASCui.exe",
+    "to": "ole32.dll",
+    "kind": "PE import",
+    "symbols": 5,
+    "supplied": false
+  },
+  {
+    "from": "MpAsDesc.dll",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 6,
+    "supplied": false
+  },
+  {
+    "from": "MpAsDesc.dll",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 19,
+    "supplied": false
+  },
+  {
+    "from": "MpAsDesc.dll",
+    "to": "USER32.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MpAsDesc.dll",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 7,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 51,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "CRYPT32.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 96,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "OLEAUT32.dll",
+    "kind": "PE import",
+    "symbols": 5,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "RPCRT4.dll",
+    "kind": "PE import",
+    "symbols": 11,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "SHELL32.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "USER32.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "USERENV.dll",
+    "kind": "PE import",
+    "symbols": 2,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "VERSION.dll",
+    "kind": "PE import",
+    "symbols": 3,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "WINTRUST.dll",
+    "kind": "PE import",
+    "symbols": 9,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 45,
+    "supplied": false
+  },
+  {
+    "from": "MpClient.dll",
+    "to": "ole32.dll",
+    "kind": "PE import",
+    "symbols": 3,
+    "supplied": false
+  },
+  {
+    "from": "MpCmdRun.exe",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 29,
+    "supplied": false
+  },
+  {
+    "from": "MpCmdRun.exe",
+    "to": "Cabinet.dll",
+    "kind": "PE import",
+    "symbols": 4,
+    "supplied": false
+  },
+  {
+    "from": "MpCmdRun.exe",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 58,
+    "supplied": false
+  },
+  {
+    "from": "MpCmdRun.exe",
+    "to": "MpClient.dll",
+    "kind": "PE import",
+    "symbols": 21,
+    "supplied": true
+  },
+  {
+    "from": "MpCmdRun.exe",
+    "to": "OLEAUT32.dll",
+    "kind": "PE import",
+    "symbols": 2,
+    "supplied": false
+  },
+  {
+    "from": "MpCmdRun.exe",
+    "to": "RPCRT4.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MpCmdRun.exe",
+    "to": "USERENV.dll",
+    "kind": "PE import",
+    "symbols": 4,
+    "supplied": false
+  },
+  {
+    "from": "MpCmdRun.exe",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 64,
+    "supplied": false
+  },
+  {
+    "from": "MpCmdRun.exe",
+    "to": "ole32.dll",
+    "kind": "PE import",
+    "symbols": 4,
+    "supplied": false
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 20,
+    "supplied": false
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 58,
+    "supplied": false
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "MpClient.dll",
+    "kind": "PE import",
+    "symbols": 15,
+    "supplied": true
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "OLEAUT32.dll",
+    "kind": "PE import",
+    "symbols": 7,
+    "supplied": false
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "USER32.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "VERSION.dll",
+    "kind": "PE import",
+    "symbols": 3,
+    "supplied": false
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "WINHTTP.dll",
+    "kind": "PE import",
+    "symbols": 18,
+    "supplied": false
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 36,
+    "supplied": false
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "ole32.dll",
+    "kind": "PE import",
+    "symbols": 6,
+    "supplied": false
+  },
+  {
+    "from": "MpCommu.dll",
+    "to": "urlmon.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MpOAV.dll",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 9,
+    "supplied": false
+  },
+  {
+    "from": "MpOAV.dll",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 40,
+    "supplied": false
+  },
+  {
+    "from": "MpOAV.dll",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 24,
+    "supplied": false
+  },
+  {
+    "from": "MpOAV.dll",
+    "to": "ole32.dll",
+    "kind": "PE import",
+    "symbols": 2,
+    "supplied": false
+  },
+  {
+    "from": "MpRTP.dll",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 27,
+    "supplied": false
+  },
+  {
+    "from": "MpRTP.dll",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 51,
+    "supplied": false
+  },
+  {
+    "from": "MpRTP.dll",
+    "to": "MpClient.dll",
+    "kind": "PE import",
+    "symbols": 14,
+    "supplied": true
+  },
+  {
+    "from": "MpRTP.dll",
+    "to": "PSAPI.DLL",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MpRTP.dll",
+    "to": "VERSION.dll",
+    "kind": "PE import",
+    "symbols": 3,
+    "supplied": false
+  },
+  {
+    "from": "MpRTP.dll",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 35,
+    "supplied": false
+  },
+  {
+    "from": "MpRTP.dll",
+    "to": "tdh.dll",
+    "kind": "PE import",
+    "symbols": 2,
+    "supplied": false
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 53,
+    "supplied": false
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 109,
+    "supplied": false
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "MpClient.dll",
+    "kind": "PE import",
+    "symbols": 24,
+    "supplied": true
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "OLEAUT32.dll",
+    "kind": "PE import",
+    "symbols": 3,
+    "supplied": false
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "RPCRT4.dll",
+    "kind": "PE import",
+    "symbols": 14,
+    "supplied": false
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "VERSION.dll",
+    "kind": "PE import",
+    "symbols": 3,
+    "supplied": false
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "WTSAPI32.dll",
+    "kind": "PE import",
+    "symbols": 2,
+    "supplied": false
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 44,
+    "supplied": false
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "ole32.dll",
+    "kind": "PE import",
+    "symbols": 5,
+    "supplied": false
+  },
+  {
+    "from": "MpSvc.dll",
+    "to": "sfc.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MsMpCom.dll",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 15,
+    "supplied": false
+  },
+  {
+    "from": "MsMpCom.dll",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 30,
+    "supplied": false
+  },
+  {
+    "from": "MsMpCom.dll",
+    "to": "MpClient.dll",
+    "kind": "PE import",
+    "symbols": 22,
+    "supplied": true
+  },
+  {
+    "from": "MsMpCom.dll",
+    "to": "OLEAUT32.dll",
+    "kind": "PE import",
+    "symbols": 8,
+    "supplied": false
+  },
+  {
+    "from": "MsMpCom.dll",
+    "to": "RPCRT4.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MsMpCom.dll",
+    "to": "USER32.dll",
+    "kind": "PE import",
+    "symbols": 1,
+    "supplied": false
+  },
+  {
+    "from": "MsMpCom.dll",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 29,
+    "supplied": false
+  },
+  {
+    "from": "MsMpCom.dll",
+    "to": "ole32.dll",
+    "kind": "PE import",
+    "symbols": 4,
+    "supplied": false
+  },
+  {
+    "from": "MsMpRes.dll",
+    "to": "ADVAPI32.dll",
+    "kind": "PE import",
+    "symbols": 6,
+    "supplied": false
+  },
+  {
+    "from": "MsMpRes.dll",
+    "to": "KERNEL32.dll",
+    "kind": "PE import",
+    "symbols": 19,
+    "supplied": false
+  },
+  {
+    "from": "MsMpRes.dll",
+    "to": "msvcrt.dll",
+    "kind": "PE import",
+    "symbols": 7,
+    "supplied": false
+  }
+]

@@ -1,0 +1,435 @@
+{
+  "input_sha256": "8c7baf81986a1d39964b8ab74a188443987df6b84bb82470ea849e438234a10a",
+  "inventory": [
+    {
+      "path": [
+        6,
+        7,
+        1033
+      ],
+      "type": "RT_STRING",
+      "rva": 5312,
+      "file_offset": 1728,
+      "size": 528,
+      "codepage": 0,
+      "sha256": "0d0b48b8513238f9730a86769d932f68cf664d03c04d39c730959ae652926724"
+    },
+    {
+      "path": [
+        6,
+        8,
+        1033
+      ],
+      "type": "RT_STRING",
+      "rva": 7928,
+      "file_offset": 4344,
+      "size": 128,
+      "codepage": 0,
+      "sha256": "1673f76b5b996bfdebbf43465018abbcfdb301087595e7549770465c876364bd"
+    },
+    {
+      "path": [
+        6,
+        63,
+        1033
+      ],
+      "type": "RT_STRING",
+      "rva": 5840,
+      "file_offset": 2256,
+      "size": 732,
+      "codepage": 0,
+      "sha256": "0f5de50a375bbff59375c42b25e26c1b75aaf0679a5b687ce033f1f24dff5b91"
+    },
+    {
+      "path": [
+        6,
+        64,
+        1033
+      ],
+      "type": "RT_STRING",
+      "rva": 6576,
+      "file_offset": 2992,
+      "size": 1348,
+      "codepage": 0,
+      "sha256": "b12042013187fcbda1392a09e4bbb2b90bd764282c5915fba139ab83e3ef3773"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "type": "RT_VERSION",
+      "rva": 4400,
+      "file_offset": 816,
+      "size": 908,
+      "codepage": 0,
+      "sha256": "ddb0f5f058b87e8da479b8c4105378cfb9770995399a8300c9637e57804338a2"
+    }
+  ],
+  "decoded": [
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 100,
+      "rva": 5322,
+      "kind": "string",
+      "text": "AntiSpyware"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 101,
+      "rva": 5346,
+      "kind": "string",
+      "text": "SOFTWARE\\Microsoft\\Windows Defender"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 102,
+      "rva": 5418,
+      "kind": "string",
+      "text": "SOFTWARE\\Policies\\Microsoft\\Windows Defender"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 103,
+      "rva": 5508,
+      "kind": "string",
+      "text": "925A3ACA-C353-458A-AC8D-A7E5EB378092"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 104,
+      "rva": 5582,
+      "kind": "string",
+      "text": "WinDefend"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 105,
+      "rva": 5602,
+      "kind": "string",
+      "text": "A2D75874-6750-4931-94C1-C99D3BC9D0C7"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 106,
+      "rva": 5676,
+      "kind": "string",
+      "text": "2"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 107,
+      "rva": 5680,
+      "kind": "string",
+      "text": "Vista"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 108,
+      "rva": 5692,
+      "kind": "string",
+      "text": "MP_CONFIG_ORIGIN_PREFERENCES"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 109,
+      "rva": 5750,
+      "kind": "string",
+      "text": "Microsoft\\Windows Defender"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 110,
+      "rva": 5804,
+      "kind": "string",
+      "text": "Windows Defender"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1033
+      ],
+      "id": 111,
+      "rva": 5838,
+      "kind": "string",
+      "text": "0"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1033
+      ],
+      "id": 112,
+      "rva": 7930,
+      "kind": "string",
+      "text": "{2781761E-28E0-4109-99FE-B9D127C57AFE}"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1033
+      ],
+      "id": 113,
+      "rva": 8008,
+      "kind": "string",
+      "text": "0"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1033
+      ],
+      "id": 114,
+      "rva": 8012,
+      "kind": "string",
+      "text": "WinDefend"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1033
+      ],
+      "id": 1000,
+      "rva": 5858,
+      "kind": "string",
+      "text": "*SOF*"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1033
+      ],
+      "id": 1001,
+      "rva": 5870,
+      "kind": "string",
+      "text": "., DisableAntiSpyware, , , MP_CONFIG_ORIGIN_POLICY,"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1033
+      ],
+      "id": 1002,
+      "rva": 5974,
+      "kind": "string",
+      "text": "Scan, CheckForSignaturesBeforeRunningScan, , , MP_CONFIG_ORIGIN_POLICY,"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1033
+      ],
+      "id": 1004,
+      "rva": 6120,
+      "kind": "string",
+      "text": "SpyNet, SpyNetReporting, , , MP_CONFIG_ORIGIN_POLICY,"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1033
+      ],
+      "id": 1005,
+      "rva": 6228,
+      "kind": "string",
+      "text": "Signature Updates, CheckAlternateDownloadLocation, , , MP_CONFIG_ORIGIN_POLICY,"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1033
+      ],
+      "id": 1006,
+      "rva": 6388,
+      "kind": "string",
+      "text": "., DisableLocalAdminMerge, 0, , MP_CONFIG_ORIGIN_DEFAULT,"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1033
+      ],
+      "id": 1007,
+      "rva": 6504,
+      "kind": "string",
+      "text": "., AllowFastServiceStartup, 0, , ,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1008,
+      "rva": 6578,
+      "kind": "string",
+      "text": "Signature Updates, CheckAlternateHttpLocation, , , MP_CONFIG_ORIGIN_POLICY,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1009,
+      "rva": 6730,
+      "kind": "string",
+      "text": "Real-Time Protection, DisableBehaviorMonitoring, 1 , , MP_CONFIG_ORIGIN_DEFAULT,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1010,
+      "rva": 6892,
+      "kind": "string",
+      "text": "., DisableAntiVirus, 1, , MP_CONFIG_ORIGIN_DEFAULT,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1011,
+      "rva": 6996,
+      "kind": "string",
+      "text": "Real-Time Protection, DisableRealtimeMonitoring, , , MP_CONFIG_ORIGIN_POLICY,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1012,
+      "rva": 7152,
+      "kind": "string",
+      "text": "., DisableRoutinelyTakingAction, , , MP_CONFIG_ORIGIN_POLICY,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1013,
+      "rva": 7276,
+      "kind": "string",
+      "text": "Scan, DisableCatchupQuickScan, 1, , MP_CONFIG_ORIGIN_DEFAULT,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1014,
+      "rva": 7400,
+      "kind": "string",
+      "text": "Scan, DisableCatchupFullScan, 1, , MP_CONFIG_ORIGIN_DEFAULT,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1015,
+      "rva": 7522,
+      "kind": "string",
+      "text": "Scan, QuickScanInterval, 0, , MP_CONFIG_ORIGIN_DEFAULT,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1016,
+      "rva": 7634,
+      "kind": "string",
+      "text": "Signature Updates, SignatureUpdateInterval, 0, , MP_CONFIG_ORIGIN_DEFAULT,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1017,
+      "rva": 7784,
+      "kind": "string",
+      "text": "Scan, ScheduleQuickScanTime, 0, , MP_CONFIG_ORIGIN_DEFAULT,"
+    },
+    {
+      "resource": [
+        6,
+        64,
+        1033
+      ],
+      "id": 1021,
+      "rva": 7910,
+      "kind": "string",
+      "text": "*EOF*"
+    }
+  ]
+}

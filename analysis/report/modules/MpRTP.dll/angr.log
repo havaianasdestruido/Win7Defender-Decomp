@@ -1,0 +1,3 @@
+MpRTP.dll loading
+MpRTP.dll CFG 1253 functions 29.98 seconds
+MpRTP.dll {'automated pseudocode; unverified': 1106, 'seed not recovered by CFG; inspect disassembly and exception-range boundaries': 4, 'deferred: module decompilation time budget exhausted; rerun with larger --budget': 12}

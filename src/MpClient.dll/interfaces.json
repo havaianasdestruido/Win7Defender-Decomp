@@ -1,0 +1,2198 @@
+{
+  "input_sha256": "af49ac6648d89c5f52020c7a53ef8fe341220936afa1aee74d5675a0969a5d45",
+  "image_base": 8792825004032,
+  "imports": [
+    {
+      "dll": "msvcrt.dll",
+      "name": "malloc",
+      "ordinal": null,
+      "hint": 1140,
+      "iat_va": 8792825009648,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "free",
+      "ordinal": null,
+      "hint": 1082,
+      "iat_va": 8792825009656,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "iswdigit",
+      "ordinal": null,
+      "hint": 1121,
+      "iat_va": 8792825009664,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memset",
+      "ordinal": null,
+      "hint": 1156,
+      "iat_va": 8792825009672,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_vsnwprintf",
+      "ordinal": null,
+      "hint": 856,
+      "iat_va": 8792825009680,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "wcsrchr",
+      "ordinal": null,
+      "hint": 1278,
+      "iat_va": 8792825009688,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "wcschr",
+      "ordinal": null,
+      "hint": 1263,
+      "iat_va": 8792825009696,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_errno",
+      "ordinal": null,
+      "hint": 246,
+      "iat_va": 8792825009704,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_wcsicmp",
+      "ordinal": null,
+      "hint": 889,
+      "iat_va": 8792825009712,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??0exception@@QEAA@XZ",
+      "ordinal": null,
+      "hint": 13,
+      "iat_va": 8792825009720,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memmove_s",
+      "ordinal": null,
+      "hint": 1155,
+      "iat_va": 8792825009728,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memcpy_s",
+      "ordinal": null,
+      "hint": 1153,
+      "iat_va": 8792825009736,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_lock",
+      "ordinal": null,
+      "hint": 469,
+      "iat_va": 8792825009744,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??1exception@@UEAA@XZ",
+      "ordinal": null,
+      "hint": 17,
+      "iat_va": 8792825009752,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??0exception@@QEAA@AEBQEBDH@Z",
+      "ordinal": null,
+      "hint": 11,
+      "iat_va": 8792825009760,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "rand",
+      "ordinal": null,
+      "hint": 1173,
+      "iat_va": 8792825009768,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_wcsupr",
+      "ordinal": null,
+      "hint": 916,
+      "iat_va": 8792825009776,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "iswspace",
+      "ordinal": null,
+      "hint": 1126,
+      "iat_va": 8792825009784,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "swscanf_s",
+      "ordinal": null,
+      "hint": 1228,
+      "iat_va": 8792825009792,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "toupper",
+      "ordinal": null,
+      "hint": 1240,
+      "iat_va": 8792825009800,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "iswctype",
+      "ordinal": null,
+      "hint": 1120,
+      "iat_va": 8792825009808,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_beginthreadex",
+      "ordinal": null,
+      "hint": 174,
+      "iat_va": 8792825009816,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__RTDynamicCast",
+      "ordinal": null,
+      "hint": 90,
+      "iat_va": 8792825009824,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_vsnprintf",
+      "ordinal": null,
+      "hint": 850,
+      "iat_va": 8792825009832,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "swscanf",
+      "ordinal": null,
+      "hint": 1227,
+      "iat_va": 8792825009840,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_onexit",
+      "ordinal": null,
+      "hint": 639,
+      "iat_va": 8792825009848,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_CxxThrowException",
+      "ordinal": null,
+      "hint": 76,
+      "iat_va": 8792825009856,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__CxxFrameHandler3",
+      "ordinal": null,
+      "hint": 87,
+      "iat_va": 8792825009864,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_XcptFilter",
+      "ordinal": null,
+      "hint": 82,
+      "iat_va": 8792825009872,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_initterm",
+      "ordinal": null,
+      "hint": 364,
+      "iat_va": 8792825009880,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_amsg_exit",
+      "ordinal": null,
+      "hint": 160,
+      "iat_va": 8792825009888,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__C_specific_handler",
+      "ordinal": null,
+      "hint": 83,
+      "iat_va": 8792825009896,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??1type_info@@UEAA@XZ",
+      "ordinal": null,
+      "hint": 18,
+      "iat_va": 8792825009904,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_unlock",
+      "ordinal": null,
+      "hint": 816,
+      "iat_va": 8792825009912,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_wcsnicmp",
+      "ordinal": null,
+      "hint": 899,
+      "iat_va": 8792825009920,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__dllonexit",
+      "ordinal": null,
+      "hint": 109,
+      "iat_va": 8792825009928,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "towlower",
+      "ordinal": null,
+      "hint": 1241,
+      "iat_va": 8792825009936,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??0exception@@QEAA@AEBV0@@Z",
+      "ordinal": null,
+      "hint": 12,
+      "iat_va": 8792825009944,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??0exception@@QEAA@AEBQEBD@Z",
+      "ordinal": null,
+      "hint": 10,
+      "iat_va": 8792825009952,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_purecall",
+      "ordinal": null,
+      "hint": 653,
+      "iat_va": 8792825009960,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "?what@exception@@UEBAPEBDXZ",
+      "ordinal": null,
+      "hint": 50,
+      "iat_va": 8792825009968,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memcpy",
+      "ordinal": null,
+      "hint": 1152,
+      "iat_va": 8792825009976,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "iswalpha",
+      "ordinal": null,
+      "hint": 1117,
+      "iat_va": 8792825009984,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memmove",
+      "ordinal": null,
+      "hint": 1154,
+      "iat_va": 8792825009992,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memcmp",
+      "ordinal": null,
+      "hint": 1151,
+      "iat_va": 8792825010000,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "UnhandledExceptionFilter",
+      "ordinal": null,
+      "hint": 1257,
+      "iat_va": 8792825008560,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetUnhandledExceptionFilter",
+      "ordinal": null,
+      "hint": 1207,
+      "iat_va": 8792825008568,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlCaptureContext",
+      "ordinal": null,
+      "hint": 1050,
+      "iat_va": 8792825008576,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlLookupFunctionEntry",
+      "ordinal": null,
+      "hint": 1057,
+      "iat_va": 8792825008584,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlVirtualUnwind",
+      "ordinal": null,
+      "hint": 1064,
+      "iat_va": 8792825008592,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "OutputDebugStringA",
+      "ordinal": null,
+      "hint": 908,
+      "iat_va": 8792825008600,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetExitCodeProcess",
+      "ordinal": null,
+      "hint": 487,
+      "iat_va": 8792825008608,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TerminateProcess",
+      "ordinal": null,
+      "hint": 1236,
+      "iat_va": 8792825008616,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindNextFileW",
+      "ordinal": null,
+      "hint": 332,
+      "iat_va": 8792825008624,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CopyFileW",
+      "ordinal": null,
+      "hint": 118,
+      "iat_va": 8792825008632,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindFirstFileW",
+      "ordinal": null,
+      "hint": 320,
+      "iat_va": 8792825008640,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetFileAttributesW",
+      "ordinal": null,
+      "hint": 1138,
+      "iat_va": 8792825008648,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "MoveFileW",
+      "ordinal": null,
+      "hint": 870,
+      "iat_va": 8792825008656,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindClose",
+      "ordinal": null,
+      "hint": 309,
+      "iat_va": 8792825008664,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetLastError",
+      "ordinal": null,
+      "hint": 1155,
+      "iat_va": 8792825008672,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "OpenProcess",
+      "ordinal": null,
+      "hint": 899,
+      "iat_va": 8792825008680,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RegisterWaitForSingleObject",
+      "ordinal": null,
+      "hint": 1017,
+      "iat_va": 8792825008688,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "UnregisterWaitEx",
+      "ordinal": null,
+      "hint": 1265,
+      "iat_va": 8792825008696,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LeaveCriticalSection",
+      "ordinal": null,
+      "hint": 829,
+      "iat_va": 8792825008704,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "EnterCriticalSection",
+      "ordinal": null,
+      "hint": 243,
+      "iat_va": 8792825008712,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentProcess",
+      "ordinal": null,
+      "hint": 455,
+      "iat_va": 8792825008720,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LoadLibraryExW",
+      "ordinal": null,
+      "hint": 834,
+      "iat_va": 8792825008728,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetTickCount",
+      "ordinal": null,
+      "hint": 666,
+      "iat_va": 8792825008736,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateThread",
+      "ordinal": null,
+      "hint": 181,
+      "iat_va": 8792825008744,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentProcessId",
+      "ordinal": null,
+      "hint": 456,
+      "iat_va": 8792825008752,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentThreadId",
+      "ordinal": null,
+      "hint": 460,
+      "iat_va": 8792825008760,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateEventW",
+      "ordinal": null,
+      "hint": 134,
+      "iat_va": 8792825008768,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ResetEvent",
+      "ordinal": null,
+      "hint": 1044,
+      "iat_va": 8792825008776,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemTimeAsFileTime",
+      "ordinal": null,
+      "hint": 640,
+      "iat_va": 8792825008784,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetEvent",
+      "ordinal": null,
+      "hint": 1131,
+      "iat_va": 8792825008792,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CloseHandle",
+      "ordinal": null,
+      "hint": 83,
+      "iat_va": 8792825008800,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ReleaseMutex",
+      "ordinal": null,
+      "hint": 1022,
+      "iat_va": 8792825008808,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetFileAttributesExW",
+      "ordinal": null,
+      "hint": 493,
+      "iat_va": 8792825008816,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WaitForMultipleObjects",
+      "ordinal": null,
+      "hint": 1293,
+      "iat_va": 8792825008824,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateMutexW",
+      "ordinal": null,
+      "hint": 159,
+      "iat_va": 8792825008832,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "Sleep",
+      "ordinal": null,
+      "hint": 1221,
+      "iat_va": 8792825008840,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WaitForSingleObject",
+      "ordinal": null,
+      "hint": 1295,
+      "iat_va": 8792825008848,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LocalFree",
+      "ordinal": null,
+      "hint": 844,
+      "iat_va": 8792825008856,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LocalAlloc",
+      "ordinal": null,
+      "hint": 840,
+      "iat_va": 8792825008864,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetProcAddress",
+      "ordinal": null,
+      "hint": 587,
+      "iat_va": 8792825008872,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetLastError",
+      "ordinal": null,
+      "hint": 519,
+      "iat_va": 8792825008880,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LoadLibraryW",
+      "ordinal": null,
+      "hint": 835,
+      "iat_va": 8792825008888,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FreeLibrary",
+      "ordinal": null,
+      "hint": 361,
+      "iat_va": 8792825008896,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FormatMessageW",
+      "ordinal": null,
+      "hint": 357,
+      "iat_va": 8792825008904,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "QueryPerformanceCounter",
+      "ordinal": null,
+      "hint": 938,
+      "iat_va": 8792825008912,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetEnvironmentVariableW",
+      "ordinal": null,
+      "hint": 1129,
+      "iat_va": 8792825008920,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ChangeTimerQueueTimer",
+      "ordinal": null,
+      "hint": 73,
+      "iat_va": 8792825008928,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DeleteFileW",
+      "ordinal": null,
+      "hint": 216,
+      "iat_va": 8792825008936,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RemoveDirectoryW",
+      "ordinal": null,
+      "hint": 1031,
+      "iat_va": 8792825008944,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DisableThreadLibraryCalls",
+      "ordinal": null,
+      "hint": 227,
+      "iat_va": 8792825008952,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DebugBreak",
+      "ordinal": null,
+      "hint": 201,
+      "iat_va": 8792825008960,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateProcessW",
+      "ordinal": null,
+      "hint": 169,
+      "iat_va": 8792825008968,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateDirectoryW",
+      "ordinal": null,
+      "hint": 130,
+      "iat_va": 8792825008976,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetModuleHandleW",
+      "ordinal": null,
+      "hint": 541,
+      "iat_va": 8792825008984,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentThread",
+      "ordinal": null,
+      "hint": 459,
+      "iat_va": 8792825008992,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemDirectoryW",
+      "ordinal": null,
+      "hint": 631,
+      "iat_va": 8792825009000,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetFileAttributesW",
+      "ordinal": null,
+      "hint": 496,
+      "iat_va": 8792825009008,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetModuleFileNameW",
+      "ordinal": null,
+      "hint": 537,
+      "iat_va": 8792825009016,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateFileW",
+      "ordinal": null,
+      "hint": 144,
+      "iat_va": 8792825009024,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ReleaseSemaphore",
+      "ordinal": null,
+      "hint": 1026,
+      "iat_va": 8792825009032,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetLocalTime",
+      "ordinal": null,
+      "hint": 520,
+      "iat_va": 8792825009040,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateTimerQueueTimer",
+      "ordinal": null,
+      "hint": 189,
+      "iat_va": 8792825009048,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateSemaphoreW",
+      "ordinal": null,
+      "hint": 175,
+      "iat_va": 8792825009056,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapSetInformation",
+      "ordinal": null,
+      "hint": 733,
+      "iat_va": 8792825009064,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "OpenEventW",
+      "ordinal": null,
+      "hint": 888,
+      "iat_va": 8792825009072,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DuplicateHandle",
+      "ordinal": null,
+      "hint": 237,
+      "iat_va": 8792825009080,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ExpandEnvironmentStringsW",
+      "ordinal": null,
+      "hint": 292,
+      "iat_va": 8792825009088,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "InitializeCriticalSectionAndSpinCount",
+      "ordinal": null,
+      "hint": 750,
+      "iat_va": 8792825009096,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DeleteCriticalSection",
+      "ordinal": null,
+      "hint": 211,
+      "iat_va": 8792825009104,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapAlloc",
+      "ordinal": null,
+      "hint": 725,
+      "iat_va": 8792825009112,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapFree",
+      "ordinal": null,
+      "hint": 729,
+      "iat_va": 8792825009120,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetProcessHeap",
+      "ordinal": null,
+      "hint": 592,
+      "iat_va": 8792825009128,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindResourceW",
+      "ordinal": null,
+      "hint": 341,
+      "iat_va": 8792825009136,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LoadResource",
+      "ordinal": null,
+      "hint": 837,
+      "iat_va": 8792825009144,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SizeofResource",
+      "ordinal": null,
+      "hint": 1220,
+      "iat_va": 8792825009152,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetVersionExW",
+      "ordinal": null,
+      "hint": 685,
+      "iat_va": 8792825009160,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LockResource",
+      "ordinal": null,
+      "hint": 855,
+      "iat_va": 8792825009168,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetQueuedCompletionStatus",
+      "ordinal": null,
+      "hint": 613,
+      "iat_va": 8792825009176,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "PostQueuedCompletionStatus",
+      "ordinal": null,
+      "hint": 913,
+      "iat_va": 8792825009184,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateIoCompletionPort",
+      "ordinal": null,
+      "hint": 149,
+      "iat_va": 8792825009192,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TlsGetValue",
+      "ordinal": null,
+      "hint": 1243,
+      "iat_va": 8792825009200,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TlsSetValue",
+      "ordinal": null,
+      "hint": 1244,
+      "iat_va": 8792825009208,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TlsAlloc",
+      "ordinal": null,
+      "hint": 1241,
+      "iat_va": 8792825009216,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TlsFree",
+      "ordinal": null,
+      "hint": 1242,
+      "iat_va": 8792825009224,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapReAlloc",
+      "ordinal": null,
+      "hint": 732,
+      "iat_va": 8792825009232,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapDestroy",
+      "ordinal": null,
+      "hint": 728,
+      "iat_va": 8792825009240,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapCreate",
+      "ordinal": null,
+      "hint": 727,
+      "iat_va": 8792825009248,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapValidate",
+      "ordinal": null,
+      "hint": 737,
+      "iat_va": 8792825009256,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapSize",
+      "ordinal": null,
+      "hint": 734,
+      "iat_va": 8792825009264,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SwitchToThread",
+      "ordinal": null,
+      "hint": 1231,
+      "iat_va": 8792825009272,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DeleteTimerQueueTimer",
+      "ordinal": null,
+      "hint": 220,
+      "iat_va": 8792825009280,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "InitializeCriticalSection",
+      "ordinal": null,
+      "hint": 749,
+      "iat_va": 8792825009288,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TryEnterCriticalSection",
+      "ordinal": null,
+      "hint": 1250,
+      "iat_va": 8792825009296,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SystemTimeToFileTime",
+      "ordinal": null,
+      "hint": 1232,
+      "iat_va": 8792825009304,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LocalFileTimeToFileTime",
+      "ordinal": null,
+      "hint": 842,
+      "iat_va": 8792825009312,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CompareFileTime",
+      "ordinal": null,
+      "hint": 97,
+      "iat_va": 8792825009320,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "OpenProcessToken",
+      "ordinal": null,
+      "hint": 504,
+      "iat_va": 8792825008128,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegCreateKeyExW",
+      "ordinal": null,
+      "hint": 570,
+      "iat_va": 8792825008136,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegQueryValueExW",
+      "ordinal": null,
+      "hint": 623,
+      "iat_va": 8792825008144,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "IsValidSid",
+      "ordinal": null,
+      "hint": 391,
+      "iat_va": 8792825008152,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CopySid",
+      "ordinal": null,
+      "hint": 118,
+      "iat_va": 8792825008160,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "DeregisterEventSource",
+      "ordinal": null,
+      "hint": 219,
+      "iat_va": 8792825008168,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "ConvertStringSidToSidW",
+      "ordinal": null,
+      "hint": 116,
+      "iat_va": 8792825008176,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "AdjustTokenPrivileges",
+      "ordinal": null,
+      "hint": 31,
+      "iat_va": 8792825008184,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "LookupPrivilegeValueW",
+      "ordinal": null,
+      "hint": 408,
+      "iat_va": 8792825008192,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegisterEventSourceW",
+      "ordinal": null,
+      "hint": 644,
+      "iat_va": 8792825008200,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegQueryInfoKeyW",
+      "ordinal": null,
+      "hint": 617,
+      "iat_va": 8792825008208,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegDeleteKeyW",
+      "ordinal": null,
+      "hint": 581,
+      "iat_va": 8792825008216,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegDeleteValueW",
+      "ordinal": null,
+      "hint": 585,
+      "iat_va": 8792825008224,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegEnumValueW",
+      "ordinal": null,
+      "hint": 595,
+      "iat_va": 8792825008232,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegOpenKeyExW",
+      "ordinal": null,
+      "hint": 610,
+      "iat_va": 8792825008240,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegNotifyChangeKeyValue",
+      "ordinal": null,
+      "hint": 606,
+      "iat_va": 8792825008248,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegEnumKeyExW",
+      "ordinal": null,
+      "hint": 592,
+      "iat_va": 8792825008256,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegSetValueExW",
+      "ordinal": null,
+      "hint": 639,
+      "iat_va": 8792825008264,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CryptAcquireContextW",
+      "ordinal": null,
+      "hint": 177,
+      "iat_va": 8792825008272,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTokenInformation",
+      "ordinal": null,
+      "hint": 347,
+      "iat_va": 8792825008280,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CryptReleaseContext",
+      "ordinal": null,
+      "hint": 203,
+      "iat_va": 8792825008288,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CryptGenRandom",
+      "ordinal": null,
+      "hint": 193,
+      "iat_va": 8792825008296,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "AllocateAndInitializeSid",
+      "ordinal": null,
+      "hint": 32,
+      "iat_va": 8792825008304,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CheckTokenMembership",
+      "ordinal": null,
+      "hint": 81,
+      "iat_va": 8792825008312,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetLengthSid",
+      "ordinal": null,
+      "hint": 311,
+      "iat_va": 8792825008320,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "ReportEventW",
+      "ordinal": null,
+      "hint": 656,
+      "iat_va": 8792825008328,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "ControlService",
+      "ordinal": null,
+      "hint": 92,
+      "iat_va": 8792825008336,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "ChangeServiceConfig2W",
+      "ordinal": null,
+      "hint": 78,
+      "iat_va": 8792825008344,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CreateServiceW",
+      "ordinal": null,
+      "hint": 129,
+      "iat_va": 8792825008352,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "SetNamedSecurityInfoW",
+      "ordinal": null,
+      "hint": 690,
+      "iat_va": 8792825008360,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "SetEntriesInAclW",
+      "ordinal": null,
+      "hint": 679,
+      "iat_va": 8792825008368,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetNamedSecurityInfoW",
+      "ordinal": null,
+      "hint": 323,
+      "iat_va": 8792825008376,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegCloseKey",
+      "ordinal": null,
+      "hint": 561,
+      "iat_va": 8792825008384,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "StartTraceW",
+      "ordinal": null,
+      "hint": 716,
+      "iat_va": 8792825008392,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "ControlTraceW",
+      "ordinal": null,
+      "hint": 96,
+      "iat_va": 8792825008400,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "EnableTrace",
+      "ordinal": null,
+      "hint": 245,
+      "iat_va": 8792825008408,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "LookupAccountSidW",
+      "ordinal": null,
+      "hint": 402,
+      "iat_va": 8792825008416,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "FreeSid",
+      "ordinal": null,
+      "hint": 289,
+      "iat_va": 8792825008424,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "ChangeServiceConfigW",
+      "ordinal": null,
+      "hint": 80,
+      "iat_va": 8792825008432,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "OpenThreadToken",
+      "ordinal": null,
+      "hint": 509,
+      "iat_va": 8792825008440,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "QueryServiceStatus",
+      "ordinal": null,
+      "hint": 553,
+      "iat_va": 8792825008448,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "StartServiceW",
+      "ordinal": null,
+      "hint": 714,
+      "iat_va": 8792825008456,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "OpenServiceW",
+      "ordinal": null,
+      "hint": 508,
+      "iat_va": 8792825008464,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "OpenSCManagerW",
+      "ordinal": null,
+      "hint": 506,
+      "iat_va": 8792825008472,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CloseServiceHandle",
+      "ordinal": null,
+      "hint": 87,
+      "iat_va": 8792825008480,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegisterTraceGuidsW",
+      "ordinal": null,
+      "hint": 651,
+      "iat_va": 8792825008488,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTraceEnableLevel",
+      "ordinal": null,
+      "hint": 349,
+      "iat_va": 8792825008496,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "UnregisterTraceGuids",
+      "ordinal": null,
+      "hint": 771,
+      "iat_va": 8792825008504,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "TraceEvent",
+      "ordinal": null,
+      "hint": 757,
+      "iat_va": 8792825008512,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTraceLoggerHandle",
+      "ordinal": null,
+      "hint": 350,
+      "iat_va": 8792825008520,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTraceEnableFlags",
+      "ordinal": null,
+      "hint": 348,
+      "iat_va": 8792825008528,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "RpcSmDestroyClientContext",
+      "ordinal": null,
+      "hint": 481,
+      "iat_va": 8792825009384,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "RpcStringFreeW",
+      "ordinal": null,
+      "hint": 507,
+      "iat_va": 8792825009392,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "RpcStringBindingComposeW",
+      "ordinal": null,
+      "hint": 503,
+      "iat_va": 8792825009400,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "UuidFromStringW",
+      "ordinal": null,
+      "hint": 521,
+      "iat_va": 8792825009408,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "RpcBindingFree",
+      "ordinal": null,
+      "hint": 358,
+      "iat_va": 8792825009416,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "UuidToStringW",
+      "ordinal": null,
+      "hint": 525,
+      "iat_va": 8792825009424,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "UuidCreate",
+      "ordinal": null,
+      "hint": 516,
+      "iat_va": 8792825009432,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "NdrClientCall3",
+      "ordinal": null,
+      "hint": 151,
+      "iat_va": 8792825009440,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "RpcBindingSetOption",
+      "ordinal": null,
+      "hint": 378,
+      "iat_va": 8792825009448,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "RpcBindingFromStringBindingW",
+      "ordinal": null,
+      "hint": 360,
+      "iat_va": 8792825009456,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "RpcBindingSetAuthInfoExW",
+      "ordinal": null,
+      "hint": 375,
+      "iat_va": 8792825009464,
+      "kind": "normal"
+    },
+    {
+      "dll": "USER32.dll",
+      "name": "LoadStringW",
+      "ordinal": null,
+      "hint": 510,
+      "iat_va": 8792825009496,
+      "kind": "normal"
+    },
+    {
+      "dll": "ole32.dll",
+      "name": "CoCreateInstance",
+      "ordinal": null,
+      "hint": 20,
+      "iat_va": 8792825010016,
+      "kind": "normal"
+    },
+    {
+      "dll": "ole32.dll",
+      "name": "CoUninitialize",
+      "ordinal": null,
+      "hint": 112,
+      "iat_va": 8792825010024,
+      "kind": "normal"
+    },
+    {
+      "dll": "ole32.dll",
+      "name": "CoInitializeEx",
+      "ordinal": null,
+      "hint": 67,
+      "iat_va": 8792825010032,
+      "kind": "normal"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "name": "SysAllocString",
+      "ordinal": 2,
+      "hint": null,
+      "iat_va": 8792825009336,
+      "kind": "normal"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "name": "VariantClear",
+      "ordinal": 9,
+      "hint": null,
+      "iat_va": 8792825009344,
+      "kind": "normal"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "name": "VariantInit",
+      "ordinal": 8,
+      "hint": null,
+      "iat_va": 8792825009352,
+      "kind": "normal"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "name": "SysFreeString",
+      "ordinal": 6,
+      "hint": null,
+      "iat_va": 8792825009360,
+      "kind": "normal"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "name": "SysAllocStringLen",
+      "ordinal": 4,
+      "hint": null,
+      "iat_va": 8792825009368,
+      "kind": "normal"
+    },
+    {
+      "dll": "USERENV.dll",
+      "name": "UnregisterGPNotification",
+      "ordinal": null,
+      "hint": 45,
+      "iat_va": 8792825009512,
+      "kind": "normal"
+    },
+    {
+      "dll": "USERENV.dll",
+      "name": "RegisterGPNotification",
+      "ordinal": null,
+      "hint": 38,
+      "iat_va": 8792825009520,
+      "kind": "normal"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "name": "CryptCATAdminReleaseCatalogContext",
+      "ordinal": null,
+      "hint": 9,
+      "iat_va": 8792825009568,
+      "kind": "normal"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "name": "CryptCATCatalogInfoFromContext",
+      "ordinal": null,
+      "hint": 22,
+      "iat_va": 8792825009576,
+      "kind": "normal"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "name": "CryptCATAdminEnumCatalogFromHash",
+      "ordinal": null,
+      "hint": 7,
+      "iat_va": 8792825009584,
+      "kind": "normal"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "name": "CryptCATAdminAcquireContext",
+      "ordinal": null,
+      "hint": 2,
+      "iat_va": 8792825009592,
+      "kind": "normal"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "name": "CryptCATAdminCalcHashFromFileHandle",
+      "ordinal": null,
+      "hint": 5,
+      "iat_va": 8792825009600,
+      "kind": "normal"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "name": "WTHelperGetProvSignerFromChain",
+      "ordinal": null,
+      "hint": 91,
+      "iat_va": 8792825009608,
+      "kind": "normal"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "name": "WTHelperProvDataFromStateData",
+      "ordinal": null,
+      "hint": 94,
+      "iat_va": 8792825009616,
+      "kind": "normal"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "name": "WinVerifyTrust",
+      "ordinal": null,
+      "hint": 119,
+      "iat_va": 8792825009624,
+      "kind": "normal"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "name": "CryptCATAdminReleaseContext",
+      "ordinal": null,
+      "hint": 10,
+      "iat_va": 8792825009632,
+      "kind": "normal"
+    },
+    {
+      "dll": "VERSION.dll",
+      "name": "GetFileVersionInfoW",
+      "ordinal": null,
+      "hint": 6,
+      "iat_va": 8792825009536,
+      "kind": "normal"
+    },
+    {
+      "dll": "VERSION.dll",
+      "name": "VerQueryValueW",
+      "ordinal": null,
+      "hint": 14,
+      "iat_va": 8792825009544,
+      "kind": "normal"
+    },
+    {
+      "dll": "VERSION.dll",
+      "name": "GetFileVersionInfoSizeW",
+      "ordinal": null,
+      "hint": 5,
+      "iat_va": 8792825009552,
+      "kind": "normal"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "name": "CertVerifyCertificateChainPolicy",
+      "ordinal": null,
+      "hint": 117,
+      "iat_va": 8792825008544,
+      "kind": "normal"
+    },
+    {
+      "dll": "SHELL32.dll",
+      "name": "SHGetFolderPathW",
+      "ordinal": null,
+      "hint": 195,
+      "iat_va": 8792825009480,
+      "kind": "normal"
+    }
+  ],
+  "exports": [
+    {
+      "name": "MpAllocMemory",
+      "ordinal": 1,
+      "rva": 404880,
+      "va": 8792825408912,
+      "forwarder": null
+    },
+    {
+      "name": "MpCleanControl",
+      "ordinal": 2,
+      "rva": 125696,
+      "va": 8792825129728,
+      "forwarder": null
+    },
+    {
+      "name": "MpCleanOpen",
+      "ordinal": 3,
+      "rva": 124292,
+      "va": 8792825128324,
+      "forwarder": null
+    },
+    {
+      "name": "MpCleanPrecheckStart",
+      "ordinal": 4,
+      "rva": 125256,
+      "va": 8792825129288,
+      "forwarder": null
+    },
+    {
+      "name": "MpCleanStart",
+      "ordinal": 5,
+      "rva": 125476,
+      "va": 8792825129508,
+      "forwarder": null
+    },
+    {
+      "name": "MpClientUtilExportFunctions",
+      "ordinal": 6,
+      "rva": 141756,
+      "va": 8792825145788,
+      "forwarder": null
+    },
+    {
+      "name": "MpClose",
+      "ordinal": 7,
+      "rva": 106220,
+      "va": 8792825110252,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigClose",
+      "ordinal": 8,
+      "rva": 138832,
+      "va": 8792825142864,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigDelValue",
+      "ordinal": 9,
+      "rva": 139156,
+      "va": 8792825143188,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigGetValue",
+      "ordinal": 10,
+      "rva": 138868,
+      "va": 8792825142900,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigGetValueAlloc",
+      "ordinal": 11,
+      "rva": 138984,
+      "va": 8792825143016,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigInitialize",
+      "ordinal": 12,
+      "rva": 138752,
+      "va": 8792825142784,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigIteratorClose",
+      "ordinal": 13,
+      "rva": 138832,
+      "va": 8792825142864,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigIteratorEnum",
+      "ordinal": 14,
+      "rva": 139244,
+      "va": 8792825143276,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigIteratorOpen",
+      "ordinal": 15,
+      "rva": 139196,
+      "va": 8792825143228,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigOpen",
+      "ordinal": 16,
+      "rva": 138792,
+      "va": 8792825142824,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigRegisterForNotifications",
+      "ordinal": 17,
+      "rva": 139308,
+      "va": 8792825143340,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigSetValue",
+      "ordinal": 18,
+      "rva": 139092,
+      "va": 8792825143124,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigUninitialize",
+      "ordinal": 19,
+      "rva": 138768,
+      "va": 8792825142800,
+      "forwarder": null
+    },
+    {
+      "name": "MpConfigUnregisterNotifications",
+      "ordinal": 20,
+      "rva": 139368,
+      "va": 8792825143400,
+      "forwarder": null
+    },
+    {
+      "name": "MpDebugExportFunctions",
+      "ordinal": 21,
+      "rva": 98480,
+      "va": 8792825102512,
+      "forwarder": null
+    },
+    {
+      "name": "MpElevateCleanHandle",
+      "ordinal": 22,
+      "rva": 130340,
+      "va": 8792825134372,
+      "forwarder": null
+    },
+    {
+      "name": "MpElevationHandleActivate",
+      "ordinal": 23,
+      "rva": 148256,
+      "va": 8792825152288,
+      "forwarder": null
+    },
+    {
+      "name": "MpElevationHandleAttach",
+      "ordinal": 24,
+      "rva": 147568,
+      "va": 8792825151600,
+      "forwarder": null
+    },
+    {
+      "name": "MpElevationHandleOpen",
+      "ordinal": 25,
+      "rva": 146876,
+      "va": 8792825150908,
+      "forwarder": null
+    },
+    {
+      "name": "MpErrorMessageFormat",
+      "ordinal": 26,
+      "rva": 145236,
+      "va": 8792825149268,
+      "forwarder": null
+    },
+    {
+      "name": "MpFreeMemory",
+      "ordinal": 27,
+      "rva": 404892,
+      "va": 8792825408924,
+      "forwarder": null
+    },
+    {
+      "name": "MpGetEngineVersion",
+      "ordinal": 28,
+      "rva": 137296,
+      "va": 8792825141328,
+      "forwarder": null
+    },
+    {
+      "name": "MpHandleClose",
+      "ordinal": 29,
+      "rva": 104132,
+      "va": 8792825108164,
+      "forwarder": null
+    },
+    {
+      "name": "MpManagerDisable",
+      "ordinal": 30,
+      "rva": 112000,
+      "va": 8792825116032,
+      "forwarder": null
+    },
+    {
+      "name": "MpManagerEnable",
+      "ordinal": 31,
+      "rva": 111428,
+      "va": 8792825115460,
+      "forwarder": null
+    },
+    {
+      "name": "MpManagerOpen",
+      "ordinal": 32,
+      "rva": 102952,
+      "va": 8792825106984,
+      "forwarder": null
+    },
+    {
+      "name": "MpManagerStatusQuery",
+      "ordinal": 33,
+      "rva": 103704,
+      "va": 8792825107736,
+      "forwarder": null
+    },
+    {
+      "name": "MpManagerVersionQuery",
+      "ordinal": 34,
+      "rva": 103260,
+      "va": 8792825107292,
+      "forwarder": null
+    },
+    {
+      "name": "MpNotificationRegister",
+      "ordinal": 35,
+      "rva": 107668,
+      "va": 8792825111700,
+      "forwarder": null
+    },
+    {
+      "name": "MpOpen",
+      "ordinal": 36,
+      "rva": 105188,
+      "va": 8792825109220,
+      "forwarder": null
+    },
+    {
+      "name": "MpQuarantineRequest",
+      "ordinal": 37,
+      "rva": 134384,
+      "va": 8792825138416,
+      "forwarder": null
+    },
+    {
+      "name": "MpSampleQuery",
+      "ordinal": 38,
+      "rva": 142460,
+      "va": 8792825146492,
+      "forwarder": null
+    },
+    {
+      "name": "MpSampleSubmit",
+      "ordinal": 39,
+      "rva": 143612,
+      "va": 8792825147644,
+      "forwarder": null
+    },
+    {
+      "name": "MpScanControl",
+      "ordinal": 40,
+      "rva": 113656,
+      "va": 8792825117688,
+      "forwarder": null
+    },
+    {
+      "name": "MpScanResult",
+      "ordinal": 41,
+      "rva": 114168,
+      "va": 8792825118200,
+      "forwarder": null
+    },
+    {
+      "name": "MpScanStart",
+      "ordinal": 42,
+      "rva": 113196,
+      "va": 8792825117228,
+      "forwarder": null
+    },
+    {
+      "name": "MpThreatEnumerate",
+      "ordinal": 43,
+      "rva": 119084,
+      "va": 8792825123116,
+      "forwarder": null
+    },
+    {
+      "name": "MpThreatHistoryRequest",
+      "ordinal": 44,
+      "rva": 122348,
+      "va": 8792825126380,
+      "forwarder": null
+    },
+    {
+      "name": "MpThreatOpen",
+      "ordinal": 45,
+      "rva": 117960,
+      "va": 8792825121992,
+      "forwarder": null
+    },
+    {
+      "name": "MpThreatQuery",
+      "ordinal": 46,
+      "rva": 119312,
+      "va": 8792825123344,
+      "forwarder": null
+    },
+    {
+      "name": "MpUpdateControl",
+      "ordinal": 47,
+      "rva": 150980,
+      "va": 8792825155012,
+      "forwarder": null
+    },
+    {
+      "name": "MpUpdateEngine",
+      "ordinal": 48,
+      "rva": 137652,
+      "va": 8792825141684,
+      "forwarder": null
+    },
+    {
+      "name": "MpUpdateStart",
+      "ordinal": 49,
+      "rva": 150280,
+      "va": 8792825154312,
+      "forwarder": null
+    },
+    {
+      "name": "MpUtilsExportFunctions",
+      "ordinal": 50,
+      "rva": 98496,
+      "va": 8792825102528,
+      "forwarder": null
+    },
+    {
+      "name": "WDEnable",
+      "ordinal": 51,
+      "rva": 144564,
+      "va": 8792825148596,
+      "forwarder": null
+    },
+    {
+      "name": "WDStatus",
+      "ordinal": 52,
+      "rva": 144008,
+      "va": 8792825148040,
+      "forwarder": null
+    }
+  ],
+  "calling_convention": "Microsoft x64 ABI; individual signatures not encoded by PE import/export tables",
+  "types": "Unknown unless supported by separately reviewed disassembly; do not infer from undecorated names."
+}

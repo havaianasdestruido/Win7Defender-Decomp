@@ -1,0 +1,17 @@
+[
+  {
+    "file_offset": 2392,
+    "encoding": "utf-16le",
+    "text": "dllhost.exe"
+  },
+  {
+    "file_offset": 45312,
+    "encoding": "ascii",
+    "text": "MsMpCom.DLL"
+  },
+  {
+    "file_offset": 53120,
+    "encoding": "utf-16le",
+    "text": "MsMpCom.dll"
+  }
+]

@@ -1,0 +1,5711 @@
+{
+  "input_sha256": "ea1c9d52806befb7885eb6b768cd38c5009a5af202f1decd6a5c530f250412a2",
+  "inventory": [
+    {
+      "path": [
+        "MUI",
+        1,
+        1046
+      ],
+      "type": "MUI",
+      "rva": 7576,
+      "file_offset": 3992,
+      "size": 192,
+      "codepage": 1252,
+      "sha256": "98091c1fca02aee9ccb374ba77fa9478dc8a52e1b7a8a7102a6d2fb6b980ebb0"
+    },
+    {
+      "path": [
+        4,
+        237,
+        1046
+      ],
+      "type": "RT_MENU",
+      "rva": 7768,
+      "file_offset": 4184,
+      "size": 278,
+      "codepage": 1252,
+      "sha256": "3db3cd277955c3858f928b486d12fa174f9cf3dc3fb423e1d394ed461506b665"
+    },
+    {
+      "path": [
+        4,
+        258,
+        1046
+      ],
+      "type": "RT_MENU",
+      "rva": 8048,
+      "file_offset": 4464,
+      "size": 234,
+      "codepage": 1252,
+      "sha256": "2267cce81f2a90938c2bdbf4fdc1eff09b25465ed642391614edcd6f76569c77"
+    },
+    {
+      "path": [
+        5,
+        157,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 8284,
+      "file_offset": 4700,
+      "size": 444,
+      "codepage": 1252,
+      "sha256": "fc1087922fa5dbad1e2c37d53da776ccd6e0e931d3d87ad48fccfd25550e2ca3"
+    },
+    {
+      "path": [
+        5,
+        237,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 8728,
+      "file_offset": 5144,
+      "size": 576,
+      "codepage": 1252,
+      "sha256": "d0b70eb5fd3f13c9a0e57f5ee9a6dac2a80e0165163c72b67f11214026b11e89"
+    },
+    {
+      "path": [
+        5,
+        238,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 9304,
+      "file_offset": 5720,
+      "size": 360,
+      "codepage": 1252,
+      "sha256": "44612b4a35fb9188260c50c3098d9a971c880e191b63990ccbed0512e708208e"
+    },
+    {
+      "path": [
+        5,
+        314,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 9664,
+      "file_offset": 6080,
+      "size": 300,
+      "codepage": 1252,
+      "sha256": "00a47eb9b37b75886e3c63859c130b7e38d817cf3415c40672040aea48ca3a09"
+    },
+    {
+      "path": [
+        5,
+        333,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 9964,
+      "file_offset": 6380,
+      "size": 1216,
+      "codepage": 1252,
+      "sha256": "2e83d8eea3e3facbc39008f6719b2e08fa77f508b9dd67a3378f8609cfa9e57a"
+    },
+    {
+      "path": [
+        5,
+        1221,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 11180,
+      "file_offset": 7596,
+      "size": 672,
+      "codepage": 1252,
+      "sha256": "bc7f09bc5b86bb80dae64b707f7ea1459acdcd4ede8d5b53861452aaaf38392d"
+    },
+    {
+      "path": [
+        5,
+        6000,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 11852,
+      "file_offset": 8268,
+      "size": 302,
+      "codepage": 1252,
+      "sha256": "37a38ef4ada0dc67820cefe26ce7efe685a6716ca615c3a47daf41ae7dfd568e"
+    },
+    {
+      "path": [
+        5,
+        6001,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 12156,
+      "file_offset": 8572,
+      "size": 684,
+      "codepage": 1252,
+      "sha256": "74b06af31060e5c56c9fd8e8ce4a9e6ab4c1e4a4f4d94dd96a4946490e5c0d81"
+    },
+    {
+      "path": [
+        5,
+        6002,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 12840,
+      "file_offset": 9256,
+      "size": 686,
+      "codepage": 1252,
+      "sha256": "3a70b1cb91b6d6994136dedec00bb6499d2e30fdda1123612b070708eff65a1d"
+    },
+    {
+      "path": [
+        5,
+        6039,
+        1046
+      ],
+      "type": "RT_DIALOG",
+      "rva": 13528,
+      "file_offset": 9944,
+      "size": 352,
+      "codepage": 1252,
+      "sha256": "cac2377cc8fcd3b465e0e8ab5975e194b445e173850a581c6e7f2a23136d32fa"
+    },
+    {
+      "path": [
+        6,
+        7,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 13880,
+      "file_offset": 10296,
+      "size": 804,
+      "codepage": 1252,
+      "sha256": "1af1e7b1bc7e2943c6af4866bd1c79ff81a1692368aa41eefb964f076e3b1943"
+    },
+    {
+      "path": [
+        6,
+        8,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 14684,
+      "file_offset": 11100,
+      "size": 668,
+      "codepage": 1252,
+      "sha256": "c6304509956942d7df166167f036eb1e463bfd1f39cc630e401cdba5333fc9c7"
+    },
+    {
+      "path": [
+        6,
+        9,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 15352,
+      "file_offset": 11768,
+      "size": 1604,
+      "codepage": 1252,
+      "sha256": "21ded7f15054af1d2cc3ac2fc228863695f4aabb5ce0016cb155365553d220fb"
+    },
+    {
+      "path": [
+        6,
+        10,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 16956,
+      "file_offset": 13372,
+      "size": 628,
+      "codepage": 1252,
+      "sha256": "004c0436e40b1fdbe408688e5b7ffa4fcac6a3ce57a70b2eaefbbe974f63f70f"
+    },
+    {
+      "path": [
+        6,
+        11,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 17584,
+      "file_offset": 14000,
+      "size": 592,
+      "codepage": 1252,
+      "sha256": "b5747c74a58b1be5894d57da9ce2273532d7102bb9e4955144ea60b91f4f327e"
+    },
+    {
+      "path": [
+        6,
+        12,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 18176,
+      "file_offset": 14592,
+      "size": 324,
+      "codepage": 1252,
+      "sha256": "69585335a0764c4e262ca68898df365408e6da8ea79e4a8544a3c349270d8c68"
+    },
+    {
+      "path": [
+        6,
+        13,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 18500,
+      "file_offset": 14916,
+      "size": 1398,
+      "codepage": 1252,
+      "sha256": "04af22456f18b2c78c9fc824f6135a09d4377cced0734122e2593ef17dc3d4ca"
+    },
+    {
+      "path": [
+        6,
+        14,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 19900,
+      "file_offset": 16316,
+      "size": 762,
+      "codepage": 1252,
+      "sha256": "e59dd02fd9347346d2ce2aa9514f90ea2b4ab3b59e596935b0ad49a7175374d5"
+    },
+    {
+      "path": [
+        6,
+        15,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 20664,
+      "file_offset": 17080,
+      "size": 744,
+      "codepage": 1252,
+      "sha256": "52fbd9867da786c9a86d189f4e0377a661f761062d7263f484567608629d8a8b"
+    },
+    {
+      "path": [
+        6,
+        16,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 21408,
+      "file_offset": 17824,
+      "size": 338,
+      "codepage": 1252,
+      "sha256": "6a333731f8c461eaa56a15cd317879163f08af08a843810f51a6e8b2bd4e6786"
+    },
+    {
+      "path": [
+        6,
+        17,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 21748,
+      "file_offset": 18164,
+      "size": 52,
+      "codepage": 1252,
+      "sha256": "c4c91f743e9552f3452454655dfdcdee5414dbefffea0e9e4b699081efedbdd4"
+    },
+    {
+      "path": [
+        6,
+        18,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 21800,
+      "file_offset": 18216,
+      "size": 1140,
+      "codepage": 1252,
+      "sha256": "d7e5dfc79a9dfc1801b5d7688f7721cd5685c7d6ba2173f85f67037c530b83fe"
+    },
+    {
+      "path": [
+        6,
+        19,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 22940,
+      "file_offset": 19356,
+      "size": 1124,
+      "codepage": 1252,
+      "sha256": "9303a23525bb13e791f62d70afe845a0d0d53a44e96cbdf7c2845468748a1945"
+    },
+    {
+      "path": [
+        6,
+        20,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 24064,
+      "file_offset": 20480,
+      "size": 3038,
+      "codepage": 1252,
+      "sha256": "551b835b4d7b3e9a26ea035903410cde422ae9917ec57a01b7c55ab19e49d47d"
+    },
+    {
+      "path": [
+        6,
+        21,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 27104,
+      "file_offset": 23520,
+      "size": 984,
+      "codepage": 1252,
+      "sha256": "d7545a6caa1a1779d8d1ed49f3d7ff99d2b2667a1810344fde9cfd4ed6728421"
+    },
+    {
+      "path": [
+        6,
+        22,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 28088,
+      "file_offset": 24504,
+      "size": 2464,
+      "codepage": 1252,
+      "sha256": "a73b07ee03f42dc202688cb70bc45f8ff84941eeae3f34170c9da92fd9ae10ef"
+    },
+    {
+      "path": [
+        6,
+        23,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 30552,
+      "file_offset": 26968,
+      "size": 754,
+      "codepage": 1252,
+      "sha256": "b4a1f8a685e0f846628030fe2dfeb4494342dd51a83c15e56e3e1788d4bd9eed"
+    },
+    {
+      "path": [
+        6,
+        24,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 31308,
+      "file_offset": 27724,
+      "size": 258,
+      "codepage": 1252,
+      "sha256": "1c6f7743d783fbd3245a3c4fd3e92ed2066f5379b68d4123d5bcf64791ae0a21"
+    },
+    {
+      "path": [
+        6,
+        25,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 31568,
+      "file_offset": 27984,
+      "size": 344,
+      "codepage": 1252,
+      "sha256": "8e497ad66dac9f37da707be02ee07440fe69cf1ce0bca25222a6140ad3fe5df4"
+    },
+    {
+      "path": [
+        6,
+        26,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 31912,
+      "file_offset": 28328,
+      "size": 762,
+      "codepage": 1252,
+      "sha256": "683883b753b516010e36a48e76592922350c8e578da2fd7cc13c37646d176315"
+    },
+    {
+      "path": [
+        6,
+        27,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 32676,
+      "file_offset": 29092,
+      "size": 922,
+      "codepage": 1252,
+      "sha256": "7d8f85b33535dc3eaba153c10f852b07c457ec007e59ddada2f82c02cc35cc3e"
+    },
+    {
+      "path": [
+        6,
+        28,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 33600,
+      "file_offset": 30016,
+      "size": 460,
+      "codepage": 1252,
+      "sha256": "d51f0bde45a4f4bba0be03319ef17e83de45dad222a79a27aa947799c04a2fbd"
+    },
+    {
+      "path": [
+        6,
+        29,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 34060,
+      "file_offset": 30476,
+      "size": 322,
+      "codepage": 1252,
+      "sha256": "6fe5917194c07aa6b3b3324b0c009b8657d5aa0c74a8d269f3d8aeabacb43ef6"
+    },
+    {
+      "path": [
+        6,
+        30,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 34384,
+      "file_offset": 30800,
+      "size": 264,
+      "codepage": 1252,
+      "sha256": "74aa8f42c3b0399a07b70f72c818b52474a043b8cc305a759c6a139064552a65"
+    },
+    {
+      "path": [
+        6,
+        31,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 34648,
+      "file_offset": 31064,
+      "size": 478,
+      "codepage": 1252,
+      "sha256": "76ac6cd5ec9facd18453f2b78d62d690539b655e9cbf00b90475f12dc5c68266"
+    },
+    {
+      "path": [
+        6,
+        32,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 35128,
+      "file_offset": 31544,
+      "size": 42,
+      "codepage": 1252,
+      "sha256": "26c44649a39d4e17a1e12b18e53923d7a8d601aaf56187655d9c2c81686afbb3"
+    },
+    {
+      "path": [
+        6,
+        63,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 35172,
+      "file_offset": 31588,
+      "size": 644,
+      "codepage": 1252,
+      "sha256": "2b997bc94ee717c9d03c5974610d0d8a0ac417c79cffefad0184f69d5c14fd64"
+    },
+    {
+      "path": [
+        6,
+        73,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 35816,
+      "file_offset": 32232,
+      "size": 120,
+      "codepage": 1252,
+      "sha256": "577f50d9662c72ac22167b49c4f23a3c647b2d89cdd75558394c7334bf6cabe3"
+    },
+    {
+      "path": [
+        6,
+        74,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 35936,
+      "file_offset": 32352,
+      "size": 2008,
+      "codepage": 1252,
+      "sha256": "53f78afad0f6a09ae57a198f76b6248017172c60b0af6e4750e1b7ee8f6b6905"
+    },
+    {
+      "path": [
+        6,
+        126,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 37944,
+      "file_offset": 34360,
+      "size": 1560,
+      "codepage": 1252,
+      "sha256": "e9d619c4e76dc6193ebdadf1966b1b9d9573791da99d9b797062cb2f67bf5ff2"
+    },
+    {
+      "path": [
+        6,
+        135,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 39504,
+      "file_offset": 35920,
+      "size": 182,
+      "codepage": 1252,
+      "sha256": "742316249b1a952507e77073673007cbddd860fe8bfa295f987e89e4d654b224"
+    },
+    {
+      "path": [
+        6,
+        189,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 39688,
+      "file_offset": 36104,
+      "size": 852,
+      "codepage": 1252,
+      "sha256": "13a534648e262af65f952585368fd559f6928b4761842ef94277fcef0aad6815"
+    },
+    {
+      "path": [
+        6,
+        190,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 40540,
+      "file_offset": 36956,
+      "size": 450,
+      "codepage": 1252,
+      "sha256": "64c07f914a057fdb53e1a30125c7ade636bd46012f56bbfb31b8f5eb4d2c139c"
+    },
+    {
+      "path": [
+        6,
+        191,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 40992,
+      "file_offset": 37408,
+      "size": 178,
+      "codepage": 1252,
+      "sha256": "3908c227ec0574b0f4083fac57908ec7ae55587b0314962c276d2463022963b6"
+    },
+    {
+      "path": [
+        6,
+        192,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 41172,
+      "file_offset": 37588,
+      "size": 282,
+      "codepage": 1252,
+      "sha256": "0b38713a9ed8caa1b1a2cebaebd36af6ea29f64f62667f092d47e0c8d62d96a4"
+    },
+    {
+      "path": [
+        6,
+        193,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 41456,
+      "file_offset": 37872,
+      "size": 1808,
+      "codepage": 1252,
+      "sha256": "bc34931cf90e7016b973b32412fbdabcbe5c8878cbc6d25c29a357879da7ebbc"
+    },
+    {
+      "path": [
+        6,
+        194,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 43264,
+      "file_offset": 39680,
+      "size": 208,
+      "codepage": 1252,
+      "sha256": "c49f3cc89a13d55bd13853594564ce59630605b7b6e7506c77a64e902f60edf2"
+    },
+    {
+      "path": [
+        6,
+        313,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 43472,
+      "file_offset": 39888,
+      "size": 530,
+      "codepage": 1252,
+      "sha256": "278383605a18c8fccf6086b06a9d84a46d8b4006e6291c7ef8df76553b73af2e"
+    },
+    {
+      "path": [
+        6,
+        314,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 44004,
+      "file_offset": 40420,
+      "size": 1556,
+      "codepage": 1252,
+      "sha256": "ad0d2a0931c4923f9f9fbac03f8864cd576ec9ba61c0382815b923c664232dae"
+    },
+    {
+      "path": [
+        6,
+        315,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 45560,
+      "file_offset": 41976,
+      "size": 914,
+      "codepage": 1252,
+      "sha256": "a3021bee90a52e3f7af6367886ef97f4b0f4a72a59710fa1fccd5a3c5952160c"
+    },
+    {
+      "path": [
+        6,
+        319,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 46476,
+      "file_offset": 42892,
+      "size": 366,
+      "codepage": 1252,
+      "sha256": "b59c97e50279b5c5fb4fe960610fd6858e7ea3cccf665d135d62cd329b9a664e"
+    },
+    {
+      "path": [
+        6,
+        376,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 46844,
+      "file_offset": 43260,
+      "size": 2734,
+      "codepage": 1252,
+      "sha256": "5d0046f503536378f537964b72a5063a3b45558ea3b9882ec7a872270f405063"
+    },
+    {
+      "path": [
+        6,
+        377,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 49580,
+      "file_offset": 45996,
+      "size": 1194,
+      "codepage": 1252,
+      "sha256": "b68fdabeed5d62641df3f5a81fcda5fe9fe1601b4d84497a007c79bf5487172c"
+    },
+    {
+      "path": [
+        6,
+        378,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 50776,
+      "file_offset": 47192,
+      "size": 1118,
+      "codepage": 1252,
+      "sha256": "8fec18272214fe81460cb89d6353c2b3dbf173dee5379f98a447c460655fe702"
+    },
+    {
+      "path": [
+        6,
+        382,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 51896,
+      "file_offset": 48312,
+      "size": 88,
+      "codepage": 1252,
+      "sha256": "07fce1f99fec409d5a8523aa61302ef2fd687e505c125ad1e86a0694c77946e8"
+    },
+    {
+      "path": [
+        6,
+        388,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 51984,
+      "file_offset": 48400,
+      "size": 112,
+      "codepage": 1252,
+      "sha256": "8c56e6e399019be8b93314aad88bfe3c9386a425a9220261c7a6e49ae8ed0e4b"
+    },
+    {
+      "path": [
+        6,
+        394,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 52096,
+      "file_offset": 48512,
+      "size": 128,
+      "codepage": 1252,
+      "sha256": "0ade1bf22d097db86ef6cc2a46abd60d2c6358ed5c97ad3d69a53ad8327cb742"
+    },
+    {
+      "path": [
+        6,
+        395,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 52224,
+      "file_offset": 48640,
+      "size": 452,
+      "codepage": 1252,
+      "sha256": "0e31b2fb1c415807d542b20fe86d250d7340ab0370e0066f3e79c60111fa02ce"
+    },
+    {
+      "path": [
+        6,
+        397,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 52676,
+      "file_offset": 49092,
+      "size": 78,
+      "codepage": 1252,
+      "sha256": "fc72e2ee0b3222bcf9c643f466ee30e07ed3d65f1b50bb2b39ba9bd17c6a6e5e"
+    },
+    {
+      "path": [
+        6,
+        398,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 52756,
+      "file_offset": 49172,
+      "size": 498,
+      "codepage": 1252,
+      "sha256": "61701e9a8bc4c48a9d90f08a5a50fa80c1c2e65809e0b2caf0ff58a10a961abc"
+    },
+    {
+      "path": [
+        6,
+        441,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 53256,
+      "file_offset": 49672,
+      "size": 346,
+      "codepage": 1252,
+      "sha256": "26ccb0559165d5da978f6c68881c91729d8b950e1c6785939ef942c81d5f642f"
+    },
+    {
+      "path": [
+        6,
+        442,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 53604,
+      "file_offset": 50020,
+      "size": 432,
+      "codepage": 1252,
+      "sha256": "5eb10ff9718b290f245bba0850a8a1de04c33d5b4d600579a33796f62b136152"
+    },
+    {
+      "path": [
+        6,
+        2569,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 54036,
+      "file_offset": 50452,
+      "size": 234,
+      "codepage": 1252,
+      "sha256": "4965fb39177ff0847f7a24647905de32bb3ed31df722d3ed724955e3725a5152"
+    },
+    {
+      "path": [
+        6,
+        2570,
+        1046
+      ],
+      "type": "RT_STRING",
+      "rva": 54272,
+      "file_offset": 50688,
+      "size": 110,
+      "codepage": 1252,
+      "sha256": "beed08e37474765a1dfd4bd7e04ff97a5ac8810a7844aad0c776d3ec5fbc6f88"
+    },
+    {
+      "path": [
+        9,
+        240,
+        1046
+      ],
+      "type": "RT_ACCELERATOR",
+      "rva": 54384,
+      "file_offset": 50800,
+      "size": 40,
+      "codepage": 1252,
+      "sha256": "02e5575b0ddf1dd3437d3ad44b3197fed7f14334d5d210fcf1de55dd2a97ccbc"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1046
+      ],
+      "type": "RT_VERSION",
+      "rva": 54424,
+      "file_offset": 50840,
+      "size": 972,
+      "codepage": 1252,
+      "sha256": "ad181233b64bc293ef4f2bc2296af36905bce45306e833e7430dc13202ab2e48"
+    }
+  ],
+  "decoded": [
+    {
+      "resource": [
+        6,
+        7,
+        1046
+      ],
+      "id": 103,
+      "rva": 13896,
+      "kind": "string",
+      "text": "Windows Defender"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1046
+      ],
+      "id": 104,
+      "rva": 13930,
+      "kind": "string",
+      "text": "Windows Defender"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1046
+      ],
+      "id": 105,
+      "rva": 13964,
+      "kind": "string",
+      "text": "Verificação completa"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1046
+      ],
+      "id": 106,
+      "rva": 14006,
+      "kind": "string",
+      "text": "Verificação rápida"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1046
+      ],
+      "id": 107,
+      "rva": 14044,
+      "kind": "string",
+      "text": "Hoje"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1046
+      ],
+      "id": 108,
+      "rva": 14054,
+      "kind": "string",
+      "text": "Executando ações..."
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1046
+      ],
+      "id": 109,
+      "rva": 14094,
+      "kind": "string",
+      "text": "Versão %1!s! criada em %2!s!"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1046
+      ],
+      "id": 110,
+      "rva": 14152,
+      "kind": "string",
+      "text": "Aplicar ações a itens detectados"
+    },
+    {
+      "resource": [
+        6,
+        7,
+        1046
+      ],
+      "id": 111,
+      "rva": 14218,
+      "kind": "string",
+      "text": "A Microsoft ainda não analisou os possíveis riscos do software que fez essas alterações. Você só deve permitir alterações se confiar no programa ou no fornecedor do software. Uma vez permitidas, as alterações não podem ser desfeitas."
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 112,
+      "rva": 14686,
+      "kind": "string",
+      "text": "Examinar alterações nas configurações do computador"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 113,
+      "rva": 14790,
+      "kind": "string",
+      "text": "Verificação personalizada"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 114,
+      "rva": 14842,
+      "kind": "string",
+      "text": "Não disponível"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 117,
+      "rva": 14876,
+      "kind": "string",
+      "text": "Ações em andamento. Aguarde..."
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 118,
+      "rva": 14938,
+      "kind": "string",
+      "text": "Histórico"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 119,
+      "rva": 14958,
+      "kind": "string",
+      "text": "Itens em quarentena"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 120,
+      "rva": 14998,
+      "kind": "string",
+      "text": "Total: %1!d! itens"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 121,
+      "rva": 15036,
+      "kind": "string",
+      "text": "<a href=\"ReviewRTPThreats\">Examinar itens detectados pela proteção em tempo real.</a> "
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 122,
+      "rva": 15210,
+      "kind": "string",
+      "text": "Opções"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 123,
+      "rva": 15224,
+      "kind": "string",
+      "text": "Categoria:"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 124,
+      "rva": 15246,
+      "kind": "string",
+      "text": "Avançado"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 126,
+      "rva": 15266,
+      "kind": "string",
+      "text": "Alterado:"
+    },
+    {
+      "resource": [
+        6,
+        8,
+        1046
+      ],
+      "id": 127,
+      "rva": 15286,
+      "kind": "string",
+      "text": "O computador deve ser reiniciado."
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 128,
+      "rva": 15354,
+      "kind": "string",
+      "text": "Para terminar de remover spyware e outros programas indesejados, reinicie o computador."
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 129,
+      "rva": 15530,
+      "kind": "string",
+      "text": "&Reiniciar..."
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 130,
+      "rva": 15558,
+      "kind": "string",
+      "text": "Início"
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 132,
+      "rva": 15574,
+      "kind": "string",
+      "text": "%1!s! (%2!s!)"
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 133,
+      "rva": 15602,
+      "kind": "string",
+      "text": "A execução desses itens no computador foi impedida."
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 134,
+      "rva": 15706,
+      "kind": "string",
+      "text": "&Selecione uma ação a ser aplicada:"
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 135,
+      "rva": 15778,
+      "kind": "string",
+      "text": "Aplicar Açõe&s"
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 136,
+      "rva": 15808,
+      "kind": "string",
+      "text": "Nome"
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 137,
+      "rva": 15818,
+      "kind": "string",
+      "text": "Nível de Alerta"
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 138,
+      "rva": 15850,
+      "kind": "string",
+      "text": "Ação"
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 140,
+      "rva": 15862,
+      "kind": "string",
+      "text": "Alteração na Configuração"
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 141,
+      "rva": 15914,
+      "kind": "string",
+      "text": "Permita esta alteração da configuração caso você confie em sua origem. É recomendável executar uma verificação rápida caso você decida negar esta alteração."
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 142,
+      "rva": 16228,
+      "kind": "string",
+      "text": "(Código de Erro: 0x%1!0x!)"
+    },
+    {
+      "resource": [
+        6,
+        9,
+        1046
+      ],
+      "id": 143,
+      "rva": 16282,
+      "kind": "string",
+      "text": "Analise as ações efetuadas em software potencialmente indesejado.\nPara analisar ou monitorar software cuja execução você permitiu, vá para <A HREF=\"Command://ActionExceptionList\">Itens permitidos</A>. \nPara remover ou restaurar software cuja execução foi impedida, vá para <A HREF=\"Command://ActionCleanedItems\">Itens em quarentena</A>. "
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 144,
+      "rva": 16958,
+      "kind": "string",
+      "text": "Ações efetuadas em &programas:"
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 147,
+      "rva": 17024,
+      "kind": "string",
+      "text": "Para proteger o computador, é preciso reiniciá-lo. Deseja fazer isso agora?"
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 148,
+      "rva": 17176,
+      "kind": "string",
+      "text": "Selecionar uma ação"
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 149,
+      "rva": 17216,
+      "kind": "string",
+      "text": "Para continuar, selecione uma ação para cada item listado ou clique em Limpar sistema."
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 150,
+      "rva": 17390,
+      "kind": "string",
+      "text": "Alto"
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 151,
+      "rva": 17400,
+      "kind": "string",
+      "text": "Médio"
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 152,
+      "rva": 17412,
+      "kind": "string",
+      "text": "Baixo"
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 153,
+      "rva": 17424,
+      "kind": "string",
+      "text": ":"
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 154,
+      "rva": 17428,
+      "kind": "string",
+      "text": "Nenhum programa indesejado ou prejudicial foi detectado."
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 155,
+      "rva": 17542,
+      "kind": "string",
+      "text": "Privilegiado"
+    },
+    {
+      "resource": [
+        6,
+        10,
+        1046
+      ],
+      "id": 158,
+      "rva": 17572,
+      "kind": "string",
+      "text": "Erro:"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 160,
+      "rva": 17586,
+      "kind": "string",
+      "text": "Verificando..."
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 162,
+      "rva": 17618,
+      "kind": "string",
+      "text": "Diretiva de Grupo"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 164,
+      "rva": 17656,
+      "kind": "string",
+      "text": "Voltar"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 165,
+      "rva": 17670,
+      "kind": "string",
+      "text": "Voltar"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 166,
+      "rva": 17684,
+      "kind": "string",
+      "text": "Deseja salvar as configurações que você alterou?"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 167,
+      "rva": 17782,
+      "kind": "string",
+      "text": "Ação recomendada com base nas definições"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 168,
+      "rva": 17864,
+      "kind": "string",
+      "text": "Remover"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 169,
+      "rva": 17880,
+      "kind": "string",
+      "text": "Verificar anexos e arquivos bai&xados"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 171,
+      "rva": 17958,
+      "kind": "string",
+      "text": "&Salvar"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 172,
+      "rva": 17974,
+      "kind": "string",
+      "text": "Cancela&r"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 173,
+      "rva": 17994,
+      "kind": "string",
+      "text": "Verificação automática"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 174,
+      "rva": 18040,
+      "kind": "string",
+      "text": "V&erificar meu computador automaticamente (recomendado)"
+    },
+    {
+      "resource": [
+        6,
+        11,
+        1046
+      ],
+      "id": 175,
+      "rva": 18152,
+      "kind": "string",
+      "text": "&Frequência:"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 176,
+      "rva": 18178,
+      "kind": "string",
+      "text": "&Hora aproximada:"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 177,
+      "rva": 18214,
+      "kind": "string",
+      "text": "Diariamente"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 180,
+      "rva": 18242,
+      "kind": "string",
+      "text": "Código 0x%1!0x!."
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 184,
+      "rva": 18282,
+      "kind": "string",
+      "text": "&Fechar"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 185,
+      "rva": 18298,
+      "kind": "string",
+      "text": "Grave"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 186,
+      "rva": 18310,
+      "kind": "string",
+      "text": "Desconhecido"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 187,
+      "rva": 18336,
+      "kind": "string",
+      "text": "Proteção em tempo real"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 188,
+      "rva": 18382,
+      "kind": "string",
+      "text": "Usar proteção em &tempo real (recomendado)"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 189,
+      "rva": 18468,
+      "kind": "string",
+      "text": "Não"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 190,
+      "rva": 18476,
+      "kind": "string",
+      "text": "Sim"
+    },
+    {
+      "resource": [
+        6,
+        12,
+        1046
+      ],
+      "id": 191,
+      "rva": 18484,
+      "kind": "string",
+      "text": "Extensão"
+    },
+    {
+      "resource": [
+        6,
+        13,
+        1046
+      ],
+      "id": 192,
+      "rva": 18502,
+      "kind": "string",
+      "text": "Tipo de Arquivo"
+    },
+    {
+      "resource": [
+        6,
+        13,
+        1046
+      ],
+      "id": 200,
+      "rva": 18548,
+      "kind": "string",
+      "text": "Ingressar na Microsoft SpyNet"
+    },
+    {
+      "resource": [
+        6,
+        13,
+        1046
+      ],
+      "id": 201,
+      "rva": 18608,
+      "kind": "string",
+      "text": "Microsoft SpyNet é a comunidade online que ajuda você a decidir como responder a possíveis ameaças de spyware. A comunidade também ajuda a impedir a disseminação de novas infecções por spyware.\r\n\r\nVocê pode optar por enviar informações básicas ou adicionais sobre o software detectado. As informações adicionais ajudam a Microsoft a criar novas definições para melhor proteger o seu computador. Elas podem incluir, por exemplo, o local dos itens detectados no computador caso um software prejudicial tenha sido removido. As informações serão coletadas e enviadas automaticamente."
+    },
+    {
+      "resource": [
+        6,
+        13,
+        1046
+      ],
+      "id": 203,
+      "rva": 19770,
+      "kind": "string",
+      "text": "&Não desejo ingressar na Microsoft SpyNet agora"
+    },
+    {
+      "resource": [
+        6,
+        13,
+        1046
+      ],
+      "id": 204,
+      "rva": 19866,
+      "kind": "string",
+      "text": "Administrador"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 209,
+      "rva": 19904,
+      "kind": "string",
+      "text": "Opções de verificação"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 210,
+      "rva": 19948,
+      "kind": "string",
+      "text": "Escolha o que será verificado:"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 211,
+      "rva": 20010,
+      "kind": "string",
+      "text": "&Verificação rápida"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 212,
+      "rva": 20050,
+      "kind": "string",
+      "text": "Verificação &completa"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 213,
+      "rva": 20094,
+      "kind": "string",
+      "text": "Verificar uni&dades e pastas selecionadas"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 216,
+      "rva": 20182,
+      "kind": "string",
+      "text": "&Selecionar..."
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 217,
+      "rva": 20212,
+      "kind": "string",
+      "text": "Verificar &agora"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 218,
+      "rva": 20246,
+      "kind": "string",
+      "text": "Não executar verificação automática"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 219,
+      "rva": 20318,
+      "kind": "string",
+      "text": "Versão do Cliente:  %1!s!\r\n"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 220,
+      "rva": 20374,
+      "kind": "string",
+      "text": "<a href=\"http://go.microsoft.com/fwlink/?LinkId=52661\">Exiba mais informações sobre este programa online</a> "
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 222,
+      "rva": 20596,
+      "kind": "string",
+      "text": "Permitir %1!d!%%"
+    },
+    {
+      "resource": [
+        6,
+        14,
+        1046
+      ],
+      "id": 223,
+      "rva": 20630,
+      "kind": "string",
+      "text": "Usar &heurística"
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 224,
+      "rva": 20666,
+      "kind": "string",
+      "text": "&Não verificar os seguintes arquivos ou locais:"
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 225,
+      "rva": 20762,
+      "kind": "string",
+      "text": "&Adicionar"
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 226,
+      "rva": 20784,
+      "kind": "string",
+      "text": "&Remover"
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 227,
+      "rva": 20802,
+      "kind": "string",
+      "text": "&Adicionar..."
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 232,
+      "rva": 20838,
+      "kind": "string",
+      "text": "Caminho do Arquivo"
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 233,
+      "rva": 20876,
+      "kind": "string",
+      "text": "http://go.microsoft.com/fwlink/?linkid=37020&name=%1!s!&threatid=%2!I32u!"
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 234,
+      "rva": 21024,
+      "kind": "string",
+      "text": "Exibir mais informações sobre este item online"
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 235,
+      "rva": 21118,
+      "kind": "string",
+      "text": "Exceções da Porta do Firewall"
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 236,
+      "rva": 21178,
+      "kind": "string",
+      "text": "Remover &tudo"
+    },
+    {
+      "resource": [
+        6,
+        15,
+        1046
+      ],
+      "id": 237,
+      "rva": 21206,
+      "kind": "string",
+      "text": "Você não selecionou unidades de disco ou pastas para serem verificadas. Deseja selecioná-las agora?"
+    },
+    {
+      "resource": [
+        6,
+        16,
+        1046
+      ],
+      "id": 241,
+      "rva": 21412,
+      "kind": "string",
+      "text": "Seu programa está atualizado."
+    },
+    {
+      "resource": [
+        6,
+        16,
+        1046
+      ],
+      "id": 242,
+      "rva": 21472,
+      "kind": "string",
+      "text": "Operação de atualização cancelada."
+    },
+    {
+      "resource": [
+        6,
+        16,
+        1046
+      ],
+      "id": 249,
+      "rva": 21554,
+      "kind": "string",
+      "text": "%1!s! às %2!s!"
+    },
+    {
+      "resource": [
+        6,
+        16,
+        1046
+      ],
+      "id": 250,
+      "rva": 21584,
+      "kind": "string",
+      "text": "Agente"
+    },
+    {
+      "resource": [
+        6,
+        16,
+        1046
+      ],
+      "id": 251,
+      "rva": 21598,
+      "kind": "string",
+      "text": "Ponto de Verificação"
+    },
+    {
+      "resource": [
+        6,
+        16,
+        1046
+      ],
+      "id": 252,
+      "rva": 21640,
+      "kind": "string",
+      "text": "Ingressar com uma associação &básica"
+    },
+    {
+      "resource": [
+        6,
+        16,
+        1046
+      ],
+      "id": 255,
+      "rva": 21718,
+      "kind": "string",
+      "text": "Ação Executada"
+    },
+    {
+      "resource": [
+        6,
+        17,
+        1046
+      ],
+      "id": 256,
+      "rva": 21750,
+      "kind": "string",
+      "text": "Fornecedor"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 274,
+      "rva": 21806,
+      "kind": "string",
+      "text": "Limpar &histórico"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 275,
+      "rva": 21842,
+      "kind": "string",
+      "text": "Data"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 276,
+      "rva": 21852,
+      "kind": "string",
+      "text": "&Remover"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 277,
+      "rva": 21870,
+      "kind": "string",
+      "text": "Res&taurar"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 278,
+      "rva": 21892,
+      "kind": "string",
+      "text": "Recuperando a Classificação da Comunidade SpyNet..."
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 280,
+      "rva": 21998,
+      "kind": "string",
+      "text": "A restauração desses itens pode prejudicar sua privacidade e segurança ou o desempenho do computador. Tem certeza de que deseja restaurá-los?"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 281,
+      "rva": 22282,
+      "kind": "string",
+      "text": "&Tipo:"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 282,
+      "rva": 22296,
+      "kind": "string",
+      "text": "Opções de verificação"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 283,
+      "rva": 22340,
+      "kind": "string",
+      "text": "Conferir se há definições atuali&zadas antes da verificação"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 284,
+      "rva": 22460,
+      "kind": "string",
+      "text": "Ações padrão"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 285,
+      "rva": 22486,
+      "kind": "string",
+      "text": "Escolha a ação que você deseja exibir ou aplicar quando itens com esses níveis de alerta forem detectados. <a href=\"Help://AlertLevels\">O que são ações e níveis de alerta?</a> "
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 286,
+      "rva": 22840,
+      "kind": "string",
+      "text": "Ite&ns de alerta alto:"
+    },
+    {
+      "resource": [
+        6,
+        18,
+        1046
+      ],
+      "id": 287,
+      "rva": 22886,
+      "kind": "string",
+      "text": "Verificando o computador..."
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 288,
+      "rva": 22942,
+      "kind": "string",
+      "text": "Não foi possível reiniciar o computador. Para proteger o sistema, reinicie o computador manualmente."
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 289,
+      "rva": 23144,
+      "kind": "string",
+      "text": "Não há novas definições ou atualizações disponíveis."
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 290,
+      "rva": 23250,
+      "kind": "string",
+      "text": "Programa desativado"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 291,
+      "rva": 23290,
+      "kind": "string",
+      "text": "Não há software desconhecido para ser verificado."
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 292,
+      "rva": 23390,
+      "kind": "string",
+      "text": "Opções da Ajuda"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 293,
+      "rva": 23422,
+      "kind": "string",
+      "text": "&Verificar agora"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 294,
+      "rva": 23456,
+      "kind": "string",
+      "text": "Verificar se há &atualizações agora"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 295,
+      "rva": 23528,
+      "kind": "string",
+      "text": "Itens Detectados"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 296,
+      "rva": 23562,
+      "kind": "string",
+      "text": "%1!s! bytes"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 297,
+      "rva": 23586,
+      "kind": "string",
+      "text": "Nível de alerta Grave/Alto: %1!d!"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 298,
+      "rva": 23654,
+      "kind": "string",
+      "text": "Nível de alertas Médio/Baixo: %1!d!"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 299,
+      "rva": 23726,
+      "kind": "string",
+      "text": "NÃO ASSINADO"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 300,
+      "rva": 23752,
+      "kind": "string",
+      "text": "Falha na inicialização do aplicativo: 0x%1!0x!."
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 301,
+      "rva": 23848,
+      "kind": "string",
+      "text": "Itens permitidos"
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 302,
+      "rva": 23882,
+      "kind": "string",
+      "text": "Remova itens dessa lista para que eles sejam monitorados novamente."
+    },
+    {
+      "resource": [
+        6,
+        19,
+        1046
+      ],
+      "id": 303,
+      "rva": 24018,
+      "kind": "string",
+      "text": "Itens de alerta &médio:"
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 304,
+      "rva": 24066,
+      "kind": "string",
+      "text": "Itens de alerta &baixo:"
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 305,
+      "rva": 24114,
+      "kind": "string",
+      "text": "<a href=\"http://go.microsoft.com/fwlink/?LinkId=63849\">Veja dicas de solução de problemas online</a> "
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 306,
+      "rva": 24318,
+      "kind": "string",
+      "text": "Escolha os agentes de segurança que deseja executar. <a href=\"Help://RTP\">Noções básicas sobre a proteção em tempo real</a> "
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 309,
+      "rva": 24572,
+      "kind": "string",
+      "text": "Hora de início:"
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 310,
+      "rva": 24604,
+      "kind": "string",
+      "text": "Tempo decorrido:"
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 311,
+      "rva": 24638,
+      "kind": "string",
+      "text": "Assinado Digitalmente por:"
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 312,
+      "rva": 24692,
+      "kind": "string",
+      "text": "Se desejar usar esse programa, <a href=\"Command://EnableProduct\">clique aqui para ativá-lo</a>. "
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 313,
+      "rva": 24886,
+      "kind": "string",
+      "text": "Verificar &arquivos compactados"
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 314,
+      "rva": 24950,
+      "kind": "string",
+      "text": "Ingressar com uma associação &avançada"
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 315,
+      "rva": 25028,
+      "kind": "string",
+      "text": "Envia à Microsoft informações básicas sobre o software detectado, incluindo a procedência do software e as ações aplicadas por você ou automaticamente pelo programa. O programa também relata se as ações foram bem-sucedidas. Em alguns casos, informações pessoais poderão ser enviadas à Microsoft acidentalmente; porém, a Microsoft não as utilizará para identificar ou contatar você."
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 317,
+      "rva": 25794,
+      "kind": "string",
+      "text": "Além das informações básicas, o programa envia à Microsoft mais informações sobre spyware e software potencialmente indesejado, incluindo a localização do software, nomes de arquivo, como o software opera e qual foi o impacto no computador. Em alguns casos, informações pessoais poderão ser enviadas à Microsoft acidentalmente; porém, a Microsoft não as utilizará para identificar ou contatar você."
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 318,
+      "rva": 26592,
+      "kind": "string",
+      "text": "Ajude a impedir a disseminação de software prejudicial e potencialmente indesejado. <A HREF=\"view://Settings\">Participe da Microsoft SpyNet</A> "
+    },
+    {
+      "resource": [
+        6,
+        20,
+        1046
+      ],
+      "id": 319,
+      "rva": 26882,
+      "kind": "string",
+      "text": "Você se inscreveu na Microsoft SpyNet (inscrição básica). <A HREF=\"view://Settings\">Alterar configurações</A> "
+    },
+    {
+      "resource": [
+        6,
+        21,
+        1046
+      ],
+      "id": 320,
+      "rva": 27106,
+      "kind": "string",
+      "text": "Você se inscreveu na Microsoft SpyNet (inscrição avançada). <A HREF=\"view://Settings\">Alterar configurações</A> "
+    },
+    {
+      "resource": [
+        6,
+        21,
+        1046
+      ],
+      "id": 321,
+      "rva": 27332,
+      "kind": "string",
+      "text": "<A HREF=\"http://go.microsoft.com/fwlink/?linkid=104288\">Leia a declaração de privacidade online.</A> "
+    },
+    {
+      "resource": [
+        6,
+        21,
+        1046
+      ],
+      "id": 323,
+      "rva": 27538,
+      "kind": "string",
+      "text": "Ponto de Verificação:"
+    },
+    {
+      "resource": [
+        6,
+        21,
+        1046
+      ],
+      "id": 329,
+      "rva": 27592,
+      "kind": "string",
+      "text": "Pressionar"
+    },
+    {
+      "resource": [
+        6,
+        21,
+        1046
+      ],
+      "id": 330,
+      "rva": 27614,
+      "kind": "string",
+      "text": "Falha do aplicativo ao criar janelas."
+    },
+    {
+      "resource": [
+        6,
+        21,
+        1046
+      ],
+      "id": 332,
+      "rva": 27692,
+      "kind": "string",
+      "text": "Remover da l&ista"
+    },
+    {
+      "resource": [
+        6,
+        21,
+        1046
+      ],
+      "id": 333,
+      "rva": 27728,
+      "kind": "string",
+      "text": "Criar ponto de res&tauração"
+    },
+    {
+      "resource": [
+        6,
+        21,
+        1046
+      ],
+      "id": 335,
+      "rva": 27786,
+      "kind": "string",
+      "text": "Algumas configurações são gerenciadas pelo administrador do sistema.<a href=\"Help://GroupPolicy\">Por que não consigo alterar certas configurações?</a> "
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 336,
+      "rva": 28090,
+      "kind": "string",
+      "text": "Se estiver usando outro programa que verifica por softwares indesejados ou prejudiciais, use a Central de Ações para verificar o status do programa.\n\n"
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 337,
+      "rva": 28392,
+      "kind": "string",
+      "text": "Seu computador não é verificado há vários dias. Recomendamos que você agende uma verificação diária do computador."
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 338,
+      "rva": 28622,
+      "kind": "string",
+      "text": "Para ajudar a proteger o computador contra software prejudicial ou potencialmente indesejado, contate o administrador do sistema para habilitar o programa através de uma diretiva de grupo."
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 339,
+      "rva": 29000,
+      "kind": "string",
+      "text": "Ativo"
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 340,
+      "rva": 29012,
+      "kind": "string",
+      "text": "Procurar spyware e outros tipos de software potencialmente indesejados"
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 341,
+      "rva": 29154,
+      "kind": "string",
+      "text": "Seu computador não é verificado há %1!d! dias. É recomendável agendar uma verificação diária do computador."
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 342,
+      "rva": 29370,
+      "kind": "string",
+      "text": "Procurar novas definições"
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 343,
+      "rva": 29422,
+      "kind": "string",
+      "text": "Definições atualizadas permitem a detecção dos softwares prejudiciais ou indesejados mais recentes e impedem sua execução no computador."
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 344,
+      "rva": 29696,
+      "kind": "string",
+      "text": "<A HREF=\"http://go.microsoft.com/fwlink/?LinkId=55273\">Site do Windows Defender</A> "
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 346,
+      "rva": 29868,
+      "kind": "string",
+      "text": "Escolha como deseja que o programa seja executado."
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 347,
+      "rva": 29970,
+      "kind": "string",
+      "text": "Ingressar na comunidade online que ajuda a identificar e evitar infecções por spyware."
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 348,
+      "rva": 30144,
+      "kind": "string",
+      "text": "Remover ou restaurar software cuja execução tenha sido impedida."
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 349,
+      "rva": 30274,
+      "kind": "string",
+      "text": "&Iniciar agora"
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 350,
+      "rva": 30304,
+      "kind": "string",
+      "text": "Exibir software que você optou por não monitorar."
+    },
+    {
+      "resource": [
+        6,
+        22,
+        1046
+      ],
+      "id": 351,
+      "rva": 30404,
+      "kind": "string",
+      "text": "Obter mais ferramentas e as informações de segurança mais recentes online."
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 353,
+      "rva": 30556,
+      "kind": "string",
+      "text": "Verificar"
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 354,
+      "rva": 30576,
+      "kind": "string",
+      "text": "Histórico"
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 355,
+      "rva": 30596,
+      "kind": "string",
+      "text": "Ferramentas e configurações"
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 356,
+      "rva": 30652,
+      "kind": "string",
+      "text": "Configurações"
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 357,
+      "rva": 30680,
+      "kind": "string",
+      "text": "Ferramentas"
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 358,
+      "rva": 30704,
+      "kind": "string",
+      "text": "<A HREF=\"Command://ActionSettings\">Opções</A> "
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 359,
+      "rva": 30798,
+      "kind": "string",
+      "text": "<A HREF=\"Command://ActionCommunity\">Microsoft SpyNet</A> "
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 360,
+      "rva": 30914,
+      "kind": "string",
+      "text": "Tem certeza de que deseja sair?"
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 361,
+      "rva": 30978,
+      "kind": "string",
+      "text": "<A HREF=\"Command://ActionCleanedItems\">Itens em quarentena</A> "
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 362,
+      "rva": 31106,
+      "kind": "string",
+      "text": "<A HREF=\"Command://ActionExceptionList\">Itens permitidos</A> "
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 363,
+      "rva": 31230,
+      "kind": "string",
+      "text": "Desinfetar"
+    },
+    {
+      "resource": [
+        6,
+        23,
+        1046
+      ],
+      "id": 367,
+      "rva": 31258,
+      "kind": "string",
+      "text": "Itens de alerta gra&ves:"
+    },
+    {
+      "resource": [
+        6,
+        24,
+        1046
+      ],
+      "id": 380,
+      "rva": 31334,
+      "kind": "string",
+      "text": "Iniciar Automaticamente"
+    },
+    {
+      "resource": [
+        6,
+        24,
+        1046
+      ],
+      "id": 381,
+      "rva": 31382,
+      "kind": "string",
+      "text": "Configuração do Sistema"
+    },
+    {
+      "resource": [
+        6,
+        24,
+        1046
+      ],
+      "id": 382,
+      "rva": 31430,
+      "kind": "string",
+      "text": "Complementos do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        24,
+        1046
+      ],
+      "id": 383,
+      "rva": 31498,
+      "kind": "string",
+      "text": "Configurações do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        25,
+        1046
+      ],
+      "id": 384,
+      "rva": 31570,
+      "kind": "string",
+      "text": "Serviços e Drivers"
+    },
+    {
+      "resource": [
+        6,
+        25,
+        1046
+      ],
+      "id": 385,
+      "rva": 31608,
+      "kind": "string",
+      "text": "Execução do Aplicativo"
+    },
+    {
+      "resource": [
+        6,
+        25,
+        1046
+      ],
+      "id": 386,
+      "rva": 31654,
+      "kind": "string",
+      "text": "Registro do Aplicativo"
+    },
+    {
+      "resource": [
+        6,
+        25,
+        1046
+      ],
+      "id": 387,
+      "rva": 31700,
+      "kind": "string",
+      "text": "Complementos do Windows"
+    },
+    {
+      "resource": [
+        6,
+        25,
+        1046
+      ],
+      "id": 388,
+      "rva": 31748,
+      "kind": "string",
+      "text": "Downloads do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        25,
+        1046
+      ],
+      "id": 389,
+      "rva": 31810,
+      "kind": "string",
+      "text": "Classificação da Comunidade SpyNet: %1!s!"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 400,
+      "rva": 31914,
+      "kind": "string",
+      "text": "Downloads do ActiveX"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 401,
+      "rva": 31956,
+      "kind": "string",
+      "text": "DLLs de Inicialização de Aplicativo"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 402,
+      "rva": 32028,
+      "kind": "string",
+      "text": "Autorun"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 403,
+      "rva": 32044,
+      "kind": "string",
+      "text": "Objetos Auxiliares de Navegador"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 404,
+      "rva": 32108,
+      "kind": "string",
+      "text": "Drivers"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 405,
+      "rva": 32124,
+      "kind": "string",
+      "text": "Exceções do Firewall"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 406,
+      "rva": 32166,
+      "kind": "string",
+      "text": "Arquivo de Hosts"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 407,
+      "rva": 32200,
+      "kind": "string",
+      "text": "Barras do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 408,
+      "rva": 32256,
+      "kind": "string",
+      "text": "Extensões do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 409,
+      "rva": 32318,
+      "kind": "string",
+      "text": "Plug-ins do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 410,
+      "rva": 32378,
+      "kind": "string",
+      "text": "Mapeamento de Arquivos Ini"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 411,
+      "rva": 32432,
+      "kind": "string",
+      "text": "Proteção de Servidor de Nomes"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 412,
+      "rva": 32492,
+      "kind": "string",
+      "text": "Provedor de Serviço em Camadas Winsock"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 413,
+      "rva": 32570,
+      "kind": "string",
+      "text": "Chaves Run"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 414,
+      "rva": 32592,
+      "kind": "string",
+      "text": "Executando Processos"
+    },
+    {
+      "resource": [
+        6,
+        26,
+        1046
+      ],
+      "id": 415,
+      "rva": 32634,
+      "kind": "string",
+      "text": "Inicialização Segura"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 416,
+      "rva": 32678,
+      "kind": "string",
+      "text": "Proteção de tela"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 417,
+      "rva": 32712,
+      "kind": "string",
+      "text": "Serviços"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 418,
+      "rva": 32730,
+      "kind": "string",
+      "text": "Ganchos de Execução do Shell"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 419,
+      "rva": 32788,
+      "kind": "string",
+      "text": "Comando de Abertura do Shell"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 420,
+      "rva": 32846,
+      "kind": "string",
+      "text": "Pasta Inicializar"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 421,
+      "rva": 32882,
+      "kind": "string",
+      "text": "Agendador de Tarefas"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 422,
+      "rva": 32924,
+      "kind": "string",
+      "text": "IDs de Classe"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 423,
+      "rva": 32952,
+      "kind": "string",
+      "text": "Manipuladores de Menu de Contexto"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 424,
+      "rva": 33020,
+      "kind": "string",
+      "text": "Execução do Aplicativo"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 425,
+      "rva": 33066,
+      "kind": "string",
+      "text": "Barra de Ferramentas do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 426,
+      "rva": 33150,
+      "kind": "string",
+      "text": "Navegador da Web do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 427,
+      "rva": 33226,
+      "kind": "string",
+      "text": "Navegador do Shell do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 428,
+      "rva": 33306,
+      "kind": "string",
+      "text": "Pesquisa do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 429,
+      "rva": 33366,
+      "kind": "string",
+      "text": "URL de Pesquisa do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 430,
+      "rva": 33440,
+      "kind": "string",
+      "text": "Caixa de Diálogo Sobre do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        27,
+        1046
+      ],
+      "id": 431,
+      "rva": 33528,
+      "kind": "string",
+      "text": "Página Inicial do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        28,
+        1046
+      ],
+      "id": 432,
+      "rva": 33602,
+      "kind": "string",
+      "text": "Extensão de Menu do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        28,
+        1046
+      ],
+      "id": 433,
+      "rva": 33678,
+      "kind": "string",
+      "text": "Ganchos de Pesquisa de URL do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        28,
+        1046
+      ],
+      "id": 434,
+      "rva": 33774,
+      "kind": "string",
+      "text": "Chaves de Execução Única"
+    },
+    {
+      "resource": [
+        6,
+        28,
+        1046
+      ],
+      "id": 435,
+      "rva": 33824,
+      "kind": "string",
+      "text": "Execução Restrita"
+    },
+    {
+      "resource": [
+        6,
+        28,
+        1046
+      ],
+      "id": 436,
+      "rva": 33860,
+      "kind": "string",
+      "text": "Pastas do Shell do Usuário"
+    },
+    {
+      "resource": [
+        6,
+        28,
+        1046
+      ],
+      "id": 437,
+      "rva": 33914,
+      "kind": "string",
+      "text": "Complementos do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        28,
+        1046
+      ],
+      "id": 438,
+      "rva": 33982,
+      "kind": "string",
+      "text": "Downloads do Internet Explorer"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 451,
+      "rva": 34068,
+      "kind": "string",
+      "text": "Conselho:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 452,
+      "rva": 34088,
+      "kind": "string",
+      "text": "Descrição:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 453,
+      "rva": 34110,
+      "kind": "string",
+      "text": "Recursos:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 454,
+      "rva": 34130,
+      "kind": "string",
+      "text": "Alterações detectadas:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 455,
+      "rva": 34176,
+      "kind": "string",
+      "text": "Detectado por:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 456,
+      "rva": 34206,
+      "kind": "string",
+      "text": "Nome do produto:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 457,
+      "rva": 34240,
+      "kind": "string",
+      "text": "Descrição:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 458,
+      "rva": 34262,
+      "kind": "string",
+      "text": "Caminho:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 459,
+      "rva": 34280,
+      "kind": "string",
+      "text": "Fornecedor:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 460,
+      "rva": 34304,
+      "kind": "string",
+      "text": "Tamanho:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 461,
+      "rva": 34322,
+      "kind": "string",
+      "text": "Versão:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 462,
+      "rva": 34338,
+      "kind": "string",
+      "text": "Tipo:"
+    },
+    {
+      "resource": [
+        6,
+        29,
+        1046
+      ],
+      "id": 463,
+      "rva": 34350,
+      "kind": "string",
+      "text": "Data de criação:"
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 464,
+      "rva": 34386,
+      "kind": "string",
+      "text": "Nome original:"
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 466,
+      "rva": 34418,
+      "kind": "string",
+      "text": "Original: "
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 467,
+      "rva": 34440,
+      "kind": "string",
+      "text": "Novo: "
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 468,
+      "rva": 34454,
+      "kind": "string",
+      "text": "Arquivo de definição"
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 469,
+      "rva": 34496,
+      "kind": "string",
+      "text": "Heurística"
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 470,
+      "rva": 34518,
+      "kind": "string",
+      "text": "Resumo:"
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 471,
+      "rva": 34534,
+      "kind": "string",
+      "text": "Adicionado:"
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 472,
+      "rva": 34558,
+      "kind": "string",
+      "text": " (novo)"
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 473,
+      "rva": 34574,
+      "kind": "string",
+      "text": " (Alterado)"
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 474,
+      "rva": 34598,
+      "kind": "string",
+      "text": " (Excluído)"
+    },
+    {
+      "resource": [
+        6,
+        30,
+        1046
+      ],
+      "id": 475,
+      "rva": 34622,
+      "kind": "string",
+      "text": "Removido:"
+    },
+    {
+      "resource": [
+        6,
+        31,
+        1046
+      ],
+      "id": 480,
+      "rva": 34650,
+      "kind": "string",
+      "text": "tipo de arquivo desconhecido"
+    },
+    {
+      "resource": [
+        6,
+        31,
+        1046
+      ],
+      "id": 481,
+      "rva": 34708,
+      "kind": "string",
+      "text": "Aplicativo"
+    },
+    {
+      "resource": [
+        6,
+        31,
+        1046
+      ],
+      "id": 482,
+      "rva": 34730,
+      "kind": "string",
+      "text": "biblioteca de vínculo dinâmico (DLL)"
+    },
+    {
+      "resource": [
+        6,
+        31,
+        1046
+      ],
+      "id": 483,
+      "rva": 34804,
+      "kind": "string",
+      "text": "unidade"
+    },
+    {
+      "resource": [
+        6,
+        31,
+        1046
+      ],
+      "id": 484,
+      "rva": 34820,
+      "kind": "string",
+      "text": "Fonte"
+    },
+    {
+      "resource": [
+        6,
+        31,
+        1046
+      ],
+      "id": 485,
+      "rva": 34832,
+      "kind": "string",
+      "text": "driver de dispositivo (VXD)"
+    },
+    {
+      "resource": [
+        6,
+        31,
+        1046
+      ],
+      "id": 486,
+      "rva": 34888,
+      "kind": "string",
+      "text": "biblioteca estática (.lib)"
+    },
+    {
+      "resource": [
+        6,
+        31,
+        1046
+      ],
+      "id": 487,
+      "rva": 34942,
+      "kind": "string",
+      "text": "Versão do Mecanismo: %1!s!\r\n"
+    },
+    {
+      "resource": [
+        6,
+        31,
+        1046
+      ],
+      "id": 489,
+      "rva": 35002,
+      "kind": "string",
+      "text": "&Só executar verificação quando o sistema estiver ocioso"
+    },
+    {
+      "resource": [
+        6,
+        32,
+        1046
+      ],
+      "id": 500,
+      "rva": 35138,
+      "kind": "string",
+      "text": " \t"
+    },
+    {
+      "resource": [
+        6,
+        32,
+        1046
+      ],
+      "id": 501,
+      "rva": 35144,
+      "kind": "string",
+      "text": "-/\\"
+    },
+    {
+      "resource": [
+        6,
+        63,
+        1046
+      ],
+      "id": 1007,
+      "rva": 35204,
+      "kind": "string",
+      "text": "Aviso: este programa de software está protegido por leis de direitos autorais e tratados internacionais. A reprodução ou distribuição não autorizada deste programa, no todo ou em parte, poderá resultar em severas punições nas varas civil ou criminal e será processada com o máximo rigor permitido pela lei."
+    },
+    {
+      "resource": [
+        6,
+        73,
+        1046
+      ],
+      "id": 1166,
+      "rva": 35846,
+      "kind": "string",
+      "text": "Ações concluídas."
+    },
+    {
+      "resource": [
+        6,
+        73,
+        1046
+      ],
+      "id": 1167,
+      "rva": 35882,
+      "kind": "string",
+      "text": "Reinicialização necessária."
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1169,
+      "rva": 35940,
+      "kind": "string",
+      "text": "Nenhuma informação será enviada à Microsoft."
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1170,
+      "rva": 36030,
+      "kind": "string",
+      "text": "Esse programa foi desativado pela diretiva de grupo"
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1171,
+      "rva": 36134,
+      "kind": "string",
+      "text": "A versão beta expirou"
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1172,
+      "rva": 36178,
+      "kind": "string",
+      "text": "Obrigado por participar do programa beta. Esta versão beta expirou.\n\nPara instalar uma versão atualizada, acesse o site do <a href=\"http://go.microsoft.com/fwlink/?LinkId=55273\">Centro de Download da Microsoft</a> "
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1173,
+      "rva": 36608,
+      "kind": "string",
+      "text": "&Usar este programa"
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1174,
+      "rva": 36648,
+      "kind": "string",
+      "text": "Quando estiver ativado nesta configuração, o programa alertará todos os usuários caso ocorra uma tentativa de execução ou instalação de um spyware ou outro tipo de software potencialmente indesejado neste computador."
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1175,
+      "rva": 37082,
+      "kind": "string",
+      "text": "Estatísticas de verificação"
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1176,
+      "rva": 37138,
+      "kind": "string",
+      "text": "Proteção contra spyware e software potencialmente indesejado"
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1177,
+      "rva": 37260,
+      "kind": "string",
+      "text": "Quando estiver ativado nesta configuração, o programa permitirá que você veja o Histórico, os Itens permitidos e os Itens em quarantena de todos os usuários. Os itens ficam ocultos por padrão para proteger a privacidade do usuário."
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1179,
+      "rva": 37726,
+      "kind": "string",
+      "text": "Gina Dll"
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1180,
+      "rva": 37744,
+      "kind": "string",
+      "text": "Winlogon Userinit"
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1181,
+      "rva": 37780,
+      "kind": "string",
+      "text": "Proteção Antivírus ao Acessar"
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1182,
+      "rva": 37840,
+      "kind": "string",
+      "text": "Proteção Anti-spyware ao Acessar"
+    },
+    {
+      "resource": [
+        6,
+        74,
+        1046
+      ],
+      "id": 1183,
+      "rva": 37906,
+      "kind": "string",
+      "text": "Proteção ao Acessar"
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2001,
+      "rva": 37948,
+      "kind": "string",
+      "text": "<A HREF=\"view://Scan\">Verificar o computador</A> "
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2002,
+      "rva": 38048,
+      "kind": "string",
+      "text": "<A HREF=\"view://ScanResults\">Exibir resultados da verificação</A> "
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2003,
+      "rva": 38182,
+      "kind": "string",
+      "text": "<A HREF=\"view://RTPThreats\">Remover programas indesejados</A> "
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2004,
+      "rva": 38308,
+      "kind": "string",
+      "text": "<A HREF=\"view://RTPPotentialThreats\">Examinar programas desconhecidos</A> "
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2005,
+      "rva": 38458,
+      "kind": "string",
+      "text": "Alteração de %1!s!."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2006,
+      "rva": 38498,
+      "kind": "string",
+      "text": "<A HREF=\"view://Settings\">Exibir ou alterar configurações</A> "
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2007,
+      "rva": 38624,
+      "kind": "string",
+      "text": "<A HREF=\"view://QuarantinedPrograms\">Gerenciar programas em quarentena</A> "
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2008,
+      "rva": 38776,
+      "kind": "string",
+      "text": "<A HREF=\"view://ActionHistory\">Exibir histórico de ações</A> "
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2009,
+      "rva": 38900,
+      "kind": "string",
+      "text": "<A HREF=\"view://Summary\">Página inicial</A> "
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2010,
+      "rva": 38990,
+      "kind": "string",
+      "text": "Os resultados da verificação preliminar mostram que pode existir software mal-intencionado ou potencialmente indesejado no sistema. Você poderá analisar os itens detectados quando a verificação tiver sido concluída."
+    },
+    {
+      "resource": [
+        6,
+        126,
+        1046
+      ],
+      "id": 2012,
+      "rva": 39424,
+      "kind": "string",
+      "text": "ShowDefaultBranding (Do not localize)"
+    },
+    {
+      "resource": [
+        6,
+        135,
+        1046
+      ],
+      "id": 2150,
+      "rva": 39518,
+      "kind": "string",
+      "text": "Nenhum"
+    },
+    {
+      "resource": [
+        6,
+        135,
+        1046
+      ],
+      "id": 2151,
+      "rva": 39532,
+      "kind": "string",
+      "text": "Permitir"
+    },
+    {
+      "resource": [
+        6,
+        135,
+        1046
+      ],
+      "id": 2152,
+      "rva": 39550,
+      "kind": "string",
+      "text": "Negar"
+    },
+    {
+      "resource": [
+        6,
+        135,
+        1046
+      ],
+      "id": 2154,
+      "rva": 39564,
+      "kind": "string",
+      "text": "Reverter"
+    },
+    {
+      "resource": [
+        6,
+        135,
+        1046
+      ],
+      "id": 2155,
+      "rva": 39582,
+      "kind": "string",
+      "text": "Quarentena"
+    },
+    {
+      "resource": [
+        6,
+        135,
+        1046
+      ],
+      "id": 2156,
+      "rva": 39604,
+      "kind": "string",
+      "text": "Remover"
+    },
+    {
+      "resource": [
+        6,
+        135,
+        1046
+      ],
+      "id": 2157,
+      "rva": 39620,
+      "kind": "string",
+      "text": "Não sei"
+    },
+    {
+      "resource": [
+        6,
+        135,
+        1046
+      ],
+      "id": 2158,
+      "rva": 39636,
+      "kind": "string",
+      "text": "Permitir"
+    },
+    {
+      "resource": [
+        6,
+        135,
+        1046
+      ],
+      "id": 2159,
+      "rva": 39654,
+      "kind": "string",
+      "text": "Não especificado"
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3009,
+      "rva": 39692,
+      "kind": "string",
+      "text": "Examinar itens possivelmente indesejados: %1!d! total"
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3010,
+      "rva": 39800,
+      "kind": "string",
+      "text": "Examinar itens prejudiciais ou possivelmente indesejados: %1!d! total"
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3011,
+      "rva": 39940,
+      "kind": "string",
+      "text": "O computador está funcionando normalmente."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3020,
+      "rva": 40042,
+      "kind": "string",
+      "text": "Examinar itens ainda não classificados. %1!d! total"
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3021,
+      "rva": 40146,
+      "kind": "string",
+      "text": "Você pode usar informações sobre o funcionamento desses programas para decidir entre negar ou permitir sua execução no computador."
+    },
+    {
+      "resource": [
+        6,
+        189,
+        1046
+      ],
+      "id": 3023,
+      "rva": 40410,
+      "kind": "string",
+      "text": "<a href=\"ReviewRTPPotentialThreats\">Analisar e executar ação</a> "
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3028,
+      "rva": 40550,
+      "kind": "string",
+      "text": "<a href=\"ReviewActiveThreats\">Analisar os itens detectados.</a> "
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3029,
+      "rva": 40680,
+      "kind": "string",
+      "text": "Não encontrado"
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3030,
+      "rva": 40710,
+      "kind": "string",
+      "text": "com êxito"
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3031,
+      "rva": 40730,
+      "kind": "string",
+      "text": "Erro"
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3032,
+      "rva": 40740,
+      "kind": "string",
+      "text": "Status"
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3033,
+      "rva": 40754,
+      "kind": "string",
+      "text": "Última verificação:"
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3035,
+      "rva": 40796,
+      "kind": "string",
+      "text": "Agenda de verificação:"
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3036,
+      "rva": 40842,
+      "kind": "string",
+      "text": "%1!s! por volta de %2!s! (%3!s!)"
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3037,
+      "rva": 40908,
+      "kind": "string",
+      "text": "Proteção em tempo real:"
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3038,
+      "rva": 40956,
+      "kind": "string",
+      "text": "Ativado"
+    },
+    {
+      "resource": [
+        6,
+        190,
+        1046
+      ],
+      "id": 3039,
+      "rva": 40972,
+      "kind": "string",
+      "text": "Desligado"
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3042,
+      "rva": 40998,
+      "kind": "string",
+      "text": "Itens detectados"
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3043,
+      "rva": 41032,
+      "kind": "string",
+      "text": "Status"
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3051,
+      "rva": 41060,
+      "kind": "string",
+      "text": "Porcentagem Concluída:"
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3052,
+      "rva": 41106,
+      "kind": "string",
+      "text": "Recursos verificados:"
+    },
+    {
+      "resource": [
+        6,
+        191,
+        1046
+      ],
+      "id": 3053,
+      "rva": 41150,
+      "kind": "string",
+      "text": "Recurso:"
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3059,
+      "rva": 41180,
+      "kind": "string",
+      "text": "%1!02u!:%2!02u!:%3!02u!"
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3060,
+      "rva": 41228,
+      "kind": "string",
+      "text": "Ajuda"
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3061,
+      "rva": 41240,
+      "kind": "string",
+      "text": "Voltar"
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3062,
+      "rva": 41254,
+      "kind": "string",
+      "text": "Avançar"
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3063,
+      "rva": 41270,
+      "kind": "string",
+      "text": "Página Inicial"
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3064,
+      "rva": 41300,
+      "kind": "string",
+      "text": "Verificar o computador"
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3065,
+      "rva": 41346,
+      "kind": "string",
+      "text": "Exibir Histórico"
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3066,
+      "rva": 41380,
+      "kind": "string",
+      "text": "Ferramentas e configurações"
+    },
+    {
+      "resource": [
+        6,
+        192,
+        1046
+      ],
+      "id": 3067,
+      "rva": 41436,
+      "kind": "string",
+      "text": "Ajuda"
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3073,
+      "rva": 41460,
+      "kind": "string",
+      "text": "O programa não pode verificar se há atualizações de definições."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3074,
+      "rva": 41588,
+      "kind": "string",
+      "text": "O programa não pode baixar atualizações de definições."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3075,
+      "rva": 41698,
+      "kind": "string",
+      "text": "O programa não pode instalar atualizações de definições."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3076,
+      "rva": 41812,
+      "kind": "string",
+      "text": "Erro: 0x%1!0x!."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3077,
+      "rva": 41844,
+      "kind": "string",
+      "text": "<a href=\"http://go.microsoft.com/fwlink/?LinkId=67233\">Veja dicas de solução de problemas online</a> "
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3078,
+      "rva": 42048,
+      "kind": "string",
+      "text": "<a href=\"http://go.microsoft.com/fwlink/?LinkId=67234\">Veja dicas de solução de problemas online</a> "
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3079,
+      "rva": 42252,
+      "kind": "string",
+      "text": "<a href=\"http://go.microsoft.com/fwlink/?LinkId=67235\">Veja dicas de solução de problemas online</a> "
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3080,
+      "rva": 42456,
+      "kind": "string",
+      "text": "Serviço interrompido"
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3081,
+      "rva": 42498,
+      "kind": "string",
+      "text": "Um problema causou a interrupção do serviço deste programa. Para iniciar o serviço, clique no botão Iniciar agora ou reinicie o computador."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3082,
+      "rva": 42778,
+      "kind": "string",
+      "text": "(Gerenciado por um administrador do sistema)"
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3083,
+      "rva": 42868,
+      "kind": "string",
+      "text": "O serviço está sendo inicializado..."
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3084,
+      "rva": 42942,
+      "kind": "string",
+      "text": "Obtenha uma cópia original agora"
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3085,
+      "rva": 43008,
+      "kind": "string",
+      "text": "http://go.microsoft.com/fwlink/?linkid=62022"
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3086,
+      "rva": 43098,
+      "kind": "string",
+      "text": "Deseja exibir os detalhes deste erro?"
+    },
+    {
+      "resource": [
+        6,
+        193,
+        1046
+      ],
+      "id": 3087,
+      "rva": 43174,
+      "kind": "string",
+      "text": "http://go.microsoft.com/fwlink/?linkid=104288"
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3088,
+      "rva": 43266,
+      "kind": "string",
+      "text": "Tipo de verificação:"
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3089,
+      "rva": 43308,
+      "kind": "string",
+      "text": "Isso pode levar alguns minutos."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3090,
+      "rva": 43372,
+      "kind": "string",
+      "text": "Isso pode levar algumas horas."
+    },
+    {
+      "resource": [
+        6,
+        194,
+        1046
+      ],
+      "id": 3091,
+      "rva": 43434,
+      "kind": "string",
+      "text": "E&xibir"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5000,
+      "rva": 43490,
+      "kind": "string",
+      "text": "Definições de antivírus:"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5001,
+      "rva": 43540,
+      "kind": "string",
+      "text": "Definições de anti-spyware:"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5002,
+      "rva": 43596,
+      "kind": "string",
+      "text": "%1!s! por volta das %2!s! %3!s! e a cada %4!d! horas (Verificação rápida)"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5003,
+      "rva": 43744,
+      "kind": "string",
+      "text": "Definições de antivírus: %1!s!\r\n"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5004,
+      "rva": 43810,
+      "kind": "string",
+      "text": "Definições de anti-spyware: %1!s!\r\n"
+    },
+    {
+      "resource": [
+        6,
+        313,
+        1046
+      ],
+      "id": 5005,
+      "rva": 43882,
+      "kind": "string",
+      "text": "&Não verifique estas extensões de arquivo (exemplo *.jpg):"
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5008,
+      "rva": 44006,
+      "kind": "string",
+      "text": "Execu&tar uma verificação rápida no meu computador várias vezes por dia"
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5009,
+      "rva": 44150,
+      "kind": "string",
+      "text": "Intervalo da &verificação:"
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5010,
+      "rva": 44204,
+      "kind": "string",
+      "text": "A cada %1!d! horas"
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5011,
+      "rva": 44242,
+      "kind": "string",
+      "text": "Proteção ao Ac&essar"
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5012,
+      "rva": 44284,
+      "kind": "string",
+      "text": "Proteger o sistema contra &vírus e outros softwares mal-intencionados (recomendável)"
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5013,
+      "rva": 44454,
+      "kind": "string",
+      "text": "Proteger o sistema contra s&pyware e softwares potencialmente indesejados (recomendável)"
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5014,
+      "rva": 44632,
+      "kind": "string",
+      "text": "Aplicando ações selecionadas.\nEsse processo pode levar alguns minutos para garantir que as ações tenham sido completamente aplicadas."
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5015,
+      "rva": 44900,
+      "kind": "string",
+      "text": "As ações selecionadas foram aplicadas e os resultados serão exibidos na coluna de status."
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5016,
+      "rva": 45080,
+      "kind": "string",
+      "text": "Um ou mais erros foram encontrados e os resultados serão exibidos na coluna de status."
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5017,
+      "rva": 45254,
+      "kind": "string",
+      "text": "&Limpar sistema"
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5018,
+      "rva": 45286,
+      "kind": "string",
+      "text": "Para sua proteção, os itens detectados foram limpos automaticamente."
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5021,
+      "rva": 45428,
+      "kind": "string",
+      "text": "Suspenso"
+    },
+    {
+      "resource": [
+        6,
+        314,
+        1046
+      ],
+      "id": 5022,
+      "rva": 45446,
+      "kind": "string",
+      "text": "&Não examinar os arquivos acessados por estes processos:"
+    },
+    {
+      "resource": [
+        6,
+        315,
+        1046
+      ],
+      "id": 5025,
+      "rva": 45564,
+      "kind": "string",
+      "text": "Foram detectados programas que podem comprometer sua privacidade ou danificar seu computador. <a href=\"Help://AlertLevels\">O que os níveis de alerta significam?</a> "
+    },
+    {
+      "resource": [
+        6,
+        315,
+        1046
+      ],
+      "id": 5026,
+      "rva": 45896,
+      "kind": "string",
+      "text": "&Aplicar ações recomendadas"
+    },
+    {
+      "resource": [
+        6,
+        315,
+        1046
+      ],
+      "id": 5027,
+      "rva": 45952,
+      "kind": "string",
+      "text": "As extensões de arquivo não podem conter nenhum dos seguintes caracteres:\\/:\"<>|"
+    },
+    {
+      "resource": [
+        6,
+        315,
+        1046
+      ],
+      "id": 5028,
+      "rva": 46114,
+      "kind": "string",
+      "text": "Para ajudar a proteger o computador, aplique as ações recomendadas quando itens forem detectados."
+    },
+    {
+      "resource": [
+        6,
+        315,
+        1046
+      ],
+      "id": 5029,
+      "rva": 46310,
+      "kind": "string",
+      "text": "Arquivos e pastas excluídos"
+    },
+    {
+      "resource": [
+        6,
+        315,
+        1046
+      ],
+      "id": 5030,
+      "rva": 46366,
+      "kind": "string",
+      "text": "Tipos de arquivo excluídos"
+    },
+    {
+      "resource": [
+        6,
+        315,
+        1046
+      ],
+      "id": 5031,
+      "rva": 46420,
+      "kind": "string",
+      "text": "Processar exclusões"
+    },
+    {
+      "resource": [
+        6,
+        319,
+        1046
+      ],
+      "id": 5100,
+      "rva": 46502,
+      "kind": "string",
+      "text": "Para que a privacidade do usuário seja protegida, esses itens ficam ocultos. Clique no botão Exibir para visualizá-los."
+    },
+    {
+      "resource": [
+        6,
+        319,
+        1046
+      ],
+      "id": 5101,
+      "rva": 46742,
+      "kind": "string",
+      "text": "&Exibir itens de todos os usuários do computador"
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6000,
+      "rva": 46846,
+      "kind": "string",
+      "text": "A verificação completa ajuda você a proteger o sistema contra softwares mal-intencionados e indesejados."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6001,
+      "rva": 47056,
+      "kind": "string",
+      "text": "Última verificação: %1!s!"
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6002,
+      "rva": 47108,
+      "kind": "string",
+      "text": "Este programa requer definições atualizadas. Instale as atualizações de definições mais recentes antes de executar a verificação."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6003,
+      "rva": 47368,
+      "kind": "string",
+      "text": "Este programa requer definições atualizadas. É recomendável instalar as atualizações de definições mais recentes antes de executar a verificação. Clique no botão de verificação na barra de ferramentas acima para iniciar o processo."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6004,
+      "rva": 47832,
+      "kind": "string",
+      "text": "Verificar se há atualizações de definições"
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6005,
+      "rva": 47918,
+      "kind": "string",
+      "text": "Este programa requer definições atualizadas. É recomendável instalar as atualizações de definições mais recentes antes de executar a verificação.\r\n\r\nEscolha um método de atualização:"
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6006,
+      "rva": 48284,
+      "kind": "string",
+      "text": "Procurar atualizações de definições no sistema manualmente"
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6007,
+      "rva": 48402,
+      "kind": "string",
+      "text": "As atualizações de definições podem ser encontradas no site abaixo. Em um computador que esteja conectado à Internet, copie o pacote de instalação para uma mídia removível, como uma unidade USB. Em seguida, insira a unidade USB neste sistema e procure o pacote de atualizações de definições.\r\n\r\nhttp://go.microsoft.com/fwlink/?LinkID=96776"
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6008,
+      "rva": 49082,
+      "kind": "string",
+      "text": "&Procurar..."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6009,
+      "rva": 49108,
+      "kind": "string",
+      "text": "Baixar as atualizações de definições mais recentes do Centro de Proteção contra Malware da Microsoft"
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6010,
+      "rva": 49310,
+      "kind": "string",
+      "text": "Verifique se possui uma conexão ativa com a Internet antes de escolher essa opção."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6011,
+      "rva": 49476,
+      "kind": "string",
+      "text": "&Download"
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6012,
+      "rva": 49496,
+      "kind": "string",
+      "text": "Pesquisando..."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6013,
+      "rva": 49526,
+      "kind": "string",
+      "text": "Baixando..."
+    },
+    {
+      "resource": [
+        6,
+        376,
+        1046
+      ],
+      "id": 6014,
+      "rva": 49550,
+      "kind": "string",
+      "text": "Instalando..."
+    },
+    {
+      "resource": [
+        6,
+        377,
+        1046
+      ],
+      "id": 6016,
+      "rva": 49582,
+      "kind": "string",
+      "text": "%1!s! Clique no botão de verificação na barra de ferramentas acima para iniciar uma verificação."
+    },
+    {
+      "resource": [
+        6,
+        377,
+        1046
+      ],
+      "id": 6026,
+      "rva": 49794,
+      "kind": "string",
+      "text": "As atualizações de definições podem ser encontradas no site abaixo. Em um computador que esteja conectado à Internet, copie o pacote de instalação para uma mídia removível, como uma unidade USB. Em seguida, insira a unidade USB neste sistema e procure o pacote de atualizações de definições.\r\n\r\n<a href=\"http://go.microsoft.com/fwlink/?LinkID=96776\">http://go.microsoft.com/fwlink/?LinkID=96776</a> "
+    },
+    {
+      "resource": [
+        6,
+        377,
+        1046
+      ],
+      "id": 6030,
+      "rva": 50600,
+      "kind": "string",
+      "text": "Iniciar &verificação completa"
+    },
+    {
+      "resource": [
+        6,
+        377,
+        1046
+      ],
+      "id": 6031,
+      "rva": 50660,
+      "kind": "string",
+      "text": "Recuperando dados do sistema para preparar verificação..."
+    },
+    {
+      "resource": [
+        6,
+        378,
+        1046
+      ],
+      "id": 6032,
+      "rva": 50778,
+      "kind": "string",
+      "text": "Procure softwares mal-intencionados ou indesejados em arquivos compactados, como .ZIP ou .CAB."
+    },
+    {
+      "resource": [
+        6,
+        378,
+        1046
+      ],
+      "id": 6033,
+      "rva": 50968,
+      "kind": "string",
+      "text": "Verificar &email"
+    },
+    {
+      "resource": [
+        6,
+        378,
+        1046
+      ],
+      "id": 6034,
+      "rva": 51002,
+      "kind": "string",
+      "text": "Procure softwares mal-intencionados ou indesejados no conteúdo ou em anexos de email."
+    },
+    {
+      "resource": [
+        6,
+        378,
+        1046
+      ],
+      "id": 6035,
+      "rva": 51174,
+      "kind": "string",
+      "text": "Verificar unidades re&movíveis"
+    },
+    {
+      "resource": [
+        6,
+        378,
+        1046
+      ],
+      "id": 6036,
+      "rva": 51236,
+      "kind": "string",
+      "text": "Procure softwares mal-intencionados ou indesejados no conteúdo de unidades removíveis, como unidades flash USB."
+    },
+    {
+      "resource": [
+        6,
+        378,
+        1046
+      ],
+      "id": 6037,
+      "rva": 51460,
+      "kind": "string",
+      "text": "Detecte softwares mal-intencionados ou indesejados examinando itens que correspondam parcialmente a uma definição existente."
+    },
+    {
+      "resource": [
+        6,
+        378,
+        1046
+      ],
+      "id": 6038,
+      "rva": 51710,
+      "kind": "string",
+      "text": "Crie um ponto de restauração antes de aplicar quaisquer ações aos itens detectados."
+    },
+    {
+      "resource": [
+        6,
+        382,
+        1046
+      ],
+      "id": 6108,
+      "rva": 51922,
+      "kind": "string",
+      "text": "Verificar se há atualizações"
+    },
+    {
+      "resource": [
+        6,
+        388,
+        1046
+      ],
+      "id": 6201,
+      "rva": 52004,
+      "kind": "string",
+      "text": "Mostrar &detalhes >>"
+    },
+    {
+      "resource": [
+        6,
+        388,
+        1046
+      ],
+      "id": 6202,
+      "rva": 52046,
+      "kind": "string",
+      "text": "Ocultar &detalhes <<"
+    },
+    {
+      "resource": [
+        6,
+        394,
+        1046
+      ],
+      "id": 6301,
+      "rva": 52124,
+      "kind": "string",
+      "text": "Sistema operacional"
+    },
+    {
+      "resource": [
+        6,
+        394,
+        1046
+      ],
+      "id": 6302,
+      "rva": 52164,
+      "kind": "string",
+      "text": "Tamanho do Disco"
+    },
+    {
+      "resource": [
+        6,
+        394,
+        1046
+      ],
+      "id": 6303,
+      "rva": 52198,
+      "kind": "string",
+      "text": "Pasta Windows"
+    },
+    {
+      "resource": [
+        6,
+        395,
+        1046
+      ],
+      "id": 6304,
+      "rva": 52226,
+      "kind": "string",
+      "text": "Microsoft Windows (versão desconhecida)"
+    },
+    {
+      "resource": [
+        6,
+        395,
+        1046
+      ],
+      "id": 6305,
+      "rva": 52306,
+      "kind": "string",
+      "text": "Microsoft Windows 2000"
+    },
+    {
+      "resource": [
+        6,
+        395,
+        1046
+      ],
+      "id": 6306,
+      "rva": 52352,
+      "kind": "string",
+      "text": "Microsoft Windows XP"
+    },
+    {
+      "resource": [
+        6,
+        395,
+        1046
+      ],
+      "id": 6307,
+      "rva": 52394,
+      "kind": "string",
+      "text": "Microsoft Windows Server 2003"
+    },
+    {
+      "resource": [
+        6,
+        395,
+        1046
+      ],
+      "id": 6308,
+      "rva": 52454,
+      "kind": "string",
+      "text": "Microsoft Windows Vista"
+    },
+    {
+      "resource": [
+        6,
+        395,
+        1046
+      ],
+      "id": 6309,
+      "rva": 52502,
+      "kind": "string",
+      "text": "%1!I64u! MB"
+    },
+    {
+      "resource": [
+        6,
+        395,
+        1046
+      ],
+      "id": 6310,
+      "rva": 52526,
+      "kind": "string",
+      "text": "Pasta Windows inválida."
+    },
+    {
+      "resource": [
+        6,
+        395,
+        1046
+      ],
+      "id": 6311,
+      "rva": 52574,
+      "kind": "string",
+      "text": "&Selecionar pasta Windows a ser verificada:"
+    },
+    {
+      "resource": [
+        6,
+        397,
+        1046
+      ],
+      "id": 6350,
+      "rva": 52706,
+      "kind": "string",
+      "text": "Atualizar status"
+    },
+    {
+      "resource": [
+        6,
+        397,
+        1046
+      ],
+      "id": 6351,
+      "rva": 52740,
+      "kind": "string",
+      "text": "Status:"
+    },
+    {
+      "resource": [
+        6,
+        398,
+        1046
+      ],
+      "id": 6352,
+      "rva": 52758,
+      "kind": "string",
+      "text": "Foram encontradas atualizações de definições no Portal de Segurança da Microsoft."
+    },
+    {
+      "resource": [
+        6,
+        398,
+        1046
+      ],
+      "id": 6360,
+      "rva": 52936,
+      "kind": "string",
+      "text": "Verificar software prejudicial ou possivelmente indesejado"
+    },
+    {
+      "resource": [
+        6,
+        398,
+        1046
+      ],
+      "id": 6361,
+      "rva": 53054,
+      "kind": "string",
+      "text": "As ações solicitadas foram aplicadas com êxito"
+    },
+    {
+      "resource": [
+        6,
+        398,
+        1046
+      ],
+      "id": 6362,
+      "rva": 53148,
+      "kind": "string",
+      "text": "Os itens detectados foram limpos automaticamente"
+    },
+    {
+      "resource": [
+        6,
+        441,
+        1046
+      ],
+      "id": 7050,
+      "rva": 53278,
+      "kind": "string",
+      "text": "Verificar &programas executados no meu computador"
+    },
+    {
+      "resource": [
+        6,
+        441,
+        1046
+      ],
+      "id": 7051,
+      "rva": 53378,
+      "kind": "string",
+      "text": "Há uma verificação em andamento. Tem certeza de que deseja sair?\nSe você sair, a verificação será cancelada."
+    },
+    {
+      "resource": [
+        6,
+        442,
+        1046
+      ],
+      "id": 7060,
+      "rva": 53614,
+      "kind": "string",
+      "text": "<A HREF=\"http://go.microsoft.com/fwlink/?LinkID=121338\">Centro de Proteção contra Malware da Microsoft</A> "
+    },
+    {
+      "resource": [
+        6,
+        442,
+        1046
+      ],
+      "id": 7061,
+      "rva": 53830,
+      "kind": "string",
+      "text": "Obtenha informações sobre atualizações de definições e informações atualizadas sobre malware."
+    },
+    {
+      "resource": [
+        6,
+        2569,
+        1046
+      ],
+      "id": 41101,
+      "rva": 54064,
+      "kind": "string",
+      "text": "Parada de mecanismo antimalware"
+    },
+    {
+      "resource": [
+        6,
+        2569,
+        1046
+      ],
+      "id": 41102,
+      "rva": 54128,
+      "kind": "string",
+      "text": "Foi detectada uma parada no mecanismo de verificação"
+    },
+    {
+      "resource": [
+        6,
+        2569,
+        1046
+      ],
+      "id": 41103,
+      "rva": 54234,
+      "kind": "string",
+      "text": "Nome do Aplicativo"
+    },
+    {
+      "resource": [
+        6,
+        2570,
+        1046
+      ],
+      "id": 41104,
+      "rva": 54274,
+      "kind": "string",
+      "text": "Versão do Aplicativo"
+    },
+    {
+      "resource": [
+        6,
+        2570,
+        1046
+      ],
+      "id": 41105,
+      "rva": 54316,
+      "kind": "string",
+      "text": "Versão do Mecanismo"
+    }
+  ]
+}

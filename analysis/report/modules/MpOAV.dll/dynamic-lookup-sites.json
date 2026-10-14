@@ -1,0 +1,202 @@
+[
+  {
+    "function_start_va": 8792486984396,
+    "call_instruction_va": 8792486984409,
+    "api": "LoadLibraryW",
+    "literal_argument": "advapi32",
+    "definition": {
+      "instruction_va": 8792486984402,
+      "literal_va": 8792486975272,
+      "bytes": "488d0d4fdcffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486984396,
+    "call_instruction_va": 8792486984433,
+    "api": "GetProcAddress",
+    "literal_argument": "TraceMessage",
+    "definition": {
+      "instruction_va": 8792486984423,
+      "literal_va": 8792486975296,
+      "bytes": "488d1552dcffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486984396,
+    "call_instruction_va": 8792486984507,
+    "api": "GetProcAddress",
+    "literal_argument": "TraceMessageVa",
+    "definition": {
+      "instruction_va": 8792486984487,
+      "literal_va": 8792486975312,
+      "bytes": "488d1522dcffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486991931,
+    "api": "GetProcAddress",
+    "literal_argument": "MpManagerOpen",
+    "definition": {
+      "instruction_va": 8792486991924,
+      "literal_va": 8792486978216,
+      "bytes": "488d156dcaffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486991989,
+    "api": "GetProcAddress",
+    "literal_argument": "MpHandleClose",
+    "definition": {
+      "instruction_va": 8792486991982,
+      "literal_va": 8792486978232,
+      "bytes": "488d1543caffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486992047,
+    "api": "GetProcAddress",
+    "literal_argument": "MpFreeMemory",
+    "definition": {
+      "instruction_va": 8792486992040,
+      "literal_va": 8792486978248,
+      "bytes": "488d1519caffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486992105,
+    "api": "GetProcAddress",
+    "literal_argument": "MpScanStart",
+    "definition": {
+      "instruction_va": 8792486992098,
+      "literal_va": 8792486978264,
+      "bytes": "488d15efc9ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486992163,
+    "api": "GetProcAddress",
+    "literal_argument": "MpScanResult",
+    "definition": {
+      "instruction_va": 8792486992156,
+      "literal_va": 8792486978280,
+      "bytes": "488d15c5c9ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486992221,
+    "api": "GetProcAddress",
+    "literal_argument": "MpThreatOpen",
+    "definition": {
+      "instruction_va": 8792486992214,
+      "literal_va": 8792486978296,
+      "bytes": "488d159bc9ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486992279,
+    "api": "GetProcAddress",
+    "literal_argument": "MpThreatEnumerate",
+    "definition": {
+      "instruction_va": 8792486992272,
+      "literal_va": 8792486978312,
+      "bytes": "488d1571c9ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486992337,
+    "api": "GetProcAddress",
+    "literal_argument": "MpConfigOpen",
+    "definition": {
+      "instruction_va": 8792486992330,
+      "literal_va": 8792486978336,
+      "bytes": "488d154fc9ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486992391,
+    "api": "GetProcAddress",
+    "literal_argument": "MpConfigGetValue",
+    "definition": {
+      "instruction_va": 8792486992384,
+      "literal_va": 8792486978352,
+      "bytes": "488d1529c9ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486991668,
+    "call_instruction_va": 8792486992445,
+    "api": "GetProcAddress",
+    "literal_argument": "MpConfigClose",
+    "definition": {
+      "instruction_va": 8792486992438,
+      "literal_va": 8792486978376,
+      "bytes": "488d150bc9ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792486997172,
+    "call_instruction_va": 8792486997245,
+    "api": "LoadLibraryW",
+    "literal_argument": null,
+    "definition": null,
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792487001348,
+    "call_instruction_va": 8792487001412,
+    "api": "GetModuleHandleW",
+    "literal_argument": "kernel32.dll",
+    "definition": {
+      "instruction_va": 8792487001405,
+      "literal_va": 8792486978912,
+      "bytes": "488d0d1ca8ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792487001348,
+    "call_instruction_va": 8792487001445,
+    "api": "GetProcAddress",
+    "literal_argument": "EncodePointer",
+    "definition": {
+      "instruction_va": 8792487001435,
+      "literal_va": 8792486978944,
+      "bytes": "488d151ea8ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792487001348,
+    "call_instruction_va": 8792487001469,
+    "api": "GetProcAddress",
+    "literal_argument": "DecodePointer",
+    "definition": {
+      "instruction_va": 8792487001459,
+      "literal_va": 8792486978960,
+      "bytes": "488d1516a8ffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  }
+]

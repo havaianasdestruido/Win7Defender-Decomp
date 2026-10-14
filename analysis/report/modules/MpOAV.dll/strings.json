@@ -1,0 +1,1592 @@
+[
+  {
+    "file_offset": 77,
+    "encoding": "ascii",
+    "text": "!This program cannot be run in DOS mode."
+  },
+  {
+    "file_offset": 504,
+    "encoding": "ascii",
+    "text": ".text"
+  },
+  {
+    "file_offset": 543,
+    "encoding": "ascii",
+    "text": "`.data"
+  },
+  {
+    "file_offset": 584,
+    "encoding": "ascii",
+    "text": ".pdata"
+  },
+  {
+    "file_offset": 623,
+    "encoding": "ascii",
+    "text": "@.rsrc"
+  },
+  {
+    "file_offset": 663,
+    "encoding": "ascii",
+    "text": "@.reloc"
+  },
+  {
+    "file_offset": 1756,
+    "encoding": "ascii",
+    "text": "Delete"
+  },
+  {
+    "file_offset": 1768,
+    "encoding": "ascii",
+    "text": "NoRemove"
+  },
+  {
+    "file_offset": 1784,
+    "encoding": "ascii",
+    "text": "ForceRemove"
+  },
+  {
+    "file_offset": 1933,
+    "encoding": "ascii",
+    "text": "D7q/;M"
+  },
+  {
+    "file_offset": 2824,
+    "encoding": "ascii",
+    "text": "bad allocation"
+  },
+  {
+    "file_offset": 2856,
+    "encoding": "utf-16le",
+    "text": "advapi32"
+  },
+  {
+    "file_offset": 2880,
+    "encoding": "ascii",
+    "text": "TraceMessage"
+  },
+  {
+    "file_offset": 2896,
+    "encoding": "ascii",
+    "text": "TraceMessageVa"
+  },
+  {
+    "file_offset": 2992,
+    "encoding": "utf-16le",
+    "text": "APPID"
+  },
+  {
+    "file_offset": 3777,
+    "encoding": "ascii",
+    "text": "Qkkbal"
+  },
+  {
+    "file_offset": 4381,
+    "encoding": "ascii",
+    "text": "wn>Jj"
+  },
+  {
+    "file_offset": 5056,
+    "encoding": "ascii",
+    "text": "b$C4 "
+  },
+  {
+    "file_offset": 5273,
+    "encoding": "ascii",
+    "text": "P%@Fpg`"
+  },
+  {
+    "file_offset": 5307,
+    "encoding": "ascii",
+    "text": "RwbVr"
+  },
+  {
+    "file_offset": 5336,
+    "encoding": "ascii",
+    "text": "ftGd$T"
+  },
+  {
+    "file_offset": 5424,
+    "encoding": "ascii",
+    "text": "uJTZ7j"
+  },
+  {
+    "file_offset": 5459,
+    "encoding": "ascii",
+    "text": "ld\\EL"
+  },
+  {
+    "file_offset": 5489,
+    "encoding": "ascii",
+    "text": "n6~UNt^"
+  },
+  {
+    "file_offset": 5648,
+    "encoding": "utf-16le",
+    "text": "<NULL>"
+  },
+  {
+    "file_offset": 5696,
+    "encoding": "utf-16le",
+    "text": "%s|%s"
+  },
+  {
+    "file_offset": 5712,
+    "encoding": "utf-16le",
+    "text": "webfile"
+  },
+  {
+    "file_offset": 5768,
+    "encoding": "utf-16le",
+    "text": "%s\\MPCLIENT.DLL"
+  },
+  {
+    "file_offset": 5800,
+    "encoding": "ascii",
+    "text": "MpManagerOpen"
+  },
+  {
+    "file_offset": 5816,
+    "encoding": "ascii",
+    "text": "MpHandleClose"
+  },
+  {
+    "file_offset": 5832,
+    "encoding": "ascii",
+    "text": "MpFreeMemory"
+  },
+  {
+    "file_offset": 5848,
+    "encoding": "ascii",
+    "text": "MpScanStart"
+  },
+  {
+    "file_offset": 5864,
+    "encoding": "ascii",
+    "text": "MpScanResult"
+  },
+  {
+    "file_offset": 5880,
+    "encoding": "ascii",
+    "text": "MpThreatOpen"
+  },
+  {
+    "file_offset": 5896,
+    "encoding": "ascii",
+    "text": "MpThreatEnumerate"
+  },
+  {
+    "file_offset": 5920,
+    "encoding": "ascii",
+    "text": "MpConfigOpen"
+  },
+  {
+    "file_offset": 5936,
+    "encoding": "ascii",
+    "text": "MpConfigGetValue"
+  },
+  {
+    "file_offset": 5960,
+    "encoding": "ascii",
+    "text": "MpConfigClose"
+  },
+  {
+    "file_offset": 6000,
+    "encoding": "utf-16le",
+    "text": "ProductFeature"
+  },
+  {
+    "file_offset": 6032,
+    "encoding": "utf-16le",
+    "text": "DisableAntiVirus"
+  },
+  {
+    "file_offset": 6072,
+    "encoding": "utf-16le",
+    "text": "DisableAntiSpyware"
+  },
+  {
+    "file_offset": 6112,
+    "encoding": "utf-16le",
+    "text": "DisableRealtimeMonitoring"
+  },
+  {
+    "file_offset": 6168,
+    "encoding": "utf-16le",
+    "text": "DisableIOAVProtection"
+  },
+  {
+    "file_offset": 6216,
+    "encoding": "utf-16le",
+    "text": "Real-Time Protection"
+  },
+  {
+    "file_offset": 6264,
+    "encoding": "utf-16le",
+    "text": "Enable"
+  },
+  {
+    "file_offset": 6280,
+    "encoding": "utf-16le",
+    "text": "MaxFileSize"
+  },
+  {
+    "file_offset": 6304,
+    "encoding": "utf-16le",
+    "text": "IOAVMaxSize"
+  },
+  {
+    "file_offset": 6328,
+    "encoding": "utf-16le",
+    "text": "CLSID\\%s\\Hosts\\%s"
+  },
+  {
+    "file_offset": 6368,
+    "encoding": "utf-16le",
+    "text": "%s\\%s"
+  },
+  {
+    "file_offset": 6496,
+    "encoding": "utf-16le",
+    "text": "kernel32.dll"
+  },
+  {
+    "file_offset": 6528,
+    "encoding": "ascii",
+    "text": "EncodePointer"
+  },
+  {
+    "file_offset": 6544,
+    "encoding": "ascii",
+    "text": "DecodePointer"
+  },
+  {
+    "file_offset": 6560,
+    "encoding": "ascii",
+    "text": "MpProcessHeap"
+  },
+  {
+    "file_offset": 6576,
+    "encoding": "ascii",
+    "text": "MpPublicHeap"
+  },
+  {
+    "file_offset": 7552,
+    "encoding": "ascii",
+    "text": "MpOAV.pdb"
+  },
+  {
+    "file_offset": 11654,
+    "encoding": "ascii",
+    "text": "H VWATH"
+  },
+  {
+    "file_offset": 12179,
+    "encoding": "ascii",
+    "text": "L$ SVWH"
+  },
+  {
+    "file_offset": 13029,
+    "encoding": "ascii",
+    "text": "x ATH"
+  },
+  {
+    "file_offset": 13116,
+    "encoding": "ascii",
+    "text": "t+H9^"
+  },
+  {
+    "file_offset": 13167,
+    "encoding": "ascii",
+    "text": "H9^ u4H"
+  },
+  {
+    "file_offset": 13186,
+    "encoding": "ascii",
+    "text": "H9^ u"
+  },
+  {
+    "file_offset": 13380,
+    "encoding": "ascii",
+    "text": "H9;u%L"
+  },
+  {
+    "file_offset": 13763,
+    "encoding": "ascii",
+    "text": "VWATAUAVH"
+  },
+  {
+    "file_offset": 14061,
+    "encoding": "ascii",
+    "text": " A^A]A\\_^"
+  },
+  {
+    "file_offset": 14095,
+    "encoding": "ascii",
+    "text": "SVWATAUAVAWH"
+  },
+  {
+    "file_offset": 14259,
+    "encoding": "ascii",
+    "text": "t$ H;"
+  },
+  {
+    "file_offset": 14340,
+    "encoding": "ascii",
+    "text": "@8~8t"
+  },
+  {
+    "file_offset": 14375,
+    "encoding": "ascii",
+    "text": "0A_A^A]A\\_^["
+  },
+  {
+    "file_offset": 14480,
+    "encoding": "ascii",
+    "text": "@8y(t"
+  },
+  {
+    "file_offset": 14558,
+    "encoding": "ascii",
+    "text": "VWATAUAVH"
+  },
+  {
+    "file_offset": 14725,
+    "encoding": "ascii",
+    "text": "|$ H;"
+  },
+  {
+    "file_offset": 14821,
+    "encoding": "ascii",
+    "text": "0A^A]A\\_^"
+  },
+  {
+    "file_offset": 14850,
+    "encoding": "ascii",
+    "text": "SVWATAUAVAWH"
+  },
+  {
+    "file_offset": 14937,
+    "encoding": "ascii",
+    "text": "D$0H;"
+  },
+  {
+    "file_offset": 15046,
+    "encoding": "ascii",
+    "text": "t$ H;"
+  },
+  {
+    "file_offset": 15134,
+    "encoding": "ascii",
+    "text": "@A_A^A]A\\_^["
+  },
+  {
+    "file_offset": 15943,
+    "encoding": "ascii",
+    "text": "WATAUH"
+  },
+  {
+    "file_offset": 16001,
+    "encoding": "ascii",
+    "text": "9A98u4A9x"
+  },
+  {
+    "file_offset": 16211,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 16284,
+    "encoding": "ascii",
+    "text": "9{@vM3"
+  },
+  {
+    "file_offset": 16642,
+    "encoding": "ascii",
+    "text": "VWATAVAWH"
+  },
+  {
+    "file_offset": 16719,
+    "encoding": "ascii",
+    "text": "uqH!\\$PH"
+  },
+  {
+    "file_offset": 17171,
+    "encoding": "ascii",
+    "text": " A_A^A\\_^"
+  },
+  {
+    "file_offset": 17227,
+    "encoding": "ascii",
+    "text": "tXH9Z"
+  },
+  {
+    "file_offset": 17257,
+    "encoding": "ascii",
+    "text": "|:8\\$8t4L"
+  },
+  {
+    "file_offset": 17351,
+    "encoding": "ascii",
+    "text": "UVWATAWH"
+  },
+  {
+    "file_offset": 17840,
+    "encoding": "ascii",
+    "text": "PA_A\\_^]"
+  },
+  {
+    "file_offset": 18311,
+    "encoding": "ascii",
+    "text": "L$8E3"
+  },
+  {
+    "file_offset": 19265,
+    "encoding": "ascii",
+    "text": "p WATAUH"
+  },
+  {
+    "file_offset": 19311,
+    "encoding": "ascii",
+    "text": "L$HI;"
+  },
+  {
+    "file_offset": 19418,
+    "encoding": "ascii",
+    "text": "L$HI;"
+  },
+  {
+    "file_offset": 19455,
+    "encoding": "ascii",
+    "text": "L$`I;"
+  },
+  {
+    "file_offset": 19639,
+    "encoding": "ascii",
+    "text": "D$ I;"
+  },
+  {
+    "file_offset": 19697,
+    "encoding": "ascii",
+    "text": "D$(I;"
+  },
+  {
+    "file_offset": 19755,
+    "encoding": "ascii",
+    "text": "D$0I;"
+  },
+  {
+    "file_offset": 19813,
+    "encoding": "ascii",
+    "text": "D$8I;"
+  },
+  {
+    "file_offset": 19871,
+    "encoding": "ascii",
+    "text": "D$@I;"
+  },
+  {
+    "file_offset": 19929,
+    "encoding": "ascii",
+    "text": "D$HI;"
+  },
+  {
+    "file_offset": 19983,
+    "encoding": "ascii",
+    "text": "D$PI;"
+  },
+  {
+    "file_offset": 20037,
+    "encoding": "ascii",
+    "text": "D$XI;"
+  },
+  {
+    "file_offset": 20114,
+    "encoding": "ascii",
+    "text": " A]A\\_"
+  },
+  {
+    "file_offset": 20257,
+    "encoding": "ascii",
+    "text": "x ATAVAWH"
+  },
+  {
+    "file_offset": 20303,
+    "encoding": "ascii",
+    "text": "D$PI;"
+  },
+  {
+    "file_offset": 20651,
+    "encoding": "ascii",
+    "text": " A_A^A\\"
+  },
+  {
+    "file_offset": 20671,
+    "encoding": "ascii",
+    "text": "UVWATAUAVAWH"
+  },
+  {
+    "file_offset": 20744,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 20882,
+    "encoding": "ascii",
+    "text": "9T$0u"
+  },
+  {
+    "file_offset": 20913,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 20992,
+    "encoding": "ascii",
+    "text": "l$`L;"
+  },
+  {
+    "file_offset": 21178,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 21229,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 21285,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 21471,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 21499,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 21523,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 21547,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 21571,
+    "encoding": "ascii",
+    "text": "L$@H;"
+  },
+  {
+    "file_offset": 21606,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_^]"
+  },
+  {
+    "file_offset": 22005,
+    "encoding": "ascii",
+    "text": "x ATAUAVH"
+  },
+  {
+    "file_offset": 22326,
+    "encoding": "ascii",
+    "text": "@A^A]A\\"
+  },
+  {
+    "file_offset": 24199,
+    "encoding": "ascii",
+    "text": "t fE9"
+  },
+  {
+    "file_offset": 24327,
+    "encoding": "ascii",
+    "text": "t fE9"
+  },
+  {
+    "file_offset": 24491,
+    "encoding": "ascii",
+    "text": "t fE9"
+  },
+  {
+    "file_offset": 25239,
+    "encoding": "ascii",
+    "text": "fB9,^u"
+  },
+  {
+    "file_offset": 25307,
+    "encoding": "ascii",
+    "text": "l$ VWATH"
+  },
+  {
+    "file_offset": 25447,
+    "encoding": "ascii",
+    "text": "|$ I;"
+  },
+  {
+    "file_offset": 25503,
+    "encoding": "ascii",
+    "text": "\\$(A;"
+  },
+  {
+    "file_offset": 25878,
+    "encoding": "ascii",
+    "text": "\\$ UVWATAUAVAWH"
+  },
+  {
+    "file_offset": 26360,
+    "encoding": "ascii",
+    "text": "A_A^A]A\\_^]"
+  },
+  {
+    "file_offset": 27078,
+    "encoding": "ascii",
+    "text": "tWfA9DP"
+  },
+  {
+    "file_offset": 27092,
+    "encoding": "ascii",
+    "text": "tGfA9DP"
+  },
+  {
+    "file_offset": 27135,
+    "encoding": "ascii",
+    "text": "fA9DP"
+  },
+  {
+    "file_offset": 27227,
+    "encoding": "ascii",
+    "text": "t*f9lz"
+  },
+  {
+    "file_offset": 27494,
+    "encoding": "ascii",
+    "text": "v&f9|Z"
+  },
+  {
+    "file_offset": 27546,
+    "encoding": "ascii",
+    "text": "vSf9|Z"
+  },
+  {
+    "file_offset": 28011,
+    "encoding": "ascii",
+    "text": "ATAUAVH"
+  },
+  {
+    "file_offset": 28073,
+    "encoding": "ascii",
+    "text": "0A^A]A\\"
+  },
+  {
+    "file_offset": 28096,
+    "encoding": "ascii",
+    "text": "D$(E3"
+  },
+  {
+    "file_offset": 28137,
+    "encoding": "ascii",
+    "text": "D$hH;"
+  },
+  {
+    "file_offset": 28298,
+    "encoding": "ascii",
+    "text": "D$hH9"
+  },
+  {
+    "file_offset": 28944,
+    "encoding": "ascii",
+    "text": "t$ WH"
+  },
+  {
+    "file_offset": 29538,
+    "encoding": "ascii",
+    "text": "H!X H!X"
+  },
+  {
+    "file_offset": 29621,
+    "encoding": "ascii",
+    "text": "D$ E3"
+  },
+  {
+    "file_offset": 29835,
+    "encoding": "ascii",
+    "text": "VWATAUAVH"
+  },
+  {
+    "file_offset": 30081,
+    "encoding": "ascii",
+    "text": " A^A]A\\_^"
+  },
+  {
+    "file_offset": 30482,
+    "encoding": "ascii",
+    "text": "L$ WH"
+  },
+  {
+    "file_offset": 31698,
+    "encoding": "ascii",
+    "text": "VWATAUAVH"
+  },
+  {
+    "file_offset": 32144,
+    "encoding": "ascii",
+    "text": " A^A]A\\_^"
+  },
+  {
+    "file_offset": 32444,
+    "encoding": "ascii",
+    "text": "\\$ E3"
+  },
+  {
+    "file_offset": 33296,
+    "encoding": "ascii",
+    "text": "HcH<H"
+  },
+  {
+    "file_offset": 33344,
+    "encoding": "ascii",
+    "text": "LcA<E3"
+  },
+  {
+    "file_offset": 33631,
+    "encoding": "ascii",
+    "text": "\\$8L3"
+  },
+  {
+    "file_offset": 33738,
+    "encoding": "ascii",
+    "text": "\\$XE3"
+  },
+  {
+    "file_offset": 34137,
+    "encoding": "ascii",
+    "text": "x ATH"
+  },
+  {
+    "file_offset": 34410,
+    "encoding": "ascii",
+    "text": "EP=csm"
+  },
+  {
+    "file_offset": 34506,
+    "encoding": "ascii",
+    "text": "Ep=csm"
+  },
+  {
+    "file_offset": 34602,
+    "encoding": "ascii",
+    "text": "E`=csm"
+  },
+  {
+    "file_offset": 34794,
+    "encoding": "ascii",
+    "text": "E(=csm"
+  },
+  {
+    "file_offset": 34890,
+    "encoding": "ascii",
+    "text": "E@=csm"
+  },
+  {
+    "file_offset": 34986,
+    "encoding": "ascii",
+    "text": "EX=csm"
+  },
+  {
+    "file_offset": 35082,
+    "encoding": "ascii",
+    "text": "Ex=csm"
+  },
+  {
+    "file_offset": 40946,
+    "encoding": "ascii",
+    "text": "_purecall"
+  },
+  {
+    "file_offset": 40958,
+    "encoding": "ascii",
+    "text": "wcsrchr"
+  },
+  {
+    "file_offset": 40976,
+    "encoding": "ascii",
+    "text": "malloc"
+  },
+  {
+    "file_offset": 40986,
+    "encoding": "ascii",
+    "text": "?what@exception@@UEBAPEBDXZ"
+  },
+  {
+    "file_offset": 41016,
+    "encoding": "ascii",
+    "text": "??1exception@@UEAA@XZ"
+  },
+  {
+    "file_offset": 41040,
+    "encoding": "ascii",
+    "text": "??0exception@@QEAA@AEBQEBDH@Z"
+  },
+  {
+    "file_offset": 41072,
+    "encoding": "ascii",
+    "text": "??0exception@@QEAA@AEBV0@@Z"
+  },
+  {
+    "file_offset": 41102,
+    "encoding": "ascii",
+    "text": "memset"
+  },
+  {
+    "file_offset": 41112,
+    "encoding": "ascii",
+    "text": "__C_specific_handler"
+  },
+  {
+    "file_offset": 41136,
+    "encoding": "ascii",
+    "text": "_XcptFilter"
+  },
+  {
+    "file_offset": 41150,
+    "encoding": "ascii",
+    "text": "_initterm"
+  },
+  {
+    "file_offset": 41162,
+    "encoding": "ascii",
+    "text": "_amsg_exit"
+  },
+  {
+    "file_offset": 41176,
+    "encoding": "ascii",
+    "text": "??1type_info@@UEAA@XZ"
+  },
+  {
+    "file_offset": 41200,
+    "encoding": "ascii",
+    "text": "_unlock"
+  },
+  {
+    "file_offset": 41210,
+    "encoding": "ascii",
+    "text": "__dllonexit"
+  },
+  {
+    "file_offset": 41224,
+    "encoding": "ascii",
+    "text": "_lock"
+  },
+  {
+    "file_offset": 41232,
+    "encoding": "ascii",
+    "text": "_onexit"
+  },
+  {
+    "file_offset": 41240,
+    "encoding": "ascii",
+    "text": "msvcrt.dll"
+  },
+  {
+    "file_offset": 41254,
+    "encoding": "ascii",
+    "text": "LocalAlloc"
+  },
+  {
+    "file_offset": 41268,
+    "encoding": "ascii",
+    "text": "LocalFree"
+  },
+  {
+    "file_offset": 41280,
+    "encoding": "ascii",
+    "text": "LoadLibraryW"
+  },
+  {
+    "file_offset": 41296,
+    "encoding": "ascii",
+    "text": "GetProcAddress"
+  },
+  {
+    "file_offset": 41314,
+    "encoding": "ascii",
+    "text": "FreeLibrary"
+  },
+  {
+    "file_offset": 41328,
+    "encoding": "ascii",
+    "text": "DeleteCriticalSection"
+  },
+  {
+    "file_offset": 41352,
+    "encoding": "ascii",
+    "text": "RaiseException"
+  },
+  {
+    "file_offset": 41370,
+    "encoding": "ascii",
+    "text": "EnterCriticalSection"
+  },
+  {
+    "file_offset": 41394,
+    "encoding": "ascii",
+    "text": "LeaveCriticalSection"
+  },
+  {
+    "file_offset": 41418,
+    "encoding": "ascii",
+    "text": "InitializeCriticalSection"
+  },
+  {
+    "file_offset": 41446,
+    "encoding": "ascii",
+    "text": "CloseHandle"
+  },
+  {
+    "file_offset": 41460,
+    "encoding": "ascii",
+    "text": "GetLastError"
+  },
+  {
+    "file_offset": 41476,
+    "encoding": "ascii",
+    "text": "Sleep"
+  },
+  {
+    "file_offset": 41484,
+    "encoding": "ascii",
+    "text": "QueryPerformanceCounter"
+  },
+  {
+    "file_offset": 41510,
+    "encoding": "ascii",
+    "text": "GetTickCount"
+  },
+  {
+    "file_offset": 41526,
+    "encoding": "ascii",
+    "text": "GetCurrentThreadId"
+  },
+  {
+    "file_offset": 41548,
+    "encoding": "ascii",
+    "text": "GetCurrentProcessId"
+  },
+  {
+    "file_offset": 41570,
+    "encoding": "ascii",
+    "text": "GetSystemTimeAsFileTime"
+  },
+  {
+    "file_offset": 41596,
+    "encoding": "ascii",
+    "text": "TerminateProcess"
+  },
+  {
+    "file_offset": 41616,
+    "encoding": "ascii",
+    "text": "GetCurrentProcess"
+  },
+  {
+    "file_offset": 41636,
+    "encoding": "ascii",
+    "text": "UnhandledExceptionFilter"
+  },
+  {
+    "file_offset": 41664,
+    "encoding": "ascii",
+    "text": "SetUnhandledExceptionFilter"
+  },
+  {
+    "file_offset": 41694,
+    "encoding": "ascii",
+    "text": "RtlVirtualUnwind"
+  },
+  {
+    "file_offset": 41714,
+    "encoding": "ascii",
+    "text": "RtlLookupFunctionEntry"
+  },
+  {
+    "file_offset": 41740,
+    "encoding": "ascii",
+    "text": "RtlCaptureContext"
+  },
+  {
+    "file_offset": 41758,
+    "encoding": "ascii",
+    "text": "KERNEL32.dll"
+  },
+  {
+    "file_offset": 41774,
+    "encoding": "ascii",
+    "text": "TraceEvent"
+  },
+  {
+    "file_offset": 41788,
+    "encoding": "ascii",
+    "text": "GetTraceLoggerHandle"
+  },
+  {
+    "file_offset": 41812,
+    "encoding": "ascii",
+    "text": "GetTraceEnableLevel"
+  },
+  {
+    "file_offset": 41834,
+    "encoding": "ascii",
+    "text": "GetTraceEnableFlags"
+  },
+  {
+    "file_offset": 41856,
+    "encoding": "ascii",
+    "text": "RegisterTraceGuidsW"
+  },
+  {
+    "file_offset": 41878,
+    "encoding": "ascii",
+    "text": "UnregisterTraceGuids"
+  },
+  {
+    "file_offset": 41902,
+    "encoding": "ascii",
+    "text": "RegCloseKey"
+  },
+  {
+    "file_offset": 41914,
+    "encoding": "ascii",
+    "text": "ADVAPI32.dll"
+  },
+  {
+    "file_offset": 41930,
+    "encoding": "ascii",
+    "text": "CoCreateInstance"
+  },
+  {
+    "file_offset": 41950,
+    "encoding": "ascii",
+    "text": "StringFromGUID2"
+  },
+  {
+    "file_offset": 41966,
+    "encoding": "ascii",
+    "text": "ole32.dll"
+  },
+  {
+    "file_offset": 41978,
+    "encoding": "ascii",
+    "text": "_vsnwprintf"
+  },
+  {
+    "file_offset": 41992,
+    "encoding": "ascii",
+    "text": "memmove"
+  },
+  {
+    "file_offset": 42002,
+    "encoding": "ascii",
+    "text": "__RTDynamicCast"
+  },
+  {
+    "file_offset": 42020,
+    "encoding": "ascii",
+    "text": "memcpy"
+  },
+  {
+    "file_offset": 42030,
+    "encoding": "ascii",
+    "text": "_CxxThrowException"
+  },
+  {
+    "file_offset": 42052,
+    "encoding": "ascii",
+    "text": "__CxxFrameHandler3"
+  },
+  {
+    "file_offset": 42074,
+    "encoding": "ascii",
+    "text": "DisableThreadLibraryCalls"
+  },
+  {
+    "file_offset": 42102,
+    "encoding": "ascii",
+    "text": "GetModuleHandleW"
+  },
+  {
+    "file_offset": 42122,
+    "encoding": "ascii",
+    "text": "GetModuleFileNameW"
+  },
+  {
+    "file_offset": 42144,
+    "encoding": "ascii",
+    "text": "CreateFileW"
+  },
+  {
+    "file_offset": 42158,
+    "encoding": "ascii",
+    "text": "GetFileSizeEx"
+  },
+  {
+    "file_offset": 42174,
+    "encoding": "ascii",
+    "text": "InitializeCriticalSectionAndSpinCount"
+  },
+  {
+    "file_offset": 42214,
+    "encoding": "ascii",
+    "text": "GetVersionExW"
+  },
+  {
+    "file_offset": 42230,
+    "encoding": "ascii",
+    "text": "HeapAlloc"
+  },
+  {
+    "file_offset": 42242,
+    "encoding": "ascii",
+    "text": "HeapFree"
+  },
+  {
+    "file_offset": 42254,
+    "encoding": "ascii",
+    "text": "GetProcessHeap"
+  },
+  {
+    "file_offset": 42272,
+    "encoding": "ascii",
+    "text": "HeapReAlloc"
+  },
+  {
+    "file_offset": 42286,
+    "encoding": "ascii",
+    "text": "HeapDestroy"
+  },
+  {
+    "file_offset": 42300,
+    "encoding": "ascii",
+    "text": "HeapCreate"
+  },
+  {
+    "file_offset": 42314,
+    "encoding": "ascii",
+    "text": "HeapValidate"
+  },
+  {
+    "file_offset": 42330,
+    "encoding": "ascii",
+    "text": "HeapSize"
+  },
+  {
+    "file_offset": 42342,
+    "encoding": "ascii",
+    "text": "RegQueryValueExW"
+  },
+  {
+    "file_offset": 42362,
+    "encoding": "ascii",
+    "text": "RegOpenKeyExW"
+  },
+  {
+    "file_offset": 42464,
+    "encoding": "ascii",
+    "text": "MpOAv.DLL"
+  },
+  {
+    "file_offset": 42474,
+    "encoding": "ascii",
+    "text": "DllCanUnloadNow"
+  },
+  {
+    "file_offset": 42490,
+    "encoding": "ascii",
+    "text": "DllGetClassObject"
+  },
+  {
+    "file_offset": 42508,
+    "encoding": "ascii",
+    "text": "DllRegisterServer"
+  },
+  {
+    "file_offset": 42526,
+    "encoding": "ascii",
+    "text": "DllUnregisterServer"
+  },
+  {
+    "file_offset": 43552,
+    "encoding": "ascii",
+    "text": ".?AU_ATL_MODULE70@ATL@@"
+  },
+  {
+    "file_offset": 43592,
+    "encoding": "ascii",
+    "text": ".?AVCAtlModule@ATL@@"
+  },
+  {
+    "file_offset": 43632,
+    "encoding": "ascii",
+    "text": ".?AV?$CAtlModuleT@VCMpOAVModule@@@ATL@@"
+  },
+  {
+    "file_offset": 43688,
+    "encoding": "ascii",
+    "text": ".?AV?$CAtlDllModuleT@VCMpOAVModule@@@ATL@@"
+  },
+  {
+    "file_offset": 43752,
+    "encoding": "ascii",
+    "text": ".?AVCMpOAVModule@@"
+  },
+  {
+    "file_offset": 43824,
+    "encoding": "ascii",
+    "text": ".?AV?$CComContainedObject@VCComMpOfficeAV@@@ATL@@"
+  },
+  {
+    "file_offset": 43904,
+    "encoding": "ascii",
+    "text": ".?AV?$CComObjectRootEx@VCComMultiThreadModelNoCS@ATL@@@ATL@@"
+  },
+  {
+    "file_offset": 43984,
+    "encoding": "ascii",
+    "text": ".?AV?$CComAggObject@VCComMpOfficeAV@@@ATL@@"
+  },
+  {
+    "file_offset": 44048,
+    "encoding": "ascii",
+    "text": ".?AUIOfficeAntiVirus@@"
+  },
+  {
+    "file_offset": 44096,
+    "encoding": "ascii",
+    "text": ".?AV?$CComCoClass@VCComMpOfficeAV@@$1?CLSID_MpOfficeAV@@3U_GUID@@B@ATL@@"
+  },
+  {
+    "file_offset": 44192,
+    "encoding": "ascii",
+    "text": ".?AVCComMpOfficeAV@@"
+  },
+  {
+    "file_offset": 44232,
+    "encoding": "ascii",
+    "text": ".?AV?$CComObject@VCComMpOfficeAV@@@ATL@@"
+  },
+  {
+    "file_offset": 44296,
+    "encoding": "ascii",
+    "text": ".?AVCComObjectRootBase@ATL@@"
+  },
+  {
+    "file_offset": 44352,
+    "encoding": "ascii",
+    "text": ".?AV?$CComObjectRootEx@VCComMultiThreadModel@ATL@@@ATL@@"
+  },
+  {
+    "file_offset": 44432,
+    "encoding": "ascii",
+    "text": ".?AUIUnknown@@"
+  },
+  {
+    "file_offset": 44464,
+    "encoding": "ascii",
+    "text": ".?AUIClassFactory@@"
+  },
+  {
+    "file_offset": 44504,
+    "encoding": "ascii",
+    "text": ".?AVCComClassFactory@ATL@@"
+  },
+  {
+    "file_offset": 44560,
+    "encoding": "ascii",
+    "text": ".?AV?$CComObjectNoLock@VCComClassFactory@ATL@@@ATL@@"
+  },
+  {
+    "file_offset": 44712,
+    "encoding": "ascii",
+    "text": ".?AVCMpOav@MPOAV@@"
+  },
+  {
+    "file_offset": 44752,
+    "encoding": "ascii",
+    "text": ".?AVCRefObject@CommonUtil@@"
+  },
+  {
+    "file_offset": 44800,
+    "encoding": "ascii",
+    "text": ".?AUIMpOav@MPOAV@@"
+  },
+  {
+    "file_offset": 44840,
+    "encoding": "ascii",
+    "text": ".?AVexception@@"
+  },
+  {
+    "file_offset": 44872,
+    "encoding": "ascii",
+    "text": ".?AVCMpClient@MPOAV@@"
+  },
+  {
+    "file_offset": 44912,
+    "encoding": "ascii",
+    "text": ".?AUIMpClient@MPOAV@@"
+  },
+  {
+    "file_offset": 44952,
+    "encoding": "ascii",
+    "text": ".?AVCMpOavConfig@MPOAV@@"
+  },
+  {
+    "file_offset": 45000,
+    "encoding": "ascii",
+    "text": ".?AUIMpOavConfig@MPOAV@@"
+  },
+  {
+    "file_offset": 45048,
+    "encoding": "ascii",
+    "text": ".?AVbad_alloc@std@@"
+  },
+  {
+    "file_offset": 45088,
+    "encoding": "ascii",
+    "text": ".?AVinvalid_argument@std@@"
+  },
+  {
+    "file_offset": 45136,
+    "encoding": "ascii",
+    "text": ".?AVout_of_range@std@@"
+  },
+  {
+    "file_offset": 45176,
+    "encoding": "ascii",
+    "text": ".?AVCHResultException@CommonUtil@@"
+  },
+  {
+    "file_offset": 45232,
+    "encoding": "ascii",
+    "text": ".?AUIRefObject@CommonUtil@@"
+  },
+  {
+    "file_offset": 45280,
+    "encoding": "ascii",
+    "text": ".?AVCPredefinedMpHeapsHolder@CommonUtil@@"
+  },
+  {
+    "file_offset": 45344,
+    "encoding": "ascii",
+    "text": ".?AVCPtrObject@CommonUtil@@"
+  },
+  {
+    "file_offset": 45392,
+    "encoding": "ascii",
+    "text": ".?AVCPtrObjectProcessHeap@CommonUtil@@"
+  },
+  {
+    "file_offset": 45456,
+    "encoding": "ascii",
+    "text": ".?AV?$CRefObjectFor@UIMpHeap@CommonUtil@@@CommonUtil@@"
+  },
+  {
+    "file_offset": 45528,
+    "encoding": "ascii",
+    "text": ".?AVCMpSimpleHeap@CommonUtil@@"
+  },
+  {
+    "file_offset": 45576,
+    "encoding": "ascii",
+    "text": ".?AUIMpHeap@CommonUtil@@"
+  },
+  {
+    "file_offset": 48874,
+    "encoding": "utf-16le",
+    "text": "REGISTRY"
+  },
+  {
+    "file_offset": 48918,
+    "encoding": "utf-16le",
+    "text": "VS_VERSION_INFO"
+  },
+  {
+    "file_offset": 49010,
+    "encoding": "utf-16le",
+    "text": "StringFileInfo"
+  },
+  {
+    "file_offset": 49046,
+    "encoding": "utf-16le",
+    "text": "040904B0"
+  },
+  {
+    "file_offset": 49070,
+    "encoding": "utf-16le",
+    "text": "CompanyName"
+  },
+  {
+    "file_offset": 49096,
+    "encoding": "utf-16le",
+    "text": "Microsoft Corporation"
+  },
+  {
+    "file_offset": 49146,
+    "encoding": "utf-16le",
+    "text": "FileDescription"
+  },
+  {
+    "file_offset": 49180,
+    "encoding": "utf-16le",
+    "text": "IOfficeAntiVirus Module"
+  },
+  {
+    "file_offset": 49234,
+    "encoding": "utf-16le",
+    "text": "FileVersion"
+  },
+  {
+    "file_offset": 49260,
+    "encoding": "utf-16le",
+    "text": "6.1.7601.23403 (win7sp1_ldr.160325-0600)"
+  },
+  {
+    "file_offset": 49350,
+    "encoding": "utf-16le",
+    "text": "InternalName"
+  },
+  {
+    "file_offset": 49376,
+    "encoding": "utf-16le",
+    "text": "MpOAV"
+  },
+  {
+    "file_offset": 49394,
+    "encoding": "utf-16le",
+    "text": "LegalCopyright"
+  },
+  {
+    "file_offset": 49426,
+    "encoding": "utf-16le",
+    "text": " Microsoft Corporation. All rights reserved."
+  },
+  {
+    "file_offset": 49522,
+    "encoding": "utf-16le",
+    "text": "OriginalFilename"
+  },
+  {
+    "file_offset": 49556,
+    "encoding": "utf-16le",
+    "text": "MpOAV.dll"
+  },
+  {
+    "file_offset": 49582,
+    "encoding": "utf-16le",
+    "text": "ProductName"
+  },
+  {
+    "file_offset": 49608,
+    "encoding": "utf-16le",
+    "text": "Microsoft"
+  },
+  {
+    "file_offset": 49628,
+    "encoding": "utf-16le",
+    "text": " Windows"
+  },
+  {
+    "file_offset": 49646,
+    "encoding": "utf-16le",
+    "text": " Operating System"
+  },
+  {
+    "file_offset": 49690,
+    "encoding": "utf-16le",
+    "text": "ProductVersion"
+  },
+  {
+    "file_offset": 49720,
+    "encoding": "utf-16le",
+    "text": "6.1.7601.23403"
+  },
+  {
+    "file_offset": 49758,
+    "encoding": "utf-16le",
+    "text": "VarFileInfo"
+  },
+  {
+    "file_offset": 49790,
+    "encoding": "utf-16le",
+    "text": "Translation"
+  },
+  {
+    "file_offset": 49834,
+    "encoding": "ascii",
+    "text": "NoRemove CLSID"
+  },
+  {
+    "file_offset": 49856,
+    "encoding": "ascii",
+    "text": "ForceRemove {2781761E-28E0-4109-99FE-B9D127C57AFE} = s 'Microsoft IOfficeAntiVirus implementation' "
+  },
+  {
+    "file_offset": 49965,
+    "encoding": "ascii",
+    "text": "InprocServer32 = s '%MODULE%'"
+  },
+  {
+    "file_offset": 50006,
+    "encoding": "ascii",
+    "text": "val ThreadingModel = s 'Both'"
+  },
+  {
+    "file_offset": 50046,
+    "encoding": "ascii",
+    "text": "Hosts = s 'Scanned Hosting Applications'"
+  },
+  {
+    "file_offset": 50098,
+    "encoding": "ascii",
+    "text": "urlmon = s 'ActiveX controls'"
+  },
+  {
+    "file_offset": 50141,
+    "encoding": "ascii",
+    "text": "val Enable = d '1' "
+  },
+  {
+    "file_offset": 50173,
+    "encoding": "ascii",
+    "text": "shdocvw = s 'IAttachmentExecute'"
+  },
+  {
+    "file_offset": 50219,
+    "encoding": "ascii",
+    "text": "val Enable = d '1' "
+  },
+  {
+    "file_offset": 50245,
+    "encoding": "ascii",
+    "text": "val MaxFileSize = d '20971520'"
+  },
+  {
+    "file_offset": 50345,
+    "encoding": "ascii",
+    "text": "/;n>k"
+  },
+  {
+    "file_offset": 50440,
+    "encoding": "utf-16le",
+    "text": "REGISTRY"
+  },
+  {
+    "file_offset": 50504,
+    "encoding": "utf-16le",
+    "text": "en-US"
+  }
+]

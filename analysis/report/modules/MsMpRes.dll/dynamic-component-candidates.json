@@ -1,0 +1,12 @@
+[
+  {
+    "file_offset": 6834,
+    "encoding": "ascii",
+    "text": "MsMpRes.dll"
+  },
+  {
+    "file_offset": 486620,
+    "encoding": "utf-16le",
+    "text": "MsMpRes.dll"
+  }
+]

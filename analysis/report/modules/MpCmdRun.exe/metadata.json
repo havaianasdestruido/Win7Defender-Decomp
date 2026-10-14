@@ -1,0 +1,5348 @@
+{
+  "path": "bin/MpCmdRun.exe",
+  "module": "MpCmdRun.exe",
+  "size": 190976,
+  "sha256": "e21b38e77047ca809cf472a2b5bbd6c6b438fb05043408dcb5bf5bf4487cbed2",
+  "format": "PE32+",
+  "architecture": "IMAGE_FILE_MACHINE_AMD64",
+  "bitness": 64,
+  "endianness": "little",
+  "image_base": 4294967296,
+  "entry_rva": 150760,
+  "coff_timestamp": 1458928702,
+  "coff_timestamp_utc": "2016-03-25T17:58:22+00:00",
+  "coff_characteristics": 34,
+  "linker_version": "9.0",
+  "os_version": "6.1",
+  "subsystem": 3,
+  "dll_characteristics": 33088,
+  "file_alignment": 512,
+  "section_alignment": 4096,
+  "size_of_image": 208896,
+  "checksum_stored": 213163,
+  "checksum_computed": 213163,
+  "coff_symbols": 0,
+  "managed_cli_directory": false,
+  "status": "structural analysis complete; semantic coverage tracked separately",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "virtual_size": 176312,
+      "file_offset": 1024,
+      "raw_size": 176640,
+      "characteristics": 1610612768,
+      "entropy": 5.8773
+    },
+    {
+      "name": ".data",
+      "rva": 184320,
+      "virtual_size": 4456,
+      "file_offset": 177664,
+      "raw_size": 3072,
+      "characteristics": 3221225536,
+      "entropy": 3.7972
+    },
+    {
+      "name": ".pdata",
+      "rva": 192512,
+      "virtual_size": 6444,
+      "file_offset": 180736,
+      "raw_size": 6656,
+      "characteristics": 1073741888,
+      "entropy": 5.1976
+    },
+    {
+      "name": ".rsrc",
+      "rva": 200704,
+      "virtual_size": 1584,
+      "file_offset": 187392,
+      "raw_size": 2048,
+      "characteristics": 1073741888,
+      "entropy": 3.5102
+    },
+    {
+      "name": ".reloc",
+      "rva": 204800,
+      "virtual_size": 1314,
+      "file_offset": 189440,
+      "raw_size": 1536,
+      "characteristics": 1107296320,
+      "entropy": 2.4007
+    }
+  ],
+  "directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "address": 175360,
+      "size": 200,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "address": 200704,
+      "size": 1584,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+      "address": 192512,
+      "size": 6444,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "address": 0,
+      "size": 0,
+      "coordinate": "file offset"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+      "address": 204800,
+      "size": 516,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+      "address": 5728,
+      "size": 28,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "address": 4096,
+      "size": 1568,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+      "address": 0,
+      "size": 0,
+      "coordinate": "RVA"
+    }
+  ],
+  "imports": [
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "TraceEvent",
+      "ordinal": null,
+      "hint": 757,
+      "iat_va": 4294971392,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTraceLoggerHandle",
+      "ordinal": null,
+      "hint": 350,
+      "iat_va": 4294971400,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTraceEnableLevel",
+      "ordinal": null,
+      "hint": 349,
+      "iat_va": 4294971408,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetTraceEnableFlags",
+      "ordinal": null,
+      "hint": 348,
+      "iat_va": 4294971416,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegisterTraceGuidsW",
+      "ordinal": null,
+      "hint": 651,
+      "iat_va": 4294971424,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "UnregisterTraceGuids",
+      "ordinal": null,
+      "hint": 771,
+      "iat_va": 4294971432,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "FreeSid",
+      "ordinal": null,
+      "hint": 289,
+      "iat_va": 4294971440,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "LogonUserW",
+      "ordinal": null,
+      "hint": 398,
+      "iat_va": 4294971448,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "OpenProcessToken",
+      "ordinal": null,
+      "hint": 504,
+      "iat_va": 4294971456,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetUserNameW",
+      "ordinal": null,
+      "hint": 358,
+      "iat_va": 4294971464,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CreateProcessAsUserW",
+      "ordinal": null,
+      "hint": 124,
+      "iat_va": 4294971472,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CreateRestrictedToken",
+      "ordinal": null,
+      "hint": 127,
+      "iat_va": 4294971480,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegCloseKey",
+      "ordinal": null,
+      "hint": 561,
+      "iat_va": 4294971488,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "ReadEventLogW",
+      "ordinal": null,
+      "hint": 560,
+      "iat_va": 4294971496,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegOpenKeyExW",
+      "ordinal": null,
+      "hint": 610,
+      "iat_va": 4294971504,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegQueryValueExW",
+      "ordinal": null,
+      "hint": 623,
+      "iat_va": 4294971512,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "OpenEventLogW",
+      "ordinal": null,
+      "hint": 503,
+      "iat_va": 4294971520,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetOldestEventLogRecord",
+      "ordinal": null,
+      "hint": 325,
+      "iat_va": 4294971528,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "GetNumberOfEventLogRecords",
+      "ordinal": null,
+      "hint": 324,
+      "iat_va": 4294971536,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CloseEventLog",
+      "ordinal": null,
+      "hint": 86,
+      "iat_va": 4294971544,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "OpenSCManagerW",
+      "ordinal": null,
+      "hint": 506,
+      "iat_va": 4294971552,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "OpenServiceW",
+      "ordinal": null,
+      "hint": 508,
+      "iat_va": 4294971560,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "QueryServiceStatusEx",
+      "ordinal": null,
+      "hint": 554,
+      "iat_va": 4294971568,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CloseServiceHandle",
+      "ordinal": null,
+      "hint": 87,
+      "iat_va": 4294971576,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "CheckTokenMembership",
+      "ordinal": null,
+      "hint": 81,
+      "iat_va": 4294971584,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "IsValidSid",
+      "ordinal": null,
+      "hint": 391,
+      "iat_va": 4294971592,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "AllocateAndInitializeSid",
+      "ordinal": null,
+      "hint": 32,
+      "iat_va": 4294971600,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegEnumKeyExW",
+      "ordinal": null,
+      "hint": 592,
+      "iat_va": 4294971608,
+      "kind": "normal"
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegEnumValueW",
+      "ordinal": null,
+      "hint": 595,
+      "iat_va": 4294971616,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "Sleep",
+      "ordinal": null,
+      "hint": 1221,
+      "iat_va": 4294971672,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetFileAttributesW",
+      "ordinal": null,
+      "hint": 1138,
+      "iat_va": 4294971680,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DeleteFileW",
+      "ordinal": null,
+      "hint": 216,
+      "iat_va": 4294971688,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapFree",
+      "ordinal": null,
+      "hint": 729,
+      "iat_va": 4294971696,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapAlloc",
+      "ordinal": null,
+      "hint": 725,
+      "iat_va": 4294971704,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetFileInformationByHandle",
+      "ordinal": null,
+      "hint": 498,
+      "iat_va": 4294971712,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "MultiByteToWideChar",
+      "ordinal": null,
+      "hint": 874,
+      "iat_va": 4294971720,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WideCharToMultiByte",
+      "ordinal": null,
+      "hint": 1319,
+      "iat_va": 4294971728,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FileTimeToDosDateTime",
+      "ordinal": null,
+      "hint": 298,
+      "iat_va": 4294971736,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemPowerStatus",
+      "ordinal": null,
+      "hint": 635,
+      "iat_va": 4294971744,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapSetInformation",
+      "ordinal": null,
+      "hint": 733,
+      "iat_va": 4294971752,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateEventW",
+      "ordinal": null,
+      "hint": 134,
+      "iat_va": 4294971760,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateTimerQueueTimer",
+      "ordinal": null,
+      "hint": 189,
+      "iat_va": 4294971768,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetFileAttributesW",
+      "ordinal": null,
+      "hint": 496,
+      "iat_va": 4294971776,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemDirectoryW",
+      "ordinal": null,
+      "hint": 631,
+      "iat_va": 4294971784,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WriteFile",
+      "ordinal": null,
+      "hint": 1339,
+      "iat_va": 4294971792,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetFilePointerEx",
+      "ordinal": null,
+      "hint": 1144,
+      "iat_va": 4294971800,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlCaptureContext",
+      "ordinal": null,
+      "hint": 1050,
+      "iat_va": 4294971808,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlLookupFunctionEntry",
+      "ordinal": null,
+      "hint": 1057,
+      "iat_va": 4294971816,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlVirtualUnwind",
+      "ordinal": null,
+      "hint": 1064,
+      "iat_va": 4294971824,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "UnhandledExceptionFilter",
+      "ordinal": null,
+      "hint": 1257,
+      "iat_va": 4294971832,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemTimeAsFileTime",
+      "ordinal": null,
+      "hint": 640,
+      "iat_va": 4294971840,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentProcessId",
+      "ordinal": null,
+      "hint": 456,
+      "iat_va": 4294971848,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentThreadId",
+      "ordinal": null,
+      "hint": 460,
+      "iat_va": 4294971856,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "QueryPerformanceCounter",
+      "ordinal": null,
+      "hint": 938,
+      "iat_va": 4294971864,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetModuleHandleW",
+      "ordinal": null,
+      "hint": 541,
+      "iat_va": 4294971872,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetUnhandledExceptionFilter",
+      "ordinal": null,
+      "hint": 1207,
+      "iat_va": 4294971880,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FreeLibrary",
+      "ordinal": null,
+      "hint": 361,
+      "iat_va": 4294971888,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LocalAlloc",
+      "ordinal": null,
+      "hint": 840,
+      "iat_va": 4294971896,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LocalFree",
+      "ordinal": null,
+      "hint": 844,
+      "iat_va": 4294971904,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LoadLibraryW",
+      "ordinal": null,
+      "hint": 835,
+      "iat_va": 4294971912,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetProcAddress",
+      "ordinal": null,
+      "hint": 587,
+      "iat_va": 4294971920,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetErrorMode",
+      "ordinal": null,
+      "hint": 1130,
+      "iat_va": 4294971928,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FormatMessageW",
+      "ordinal": null,
+      "hint": 357,
+      "iat_va": 4294971936,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetLastError",
+      "ordinal": null,
+      "hint": 519,
+      "iat_va": 4294971944,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetLastError",
+      "ordinal": null,
+      "hint": 1155,
+      "iat_va": 4294971952,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetDateFormatW",
+      "ordinal": null,
+      "hint": 464,
+      "iat_va": 4294971960,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetTimeFormatW",
+      "ordinal": null,
+      "hint": 670,
+      "iat_va": 4294971968,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetLocalTime",
+      "ordinal": null,
+      "hint": 520,
+      "iat_va": 4294971976,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LoadLibraryExW",
+      "ordinal": null,
+      "hint": 834,
+      "iat_va": 4294971984,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ExpandEnvironmentStringsW",
+      "ordinal": null,
+      "hint": 292,
+      "iat_va": 4294971992,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FileTimeToSystemTime",
+      "ordinal": null,
+      "hint": 300,
+      "iat_va": 4294972000,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FileTimeToLocalFileTime",
+      "ordinal": null,
+      "hint": 299,
+      "iat_va": 4294972008,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindClose",
+      "ordinal": null,
+      "hint": 309,
+      "iat_va": 4294972016,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindNextFileW",
+      "ordinal": null,
+      "hint": 332,
+      "iat_va": 4294972024,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindFirstFileW",
+      "ordinal": null,
+      "hint": 320,
+      "iat_va": 4294972032,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CopyFileW",
+      "ordinal": null,
+      "hint": 118,
+      "iat_va": 4294972040,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateDirectoryW",
+      "ordinal": null,
+      "hint": 130,
+      "iat_va": 4294972048,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DeleteTimerQueueTimer",
+      "ordinal": null,
+      "hint": 220,
+      "iat_va": 4294972056,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateFileW",
+      "ordinal": null,
+      "hint": 144,
+      "iat_va": 4294972064,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemTime",
+      "ordinal": null,
+      "hint": 638,
+      "iat_va": 4294972072,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TerminateProcess",
+      "ordinal": null,
+      "hint": 1236,
+      "iat_va": 4294972080,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WaitForSingleObject",
+      "ordinal": null,
+      "hint": 1295,
+      "iat_va": 4294972088,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentProcess",
+      "ordinal": null,
+      "hint": 455,
+      "iat_va": 4294972096,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetEvent",
+      "ordinal": null,
+      "hint": 1131,
+      "iat_va": 4294972104,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CloseHandle",
+      "ordinal": null,
+      "hint": 83,
+      "iat_va": 4294972112,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetTickCount",
+      "ordinal": null,
+      "hint": 666,
+      "iat_va": 4294972120,
+      "kind": "normal"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCommandLineW",
+      "ordinal": null,
+      "hint": 398,
+      "iat_va": 4294972128,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_initterm",
+      "ordinal": null,
+      "hint": 364,
+      "iat_va": 4294972400,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "exit",
+      "ordinal": null,
+      "hint": 1056,
+      "iat_va": 4294972408,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_cexit",
+      "ordinal": null,
+      "hint": 179,
+      "iat_va": 4294972416,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_exit",
+      "ordinal": null,
+      "hint": 255,
+      "iat_va": 4294972424,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_XcptFilter",
+      "ordinal": null,
+      "hint": 82,
+      "iat_va": 4294972432,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__C_specific_handler",
+      "ordinal": null,
+      "hint": 83,
+      "iat_va": 4294972440,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__wgetmainargs",
+      "ordinal": null,
+      "hint": 143,
+      "iat_va": 4294972448,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__CxxFrameHandler3",
+      "ordinal": null,
+      "hint": 87,
+      "iat_va": 4294972456,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_CxxThrowException",
+      "ordinal": null,
+      "hint": 76,
+      "iat_va": 4294972464,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_amsg_exit",
+      "ordinal": null,
+      "hint": 160,
+      "iat_va": 4294972472,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "malloc",
+      "ordinal": null,
+      "hint": 1140,
+      "iat_va": 4294972480,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "free",
+      "ordinal": null,
+      "hint": 1082,
+      "iat_va": 4294972488,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??0exception@@QEAA@XZ",
+      "ordinal": null,
+      "hint": 13,
+      "iat_va": 4294972496,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??0exception@@QEAA@AEBQEBD@Z",
+      "ordinal": null,
+      "hint": 10,
+      "iat_va": 4294972504,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "?what@exception@@UEBAPEBDXZ",
+      "ordinal": null,
+      "hint": 50,
+      "iat_va": 4294972512,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??1exception@@UEAA@XZ",
+      "ordinal": null,
+      "hint": 17,
+      "iat_va": 4294972520,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??0exception@@QEAA@AEBV0@@Z",
+      "ordinal": null,
+      "hint": 12,
+      "iat_va": 4294972528,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "swscanf",
+      "ordinal": null,
+      "hint": 1227,
+      "iat_va": 4294972536,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__RTDynamicCast",
+      "ordinal": null,
+      "hint": 90,
+      "iat_va": 4294972544,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "feof",
+      "ordinal": null,
+      "hint": 1061,
+      "iat_va": 4294972552,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "fgetws",
+      "ordinal": null,
+      "hint": 1068,
+      "iat_va": 4294972560,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "iswspace",
+      "ordinal": null,
+      "hint": 1126,
+      "iat_va": 4294972568,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "fclose",
+      "ordinal": null,
+      "hint": 1060,
+      "iat_va": 4294972576,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "towlower",
+      "ordinal": null,
+      "hint": 1241,
+      "iat_va": 4294972584,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memmove",
+      "ordinal": null,
+      "hint": 1154,
+      "iat_va": 4294972592,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_wfopen",
+      "ordinal": null,
+      "hint": 945,
+      "iat_va": 4294972600,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_errno",
+      "ordinal": null,
+      "hint": 246,
+      "iat_va": 4294972608,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "wcsrchr",
+      "ordinal": null,
+      "hint": 1278,
+      "iat_va": 4294972616,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_vsnprintf",
+      "ordinal": null,
+      "hint": 850,
+      "iat_va": 4294972624,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_wopen",
+      "ordinal": null,
+      "hint": 965,
+      "iat_va": 4294972632,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__doserrno",
+      "ordinal": null,
+      "hint": 110,
+      "iat_va": 4294972640,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_wremove",
+      "ordinal": null,
+      "hint": 976,
+      "iat_va": 4294972648,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_wtempnam",
+      "ordinal": null,
+      "hint": 1005,
+      "iat_va": 4294972656,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_read",
+      "ordinal": null,
+      "hint": 661,
+      "iat_va": 4294972664,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_lseek",
+      "ordinal": null,
+      "hint": 477,
+      "iat_va": 4294972672,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_write",
+      "ordinal": null,
+      "hint": 978,
+      "iat_va": 4294972680,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_close",
+      "ordinal": null,
+      "hint": 194,
+      "iat_va": 4294972688,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "wprintf",
+      "ordinal": null,
+      "hint": 1294,
+      "iat_va": 4294972696,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__setusermatherr",
+      "ordinal": null,
+      "hint": 130,
+      "iat_va": 4294972704,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_commode",
+      "ordinal": null,
+      "hint": 196,
+      "iat_va": 4294972712,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_fmode",
+      "ordinal": null,
+      "hint": 280,
+      "iat_va": 4294972720,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__set_app_type",
+      "ordinal": null,
+      "hint": 128,
+      "iat_va": 4294972728,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??1type_info@@UEAA@XZ",
+      "ordinal": null,
+      "hint": 18,
+      "iat_va": 4294972736,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memmove_s",
+      "ordinal": null,
+      "hint": 1155,
+      "iat_va": 4294972744,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memcpy_s",
+      "ordinal": null,
+      "hint": 1153,
+      "iat_va": 4294972752,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_purecall",
+      "ordinal": null,
+      "hint": 653,
+      "iat_va": 4294972760,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_getch",
+      "ordinal": null,
+      "hint": 335,
+      "iat_va": 4294972768,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "wcstoul",
+      "ordinal": null,
+      "hint": 1289,
+      "iat_va": 4294972776,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "swscanf_s",
+      "ordinal": null,
+      "hint": 1228,
+      "iat_va": 4294972784,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "iswprint",
+      "ordinal": null,
+      "hint": 1124,
+      "iat_va": 4294972792,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "vwprintf",
+      "ordinal": null,
+      "hint": 1257,
+      "iat_va": 4294972800,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "wcsstr",
+      "ordinal": null,
+      "hint": 1282,
+      "iat_va": 4294972808,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "?terminate@@YAXXZ",
+      "ordinal": null,
+      "hint": 48,
+      "iat_va": 4294972816,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_unlock",
+      "ordinal": null,
+      "hint": 816,
+      "iat_va": 4294972824,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "__dllonexit",
+      "ordinal": null,
+      "hint": 109,
+      "iat_va": 4294972832,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_lock",
+      "ordinal": null,
+      "hint": 469,
+      "iat_va": 4294972840,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_onexit",
+      "ordinal": null,
+      "hint": 639,
+      "iat_va": 4294972848,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memset",
+      "ordinal": null,
+      "hint": 1156,
+      "iat_va": 4294972856,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "??0exception@@QEAA@AEBQEBDH@Z",
+      "ordinal": null,
+      "hint": 11,
+      "iat_va": 4294972864,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "wcschr",
+      "ordinal": null,
+      "hint": 1263,
+      "iat_va": 4294972872,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_vsnwprintf",
+      "ordinal": null,
+      "hint": 856,
+      "iat_va": 4294972880,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "_wcsicmp",
+      "ordinal": null,
+      "hint": 889,
+      "iat_va": 4294972888,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "printf",
+      "ordinal": null,
+      "hint": 1163,
+      "iat_va": 4294972896,
+      "kind": "normal"
+    },
+    {
+      "dll": "msvcrt.dll",
+      "name": "memcpy",
+      "ordinal": null,
+      "hint": 1152,
+      "iat_va": 4294972904,
+      "kind": "normal"
+    },
+    {
+      "dll": "ole32.dll",
+      "name": "CoUninitialize",
+      "ordinal": null,
+      "hint": 112,
+      "iat_va": 4294972920,
+      "kind": "normal"
+    },
+    {
+      "dll": "ole32.dll",
+      "name": "StringFromGUID2",
+      "ordinal": null,
+      "hint": 437,
+      "iat_va": 4294972928,
+      "kind": "normal"
+    },
+    {
+      "dll": "ole32.dll",
+      "name": "CoCreateInstance",
+      "ordinal": null,
+      "hint": 20,
+      "iat_va": 4294972936,
+      "kind": "normal"
+    },
+    {
+      "dll": "ole32.dll",
+      "name": "CoInitializeEx",
+      "ordinal": null,
+      "hint": 67,
+      "iat_va": 4294972944,
+      "kind": "normal"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "name": "SysAllocString",
+      "ordinal": 2,
+      "hint": null,
+      "iat_va": 4294972320,
+      "kind": "normal"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "name": "SysFreeString",
+      "ordinal": 6,
+      "hint": null,
+      "iat_va": 4294972328,
+      "kind": "normal"
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "name": "UuidFromStringW",
+      "ordinal": null,
+      "hint": 521,
+      "iat_va": 4294972344,
+      "kind": "normal"
+    },
+    {
+      "dll": "USERENV.dll",
+      "name": "UnloadUserProfile",
+      "ordinal": null,
+      "hint": 44,
+      "iat_va": 4294972360,
+      "kind": "normal"
+    },
+    {
+      "dll": "USERENV.dll",
+      "name": "CreateEnvironmentBlock",
+      "ordinal": null,
+      "hint": 0,
+      "iat_va": 4294972368,
+      "kind": "normal"
+    },
+    {
+      "dll": "USERENV.dll",
+      "name": "LoadUserProfileW",
+      "ordinal": null,
+      "hint": 33,
+      "iat_va": 4294972376,
+      "kind": "normal"
+    },
+    {
+      "dll": "USERENV.dll",
+      "name": "DestroyEnvironmentBlock",
+      "ordinal": null,
+      "hint": 4,
+      "iat_va": 4294972384,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpUtilsExportFunctions",
+      "ordinal": null,
+      "hint": 49,
+      "iat_va": 4294972144,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigDelValue",
+      "ordinal": null,
+      "hint": 8,
+      "iat_va": 4294972152,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigIteratorClose",
+      "ordinal": null,
+      "hint": 12,
+      "iat_va": 4294972160,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigIteratorEnum",
+      "ordinal": null,
+      "hint": 13,
+      "iat_va": 4294972168,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigIteratorOpen",
+      "ordinal": null,
+      "hint": 14,
+      "iat_va": 4294972176,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigGetValueAlloc",
+      "ordinal": null,
+      "hint": 10,
+      "iat_va": 4294972184,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpManagerVersionQuery",
+      "ordinal": null,
+      "hint": 33,
+      "iat_va": 4294972192,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpUpdateStart",
+      "ordinal": null,
+      "hint": 48,
+      "iat_va": 4294972200,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigClose",
+      "ordinal": null,
+      "hint": 7,
+      "iat_va": 4294972208,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigGetValue",
+      "ordinal": null,
+      "hint": 9,
+      "iat_va": 4294972216,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigOpen",
+      "ordinal": null,
+      "hint": 15,
+      "iat_va": 4294972224,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpCleanStart",
+      "ordinal": null,
+      "hint": 4,
+      "iat_va": 4294972232,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpCleanOpen",
+      "ordinal": null,
+      "hint": 2,
+      "iat_va": 4294972240,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpScanStart",
+      "ordinal": null,
+      "hint": 41,
+      "iat_va": 4294972248,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpManagerOpen",
+      "ordinal": null,
+      "hint": 31,
+      "iat_va": 4294972256,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpScanResult",
+      "ordinal": null,
+      "hint": 40,
+      "iat_va": 4294972264,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpHandleClose",
+      "ordinal": null,
+      "hint": 28,
+      "iat_va": 4294972272,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpFreeMemory",
+      "ordinal": null,
+      "hint": 26,
+      "iat_va": 4294972280,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigUninitialize",
+      "ordinal": null,
+      "hint": 18,
+      "iat_va": 4294972288,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpConfigInitialize",
+      "ordinal": null,
+      "hint": 11,
+      "iat_va": 4294972296,
+      "kind": "normal"
+    },
+    {
+      "dll": "MpClient.dll",
+      "name": "MpClientUtilExportFunctions",
+      "ordinal": null,
+      "hint": 5,
+      "iat_va": 4294972304,
+      "kind": "normal"
+    },
+    {
+      "dll": "Cabinet.dll",
+      "name": null,
+      "ordinal": 11,
+      "hint": null,
+      "iat_va": 4294971632,
+      "kind": "normal"
+    },
+    {
+      "dll": "Cabinet.dll",
+      "name": null,
+      "ordinal": 13,
+      "hint": null,
+      "iat_va": 4294971640,
+      "kind": "normal"
+    },
+    {
+      "dll": "Cabinet.dll",
+      "name": null,
+      "ordinal": 10,
+      "hint": null,
+      "iat_va": 4294971648,
+      "kind": "normal"
+    },
+    {
+      "dll": "Cabinet.dll",
+      "name": null,
+      "ordinal": 14,
+      "hint": null,
+      "iat_va": 4294971656,
+      "kind": "normal"
+    }
+  ],
+  "exports": [],
+  "runtime_functions": [
+    {
+      "begin_rva": 53000,
+      "end_rva": 53298,
+      "unwind_rva": 161064
+    },
+    {
+      "begin_rva": 53304,
+      "end_rva": 53334,
+      "unwind_rva": 161452
+    },
+    {
+      "begin_rva": 53340,
+      "end_rva": 53530,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 53536,
+      "end_rva": 53602,
+      "unwind_rva": 163652
+    },
+    {
+      "begin_rva": 53608,
+      "end_rva": 53855,
+      "unwind_rva": 161040
+    },
+    {
+      "begin_rva": 53864,
+      "end_rva": 54033,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 54040,
+      "end_rva": 54117,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 54124,
+      "end_rva": 54183,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 54192,
+      "end_rva": 55004,
+      "unwind_rva": 174272
+    },
+    {
+      "begin_rva": 55012,
+      "end_rva": 55160,
+      "unwind_rva": 174452
+    },
+    {
+      "begin_rva": 55168,
+      "end_rva": 55910,
+      "unwind_rva": 169668
+    },
+    {
+      "begin_rva": 55916,
+      "end_rva": 57835,
+      "unwind_rva": 173660
+    },
+    {
+      "begin_rva": 57844,
+      "end_rva": 57867,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 57876,
+      "end_rva": 57899,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 57908,
+      "end_rva": 57928,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 57956,
+      "end_rva": 57979,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 57988,
+      "end_rva": 58042,
+      "unwind_rva": 161440
+    },
+    {
+      "begin_rva": 58048,
+      "end_rva": 58284,
+      "unwind_rva": 161420
+    },
+    {
+      "begin_rva": 58292,
+      "end_rva": 59103,
+      "unwind_rva": 165056
+    },
+    {
+      "begin_rva": 59112,
+      "end_rva": 59136,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 59144,
+      "end_rva": 59895,
+      "unwind_rva": 164496
+    },
+    {
+      "begin_rva": 59904,
+      "end_rva": 59937,
+      "unwind_rva": 165048
+    },
+    {
+      "begin_rva": 59944,
+      "end_rva": 60380,
+      "unwind_rva": 163620
+    },
+    {
+      "begin_rva": 60388,
+      "end_rva": 60713,
+      "unwind_rva": 166200
+    },
+    {
+      "begin_rva": 60720,
+      "end_rva": 60915,
+      "unwind_rva": 166176
+    },
+    {
+      "begin_rva": 60924,
+      "end_rva": 61087,
+      "unwind_rva": 165832
+    },
+    {
+      "begin_rva": 61096,
+      "end_rva": 61133,
+      "unwind_rva": 166168
+    },
+    {
+      "begin_rva": 61140,
+      "end_rva": 61199,
+      "unwind_rva": 169656
+    },
+    {
+      "begin_rva": 61208,
+      "end_rva": 61452,
+      "unwind_rva": 165232
+    },
+    {
+      "begin_rva": 61460,
+      "end_rva": 61515,
+      "unwind_rva": 166168
+    },
+    {
+      "begin_rva": 61524,
+      "end_rva": 61554,
+      "unwind_rva": 160676
+    },
+    {
+      "begin_rva": 61560,
+      "end_rva": 61612,
+      "unwind_rva": 161032
+    },
+    {
+      "begin_rva": 61620,
+      "end_rva": 61686,
+      "unwind_rva": 160852
+    },
+    {
+      "begin_rva": 61692,
+      "end_rva": 61843,
+      "unwind_rva": 161024
+    },
+    {
+      "begin_rva": 61852,
+      "end_rva": 62030,
+      "unwind_rva": 161016
+    },
+    {
+      "begin_rva": 62036,
+      "end_rva": 62125,
+      "unwind_rva": 161008
+    },
+    {
+      "begin_rva": 62132,
+      "end_rva": 62282,
+      "unwind_rva": 163572
+    },
+    {
+      "begin_rva": 62288,
+      "end_rva": 62311,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 62320,
+      "end_rva": 62466,
+      "unwind_rva": 169600
+    },
+    {
+      "begin_rva": 62472,
+      "end_rva": 64153,
+      "unwind_rva": 171884
+    },
+    {
+      "begin_rva": 64160,
+      "end_rva": 64933,
+      "unwind_rva": 171864
+    },
+    {
+      "begin_rva": 64940,
+      "end_rva": 65547,
+      "unwind_rva": 163556
+    },
+    {
+      "begin_rva": 65556,
+      "end_rva": 65860,
+      "unwind_rva": 169492
+    },
+    {
+      "begin_rva": 65868,
+      "end_rva": 66087,
+      "unwind_rva": 161400
+    },
+    {
+      "begin_rva": 66096,
+      "end_rva": 66351,
+      "unwind_rva": 169408
+    },
+    {
+      "begin_rva": 66428,
+      "end_rva": 66479,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 66488,
+      "end_rva": 67034,
+      "unwind_rva": 164412
+    },
+    {
+      "begin_rva": 67040,
+      "end_rva": 67239,
+      "unwind_rva": 169344
+    },
+    {
+      "begin_rva": 67248,
+      "end_rva": 67270,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 67276,
+      "end_rva": 67298,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 67304,
+      "end_rva": 67422,
+      "unwind_rva": 162016
+    },
+    {
+      "begin_rva": 67428,
+      "end_rva": 67531,
+      "unwind_rva": 160992
+    },
+    {
+      "begin_rva": 67540,
+      "end_rva": 68606,
+      "unwind_rva": 169044
+    },
+    {
+      "begin_rva": 68612,
+      "end_rva": 69152,
+      "unwind_rva": 161376
+    },
+    {
+      "begin_rva": 69160,
+      "end_rva": 69731,
+      "unwind_rva": 168984
+    },
+    {
+      "begin_rva": 69740,
+      "end_rva": 70117,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 70124,
+      "end_rva": 70203,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 70232,
+      "end_rva": 70271,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 70280,
+      "end_rva": 70580,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 70588,
+      "end_rva": 70865,
+      "unwind_rva": 163556
+    },
+    {
+      "begin_rva": 70872,
+      "end_rva": 71373,
+      "unwind_rva": 168952
+    },
+    {
+      "begin_rva": 71380,
+      "end_rva": 71998,
+      "unwind_rva": 168920
+    },
+    {
+      "begin_rva": 72004,
+      "end_rva": 72745,
+      "unwind_rva": 168892
+    },
+    {
+      "begin_rva": 72752,
+      "end_rva": 73227,
+      "unwind_rva": 168876
+    },
+    {
+      "begin_rva": 73236,
+      "end_rva": 73491,
+      "unwind_rva": 160976
+    },
+    {
+      "begin_rva": 73500,
+      "end_rva": 73673,
+      "unwind_rva": 168824
+    },
+    {
+      "begin_rva": 73680,
+      "end_rva": 73772,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 73780,
+      "end_rva": 74251,
+      "unwind_rva": 168720
+    },
+    {
+      "begin_rva": 74260,
+      "end_rva": 74340,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 74348,
+      "end_rva": 74606,
+      "unwind_rva": 164400
+    },
+    {
+      "begin_rva": 74612,
+      "end_rva": 74705,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 74712,
+      "end_rva": 74784,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 74792,
+      "end_rva": 74977,
+      "unwind_rva": 162000
+    },
+    {
+      "begin_rva": 74984,
+      "end_rva": 75122,
+      "unwind_rva": 163556
+    },
+    {
+      "begin_rva": 75128,
+      "end_rva": 75278,
+      "unwind_rva": 168700
+    },
+    {
+      "begin_rva": 75284,
+      "end_rva": 75313,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 75320,
+      "end_rva": 75442,
+      "unwind_rva": 160968
+    },
+    {
+      "begin_rva": 75448,
+      "end_rva": 75718,
+      "unwind_rva": 160944
+    },
+    {
+      "begin_rva": 75724,
+      "end_rva": 75992,
+      "unwind_rva": 160928
+    },
+    {
+      "begin_rva": 76000,
+      "end_rva": 76736,
+      "unwind_rva": 168684
+    },
+    {
+      "begin_rva": 76744,
+      "end_rva": 78612,
+      "unwind_rva": 173500
+    },
+    {
+      "begin_rva": 78620,
+      "end_rva": 79179,
+      "unwind_rva": 168660
+    },
+    {
+      "begin_rva": 79188,
+      "end_rva": 80293,
+      "unwind_rva": 168540
+    },
+    {
+      "begin_rva": 80300,
+      "end_rva": 80321,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 80328,
+      "end_rva": 80525,
+      "unwind_rva": 161364
+    },
+    {
+      "begin_rva": 80532,
+      "end_rva": 80566,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 80572,
+      "end_rva": 80641,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 80648,
+      "end_rva": 80682,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 80688,
+      "end_rva": 80757,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 80764,
+      "end_rva": 81165,
+      "unwind_rva": 160900
+    },
+    {
+      "begin_rva": 81172,
+      "end_rva": 81447,
+      "unwind_rva": 160880
+    },
+    {
+      "begin_rva": 81456,
+      "end_rva": 81541,
+      "unwind_rva": 160852
+    },
+    {
+      "begin_rva": 81548,
+      "end_rva": 82054,
+      "unwind_rva": 168532
+    },
+    {
+      "begin_rva": 82060,
+      "end_rva": 87284,
+      "unwind_rva": 171628
+    },
+    {
+      "begin_rva": 87292,
+      "end_rva": 88244,
+      "unwind_rva": 168424
+    },
+    {
+      "begin_rva": 88252,
+      "end_rva": 89840,
+      "unwind_rva": 173012
+    },
+    {
+      "begin_rva": 89848,
+      "end_rva": 89876,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 89884,
+      "end_rva": 89986,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 89992,
+      "end_rva": 91315,
+      "unwind_rva": 171292
+    },
+    {
+      "begin_rva": 91324,
+      "end_rva": 92060,
+      "unwind_rva": 168400
+    },
+    {
+      "begin_rva": 92068,
+      "end_rva": 92090,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 92096,
+      "end_rva": 93178,
+      "unwind_rva": 171076
+    },
+    {
+      "begin_rva": 93184,
+      "end_rva": 93955,
+      "unwind_rva": 168384
+    },
+    {
+      "begin_rva": 93964,
+      "end_rva": 94300,
+      "unwind_rva": 163464
+    },
+    {
+      "begin_rva": 94308,
+      "end_rva": 94392,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 94400,
+      "end_rva": 94888,
+      "unwind_rva": 171052
+    },
+    {
+      "begin_rva": 94896,
+      "end_rva": 95105,
+      "unwind_rva": 168272
+    },
+    {
+      "begin_rva": 95112,
+      "end_rva": 96092,
+      "unwind_rva": 168004
+    },
+    {
+      "begin_rva": 96100,
+      "end_rva": 96746,
+      "unwind_rva": 172812
+    },
+    {
+      "begin_rva": 96752,
+      "end_rva": 96791,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 96820,
+      "end_rva": 96864,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 96872,
+      "end_rva": 97124,
+      "unwind_rva": 163352
+    },
+    {
+      "begin_rva": 97132,
+      "end_rva": 97231,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 97240,
+      "end_rva": 97809,
+      "unwind_rva": 171032
+    },
+    {
+      "begin_rva": 97816,
+      "end_rva": 97873,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 97880,
+      "end_rva": 98422,
+      "unwind_rva": 168700
+    },
+    {
+      "begin_rva": 98428,
+      "end_rva": 99484,
+      "unwind_rva": 172540
+    },
+    {
+      "begin_rva": 99556,
+      "end_rva": 99590,
+      "unwind_rva": 161356
+    },
+    {
+      "begin_rva": 99612,
+      "end_rva": 100404,
+      "unwind_rva": 167872
+    },
+    {
+      "begin_rva": 100412,
+      "end_rva": 101698,
+      "unwind_rva": 167560
+    },
+    {
+      "begin_rva": 101704,
+      "end_rva": 101947,
+      "unwind_rva": 170852
+    },
+    {
+      "begin_rva": 101956,
+      "end_rva": 101979,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 101988,
+      "end_rva": 102326,
+      "unwind_rva": 164336
+    },
+    {
+      "begin_rva": 102332,
+      "end_rva": 102555,
+      "unwind_rva": 164292
+    },
+    {
+      "begin_rva": 102564,
+      "end_rva": 102895,
+      "unwind_rva": 164236
+    },
+    {
+      "begin_rva": 102904,
+      "end_rva": 103218,
+      "unwind_rva": 167504
+    },
+    {
+      "begin_rva": 103224,
+      "end_rva": 103605,
+      "unwind_rva": 164216
+    },
+    {
+      "begin_rva": 103612,
+      "end_rva": 103816,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 103824,
+      "end_rva": 103847,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 103856,
+      "end_rva": 104245,
+      "unwind_rva": 162756
+    },
+    {
+      "begin_rva": 104252,
+      "end_rva": 104473,
+      "unwind_rva": 162756
+    },
+    {
+      "begin_rva": 104480,
+      "end_rva": 104705,
+      "unwind_rva": 162756
+    },
+    {
+      "begin_rva": 104712,
+      "end_rva": 104900,
+      "unwind_rva": 174560
+    },
+    {
+      "begin_rva": 104908,
+      "end_rva": 105403,
+      "unwind_rva": 164188
+    },
+    {
+      "begin_rva": 105412,
+      "end_rva": 105529,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 105536,
+      "end_rva": 106433,
+      "unwind_rva": 164160
+    },
+    {
+      "begin_rva": 106440,
+      "end_rva": 106780,
+      "unwind_rva": 163176
+    },
+    {
+      "begin_rva": 106788,
+      "end_rva": 106846,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 106876,
+      "end_rva": 106909,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 106916,
+      "end_rva": 106963,
+      "unwind_rva": 161348
+    },
+    {
+      "begin_rva": 106972,
+      "end_rva": 108054,
+      "unwind_rva": 170704
+    },
+    {
+      "begin_rva": 108060,
+      "end_rva": 108327,
+      "unwind_rva": 165200
+    },
+    {
+      "begin_rva": 108336,
+      "end_rva": 108817,
+      "unwind_rva": 165172
+    },
+    {
+      "begin_rva": 108824,
+      "end_rva": 109031,
+      "unwind_rva": 170620
+    },
+    {
+      "begin_rva": 109040,
+      "end_rva": 109936,
+      "unwind_rva": 167472
+    },
+    {
+      "begin_rva": 109944,
+      "end_rva": 110699,
+      "unwind_rva": 170476
+    },
+    {
+      "begin_rva": 110708,
+      "end_rva": 110731,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 110740,
+      "end_rva": 110786,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 110792,
+      "end_rva": 110915,
+      "unwind_rva": 163072
+    },
+    {
+      "begin_rva": 110924,
+      "end_rva": 110972,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 110980,
+      "end_rva": 111030,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 111036,
+      "end_rva": 111379,
+      "unwind_rva": 163048
+    },
+    {
+      "begin_rva": 111404,
+      "end_rva": 112555,
+      "unwind_rva": 170288
+    },
+    {
+      "begin_rva": 112564,
+      "end_rva": 112785,
+      "unwind_rva": 164148
+    },
+    {
+      "begin_rva": 112792,
+      "end_rva": 113853,
+      "unwind_rva": 167160
+    },
+    {
+      "begin_rva": 113860,
+      "end_rva": 113883,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 113892,
+      "end_rva": 114033,
+      "unwind_rva": 161976
+    },
+    {
+      "begin_rva": 114040,
+      "end_rva": 114180,
+      "unwind_rva": 167092
+    },
+    {
+      "begin_rva": 114188,
+      "end_rva": 115224,
+      "unwind_rva": 167064
+    },
+    {
+      "begin_rva": 115232,
+      "end_rva": 115976,
+      "unwind_rva": 166956
+    },
+    {
+      "begin_rva": 115984,
+      "end_rva": 116101,
+      "unwind_rva": 166836
+    },
+    {
+      "begin_rva": 116108,
+      "end_rva": 117004,
+      "unwind_rva": 170164
+    },
+    {
+      "begin_rva": 117012,
+      "end_rva": 117265,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 117272,
+      "end_rva": 117516,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 117524,
+      "end_rva": 118070,
+      "unwind_rva": 166808
+    },
+    {
+      "begin_rva": 118076,
+      "end_rva": 119561,
+      "unwind_rva": 172176
+    },
+    {
+      "begin_rva": 119568,
+      "end_rva": 121633,
+      "unwind_rva": 173184
+    },
+    {
+      "begin_rva": 121640,
+      "end_rva": 121667,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 121676,
+      "end_rva": 121721,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 121728,
+      "end_rva": 121880,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 121888,
+      "end_rva": 122751,
+      "unwind_rva": 165584
+    },
+    {
+      "begin_rva": 122784,
+      "end_rva": 123030,
+      "unwind_rva": 168700
+    },
+    {
+      "begin_rva": 123036,
+      "end_rva": 123106,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 123112,
+      "end_rva": 123178,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 123184,
+      "end_rva": 123292,
+      "unwind_rva": 165524
+    },
+    {
+      "begin_rva": 123300,
+      "end_rva": 123396,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 123428,
+      "end_rva": 123532,
+      "unwind_rva": 165476
+    },
+    {
+      "begin_rva": 123540,
+      "end_rva": 123707,
+      "unwind_rva": 168700
+    },
+    {
+      "begin_rva": 123716,
+      "end_rva": 124038,
+      "unwind_rva": 162840
+    },
+    {
+      "begin_rva": 124044,
+      "end_rva": 124314,
+      "unwind_rva": 174560
+    },
+    {
+      "begin_rva": 124320,
+      "end_rva": 124369,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 124376,
+      "end_rva": 124474,
+      "unwind_rva": 165424
+    },
+    {
+      "begin_rva": 124480,
+      "end_rva": 124515,
+      "unwind_rva": 166160
+    },
+    {
+      "begin_rva": 124524,
+      "end_rva": 124631,
+      "unwind_rva": 165380
+    },
+    {
+      "begin_rva": 124640,
+      "end_rva": 124772,
+      "unwind_rva": 161964
+    },
+    {
+      "begin_rva": 124796,
+      "end_rva": 124892,
+      "unwind_rva": 161256
+    },
+    {
+      "begin_rva": 124900,
+      "end_rva": 124958,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 124964,
+      "end_rva": 125126,
+      "unwind_rva": 161964
+    },
+    {
+      "begin_rva": 125132,
+      "end_rva": 125183,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 125192,
+      "end_rva": 125225,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 125232,
+      "end_rva": 125415,
+      "unwind_rva": 161232
+    },
+    {
+      "begin_rva": 125424,
+      "end_rva": 125465,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 125472,
+      "end_rva": 125638,
+      "unwind_rva": 161216
+    },
+    {
+      "begin_rva": 125644,
+      "end_rva": 125694,
+      "unwind_rva": 162796
+    },
+    {
+      "begin_rva": 125700,
+      "end_rva": 126100,
+      "unwind_rva": 166544
+    },
+    {
+      "begin_rva": 126108,
+      "end_rva": 126201,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 126208,
+      "end_rva": 126340,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 126348,
+      "end_rva": 126521,
+      "unwind_rva": 169972
+    },
+    {
+      "begin_rva": 126528,
+      "end_rva": 126606,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 126612,
+      "end_rva": 126805,
+      "unwind_rva": 162756
+    },
+    {
+      "begin_rva": 126812,
+      "end_rva": 127779,
+      "unwind_rva": 169684
+    },
+    {
+      "begin_rva": 127824,
+      "end_rva": 127850,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 127856,
+      "end_rva": 128048,
+      "unwind_rva": 161940
+    },
+    {
+      "begin_rva": 128056,
+      "end_rva": 128531,
+      "unwind_rva": 173164
+    },
+    {
+      "begin_rva": 128540,
+      "end_rva": 128590,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 128596,
+      "end_rva": 128749,
+      "unwind_rva": 162780
+    },
+    {
+      "begin_rva": 128756,
+      "end_rva": 128779,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 128808,
+      "end_rva": 128848,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 128856,
+      "end_rva": 128903,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 128912,
+      "end_rva": 129153,
+      "unwind_rva": 162756
+    },
+    {
+      "begin_rva": 129160,
+      "end_rva": 129997,
+      "unwind_rva": 166504
+    },
+    {
+      "begin_rva": 130004,
+      "end_rva": 130164,
+      "unwind_rva": 161940
+    },
+    {
+      "begin_rva": 130172,
+      "end_rva": 130309,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 130316,
+      "end_rva": 130534,
+      "unwind_rva": 162756
+    },
+    {
+      "begin_rva": 130540,
+      "end_rva": 130657,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 130664,
+      "end_rva": 130844,
+      "unwind_rva": 166104
+    },
+    {
+      "begin_rva": 130852,
+      "end_rva": 131765,
+      "unwind_rva": 165860
+    },
+    {
+      "begin_rva": 131772,
+      "end_rva": 131955,
+      "unwind_rva": 174560
+    },
+    {
+      "begin_rva": 131964,
+      "end_rva": 132085,
+      "unwind_rva": 164036
+    },
+    {
+      "begin_rva": 132092,
+      "end_rva": 132145,
+      "unwind_rva": 161836
+    },
+    {
+      "begin_rva": 132152,
+      "end_rva": 132278,
+      "unwind_rva": 166368
+    },
+    {
+      "begin_rva": 132284,
+      "end_rva": 132397,
+      "unwind_rva": 161696
+    },
+    {
+      "begin_rva": 132404,
+      "end_rva": 132447,
+      "unwind_rva": 161112
+    },
+    {
+      "begin_rva": 132456,
+      "end_rva": 132503,
+      "unwind_rva": 161576
+    },
+    {
+      "begin_rva": 132584,
+      "end_rva": 132632,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 132640,
+      "end_rva": 132792,
+      "unwind_rva": 164000
+    },
+    {
+      "begin_rva": 132800,
+      "end_rva": 132944,
+      "unwind_rva": 161024
+    },
+    {
+      "begin_rva": 132952,
+      "end_rva": 133130,
+      "unwind_rva": 160872
+    },
+    {
+      "begin_rva": 133136,
+      "end_rva": 133257,
+      "unwind_rva": 161024
+    },
+    {
+      "begin_rva": 133264,
+      "end_rva": 133334,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 133340,
+      "end_rva": 133413,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 133420,
+      "end_rva": 133537,
+      "unwind_rva": 161232
+    },
+    {
+      "begin_rva": 133544,
+      "end_rva": 133714,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 133720,
+      "end_rva": 133882,
+      "unwind_rva": 163556
+    },
+    {
+      "begin_rva": 133888,
+      "end_rva": 134052,
+      "unwind_rva": 162028
+    },
+    {
+      "begin_rva": 134060,
+      "end_rva": 134251,
+      "unwind_rva": 163984
+    },
+    {
+      "begin_rva": 134260,
+      "end_rva": 134428,
+      "unwind_rva": 162028
+    },
+    {
+      "begin_rva": 134436,
+      "end_rva": 134607,
+      "unwind_rva": 163728
+    },
+    {
+      "begin_rva": 134616,
+      "end_rva": 134912,
+      "unwind_rva": 165016
+    },
+    {
+      "begin_rva": 134920,
+      "end_rva": 135154,
+      "unwind_rva": 163556
+    },
+    {
+      "begin_rva": 135160,
+      "end_rva": 135656,
+      "unwind_rva": 163948
+    },
+    {
+      "begin_rva": 135664,
+      "end_rva": 135697,
+      "unwind_rva": 165048
+    },
+    {
+      "begin_rva": 135704,
+      "end_rva": 135771,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 135780,
+      "end_rva": 135893,
+      "unwind_rva": 162028
+    },
+    {
+      "begin_rva": 135900,
+      "end_rva": 135952,
+      "unwind_rva": 161032
+    },
+    {
+      "begin_rva": 135960,
+      "end_rva": 136233,
+      "unwind_rva": 161544
+    },
+    {
+      "begin_rva": 136240,
+      "end_rva": 136409,
+      "unwind_rva": 161088
+    },
+    {
+      "begin_rva": 136416,
+      "end_rva": 136670,
+      "unwind_rva": 168700
+    },
+    {
+      "begin_rva": 136676,
+      "end_rva": 137012,
+      "unwind_rva": 168700
+    },
+    {
+      "begin_rva": 137020,
+      "end_rva": 137224,
+      "unwind_rva": 162728
+    },
+    {
+      "begin_rva": 137232,
+      "end_rva": 137392,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 137400,
+      "end_rva": 137944,
+      "unwind_rva": 163928
+    },
+    {
+      "begin_rva": 137952,
+      "end_rva": 138021,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 138028,
+      "end_rva": 138280,
+      "unwind_rva": 164968
+    },
+    {
+      "begin_rva": 138288,
+      "end_rva": 138805,
+      "unwind_rva": 163904
+    },
+    {
+      "begin_rva": 138812,
+      "end_rva": 139272,
+      "unwind_rva": 164988
+    },
+    {
+      "begin_rva": 139280,
+      "end_rva": 139364,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 139372,
+      "end_rva": 139689,
+      "unwind_rva": 164968
+    },
+    {
+      "begin_rva": 139696,
+      "end_rva": 139818,
+      "unwind_rva": 164848
+    },
+    {
+      "begin_rva": 139824,
+      "end_rva": 139959,
+      "unwind_rva": 164712
+    },
+    {
+      "begin_rva": 139968,
+      "end_rva": 140236,
+      "unwind_rva": 168700
+    },
+    {
+      "begin_rva": 140244,
+      "end_rva": 140389,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 140396,
+      "end_rva": 141005,
+      "unwind_rva": 162540
+    },
+    {
+      "begin_rva": 141012,
+      "end_rva": 141495,
+      "unwind_rva": 162356
+    },
+    {
+      "begin_rva": 141504,
+      "end_rva": 141555,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 141564,
+      "end_rva": 141832,
+      "unwind_rva": 161532
+    },
+    {
+      "begin_rva": 141840,
+      "end_rva": 142071,
+      "unwind_rva": 161460
+    },
+    {
+      "begin_rva": 142080,
+      "end_rva": 142388,
+      "unwind_rva": 162320
+    },
+    {
+      "begin_rva": 142396,
+      "end_rva": 142507,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 142516,
+      "end_rva": 143008,
+      "unwind_rva": 163748
+    },
+    {
+      "begin_rva": 143016,
+      "end_rva": 143135,
+      "unwind_rva": 162236
+    },
+    {
+      "begin_rva": 143144,
+      "end_rva": 143298,
+      "unwind_rva": 164568
+    },
+    {
+      "begin_rva": 143304,
+      "end_rva": 143345,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 143372,
+      "end_rva": 143519,
+      "unwind_rva": 162112
+    },
+    {
+      "begin_rva": 143528,
+      "end_rva": 143629,
+      "unwind_rva": 160860
+    },
+    {
+      "begin_rva": 143652,
+      "end_rva": 143838,
+      "unwind_rva": 174560
+    },
+    {
+      "begin_rva": 143844,
+      "end_rva": 144115,
+      "unwind_rva": 162068
+    },
+    {
+      "begin_rva": 144124,
+      "end_rva": 144383,
+      "unwind_rva": 162040
+    },
+    {
+      "begin_rva": 144404,
+      "end_rva": 144538,
+      "unwind_rva": 163728
+    },
+    {
+      "begin_rva": 144544,
+      "end_rva": 144607,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 144616,
+      "end_rva": 144679,
+      "unwind_rva": 168968
+    },
+    {
+      "begin_rva": 144688,
+      "end_rva": 144737,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 144744,
+      "end_rva": 144793,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 144800,
+      "end_rva": 144904,
+      "unwind_rva": 163716
+    },
+    {
+      "begin_rva": 144924,
+      "end_rva": 145287,
+      "unwind_rva": 163692
+    },
+    {
+      "begin_rva": 145316,
+      "end_rva": 145369,
+      "unwind_rva": 160676
+    },
+    {
+      "begin_rva": 145376,
+      "end_rva": 145732,
+      "unwind_rva": 163664
+    },
+    {
+      "begin_rva": 145740,
+      "end_rva": 146202,
+      "unwind_rva": 161940
+    },
+    {
+      "begin_rva": 146208,
+      "end_rva": 146481,
+      "unwind_rva": 161940
+    },
+    {
+      "begin_rva": 146488,
+      "end_rva": 147844,
+      "unwind_rva": 164536
+    },
+    {
+      "begin_rva": 147852,
+      "end_rva": 148248,
+      "unwind_rva": 164520
+    },
+    {
+      "begin_rva": 148256,
+      "end_rva": 148895,
+      "unwind_rva": 162756
+    },
+    {
+      "begin_rva": 148904,
+      "end_rva": 148984,
+      "unwind_rva": 160852
+    },
+    {
+      "begin_rva": 148992,
+      "end_rva": 149092,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 149100,
+      "end_rva": 149220,
+      "unwind_rva": 162028
+    },
+    {
+      "begin_rva": 149228,
+      "end_rva": 149338,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 149344,
+      "end_rva": 149384,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 149428,
+      "end_rva": 149535,
+      "unwind_rva": 160524
+    },
+    {
+      "begin_rva": 149544,
+      "end_rva": 149609,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 149616,
+      "end_rva": 149710,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 149716,
+      "end_rva": 149824,
+      "unwind_rva": 160568
+    },
+    {
+      "begin_rva": 149832,
+      "end_rva": 149899,
+      "unwind_rva": 160612
+    },
+    {
+      "begin_rva": 149908,
+      "end_rva": 149978,
+      "unwind_rva": 160644
+    },
+    {
+      "begin_rva": 149984,
+      "end_rva": 150019,
+      "unwind_rva": 166160
+    },
+    {
+      "begin_rva": 150028,
+      "end_rva": 150101,
+      "unwind_rva": 160676
+    },
+    {
+      "begin_rva": 150108,
+      "end_rva": 150538,
+      "unwind_rva": 160684
+    },
+    {
+      "begin_rva": 150544,
+      "end_rva": 150751,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 150760,
+      "end_rva": 150778,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 150840,
+      "end_rva": 150888,
+      "unwind_rva": 162744
+    },
+    {
+      "begin_rva": 151040,
+      "end_rva": 151106,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 151112,
+      "end_rva": 151136,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 151308,
+      "end_rva": 151373,
+      "unwind_rva": 160728
+    },
+    {
+      "begin_rva": 151404,
+      "end_rva": 151538,
+      "unwind_rva": 160768
+    },
+    {
+      "begin_rva": 151544,
+      "end_rva": 151567,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 151576,
+      "end_rva": 151661,
+      "unwind_rva": 160800
+    },
+    {
+      "begin_rva": 151668,
+      "end_rva": 151737,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 151744,
+      "end_rva": 151923,
+      "unwind_rva": 160832
+    },
+    {
+      "begin_rva": 151932,
+      "end_rva": 152221,
+      "unwind_rva": 160844
+    },
+    {
+      "begin_rva": 152660,
+      "end_rva": 152759,
+      "unwind_rva": 161992
+    },
+    {
+      "begin_rva": 152768,
+      "end_rva": 152797,
+      "unwind_rva": 161412
+    },
+    {
+      "begin_rva": 152804,
+      "end_rva": 152947,
+      "unwind_rva": 174560
+    },
+    {
+      "begin_rva": 152953,
+      "end_rva": 152977,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 152983,
+      "end_rva": 153011,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153017,
+      "end_rva": 153050,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153056,
+      "end_rva": 153081,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153087,
+      "end_rva": 153117,
+      "unwind_rva": 161096
+    },
+    {
+      "begin_rva": 153123,
+      "end_rva": 153152,
+      "unwind_rva": 161240
+    },
+    {
+      "begin_rva": 153158,
+      "end_rva": 153182,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153188,
+      "end_rva": 153218,
+      "unwind_rva": 161560
+    },
+    {
+      "begin_rva": 153224,
+      "end_rva": 153265,
+      "unwind_rva": 161680
+    },
+    {
+      "begin_rva": 153271,
+      "end_rva": 153311,
+      "unwind_rva": 161820
+    },
+    {
+      "begin_rva": 153317,
+      "end_rva": 153358,
+      "unwind_rva": 162096
+    },
+    {
+      "begin_rva": 153364,
+      "end_rva": 153388,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153396,
+      "end_rva": 153424,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153428,
+      "end_rva": 153456,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153462,
+      "end_rva": 153489,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153494,
+      "end_rva": 153521,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153526,
+      "end_rva": 153570,
+      "unwind_rva": 162340
+    },
+    {
+      "begin_rva": 153576,
+      "end_rva": 153607,
+      "unwind_rva": 162520
+    },
+    {
+      "begin_rva": 153608,
+      "end_rva": 153639,
+      "unwind_rva": 162520
+    },
+    {
+      "begin_rva": 153645,
+      "end_rva": 153769,
+      "unwind_rva": 162824
+    },
+    {
+      "begin_rva": 153773,
+      "end_rva": 153846,
+      "unwind_rva": 162804
+    },
+    {
+      "begin_rva": 153852,
+      "end_rva": 153876,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153884,
+      "end_rva": 153912,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 153918,
+      "end_rva": 154056,
+      "unwind_rva": 163156
+    },
+    {
+      "begin_rva": 154062,
+      "end_rva": 154138,
+      "unwind_rva": 163136
+    },
+    {
+      "begin_rva": 154144,
+      "end_rva": 154168,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154176,
+      "end_rva": 154204,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154208,
+      "end_rva": 154236,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154240,
+      "end_rva": 154268,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154272,
+      "end_rva": 154300,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154306,
+      "end_rva": 154330,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154338,
+      "end_rva": 154366,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154370,
+      "end_rva": 154398,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154404,
+      "end_rva": 154428,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154434,
+      "end_rva": 154458,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154464,
+      "end_rva": 154504,
+      "unwind_rva": 164020
+    },
+    {
+      "begin_rva": 154510,
+      "end_rva": 154548,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154554,
+      "end_rva": 154578,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154584,
+      "end_rva": 154608,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154614,
+      "end_rva": 154638,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154646,
+      "end_rva": 154670,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154676,
+      "end_rva": 154717,
+      "unwind_rva": 164696
+    },
+    {
+      "begin_rva": 154723,
+      "end_rva": 154764,
+      "unwind_rva": 164832
+    },
+    {
+      "begin_rva": 154770,
+      "end_rva": 154797,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154802,
+      "end_rva": 154833,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154834,
+      "end_rva": 154865,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154866,
+      "end_rva": 154890,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154896,
+      "end_rva": 154920,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 154928,
+      "end_rva": 154969,
+      "unwind_rva": 165216
+    },
+    {
+      "begin_rva": 154975,
+      "end_rva": 154999,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155005,
+      "end_rva": 155029,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155035,
+      "end_rva": 155059,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155067,
+      "end_rva": 155110,
+      "unwind_rva": 165568
+    },
+    {
+      "begin_rva": 155115,
+      "end_rva": 155145,
+      "unwind_rva": 165568
+    },
+    {
+      "begin_rva": 155151,
+      "end_rva": 155175,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155183,
+      "end_rva": 155226,
+      "unwind_rva": 165844
+    },
+    {
+      "begin_rva": 155231,
+      "end_rva": 155261,
+      "unwind_rva": 165844
+    },
+    {
+      "begin_rva": 155267,
+      "end_rva": 155291,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155299,
+      "end_rva": 155340,
+      "unwind_rva": 166184
+    },
+    {
+      "begin_rva": 155346,
+      "end_rva": 155413,
+      "unwind_rva": 166348
+    },
+    {
+      "begin_rva": 155419,
+      "end_rva": 155446,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155451,
+      "end_rva": 155478,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155483,
+      "end_rva": 155514,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155515,
+      "end_rva": 155542,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155547,
+      "end_rva": 155574,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155579,
+      "end_rva": 155603,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155611,
+      "end_rva": 155655,
+      "unwind_rva": 166528
+    },
+    {
+      "begin_rva": 155661,
+      "end_rva": 155702,
+      "unwind_rva": 166820
+    },
+    {
+      "begin_rva": 155708,
+      "end_rva": 155732,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155738,
+      "end_rva": 155766,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155772,
+      "end_rva": 155796,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155804,
+      "end_rva": 155831,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155836,
+      "end_rva": 155860,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155868,
+      "end_rva": 155895,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155900,
+      "end_rva": 155924,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155932,
+      "end_rva": 155956,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 155964,
+      "end_rva": 156005,
+      "unwind_rva": 167144
+    },
+    {
+      "begin_rva": 156012,
+      "end_rva": 156036,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156042,
+      "end_rva": 156066,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156072,
+      "end_rva": 156096,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156104,
+      "end_rva": 156131,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156136,
+      "end_rva": 156163,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156168,
+      "end_rva": 156192,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156200,
+      "end_rva": 156224,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156232,
+      "end_rva": 156259,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156264,
+      "end_rva": 156288,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156296,
+      "end_rva": 156320,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156328,
+      "end_rva": 156355,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156360,
+      "end_rva": 156387,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156392,
+      "end_rva": 156419,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156425,
+      "end_rva": 156449,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156457,
+      "end_rva": 156484,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156489,
+      "end_rva": 156516,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156521,
+      "end_rva": 156548,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156554,
+      "end_rva": 156578,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156586,
+      "end_rva": 156610,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156618,
+      "end_rva": 156642,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156648,
+      "end_rva": 156689,
+      "unwind_rva": 168256
+    },
+    {
+      "begin_rva": 156695,
+      "end_rva": 156719,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156727,
+      "end_rva": 156751,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156759,
+      "end_rva": 156783,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156789,
+      "end_rva": 156813,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156821,
+      "end_rva": 156845,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156853,
+      "end_rva": 156877,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156883,
+      "end_rva": 156910,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156915,
+      "end_rva": 156942,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156947,
+      "end_rva": 156974,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 156980,
+      "end_rva": 157004,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157010,
+      "end_rva": 157034,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157040,
+      "end_rva": 157064,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157072,
+      "end_rva": 157096,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157104,
+      "end_rva": 157128,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157136,
+      "end_rva": 157160,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157168,
+      "end_rva": 157195,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157200,
+      "end_rva": 157224,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157232,
+      "end_rva": 157256,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157264,
+      "end_rva": 157292,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157296,
+      "end_rva": 157320,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157328,
+      "end_rva": 157352,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157358,
+      "end_rva": 157382,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157388,
+      "end_rva": 157412,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157418,
+      "end_rva": 157459,
+      "unwind_rva": 169476
+    },
+    {
+      "begin_rva": 157465,
+      "end_rva": 157489,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157495,
+      "end_rva": 157522,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157527,
+      "end_rva": 157551,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157559,
+      "end_rva": 157583,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157589,
+      "end_rva": 157613,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157621,
+      "end_rva": 157645,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157653,
+      "end_rva": 157681,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157685,
+      "end_rva": 157726,
+      "unwind_rva": 169956
+    },
+    {
+      "begin_rva": 157732,
+      "end_rva": 157756,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157762,
+      "end_rva": 157786,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157794,
+      "end_rva": 157818,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157826,
+      "end_rva": 157850,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157858,
+      "end_rva": 157882,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157890,
+      "end_rva": 157914,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157920,
+      "end_rva": 157944,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157952,
+      "end_rva": 157979,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 157984,
+      "end_rva": 158008,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158016,
+      "end_rva": 158040,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158046,
+      "end_rva": 158070,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158078,
+      "end_rva": 158105,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158111,
+      "end_rva": 158135,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158143,
+      "end_rva": 158170,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158175,
+      "end_rva": 158199,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158207,
+      "end_rva": 158234,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158240,
+      "end_rva": 158278,
+      "unwind_rva": 170836
+    },
+    {
+      "begin_rva": 158288,
+      "end_rva": 158327,
+      "unwind_rva": 170836
+    },
+    {
+      "begin_rva": 158336,
+      "end_rva": 158377,
+      "unwind_rva": 170836
+    },
+    {
+      "begin_rva": 158383,
+      "end_rva": 158410,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158415,
+      "end_rva": 158439,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158447,
+      "end_rva": 158471,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158479,
+      "end_rva": 158503,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158511,
+      "end_rva": 158535,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158541,
+      "end_rva": 158568,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158573,
+      "end_rva": 158600,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158605,
+      "end_rva": 158629,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158637,
+      "end_rva": 158664,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158670,
+      "end_rva": 158697,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158702,
+      "end_rva": 158726,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158734,
+      "end_rva": 158761,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158766,
+      "end_rva": 158790,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158798,
+      "end_rva": 158822,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158830,
+      "end_rva": 158857,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158862,
+      "end_rva": 158886,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158894,
+      "end_rva": 158918,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158924,
+      "end_rva": 158948,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158956,
+      "end_rva": 158980,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 158988,
+      "end_rva": 159012,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159020,
+      "end_rva": 159044,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159052,
+      "end_rva": 159079,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159084,
+      "end_rva": 159108,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159116,
+      "end_rva": 159140,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159148,
+      "end_rva": 159172,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159178,
+      "end_rva": 159202,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159210,
+      "end_rva": 159237,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159242,
+      "end_rva": 159269,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159274,
+      "end_rva": 159301,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159306,
+      "end_rva": 159330,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159336,
+      "end_rva": 159360,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159368,
+      "end_rva": 159392,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159400,
+      "end_rva": 159424,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159432,
+      "end_rva": 159456,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159464,
+      "end_rva": 159488,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159496,
+      "end_rva": 159520,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159528,
+      "end_rva": 159552,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159560,
+      "end_rva": 159584,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159590,
+      "end_rva": 159614,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159622,
+      "end_rva": 159646,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159654,
+      "end_rva": 159678,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159686,
+      "end_rva": 159710,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159718,
+      "end_rva": 159742,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159750,
+      "end_rva": 159774,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159780,
+      "end_rva": 159807,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159812,
+      "end_rva": 159836,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159844,
+      "end_rva": 159868,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159876,
+      "end_rva": 159900,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159908,
+      "end_rva": 159932,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159938,
+      "end_rva": 159962,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 159970,
+      "end_rva": 159994,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160002,
+      "end_rva": 160029,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160034,
+      "end_rva": 160058,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160064,
+      "end_rva": 160091,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160096,
+      "end_rva": 160123,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160128,
+      "end_rva": 160152,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160160,
+      "end_rva": 160184,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160192,
+      "end_rva": 160219,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160225,
+      "end_rva": 160252,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160257,
+      "end_rva": 160284,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160289,
+      "end_rva": 160313,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160321,
+      "end_rva": 160345,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160351,
+      "end_rva": 160375,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160383,
+      "end_rva": 160410,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160415,
+      "end_rva": 160439,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160447,
+      "end_rva": 160474,
+      "unwind_rva": 160760
+    },
+    {
+      "begin_rva": 160480,
+      "end_rva": 160521,
+      "unwind_rva": 174436
+    }
+  ],
+  "relocations": [
+    {
+      "rva": 5672,
+      "type": 10
+    },
+    {
+      "rva": 5696,
+      "type": 10
+    },
+    {
+      "rva": 5704,
+      "type": 10
+    },
+    {
+      "rva": 5808,
+      "type": 10
+    },
+    {
+      "rva": 5816,
+      "type": 10
+    },
+    {
+      "rva": 5824,
+      "type": 10
+    },
+    {
+      "rva": 5992,
+      "type": 10
+    },
+    {
+      "rva": 6000,
+      "type": 10
+    },
+    {
+      "rva": 6008,
+      "type": 10
+    },
+    {
+      "rva": 4096,
+      "type": 0
+    },
+    {
+      "rva": 19648,
+      "type": 10
+    },
+    {
+      "rva": 19656,
+      "type": 10
+    },
+    {
+      "rva": 19664,
+      "type": 10
+    },
+    {
+      "rva": 19672,
+      "type": 10
+    },
+    {
+      "rva": 21464,
+      "type": 10
+    },
+    {
+      "rva": 21472,
+      "type": 10
+    },
+    {
+      "rva": 29912,
+      "type": 10
+    },
+    {
+      "rva": 29920,
+      "type": 10
+    },
+    {
+      "rva": 29928,
+      "type": 10
+    },
+    {
+      "rva": 29936,
+      "type": 10
+    },
+    {
+      "rva": 30464,
+      "type": 10
+    },
+    {
+      "rva": 30472,
+      "type": 10
+    },
+    {
+      "rva": 30480,
+      "type": 10
+    },
+    {
+      "rva": 30488,
+      "type": 10
+    },
+    {
+      "rva": 30496,
+      "type": 10
+    },
+    {
+      "rva": 30504,
+      "type": 10
+    },
+    {
+      "rva": 30512,
+      "type": 10
+    },
+    {
+      "rva": 30520,
+      "type": 10
+    },
+    {
+      "rva": 30528,
+      "type": 10
+    },
+    {
+      "rva": 30536,
+      "type": 10
+    },
+    {
+      "rva": 30544,
+      "type": 10
+    },
+    {
+      "rva": 30552,
+      "type": 10
+    },
+    {
+      "rva": 30560,
+      "type": 10
+    },
+    {
+      "rva": 30568,
+      "type": 10
+    },
+    {
+      "rva": 30576,
+      "type": 10
+    },
+    {
+      "rva": 32256,
+      "type": 10
+    },
+    {
+      "rva": 32264,
+      "type": 10
+    },
+    {
+      "rva": 32272,
+      "type": 10
+    },
+    {
+      "rva": 32280,
+      "type": 10
+    },
+    {
+      "rva": 32288,
+      "type": 10
+    },
+    {
+      "rva": 32296,
+      "type": 10
+    },
+    {
+      "rva": 32304,
+      "type": 10
+    },
+    {
+      "rva": 32312,
+      "type": 10
+    },
+    {
+      "rva": 32320,
+      "type": 10
+    },
+    {
+      "rva": 32328,
+      "type": 10
+    },
+    {
+      "rva": 32336,
+      "type": 10
+    },
+    {
+      "rva": 32344,
+      "type": 10
+    },
+    {
+      "rva": 32352,
+      "type": 10
+    },
+    {
+      "rva": 32360,
+      "type": 10
+    },
+    {
+      "rva": 32368,
+      "type": 10
+    },
+    {
+      "rva": 32376,
+      "type": 10
+    },
+    {
+      "rva": 32384,
+      "type": 10
+    },
+    {
+      "rva": 32392,
+      "type": 10
+    },
+    {
+      "rva": 32400,
+      "type": 10
+    },
+    {
+      "rva": 32408,
+      "type": 10
+    },
+    {
+      "rva": 32416,
+      "type": 10
+    },
+    {
+      "rva": 32424,
+      "type": 10
+    },
+    {
+      "rva": 32432,
+      "type": 10
+    },
+    {
+      "rva": 32440,
+      "type": 10
+    },
+    {
+      "rva": 32448,
+      "type": 10
+    },
+    {
+      "rva": 32456,
+      "type": 10
+    },
+    {
+      "rva": 32464,
+      "type": 10
+    },
+    {
+      "rva": 32472,
+      "type": 10
+    },
+    {
+      "rva": 32480,
+      "type": 10
+    },
+    {
+      "rva": 32488,
+      "type": 10
+    },
+    {
+      "rva": 32496,
+      "type": 10
+    },
+    {
+      "rva": 32504,
+      "type": 10
+    },
+    {
+      "rva": 32512,
+      "type": 10
+    },
+    {
+      "rva": 32520,
+      "type": 10
+    },
+    {
+      "rva": 28672,
+      "type": 0
+    },
+    {
+      "rva": 34192,
+      "type": 10
+    },
+    {
+      "rva": 34200,
+      "type": 10
+    },
+    {
+      "rva": 34208,
+      "type": 10
+    },
+    {
+      "rva": 34216,
+      "type": 10
+    },
+    {
+      "rva": 34224,
+      "type": 10
+    },
+    {
+      "rva": 34232,
+      "type": 10
+    },
+    {
+      "rva": 34240,
+      "type": 10
+    },
+    {
+      "rva": 34248,
+      "type": 10
+    },
+    {
+      "rva": 34256,
+      "type": 10
+    },
+    {
+      "rva": 35712,
+      "type": 10
+    },
+    {
+      "rva": 35720,
+      "type": 10
+    },
+    {
+      "rva": 35728,
+      "type": 10
+    },
+    {
+      "rva": 35736,
+      "type": 10
+    },
+    {
+      "rva": 35744,
+      "type": 10
+    },
+    {
+      "rva": 35752,
+      "type": 10
+    },
+    {
+      "rva": 35760,
+      "type": 10
+    },
+    {
+      "rva": 35768,
+      "type": 10
+    },
+    {
+      "rva": 35776,
+      "type": 10
+    },
+    {
+      "rva": 35784,
+      "type": 10
+    },
+    {
+      "rva": 35792,
+      "type": 10
+    },
+    {
+      "rva": 35800,
+      "type": 10
+    },
+    {
+      "rva": 35808,
+      "type": 10
+    },
+    {
+      "rva": 35816,
+      "type": 10
+    },
+    {
+      "rva": 35824,
+      "type": 10
+    },
+    {
+      "rva": 35832,
+      "type": 10
+    },
+    {
+      "rva": 35840,
+      "type": 10
+    },
+    {
+      "rva": 37264,
+      "type": 10
+    },
+    {
+      "rva": 37272,
+      "type": 10
+    },
+    {
+      "rva": 37280,
+      "type": 10
+    },
+    {
+      "rva": 37288,
+      "type": 10
+    },
+    {
+      "rva": 41224,
+      "type": 10
+    },
+    {
+      "rva": 41232,
+      "type": 10
+    },
+    {
+      "rva": 41240,
+      "type": 10
+    },
+    {
+      "rva": 41248,
+      "type": 10
+    },
+    {
+      "rva": 41256,
+      "type": 10
+    },
+    {
+      "rva": 44160,
+      "type": 10
+    },
+    {
+      "rva": 44168,
+      "type": 10
+    },
+    {
+      "rva": 44176,
+      "type": 10
+    },
+    {
+      "rva": 44184,
+      "type": 10
+    },
+    {
+      "rva": 44192,
+      "type": 10
+    },
+    {
+      "rva": 44200,
+      "type": 10
+    },
+    {
+      "rva": 44208,
+      "type": 10
+    },
+    {
+      "rva": 44216,
+      "type": 10
+    },
+    {
+      "rva": 44224,
+      "type": 10
+    },
+    {
+      "rva": 44232,
+      "type": 10
+    },
+    {
+      "rva": 44240,
+      "type": 10
+    },
+    {
+      "rva": 44248,
+      "type": 10
+    },
+    {
+      "rva": 44256,
+      "type": 10
+    },
+    {
+      "rva": 44264,
+      "type": 10
+    },
+    {
+      "rva": 44272,
+      "type": 10
+    },
+    {
+      "rva": 44280,
+      "type": 10
+    },
+    {
+      "rva": 44864,
+      "type": 10
+    },
+    {
+      "rva": 44872,
+      "type": 10
+    },
+    {
+      "rva": 44880,
+      "type": 10
+    },
+    {
+      "rva": 44888,
+      "type": 10
+    },
+    {
+      "rva": 44896,
+      "type": 10
+    },
+    {
+      "rva": 44912,
+      "type": 10
+    },
+    {
+      "rva": 44920,
+      "type": 10
+    },
+    {
+      "rva": 44928,
+      "type": 10
+    },
+    {
+      "rva": 44936,
+      "type": 10
+    },
+    {
+      "rva": 44944,
+      "type": 10
+    },
+    {
+      "rva": 44952,
+      "type": 10
+    },
+    {
+      "rva": 44960,
+      "type": 10
+    },
+    {
+      "rva": 44968,
+      "type": 10
+    },
+    {
+      "rva": 44976,
+      "type": 10
+    },
+    {
+      "rva": 44992,
+      "type": 10
+    },
+    {
+      "rva": 45000,
+      "type": 10
+    },
+    {
+      "rva": 45008,
+      "type": 10
+    },
+    {
+      "rva": 45016,
+      "type": 10
+    },
+    {
+      "rva": 45024,
+      "type": 10
+    },
+    {
+      "rva": 45032,
+      "type": 10
+    },
+    {
+      "rva": 45040,
+      "type": 10
+    },
+    {
+      "rva": 45048,
+      "type": 10
+    },
+    {
+      "rva": 40960,
+      "type": 0
+    },
+    {
+      "rva": 45056,
+      "type": 10
+    },
+    {
+      "rva": 45064,
+      "type": 10
+    },
+    {
+      "rva": 45312,
+      "type": 10
+    },
+    {
+      "rva": 45320,
+      "type": 10
+    },
+    {
+      "rva": 45328,
+      "type": 10
+    },
+    {
+      "rva": 45336,
+      "type": 10
+    },
+    {
+      "rva": 184576,
+      "type": 10
+    },
+    {
+      "rva": 184584,
+      "type": 10
+    },
+    {
+      "rva": 184624,
+      "type": 10
+    },
+    {
+      "rva": 184632,
+      "type": 10
+    },
+    {
+      "rva": 184640,
+      "type": 10
+    },
+    {
+      "rva": 184648,
+      "type": 10
+    },
+    {
+      "rva": 184656,
+      "type": 10
+    },
+    {
+      "rva": 184672,
+      "type": 10
+    },
+    {
+      "rva": 184680,
+      "type": 10
+    },
+    {
+      "rva": 184688,
+      "type": 10
+    },
+    {
+      "rva": 184696,
+      "type": 10
+    },
+    {
+      "rva": 184704,
+      "type": 10
+    },
+    {
+      "rva": 184712,
+      "type": 10
+    },
+    {
+      "rva": 184720,
+      "type": 10
+    },
+    {
+      "rva": 184728,
+      "type": 10
+    },
+    {
+      "rva": 184736,
+      "type": 10
+    },
+    {
+      "rva": 184744,
+      "type": 10
+    },
+    {
+      "rva": 184752,
+      "type": 10
+    },
+    {
+      "rva": 184760,
+      "type": 10
+    },
+    {
+      "rva": 184768,
+      "type": 10
+    },
+    {
+      "rva": 184776,
+      "type": 10
+    },
+    {
+      "rva": 184784,
+      "type": 10
+    },
+    {
+      "rva": 184792,
+      "type": 10
+    },
+    {
+      "rva": 184800,
+      "type": 10
+    },
+    {
+      "rva": 184808,
+      "type": 10
+    },
+    {
+      "rva": 184816,
+      "type": 10
+    },
+    {
+      "rva": 184824,
+      "type": 10
+    },
+    {
+      "rva": 184832,
+      "type": 10
+    },
+    {
+      "rva": 184840,
+      "type": 10
+    },
+    {
+      "rva": 184848,
+      "type": 10
+    },
+    {
+      "rva": 184856,
+      "type": 10
+    },
+    {
+      "rva": 184864,
+      "type": 10
+    },
+    {
+      "rva": 184872,
+      "type": 10
+    },
+    {
+      "rva": 184904,
+      "type": 10
+    },
+    {
+      "rva": 184952,
+      "type": 10
+    },
+    {
+      "rva": 185000,
+      "type": 10
+    },
+    {
+      "rva": 185056,
+      "type": 10
+    },
+    {
+      "rva": 185088,
+      "type": 10
+    },
+    {
+      "rva": 185136,
+      "type": 10
+    },
+    {
+      "rva": 185224,
+      "type": 10
+    },
+    {
+      "rva": 185272,
+      "type": 10
+    },
+    {
+      "rva": 185320,
+      "type": 10
+    },
+    {
+      "rva": 185376,
+      "type": 10
+    },
+    {
+      "rva": 185440,
+      "type": 10
+    },
+    {
+      "rva": 185520,
+      "type": 10
+    },
+    {
+      "rva": 185592,
+      "type": 10
+    },
+    {
+      "rva": 185632,
+      "type": 10
+    },
+    {
+      "rva": 185672,
+      "type": 10
+    },
+    {
+      "rva": 185712,
+      "type": 10
+    },
+    {
+      "rva": 185800,
+      "type": 10
+    },
+    {
+      "rva": 185848,
+      "type": 10
+    },
+    {
+      "rva": 185904,
+      "type": 10
+    },
+    {
+      "rva": 185944,
+      "type": 10
+    },
+    {
+      "rva": 185984,
+      "type": 10
+    },
+    {
+      "rva": 186032,
+      "type": 10
+    },
+    {
+      "rva": 186072,
+      "type": 10
+    },
+    {
+      "rva": 186128,
+      "type": 10
+    },
+    {
+      "rva": 186192,
+      "type": 10
+    },
+    {
+      "rva": 186280,
+      "type": 10
+    },
+    {
+      "rva": 186328,
+      "type": 10
+    },
+    {
+      "rva": 186400,
+      "type": 10
+    },
+    {
+      "rva": 186472,
+      "type": 10
+    },
+    {
+      "rva": 186528,
+      "type": 10
+    },
+    {
+      "rva": 186592,
+      "type": 10
+    },
+    {
+      "rva": 186648,
+      "type": 10
+    },
+    {
+      "rva": 186704,
+      "type": 10
+    },
+    {
+      "rva": 186760,
+      "type": 10
+    },
+    {
+      "rva": 186816,
+      "type": 10
+    },
+    {
+      "rva": 186872,
+      "type": 10
+    },
+    {
+      "rva": 186912,
+      "type": 10
+    },
+    {
+      "rva": 187008,
+      "type": 10
+    },
+    {
+      "rva": 187072,
+      "type": 10
+    }
+  ],
+  "debug": [
+    {
+      "type": 2,
+      "file_offset": 45424,
+      "size": 37,
+      "signature": "RSDS",
+      "guid": "731cd5ab-2b27-4740-9b83-50a7ac8c18f3",
+      "age": 1,
+      "pdb_path": "MpCmdRun.pdb"
+    }
+  ],
+  "rich_header": {
+    "key": "8024b6c0",
+    "raw_data": "c445d8938024b6c08024b6c08024b6c0895c23c08124b6c0895c32c08424b6c0895c25c09724b6c08024b7c09425b6c0895c35c09224b6c0895c3cc0bb24b6c0895c22c08124b6c0895c27c08124b6c0",
+    "clear_data": "44616e530000000000000000000000000978950001000000097884000400000009789300170000000000010014010000097883001200000009788a003b00000009789400010000000978910001000000",
+    "checksum": 3233162368,
+    "values": [
+      9795593,
+      1,
+      8681481,
+      4,
+      9664521,
+      23,
+      65536,
+      276,
+      8615945,
+      18,
+      9074697,
+      59,
+      9730057,
+      1,
+      9533449,
+      1
+    ]
+  },
+  "load_config": {},
+  "tls": null,
+  "version": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Microsoft Malware Protection Command Line Utility",
+    "FileVersion": "6.1.7601.23403 (win7sp1_ldr.160325-0600)",
+    "InternalName": "MpCmdRun",
+    "LegalCopyright": "© Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "MpCmdRun.exe",
+    "ProductName": "Microsoft® Windows® Operating System",
+    "ProductVersion": "6.1.7601.23403"
+  },
+  "resources": [
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "type": "RT_VERSION",
+      "rva": 201312,
+      "file_offset": 188000,
+      "size": 976,
+      "codepage": 0,
+      "sha256": "697c40dafbbdd0dff31909292ff6ac088105c624d7a910fd9e958e9183612437"
+    },
+    {
+      "path": [
+        24,
+        1,
+        1033
+      ],
+      "type": "RT_MANIFEST",
+      "rva": 200864,
+      "file_offset": 187552,
+      "size": 443,
+      "codepage": 0,
+      "sha256": "965e3d81e1a83f8c0ddfa1f5a431928346b6c762ef0908ba186663da6fad3b28"
+    }
+  ],
+  "resource_counts": {
+    "16": 1,
+    "24": 1
+  },
+  "overlay": null,
+  "certificates": [],
+  "embedded_candidates": [
+    {
+      "file_offset": 147477,
+      "magic": "4d5a",
+      "validated_nested_pe": false
+    },
+    {
+      "file_offset": 148100,
+      "magic": "4d5a",
+      "validated_nested_pe": false
+    },
+    {
+      "file_offset": 148522,
+      "magic": "4d5a",
+      "validated_nested_pe": false
+    }
+  ],
+  "warnings": [],
+  "objdump_exit_code": 0
+}

@@ -1,0 +1,3279 @@
+[
+  {
+    "resource": [
+      "AVI",
+      142,
+      1033
+    ],
+    "rva": 419160,
+    "file_offset": 406872,
+    "size": 78336,
+    "sha256": "c0a7e1597d2d4ed24b1bbdc8a4ffd5d498c0d79e83277baeb9cf5b60c6ef58b2",
+    "prefix_hex": "5249464640310100415649204c495354c00100006864726c6176696838000000",
+    "riff": {
+      "declared_total_bytes": 78152,
+      "form": "AVI ",
+      "resource_bytes": 78336,
+      "top_level_chunks": [
+        {
+          "offset": 12,
+          "tag": "LIST",
+          "size": 448
+        },
+        {
+          "offset": 468,
+          "tag": "JUNK",
+          "size": 1560
+        },
+        {
+          "offset": 2036,
+          "tag": "LIST",
+          "size": 75636
+        },
+        {
+          "offset": 77680,
+          "tag": "idx1",
+          "size": 464
+        }
+      ]
+    }
+  },
+  {
+    "resource": [
+      "MUI",
+      1,
+      1033
+    ],
+    "rva": 499176,
+    "file_offset": 486888,
+    "size": 240,
+    "sha256": "43f2729f3548164bc45fae96e936431238e640e5ab9b787ef68d6fe240dd85ce",
+    "prefix_hex": "cdfecdfef00000000000010000000000110000000000000002000000c40317cb",
+    "observed_u32_prefix": [
+      4274912973,
+      240,
+      65536,
+      0,
+      17,
+      0,
+      2
+    ],
+    "interpretation": "magic/length/version candidate; remaining fields opaque"
+  },
+  {
+    "resource": [
+      "PNG",
+      137,
+      1033
+    ],
+    "rva": 228888,
+    "file_offset": 216600,
+    "size": 5011,
+    "sha256": "9c7cc0642d77ed95e6ef386dfe1bb963f27e659beb2a74cce899aa5b8a50b2df",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 2222,
+        "crc_valid": true
+      },
+      {
+        "offset": 4999,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      140,
+      1033
+    ],
+    "rva": 233904,
+    "file_offset": 221616,
+    "size": 4998,
+    "sha256": "438dd12a614ddcc4314802aa98951145e302d143cec26d3a4de9f5ff575afcdf",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 2209,
+        "crc_valid": true
+      },
+      {
+        "offset": 4986,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      143,
+      1033
+    ],
+    "rva": 238904,
+    "file_offset": 226616,
+    "size": 4967,
+    "sha256": "7353748491c53acbec13402f1a0f8faafef628b19d5e66d6031ed2007cc1c1a0",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 2178,
+        "crc_valid": true
+      },
+      {
+        "offset": 4955,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      146,
+      1033
+    ],
+    "rva": 243872,
+    "file_offset": 231584,
+    "size": 4868,
+    "sha256": "7b5ab92da7152f8d37722f104075473f40814d6e9bc9d96c9c195d96bd57467f",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 2079,
+        "crc_valid": true
+      },
+      {
+        "offset": 4856,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      152,
+      1033
+    ],
+    "rva": 248744,
+    "file_offset": 236456,
+    "size": 5251,
+    "sha256": "0cce693d730f0f6b1afa1184819e98596c2ecdbaa495671c0ab6117b5cba77b5",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2637,
+        "crc_valid": true
+      },
+      {
+        "offset": 2703,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2719,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2763,
+        "type": "IDAT",
+        "length": 2464,
+        "crc_valid": true
+      },
+      {
+        "offset": 5239,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      154,
+      1033
+    ],
+    "rva": 254000,
+    "file_offset": 241712,
+    "size": 7212,
+    "sha256": "ff55bb8ad4ab220a25a8969484765f06b73108b14e78728bec991687e978e79c",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 4423,
+        "crc_valid": true
+      },
+      {
+        "offset": 7200,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      229,
+      1033
+    ],
+    "rva": 262624,
+    "file_offset": 250336,
+    "size": 3549,
+    "sha256": "528c90fe0b35f2581bd07c6b13a6be86eb74a12d1d3f4eaa6cda2489728f622c",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff",
+    "image": {
+      "width": 16,
+      "height": 16,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2637,
+        "crc_valid": true
+      },
+      {
+        "offset": 2703,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2719,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2763,
+        "type": "IDAT",
+        "length": 762,
+        "crc_valid": true
+      },
+      {
+        "offset": 3537,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      232,
+      1033
+    ],
+    "rva": 266176,
+    "file_offset": 253888,
+    "size": 371,
+    "sha256": "f0f2711546a8ff43a8b346c8881e54905ed36367e2cd07eebd633f5da98cad7a",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000005b000000140806000001953f71",
+    "image": {
+      "width": 91,
+      "height": 20,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 1
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 70,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 114,
+        "type": "IDAT",
+        "length": 233,
+        "crc_valid": true
+      },
+      {
+        "offset": 359,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      233,
+      1033
+    ],
+    "rva": 266552,
+    "file_offset": 254264,
+    "size": 458,
+    "sha256": "eff1862598756e58e0b4e12b1eedcf7850bfb54ece5b358e92d29a4864a4b769",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000017000000320806000001c04c70",
+    "image": {
+      "width": 23,
+      "height": 50,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 1
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 70,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 114,
+        "type": "IDAT",
+        "length": 320,
+        "crc_valid": true
+      },
+      {
+        "offset": 446,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      234,
+      1033
+    ],
+    "rva": 267016,
+    "file_offset": 254728,
+    "size": 1071,
+    "sha256": "64f6ee42d0edca11b5eaad59f65e912ec318357efae19881625627db934408b4",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000017000000320806000000b74b40",
+    "image": {
+      "width": 23,
+      "height": 50,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 49,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 93,
+        "type": "IDAT",
+        "length": 706,
+        "crc_valid": true
+      },
+      {
+        "offset": 811,
+        "type": "meTa",
+        "length": 236,
+        "crc_valid": true
+      },
+      {
+        "offset": 1059,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      235,
+      1033
+    ],
+    "rva": 268088,
+    "file_offset": 255800,
+    "size": 1085,
+    "sha256": "42c16c008c824df1d3856fbc8a3d71ef8b5e872f12e648c23a41849032635506",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000017000000120806000000b0e745",
+    "image": {
+      "width": 23,
+      "height": 18,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 49,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 93,
+        "type": "IDAT",
+        "length": 720,
+        "crc_valid": true
+      },
+      {
+        "offset": 825,
+        "type": "meTa",
+        "length": 236,
+        "crc_valid": true
+      },
+      {
+        "offset": 1073,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      245,
+      1033
+    ],
+    "rva": 269176,
+    "file_offset": 256888,
+    "size": 7052,
+    "sha256": "706688e7f2dcf9131e7d9b031d7ae1355fd615db9725376888fe421db11433cc",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 4263,
+        "crc_valid": true
+      },
+      {
+        "offset": 7040,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      246,
+      1033
+    ],
+    "rva": 276232,
+    "file_offset": 263944,
+    "size": 6791,
+    "sha256": "35a059e6f23b5a07d6d671d8094cff876c07dfb7ed3904847ec8b7540341b448",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 4002,
+        "crc_valid": true
+      },
+      {
+        "offset": 6779,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      247,
+      1033
+    ],
+    "rva": 283024,
+    "file_offset": 270736,
+    "size": 4363,
+    "sha256": "0bfc530623ad892ae9f905637887d943649ae725e3bd25432bcb6073d4830903",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 70,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 114,
+        "type": "IDAT",
+        "length": 4225,
+        "crc_valid": true
+      },
+      {
+        "offset": 4351,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      248,
+      1033
+    ],
+    "rva": 287392,
+    "file_offset": 275104,
+    "size": 7080,
+    "sha256": "cdfc9a7bceda608ef3f9b827ddef15fc3385f2e7e8ca82c76f72a47ab2088572",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 4291,
+        "crc_valid": true
+      },
+      {
+        "offset": 7068,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      249,
+      1033
+    ],
+    "rva": 294472,
+    "file_offset": 282184,
+    "size": 7212,
+    "sha256": "ff55bb8ad4ab220a25a8969484765f06b73108b14e78728bec991687e978e79c",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 4423,
+        "crc_valid": true
+      },
+      {
+        "offset": 7200,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      253,
+      1033
+    ],
+    "rva": 301688,
+    "file_offset": 289400,
+    "size": 7714,
+    "sha256": "1633dc91351be2dc4d0f8ec0cd04c824e3fbd6e7489a3f123ca96ca235049e53",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 4925,
+        "crc_valid": true
+      },
+      {
+        "offset": 7702,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      265,
+      1033
+    ],
+    "rva": 309408,
+    "file_offset": 297120,
+    "size": 2331,
+    "sha256": "6a811df78bbfd2f68139a5ad89b962a797a3da05020e7bfc9c0e61e8add1563b",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "IDAT",
+        "length": 2274,
+        "crc_valid": true
+      },
+      {
+        "offset": 2319,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      266,
+      1033
+    ],
+    "rva": 311744,
+    "file_offset": 299456,
+    "size": 388,
+    "sha256": "007e0e3ea883362388e6d4b1b2fb14638a515a9f96c13f51707a2af434078769",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 49,
+        "type": "tEXt",
+        "length": 25,
+        "crc_valid": true
+      },
+      {
+        "offset": 86,
+        "type": "IDAT",
+        "length": 278,
+        "crc_valid": true
+      },
+      {
+        "offset": 376,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      268,
+      1033
+    ],
+    "rva": 312136,
+    "file_offset": 299848,
+    "size": 1779,
+    "sha256": "5c97eea10a4d3b1b129ecbf4cecca003896e6c799c24cec2bf7166debeadd71a",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001a0000001908060000002fde3e",
+    "image": {
+      "width": 26,
+      "height": 25,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "IDAT",
+        "length": 1722,
+        "crc_valid": true
+      },
+      {
+        "offset": 1767,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      269,
+      1033
+    ],
+    "rva": 313920,
+    "file_offset": 301632,
+    "size": 1562,
+    "sha256": "2e57693d7a5eac22d4430e7922f740fa3fa6ede35320749a211de1eedcc08575",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001a0000001908060000002fde3e",
+    "image": {
+      "width": 26,
+      "height": 25,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "IDAT",
+        "length": 1505,
+        "crc_valid": true
+      },
+      {
+        "offset": 1550,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      271,
+      1033
+    ],
+    "rva": 315488,
+    "file_offset": 303200,
+    "size": 1763,
+    "sha256": "22d9fb3031ebf44f350f118fc1c3b57567289ca1e43942ad2ee64c556db8071a",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001a0000001908060000002fde3e",
+    "image": {
+      "width": 26,
+      "height": 25,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "IDAT",
+        "length": 1706,
+        "crc_valid": true
+      },
+      {
+        "offset": 1751,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      277,
+      1033
+    ],
+    "rva": 317256,
+    "file_offset": 304968,
+    "size": 1778,
+    "sha256": "b9149c86c8eb6a796ea7327aa791d0faab8a2d432ed57954c875a6f16e498170",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001a0000001908060000002fde3e",
+    "image": {
+      "width": 26,
+      "height": 25,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "IDAT",
+        "length": 1721,
+        "crc_valid": true
+      },
+      {
+        "offset": 1766,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      278,
+      1033
+    ],
+    "rva": 319040,
+    "file_offset": 306752,
+    "size": 1563,
+    "sha256": "74936663cdd7b5d1161d0d0eec6e58e8dc1079e174aab31c8483aea811507fe5",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001a0000001908060000002fde3e",
+    "image": {
+      "width": 26,
+      "height": 25,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "IDAT",
+        "length": 1506,
+        "crc_valid": true
+      },
+      {
+        "offset": 1551,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      280,
+      1033
+    ],
+    "rva": 320608,
+    "file_offset": 308320,
+    "size": 1768,
+    "sha256": "81d75550150fe702513b011e59a42dd54e8abf669249da1d621607682984bccf",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001a0000001908060000002fde3e",
+    "image": {
+      "width": 26,
+      "height": 25,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "IDAT",
+        "length": 1711,
+        "crc_valid": true
+      },
+      {
+        "offset": 1756,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      281,
+      1033
+    ],
+    "rva": 322376,
+    "file_offset": 310088,
+    "size": 1293,
+    "sha256": "4f3096723c8307b627446f8c0842f4c0ba08d2af5e3a196d7aae6d3a7fe9f8d2",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000390000001b0806000000c67c27",
+    "image": {
+      "width": 57,
+      "height": 27,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "IDAT",
+        "length": 1236,
+        "crc_valid": true
+      },
+      {
+        "offset": 1281,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      286,
+      1033
+    ],
+    "rva": 323672,
+    "file_offset": 311384,
+    "size": 3999,
+    "sha256": "2a84683c2cbdceebee3db7d4372832892f310cb5b2ded19585c485cc938d3289",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1210,
+        "crc_valid": true
+      },
+      {
+        "offset": 3987,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      287,
+      1033
+    ],
+    "rva": 327672,
+    "file_offset": 315384,
+    "size": 4266,
+    "sha256": "e3b0613d424a3bf14b2fd67bde4f0fbe7d38c79e6cf03fc2ce23f884b5796f41",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1477,
+        "crc_valid": true
+      },
+      {
+        "offset": 4254,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      288,
+      1033
+    ],
+    "rva": 331944,
+    "file_offset": 319656,
+    "size": 3960,
+    "sha256": "ba31ef16c84b1a6fefe56d6fc0fb76ec892a613f2291132de3b6141c211edf1d",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1171,
+        "crc_valid": true
+      },
+      {
+        "offset": 3948,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      289,
+      1033
+    ],
+    "rva": 335904,
+    "file_offset": 323616,
+    "size": 4173,
+    "sha256": "5f31e1713deb1a94b4e294366e03c8853092f58ca5f45cf66b2404f653588e75",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1384,
+        "crc_valid": true
+      },
+      {
+        "offset": 4161,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      290,
+      1033
+    ],
+    "rva": 340080,
+    "file_offset": 327792,
+    "size": 4461,
+    "sha256": "71ace193daaeea8d4817ac2baa49f71b451861bf967ee6ceea80c779e79722fe",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1672,
+        "crc_valid": true
+      },
+      {
+        "offset": 4449,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      291,
+      1033
+    ],
+    "rva": 344544,
+    "file_offset": 332256,
+    "size": 4136,
+    "sha256": "1c0603b3a1103a54ca0485a03095782b4290c8a729e73890702243458f5adba7",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1347,
+        "crc_valid": true
+      },
+      {
+        "offset": 4124,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      292,
+      1033
+    ],
+    "rva": 348680,
+    "file_offset": 336392,
+    "size": 4395,
+    "sha256": "8d1665e9689516b7fd80a8e4e4260fb6ca663c72ba9fb0f69d1540b6130148a3",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1606,
+        "crc_valid": true
+      },
+      {
+        "offset": 4383,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      293,
+      1033
+    ],
+    "rva": 353080,
+    "file_offset": 340792,
+    "size": 4455,
+    "sha256": "cce0ea35e4b91b88e94d566394988a065a9ed92b1f464bf4236d5f1103bc29da",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1666,
+        "crc_valid": true
+      },
+      {
+        "offset": 4443,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      294,
+      1033
+    ],
+    "rva": 357536,
+    "file_offset": 345248,
+    "size": 4333,
+    "sha256": "505f364e2d72deb420ba557aef54f3a79e73302871aa4c31c5a997391e54b2a7",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1544,
+        "crc_valid": true
+      },
+      {
+        "offset": 4321,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      295,
+      1033
+    ],
+    "rva": 361872,
+    "file_offset": 349584,
+    "size": 4516,
+    "sha256": "f1c240dd39a6e10156e570b481f488ef8bfa42eee1273842f08bb48840deef20",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1727,
+        "crc_valid": true
+      },
+      {
+        "offset": 4504,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      296,
+      1033
+    ],
+    "rva": 366392,
+    "file_offset": 354104,
+    "size": 4715,
+    "sha256": "685a6105983abd0a41bb6e14fbe7db734bb21f2a7f58bc7fa8cc34acc0ad8e0e",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1926,
+        "crc_valid": true
+      },
+      {
+        "offset": 4703,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      297,
+      1033
+    ],
+    "rva": 371112,
+    "file_offset": 358824,
+    "size": 4482,
+    "sha256": "570965a77497603828a0fc734b5ee78027b59f564d61b2cb77531e26cd760935",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1693,
+        "crc_valid": true
+      },
+      {
+        "offset": 4470,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      298,
+      1033
+    ],
+    "rva": 375600,
+    "file_offset": 363312,
+    "size": 4370,
+    "sha256": "8d5e0df6f13086375fc3e2298545f0fd17797cef9a71c944777be302fe2dbfe2",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1581,
+        "crc_valid": true
+      },
+      {
+        "offset": 4358,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      299,
+      1033
+    ],
+    "rva": 379976,
+    "file_offset": 367688,
+    "size": 4809,
+    "sha256": "6a6debac71ed074d9b81c36a76987a898a00572e46423d5260db98cbbdeb5425",
+    "prefix_hex": "89504e470d0a1a0a0000000d494844520000001e0000001e08060000003b30ae",
+    "image": {
+      "width": 30,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 2020,
+        "crc_valid": true
+      },
+      {
+        "offset": 4797,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      300,
+      1033
+    ],
+    "rva": 384792,
+    "file_offset": 372504,
+    "size": 321,
+    "sha256": "442bfefc7c83cd7cec718208974e13d259c264a0e25c0431b126616504b44420",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000120000001e0806000000210c4e",
+    "image": {
+      "width": 18,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "tEXt",
+        "length": 25,
+        "crc_valid": true
+      },
+      {
+        "offset": 70,
+        "type": "IDAT",
+        "length": 227,
+        "crc_valid": true
+      },
+      {
+        "offset": 309,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      301,
+      1033
+    ],
+    "rva": 385120,
+    "file_offset": 372832,
+    "size": 394,
+    "sha256": "cbc57c151403371c3aab3496bf2291dec3adce934df3d1e1c07dfff8e1768b0c",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000120000001e0806000000210c4e",
+    "image": {
+      "width": 18,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "tEXt",
+        "length": 25,
+        "crc_valid": true
+      },
+      {
+        "offset": 70,
+        "type": "IDAT",
+        "length": 300,
+        "crc_valid": true
+      },
+      {
+        "offset": 382,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      302,
+      1033
+    ],
+    "rva": 385520,
+    "file_offset": 373232,
+    "size": 241,
+    "sha256": "ff11246feb8c6aa52fd7149ab0c6f7359e56c1769bca9ecf429b2b5ead738312",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000120000001e0806000000210c4e",
+    "image": {
+      "width": 18,
+      "height": 30,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "tEXt",
+        "length": 25,
+        "crc_valid": true
+      },
+      {
+        "offset": 70,
+        "type": "IDAT",
+        "length": 147,
+        "crc_valid": true
+      },
+      {
+        "offset": 229,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      308,
+      1033
+    ],
+    "rva": 385768,
+    "file_offset": 373480,
+    "size": 4749,
+    "sha256": "7ece14a32c75e52e772d4f9ebf684a2aea7b5fc6068cb28517ffaf8acd38827d",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 1960,
+        "crc_valid": true
+      },
+      {
+        "offset": 4737,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      315,
+      1033
+    ],
+    "rva": 390520,
+    "file_offset": 378232,
+    "size": 4992,
+    "sha256": "7cb3dd07a91b635dd51636d8fb7e3f4dc25d8a4ed9c2a0319c8a040f194e1301",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 2203,
+        "crc_valid": true
+      },
+      {
+        "offset": 4980,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      317,
+      1033
+    ],
+    "rva": 395512,
+    "file_offset": 383224,
+    "size": 1182,
+    "sha256": "f4e1dd81d8717a30eab97b46dca102cde7364f8e399492486862098e77faf1c0",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff",
+    "image": {
+      "width": 16,
+      "height": 16,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 70,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 114,
+        "type": "IDAT",
+        "length": 1044,
+        "crc_valid": true
+      },
+      {
+        "offset": 1170,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      318,
+      1033
+    ],
+    "rva": 396696,
+    "file_offset": 384408,
+    "size": 1126,
+    "sha256": "1a4fba4a1dc5561b285ce7218f151304c9e265ced00e06ebb22376f216ec9337",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff",
+    "image": {
+      "width": 16,
+      "height": 16,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 70,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 114,
+        "type": "IDAT",
+        "length": 988,
+        "crc_valid": true
+      },
+      {
+        "offset": 1114,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      330,
+      1033
+    ],
+    "rva": 397824,
+    "file_offset": 385536,
+    "size": 1972,
+    "sha256": "ec5f3b8a612ad7183bdb821bb35693b739dae7b2c4f0118e7a6760e78c93c6f9",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "IDAT",
+        "length": 1915,
+        "crc_valid": true
+      },
+      {
+        "offset": 1960,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      341,
+      1033
+    ],
+    "rva": 399800,
+    "file_offset": 387512,
+    "size": 3724,
+    "sha256": "eabaeb167e126cca7a6ad43d189721b909cc789e8b0ff4cfcdf67f93a75fb66e",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 935,
+        "crc_valid": true
+      },
+      {
+        "offset": 3712,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      343,
+      1033
+    ],
+    "rva": 403528,
+    "file_offset": 391240,
+    "size": 3787,
+    "sha256": "e0b2b705b6957306fe4976ae0711e7f085fca5d5f4ce5d63ec5dcff79ea19227",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 998,
+        "crc_valid": true
+      },
+      {
+        "offset": 3775,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      345,
+      1033
+    ],
+    "rva": 407320,
+    "file_offset": 395032,
+    "size": 4960,
+    "sha256": "f4bcb043e0e6a693a384047671cfb6fbab976af4d1964548fe29d50c53b9637e",
+    "prefix_hex": "89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a",
+    "image": {
+      "width": 32,
+      "height": 32,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 2171,
+        "crc_valid": true
+      },
+      {
+        "offset": 4948,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      347,
+      1033
+    ],
+    "rva": 412280,
+    "file_offset": 399992,
+    "size": 6880,
+    "sha256": "a9b54b77fe709b22856f5f79a632e53c15ae040650e424dcaa25b3600830e538",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000300000003008060000005702f9",
+    "image": {
+      "width": 48,
+      "height": 48,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "pHYs",
+        "length": 9,
+        "crc_valid": true
+      },
+      {
+        "offset": 54,
+        "type": "iCCP",
+        "length": 2639,
+        "crc_valid": true
+      },
+      {
+        "offset": 2705,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 2721,
+        "type": "cHRM",
+        "length": 32,
+        "crc_valid": true
+      },
+      {
+        "offset": 2765,
+        "type": "IDAT",
+        "length": 4091,
+        "crc_valid": true
+      },
+      {
+        "offset": 6868,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      3024,
+      1033
+    ],
+    "rva": 261216,
+    "file_offset": 248928,
+    "size": 725,
+    "sha256": "d5623427045b697b3b9b95f6ebed8a354b2acd8df5e8bc65233154c27ee94da9",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff",
+    "image": {
+      "width": 16,
+      "height": 16,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 49,
+        "type": "tEXt",
+        "length": 24,
+        "crc_valid": true
+      },
+      {
+        "offset": 85,
+        "type": "IDAT",
+        "length": 616,
+        "crc_valid": true
+      },
+      {
+        "offset": 713,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  },
+  {
+    "resource": [
+      "PNG",
+      3025,
+      1033
+    ],
+    "rva": 261944,
+    "file_offset": 249656,
+    "size": 674,
+    "sha256": "8ae8ab996f75f360670e29d41022df000d18fcbd84370572f0160afb2fb00985",
+    "prefix_hex": "89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff",
+    "image": {
+      "width": 16,
+      "height": 16,
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filter": 0,
+      "interlace": 0
+    },
+    "chunks": [
+      {
+        "offset": 8,
+        "type": "IHDR",
+        "length": 13,
+        "crc_valid": true
+      },
+      {
+        "offset": 33,
+        "type": "gAMA",
+        "length": 4,
+        "crc_valid": true
+      },
+      {
+        "offset": 49,
+        "type": "tEXt",
+        "length": 25,
+        "crc_valid": true
+      },
+      {
+        "offset": 86,
+        "type": "IDAT",
+        "length": 564,
+        "crc_valid": true
+      },
+      {
+        "offset": 662,
+        "type": "IEND",
+        "length": 0,
+        "crc_valid": true
+      }
+    ],
+    "trailing_bytes": 0
+  }
+]

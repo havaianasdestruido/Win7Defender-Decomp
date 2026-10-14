@@ -1,0 +1,3 @@
+MsMpCom.dll loading
+MsMpCom.dll CFG 425 functions 17.25 seconds
+MsMpCom.dll {'automated pseudocode; unverified': 313, 'seed not recovered by CFG; inspect disassembly and exception-range boundaries': 2}

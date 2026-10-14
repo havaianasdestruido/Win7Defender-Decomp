@@ -1,0 +1,43 @@
+{
+  "input_sha256": "e21b38e77047ca809cf472a2b5bbd6c6b438fb05043408dcb5bf5bf4487cbed2",
+  "inventory": [
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "type": "RT_VERSION",
+      "rva": 201312,
+      "file_offset": 188000,
+      "size": 976,
+      "codepage": 0,
+      "sha256": "697c40dafbbdd0dff31909292ff6ac088105c624d7a910fd9e958e9183612437"
+    },
+    {
+      "path": [
+        24,
+        1,
+        1033
+      ],
+      "type": "RT_MANIFEST",
+      "rva": 200864,
+      "file_offset": 187552,
+      "size": 443,
+      "codepage": 0,
+      "sha256": "965e3d81e1a83f8c0ddfa1f5a431928346b6c762ef0908ba186663da6fad3b28"
+    }
+  ],
+  "decoded": [
+    {
+      "resource": [
+        24,
+        1,
+        1033
+      ],
+      "rva": 200864,
+      "kind": "manifest",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?> \r\n<!-- Copyright (c) Microsoft Corporation -->\r\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\r\n    <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\r\n        <security>\r\n            <requestedPrivileges>\r\n                <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\" /> \r\n            </requestedPrivileges>\r\n        </security>\r\n    </trustInfo>\r\n</assembly>"
+    }
+  ]
+}

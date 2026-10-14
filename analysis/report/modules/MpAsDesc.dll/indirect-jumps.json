@@ -1,0 +1,32 @@
+[
+  {
+    "instruction_va": 8792432318840,
+    "resolved_targets": [],
+    "jumpkind": "Ijk_Call"
+  },
+  {
+    "instruction_va": 8792432319023,
+    "resolved_targets": [],
+    "jumpkind": "Ijk_Call"
+  },
+  {
+    "instruction_va": 8792432319110,
+    "resolved_targets": [],
+    "jumpkind": "Ijk_Call"
+  },
+  {
+    "instruction_va": 8792432319253,
+    "resolved_targets": [],
+    "jumpkind": "Ijk_Call"
+  },
+  {
+    "instruction_va": 8792432319497,
+    "resolved_targets": [],
+    "jumpkind": "Ijk_Call"
+  },
+  {
+    "instruction_va": 8792432319605,
+    "resolved_targets": [],
+    "jumpkind": "Ijk_Call"
+  }
+]

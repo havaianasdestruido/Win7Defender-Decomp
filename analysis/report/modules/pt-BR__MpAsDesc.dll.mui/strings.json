@@ -1,0 +1,2467 @@
+[
+  {
+    "file_offset": 77,
+    "encoding": "ascii",
+    "text": "!This program cannot be run in DOS mode."
+  },
+  {
+    "file_offset": 160,
+    "encoding": "ascii",
+    "text": "RichE"
+  },
+  {
+    "file_offset": 448,
+    "encoding": "ascii",
+    "text": ".rsrc"
+  },
+  {
+    "file_offset": 1904,
+    "encoding": "utf-16le",
+    "text": "pt-BR"
+  },
+  {
+    "file_offset": 1938,
+    "encoding": "utf-16le",
+    "text": "Desconhecido"
+  },
+  {
+    "file_offset": 1964,
+    "encoding": "utf-16le",
+    "text": "Adware"
+  },
+  {
+    "file_offset": 1978,
+    "encoding": "utf-16le",
+    "text": "Spyware"
+  },
+  {
+    "file_offset": 1994,
+    "encoding": "utf-16le",
+    "text": "Password Stealer"
+  },
+  {
+    "file_offset": 2028,
+    "encoding": "utf-16le",
+    "text": "Trojan Downloader"
+  },
+  {
+    "file_offset": 2074,
+    "encoding": "utf-16le",
+    "text": "Backdoor"
+  },
+  {
+    "file_offset": 2094,
+    "encoding": "utf-16le",
+    "text": "Cavalo de Tr"
+  },
+  {
+    "file_offset": 2126,
+    "encoding": "utf-16le",
+    "text": "Email Flooder (inundador)"
+  },
+  {
+    "file_offset": 2180,
+    "encoding": "utf-16le",
+    "text": "Discagem"
+  },
+  {
+    "file_offset": 2198,
+    "encoding": "utf-16le",
+    "text": "Software de Monitoramento"
+  },
+  {
+    "file_offset": 2250,
+    "encoding": "utf-16le",
+    "text": "Modificador de Navegador"
+  },
+  {
+    "file_offset": 2310,
+    "encoding": "utf-16le",
+    "text": "Programa de Piadas"
+  },
+  {
+    "file_offset": 2350,
+    "encoding": "utf-16le",
+    "text": "Software Embarcado"
+  },
+  {
+    "file_offset": 2388,
+    "encoding": "utf-16le",
+    "text": "Notificador de Cavalos de Tr"
+  },
+  {
+    "file_offset": 2452,
+    "encoding": "utf-16le",
+    "text": "Modificador de Configura"
+  },
+  {
+    "file_offset": 2514,
+    "encoding": "utf-16le",
+    "text": "\"Software Potencialmente Indesejado"
+  },
+  {
+    "file_offset": 2590,
+    "encoding": "utf-16le",
+    "text": "Explorar'Programa de Compartilhamento de Arquivo Ferramenta de Cria"
+  },
+  {
+    "file_offset": 2728,
+    "encoding": "utf-16le",
+    "text": "o de Malware"
+  },
+  {
+    "file_offset": 2754,
+    "encoding": "utf-16le",
+    "text": "Software de Controle Remoto"
+  },
+  {
+    "file_offset": 2810,
+    "encoding": "utf-16le",
+    "text": "Ferramenta"
+  },
+  {
+    "file_offset": 2832,
+    "encoding": "utf-16le",
+    "text": "/Ataque de Nega"
+  },
+  {
+    "file_offset": 2866,
+    "encoding": "utf-16le",
+    "text": "o de Servi"
+  },
+  {
+    "file_offset": 2888,
+    "encoding": "utf-16le",
+    "text": "o de Cavalo de Tr"
+  },
+  {
+    "file_offset": 2930,
+    "encoding": "utf-16le",
+    "text": "Instalador de Cavalos de Tr"
+  },
+  {
+    "file_offset": 2986,
+    "encoding": "utf-16le",
+    "text": "ia'Mensageiro de Cavalos de Tr"
+  },
+  {
+    "file_offset": 3048,
+    "encoding": "utf-16le",
+    "text": "ia em Massa,Software de Monitoramento de Cavalo de Tr"
+  },
+  {
+    "file_offset": 3156,
+    "encoding": "utf-16le",
+    "text": "ia\"Servidor Proxy de Cavalos de Tr"
+  },
+  {
+    "file_offset": 3246,
+    "encoding": "utf-16le",
+    "text": "Permitido"
+  },
+  {
+    "file_offset": 3270,
+    "encoding": "utf-16le",
+    "text": "o Classificado"
+  },
+  {
+    "file_offset": 3320,
+    "encoding": "utf-16le",
+    "text": "VAltera"
+  },
+  {
+    "file_offset": 3338,
+    "encoding": "utf-16le",
+    "text": "o detectada no sistema. Isso geralmente ocorre quando um software "
+  },
+  {
+    "file_offset": 3472,
+    "encoding": "utf-16le",
+    "text": " instalado."
+  },
+  {
+    "file_offset": 3496,
+    "encoding": "utf-16le",
+    "text": "Programa que exibe an"
+  },
+  {
+    "file_offset": 3540,
+    "encoding": "utf-16le",
+    "text": "ncios. Embora alguns adwares possam ser "
+  },
+  {
+    "file_offset": 3622,
+    "encoding": "utf-16le",
+    "text": "teis, por subsidiar um programa ou servi"
+  },
+  {
+    "file_offset": 3704,
+    "encoding": "utf-16le",
+    "text": "o, outros podem exibir an"
+  },
+  {
+    "file_offset": 3756,
+    "encoding": "utf-16le",
+    "text": "ncios sem o devido consentimento."
+  },
+  {
+    "file_offset": 3824,
+    "encoding": "utf-16le",
+    "text": "Programa que coleta informa"
+  },
+  {
+    "file_offset": 3882,
+    "encoding": "utf-16le",
+    "text": "es, como sites visitados por um usu"
+  },
+  {
+    "file_offset": 3954,
+    "encoding": "utf-16le",
+    "text": "rio, sem o devido consentimento. A"
+  },
+  {
+    "file_offset": 4036,
+    "encoding": "utf-16le",
+    "text": "o autorizadas podem incluir instala"
+  },
+  {
+    "file_offset": 4110,
+    "encoding": "utf-16le",
+    "text": "o sem aviso pr"
+  },
+  {
+    "file_offset": 4140,
+    "encoding": "utf-16le",
+    "text": "vio ou execu"
+  },
+  {
+    "file_offset": 4168,
+    "encoding": "utf-16le",
+    "text": "o sem um m"
+  },
+  {
+    "file_offset": 4190,
+    "encoding": "utf-16le",
+    "text": "todo claro para desabilitar o programa.=Cavalo de Tr"
+  },
+  {
+    "file_offset": 4296,
+    "encoding": "utf-16le",
+    "text": "ia que captura ou transmite senhas a um invasor.YCavalo de Tr"
+  },
+  {
+    "file_offset": 4420,
+    "encoding": "utf-16le",
+    "text": "ia que instala outros programas silenciosamente, sem o devido consentimento.}C"
+  },
+  {
+    "file_offset": 4578,
+    "encoding": "utf-16le",
+    "text": "digo mal-intencionado de autopropaga"
+  },
+  {
+    "file_offset": 4654,
+    "encoding": "utf-16le",
+    "text": "o que pode se autodistribuir automaticamente entre computadores por conex"
+  },
+  {
+    "file_offset": 4802,
+    "encoding": "utf-16le",
+    "text": "es de rede.[Cavalo de Tr"
+  },
+  {
+    "file_offset": 4852,
+    "encoding": "utf-16le",
+    "text": "ia usado para ignorar diretivas de seguran"
+  },
+  {
+    "file_offset": 4938,
+    "encoding": "utf-16le",
+    "text": "a ou ganhar acesso a um computador."
+  },
+  {
+    "file_offset": 5012,
+    "encoding": "utf-16le",
+    "text": "Programa que parece ser "
+  },
+  {
+    "file_offset": 5062,
+    "encoding": "utf-16le",
+    "text": "til ou inofensivo, mas que cont"
+  },
+  {
+    "file_offset": 5134,
+    "encoding": "utf-16le",
+    "text": "digo oculto desenvolvido para explorar ou danificar o sistema em que "
+  },
+  {
+    "file_offset": 5274,
+    "encoding": "utf-16le",
+    "text": " executado.MCavalo de Tr"
+  },
+  {
+    "file_offset": 5324,
+    "encoding": "utf-16le",
+    "text": "ia criado para saturar a caixa de entrada do usu"
+  },
+  {
+    "file_offset": 5422,
+    "encoding": "utf-16le",
+    "text": "rio com emails."
+  },
+  {
+    "file_offset": 5454,
+    "encoding": "utf-16le",
+    "text": "]Cavalo de Tr"
+  },
+  {
+    "file_offset": 5482,
+    "encoding": "utf-16le",
+    "text": "ia que usa o modem do computador para gerar tarifas telef"
+  },
+  {
+    "file_offset": 5598,
+    "encoding": "utf-16le",
+    "text": "nicas n"
+  },
+  {
+    "file_offset": 5614,
+    "encoding": "utf-16le",
+    "text": "o autorizadas.SPrograma que monitora atividades, como pressionamentos de tecla ou imagens na tela.ePrograma que altera as configura"
+  },
+  {
+    "file_offset": 5880,
+    "encoding": "utf-16le",
+    "text": "es do navegador, como a p"
+  },
+  {
+    "file_offset": 5932,
+    "encoding": "utf-16le",
+    "text": "gina inicial, sem o devido consentimento."
+  },
+  {
+    "file_offset": 6026,
+    "encoding": "utf-16le",
+    "text": "kPrograma criado para divertir ou assustar um usu"
+  },
+  {
+    "file_offset": 6126,
+    "encoding": "utf-16le",
+    "text": "rio, por exemplo, imitando um v"
+  },
+  {
+    "file_offset": 6190,
+    "encoding": "utf-16le",
+    "text": "rus sem executar uma a"
+  },
+  {
+    "file_offset": 6246,
+    "encoding": "utf-16le",
+    "text": "Programa que instala outros softwares potencialmente indesejados, como adware ou spyware. O contrato de licen"
+  },
+  {
+    "file_offset": 6466,
+    "encoding": "utf-16le",
+    "text": "a do programa embarcado pode exigir esses outros componentes para funcionar.WCavalo de Tr"
+  },
+  {
+    "file_offset": 6646,
+    "encoding": "utf-16le",
+    "text": "ia usado para notificar um invasor quando o software tiver sido instalado.=Programa que altera configura"
+  },
+  {
+    "file_offset": 6858,
+    "encoding": "utf-16le",
+    "text": "es sem o devido consentimento."
+  },
+  {
+    "file_offset": 6926,
+    "encoding": "utf-16le",
+    "text": "Programa com comportamento potencialmente indesejado que chama a aten"
+  },
+  {
+    "file_offset": 7068,
+    "encoding": "utf-16le",
+    "text": "o do usu"
+  },
+  {
+    "file_offset": 7086,
+    "encoding": "utf-16le",
+    "text": "rio para an"
+  },
+  {
+    "file_offset": 7110,
+    "encoding": "utf-16le",
+    "text": "lise. Esse comportamento pode ter impacto sobre a privacidade, a seguran"
+  },
+  {
+    "file_offset": 7256,
+    "encoding": "utf-16le",
+    "text": "a e a experi"
+  },
+  {
+    "file_offset": 7282,
+    "encoding": "utf-16le",
+    "text": "ncia de computa"
+  },
+  {
+    "file_offset": 7316,
+    "encoding": "utf-16le",
+    "text": "o do usu"
+  },
+  {
+    "file_offset": 7346,
+    "encoding": "utf-16le",
+    "text": "6Programa que explora uma vulnerabilidade na seguran"
+  },
+  {
+    "file_offset": 7452,
+    "encoding": "utf-16le",
+    "text": "a.hPrograma usado para distribuir e baixar arquivos, geralmente como parte de uma rede ponto a ponto (P2P)."
+  },
+  {
+    "file_offset": 7668,
+    "encoding": "utf-16le",
+    "text": "CFerramenta usada para criar v"
+  },
+  {
+    "file_offset": 7730,
+    "encoding": "utf-16le",
+    "text": "rus, worms e outros tipos de malware."
+  },
+  {
+    "file_offset": 7806,
+    "encoding": "utf-16le",
+    "text": "Programa que fornece acesso a um computador de um local remoto. Esses programas geralmente s"
+  },
+  {
+    "file_offset": 7992,
+    "encoding": "utf-16le",
+    "text": "o instalados pelo propriet"
+  },
+  {
+    "file_offset": 8046,
+    "encoding": "utf-16le",
+    "text": "rio ou administrador do computador e s"
+  },
+  {
+    "file_offset": 8124,
+    "encoding": "utf-16le",
+    "text": " representam risco se inesperados.jFerramenta que pode ser explorada por um invasor e que pode ser usada para ignorar ou reduzir a seguran"
+  },
+  {
+    "file_offset": 8408,
+    "encoding": "utf-16le",
+    "text": "2Programa que cria um ataque de Nega"
+  },
+  {
+    "file_offset": 8484,
+    "encoding": "utf-16le",
+    "text": "o de Servi"
+  },
+  {
+    "file_offset": 8506,
+    "encoding": "utf-16le",
+    "text": "o.(Programa que vem com um Cavalo de Tr"
+  },
+  {
+    "file_offset": 8586,
+    "encoding": "utf-16le",
+    "text": "ia.3Cavalo de Tr"
+  },
+  {
+    "file_offset": 8620,
+    "encoding": "utf-16le",
+    "text": "ia que envia grandes volumes de email."
+  },
+  {
+    "file_offset": 8698,
+    "encoding": "utf-16le",
+    "text": "Cavalo de Tr"
+  },
+  {
+    "file_offset": 8724,
+    "encoding": "utf-16le",
+    "text": "ia que registra as atividades do usu"
+  },
+  {
+    "file_offset": 8798,
+    "encoding": "utf-16le",
+    "text": "rio, como pressionamentos de tecla. Essas informa"
+  },
+  {
+    "file_offset": 8900,
+    "encoding": "utf-16le",
+    "text": "es podem ser enviadas a um invasor por email ou outros m"
+  },
+  {
+    "file_offset": 9014,
+    "encoding": "utf-16le",
+    "text": "todos.=Cavalo de Tr"
+  },
+  {
+    "file_offset": 9054,
+    "encoding": "utf-16le",
+    "text": "ia que instala um servidor proxy em uma m"
+  },
+  {
+    "file_offset": 9138,
+    "encoding": "utf-16le",
+    "text": "quina."
+  },
+  {
+    "file_offset": 9158,
+    "encoding": "utf-16le",
+    "text": "digo mal-intencionado que tenta se espalhar por computadores, anexando-se a um programa host.4Programa classificado e com permiss"
+  },
+  {
+    "file_offset": 9418,
+    "encoding": "utf-16le",
+    "text": "o para execu"
+  },
+  {
+    "file_offset": 9446,
+    "encoding": "utf-16le",
+    "text": "o. Programa ainda n"
+  },
+  {
+    "file_offset": 9486,
+    "encoding": "utf-16le",
+    "text": "o classificado."
+  },
+  {
+    "file_offset": 9542,
+    "encoding": "utf-16le",
+    "text": "JEste programa envia an"
+  },
+  {
+    "file_offset": 9590,
+    "encoding": "utf-16le",
+    "text": "ncios potencialmente indesejados para o computador.dEste programa parece ser um software de remo"
+  },
+  {
+    "file_offset": 9786,
+    "encoding": "utf-16le",
+    "text": "o de spyware, mas n"
+  },
+  {
+    "file_offset": 9826,
+    "encoding": "utf-16le",
+    "text": "o revela comportamento de an"
+  },
+  {
+    "file_offset": 9884,
+    "encoding": "utf-16le",
+    "text": "ncio.;Este programa exibe an"
+  },
+  {
+    "file_offset": 9942,
+    "encoding": "utf-16le",
+    "text": "ncios separadamente do programa pai.(Este programa exibe pop-ups com an"
+  },
+  {
+    "file_offset": 10086,
+    "encoding": "utf-16le",
+    "text": "ncio.FEste programa exibe an"
+  },
+  {
+    "file_offset": 10144,
+    "encoding": "utf-16le",
+    "text": "ncios com base nos h"
+  },
+  {
+    "file_offset": 10186,
+    "encoding": "utf-16le",
+    "text": "bitos de navega"
+  },
+  {
+    "file_offset": 10220,
+    "encoding": "utf-16le",
+    "text": "o na Web.?Este programa exibe an"
+  },
+  {
+    "file_offset": 10286,
+    "encoding": "utf-16le",
+    "text": "ncios com conte"
+  },
+  {
+    "file_offset": 10318,
+    "encoding": "utf-16le",
+    "text": "do somente para adultos.NEste programa exibe an"
+  },
+  {
+    "file_offset": 10414,
+    "encoding": "utf-16le",
+    "text": "ncios e geralmente vem acompanhado de outros programas.;Este programa exibe an"
+  },
+  {
+    "file_offset": 10572,
+    "encoding": "utf-16le",
+    "text": "ncios, e pode ser dif"
+  },
+  {
+    "file_offset": 10616,
+    "encoding": "utf-16le",
+    "text": "cil remov"
+  },
+  {
+    "file_offset": 10636,
+    "encoding": "utf-16le",
+    "text": "-lo.EEste programa exibe an"
+  },
+  {
+    "file_offset": 10692,
+    "encoding": "utf-16le",
+    "text": "ncios com base nos h"
+  },
+  {
+    "file_offset": 10734,
+    "encoding": "utf-16le",
+    "text": "bitos de pesquisa na Web.3Este programa envia an"
+  },
+  {
+    "file_offset": 10832,
+    "encoding": "utf-16le",
+    "text": "ncios e rastreia atividades.QEste programa exibe an"
+  },
+  {
+    "file_offset": 10936,
+    "encoding": "utf-16le",
+    "text": "ncios e pode ser implantado por instala"
+  },
+  {
+    "file_offset": 11026,
+    "encoding": "utf-16le",
+    "text": "o solicitada.HEste programa exibe an"
+  },
+  {
+    "file_offset": 11100,
+    "encoding": "utf-16le",
+    "text": "ncios e "
+  },
+  {
+    "file_offset": 11118,
+    "encoding": "utf-16le",
+    "text": " executado sem uma interface do usu"
+  },
+  {
+    "file_offset": 11190,
+    "encoding": "utf-16le",
+    "text": "rio.6Este programa exibe an"
+  },
+  {
+    "file_offset": 11246,
+    "encoding": "utf-16le",
+    "text": "ncios dentro de outro software.4Este programa exibe mensagens de produtos enganosos.<Este programa exibe an"
+  },
+  {
+    "file_offset": 11462,
+    "encoding": "utf-16le",
+    "text": "ncios e pode instalar outro software.:Este programa "
+  },
+  {
+    "file_offset": 11568,
+    "encoding": "utf-16le",
+    "text": " usado para ignorar diretivas de seguran"
+  },
+  {
+    "file_offset": 11650,
+    "encoding": "utf-16le",
+    "text": "a.YEste programa altera v"
+  },
+  {
+    "file_offset": 11702,
+    "encoding": "utf-16le",
+    "text": "rias configura"
+  },
+  {
+    "file_offset": 11734,
+    "encoding": "utf-16le",
+    "text": "es do navegador da Web sem o devido consentimento.-Este programa altera a p"
+  },
+  {
+    "file_offset": 11886,
+    "encoding": "utf-16le",
+    "text": "gina inicial padr"
+  },
+  {
+    "file_offset": 11922,
+    "encoding": "utf-16le",
+    "text": "o.GEste programa altera o mecanismo de pesquisa e a p"
+  },
+  {
+    "file_offset": 12030,
+    "encoding": "utf-16le",
+    "text": "gina inicial padr"
+  },
+  {
+    "file_offset": 12066,
+    "encoding": "utf-16le",
+    "text": "o.kEste programa altera o mecanismo de pesquisa e a p"
+  },
+  {
+    "file_offset": 12174,
+    "encoding": "utf-16le",
+    "text": "gina inicial padr"
+  },
+  {
+    "file_offset": 12210,
+    "encoding": "utf-16le",
+    "text": "o e outras configura"
+  },
+  {
+    "file_offset": 12254,
+    "encoding": "utf-16le",
+    "text": "es do navegador.4Este programa redireciona o acesso a p"
+  },
+  {
+    "file_offset": 12366,
+    "encoding": "utf-16le",
+    "text": "ginas da Web.DEste programa altera as configura"
+  },
+  {
+    "file_offset": 12464,
+    "encoding": "utf-16le",
+    "text": "es do navegador e exibe an"
+  },
+  {
+    "file_offset": 12518,
+    "encoding": "utf-16le",
+    "text": "ncios.3Este programa modifica o conte"
+  },
+  {
+    "file_offset": 12594,
+    "encoding": "utf-16le",
+    "text": "do da p"
+  },
+  {
+    "file_offset": 12610,
+    "encoding": "utf-16le",
+    "text": "gina da Web."
+  },
+  {
+    "file_offset": 12636,
+    "encoding": "utf-16le",
+    "text": "-Este programa altera links de p"
+  },
+  {
+    "file_offset": 12702,
+    "encoding": "utf-16le",
+    "text": "ginas da Web.=Este programa adiciona links a conte"
+  },
+  {
+    "file_offset": 12804,
+    "encoding": "utf-16le",
+    "text": "do somente para adultos.qEste programa adiciona uma barra de ferramentas ao navegador e pode ser implantado por instala"
+  },
+  {
+    "file_offset": 13054,
+    "encoding": "utf-16le",
+    "text": "o solicitada.KEste programa adiciona uma barra lateral ao navegador para exibir an"
+  },
+  {
+    "file_offset": 13220,
+    "encoding": "utf-16le",
+    "text": "ncios.2Este programa exibe conte"
+  },
+  {
+    "file_offset": 13286,
+    "encoding": "utf-16le",
+    "text": "do somente para adultos.4Este programa altera o mecanismo de pesquisa padr"
+  },
+  {
+    "file_offset": 13436,
+    "encoding": "utf-16le",
+    "text": "o.dEste programa altera as configura"
+  },
+  {
+    "file_offset": 13512,
+    "encoding": "utf-16le",
+    "text": "es do navegador e geralmente vem acompanhado de outros programas."
+  },
+  {
+    "file_offset": 13650,
+    "encoding": "utf-16le",
+    "text": "KEste programa disca telefones n"
+  },
+  {
+    "file_offset": 13716,
+    "encoding": "utf-16le",
+    "text": "o-gratuitos para gerar tarifas telef"
+  },
+  {
+    "file_offset": 13790,
+    "encoding": "utf-16le",
+    "text": "nicas._Este programa disca telefones n"
+  },
+  {
+    "file_offset": 13868,
+    "encoding": "utf-16le",
+    "text": "o-gratuitos para ganhar acesso a conte"
+  },
+  {
+    "file_offset": 13946,
+    "encoding": "utf-16le",
+    "text": "do somente para adultos.^Este programa disca telefones n"
+  },
+  {
+    "file_offset": 14060,
+    "encoding": "utf-16le",
+    "text": "o-gratuitos e envia an"
+  },
+  {
+    "file_offset": 14106,
+    "encoding": "utf-16le",
+    "text": "ncios de conte"
+  },
+  {
+    "file_offset": 14136,
+    "encoding": "utf-16le",
+    "text": "do somente para adultos.KEste programa pode ser usado para executar um ataque de nega"
+  },
+  {
+    "file_offset": 14310,
+    "encoding": "utf-16le",
+    "text": "o de servi"
+  },
+  {
+    "file_offset": 14332,
+    "encoding": "utf-16le",
+    "text": "o.>Este programa satura a caixa de entrada do usu"
+  },
+  {
+    "file_offset": 14432,
+    "encoding": "utf-16le",
+    "text": "rio com emails."
+  },
+  {
+    "file_offset": 14466,
+    "encoding": "utf-16le",
+    "text": "@Este programa tira proveito de uma vulnerabilidade na seguran"
+  },
+  {
+    "file_offset": 14592,
+    "encoding": "utf-16le",
+    "text": "a.FEste programa permite que os usu"
+  },
+  {
+    "file_offset": 14664,
+    "encoding": "utf-16le",
+    "text": "rios baixem ou compartilhem arquivos."
+  },
+  {
+    "file_offset": 14744,
+    "encoding": "utf-16le",
+    "text": ";Este programa "
+  },
+  {
+    "file_offset": 14776,
+    "encoding": "utf-16le",
+    "text": " criado para divertir ou assustar o usu"
+  },
+  {
+    "file_offset": 14856,
+    "encoding": "utf-16le",
+    "text": "rio.MEste programa monitora a atividade do usu"
+  },
+  {
+    "file_offset": 14950,
+    "encoding": "utf-16le",
+    "text": "rio, como pressionamentos de tecla."
+  },
+  {
+    "file_offset": 15022,
+    "encoding": "utf-16le",
+    "text": "HEste programa "
+  },
+  {
+    "file_offset": 15054,
+    "encoding": "utf-16le",
+    "text": " usado para criar v"
+  },
+  {
+    "file_offset": 15094,
+    "encoding": "utf-16le",
+    "text": "rus, worms e outros tipos de malware.1Este programa monitora as informa"
+  },
+  {
+    "file_offset": 15240,
+    "encoding": "utf-16le",
+    "text": "es do usu"
+  },
+  {
+    "file_offset": 15270,
+    "encoding": "utf-16le",
+    "text": "6Este programa "
+  },
+  {
+    "file_offset": 15302,
+    "encoding": "utf-16le",
+    "text": " perigoso e captura senhas de usu"
+  },
+  {
+    "file_offset": 15370,
+    "encoding": "utf-16le",
+    "text": "rios."
+  },
+  {
+    "file_offset": 15382,
+    "encoding": "utf-16le",
+    "text": ":Este programa "
+  },
+  {
+    "file_offset": 15414,
+    "encoding": "utf-16le",
+    "text": " geralmente instalado com outros programas.LEste programa pode ter sido instalado sem o devido consentimento do usu"
+  },
+  {
+    "file_offset": 15656,
+    "encoding": "utf-16le",
+    "text": "OEste programa "
+  },
+  {
+    "file_offset": 15688,
+    "encoding": "utf-16le",
+    "text": " executado automaticamente, sem a devida notifica"
+  },
+  {
+    "file_offset": 15790,
+    "encoding": "utf-16le",
+    "text": "o ao usu"
+  },
+  {
+    "file_offset": 15818,
+    "encoding": "utf-16le",
+    "text": "|Este programa pode ser atualizado sem o devido consentimento do usu"
+  },
+  {
+    "file_offset": 15956,
+    "encoding": "utf-16le",
+    "text": "rio e pode ser implantado por instala"
+  },
+  {
+    "file_offset": 16042,
+    "encoding": "utf-16le",
+    "text": "o solicitada.REste programa "
+  },
+  {
+    "file_offset": 16100,
+    "encoding": "utf-16le",
+    "text": " atualizado automaticamente, sem o devido consentimento do usu"
+  },
+  {
+    "file_offset": 16236,
+    "encoding": "utf-16le",
+    "text": "SEste programa n"
+  },
+  {
+    "file_offset": 16270,
+    "encoding": "utf-16le",
+    "text": "o revela de forma adequada comportamento potencialmente indesejado.cEste programa "
+  },
+  {
+    "file_offset": 16436,
+    "encoding": "utf-16le",
+    "text": " geralmente distribu"
+  },
+  {
+    "file_offset": 16478,
+    "encoding": "utf-16le",
+    "text": "do como componente de outro software potencialmente indesejado.@Este programa apresenta comportamento potencialmente indesejado.EEste programa desabilita outro software como parte de sua instala"
+  },
+  {
+    "file_offset": 16876,
+    "encoding": "utf-16le",
+    "text": "HEste programa fornece acesso remoto ao computador em que est"
+  },
+  {
+    "file_offset": 17000,
+    "encoding": "utf-16le",
+    "text": " instalado."
+  },
+  {
+    "file_offset": 17026,
+    "encoding": "utf-16le",
+    "text": "SEste programa altera v"
+  },
+  {
+    "file_offset": 17074,
+    "encoding": "utf-16le",
+    "text": "rias configura"
+  },
+  {
+    "file_offset": 17106,
+    "encoding": "utf-16le",
+    "text": "es do computador sem o devido consentimento.?Este programa instala outro software potencialmente indesejado."
+  },
+  {
+    "file_offset": 17324,
+    "encoding": "utf-16le",
+    "text": "EEste programa pode instalar outro software potencialmente indesejado."
+  },
+  {
+    "file_offset": 17466,
+    "encoding": "utf-16le",
+    "text": "Este programa instala adware."
+  },
+  {
+    "file_offset": 17526,
+    "encoding": "utf-16le",
+    "text": "Este programa instala spyware.3Este programa instala modificadores de navegadores.GEste programa instala software que exibe conte"
+  },
+  {
+    "file_offset": 17786,
+    "encoding": "utf-16le",
+    "text": "do somente para adultos.)Este programa envia email n"
+  },
+  {
+    "file_offset": 17892,
+    "encoding": "utf-16le",
+    "text": "o autorizado.,Este programa coleta informa"
+  },
+  {
+    "file_offset": 17980,
+    "encoding": "utf-16le",
+    "text": "es do usu"
+  },
+  {
+    "file_offset": 18000,
+    "encoding": "utf-16le",
+    "text": "rio.3Este programa rastreia atividades e envia an"
+  },
+  {
+    "file_offset": 18100,
+    "encoding": "utf-16le",
+    "text": "ncios.FEste programa rastreia atividades e pode desabilitar outros programas.SEste programa rastreia atividades e geralmente vem acompanhado de outros programas.@Este programa rastreia atividades, e pode ser dif"
+  },
+  {
+    "file_offset": 18524,
+    "encoding": "utf-16le",
+    "text": "cil remov"
+  },
+  {
+    "file_offset": 18544,
+    "encoding": "utf-16le",
+    "text": "-lo.eEste programa rastreia atividades e o conte"
+  },
+  {
+    "file_offset": 18642,
+    "encoding": "utf-16le",
+    "text": "do de todas as p"
+  },
+  {
+    "file_offset": 18676,
+    "encoding": "utf-16le",
+    "text": "ginas da Web, incluindo p"
+  },
+  {
+    "file_offset": 18728,
+    "encoding": "utf-16le",
+    "text": "ginas seguras.5Este programa se conecta "
+  },
+  {
+    "file_offset": 18810,
+    "encoding": "utf-16le",
+    "text": " Internet em segundo plano."
+  },
+  {
+    "file_offset": 18868,
+    "encoding": "utf-16le",
+    "text": "MEste programa pode ser usado de forma mal-intencionada quando n"
+  },
+  {
+    "file_offset": 18998,
+    "encoding": "utf-16le",
+    "text": "o autorizado."
+  },
+  {
+    "file_offset": 19026,
+    "encoding": "utf-16le",
+    "text": "CEste programa "
+  },
+  {
+    "file_offset": 19058,
+    "encoding": "utf-16le",
+    "text": " perigoso e explora o computador em que "
+  },
+  {
+    "file_offset": 19140,
+    "encoding": "utf-16le",
+    "text": " executado.VEste programa "
+  },
+  {
+    "file_offset": 19194,
+    "encoding": "utf-16le",
+    "text": " perigoso, explora o computador e fornece acesso a arquivos do usu"
+  },
+  {
+    "file_offset": 19328,
+    "encoding": "utf-16le",
+    "text": "rio.WEste programa "
+  },
+  {
+    "file_offset": 19368,
+    "encoding": "utf-16le",
+    "text": " perigoso, explora o computador e compartilha as informa"
+  },
+  {
+    "file_offset": 19484,
+    "encoding": "utf-16le",
+    "text": "es do usu"
+  },
+  {
+    "file_offset": 19504,
+    "encoding": "utf-16le",
+    "text": "rio.2Este programa "
+  },
+  {
+    "file_offset": 19544,
+    "encoding": "utf-16le",
+    "text": " perigoso e baixa outros programas.4Este programa "
+  },
+  {
+    "file_offset": 19646,
+    "encoding": "utf-16le",
+    "text": " perigoso e instala outros programas."
+  },
+  {
+    "file_offset": 19722,
+    "encoding": "utf-16le",
+    "text": "=Este programa "
+  },
+  {
+    "file_offset": 19754,
+    "encoding": "utf-16le",
+    "text": " perigoso e registra as atividades do usu"
+  },
+  {
+    "file_offset": 19838,
+    "encoding": "utf-16le",
+    "text": "rio.MEste programa informa um servidor, de forma silenciosa, quando for instalado.4Este programa "
+  },
+  {
+    "file_offset": 20034,
+    "encoding": "utf-16le",
+    "text": " perigoso e atua como servidor proxy."
+  },
+  {
+    "file_offset": 20112,
+    "encoding": "utf-16le",
+    "text": ">Este programa "
+  },
+  {
+    "file_offset": 20144,
+    "encoding": "utf-16le",
+    "text": " perigoso e se autopropaga por conex"
+  },
+  {
+    "file_offset": 20218,
+    "encoding": "utf-16le",
+    "text": "o de rede."
+  },
+  {
+    "file_offset": 20244,
+    "encoding": "utf-16le",
+    "text": "SEste programa monitora as informa"
+  },
+  {
+    "file_offset": 20316,
+    "encoding": "utf-16le",
+    "text": "es do usu"
+  },
+  {
+    "file_offset": 20336,
+    "encoding": "utf-16le",
+    "text": "rio, como h"
+  },
+  {
+    "file_offset": 20360,
+    "encoding": "utf-16le",
+    "text": "bitos de navega"
+  },
+  {
+    "file_offset": 20394,
+    "encoding": "utf-16le",
+    "text": "o na Web.8Este programa altera v"
+  },
+  {
+    "file_offset": 20460,
+    "encoding": "utf-16le",
+    "text": "rias configura"
+  },
+  {
+    "file_offset": 20492,
+    "encoding": "utf-16le",
+    "text": "es do computador.0Este programa altera o arquivo HOSTS do sistema."
+  },
+  {
+    "file_offset": 20626,
+    "encoding": "utf-16le",
+    "text": "PEste programa monitora informa"
+  },
+  {
+    "file_offset": 20692,
+    "encoding": "utf-16le",
+    "text": "es confidenciais, como pressionamentos de tecla.>Este programa "
+  },
+  {
+    "file_offset": 20820,
+    "encoding": "utf-16le",
+    "text": " perigoso e monitora as informa"
+  },
+  {
+    "file_offset": 20886,
+    "encoding": "utf-16le",
+    "text": "es do usu"
+  },
+  {
+    "file_offset": 20906,
+    "encoding": "utf-16le",
+    "text": "rio.BEste programa "
+  },
+  {
+    "file_offset": 20946,
+    "encoding": "utf-16le",
+    "text": " perigoso e se replica, infectando outros arquivos.IEste programa "
+  },
+  {
+    "file_offset": 21080,
+    "encoding": "utf-16le",
+    "text": " perigoso e pode ocultar programas ou ignorar a seguran"
+  },
+  {
+    "file_offset": 21192,
+    "encoding": "utf-16le",
+    "text": "a.=Este programa "
+  },
+  {
+    "file_offset": 21228,
+    "encoding": "utf-16le",
+    "text": " perigoso e executa os comandos de um invasor.VAltera"
+  },
+  {
+    "file_offset": 21338,
+    "encoding": "utf-16le",
+    "text": "o detectada no sistema. Isso geralmente ocorre quando um software "
+  },
+  {
+    "file_offset": 21472,
+    "encoding": "utf-16le",
+    "text": " instalado."
+  },
+  {
+    "file_offset": 21508,
+    "encoding": "utf-16le",
+    "text": "YPermitir item detectado somente se voc"
+  },
+  {
+    "file_offset": 21588,
+    "encoding": "utf-16le",
+    "text": " confiar no programa ou no fornecedor do software."
+  },
+  {
+    "file_offset": 21690,
+    "encoding": "utf-16le",
+    "text": "Este software geralmente "
+  },
+  {
+    "file_offset": 21742,
+    "encoding": "utf-16le",
+    "text": " benigno quando executado no computador, a menos que tenha sido instalado sem o seu conhecimento. Se n"
+  },
+  {
+    "file_offset": 21948,
+    "encoding": "utf-16le",
+    "text": "o tiver certeza se deve permitir sua execu"
+  },
+  {
+    "file_offset": 22036,
+    "encoding": "utf-16le",
+    "text": "o, verifique os detalhes de alerta ou se reconhece e confia no fornecedor do software."
+  },
+  {
+    "file_offset": 22210,
+    "encoding": "utf-16le",
+    "text": "Verifique os detalhes de alerta para ver por que o software foi detectado. Se n"
+  },
+  {
+    "file_offset": 22370,
+    "encoding": "utf-16le",
+    "text": "o gosta da forma como ele funciona ou se n"
+  },
+  {
+    "file_offset": 22456,
+    "encoding": "utf-16le",
+    "text": "o reconhece e confia no fornecedor, considere a possibilidade de bloque"
+  },
+  {
+    "file_offset": 22600,
+    "encoding": "utf-16le",
+    "text": "-lo ou remov"
+  },
+  {
+    "file_offset": 22636,
+    "encoding": "utf-16le",
+    "text": "$Remover este software imediatamente.$Remover este software imediatamente."
+  },
+  {
+    "file_offset": 22826,
+    "encoding": "utf-16le",
+    "text": "o Classificado"
+  },
+  {
+    "file_offset": 22856,
+    "encoding": "utf-16le",
+    "text": "Baixo"
+  },
+  {
+    "file_offset": 22892,
+    "encoding": "utf-16le",
+    "text": "Grave"
+  },
+  {
+    "file_offset": 22908,
+    "encoding": "utf-16le",
+    "text": "VAltera"
+  },
+  {
+    "file_offset": 22926,
+    "encoding": "utf-16le",
+    "text": "o detectada no sistema. Isso geralmente ocorre quando um software "
+  },
+  {
+    "file_offset": 23060,
+    "encoding": "utf-16le",
+    "text": " instalado.gProgramas geralmente benignos, a menos que tenham sido instalados no computador sem o seu conhecimento."
+  },
+  {
+    "file_offset": 23292,
+    "encoding": "utf-16le",
+    "text": "Programas que podem afetar a privacidade ou fazer altera"
+  },
+  {
+    "file_offset": 23408,
+    "encoding": "utf-16le",
+    "text": "es no computador e ter um impacto negativo sobre a sua experi"
+  },
+  {
+    "file_offset": 23532,
+    "encoding": "utf-16le",
+    "text": "ncia de computa"
+  },
+  {
+    "file_offset": 23566,
+    "encoding": "utf-16le",
+    "text": "o, podendo, por exemplo, coletar informa"
+  },
+  {
+    "file_offset": 23650,
+    "encoding": "utf-16le",
+    "text": "es pessoais ou alterar configura"
+  },
+  {
+    "file_offset": 23728,
+    "encoding": "utf-16le",
+    "text": "Programas que podem coletar informa"
+  },
+  {
+    "file_offset": 23802,
+    "encoding": "utf-16le",
+    "text": "es pessoais e afetar negativamente a privacidade ou danificar o computador, podendo, por exemplo, coletar informa"
+  },
+  {
+    "file_offset": 24032,
+    "encoding": "utf-16le",
+    "text": "es ou alterar configura"
+  },
+  {
+    "file_offset": 24082,
+    "encoding": "utf-16le",
+    "text": "es, geralmente sem o seu conhecimento ou consentimento."
+  },
+  {
+    "file_offset": 24194,
+    "encoding": "utf-16le",
+    "text": "Programas amplamente difundidos ou excepcionalmente prejudiciais, semelhantes a v"
+  },
+  {
+    "file_offset": 24358,
+    "encoding": "utf-16le",
+    "text": "rus ou worms, que afetam negativamente a privacidade e a seguran"
+  },
+  {
+    "file_offset": 24488,
+    "encoding": "utf-16le",
+    "text": "a do computador, al"
+  },
+  {
+    "file_offset": 24528,
+    "encoding": "utf-16le",
+    "text": "m de danific"
+  },
+  {
+    "file_offset": 24602,
+    "encoding": "utf-16le",
+    "text": "Desconhecido"
+  },
+  {
+    "file_offset": 24628,
+    "encoding": "utf-16le",
+    "text": "Limpar"
+  },
+  {
+    "file_offset": 24642,
+    "encoding": "utf-16le",
+    "text": "Quarentena"
+  },
+  {
+    "file_offset": 24664,
+    "encoding": "utf-16le",
+    "text": "Remover"
+  },
+  {
+    "file_offset": 24680,
+    "encoding": "utf-16le",
+    "text": "Bloquear"
+  },
+  {
+    "file_offset": 24698,
+    "encoding": "utf-16le",
+    "text": "Ignorar"
+  },
+  {
+    "file_offset": 24714,
+    "encoding": "utf-16le",
+    "text": "Ignorar Sempre"
+  },
+  {
+    "file_offset": 24744,
+    "encoding": "utf-16le",
+    "text": "Reverter"
+  },
+  {
+    "file_offset": 24762,
+    "encoding": "utf-16le",
+    "text": "Selecionar A"
+  },
+  {
+    "file_offset": 25048,
+    "encoding": "utf-16le",
+    "text": "O servi"
+  },
+  {
+    "file_offset": 25064,
+    "encoding": "utf-16le",
+    "text": "o deste programa parou. Inicie o servi"
+  },
+  {
+    "file_offset": 25142,
+    "encoding": "utf-16le",
+    "text": "o manualmente ou reinicie o computador, o que iniciar"
+  },
+  {
+    "file_offset": 25250,
+    "encoding": "utf-16le",
+    "text": " o servi"
+  },
+  {
+    "file_offset": 25284,
+    "encoding": "utf-16le",
+    "text": "O servi"
+  },
+  {
+    "file_offset": 25300,
+    "encoding": "utf-16le",
+    "text": "o deste programa parou. Inicie o servi"
+  },
+  {
+    "file_offset": 25378,
+    "encoding": "utf-16le",
+    "text": "o manualmente ou reinicie o computador, o que iniciar"
+  },
+  {
+    "file_offset": 25486,
+    "encoding": "utf-16le",
+    "text": " o servi"
+  },
+  {
+    "file_offset": 25520,
+    "encoding": "utf-16le",
+    "text": "O servi"
+  },
+  {
+    "file_offset": 25536,
+    "encoding": "utf-16le",
+    "text": "o deste programa parou. Inicie o servi"
+  },
+  {
+    "file_offset": 25614,
+    "encoding": "utf-16le",
+    "text": "o manualmente ou reinicie o computador, o que iniciar"
+  },
+  {
+    "file_offset": 25722,
+    "encoding": "utf-16le",
+    "text": " o servi"
+  },
+  {
+    "file_offset": 25756,
+    "encoding": "utf-16le",
+    "text": "O servi"
+  },
+  {
+    "file_offset": 25772,
+    "encoding": "utf-16le",
+    "text": "o deste programa parou. Inicie o servi"
+  },
+  {
+    "file_offset": 25850,
+    "encoding": "utf-16le",
+    "text": "o manualmente ou reinicie o computador, o que iniciar"
+  },
+  {
+    "file_offset": 25958,
+    "encoding": "utf-16le",
+    "text": " o servi"
+  },
+  {
+    "file_offset": 25992,
+    "encoding": "utf-16le",
+    "text": "Esta vers"
+  },
+  {
+    "file_offset": 26012,
+    "encoding": "utf-16le",
+    "text": "o do software n"
+  },
+  {
+    "file_offset": 26050,
+    "encoding": "utf-16le",
+    "text": " compat"
+  },
+  {
+    "file_offset": 26066,
+    "encoding": "utf-16le",
+    "text": "vel com a vers"
+  },
+  {
+    "file_offset": 26096,
+    "encoding": "utf-16le",
+    "text": "o do Windows sendo executada. Verifique nas informa"
+  },
+  {
+    "file_offset": 26202,
+    "encoding": "utf-16le",
+    "text": "es do sistema do computador se voc"
+  },
+  {
+    "file_offset": 26272,
+    "encoding": "utf-16le",
+    "text": " precisa de uma vers"
+  },
+  {
+    "file_offset": 26314,
+    "encoding": "utf-16le",
+    "text": "o x86 (32 bits) ou x64 (64 bits) do programa e contate o fornecedor do software."
+  },
+  {
+    "file_offset": 26488,
+    "encoding": "utf-16le",
+    "text": "o foi poss"
+  },
+  {
+    "file_offset": 26510,
+    "encoding": "utf-16le",
+    "text": "vel acessar o Servi"
+  },
+  {
+    "file_offset": 26550,
+    "encoding": "utf-16le",
+    "text": "o Windows Installer. Certifique-se de que o Windows Installer foi instalado e de que voc"
+  },
+  {
+    "file_offset": 26734,
+    "encoding": "utf-16le",
+    "text": "o esteja executando o Windows no modo de seguran"
+  },
+  {
+    "file_offset": 26832,
+    "encoding": "utf-16le",
+    "text": "a. Tente novamente."
+  },
+  {
+    "file_offset": 26880,
+    "encoding": "utf-16le",
+    "text": "Erro inesperado ao verificar atualiza"
+  },
+  {
+    "file_offset": 26958,
+    "encoding": "utf-16le",
+    "text": "es. Para obter informa"
+  },
+  {
+    "file_offset": 27006,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar ou solucionar problemas de atualiza"
+  },
+  {
+    "file_offset": 27126,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 27196,
+    "encoding": "utf-16le",
+    "text": "O programa n"
+  },
+  {
+    "file_offset": 27222,
+    "encoding": "utf-16le",
+    "text": "o pode verificar se h"
+  },
+  {
+    "file_offset": 27266,
+    "encoding": "utf-16le",
+    "text": " atualiza"
+  },
+  {
+    "file_offset": 27288,
+    "encoding": "utf-16le",
+    "text": "es de defini"
+  },
+  {
+    "file_offset": 27332,
+    "encoding": "utf-16le",
+    "text": "Problema inesperado. Instale todas as atualiza"
+  },
+  {
+    "file_offset": 27428,
+    "encoding": "utf-16le",
+    "text": "es dispon"
+  },
+  {
+    "file_offset": 27448,
+    "encoding": "utf-16le",
+    "text": "veis e tente iniciar o programa novamente. Para obter informa"
+  },
+  {
+    "file_offset": 27574,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar atualiza"
+  },
+  {
+    "file_offset": 27640,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 27712,
+    "encoding": "utf-16le",
+    "text": "o foi poss"
+  },
+  {
+    "file_offset": 27734,
+    "encoding": "utf-16le",
+    "text": "vel concluir uma ou mais a"
+  },
+  {
+    "file_offset": 27790,
+    "encoding": "utf-16le",
+    "text": "es com "
+  },
+  {
+    "file_offset": 27806,
+    "encoding": "utf-16le",
+    "text": "xito. Para obter detalhes, clique em um item individual ou consulte o Hist"
+  },
+  {
+    "file_offset": 27956,
+    "encoding": "utf-16le",
+    "text": "rico."
+  },
+  {
+    "file_offset": 27976,
+    "encoding": "utf-16le",
+    "text": "O programa n"
+  },
+  {
+    "file_offset": 28002,
+    "encoding": "utf-16le",
+    "text": "o pode localizar arquivos de defini"
+  },
+  {
+    "file_offset": 28076,
+    "encoding": "utf-16le",
+    "text": "o que ajudam a detectar software indesejado. Verifique se h"
+  },
+  {
+    "file_offset": 28196,
+    "encoding": "utf-16le",
+    "text": " atualiza"
+  },
+  {
+    "file_offset": 28218,
+    "encoding": "utf-16le",
+    "text": "es de arquivos de defini"
+  },
+  {
+    "file_offset": 28270,
+    "encoding": "utf-16le",
+    "text": "o e tente novamente. Para obter informa"
+  },
+  {
+    "file_offset": 28352,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar atualiza"
+  },
+  {
+    "file_offset": 28418,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 28488,
+    "encoding": "utf-16le",
+    "text": "Um problema est"
+  },
+  {
+    "file_offset": 28520,
+    "encoding": "utf-16le",
+    "text": " impedindo que o programa seja iniciado. Instale as atualiza"
+  },
+  {
+    "file_offset": 28644,
+    "encoding": "utf-16le",
+    "text": "es dispon"
+  },
+  {
+    "file_offset": 28664,
+    "encoding": "utf-16le",
+    "text": "veis e tente iniciar o programa novamente. Para obter informa"
+  },
+  {
+    "file_offset": 28790,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar atualiza"
+  },
+  {
+    "file_offset": 28856,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 28924,
+    "encoding": "utf-16le",
+    "text": "Um problema est"
+  },
+  {
+    "file_offset": 28956,
+    "encoding": "utf-16le",
+    "text": " impedindo que o programa seja iniciado. Instale as atualiza"
+  },
+  {
+    "file_offset": 29080,
+    "encoding": "utf-16le",
+    "text": "es dispon"
+  },
+  {
+    "file_offset": 29100,
+    "encoding": "utf-16le",
+    "text": "veis e tente iniciar o programa novamente. Para obter informa"
+  },
+  {
+    "file_offset": 29226,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar atualiza"
+  },
+  {
+    "file_offset": 29292,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 29360,
+    "encoding": "utf-16le",
+    "text": "Um problema est"
+  },
+  {
+    "file_offset": 29392,
+    "encoding": "utf-16le",
+    "text": " impedindo que o programa seja iniciado. Instale as atualiza"
+  },
+  {
+    "file_offset": 29516,
+    "encoding": "utf-16le",
+    "text": "es dispon"
+  },
+  {
+    "file_offset": 29536,
+    "encoding": "utf-16le",
+    "text": "veis e tente iniciar o programa novamente. Para obter informa"
+  },
+  {
+    "file_offset": 29662,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar atualiza"
+  },
+  {
+    "file_offset": 29728,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 29804,
+    "encoding": "utf-16le",
+    "text": "ria insuficiente no computador. Feche alguns programas e tente novamente, ou consulte Ajuda e Suporte para obter informa"
+  },
+  {
+    "file_offset": 30048,
+    "encoding": "utf-16le",
+    "text": "es sobre como evitar problemas de mem"
+  },
+  {
+    "file_offset": 30124,
+    "encoding": "utf-16le",
+    "text": "ria insuficiente."
+  },
+  {
+    "file_offset": 30172,
+    "encoding": "utf-16le",
+    "text": "o foi poss"
+  },
+  {
+    "file_offset": 30194,
+    "encoding": "utf-16le",
+    "text": "vel exibir alguns itens do hist"
+  },
+  {
+    "file_offset": 30258,
+    "encoding": "utf-16le",
+    "text": "rico. Aguarde alguns minutos e tente novamente. Se isso n"
+  },
+  {
+    "file_offset": 30374,
+    "encoding": "utf-16le",
+    "text": "o funcionar, limpe o hist"
+  },
+  {
+    "file_offset": 30426,
+    "encoding": "utf-16le",
+    "text": "rico e tente de novo."
+  },
+  {
+    "file_offset": 30480,
+    "encoding": "utf-16le",
+    "text": "Para usar este programa, "
+  },
+  {
+    "file_offset": 30532,
+    "encoding": "utf-16le",
+    "text": " necess"
+  },
+  {
+    "file_offset": 30548,
+    "encoding": "utf-16le",
+    "text": "rio instalar as atualiza"
+  },
+  {
+    "file_offset": 30600,
+    "encoding": "utf-16le",
+    "text": "es mais recentes para o computador. Para obter informa"
+  },
+  {
+    "file_offset": 30712,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar atualiza"
+  },
+  {
+    "file_offset": 30778,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 30848,
+    "encoding": "utf-16le",
+    "text": "Um problema inesperado impediu o programa de verificar a exist"
+  },
+  {
+    "file_offset": 30974,
+    "encoding": "utf-16le",
+    "text": "ncia de software indesejado no computador. Tente verificar o computador novamente."
+  },
+  {
+    "file_offset": 31148,
+    "encoding": "utf-16le",
+    "text": "Um problema inesperado impediu o programa de verificar a exist"
+  },
+  {
+    "file_offset": 31274,
+    "encoding": "utf-16le",
+    "text": "ncia de software indesejado no computador. Tente verificar o computador novamente."
+  },
+  {
+    "file_offset": 31448,
+    "encoding": "utf-16le",
+    "text": "Um problema inesperado impediu o programa de verificar a exist"
+  },
+  {
+    "file_offset": 31574,
+    "encoding": "utf-16le",
+    "text": "ncia de software indesejado no computador. Tente limpar o hist"
+  },
+  {
+    "file_offset": 31700,
+    "encoding": "utf-16le",
+    "text": "rico do programa e verifique o computador novamente."
+  },
+  {
+    "file_offset": 31816,
+    "encoding": "utf-16le",
+    "text": "O item em quarentena n"
+  },
+  {
+    "file_offset": 31862,
+    "encoding": "utf-16le",
+    "text": "o pode ser restaurado."
+  },
+  {
+    "file_offset": 31920,
+    "encoding": "utf-16le",
+    "text": "o foi poss"
+  },
+  {
+    "file_offset": 31942,
+    "encoding": "utf-16le",
+    "text": "vel aplicar algumas a"
+  },
+  {
+    "file_offset": 31988,
+    "encoding": "utf-16le",
+    "text": "es a itens potencialmente prejudiciais. Os itens podem ser armazenados em um local somente leitura. Exclua os arquivos ou pastas que contenham os itens, ou, para obter informa"
+  },
+  {
+    "file_offset": 32342,
+    "encoding": "utf-16le",
+    "text": "es sobre como remover permiss"
+  },
+  {
+    "file_offset": 32402,
+    "encoding": "utf-16le",
+    "text": "es somente leitura de arquivos e pastas, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 32544,
+    "encoding": "utf-16le",
+    "text": "O arquivo ou unidade que voc"
+  },
+  {
+    "file_offset": 32612,
+    "encoding": "utf-16le",
+    "text": " tentando verificar n"
+  },
+  {
+    "file_offset": 32656,
+    "encoding": "utf-16le",
+    "text": "o existe neste computador. Escolha outro arquivo ou unidade e verifique o computador novamente."
+  },
+  {
+    "file_offset": 32856,
+    "encoding": "utf-16le",
+    "text": "Para finalizar a remo"
+  },
+  {
+    "file_offset": 32902,
+    "encoding": "utf-16le",
+    "text": "o de spyware e outro software indesejado, reinicie o computador."
+  },
+  {
+    "file_offset": 33040,
+    "encoding": "utf-16le",
+    "text": "O programa n"
+  },
+  {
+    "file_offset": 33066,
+    "encoding": "utf-16le",
+    "text": "o encontrou spyware e outros softwares potencialmente indesejados neste computador."
+  },
+  {
+    "file_offset": 33244,
+    "encoding": "utf-16le",
+    "text": "Para finalizar a remo"
+  },
+  {
+    "file_offset": 33290,
+    "encoding": "utf-16le",
+    "text": "o de spyware ou de outros softwares potencialmente indesejados, "
+  },
+  {
+    "file_offset": 33420,
+    "encoding": "utf-16le",
+    "text": " necess"
+  },
+  {
+    "file_offset": 33436,
+    "encoding": "utf-16le",
+    "text": "rio executar uma verifica"
+  },
+  {
+    "file_offset": 33490,
+    "encoding": "utf-16le",
+    "text": "o completa. Para obter informa"
+  },
+  {
+    "file_offset": 33554,
+    "encoding": "utf-16le",
+    "text": "es sobre op"
+  },
+  {
+    "file_offset": 33580,
+    "encoding": "utf-16le",
+    "text": "es de verifica"
+  },
+  {
+    "file_offset": 33612,
+    "encoding": "utf-16le",
+    "text": "o, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 33680,
+    "encoding": "utf-16le",
+    "text": "Para saber como finalizar a remo"
+  },
+  {
+    "file_offset": 33748,
+    "encoding": "utf-16le",
+    "text": "o de spyware ou de outros softwares potencialmente indesejados, consulte este artigo de suporte no site Microsoft Security."
+  },
+  {
+    "file_offset": 34004,
+    "encoding": "utf-16le",
+    "text": "Este programa n"
+  },
+  {
+    "file_offset": 34036,
+    "encoding": "utf-16le",
+    "text": "o pode remover um item potencialmente prejudicial do conte"
+  },
+  {
+    "file_offset": 34154,
+    "encoding": "utf-16le",
+    "text": "do de um arquivo compactado. Para remov"
+  },
+  {
+    "file_offset": 34234,
+    "encoding": "utf-16le",
+    "text": "-lo, "
+  },
+  {
+    "file_offset": 34246,
+    "encoding": "utf-16le",
+    "text": " necess"
+  },
+  {
+    "file_offset": 34262,
+    "encoding": "utf-16le",
+    "text": "rio excluir o arquivo. Para obter mais informa"
+  },
+  {
+    "file_offset": 34358,
+    "encoding": "utf-16le",
+    "text": "es, pesquise remo"
+  },
+  {
+    "file_offset": 34396,
+    "encoding": "utf-16le",
+    "text": "o de spyware em Ajuda e Suporte."
+  },
+  {
+    "file_offset": 34472,
+    "encoding": "utf-16le",
+    "text": "Esta c"
+  },
+  {
+    "file_offset": 34486,
+    "encoding": "utf-16le",
+    "text": "pia do Windows n"
+  },
+  {
+    "file_offset": 34526,
+    "encoding": "utf-16le",
+    "text": " original. Para receber a prote"
+  },
+  {
+    "file_offset": 34592,
+    "encoding": "utf-16le",
+    "text": "o completa deste programa, voc"
+  },
+  {
+    "file_offset": 34654,
+    "encoding": "utf-16le",
+    "text": " precisa verificar se a c"
+  },
+  {
+    "file_offset": 34706,
+    "encoding": "utf-16le",
+    "text": "pia do Windows "
+  },
+  {
+    "file_offset": 34738,
+    "encoding": "utf-16le",
+    "text": " original. At"
+  },
+  {
+    "file_offset": 34776,
+    "encoding": "utf-16le",
+    "text": " validar a c"
+  },
+  {
+    "file_offset": 34802,
+    "encoding": "utf-16le",
+    "text": "pia do Windows com "
+  },
+  {
+    "file_offset": 34842,
+    "encoding": "utf-16le",
+    "text": "xito, este programa s"
+  },
+  {
+    "file_offset": 34886,
+    "encoding": "utf-16le",
+    "text": " remover"
+  },
+  {
+    "file_offset": 34904,
+    "encoding": "utf-16le",
+    "text": " algumas amea"
+  },
+  {
+    "file_offset": 34932,
+    "encoding": "utf-16le",
+    "text": "as. Apenas usu"
+  },
+  {
+    "file_offset": 34962,
+    "encoding": "utf-16le",
+    "text": "rios de software original da Microsoft podem acessar atualiza"
+  },
+  {
+    "file_offset": 35088,
+    "encoding": "utf-16le",
+    "text": "es e recursos mais recentes e o suporte ao produto."
+  },
+  {
+    "file_offset": 35200,
+    "encoding": "utf-16le",
+    "text": "Alguns componentes de email s"
+  },
+  {
+    "file_offset": 35260,
+    "encoding": "utf-16le",
+    "text": "o armazenados em um local que n"
+  },
+  {
+    "file_offset": 35324,
+    "encoding": "utf-16le",
+    "text": "o pode ser modificado. Uma lista de mensagens de email infectadas ser"
+  },
+  {
+    "file_offset": 35464,
+    "encoding": "utf-16le",
+    "text": " exibida no painel de detalhes. Tente remover essas mensagens usando seu cliente de email."
+  },
+  {
+    "file_offset": 35656,
+    "encoding": "utf-16le",
+    "text": "O programa n"
+  },
+  {
+    "file_offset": 35682,
+    "encoding": "utf-16le",
+    "text": "o pode localizar arquivos de defini"
+  },
+  {
+    "file_offset": 35756,
+    "encoding": "utf-16le",
+    "text": "o que ajudam a detectar software indesejado. Verifique se h"
+  },
+  {
+    "file_offset": 35876,
+    "encoding": "utf-16le",
+    "text": " atualiza"
+  },
+  {
+    "file_offset": 35898,
+    "encoding": "utf-16le",
+    "text": "es de arquivos de defini"
+  },
+  {
+    "file_offset": 35950,
+    "encoding": "utf-16le",
+    "text": "o e tente novamente. Para obter informa"
+  },
+  {
+    "file_offset": 36032,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar atualiza"
+  },
+  {
+    "file_offset": 36098,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 36168,
+    "encoding": "utf-16le",
+    "text": "O programa n"
+  },
+  {
+    "file_offset": 36194,
+    "encoding": "utf-16le",
+    "text": "o pode localizar arquivos de defini"
+  },
+  {
+    "file_offset": 36268,
+    "encoding": "utf-16le",
+    "text": "o que ajudam a detectar software indesejado. Verifique se h"
+  },
+  {
+    "file_offset": 36388,
+    "encoding": "utf-16le",
+    "text": " atualiza"
+  },
+  {
+    "file_offset": 36410,
+    "encoding": "utf-16le",
+    "text": "es de arquivos de defini"
+  },
+  {
+    "file_offset": 36462,
+    "encoding": "utf-16le",
+    "text": "o e tente novamente. Para obter informa"
+  },
+  {
+    "file_offset": 36544,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar atualiza"
+  },
+  {
+    "file_offset": 36610,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 36680,
+    "encoding": "utf-16le",
+    "text": "Este pacote n"
+  },
+  {
+    "file_offset": 36708,
+    "encoding": "utf-16le",
+    "text": "o cont"
+  },
+  {
+    "file_offset": 36722,
+    "encoding": "utf-16le",
+    "text": "m arquivos de defini"
+  },
+  {
+    "file_offset": 36766,
+    "encoding": "utf-16le",
+    "text": "o atualizados para este programa. Para obter mais informa"
+  },
+  {
+    "file_offset": 36884,
+    "encoding": "utf-16le",
+    "text": "es, consulte o Centro de Ajuda e Suporte."
+  },
+  {
+    "file_offset": 36976,
+    "encoding": "utf-16le",
+    "text": "Este pacote n"
+  },
+  {
+    "file_offset": 37004,
+    "encoding": "utf-16le",
+    "text": "o cont"
+  },
+  {
+    "file_offset": 37018,
+    "encoding": "utf-16le",
+    "text": "m arquivos de defini"
+  },
+  {
+    "file_offset": 37062,
+    "encoding": "utf-16le",
+    "text": "o atualizados para este programa. Para obter mais informa"
+  },
+  {
+    "file_offset": 37180,
+    "encoding": "utf-16le",
+    "text": "es, consulte o Centro de Ajuda e Suporte."
+  },
+  {
+    "file_offset": 37272,
+    "encoding": "utf-16le",
+    "text": "O programa n"
+  },
+  {
+    "file_offset": 37298,
+    "encoding": "utf-16le",
+    "text": "o pode localizar arquivos de defini"
+  },
+  {
+    "file_offset": 37372,
+    "encoding": "utf-16le",
+    "text": "o que ajudam a detectar software indesejado. Verifique se h"
+  },
+  {
+    "file_offset": 37492,
+    "encoding": "utf-16le",
+    "text": " atualiza"
+  },
+  {
+    "file_offset": 37514,
+    "encoding": "utf-16le",
+    "text": "es de arquivos de defini"
+  },
+  {
+    "file_offset": 37566,
+    "encoding": "utf-16le",
+    "text": "o e tente novamente. Para obter informa"
+  },
+  {
+    "file_offset": 37648,
+    "encoding": "utf-16le",
+    "text": "es sobre como instalar atualiza"
+  },
+  {
+    "file_offset": 37714,
+    "encoding": "utf-16le",
+    "text": "es, consulte Ajuda e Suporte."
+  },
+  {
+    "file_offset": 37786,
+    "encoding": "utf-16le",
+    "text": "VS_VERSION_INFO"
+  },
+  {
+    "file_offset": 37878,
+    "encoding": "utf-16le",
+    "text": "StringFileInfo"
+  },
+  {
+    "file_offset": 37914,
+    "encoding": "utf-16le",
+    "text": "041604B0"
+  },
+  {
+    "file_offset": 37938,
+    "encoding": "utf-16le",
+    "text": "CompanyName"
+  },
+  {
+    "file_offset": 37964,
+    "encoding": "utf-16le",
+    "text": "Microsoft Corporation"
+  },
+  {
+    "file_offset": 38014,
+    "encoding": "utf-16le",
+    "text": "FileDescription"
+  },
+  {
+    "file_offset": 38048,
+    "encoding": "utf-16le",
+    "text": "Descri"
+  },
+  {
+    "file_offset": 38064,
+    "encoding": "utf-16le",
+    "text": "es de Atualiza"
+  },
+  {
+    "file_offset": 38096,
+    "encoding": "utf-16le",
+    "text": "es de Defini"
+  },
+  {
+    "file_offset": 38138,
+    "encoding": "utf-16le",
+    "text": "FileVersion"
+  },
+  {
+    "file_offset": 38164,
+    "encoding": "utf-16le",
+    "text": "6.1.7600.16385 (win7_rtm.090713-1255)"
+  },
+  {
+    "file_offset": 38246,
+    "encoding": "utf-16le",
+    "text": "InternalName"
+  },
+  {
+    "file_offset": 38272,
+    "encoding": "utf-16le",
+    "text": "mpasdesc"
+  },
+  {
+    "file_offset": 38298,
+    "encoding": "utf-16le",
+    "text": "LegalCopyright"
+  },
+  {
+    "file_offset": 38330,
+    "encoding": "utf-16le",
+    "text": " Microsoft Corporation. Todos os direitos reservados."
+  },
+  {
+    "file_offset": 38446,
+    "encoding": "utf-16le",
+    "text": "OriginalFilename"
+  },
+  {
+    "file_offset": 38480,
+    "encoding": "utf-16le",
+    "text": "mpasdesc.dll.mui"
+  },
+  {
+    "file_offset": 38522,
+    "encoding": "utf-16le",
+    "text": "ProductName"
+  },
+  {
+    "file_offset": 38548,
+    "encoding": "utf-16le",
+    "text": "Sistema Operacional Microsoft"
+  },
+  {
+    "file_offset": 38608,
+    "encoding": "utf-16le",
+    "text": " Windows"
+  },
+  {
+    "file_offset": 38634,
+    "encoding": "utf-16le",
+    "text": "ProductVersion"
+  },
+  {
+    "file_offset": 38664,
+    "encoding": "utf-16le",
+    "text": "6.1.7600.16385"
+  },
+  {
+    "file_offset": 38702,
+    "encoding": "utf-16le",
+    "text": "VarFileInfo"
+  },
+  {
+    "file_offset": 38734,
+    "encoding": "utf-16le",
+    "text": "Translation"
+  },
+  {
+    "file_offset": 38764,
+    "encoding": "ascii",
+    "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "module": "MpCommu.dll",
+    "superseded_settings": {
+      "angr_version": "9.2.213",
+      "auto_load_libs": false,
+      "normalize": true,
+      "data_references": true,
+      "cross_references": true,
+      "function_prologues": true,
+      "seed_count": 1117,
+      "per_function_seconds": 3,
+      "decompilation_budget_seconds": 240.0,
+      "cfg_timeout_seconds": 240,
+      "cfg_elapsed_seconds": 57.92,
+      "decompilation_elapsed_seconds": 240.51
+    },
+    "superseded_summary": {
+      "automated pseudocode; unverified": 2671,
+      "deferred: module decompilation time budget exhausted; rerun with larger --budget": 205,
+      "no codegen returned; inspect CFG and angr log": 1,
+      "seed not recovered by CFG; inspect disassembly and exception-range boundaries": 1
+    },
+    "superseded_pseudocode_sha256": "56292c21cc2b607f4187c913a58795b40c3144f176566a577bceae6a8c6aafe9",
+    "call_records": 0,
+    "reason": "empty call-site collections on cache-backed large modules; rerun with all angr cache limits disabled"
+  },
+  {
+    "module": "MpClient.dll",
+    "superseded_settings": {
+      "angr_version": "9.2.213",
+      "auto_load_libs": false,
+      "normalize": true,
+      "data_references": true,
+      "cross_references": true,
+      "function_prologues": true,
+      "seed_count": 2068,
+      "per_function_seconds": 3,
+      "decompilation_budget_seconds": 240.0,
+      "cfg_timeout_seconds": 240,
+      "cfg_elapsed_seconds": 126.91,
+      "decompilation_elapsed_seconds": 240.04
+    },
+    "superseded_summary": {
+      "automated pseudocode; unverified": 5015,
+      "deferred: module decompilation time budget exhausted; rerun with larger --budget": 2324,
+      "timeout: per-function decompilation deadline; rerun with larger --function-seconds": 2,
+      "seed not recovered by CFG; inspect disassembly and exception-range boundaries": 3
+    },
+    "superseded_pseudocode_sha256": "af5b97304e002d71583696a0a9a5843dc86228135a19dfec787eaebc6dfb03c9",
+    "call_records": 0,
+    "reason": "empty call-site collections on cache-backed large modules; rerun with all angr cache limits disabled"
+  },
+  {
+    "module": "MSASCui.exe",
+    "superseded_settings": {
+      "angr_version": "9.2.213",
+      "auto_load_libs": false,
+      "normalize": true,
+      "data_references": true,
+      "cross_references": true,
+      "function_prologues": true,
+      "seed_count": 3349,
+      "per_function_seconds": 3,
+      "decompilation_budget_seconds": 240.0,
+      "cfg_timeout_seconds": 240,
+      "cfg_elapsed_seconds": 167.89,
+      "decompilation_elapsed_seconds": 240.09
+    },
+    "superseded_summary": {
+      "automated pseudocode; unverified": 4841,
+      "deferred: module decompilation time budget exhausted; rerun with larger --budget": 2420
+    },
+    "superseded_pseudocode_sha256": "edb84a5bd5dfa5154c184fad969497dc9c25a750cce408d54980b21f00be588d",
+    "call_records": 0,
+    "reason": "empty call-site collections on cache-backed large modules; rerun with all angr cache limits disabled"
+  },
+  {
+    "module": "MpSvc.dll",
+    "superseded_settings": {
+      "angr_version": "9.2.213",
+      "auto_load_libs": false,
+      "normalize": true,
+      "data_references": true,
+      "cross_references": true,
+      "function_prologues": true,
+      "seed_count": 3898,
+      "per_function_seconds": 3,
+      "decompilation_budget_seconds": 240.0,
+      "cfg_timeout_seconds": 240,
+      "cfg_elapsed_seconds": 235.16,
+      "decompilation_elapsed_seconds": 240.03
+    },
+    "superseded_summary": {
+      "deferred: module decompilation time budget exhausted; rerun with larger --budget": 5003,
+      "automated pseudocode; unverified": 6054,
+      "seed not recovered by CFG; inspect disassembly and exception-range boundaries": 1
+    },
+    "superseded_pseudocode_sha256": "bf76b3417cf8763f35894e7480616ee718939e11bb605ba1d479de0d8b732249",
+    "call_records": 0,
+    "reason": "empty call-site collections on cache-backed large modules; rerun with all angr cache limits disabled"
+  }
+]

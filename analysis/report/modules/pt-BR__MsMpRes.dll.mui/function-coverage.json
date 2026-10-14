@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "angr_version": "9.2.213",
+    "auto_load_libs": false,
+    "normalize": true,
+    "data_references": true,
+    "cross_references": true,
+    "function_prologues": true,
+    "seed_count": 0,
+    "per_function_seconds": 3,
+    "decompilation_budget_seconds": 240.0,
+    "cfg_timeout_seconds": 240
+  },
+  "status": "resource-only; no executable section",
+  "functions": [],
+  "summary": {}
+}

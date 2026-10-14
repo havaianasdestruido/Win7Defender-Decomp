@@ -1,0 +1,3 @@
+MSASCui.exe loading
+MSASCui.exe CFG 5535 functions 136.09 seconds
+MSASCui.exe {'automated pseudocode; unverified': 3665, 'deferred: module decompilation time budget exhausted; rerun with larger --budget': 1404, 'seed not recovered by CFG; inspect disassembly and exception-range boundaries': 4}

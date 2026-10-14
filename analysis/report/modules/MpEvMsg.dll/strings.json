@@ -1,0 +1,3807 @@
+[
+  {
+    "file_offset": 77,
+    "encoding": "ascii",
+    "text": "!This program cannot be run in DOS mode."
+  },
+  {
+    "file_offset": 160,
+    "encoding": "ascii",
+    "text": "RichE"
+  },
+  {
+    "file_offset": 448,
+    "encoding": "ascii",
+    "text": ".rsrc"
+  },
+  {
+    "file_offset": 746,
+    "encoding": "utf-16le",
+    "text": "WEVT_TEMPLATE"
+  },
+  {
+    "file_offset": 790,
+    "encoding": "utf-16le",
+    "text": "VS_VERSION_INFO"
+  },
+  {
+    "file_offset": 882,
+    "encoding": "utf-16le",
+    "text": "StringFileInfo"
+  },
+  {
+    "file_offset": 918,
+    "encoding": "utf-16le",
+    "text": "040904B0"
+  },
+  {
+    "file_offset": 942,
+    "encoding": "utf-16le",
+    "text": "CompanyName"
+  },
+  {
+    "file_offset": 968,
+    "encoding": "utf-16le",
+    "text": "Microsoft Corporation"
+  },
+  {
+    "file_offset": 1018,
+    "encoding": "utf-16le",
+    "text": "FileDescription"
+  },
+  {
+    "file_offset": 1052,
+    "encoding": "utf-16le",
+    "text": "Event Resource Module"
+  },
+  {
+    "file_offset": 1102,
+    "encoding": "utf-16le",
+    "text": "FileVersion"
+  },
+  {
+    "file_offset": 1128,
+    "encoding": "utf-16le",
+    "text": "6.1.7600.16385 (win7_rtm.090713-1255)"
+  },
+  {
+    "file_offset": 1210,
+    "encoding": "utf-16le",
+    "text": "InternalName"
+  },
+  {
+    "file_offset": 1236,
+    "encoding": "utf-16le",
+    "text": "MpEvMsg.dll"
+  },
+  {
+    "file_offset": 1266,
+    "encoding": "utf-16le",
+    "text": "LegalCopyright"
+  },
+  {
+    "file_offset": 1298,
+    "encoding": "utf-16le",
+    "text": " Microsoft Corporation. All rights reserved."
+  },
+  {
+    "file_offset": 1394,
+    "encoding": "utf-16le",
+    "text": "OriginalFilename"
+  },
+  {
+    "file_offset": 1428,
+    "encoding": "utf-16le",
+    "text": "MpEvMsg.dll"
+  },
+  {
+    "file_offset": 1458,
+    "encoding": "utf-16le",
+    "text": "ProductName"
+  },
+  {
+    "file_offset": 1484,
+    "encoding": "utf-16le",
+    "text": "Microsoft"
+  },
+  {
+    "file_offset": 1504,
+    "encoding": "utf-16le",
+    "text": " Windows"
+  },
+  {
+    "file_offset": 1522,
+    "encoding": "utf-16le",
+    "text": " Operating System"
+  },
+  {
+    "file_offset": 1566,
+    "encoding": "utf-16le",
+    "text": "ProductVersion"
+  },
+  {
+    "file_offset": 1596,
+    "encoding": "utf-16le",
+    "text": "6.1.7600.16385"
+  },
+  {
+    "file_offset": 1634,
+    "encoding": "utf-16le",
+    "text": "VarFileInfo"
+  },
+  {
+    "file_offset": 1666,
+    "encoding": "utf-16le",
+    "text": "Translation"
+  },
+  {
+    "file_offset": 1884,
+    "encoding": "utf-16le",
+    "text": "Microsoft-Windows-Windows Defender/Operational"
+  },
+  {
+    "file_offset": 1984,
+    "encoding": "utf-16le",
+    "text": "Microsoft-Windows-Windows Defender/WHC"
+  },
+  {
+    "file_offset": 2131,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 2196,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 2270,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 2350,
+    "encoding": "utf-16le",
+    "text": "Current Signature Version"
+  },
+  {
+    "file_offset": 2450,
+    "encoding": "utf-16le",
+    "text": "Previous Signature Version"
+  },
+  {
+    "file_offset": 2552,
+    "encoding": "utf-16le",
+    "text": "Update Source Index"
+  },
+  {
+    "file_offset": 2640,
+    "encoding": "utf-16le",
+    "text": "Update Source"
+  },
+  {
+    "file_offset": 2716,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 2778,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 2954,
+    "encoding": "utf-16le",
+    "text": "Signature Type Index"
+  },
+  {
+    "file_offset": 3044,
+    "encoding": "utf-16le",
+    "text": "Signature Type"
+  },
+  {
+    "file_offset": 3122,
+    "encoding": "utf-16le",
+    "text": "Update Type Index"
+  },
+  {
+    "file_offset": 3206,
+    "encoding": "utf-16le",
+    "text": "Update Type"
+  },
+  {
+    "file_offset": 3278,
+    "encoding": "utf-16le",
+    "text": "Current Engine Version"
+  },
+  {
+    "file_offset": 3372,
+    "encoding": "utf-16le",
+    "text": "Previous Engine Version"
+  },
+  {
+    "file_offset": 3752,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 3784,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 3820,
+    "encoding": "utf-16le",
+    "text": "Current Signature Version"
+  },
+  {
+    "file_offset": 3876,
+    "encoding": "utf-16le",
+    "text": "Previous Signature Version"
+  },
+  {
+    "file_offset": 3936,
+    "encoding": "utf-16le",
+    "text": "Update Source Index"
+  },
+  {
+    "file_offset": 3980,
+    "encoding": "utf-16le",
+    "text": "Update Source"
+  },
+  {
+    "file_offset": 4012,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 4032,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 4080,
+    "encoding": "utf-16le",
+    "text": "Signature Type Index"
+  },
+  {
+    "file_offset": 4128,
+    "encoding": "utf-16le",
+    "text": "Signature Type"
+  },
+  {
+    "file_offset": 4164,
+    "encoding": "utf-16le",
+    "text": "Update Type Index"
+  },
+  {
+    "file_offset": 4204,
+    "encoding": "utf-16le",
+    "text": "Update Type"
+  },
+  {
+    "file_offset": 4232,
+    "encoding": "utf-16le",
+    "text": "Current Engine Version"
+  },
+  {
+    "file_offset": 4284,
+    "encoding": "utf-16le",
+    "text": "Previous Engine Version"
+  },
+  {
+    "file_offset": 4387,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 4452,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 4526,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 4606,
+    "encoding": "utf-16le",
+    "text": "Current Signature Version"
+  },
+  {
+    "file_offset": 4706,
+    "encoding": "utf-16le",
+    "text": "Previous Signature Version"
+  },
+  {
+    "file_offset": 4808,
+    "encoding": "utf-16le",
+    "text": "Update Source Index"
+  },
+  {
+    "file_offset": 4896,
+    "encoding": "utf-16le",
+    "text": "Update Source"
+  },
+  {
+    "file_offset": 4972,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 5034,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 5210,
+    "encoding": "utf-16le",
+    "text": "Signature Type Index"
+  },
+  {
+    "file_offset": 5300,
+    "encoding": "utf-16le",
+    "text": "Signature Type"
+  },
+  {
+    "file_offset": 5378,
+    "encoding": "utf-16le",
+    "text": "Update Type Index"
+  },
+  {
+    "file_offset": 5462,
+    "encoding": "utf-16le",
+    "text": "Update Type"
+  },
+  {
+    "file_offset": 5534,
+    "encoding": "utf-16le",
+    "text": "Current Engine Version"
+  },
+  {
+    "file_offset": 5628,
+    "encoding": "utf-16le",
+    "text": "Previous Engine Version"
+  },
+  {
+    "file_offset": 5724,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 5794,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 6200,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 6232,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 6268,
+    "encoding": "utf-16le",
+    "text": "Current Signature Version"
+  },
+  {
+    "file_offset": 6324,
+    "encoding": "utf-16le",
+    "text": "Previous Signature Version"
+  },
+  {
+    "file_offset": 6384,
+    "encoding": "utf-16le",
+    "text": "Update Source Index"
+  },
+  {
+    "file_offset": 6428,
+    "encoding": "utf-16le",
+    "text": "Update Source"
+  },
+  {
+    "file_offset": 6460,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 6480,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 6528,
+    "encoding": "utf-16le",
+    "text": "Signature Type Index"
+  },
+  {
+    "file_offset": 6576,
+    "encoding": "utf-16le",
+    "text": "Signature Type"
+  },
+  {
+    "file_offset": 6612,
+    "encoding": "utf-16le",
+    "text": "Update Type Index"
+  },
+  {
+    "file_offset": 6652,
+    "encoding": "utf-16le",
+    "text": "Update Type"
+  },
+  {
+    "file_offset": 6680,
+    "encoding": "utf-16le",
+    "text": "Current Engine Version"
+  },
+  {
+    "file_offset": 6732,
+    "encoding": "utf-16le",
+    "text": "Previous Engine Version"
+  },
+  {
+    "file_offset": 6784,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 6812,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 6848,
+    "encoding": "ascii",
+    "text": "TEMP<"
+  },
+  {
+    "file_offset": 6903,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 6968,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 7042,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 7122,
+    "encoding": "utf-16le",
+    "text": "Current Engine Version"
+  },
+  {
+    "file_offset": 7216,
+    "encoding": "utf-16le",
+    "text": "Previous Engine Version"
+  },
+  {
+    "file_offset": 7312,
+    "encoding": "utf-16le",
+    "text": "Update Source Index"
+  },
+  {
+    "file_offset": 7400,
+    "encoding": "utf-16le",
+    "text": "Update Source"
+  },
+  {
+    "file_offset": 7476,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 7538,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 7876,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 7908,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 7944,
+    "encoding": "utf-16le",
+    "text": "Current Engine Version"
+  },
+  {
+    "file_offset": 7996,
+    "encoding": "utf-16le",
+    "text": "Previous Engine Version"
+  },
+  {
+    "file_offset": 8048,
+    "encoding": "utf-16le",
+    "text": "Update Source Index"
+  },
+  {
+    "file_offset": 8092,
+    "encoding": "utf-16le",
+    "text": "Update Source"
+  },
+  {
+    "file_offset": 8124,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 8144,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 8188,
+    "encoding": "ascii",
+    "text": "TEMPD"
+  },
+  {
+    "file_offset": 8243,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 8308,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 8382,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 8462,
+    "encoding": "utf-16le",
+    "text": "Current Engine Version"
+  },
+  {
+    "file_offset": 8556,
+    "encoding": "utf-16le",
+    "text": "Previous Engine Version"
+  },
+  {
+    "file_offset": 8652,
+    "encoding": "utf-16le",
+    "text": "Update Source Index"
+  },
+  {
+    "file_offset": 8740,
+    "encoding": "utf-16le",
+    "text": "Update Source"
+  },
+  {
+    "file_offset": 8816,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 8878,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 9054,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 9124,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 9412,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 9444,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 9480,
+    "encoding": "utf-16le",
+    "text": "Current Engine Version"
+  },
+  {
+    "file_offset": 9532,
+    "encoding": "utf-16le",
+    "text": "Previous Engine Version"
+  },
+  {
+    "file_offset": 9584,
+    "encoding": "utf-16le",
+    "text": "Update Source Index"
+  },
+  {
+    "file_offset": 9628,
+    "encoding": "utf-16le",
+    "text": "Update Source"
+  },
+  {
+    "file_offset": 9660,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 9680,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 9728,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 9756,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 9847,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 9912,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 9986,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 10066,
+    "encoding": "utf-16le",
+    "text": "Signatures Attempted Index"
+  },
+  {
+    "file_offset": 10168,
+    "encoding": "utf-16le",
+    "text": "Signatures Attempted"
+  },
+  {
+    "file_offset": 10258,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 10328,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 10412,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 10474,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 10538,
+    "encoding": "utf-16le",
+    "text": "Loading signature version"
+  },
+  {
+    "file_offset": 10638,
+    "encoding": "utf-16le",
+    "text": "Loading engine version"
+  },
+  {
+    "file_offset": 10896,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 10928,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 10964,
+    "encoding": "utf-16le",
+    "text": "Signatures Attempted Index"
+  },
+  {
+    "file_offset": 11024,
+    "encoding": "utf-16le",
+    "text": "Signatures Attempted"
+  },
+  {
+    "file_offset": 11072,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 11100,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 11140,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 11160,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 11180,
+    "encoding": "utf-16le",
+    "text": "Loading signature version"
+  },
+  {
+    "file_offset": 11236,
+    "encoding": "utf-16le",
+    "text": "Loading engine version"
+  },
+  {
+    "file_offset": 11339,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 11404,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 11478,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 11558,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 11622,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 11702,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 11770,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 11862,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 11942,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 12118,
+    "encoding": "utf-16le",
+    "text": "Scan Resources"
+  },
+  {
+    "file_offset": 12380,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 12412,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 12448,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 12468,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 12504,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 12528,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 12576,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 12612,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 12660,
+    "encoding": "utf-16le",
+    "text": "Scan Resources"
+  },
+  {
+    "file_offset": 12747,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 12812,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 12886,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 12966,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 13030,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 13110,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 13178,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 13270,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 13350,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 13526,
+    "encoding": "utf-16le",
+    "text": "Scan Time Hours"
+  },
+  {
+    "file_offset": 13606,
+    "encoding": "utf-16le",
+    "text": "Scan Time Minutes"
+  },
+  {
+    "file_offset": 13690,
+    "encoding": "utf-16le",
+    "text": "Scan Time Seconds"
+  },
+  {
+    "file_offset": 13996,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 14028,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 14064,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 14084,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 14120,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 14144,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 14192,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 14228,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 14276,
+    "encoding": "utf-16le",
+    "text": "Scan Time Hours"
+  },
+  {
+    "file_offset": 14312,
+    "encoding": "utf-16le",
+    "text": "Scan Time Minutes"
+  },
+  {
+    "file_offset": 14352,
+    "encoding": "utf-16le",
+    "text": "Scan Time Seconds"
+  },
+  {
+    "file_offset": 14443,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 14508,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 14582,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 14662,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 14726,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 14806,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 14874,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 14966,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 15046,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 15384,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 15416,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 15452,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 15472,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 15508,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 15532,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 15580,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 15616,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 15715,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 15780,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 15854,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 15934,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 15998,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 16078,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 16146,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 16238,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 16318,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 16656,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 16688,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 16724,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 16744,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 16780,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 16804,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 16852,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 16888,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 16987,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 17052,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 17126,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 17206,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 17270,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 17350,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 17418,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 17510,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 17590,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 17928,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 17960,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 17996,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 18016,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 18052,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 18076,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 18124,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 18160,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 18259,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 18324,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 18398,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 18478,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 18542,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 18622,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 18690,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 18782,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 18862,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 19038,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 19108,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 19396,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 19428,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 19464,
+    "encoding": "utf-16le",
+    "text": "Scan ID"
+  },
+  {
+    "file_offset": 19484,
+    "encoding": "utf-16le",
+    "text": "Scan Type Index"
+  },
+  {
+    "file_offset": 19520,
+    "encoding": "utf-16le",
+    "text": "Scan Type"
+  },
+  {
+    "file_offset": 19544,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters Index"
+  },
+  {
+    "file_offset": 19592,
+    "encoding": "utf-16le",
+    "text": "Scan Parameters"
+  },
+  {
+    "file_offset": 19628,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 19676,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 19704,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 19795,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 19860,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 19934,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 20014,
+    "encoding": "utf-16le",
+    "text": "Detection ID"
+  },
+  {
+    "file_offset": 20088,
+    "encoding": "utf-16le",
+    "text": "Detection Source Index"
+  },
+  {
+    "file_offset": 20182,
+    "encoding": "utf-16le",
+    "text": "Detection Source"
+  },
+  {
+    "file_offset": 20264,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 20326,
+    "encoding": "utf-16le",
+    "text": "Process Name"
+  },
+  {
+    "file_offset": 20400,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 20576,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 20648,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 20716,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 20788,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 20860,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 20922,
+    "encoding": "utf-16le",
+    "text": "Path Found"
+  },
+  {
+    "file_offset": 20992,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 21056,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 21120,
+    "encoding": "utf-16le",
+    "text": "Execution Status Index"
+  },
+  {
+    "file_offset": 21214,
+    "encoding": "utf-16le",
+    "text": "Execution Status"
+  },
+  {
+    "file_offset": 21296,
+    "encoding": "utf-16le",
+    "text": "Detection Type Index"
+  },
+  {
+    "file_offset": 21386,
+    "encoding": "utf-16le",
+    "text": "Detection Type"
+  },
+  {
+    "file_offset": 21464,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 21528,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 21592,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 21668,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 22228,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 22260,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 22296,
+    "encoding": "utf-16le",
+    "text": "Detection ID"
+  },
+  {
+    "file_offset": 22328,
+    "encoding": "utf-16le",
+    "text": "Detection Source Index"
+  },
+  {
+    "file_offset": 22380,
+    "encoding": "utf-16le",
+    "text": "Detection Source"
+  },
+  {
+    "file_offset": 22420,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 22440,
+    "encoding": "utf-16le",
+    "text": "Process Name"
+  },
+  {
+    "file_offset": 22472,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 22520,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 22548,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 22572,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 22600,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 22628,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 22648,
+    "encoding": "utf-16le",
+    "text": "Path Found"
+  },
+  {
+    "file_offset": 22676,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 22696,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 22716,
+    "encoding": "utf-16le",
+    "text": "Execution Status Index"
+  },
+  {
+    "file_offset": 22768,
+    "encoding": "utf-16le",
+    "text": "Execution Status"
+  },
+  {
+    "file_offset": 22808,
+    "encoding": "utf-16le",
+    "text": "Detection Type Index"
+  },
+  {
+    "file_offset": 22856,
+    "encoding": "utf-16le",
+    "text": "Detection Type"
+  },
+  {
+    "file_offset": 22892,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 22912,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 22932,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 22964,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 23047,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 23112,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 23186,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 23266,
+    "encoding": "utf-16le",
+    "text": "Detection ID"
+  },
+  {
+    "file_offset": 23340,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 23402,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 23466,
+    "encoding": "utf-16le",
+    "text": "Status Code"
+  },
+  {
+    "file_offset": 23538,
+    "encoding": "utf-16le",
+    "text": "Status Description"
+  },
+  {
+    "file_offset": 23624,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 23800,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 23872,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 23940,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 24012,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 24084,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 24146,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 24210,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 24274,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 24338,
+    "encoding": "utf-16le",
+    "text": "Cleaning Action Index"
+  },
+  {
+    "file_offset": 24430,
+    "encoding": "utf-16le",
+    "text": "Cleaning Action"
+  },
+  {
+    "file_offset": 24510,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 24574,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 24638,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 24702,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 24766,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 24842,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 25400,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 25432,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 25468,
+    "encoding": "utf-16le",
+    "text": "Detection ID"
+  },
+  {
+    "file_offset": 25500,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 25520,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 25540,
+    "encoding": "utf-16le",
+    "text": "Status Code"
+  },
+  {
+    "file_offset": 25568,
+    "encoding": "utf-16le",
+    "text": "Status Description"
+  },
+  {
+    "file_offset": 25612,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 25660,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 25688,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 25712,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 25740,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 25768,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 25788,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 25808,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 25828,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 25848,
+    "encoding": "utf-16le",
+    "text": "Cleaning Action Index"
+  },
+  {
+    "file_offset": 25896,
+    "encoding": "utf-16le",
+    "text": "Cleaning Action"
+  },
+  {
+    "file_offset": 25932,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 25952,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 25972,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 25992,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 26012,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 26044,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 26072,
+    "encoding": "ascii",
+    "text": "TEMPL"
+  },
+  {
+    "file_offset": 26127,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 26192,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 26266,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 26346,
+    "encoding": "utf-16le",
+    "text": "Detection ID"
+  },
+  {
+    "file_offset": 26420,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 26482,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 26546,
+    "encoding": "utf-16le",
+    "text": "Status Code"
+  },
+  {
+    "file_offset": 26618,
+    "encoding": "utf-16le",
+    "text": "Status Description"
+  },
+  {
+    "file_offset": 26704,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 26880,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 26952,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 27020,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 27092,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 27164,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 27226,
+    "encoding": "utf-16le",
+    "text": "Path Found"
+  },
+  {
+    "file_offset": 27296,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 27360,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 27424,
+    "encoding": "utf-16le",
+    "text": "Cleaning Action Index"
+  },
+  {
+    "file_offset": 27516,
+    "encoding": "utf-16le",
+    "text": "Cleaning Action"
+  },
+  {
+    "file_offset": 27596,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 27666,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 27750,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 27814,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 27878,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 27954,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 28512,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 28544,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 28580,
+    "encoding": "utf-16le",
+    "text": "Detection ID"
+  },
+  {
+    "file_offset": 28612,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 28632,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 28652,
+    "encoding": "utf-16le",
+    "text": "Status Code"
+  },
+  {
+    "file_offset": 28680,
+    "encoding": "utf-16le",
+    "text": "Status Description"
+  },
+  {
+    "file_offset": 28724,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 28772,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 28800,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 28824,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 28852,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 28880,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 28900,
+    "encoding": "utf-16le",
+    "text": "Path Found"
+  },
+  {
+    "file_offset": 28928,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 28948,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 28968,
+    "encoding": "utf-16le",
+    "text": "Cleaning Action Index"
+  },
+  {
+    "file_offset": 29016,
+    "encoding": "utf-16le",
+    "text": "Cleaning Action"
+  },
+  {
+    "file_offset": 29052,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 29080,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 29120,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 29140,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 29160,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 29192,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 29220,
+    "encoding": "ascii",
+    "text": "TEMP|"
+  },
+  {
+    "file_offset": 29275,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 29340,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 29414,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 29494,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 29556,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 29620,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 29684,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 29748,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 29812,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 29988,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 30060,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 30128,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 30200,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 30272,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 30334,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 30398,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 30462,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 30526,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 30590,
+    "encoding": "utf-16le",
+    "text": "Unused10"
+  },
+  {
+    "file_offset": 30656,
+    "encoding": "utf-16le",
+    "text": "Unused11"
+  },
+  {
+    "file_offset": 30722,
+    "encoding": "utf-16le",
+    "text": "Unused12"
+  },
+  {
+    "file_offset": 30788,
+    "encoding": "utf-16le",
+    "text": "Unused13"
+  },
+  {
+    "file_offset": 30854,
+    "encoding": "utf-16le",
+    "text": "Unused14"
+  },
+  {
+    "file_offset": 30920,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 30996,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 31556,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 31588,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 31624,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 31644,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 31664,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 31684,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 31704,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 31724,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 31772,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 31800,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 31824,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 31852,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 31880,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 31900,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 31920,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 31940,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 31960,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 31980,
+    "encoding": "utf-16le",
+    "text": "Unused10"
+  },
+  {
+    "file_offset": 32004,
+    "encoding": "utf-16le",
+    "text": "Unused11"
+  },
+  {
+    "file_offset": 32028,
+    "encoding": "utf-16le",
+    "text": "Unused12"
+  },
+  {
+    "file_offset": 32052,
+    "encoding": "utf-16le",
+    "text": "Unused13"
+  },
+  {
+    "file_offset": 32076,
+    "encoding": "utf-16le",
+    "text": "Unused14"
+  },
+  {
+    "file_offset": 32100,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 32132,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 32215,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 32280,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 32354,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 32434,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 32504,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 32588,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 32650,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 32714,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 32778,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 32954,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 33026,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 33094,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 33166,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 33238,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 33300,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 33364,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 33428,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 33492,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 33556,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 33620,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 33684,
+    "encoding": "utf-16le",
+    "text": "Unused10"
+  },
+  {
+    "file_offset": 33750,
+    "encoding": "utf-16le",
+    "text": "Unused11"
+  },
+  {
+    "file_offset": 33816,
+    "encoding": "utf-16le",
+    "text": "Unused12"
+  },
+  {
+    "file_offset": 33882,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 33958,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 34516,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 34548,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 34584,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 34612,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 34652,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 34672,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 34692,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 34712,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 34760,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 34788,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 34812,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 34840,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 34868,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 34888,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 34908,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 34928,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 34948,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 34968,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 34988,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 35008,
+    "encoding": "utf-16le",
+    "text": "Unused10"
+  },
+  {
+    "file_offset": 35032,
+    "encoding": "utf-16le",
+    "text": "Unused11"
+  },
+  {
+    "file_offset": 35056,
+    "encoding": "utf-16le",
+    "text": "Unused12"
+  },
+  {
+    "file_offset": 35080,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 35112,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 35140,
+    "encoding": "ascii",
+    "text": "TEMP|"
+  },
+  {
+    "file_offset": 35195,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 35260,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 35334,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 35414,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 35476,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 35540,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 35604,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 35668,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 35732,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 35908,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 35980,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 36048,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 36120,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 36192,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 36254,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 36318,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 36382,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 36446,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 36510,
+    "encoding": "utf-16le",
+    "text": "Unused10"
+  },
+  {
+    "file_offset": 36576,
+    "encoding": "utf-16le",
+    "text": "Unused11"
+  },
+  {
+    "file_offset": 36642,
+    "encoding": "utf-16le",
+    "text": "Unused12"
+  },
+  {
+    "file_offset": 36708,
+    "encoding": "utf-16le",
+    "text": "Unused13"
+  },
+  {
+    "file_offset": 36774,
+    "encoding": "utf-16le",
+    "text": "Unused14"
+  },
+  {
+    "file_offset": 36840,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 36916,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 37476,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 37508,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 37544,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 37564,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 37584,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 37604,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 37624,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 37644,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 37692,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 37720,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 37744,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 37772,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 37800,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 37820,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 37840,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 37860,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 37880,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 37900,
+    "encoding": "utf-16le",
+    "text": "Unused10"
+  },
+  {
+    "file_offset": 37924,
+    "encoding": "utf-16le",
+    "text": "Unused11"
+  },
+  {
+    "file_offset": 37948,
+    "encoding": "utf-16le",
+    "text": "Unused12"
+  },
+  {
+    "file_offset": 37972,
+    "encoding": "utf-16le",
+    "text": "Unused13"
+  },
+  {
+    "file_offset": 37996,
+    "encoding": "utf-16le",
+    "text": "Unused14"
+  },
+  {
+    "file_offset": 38020,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 38052,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 38135,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 38200,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 38274,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 38354,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 38424,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 38508,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 38570,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 38634,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 38698,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 38874,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 38946,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 39014,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 39086,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 39158,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 39220,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 39284,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 39348,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 39412,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 39476,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 39540,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 39604,
+    "encoding": "utf-16le",
+    "text": "Unused10"
+  },
+  {
+    "file_offset": 39670,
+    "encoding": "utf-16le",
+    "text": "Unused11"
+  },
+  {
+    "file_offset": 39736,
+    "encoding": "utf-16le",
+    "text": "Unused12"
+  },
+  {
+    "file_offset": 39802,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 39878,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 40436,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 40468,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 40504,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 40532,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 40572,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 40592,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 40612,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 40632,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 40680,
+    "encoding": "utf-16le",
+    "text": "Threat Name"
+  },
+  {
+    "file_offset": 40708,
+    "encoding": "utf-16le",
+    "text": "Threat ID"
+  },
+  {
+    "file_offset": 40732,
+    "encoding": "utf-16le",
+    "text": "Severity ID"
+  },
+  {
+    "file_offset": 40760,
+    "encoding": "utf-16le",
+    "text": "Category ID"
+  },
+  {
+    "file_offset": 40788,
+    "encoding": "utf-16le",
+    "text": "FWLink"
+  },
+  {
+    "file_offset": 40808,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 40828,
+    "encoding": "utf-16le",
+    "text": "Unused5"
+  },
+  {
+    "file_offset": 40848,
+    "encoding": "utf-16le",
+    "text": "Unused6"
+  },
+  {
+    "file_offset": 40868,
+    "encoding": "utf-16le",
+    "text": "Unused7"
+  },
+  {
+    "file_offset": 40888,
+    "encoding": "utf-16le",
+    "text": "Unused8"
+  },
+  {
+    "file_offset": 40908,
+    "encoding": "utf-16le",
+    "text": "Unused9"
+  },
+  {
+    "file_offset": 40928,
+    "encoding": "utf-16le",
+    "text": "Unused10"
+  },
+  {
+    "file_offset": 40952,
+    "encoding": "utf-16le",
+    "text": "Unused11"
+  },
+  {
+    "file_offset": 40976,
+    "encoding": "utf-16le",
+    "text": "Unused12"
+  },
+  {
+    "file_offset": 41000,
+    "encoding": "utf-16le",
+    "text": "Severity Name"
+  },
+  {
+    "file_offset": 41032,
+    "encoding": "utf-16le",
+    "text": "Category Name"
+  },
+  {
+    "file_offset": 41115,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 41180,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 41254,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 41334,
+    "encoding": "utf-16le",
+    "text": "Timestamp"
+  },
+  {
+    "file_offset": 41402,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 41464,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 41528,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 41592,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 41656,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 41996,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 42028,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 42064,
+    "encoding": "utf-16le",
+    "text": "Timestamp"
+  },
+  {
+    "file_offset": 42088,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 42108,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 42128,
+    "encoding": "utf-16le",
+    "text": "Unused3"
+  },
+  {
+    "file_offset": 42148,
+    "encoding": "utf-16le",
+    "text": "Unused4"
+  },
+  {
+    "file_offset": 42168,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 42267,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 42332,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 42406,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 42486,
+    "encoding": "utf-16le",
+    "text": "Timestamp"
+  },
+  {
+    "file_offset": 42554,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 42624,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 42708,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 42770,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 42834,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 43172,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 43204,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 43240,
+    "encoding": "utf-16le",
+    "text": "Timestamp"
+  },
+  {
+    "file_offset": 43264,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 43292,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 43332,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 43352,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 43372,
+    "encoding": "utf-16le",
+    "text": "Domain"
+  },
+  {
+    "file_offset": 43471,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 43536,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 43610,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 43690,
+    "encoding": "utf-16le",
+    "text": "Feature Name"
+  },
+  {
+    "file_offset": 43764,
+    "encoding": "utf-16le",
+    "text": "Reason"
+  },
+  {
+    "file_offset": 43826,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 43896,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 43980,
+    "encoding": "utf-16le",
+    "text": "Feature ID"
+  },
+  {
+    "file_offset": 44152,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 44184,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 44220,
+    "encoding": "utf-16le",
+    "text": "Feature Name"
+  },
+  {
+    "file_offset": 44252,
+    "encoding": "utf-16le",
+    "text": "Reason"
+  },
+  {
+    "file_offset": 44272,
+    "encoding": "utf-16le",
+    "text": "Error Code"
+  },
+  {
+    "file_offset": 44300,
+    "encoding": "utf-16le",
+    "text": "Error Description"
+  },
+  {
+    "file_offset": 44340,
+    "encoding": "utf-16le",
+    "text": "Feature ID"
+  },
+  {
+    "file_offset": 44364,
+    "encoding": "ascii",
+    "text": "TEMP|"
+  },
+  {
+    "file_offset": 44419,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 44484,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 44558,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 44638,
+    "encoding": "utf-16le",
+    "text": "Feature Name"
+  },
+  {
+    "file_offset": 44712,
+    "encoding": "utf-16le",
+    "text": "Reason"
+  },
+  {
+    "file_offset": 44774,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 44836,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 44900,
+    "encoding": "utf-16le",
+    "text": "Feature ID"
+  },
+  {
+    "file_offset": 45072,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 45104,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 45140,
+    "encoding": "utf-16le",
+    "text": "Feature Name"
+  },
+  {
+    "file_offset": 45172,
+    "encoding": "utf-16le",
+    "text": "Reason"
+  },
+  {
+    "file_offset": 45192,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 45212,
+    "encoding": "utf-16le",
+    "text": "Unused2"
+  },
+  {
+    "file_offset": 45232,
+    "encoding": "utf-16le",
+    "text": "Feature ID"
+  },
+  {
+    "file_offset": 45256,
+    "encoding": "ascii",
+    "text": "TEMPT"
+  },
+  {
+    "file_offset": 45311,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 45376,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 45450,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 45532,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 45564,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 45596,
+    "encoding": "ascii",
+    "text": "TEMPT"
+  },
+  {
+    "file_offset": 45651,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 45716,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 45790,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 45872,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 45904,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 45936,
+    "encoding": "ascii",
+    "text": "TEMP0"
+  },
+  {
+    "file_offset": 45991,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 46056,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 46130,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 46210,
+    "encoding": "utf-16le",
+    "text": "Feature Name"
+  },
+  {
+    "file_offset": 46284,
+    "encoding": "utf-16le",
+    "text": "Configuration"
+  },
+  {
+    "file_offset": 46360,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 46422,
+    "encoding": "utf-16le",
+    "text": "Feature ID"
+  },
+  {
+    "file_offset": 46576,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 46608,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 46644,
+    "encoding": "utf-16le",
+    "text": "Feature Name"
+  },
+  {
+    "file_offset": 46676,
+    "encoding": "utf-16le",
+    "text": "Configuration"
+  },
+  {
+    "file_offset": 46708,
+    "encoding": "utf-16le",
+    "text": "Unused"
+  },
+  {
+    "file_offset": 46728,
+    "encoding": "utf-16le",
+    "text": "Feature ID"
+  },
+  {
+    "file_offset": 46752,
+    "encoding": "ascii",
+    "text": "TEMP4"
+  },
+  {
+    "file_offset": 46807,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 46872,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 46946,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 47026,
+    "encoding": "utf-16le",
+    "text": "Old Value"
+  },
+  {
+    "file_offset": 47094,
+    "encoding": "utf-16le",
+    "text": "New Value"
+  },
+  {
+    "file_offset": 47204,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 47236,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 47272,
+    "encoding": "utf-16le",
+    "text": "Old Value"
+  },
+  {
+    "file_offset": 47296,
+    "encoding": "utf-16le",
+    "text": "New Value"
+  },
+  {
+    "file_offset": 47371,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 47436,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 47510,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 47590,
+    "encoding": "utf-16le",
+    "text": "Resource"
+  },
+  {
+    "file_offset": 47656,
+    "encoding": "utf-16le",
+    "text": "Failure Type Index"
+  },
+  {
+    "file_offset": 47742,
+    "encoding": "utf-16le",
+    "text": "Failure Type"
+  },
+  {
+    "file_offset": 47816,
+    "encoding": "utf-16le",
+    "text": "Exception Code"
+  },
+  {
+    "file_offset": 47894,
+    "encoding": "utf-16le",
+    "text": "Exception Description"
+  },
+  {
+    "file_offset": 48088,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 48120,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 48156,
+    "encoding": "utf-16le",
+    "text": "Resource"
+  },
+  {
+    "file_offset": 48180,
+    "encoding": "utf-16le",
+    "text": "Failure Type Index"
+  },
+  {
+    "file_offset": 48224,
+    "encoding": "utf-16le",
+    "text": "Failure Type"
+  },
+  {
+    "file_offset": 48256,
+    "encoding": "utf-16le",
+    "text": "Exception Code"
+  },
+  {
+    "file_offset": 48292,
+    "encoding": "utf-16le",
+    "text": "Exception Description"
+  },
+  {
+    "file_offset": 48336,
+    "encoding": "ascii",
+    "text": "TEMPT"
+  },
+  {
+    "file_offset": 48391,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 48456,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 48530,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 48612,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 48644,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 48676,
+    "encoding": "ascii",
+    "text": "TEMPT"
+  },
+  {
+    "file_offset": 48731,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 48796,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 48870,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 48952,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 48984,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 49016,
+    "encoding": "ascii",
+    "text": "TEMPT"
+  },
+  {
+    "file_offset": 49071,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 49136,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 49210,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 49292,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 49324,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 49356,
+    "encoding": "ascii",
+    "text": "TEMPT"
+  },
+  {
+    "file_offset": 49411,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 49476,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 49550,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 49632,
+    "encoding": "utf-16le",
+    "text": "Product Name"
+  },
+  {
+    "file_offset": 49664,
+    "encoding": "utf-16le",
+    "text": "Product Version"
+  },
+  {
+    "file_offset": 49720,
+    "encoding": "ascii",
+    "text": "Fgiw`"
+  },
+  {
+    "file_offset": 49751,
+    "encoding": "utf-16le",
+    "text": "EventData"
+  },
+  {
+    "file_offset": 49816,
+    "encoding": "utf-16le",
+    "text": "hc_stateid"
+  },
+  {
+    "file_offset": 49868,
+    "encoding": "utf-16le",
+    "text": "hc_stateid"
+  },
+  {
+    "file_offset": 49956,
+    "encoding": "utf-16le",
+    "text": "win:Error"
+  },
+  {
+    "file_offset": 49980,
+    "encoding": "utf-16le",
+    "text": "win:Warning"
+  },
+  {
+    "file_offset": 50008,
+    "encoding": "utf-16le",
+    "text": "win:Informational"
+  },
+  {
+    "file_offset": 51768,
+    "encoding": "utf-16le",
+    "text": "WEVT_TEMPLATE"
+  },
+  {
+    "file_offset": 51848,
+    "encoding": "utf-16le",
+    "text": "en-US"
+  }
+]

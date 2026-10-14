@@ -1,0 +1,12 @@
+Collecting bitstring==4.3.1
+  Downloading bitstring-4.3.1-py3-none-any.whl (71 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.9/71.9 kB 6.8 MB/s eta 0:00:00
+Collecting bitarray<4.0,>=3.0.0
+  Downloading bitarray-3.12.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (396 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 396.7/396.7 kB 15.4 MB/s eta 0:00:00
+Installing collected packages: bitarray, bitstring
+  Attempting uninstall: bitstring
+    Found existing installation: bitstring 5.0.0
+    Uninstalling bitstring-5.0.0:
+      Successfully uninstalled bitstring-5.0.0
+Successfully installed bitarray-3.12.2 bitstring-4.3.1

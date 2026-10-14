@@ -1,0 +1,994 @@
+{
+  "input_sha256": "c9c0337c6758cc8fe1b13130c1fcc730483e23728579f2d2095f3c9f303ac885",
+  "inventory": [
+    {
+      "path": [
+        "MUI",
+        1,
+        1046
+      ],
+      "type": "MUI",
+      "rva": 4336,
+      "file_offset": 752,
+      "size": 176,
+      "codepage": 1252,
+      "sha256": "40da5250e8d1d1268406956aa8f141f9f15e03f69c04b9c3b40a92a1265a499f"
+    },
+    {
+      "path": [
+        11,
+        1,
+        1046
+      ],
+      "type": "RT_MESSAGETABLE",
+      "rva": 4512,
+      "file_offset": 928,
+      "size": 14444,
+      "codepage": 1252,
+      "sha256": "7dc8c61c934df9f353bcd330d801ddeb7ca15bc7c63dcbaf291cc6cc1718fbd8"
+    },
+    {
+      "path": [
+        16,
+        1,
+        1046
+      ],
+      "type": "RT_VERSION",
+      "rva": 18956,
+      "file_offset": 15372,
+      "size": 960,
+      "codepage": 1252,
+      "sha256": "8f4b70e45e6bfa11a2fd1ac13a4284cfc1fd131ff09a50a31f6feef52a885dd7"
+    }
+  ],
+  "decoded": [
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 800,
+      "rva": 4648,
+      "kind": "message",
+      "flags": 1,
+      "text": "Antivírus%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 801,
+      "rva": 4680,
+      "kind": "message",
+      "flags": 1,
+      "text": "Anti-spyware%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 802,
+      "rva": 4720,
+      "kind": "message",
+      "flags": 1,
+      "text": "Anti-malware%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 803,
+      "rva": 4760,
+      "kind": "message",
+      "flags": 1,
+      "text": "Completa%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 804,
+      "rva": 4792,
+      "kind": "message",
+      "flags": 1,
+      "text": "Delta%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 805,
+      "rva": 4816,
+      "kind": "message",
+      "flags": 1,
+      "text": "Verificação Completa%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 806,
+      "rva": 4872,
+      "kind": "message",
+      "flags": 1,
+      "text": "Verificação Rápida%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 807,
+      "rva": 4924,
+      "kind": "message",
+      "flags": 1,
+      "text": "Verificação Personalizada%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 808,
+      "rva": 4988,
+      "kind": "message",
+      "flags": 1,
+      "text": "Remover%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 809,
+      "rva": 5016,
+      "kind": "message",
+      "flags": 1,
+      "text": "Colocar em Quarentena%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 810,
+      "rva": 5072,
+      "kind": "message",
+      "flags": 1,
+      "text": "Limpar%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 811,
+      "rva": 5100,
+      "kind": "message",
+      "flags": 1,
+      "text": "Permitir%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 812,
+      "rva": 5132,
+      "kind": "message",
+      "flags": 1,
+      "text": "Desconhecido%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 813,
+      "rva": 5172,
+      "kind": "message",
+      "flags": 1,
+      "text": "Suspenso%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 814,
+      "rva": 5204,
+      "kind": "message",
+      "flags": 1,
+      "text": "Permitido%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 815,
+      "rva": 5236,
+      "kind": "message",
+      "flags": 1,
+      "text": "Usuário%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 816,
+      "rva": 5264,
+      "kind": "message",
+      "flags": 1,
+      "text": "Agendado%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 817,
+      "rva": 5296,
+      "kind": "message",
+      "flags": 1,
+      "text": "Pasta de Atualização de Assinatura%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 818,
+      "rva": 5380,
+      "kind": "message",
+      "flags": 1,
+      "text": "Proteção em Tempo Real%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 819,
+      "rva": 5440,
+      "kind": "message",
+      "flags": 1,
+      "text": "Downloads e anexos%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 820,
+      "rva": 5492,
+      "kind": "message",
+      "flags": 1,
+      "text": "Sistema%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 821,
+      "rva": 5520,
+      "kind": "message",
+      "flags": 1,
+      "text": "Heurística%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 822,
+      "rva": 5556,
+      "kind": "message",
+      "flags": 1,
+      "text": "Concreto%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 823,
+      "rva": 5588,
+      "kind": "message",
+      "flags": 1,
+      "text": "Genérico%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 824,
+      "rva": 5620,
+      "kind": "message",
+      "flags": 1,
+      "text": "Atual%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 825,
+      "rva": 5644,
+      "kind": "message",
+      "flags": 1,
+      "text": "Backup%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 826,
+      "rva": 5672,
+      "kind": "message",
+      "flags": 1,
+      "text": "Padrão%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 827,
+      "rva": 5700,
+      "kind": "message",
+      "flags": 1,
+      "text": "Windows Defender%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 828,
+      "rva": 5748,
+      "kind": "message",
+      "flags": 1,
+      "text": "Windows Live OneCare%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 829,
+      "rva": 5804,
+      "kind": "message",
+      "flags": 1,
+      "text": "Microsoft Forefront Client Security%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 830,
+      "rva": 5888,
+      "kind": "message",
+      "flags": 1,
+      "text": "Microsoft Standalone System Sweeper%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 831,
+      "rva": 5972,
+      "kind": "message",
+      "flags": 1,
+      "text": "Pane%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 832,
+      "rva": 5996,
+      "kind": "message",
+      "flags": 1,
+      "text": "Parada%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 833,
+      "rva": 6024,
+      "kind": "message",
+      "flags": 1,
+      "text": "Não Aplicável%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 834,
+      "rva": 6064,
+      "kind": "message",
+      "flags": 1,
+      "text": "Downloads do IE e Anexos do Outlook Express%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 835,
+      "rva": 6164,
+      "kind": "message",
+      "flags": 1,
+      "text": "Ao Acessar%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 836,
+      "rva": 6200,
+      "kind": "message",
+      "flags": 1,
+      "text": "Monitoramento de Comportamento%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 837,
+      "rva": 6276,
+      "kind": "message",
+      "flags": 1,
+      "text": "O driver do filtro foi reiniciado com êxito.%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 838,
+      "rva": 6380,
+      "kind": "message",
+      "flags": 1,
+      "text": "O driver do filtro foi descarregado inesperadamente.%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 839,
+      "rva": 6500,
+      "kind": "message",
+      "flags": 1,
+      "text": "O driver do filtro ignorou itens e está no modo de passagem. Isso pode ter ocorrido devido a condições com poucos recursos.%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 840,
+      "rva": 6760,
+      "kind": "message",
+      "flags": 1,
+      "text": "O driver de filtro reiniciou os itens de verificação e está no modo de passagem.%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 841,
+      "rva": 6936,
+      "kind": "message",
+      "flags": 1,
+      "text": "O Monitoramento em Tempo Real parou de funcionar por um motivo desconhecido. Reinicie o serviço para recuperar.%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 842,
+      "rva": 7172,
+      "kind": "message",
+      "flags": 1,
+      "text": "O Monitoramento em Tempo Real se recuperou de uma falha desconhecida. Recomenda-se executar uma verificação rápida.%0\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 1342177282,
+      "rva": 7416,
+      "kind": "message",
+      "flags": 1,
+      "text": "Erro\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 1342177283,
+      "rva": 7436,
+      "kind": "message",
+      "flags": 1,
+      "text": "Aviso\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 1342177284,
+      "rva": 7456,
+      "kind": "message",
+      "flags": 1,
+      "text": "Informações\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2415919105,
+      "rva": 7488,
+      "kind": "message",
+      "flags": 1,
+      "text": "Microsoft-Windows-Windows Defender\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952790117,
+      "rva": 7568,
+      "kind": "message",
+      "flags": 1,
+      "text": "Estado do Windows Defender atualizado para %1.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791016,
+      "rva": 7672,
+      "kind": "message",
+      "flags": 1,
+      "text": "Digitalização de %1 iniciada.%n %tID da Digitalização:%3%n %tTipo da Digitalização:%5%n %tParâmetros da Digitalização:%7%n %tRecursos da Digitalização:%11%n %tUsuário:%8\\%9\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791017,
+      "rva": 8028,
+      "kind": "message",
+      "flags": 1,
+      "text": "Digitalização de %1 concluída.%n %tID da Digitalização:%3%n %tTipo da Digitalização:%5%n %tParâmetros da Digitalização:%7%n %tUsuário:%8\\%9%n %tDuração da Digitalização:%11:%12:%13\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791018,
+      "rva": 8400,
+      "kind": "message",
+      "flags": 1,
+      "text": "Digitalização de %1 interrompida antes da conclusão.%n %tID da Digitalização:%3%n %tTipo da Digitalização:%5%n %tParâmetros da Digitalização:%7%n  %tUsuário:%8\\%9\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791019,
+      "rva": 8736,
+      "kind": "message",
+      "flags": 1,
+      "text": "Digitalização de %1 em pausa.%n %tID da Digitalização:%3%n %tTipo da Digitalização:%5%n %tParâmetros da Digitalização:%7%n  %tUsuário:%8\\%9\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791020,
+      "rva": 9024,
+      "kind": "message",
+      "flags": 1,
+      "text": "Digitalização de %1 reiniciada.%n %tID da Digitalização:%3%n %tTipo da Digitalização:%5%n %tParâmetros da Digitalização:%7%n  %tUsuário:%8\\%9\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791021,
+      "rva": 9316,
+      "kind": "message",
+      "flags": 1,
+      "text": "A digitalização de %1 encontrou um erro e foi terminada.%n %tID da Digitalização:%3%n %tTipo da Digitalização:%5%n %tParâmetros da Digitalização:%7%n %tUsuário:%8\\%9%n %tCódigo de Erro:%11%n %tDescrição do erro:%12\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791022,
+      "rva": 9756,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 detectou spyware ou outro software possivelmente indesejado.%n Para obter mais informações, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tCaminho Encontrado:%16%n %tTipo de Detecção:%22%n %tOrigem da Detecção:%5%n %tStatus:%20%n %tUsuário:%8\\%9%n %tNome do Processo:%7\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791023,
+      "rva": 10376,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 executou uma ação para proteger a máquina contra spyware ou outros software possivelmente indesejado.%n Para obter mais informações, consulte:%n%15%n %tUsuário:%8\\%9%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tAção:%20%n %tStatus:%7\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791024,
+      "rva": 10900,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 encontrou um erro ao executar ações contra spyware ou outro software possivelmente indesejado.%n Para obter mais informações, consulte:%n%15%n %tUsuário:%8\\%9%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tCaminho:%16%n %tAção:%20%n %tCódigo de Erro:%21%n %tDescrição do erro:%22%n %tStatus:%7\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791025,
+      "rva": 11540,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 restaurou um item da quarentena.%n Para obter mais informações, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tUsuário:%8\\%9\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791026,
+      "rva": 11872,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 encontrou um erro ao tentar restaurar um item da quarentena.%n Para obter mais informações, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tUsuário:%8\\%9%n %tCódigo de Erro:%3%n %tDescrição do erro:%4\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791027,
+      "rva": 12352,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 excluiu um item da quarentena.%n Para obter mais informações, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tUsuário:%8\\%9\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791028,
+      "rva": 12680,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 encontrou um erro ao tentar excluir um item da quarentena.%n Para obter mais informações, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tUsuário:%8\\%9%n %tCódigo de Erro:%3%n %tDescrição do erro:%4\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791029,
+      "rva": 13156,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 removeu o histórico de spyware e de outro software possivelmente indesejado.%n %tHora:%3%n %tUsuário:%8\\%9%n\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952791030,
+      "rva": 13388,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 encontrou um erro ao tentar remover o histórico de spyware e outro softwares possivelmente indesejado.%n %tHora:%3%n %tUsuário:%8\\%9%n %tCódigo de Erro:%4%n %tDescrição do erro:%5\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952792016,
+      "rva": 13764,
+      "kind": "message",
+      "flags": 1,
+      "text": "A versão de assinatura %1 foi atualizada.%n %tVersão Assinatura Atual:%3%n %tVersão da Assinatura Anterior:%4%n %tOrigem da Atualização:%6%n %tTipo de Assinatura:%12%n %tTipo de Atualização:%14%n %tUsuário:%8\\%9%n %tVersão do Mecanismo Atual:%15%n %tVersão do Mecanismo Anterior:%16\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952792017,
+      "rva": 14340,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 encontrou um erro ao atualizar assinaturas.%n %tVersão da Nova Assinatura:%3%n %tVersão da Assinatura Anterior:%4%n %tOrigem da Atualização:%6%n %tTipo de Assinatura:%12%n %tTipo de Atualização:%14%n %tUsuário:%8\\%9%n %tVersão do Mecanismo Atual:%15%n %tVersão do Mecanismo Anterior:%16%n %tCódigo de erro:%17%n %tDescrição do erro:%18\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952792018,
+      "rva": 15028,
+      "kind": "message",
+      "flags": 1,
+      "text": "A versão do mecanismo de %1 foi atualizada.%n %tVersão do Mecanismo Atual:%3%n %tVersão do Mecanismo Anterior:%4%n %tOrigem da Atualização:%6%n %tUsuário:%8\\%9\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952792019,
+      "rva": 15356,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 encontrou um erro ao tentar atualizar o mecanismo.%n %tVersão do Mecanismo Novo:%3%n %tVersão do Mecanismo Anterior:%4%n %tOrigem da Atualização:%6%n %tUsuário:%8\\%9%n %tCódigo de Erro:%11%n %tDescrição do erro:%12\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952792020,
+      "rva": 15800,
+      "kind": "message",
+      "flags": 1,
+      "text": "%1 encontrou um erro ao tentar carregar assinaturas e tentará reverter ao conjunto de assinaturas válidas.%n %tTentativas de Assinaturas:%4%n %tCódigo de Erro:%5%n %tDescrição do erro:%6%n %tVersão da assinatura:%9%n %tVersão do mecanismo:%10\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952793018,
+      "rva": 16296,
+      "kind": "message",
+      "flags": 1,
+      "text": "O recurso de proteção de tempo real %1 encontrou um erro e falhou.%n %tRecurso:%3%n %tCódigo de Erro:%5%n %tDescrição do erro:%6%n %tRazão:%4\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952793023,
+      "rva": 16588,
+      "kind": "message",
+      "flags": 1,
+      "text": "O recurso de proteção em tempo real %1 foi reiniciado. Recomenda-se executar uma verificação completa do sistema para detectar itens que possam ter sido ignorados enquanto o agente estava desativado.%n %tRecurso:%3%n %tRazão:%4\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952795016,
+      "rva": 17052,
+      "kind": "message",
+      "flags": 1,
+      "text": "A verificação de spyware e outro software possivelmente indesejado da Proteção em Tempo Real %1 foi habilitada.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952795017,
+      "rva": 17284,
+      "kind": "message",
+      "flags": 1,
+      "text": "A verificação de spyware e outro software possivelmente indesejado da Proteção em Tempo Real %1 foi desabilitada.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952795020,
+      "rva": 17520,
+      "kind": "message",
+      "flags": 1,
+      "text": "A configuração do recurso de proteção em tempo real %1 foi alterada.%n %tRecurso:%3%n %tConfiguração:%4\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952795023,
+      "rva": 17736,
+      "kind": "message",
+      "flags": 1,
+      "text": "A configuração de %1 foi alterada. Caso seja um evento inesperado, verifique as configurações, pois isso pode ser devido a um malware.%n %tValor antigo:%3%n %tNovo valor:%4\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952795024,
+      "rva": 18092,
+      "kind": "message",
+      "flags": 1,
+      "text": "O mecanismo %1 foi terminado devido a um erro inesperado.%n %tTipo de Falha:%5%n %tCódigo de exceção:%6%n %tRecurso:%3\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952795025,
+      "rva": 18340,
+      "kind": "message",
+      "flags": 1,
+      "text": "Habilitada a verificação de %1 em busca de spyware e outro software possivelmente indesejado.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952795026,
+      "rva": 18536,
+      "kind": "message",
+      "flags": 1,
+      "text": "Desabilitada a verificação de %1 em busca de spyware e outro software possivelmente indesejado.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952795027,
+      "rva": 18736,
+      "kind": "message",
+      "flags": 1,
+      "text": "Habilitada a verificação de %1 em busca de vírus.\r\n"
+    },
+    {
+      "resource": [
+        11,
+        1,
+        1046
+      ],
+      "id": 2952795028,
+      "rva": 18844,
+      "kind": "message",
+      "flags": 1,
+      "text": "Desabilitada a verificação de %1 em busca de vírus.\r\n"
+    }
+  ]
+}

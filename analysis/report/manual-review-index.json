@@ -1,0 +1,54 @@
+{
+  "meaning": "This index describes original-instruction review, not certification of automatic pseudocode. The function ledger's manually_verified=false refers to unverified generated pseudocode/types; narrower manual findings and emulation are indexed separately here.",
+  "functions": [
+    {
+      "module": "MpAsDesc.dll",
+      "rva": "0x1758",
+      "names": ["GetMpAsDescModuleHandle"],
+      "scope": "Complete eight-byte load/return instruction sequence reviewed; zero and full-width nonzero global return emulated. DLL initialization and meaning of global remain outside the test.",
+      "evidence": "src/MpAsDesc.dll/reviewed-behavior.md"
+    },
+    {
+      "module": "MpAsDesc.dll",
+      "rva": "0x1768",
+      "names": ["MpGetSignatureDescriptionResourceIdentifier"],
+      "scope": "Validation/range/probe/fallback branches reviewed. Non-tracing behavior compared in 21180 cases against portable model, with stubbed LoadStringW. WPP helper semantics and real MUI loading unverified; automatic pseudocode has documented branch error.",
+      "evidence": "src/MpAsDesc.dll/reviewed-behavior.md"
+    },
+    {
+      "module": "MsMpRes.dll",
+      "rva": "0x1640",
+      "names": ["GetMsMpResModuleHandle"],
+      "scope": "Complete eight-byte load/return sequence reviewed; zero and full-width nonzero global return emulated. No loader or resource-lifetime equivalence claimed.",
+      "evidence": "src/MsMpRes.dll/reviewed-behavior.md"
+    },
+    {
+      "module": "MpOAV.dll",
+      "rva": "0x3ff4",
+      "names": ["DllRegisterServer", "DllUnregisterServer"],
+      "scope": "Complete six-byte constant-return sequence reviewed and emulated; both export names alias it. Returns 0x80070032 without registering resources.",
+      "evidence": "src/MpOAV.dll/reviewed-behavior.md"
+    },
+    {
+      "module": "MsMpCom.dll",
+      "rva": "0x3b0c",
+      "names": ["DllRegisterServer", "DllUnregisterServer"],
+      "scope": "Complete six-byte constant-return sequence reviewed and emulated; both export names alias it. Returns 0x80070032.",
+      "evidence": "src/MsMpCom.dll/reviewed-behavior.md"
+    },
+    {
+      "module": "MpOAV.dll",
+      "rva": "0x3ea8",
+      "names": ["DllCanUnloadNow"],
+      "scope": "Local virtual-call/boolean-normalization instructions reviewed. Runtime vtable initialization and virtual callee semantics unresolved; not emulated as a complete COM operation.",
+      "evidence": "src/MpOAV.dll/reviewed-behavior.md"
+    },
+    {
+      "module": "MpOAV.dll",
+      "rva": "0x3ed4",
+      "names": ["DllGetClassObject"],
+      "scope": "Local validation/error paths, GUID comparison, cache check, critical-section calls and factory/QueryInterface-shaped dispatch reviewed. Full object ownership, callback contracts and runtime behavior unresolved.",
+      "evidence": "src/MpOAV.dll/reviewed-behavior.md"
+    }
+  ]
+}

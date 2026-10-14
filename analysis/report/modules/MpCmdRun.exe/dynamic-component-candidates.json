@@ -1,0 +1,22 @@
+[
+  {
+    "file_offset": 33496,
+    "encoding": "utf-16le",
+    "text": "\\MsMpLics.dll"
+  },
+  {
+    "file_offset": 38264,
+    "encoding": "utf-16le",
+    "text": "wevtapi.dll"
+  },
+  {
+    "file_offset": 42120,
+    "encoding": "utf-16le",
+    "text": "MpCommu.dll"
+  },
+  {
+    "file_offset": 188704,
+    "encoding": "utf-16le",
+    "text": "MpCmdRun.exe"
+  }
+]

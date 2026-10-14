@@ -1,0 +1,2004 @@
+{
+  "settings": {
+    "angr_version": "9.2.213",
+    "auto_load_libs": false,
+    "normalize": true,
+    "data_references": true,
+    "cross_references": true,
+    "function_prologues": true,
+    "seed_count": 24,
+    "per_function_seconds": 3,
+    "decompilation_budget_seconds": 240.0,
+    "cfg_timeout_seconds": 240,
+    "cfg_elapsed_seconds": 0.93,
+    "decompilation_elapsed_seconds": 8.35
+  },
+  "status": "bounded pass complete",
+  "summary": {
+    "automated pseudocode; unverified": 50
+  },
+  "functions": [
+    {
+      "va": 8792771662295,
+      "rva": 4567,
+      "name": "sub_7ff3a0811d7",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 7,
+      "blocks": [
+        {
+          "va": 8792771662295,
+          "size": 7
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 7,
+      "manually_verified": false,
+      "pseudocode_line": 177,
+      "inferred_prototype": "(unsigned long (64 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.013
+    },
+    {
+      "va": 8792771662306,
+      "rva": 4578,
+      "name": "sub_7ff3a0811e2",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 285,
+      "blocks": [
+        {
+          "va": 8792771662306,
+          "size": 2
+        },
+        {
+          "va": 8792771662308,
+          "size": 7
+        },
+        {
+          "va": 8792771662315,
+          "size": 2
+        },
+        {
+          "va": 8792771662317,
+          "size": 3
+        },
+        {
+          "va": 8792771662320,
+          "size": 2
+        },
+        {
+          "va": 8792771662366,
+          "size": 19
+        },
+        {
+          "va": 8792771662392,
+          "size": 7
+        },
+        {
+          "va": 8792771662399,
+          "size": 23
+        },
+        {
+          "va": 8792771662422,
+          "size": 13
+        },
+        {
+          "va": 8792771662435,
+          "size": 9
+        },
+        {
+          "va": 8792771662444,
+          "size": 19
+        },
+        {
+          "va": 8792771662463,
+          "size": 13
+        },
+        {
+          "va": 8792771662476,
+          "size": 9
+        },
+        {
+          "va": 8792771662485,
+          "size": 9
+        },
+        {
+          "va": 8792771662494,
+          "size": 6
+        },
+        {
+          "va": 8792771662500,
+          "size": 11
+        },
+        {
+          "va": 8792771662511,
+          "size": 8
+        },
+        {
+          "va": 8792771662519,
+          "size": 11
+        },
+        {
+          "va": 8792771662530,
+          "size": 9
+        },
+        {
+          "va": 8792771662539,
+          "size": 19
+        },
+        {
+          "va": 8792771662558,
+          "size": 5
+        },
+        {
+          "va": 8792771662563,
+          "size": 12
+        },
+        {
+          "va": 8792771662575,
+          "size": 13
+        },
+        {
+          "va": 8792771662588,
+          "size": 14
+        },
+        {
+          "va": 8792771662602,
+          "size": 5
+        },
+        {
+          "va": 8792771662607,
+          "size": 9
+        },
+        {
+          "va": 8792771662616,
+          "size": 26
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 130,
+      "manually_verified": false,
+      "pseudocode_line": 1074,
+      "inferred_prototype": "(unsigned long long (64 bits), unsigned long long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), void*) -> unsigned int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.811
+    },
+    {
+      "va": 8792771662344,
+      "rva": 4616,
+      "name": "sub_7ff3a081208",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 22,
+      "blocks": [
+        {
+          "va": 8792771662344,
+          "size": 22
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 23,
+      "manually_verified": false,
+      "pseudocode_line": 246,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned short (16 bits)) -> long long (64 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.035
+    },
+    {
+      "va": 8792771662648,
+      "rva": 4920,
+      "name": "sub_7ff3a081338",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 30,
+      "blocks": [
+        {
+          "va": 8792771662648,
+          "size": 25
+        },
+        {
+          "va": 8792771662673,
+          "size": 5
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 13,
+      "manually_verified": false,
+      "pseudocode_line": 279,
+      "inferred_prototype": "(unsigned int (32 bits), unsigned int (32 bits), unsigned int (32 bits), unsigned short (16 bits)) -> long long (64 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.042
+    },
+    {
+      "va": 8792771662684,
+      "rva": 4956,
+      "name": "sub_7ff3a08135c",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 190,
+      "blocks": [
+        {
+          "va": 8792771662684,
+          "size": 19
+        },
+        {
+          "va": 8792771662703,
+          "size": 8
+        },
+        {
+          "va": 8792771662711,
+          "size": 16
+        },
+        {
+          "va": 8792771662727,
+          "size": 12
+        },
+        {
+          "va": 8792771662739,
+          "size": 36
+        },
+        {
+          "va": 8792771662775,
+          "size": 26
+        },
+        {
+          "va": 8792771662801,
+          "size": 21
+        },
+        {
+          "va": 8792771662822,
+          "size": 9
+        },
+        {
+          "va": 8792771662831,
+          "size": 2
+        },
+        {
+          "va": 8792771662833,
+          "size": 35
+        },
+        {
+          "va": 8792771662868,
+          "size": 6
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 37,
+      "manually_verified": false,
+      "pseudocode_line": 1037,
+      "inferred_prototype": "() -> HMODULE",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.278
+    },
+    {
+      "va": 8792771662880,
+      "rva": 5152,
+      "name": "sub_7ff3a081420",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 66,
+      "blocks": [
+        {
+          "va": 8792771662880,
+          "size": 26
+        },
+        {
+          "va": 8792771662906,
+          "size": 30
+        },
+        {
+          "va": 8792771662936,
+          "size": 10
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 13,
+      "manually_verified": false,
+      "pseudocode_line": 485,
+      "inferred_prototype": "(unsigned int (32 bits), unsigned int (32 bits), unsigned int (32 bits), unsigned short (16 bits)) -> unsigned int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.097
+    },
+    {
+      "va": 8792771662952,
+      "rva": 5224,
+      "name": "sub_7ff3a081468",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 169,
+      "blocks": [
+        {
+          "va": 8792771662952,
+          "size": 27
+        },
+        {
+          "va": 8792771662979,
+          "size": 5
+        },
+        {
+          "va": 8792771662984,
+          "size": 7
+        },
+        {
+          "va": 8792771662991,
+          "size": 9
+        },
+        {
+          "va": 8792771663000,
+          "size": 9
+        },
+        {
+          "va": 8792771663009,
+          "size": 12
+        },
+        {
+          "va": 8792771663021,
+          "size": 12
+        },
+        {
+          "va": 8792771663033,
+          "size": 2
+        },
+        {
+          "va": 8792771663035,
+          "size": 6
+        },
+        {
+          "va": 8792771663041,
+          "size": 7
+        },
+        {
+          "va": 8792771663048,
+          "size": 27
+        },
+        {
+          "va": 8792771663075,
+          "size": 6
+        },
+        {
+          "va": 8792771663081,
+          "size": 11
+        },
+        {
+          "va": 8792771663092,
+          "size": 11
+        },
+        {
+          "va": 8792771663103,
+          "size": 2
+        },
+        {
+          "va": 8792771663105,
+          "size": 16
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 56,
+      "manually_verified": false,
+      "pseudocode_line": 948,
+      "inferred_prototype": "(unsigned int (32 bits), struct_0*, unsigned int (32 bits)*, void*) -> unsigned int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.294
+    },
+    {
+      "va": 8792771663128,
+      "rva": 5400,
+      "name": "sub_7ff3a081518",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 289,
+      "blocks": [
+        {
+          "va": 8792771663128,
+          "size": 25
+        },
+        {
+          "va": 8792771663153,
+          "size": 9
+        },
+        {
+          "va": 8792771663162,
+          "size": 13
+        },
+        {
+          "va": 8792771663175,
+          "size": 5
+        },
+        {
+          "va": 8792771663180,
+          "size": 76
+        },
+        {
+          "va": 8792771663256,
+          "size": 68
+        },
+        {
+          "va": 8792771663324,
+          "size": 8
+        },
+        {
+          "va": 8792771663332,
+          "size": 2
+        },
+        {
+          "va": 8792771663334,
+          "size": 26
+        },
+        {
+          "va": 8792771663360,
+          "size": 2
+        },
+        {
+          "va": 8792771663362,
+          "size": 9
+        },
+        {
+          "va": 8792771663371,
+          "size": 6
+        },
+        {
+          "va": 8792771663377,
+          "size": 4
+        },
+        {
+          "va": 8792771663381,
+          "size": 3
+        },
+        {
+          "va": 8792771663384,
+          "size": 5
+        },
+        {
+          "va": 8792771663389,
+          "size": 7
+        },
+        {
+          "va": 8792771663396,
+          "size": 21
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 94,
+      "manually_verified": false,
+      "pseudocode_line": 1204,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned int (32 bits)) -> unsigned int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.702
+    },
+    {
+      "va": 8792771663424,
+      "rva": 5696,
+      "name": "GetMsMpResModuleHandle",
+      "exports": [
+        "GetMsMpResModuleHandle"
+      ],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 8,
+      "blocks": [
+        {
+          "va": 8792771663424,
+          "size": 8
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 7,
+      "inferred_prototype": "() -> long long (64 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.038,
+      "manual_review": {
+        "module": "MsMpRes.dll",
+        "rva": "0x1640",
+        "names": [
+          "GetMsMpResModuleHandle"
+        ],
+        "scope": "Complete eight-byte load/return sequence reviewed; zero and full-width nonzero global return emulated. No loader or resource-lifetime equivalence claimed.",
+        "evidence": "src/MsMpRes.dll/reviewed-behavior.md"
+      },
+      "manual_review_note": "Narrow original-instruction review; manually_verified remains false for uncertified automatic pseudocode/types."
+    },
+    {
+      "va": 8792771663440,
+      "rva": 5712,
+      "name": "sub_7ff3a081650",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 52,
+      "blocks": [
+        {
+          "va": 8792771663440,
+          "size": 15
+        },
+        {
+          "va": 8792771663455,
+          "size": 19
+        },
+        {
+          "va": 8792771663474,
+          "size": 7
+        },
+        {
+          "va": 8792771663481,
+          "size": 6
+        },
+        {
+          "va": 8792771663487,
+          "size": 5
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 20,
+      "manually_verified": false,
+      "pseudocode_line": 382,
+      "inferred_prototype": "() -> unsigned int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.091
+    },
+    {
+      "va": 8792771663500,
+      "rva": 5772,
+      "name": "sub_7ff3a08168c",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 466,
+      "blocks": [
+        {
+          "va": 8792771663500,
+          "size": 38
+        },
+        {
+          "va": 8792771663538,
+          "size": 14
+        },
+        {
+          "va": 8792771663552,
+          "size": 13
+        },
+        {
+          "va": 8792771663565,
+          "size": 11
+        },
+        {
+          "va": 8792771663576,
+          "size": 13
+        },
+        {
+          "va": 8792771663589,
+          "size": 11
+        },
+        {
+          "va": 8792771663600,
+          "size": 10
+        },
+        {
+          "va": 8792771663610,
+          "size": 5
+        },
+        {
+          "va": 8792771663615,
+          "size": 12
+        },
+        {
+          "va": 8792771663627,
+          "size": 13
+        },
+        {
+          "va": 8792771663640,
+          "size": 8
+        },
+        {
+          "va": 8792771663648,
+          "size": 2
+        },
+        {
+          "va": 8792771663650,
+          "size": 4
+        },
+        {
+          "va": 8792771663654,
+          "size": 5
+        },
+        {
+          "va": 8792771663659,
+          "size": 9
+        },
+        {
+          "va": 8792771663668,
+          "size": 14
+        },
+        {
+          "va": 8792771663682,
+          "size": 18
+        },
+        {
+          "va": 8792771663700,
+          "size": 7
+        },
+        {
+          "va": 8792771663707,
+          "size": 13
+        },
+        {
+          "va": 8792771663720,
+          "size": 17
+        },
+        {
+          "va": 8792771663737,
+          "size": 5
+        },
+        {
+          "va": 8792771663742,
+          "size": 11
+        },
+        {
+          "va": 8792771663753,
+          "size": 13
+        },
+        {
+          "va": 8792771663766,
+          "size": 2
+        },
+        {
+          "va": 8792771663768,
+          "size": 2
+        },
+        {
+          "va": 8792771663770,
+          "size": 10
+        },
+        {
+          "va": 8792771663780,
+          "size": 10
+        },
+        {
+          "va": 8792771663790,
+          "size": 2
+        },
+        {
+          "va": 8792771663792,
+          "size": 27
+        },
+        {
+          "va": 8792771663819,
+          "size": 4
+        },
+        {
+          "va": 8792771663823,
+          "size": 8
+        },
+        {
+          "va": 8792771663831,
+          "size": 2
+        },
+        {
+          "va": 8792771663833,
+          "size": 9
+        },
+        {
+          "va": 8792771663842,
+          "size": 8
+        },
+        {
+          "va": 8792771663850,
+          "size": 19
+        },
+        {
+          "va": 8792771663869,
+          "size": 10
+        },
+        {
+          "va": 8792771663879,
+          "size": 4
+        },
+        {
+          "va": 8792771663883,
+          "size": 10
+        },
+        {
+          "va": 8792771663893,
+          "size": 9
+        },
+        {
+          "va": 8792771663902,
+          "size": 12
+        },
+        {
+          "va": 8792771663914,
+          "size": 4
+        },
+        {
+          "va": 8792771663918,
+          "size": 17
+        },
+        {
+          "va": 8792771663935,
+          "size": 6
+        },
+        {
+          "va": 8792771663941,
+          "size": 2
+        },
+        {
+          "va": 8792771663943,
+          "size": 23
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 122,
+      "manually_verified": false,
+      "pseudocode_line": 1492,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned int (32 bits), unsigned long (64 bits)) -> unsigned int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 1.779
+    },
+    {
+      "va": 8792771663972,
+      "rva": 6244,
+      "name": "sub_7ff3a081864",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 346,
+      "blocks": [
+        {
+          "va": 8792771663972,
+          "size": 48
+        },
+        {
+          "va": 8792771664020,
+          "size": 8
+        },
+        {
+          "va": 8792771664028,
+          "size": 11
+        },
+        {
+          "va": 8792771664039,
+          "size": 5
+        },
+        {
+          "va": 8792771664044,
+          "size": 5
+        },
+        {
+          "va": 8792771664049,
+          "size": 12
+        },
+        {
+          "va": 8792771664061,
+          "size": 20
+        },
+        {
+          "va": 8792771664081,
+          "size": 8
+        },
+        {
+          "va": 8792771664110,
+          "size": 4
+        },
+        {
+          "va": 8792771664114,
+          "size": 18
+        },
+        {
+          "va": 8792771664132,
+          "size": 8
+        },
+        {
+          "va": 8792771664161,
+          "size": 8
+        },
+        {
+          "va": 8792771664169,
+          "size": 18
+        },
+        {
+          "va": 8792771664187,
+          "size": 8
+        },
+        {
+          "va": 8792771664216,
+          "size": 5
+        },
+        {
+          "va": 8792771664221,
+          "size": 4
+        },
+        {
+          "va": 8792771664225,
+          "size": 13
+        },
+        {
+          "va": 8792771664238,
+          "size": 2
+        },
+        {
+          "va": 8792771664259,
+          "size": 13
+        },
+        {
+          "va": 8792771664272,
+          "size": 2
+        },
+        {
+          "va": 8792771664293,
+          "size": 12
+        },
+        {
+          "va": 8792771664305,
+          "size": 10
+        },
+        {
+          "va": 8792771664315,
+          "size": 2
+        },
+        {
+          "va": 8792771664336,
+          "size": 4
+        },
+        {
+          "va": 8792771664340,
+          "size": 5
+        },
+        {
+          "va": 8792771664345,
+          "size": 18
+        },
+        {
+          "va": 8792771664363,
+          "size": 8
+        },
+        {
+          "va": 8792771664392,
+          "size": 12
+        },
+        {
+          "va": 8792771664404,
+          "size": 9
+        },
+        {
+          "va": 8792771664413,
+          "size": 15
+        },
+        {
+          "va": 8792771664428,
+          "size": 8
+        },
+        {
+          "va": 8792771664442,
+          "size": 23
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 73,
+      "manually_verified": false,
+      "pseudocode_line": 1419,
+      "inferred_prototype": "(long long (64 bits), unsigned int (32 bits), long long (64 bits)) -> unsigned int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.868
+    },
+    {
+      "va": 8792771664089,
+      "rva": 6361,
+      "name": "sub_7ff3a0818d9",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 21,
+      "blocks": [
+        {
+          "va": 8792771664089,
+          "size": 21
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 210,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned int (32 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.031
+    },
+    {
+      "va": 8792771664140,
+      "rva": 6412,
+      "name": "sub_7ff3a08190c",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 21,
+      "blocks": [
+        {
+          "va": 8792771664140,
+          "size": 21
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 219,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned int (32 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.037
+    },
+    {
+      "va": 8792771664195,
+      "rva": 6467,
+      "name": "sub_7ff3a081943",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 21,
+      "blocks": [
+        {
+          "va": 8792771664195,
+          "size": 21
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 228,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned int (32 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.036
+    },
+    {
+      "va": 8792771664240,
+      "rva": 6512,
+      "name": "sub_7ff3a081970",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 19,
+      "blocks": [
+        {
+          "va": 8792771664240,
+          "size": 19
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 6,
+      "manually_verified": false,
+      "pseudocode_line": 192,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned int (32 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.027
+    },
+    {
+      "va": 8792771664274,
+      "rva": 6546,
+      "name": "sub_7ff3a081992",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 19,
+      "blocks": [
+        {
+          "va": 8792771664274,
+          "size": 19
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 6,
+      "manually_verified": false,
+      "pseudocode_line": 198,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned int (32 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.028
+    },
+    {
+      "va": 8792771664317,
+      "rva": 6589,
+      "name": "sub_7ff3a0819bd",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 19,
+      "blocks": [
+        {
+          "va": 8792771664317,
+          "size": 19
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 6,
+      "manually_verified": false,
+      "pseudocode_line": 204,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned int (32 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.027
+    },
+    {
+      "va": 8792771664371,
+      "rva": 6643,
+      "name": "sub_7ff3a0819f3",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 21,
+      "blocks": [
+        {
+          "va": 8792771664371,
+          "size": 21
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 237,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), unsigned int (32 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.031
+    },
+    {
+      "va": 8792771664436,
+      "rva": 6708,
+      "name": "sub_7ff3a081a34",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 6,
+      "blocks": [
+        {
+          "va": 8792771664436,
+          "size": 6
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 42,
+      "inferred_prototype": "() -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.022
+    },
+    {
+      "va": 8792771664472,
+      "rva": 6744,
+      "name": "_start",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 61,
+      "blocks": [
+        {
+          "va": 8792771664472,
+          "size": 28
+        },
+        {
+          "va": 8792771664500,
+          "size": 5
+        },
+        {
+          "va": 8792771664505,
+          "size": 28
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 10,
+      "manually_verified": false,
+      "pseudocode_line": 16,
+      "inferred_prototype": "(long long (64 bits), unsigned int (32 bits), long long (64 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.099
+    },
+    {
+      "va": 8792771664550,
+      "rva": 6822,
+      "name": "sub_7ff3a081aa6",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 10,
+      "blocks": [
+        {
+          "va": 8792771664550,
+          "size": 10
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 8,
+      "manually_verified": false,
+      "pseudocode_line": 184,
+      "inferred_prototype": "(unsigned long (64 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.025
+    },
+    {
+      "va": 8792771664560,
+      "rva": 6832,
+      "name": "sub_7ff3a081ab0",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 32,
+      "blocks": [
+        {
+          "va": 8792771664560,
+          "size": 9
+        },
+        {
+          "va": 8792771664569,
+          "size": 11
+        },
+        {
+          "va": 8792771664580,
+          "size": 3
+        },
+        {
+          "va": 8792771664583,
+          "size": 4
+        },
+        {
+          "va": 8792771664587,
+          "size": 5
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 22,
+      "manually_verified": false,
+      "pseudocode_line": 292,
+      "inferred_prototype": "(unsigned long (64 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.078
+    },
+    {
+      "va": 8792771664598,
+      "rva": 6870,
+      "name": "_XcptFilter",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 6,
+      "blocks": [
+        {
+          "va": 8792771664598,
+          "size": 6
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 51,
+      "inferred_prototype": "() -> int (32 bits)",
+      "inferred_calling_convention": null,
+      "decompilation_seconds": 0.019
+    },
+    {
+      "va": 8792771664624,
+      "rva": 6896,
+      "name": "sub_7ff3a081af0",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 47,
+      "blocks": [
+        {
+          "va": 8792771664624,
+          "size": 13
+        },
+        {
+          "va": 8792771664637,
+          "size": 3
+        },
+        {
+          "va": 8792771664640,
+          "size": 17
+        },
+        {
+          "va": 8792771664657,
+          "size": 12
+        },
+        {
+          "va": 8792771664669,
+          "size": 2
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 16,
+      "manually_verified": false,
+      "pseudocode_line": 366,
+      "inferred_prototype": "(void*) -> unsigned int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.18
+    },
+    {
+      "va": 8792771664688,
+      "rva": 6960,
+      "name": "sub_7ff3a081b30",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 70,
+      "blocks": [
+        {
+          "va": 8792771664688,
+          "size": 33
+        },
+        {
+          "va": 8792771664721,
+          "size": 8
+        },
+        {
+          "va": 8792771664729,
+          "size": 10
+        },
+        {
+          "va": 8792771664739,
+          "size": 12
+        },
+        {
+          "va": 8792771664751,
+          "size": 3
+        },
+        {
+          "va": 8792771664754,
+          "size": 4
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 37,
+      "manually_verified": false,
+      "pseudocode_line": 498,
+      "inferred_prototype": "(struct_0*, unsigned long (64 bits)) -> unsigned int (32 bits)[10]*",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.17
+    },
+    {
+      "va": 8792771664764,
+      "rva": 7036,
+      "name": "sub_7ff3a081b7c",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 63,
+      "blocks": [
+        {
+          "va": 8792771664764,
+          "size": 22
+        },
+        {
+          "va": 8792771664786,
+          "size": 4
+        },
+        {
+          "va": 8792771664790,
+          "size": 14
+        },
+        {
+          "va": 8792771664804,
+          "size": 5
+        },
+        {
+          "va": 8792771664809,
+          "size": 13
+        },
+        {
+          "va": 8792771664824,
+          "size": 5
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 23,
+      "manually_verified": false,
+      "pseudocode_line": 462,
+      "inferred_prototype": "(long long (64 bits)) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.113
+    },
+    {
+      "va": 8792771664822,
+      "rva": 7094,
+      "name": "sub_7ff3a081bb6",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 2,
+      "blocks": [
+        {
+          "va": 8792771664822,
+          "size": 2
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 6,
+      "manually_verified": false,
+      "pseudocode_line": 26,
+      "inferred_prototype": "() -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.016
+    },
+    {
+      "va": 8792771664836,
+      "rva": 7108,
+      "name": "_initterm",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 6,
+      "blocks": [
+        {
+          "va": 8792771664836,
+          "size": 6
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 60,
+      "inferred_prototype": "() -> int (32 bits)",
+      "inferred_calling_convention": null,
+      "decompilation_seconds": 0.018
+    },
+    {
+      "va": 8792771664848,
+      "rva": 7120,
+      "name": "_amsg_exit",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 6,
+      "blocks": [
+        {
+          "va": 8792771664848,
+          "size": 6
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 69,
+      "inferred_prototype": "() -> int (32 bits)",
+      "inferred_calling_convention": null,
+      "decompilation_seconds": 0.018
+    },
+    {
+      "va": 8792771664860,
+      "rva": 7132,
+      "name": "__C_specific_handler",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 6,
+      "blocks": [
+        {
+          "va": 8792771664860,
+          "size": 6
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 78,
+      "inferred_prototype": "() -> int (32 bits)",
+      "inferred_calling_convention": null,
+      "decompilation_seconds": 0.018
+    },
+    {
+      "va": 8792771664872,
+      "rva": 7144,
+      "name": "_security_init_cookie",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 179,
+      "blocks": [
+        {
+          "va": 8792771664872,
+          "size": 38
+        },
+        {
+          "va": 8792771664910,
+          "size": 12
+        },
+        {
+          "va": 8792771664922,
+          "size": 11
+        },
+        {
+          "va": 8792771664933,
+          "size": 11
+        },
+        {
+          "va": 8792771664944,
+          "size": 12
+        },
+        {
+          "va": 8792771664956,
+          "size": 12
+        },
+        {
+          "va": 8792771664968,
+          "size": 17
+        },
+        {
+          "va": 8792771664985,
+          "size": 55
+        },
+        {
+          "va": 8792771665040,
+          "size": 11
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 33,
+      "manually_verified": false,
+      "pseudocode_line": 1004,
+      "inferred_prototype": "() -> unsigned long long (64 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.216
+    },
+    {
+      "va": 8792771665060,
+      "rva": 7332,
+      "name": "sub_7ff3a081ca4",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 289,
+      "blocks": [
+        {
+          "va": 8792771665060,
+          "size": 25
+        },
+        {
+          "va": 8792771665085,
+          "size": 30
+        },
+        {
+          "va": 8792771665115,
+          "size": 13
+        },
+        {
+          "va": 8792771665128,
+          "size": 63
+        },
+        {
+          "va": 8792771665191,
+          "size": 2
+        },
+        {
+          "va": 8792771665193,
+          "size": 34
+        },
+        {
+          "va": 8792771665227,
+          "size": 81
+        },
+        {
+          "va": 8792771665308,
+          "size": 13
+        },
+        {
+          "va": 8792771665321,
+          "size": 6
+        },
+        {
+          "va": 8792771665327,
+          "size": 14
+        },
+        {
+          "va": 8792771665341,
+          "size": 8
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 121,
+      "manually_verified": false,
+      "pseudocode_line": 1298,
+      "inferred_prototype": "(unsigned long (64 bits)) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.373
+    },
+    {
+      "va": 8792771665356,
+      "rva": 7628,
+      "name": "RtlVirtualUnwind",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 6,
+      "blocks": [
+        {
+          "va": 8792771665356,
+          "size": 6
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 56,
+      "manually_verified": false,
+      "pseudocode_line": 87,
+      "inferred_prototype": "(enum RTL_VIRTUAL_UNWIND_HANDLER_TYPE, unsigned long long (64 bits), unsigned long long (64 bits), struct IMAGE_RUNTIME_FUNCTION_ENTRY*, struct CONTEXT*, Void**, unsigned long long (64 bits)*, struct KNONVOLATILE_CONTEXT_POINTERS*) -> (struct EXCEPTION_RECORD*, Void*, struct CONTEXT*, Void*) -> enum EXCEPTION_DISPOSITION*",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.035
+    },
+    {
+      "va": 8792771665368,
+      "rva": 7640,
+      "name": "RtlLookupFunctionEntry",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 6,
+      "blocks": [
+        {
+          "va": 8792771665368,
+          "size": 6
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 25,
+      "manually_verified": false,
+      "pseudocode_line": 143,
+      "inferred_prototype": "(unsigned long long (64 bits), unsigned long long (64 bits)*, struct UNWIND_HISTORY_TABLE*) -> struct IMAGE_RUNTIME_FUNCTION_ENTRY*",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.025
+    },
+    {
+      "va": 8792771665380,
+      "rva": 7652,
+      "name": "memcpy",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 6,
+      "blocks": [
+        {
+          "va": 8792771665380,
+          "size": 6
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 9,
+      "manually_verified": false,
+      "pseudocode_line": 168,
+      "inferred_prototype": "() -> int (32 bits)",
+      "inferred_calling_convention": null,
+      "decompilation_seconds": 0.018
+    },
+    {
+      "va": 8792771665392,
+      "rva": 7664,
+      "name": "sub_7ff3a081df0",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 83,
+      "blocks": [
+        {
+          "va": 8792771665392,
+          "size": 47
+        },
+        {
+          "va": 8792771665439,
+          "size": 15
+        },
+        {
+          "va": 8792771665454,
+          "size": 5
+        },
+        {
+          "va": 8792771665459,
+          "size": 7
+        },
+        {
+          "va": 8792771665466,
+          "size": 9
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 42,
+      "manually_verified": false,
+      "pseudocode_line": 606,
+      "inferred_prototype": "(struct_3**, struct_1*) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.113
+    },
+    {
+      "va": 8792771665488,
+      "rva": 7760,
+      "name": "sub_7ff3a081e50",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 83,
+      "blocks": [
+        {
+          "va": 8792771665488,
+          "size": 47
+        },
+        {
+          "va": 8792771665535,
+          "size": 15
+        },
+        {
+          "va": 8792771665550,
+          "size": 5
+        },
+        {
+          "va": 8792771665555,
+          "size": 7
+        },
+        {
+          "va": 8792771665562,
+          "size": 9
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 43,
+      "manually_verified": false,
+      "pseudocode_line": 648,
+      "inferred_prototype": "(struct_3**, struct_1*) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.113
+    },
+    {
+      "va": 8792771665584,
+      "rva": 7856,
+      "name": "sub_7ff3a081eb0",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 83,
+      "blocks": [
+        {
+          "va": 8792771665584,
+          "size": 47
+        },
+        {
+          "va": 8792771665631,
+          "size": 15
+        },
+        {
+          "va": 8792771665646,
+          "size": 5
+        },
+        {
+          "va": 8792771665651,
+          "size": 7
+        },
+        {
+          "va": 8792771665658,
+          "size": 9
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 43,
+      "manually_verified": false,
+      "pseudocode_line": 691,
+      "inferred_prototype": "(struct_3**, struct_1*) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.198
+    },
+    {
+      "va": 8792771665680,
+      "rva": 7952,
+      "name": "sub_7ff3a081f10",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 92,
+      "blocks": [
+        {
+          "va": 8792771665680,
+          "size": 53
+        },
+        {
+          "va": 8792771665733,
+          "size": 18
+        },
+        {
+          "va": 8792771665751,
+          "size": 5
+        },
+        {
+          "va": 8792771665756,
+          "size": 7
+        },
+        {
+          "va": 8792771665763,
+          "size": 9
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 43,
+      "manually_verified": false,
+      "pseudocode_line": 863,
+      "inferred_prototype": "(struct_3**, struct_1*) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.112
+    },
+    {
+      "va": 8792771665776,
+      "rva": 8048,
+      "name": "sub_7ff3a081f70",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 83,
+      "blocks": [
+        {
+          "va": 8792771665776,
+          "size": 47
+        },
+        {
+          "va": 8792771665823,
+          "size": 15
+        },
+        {
+          "va": 8792771665838,
+          "size": 5
+        },
+        {
+          "va": 8792771665843,
+          "size": 7
+        },
+        {
+          "va": 8792771665850,
+          "size": 9
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 43,
+      "manually_verified": false,
+      "pseudocode_line": 734,
+      "inferred_prototype": "(struct_3**, struct_1*) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.111
+    },
+    {
+      "va": 8792771665872,
+      "rva": 8144,
+      "name": "sub_7ff3a081fd0",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 83,
+      "blocks": [
+        {
+          "va": 8792771665872,
+          "size": 47
+        },
+        {
+          "va": 8792771665919,
+          "size": 15
+        },
+        {
+          "va": 8792771665934,
+          "size": 5
+        },
+        {
+          "va": 8792771665939,
+          "size": 7
+        },
+        {
+          "va": 8792771665946,
+          "size": 9
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 43,
+      "manually_verified": false,
+      "pseudocode_line": 777,
+      "inferred_prototype": "(struct_3**, struct_1*) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.111
+    },
+    {
+      "va": 8792771665968,
+      "rva": 8240,
+      "name": "sub_7ff3a082030",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 83,
+      "blocks": [
+        {
+          "va": 8792771665968,
+          "size": 47
+        },
+        {
+          "va": 8792771666015,
+          "size": 15
+        },
+        {
+          "va": 8792771666030,
+          "size": 5
+        },
+        {
+          "va": 8792771666035,
+          "size": 7
+        },
+        {
+          "va": 8792771666042,
+          "size": 9
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 43,
+      "manually_verified": false,
+      "pseudocode_line": 820,
+      "inferred_prototype": "(struct_3**, struct_1*) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.111
+    },
+    {
+      "va": 8792771666064,
+      "rva": 8336,
+      "name": "sub_7ff3a082090",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 92,
+      "blocks": [
+        {
+          "va": 8792771666064,
+          "size": 47
+        },
+        {
+          "va": 8792771666111,
+          "size": 15
+        },
+        {
+          "va": 8792771666126,
+          "size": 8
+        },
+        {
+          "va": 8792771666134,
+          "size": 10
+        },
+        {
+          "va": 8792771666144,
+          "size": 12
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 42,
+      "manually_verified": false,
+      "pseudocode_line": 906,
+      "inferred_prototype": "(struct_3**, struct_1*) -> int (32 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.111
+    },
+    {
+      "va": 8792771666160,
+      "rva": 8432,
+      "name": "sub_7ff3a0820f0",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 25,
+      "blocks": [
+        {
+          "va": 8792771666160,
+          "size": 25
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 10,
+      "manually_verified": false,
+      "pseudocode_line": 269,
+      "inferred_prototype": "(unsigned long (64 bits), unsigned long (64 bits)) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.026
+    },
+    {
+      "va": 8792771666191,
+      "rva": 8463,
+      "name": "sub_7ff3a08210f",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": true,
+      "size": 33,
+      "blocks": [
+        {
+          "va": 8792771666191,
+          "size": 33
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 11,
+      "manually_verified": false,
+      "pseudocode_line": 314,
+      "inferred_prototype": "(struct_0**, unsigned long (64 bits)) -> long long (64 bits)",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.036
+    },
+    {
+      "va": 8792771666241,
+      "rva": 8513,
+      "name": "sub_7ff3a082141",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 37,
+      "blocks": [
+        {
+          "va": 8792771666241,
+          "size": 8
+        },
+        {
+          "va": 8792771666249,
+          "size": 6
+        },
+        {
+          "va": 8792771666265,
+          "size": 10
+        },
+        {
+          "va": 8792771666291,
+          "size": 13
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 41,
+      "manually_verified": false,
+      "pseudocode_line": 325,
+      "inferred_prototype": "(void*, char*, unsigned long (64 bits), unsigned long (64 bits), char) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.151
+    },
+    {
+      "va": 8792771666261,
+      "rva": 8533,
+      "name": "sub_7ff3a082155",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 4,
+      "blocks": [
+        {
+          "va": 8792771666261,
+          "size": 4
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 10,
+      "manually_verified": false,
+      "pseudocode_line": 32,
+      "inferred_prototype": "(unsigned long (64 bits), char*) -> char",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.027
+    },
+    {
+      "va": 8792771666316,
+      "rva": 8588,
+      "name": "sub_7ff3a08218c",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 55,
+      "blocks": [
+        {
+          "va": 8792771666316,
+          "size": 26
+        },
+        {
+          "va": 8792771666342,
+          "size": 8
+        },
+        {
+          "va": 8792771666350,
+          "size": 11
+        },
+        {
+          "va": 8792771666367,
+          "size": 8
+        },
+        {
+          "va": 8792771666375,
+          "size": 2
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 60,
+      "manually_verified": false,
+      "pseudocode_line": 402,
+      "inferred_prototype": "(void*, struct_0*, unsigned int (32 bits)*, unsigned long (64 bits), char) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.214
+    },
+    {
+      "va": 8792771666439,
+      "rva": 8711,
+      "name": "sub_7ff3a082207",
+      "exports": [],
+      "unwind_or_entry_or_export_seed": false,
+      "size": 82,
+      "blocks": [
+        {
+          "va": 8792771666439,
+          "size": 10
+        },
+        {
+          "va": 8792771666449,
+          "size": 9
+        },
+        {
+          "va": 8792771666458,
+          "size": 35
+        },
+        {
+          "va": 8792771666493,
+          "size": 1
+        },
+        {
+          "va": 8792771666494,
+          "size": 27
+        }
+      ],
+      "status": "automated pseudocode; unverified",
+      "pseudocode_lines": 71,
+      "manually_verified": false,
+      "pseudocode_line": 535,
+      "inferred_prototype": "(char, unsigned long (64 bits), unsigned long (64 bits), unsigned long (64 bits), char) -> void",
+      "inferred_calling_convention": "<SimCCMicrosoftAMD64>",
+      "decompilation_seconds": 0.209
+    }
+  ]
+}

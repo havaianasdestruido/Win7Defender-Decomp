@@ -1,0 +1,1237 @@
+[
+  {
+    "file_offset": 77,
+    "encoding": "ascii",
+    "text": "!This program cannot be run in DOS mode."
+  },
+  {
+    "file_offset": 160,
+    "encoding": "ascii",
+    "text": "RichE"
+  },
+  {
+    "file_offset": 448,
+    "encoding": "ascii",
+    "text": ".rsrc"
+  },
+  {
+    "file_offset": 912,
+    "encoding": "utf-16le",
+    "text": "pt-BR"
+  },
+  {
+    "file_offset": 1068,
+    "encoding": "utf-16le",
+    "text": "Antiv"
+  },
+  {
+    "file_offset": 1080,
+    "encoding": "utf-16le",
+    "text": "rus%0"
+  },
+  {
+    "file_offset": 1100,
+    "encoding": "utf-16le",
+    "text": "Anti-spyware%0"
+  },
+  {
+    "file_offset": 1140,
+    "encoding": "utf-16le",
+    "text": "Anti-malware%0"
+  },
+  {
+    "file_offset": 1180,
+    "encoding": "utf-16le",
+    "text": "Completa%0"
+  },
+  {
+    "file_offset": 1212,
+    "encoding": "utf-16le",
+    "text": "Delta%0"
+  },
+  {
+    "file_offset": 1236,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 1256,
+    "encoding": "utf-16le",
+    "text": "o Completa%0"
+  },
+  {
+    "file_offset": 1292,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 1320,
+    "encoding": "utf-16le",
+    "text": "pida%0"
+  },
+  {
+    "file_offset": 1344,
+    "encoding": "utf-16le",
+    "text": "Verifica"
+  },
+  {
+    "file_offset": 1364,
+    "encoding": "utf-16le",
+    "text": "o Personalizada%0"
+  },
+  {
+    "file_offset": 1408,
+    "encoding": "utf-16le",
+    "text": "Remover%0"
+  },
+  {
+    "file_offset": 1436,
+    "encoding": "utf-16le",
+    "text": "Colocar em Quarentena%0"
+  },
+  {
+    "file_offset": 1492,
+    "encoding": "utf-16le",
+    "text": "Limpar%0"
+  },
+  {
+    "file_offset": 1520,
+    "encoding": "utf-16le",
+    "text": "Permitir%0"
+  },
+  {
+    "file_offset": 1552,
+    "encoding": "utf-16le",
+    "text": "Desconhecido%0"
+  },
+  {
+    "file_offset": 1592,
+    "encoding": "utf-16le",
+    "text": "Suspenso%0"
+  },
+  {
+    "file_offset": 1624,
+    "encoding": "utf-16le",
+    "text": "Permitido%0"
+  },
+  {
+    "file_offset": 1664,
+    "encoding": "utf-16le",
+    "text": "rio%0"
+  },
+  {
+    "file_offset": 1684,
+    "encoding": "utf-16le",
+    "text": "Agendado%0"
+  },
+  {
+    "file_offset": 1716,
+    "encoding": "utf-16le",
+    "text": "Pasta de Atualiza"
+  },
+  {
+    "file_offset": 1754,
+    "encoding": "utf-16le",
+    "text": "o de Assinatura%0"
+  },
+  {
+    "file_offset": 1800,
+    "encoding": "utf-16le",
+    "text": "Prote"
+  },
+  {
+    "file_offset": 1814,
+    "encoding": "utf-16le",
+    "text": "o em Tempo Real%0"
+  },
+  {
+    "file_offset": 1860,
+    "encoding": "utf-16le",
+    "text": "Downloads e anexos%0"
+  },
+  {
+    "file_offset": 1912,
+    "encoding": "utf-16le",
+    "text": "Sistema%0"
+  },
+  {
+    "file_offset": 1950,
+    "encoding": "utf-16le",
+    "text": "stica%0"
+  },
+  {
+    "file_offset": 1976,
+    "encoding": "utf-16le",
+    "text": "Concreto%0"
+  },
+  {
+    "file_offset": 2016,
+    "encoding": "utf-16le",
+    "text": "rico%0"
+  },
+  {
+    "file_offset": 2040,
+    "encoding": "utf-16le",
+    "text": "Atual%0"
+  },
+  {
+    "file_offset": 2064,
+    "encoding": "utf-16le",
+    "text": "Backup%0"
+  },
+  {
+    "file_offset": 2120,
+    "encoding": "utf-16le",
+    "text": "Windows Defender%0"
+  },
+  {
+    "file_offset": 2168,
+    "encoding": "utf-16le",
+    "text": "Windows Live OneCare%0"
+  },
+  {
+    "file_offset": 2224,
+    "encoding": "utf-16le",
+    "text": "Microsoft Forefront Client Security%0"
+  },
+  {
+    "file_offset": 2308,
+    "encoding": "utf-16le",
+    "text": "Microsoft Standalone System Sweeper%0"
+  },
+  {
+    "file_offset": 2392,
+    "encoding": "utf-16le",
+    "text": "Pane%0"
+  },
+  {
+    "file_offset": 2416,
+    "encoding": "utf-16le",
+    "text": "Parada%0"
+  },
+  {
+    "file_offset": 2448,
+    "encoding": "utf-16le",
+    "text": "o Aplic"
+  },
+  {
+    "file_offset": 2464,
+    "encoding": "utf-16le",
+    "text": "vel%0"
+  },
+  {
+    "file_offset": 2484,
+    "encoding": "utf-16le",
+    "text": "Downloads do IE e Anexos do Outlook Express%0"
+  },
+  {
+    "file_offset": 2584,
+    "encoding": "utf-16le",
+    "text": "Ao Acessar%0"
+  },
+  {
+    "file_offset": 2620,
+    "encoding": "utf-16le",
+    "text": "Monitoramento de Comportamento%0"
+  },
+  {
+    "file_offset": 2696,
+    "encoding": "utf-16le",
+    "text": "O driver do filtro foi reiniciado com "
+  },
+  {
+    "file_offset": 2774,
+    "encoding": "utf-16le",
+    "text": "xito.%0"
+  },
+  {
+    "file_offset": 2800,
+    "encoding": "utf-16le",
+    "text": "O driver do filtro foi descarregado inesperadamente.%0"
+  },
+  {
+    "file_offset": 2920,
+    "encoding": "utf-16le",
+    "text": "O driver do filtro ignorou itens e est"
+  },
+  {
+    "file_offset": 2998,
+    "encoding": "utf-16le",
+    "text": " no modo de passagem. Isso pode ter ocorrido devido a condi"
+  },
+  {
+    "file_offset": 3120,
+    "encoding": "utf-16le",
+    "text": "es com poucos recursos.%0"
+  },
+  {
+    "file_offset": 3180,
+    "encoding": "utf-16le",
+    "text": "O driver de filtro reiniciou os itens de verifica"
+  },
+  {
+    "file_offset": 3282,
+    "encoding": "utf-16le",
+    "text": "o e est"
+  },
+  {
+    "file_offset": 3298,
+    "encoding": "utf-16le",
+    "text": " no modo de passagem.%0"
+  },
+  {
+    "file_offset": 3356,
+    "encoding": "utf-16le",
+    "text": "O Monitoramento em Tempo Real parou de funcionar por um motivo desconhecido. Reinicie o servi"
+  },
+  {
+    "file_offset": 3544,
+    "encoding": "utf-16le",
+    "text": "o para recuperar.%0"
+  },
+  {
+    "file_offset": 3592,
+    "encoding": "utf-16le",
+    "text": "O Monitoramento em Tempo Real se recuperou de uma falha desconhecida. Recomenda-se executar uma verifica"
+  },
+  {
+    "file_offset": 3812,
+    "encoding": "utf-16le",
+    "text": "pida.%0"
+  },
+  {
+    "file_offset": 3856,
+    "encoding": "utf-16le",
+    "text": "Aviso"
+  },
+  {
+    "file_offset": 3876,
+    "encoding": "utf-16le",
+    "text": "Informa"
+  },
+  {
+    "file_offset": 3908,
+    "encoding": "utf-16le",
+    "text": "Microsoft-Windows-Windows Defender"
+  },
+  {
+    "file_offset": 3988,
+    "encoding": "utf-16le",
+    "text": "Estado do Windows Defender atualizado para %1."
+  },
+  {
+    "file_offset": 4092,
+    "encoding": "utf-16le",
+    "text": "Digitaliza"
+  },
+  {
+    "file_offset": 4116,
+    "encoding": "utf-16le",
+    "text": "o de %1 iniciada.%n %tID da Digitaliza"
+  },
+  {
+    "file_offset": 4196,
+    "encoding": "utf-16le",
+    "text": "o:%3%n %tTipo da Digitaliza"
+  },
+  {
+    "file_offset": 4254,
+    "encoding": "utf-16le",
+    "text": "o:%5%n %tPar"
+  },
+  {
+    "file_offset": 4280,
+    "encoding": "utf-16le",
+    "text": "metros da Digitaliza"
+  },
+  {
+    "file_offset": 4324,
+    "encoding": "utf-16le",
+    "text": "o:%7%n %tRecursos da Digitaliza"
+  },
+  {
+    "file_offset": 4390,
+    "encoding": "utf-16le",
+    "text": "o:%11%n %tUsu"
+  },
+  {
+    "file_offset": 4418,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9"
+  },
+  {
+    "file_offset": 4448,
+    "encoding": "utf-16le",
+    "text": "Digitaliza"
+  },
+  {
+    "file_offset": 4472,
+    "encoding": "utf-16le",
+    "text": "o de %1 conclu"
+  },
+  {
+    "file_offset": 4502,
+    "encoding": "utf-16le",
+    "text": "da.%n %tID da Digitaliza"
+  },
+  {
+    "file_offset": 4554,
+    "encoding": "utf-16le",
+    "text": "o:%3%n %tTipo da Digitaliza"
+  },
+  {
+    "file_offset": 4612,
+    "encoding": "utf-16le",
+    "text": "o:%5%n %tPar"
+  },
+  {
+    "file_offset": 4638,
+    "encoding": "utf-16le",
+    "text": "metros da Digitaliza"
+  },
+  {
+    "file_offset": 4682,
+    "encoding": "utf-16le",
+    "text": "o:%7%n %tUsu"
+  },
+  {
+    "file_offset": 4708,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tDura"
+  },
+  {
+    "file_offset": 4748,
+    "encoding": "utf-16le",
+    "text": "o da Digitaliza"
+  },
+  {
+    "file_offset": 4782,
+    "encoding": "utf-16le",
+    "text": "o:%11:%12:%13"
+  },
+  {
+    "file_offset": 4820,
+    "encoding": "utf-16le",
+    "text": "Digitaliza"
+  },
+  {
+    "file_offset": 4844,
+    "encoding": "utf-16le",
+    "text": "o de %1 interrompida antes da conclus"
+  },
+  {
+    "file_offset": 4920,
+    "encoding": "utf-16le",
+    "text": "o.%n %tID da Digitaliza"
+  },
+  {
+    "file_offset": 4970,
+    "encoding": "utf-16le",
+    "text": "o:%3%n %tTipo da Digitaliza"
+  },
+  {
+    "file_offset": 5028,
+    "encoding": "utf-16le",
+    "text": "o:%5%n %tPar"
+  },
+  {
+    "file_offset": 5054,
+    "encoding": "utf-16le",
+    "text": "metros da Digitaliza"
+  },
+  {
+    "file_offset": 5098,
+    "encoding": "utf-16le",
+    "text": "o:%7%n  %tUsu"
+  },
+  {
+    "file_offset": 5126,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9"
+  },
+  {
+    "file_offset": 5156,
+    "encoding": "utf-16le",
+    "text": "Digitaliza"
+  },
+  {
+    "file_offset": 5180,
+    "encoding": "utf-16le",
+    "text": "o de %1 em pausa.%n %tID da Digitaliza"
+  },
+  {
+    "file_offset": 5260,
+    "encoding": "utf-16le",
+    "text": "o:%3%n %tTipo da Digitaliza"
+  },
+  {
+    "file_offset": 5318,
+    "encoding": "utf-16le",
+    "text": "o:%5%n %tPar"
+  },
+  {
+    "file_offset": 5344,
+    "encoding": "utf-16le",
+    "text": "metros da Digitaliza"
+  },
+  {
+    "file_offset": 5388,
+    "encoding": "utf-16le",
+    "text": "o:%7%n  %tUsu"
+  },
+  {
+    "file_offset": 5416,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9"
+  },
+  {
+    "file_offset": 5444,
+    "encoding": "utf-16le",
+    "text": "Digitaliza"
+  },
+  {
+    "file_offset": 5468,
+    "encoding": "utf-16le",
+    "text": "o de %1 reiniciada.%n %tID da Digitaliza"
+  },
+  {
+    "file_offset": 5552,
+    "encoding": "utf-16le",
+    "text": "o:%3%n %tTipo da Digitaliza"
+  },
+  {
+    "file_offset": 5610,
+    "encoding": "utf-16le",
+    "text": "o:%5%n %tPar"
+  },
+  {
+    "file_offset": 5636,
+    "encoding": "utf-16le",
+    "text": "metros da Digitaliza"
+  },
+  {
+    "file_offset": 5680,
+    "encoding": "utf-16le",
+    "text": "o:%7%n  %tUsu"
+  },
+  {
+    "file_offset": 5708,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9"
+  },
+  {
+    "file_offset": 5736,
+    "encoding": "utf-16le",
+    "text": "A digitaliza"
+  },
+  {
+    "file_offset": 5764,
+    "encoding": "utf-16le",
+    "text": "o de %1 encontrou um erro e foi terminada.%n %tID da Digitaliza"
+  },
+  {
+    "file_offset": 5894,
+    "encoding": "utf-16le",
+    "text": "o:%3%n %tTipo da Digitaliza"
+  },
+  {
+    "file_offset": 5952,
+    "encoding": "utf-16le",
+    "text": "o:%5%n %tPar"
+  },
+  {
+    "file_offset": 5978,
+    "encoding": "utf-16le",
+    "text": "metros da Digitaliza"
+  },
+  {
+    "file_offset": 6022,
+    "encoding": "utf-16le",
+    "text": "o:%7%n %tUsu"
+  },
+  {
+    "file_offset": 6048,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tC"
+  },
+  {
+    "file_offset": 6080,
+    "encoding": "utf-16le",
+    "text": "digo de Erro:%11%n %tDescri"
+  },
+  {
+    "file_offset": 6138,
+    "encoding": "utf-16le",
+    "text": "o do erro:%12"
+  },
+  {
+    "file_offset": 6176,
+    "encoding": "utf-16le",
+    "text": "%1 detectou spyware ou outro software possivelmente indesejado.%n Para obter mais informa"
+  },
+  {
+    "file_offset": 6358,
+    "encoding": "utf-16le",
+    "text": "es, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tCaminho Encontrado:%16%n %tTipo de Detec"
+  },
+  {
+    "file_offset": 6610,
+    "encoding": "utf-16le",
+    "text": "o:%22%n %tOrigem da Detec"
+  },
+  {
+    "file_offset": 6664,
+    "encoding": "utf-16le",
+    "text": "o:%5%n %tStatus:%20%n %tUsu"
+  },
+  {
+    "file_offset": 6720,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tNome do Processo:%7"
+  },
+  {
+    "file_offset": 6796,
+    "encoding": "utf-16le",
+    "text": "%1 executou uma a"
+  },
+  {
+    "file_offset": 6834,
+    "encoding": "utf-16le",
+    "text": "o para proteger a m"
+  },
+  {
+    "file_offset": 6874,
+    "encoding": "utf-16le",
+    "text": "quina contra spyware ou outros software possivelmente indesejado.%n Para obter mais informa"
+  },
+  {
+    "file_offset": 7060,
+    "encoding": "utf-16le",
+    "text": "es, consulte:%n%15%n %tUsu"
+  },
+  {
+    "file_offset": 7114,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tA"
+  },
+  {
+    "file_offset": 7270,
+    "encoding": "utf-16le",
+    "text": "o:%20%n %tStatus:%7"
+  },
+  {
+    "file_offset": 7320,
+    "encoding": "utf-16le",
+    "text": "%1 encontrou um erro ao executar a"
+  },
+  {
+    "file_offset": 7392,
+    "encoding": "utf-16le",
+    "text": "es contra spyware ou outro software possivelmente indesejado.%n Para obter mais informa"
+  },
+  {
+    "file_offset": 7570,
+    "encoding": "utf-16le",
+    "text": "es, consulte:%n%15%n %tUsu"
+  },
+  {
+    "file_offset": 7624,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tCaminho:%16%n %tA"
+  },
+  {
+    "file_offset": 7812,
+    "encoding": "utf-16le",
+    "text": "o:%20%n %tC"
+  },
+  {
+    "file_offset": 7836,
+    "encoding": "utf-16le",
+    "text": "digo de Erro:%21%n %tDescri"
+  },
+  {
+    "file_offset": 7894,
+    "encoding": "utf-16le",
+    "text": "o do erro:%22%n %tStatus:%7"
+  },
+  {
+    "file_offset": 7960,
+    "encoding": "utf-16le",
+    "text": "%1 restaurou um item da quarentena.%n Para obter mais informa"
+  },
+  {
+    "file_offset": 8086,
+    "encoding": "utf-16le",
+    "text": "es, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tUsu"
+  },
+  {
+    "file_offset": 8262,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9"
+  },
+  {
+    "file_offset": 8292,
+    "encoding": "utf-16le",
+    "text": "%1 encontrou um erro ao tentar restaurar um item da quarentena.%n Para obter mais informa"
+  },
+  {
+    "file_offset": 8474,
+    "encoding": "utf-16le",
+    "text": "es, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tUsu"
+  },
+  {
+    "file_offset": 8650,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tC"
+  },
+  {
+    "file_offset": 8682,
+    "encoding": "utf-16le",
+    "text": "digo de Erro:%3%n %tDescri"
+  },
+  {
+    "file_offset": 8738,
+    "encoding": "utf-16le",
+    "text": "o do erro:%4"
+  },
+  {
+    "file_offset": 8772,
+    "encoding": "utf-16le",
+    "text": "%1 excluiu um item da quarentena.%n Para obter mais informa"
+  },
+  {
+    "file_offset": 8894,
+    "encoding": "utf-16le",
+    "text": "es, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tUsu"
+  },
+  {
+    "file_offset": 9070,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9"
+  },
+  {
+    "file_offset": 9100,
+    "encoding": "utf-16le",
+    "text": "%1 encontrou um erro ao tentar excluir um item da quarentena.%n Para obter mais informa"
+  },
+  {
+    "file_offset": 9278,
+    "encoding": "utf-16le",
+    "text": "es, consulte:%n%15%n %tNome:%11%n %tID:%12%n %tSeveridade:%25%n %tCategoria:%26%n %tUsu"
+  },
+  {
+    "file_offset": 9454,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tC"
+  },
+  {
+    "file_offset": 9486,
+    "encoding": "utf-16le",
+    "text": "digo de Erro:%3%n %tDescri"
+  },
+  {
+    "file_offset": 9542,
+    "encoding": "utf-16le",
+    "text": "o do erro:%4"
+  },
+  {
+    "file_offset": 9576,
+    "encoding": "utf-16le",
+    "text": "%1 removeu o hist"
+  },
+  {
+    "file_offset": 9612,
+    "encoding": "utf-16le",
+    "text": "rico de spyware e de outro software possivelmente indesejado.%n %tHora:%3%n %tUsu"
+  },
+  {
+    "file_offset": 9776,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n"
+  },
+  {
+    "file_offset": 9808,
+    "encoding": "utf-16le",
+    "text": "%1 encontrou um erro ao tentar remover o hist"
+  },
+  {
+    "file_offset": 9900,
+    "encoding": "utf-16le",
+    "text": "rico de spyware e outro softwares possivelmente indesejado.%n %tHora:%3%n %tUsu"
+  },
+  {
+    "file_offset": 10060,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tC"
+  },
+  {
+    "file_offset": 10092,
+    "encoding": "utf-16le",
+    "text": "digo de Erro:%4%n %tDescri"
+  },
+  {
+    "file_offset": 10148,
+    "encoding": "utf-16le",
+    "text": "o do erro:%5"
+  },
+  {
+    "file_offset": 10184,
+    "encoding": "utf-16le",
+    "text": "A vers"
+  },
+  {
+    "file_offset": 10198,
+    "encoding": "utf-16le",
+    "text": "o de assinatura %1 foi atualizada.%n %tVers"
+  },
+  {
+    "file_offset": 10286,
+    "encoding": "utf-16le",
+    "text": "o Assinatura Atual:%3%n %tVers"
+  },
+  {
+    "file_offset": 10348,
+    "encoding": "utf-16le",
+    "text": "o da Assinatura Anterior:%4%n %tOrigem da Atualiza"
+  },
+  {
+    "file_offset": 10452,
+    "encoding": "utf-16le",
+    "text": "o:%6%n %tTipo de Assinatura:%12%n %tTipo de Atualiza"
+  },
+  {
+    "file_offset": 10560,
+    "encoding": "utf-16le",
+    "text": "o:%14%n %tUsu"
+  },
+  {
+    "file_offset": 10588,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tVers"
+  },
+  {
+    "file_offset": 10626,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo Atual:%15%n %tVers"
+  },
+  {
+    "file_offset": 10694,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo Anterior:%16"
+  },
+  {
+    "file_offset": 10760,
+    "encoding": "utf-16le",
+    "text": "%1 encontrou um erro ao atualizar assinaturas.%n %tVers"
+  },
+  {
+    "file_offset": 10872,
+    "encoding": "utf-16le",
+    "text": "o da Nova Assinatura:%3%n %tVers"
+  },
+  {
+    "file_offset": 10938,
+    "encoding": "utf-16le",
+    "text": "o da Assinatura Anterior:%4%n %tOrigem da Atualiza"
+  },
+  {
+    "file_offset": 11042,
+    "encoding": "utf-16le",
+    "text": "o:%6%n %tTipo de Assinatura:%12%n %tTipo de Atualiza"
+  },
+  {
+    "file_offset": 11150,
+    "encoding": "utf-16le",
+    "text": "o:%14%n %tUsu"
+  },
+  {
+    "file_offset": 11178,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tVers"
+  },
+  {
+    "file_offset": 11216,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo Atual:%15%n %tVers"
+  },
+  {
+    "file_offset": 11284,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo Anterior:%16%n %tC"
+  },
+  {
+    "file_offset": 11352,
+    "encoding": "utf-16le",
+    "text": "digo de erro:%17%n %tDescri"
+  },
+  {
+    "file_offset": 11410,
+    "encoding": "utf-16le",
+    "text": "o do erro:%18"
+  },
+  {
+    "file_offset": 11448,
+    "encoding": "utf-16le",
+    "text": "A vers"
+  },
+  {
+    "file_offset": 11462,
+    "encoding": "utf-16le",
+    "text": "o do mecanismo de %1 foi atualizada.%n %tVers"
+  },
+  {
+    "file_offset": 11554,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo Atual:%3%n %tVers"
+  },
+  {
+    "file_offset": 11620,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo Anterior:%4%n %tOrigem da Atualiza"
+  },
+  {
+    "file_offset": 11722,
+    "encoding": "utf-16le",
+    "text": "o:%6%n %tUsu"
+  },
+  {
+    "file_offset": 11748,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9"
+  },
+  {
+    "file_offset": 11776,
+    "encoding": "utf-16le",
+    "text": "%1 encontrou um erro ao tentar atualizar o mecanismo.%n %tVers"
+  },
+  {
+    "file_offset": 11902,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo Novo:%3%n %tVers"
+  },
+  {
+    "file_offset": 11966,
+    "encoding": "utf-16le",
+    "text": "o do Mecanismo Anterior:%4%n %tOrigem da Atualiza"
+  },
+  {
+    "file_offset": 12068,
+    "encoding": "utf-16le",
+    "text": "o:%6%n %tUsu"
+  },
+  {
+    "file_offset": 12094,
+    "encoding": "utf-16le",
+    "text": "rio:%8\\%9%n %tC"
+  },
+  {
+    "file_offset": 12126,
+    "encoding": "utf-16le",
+    "text": "digo de Erro:%11%n %tDescri"
+  },
+  {
+    "file_offset": 12184,
+    "encoding": "utf-16le",
+    "text": "o do erro:%12"
+  },
+  {
+    "file_offset": 12220,
+    "encoding": "utf-16le",
+    "text": "%1 encontrou um erro ao tentar carregar assinaturas e tentar"
+  },
+  {
+    "file_offset": 12342,
+    "encoding": "utf-16le",
+    "text": " reverter ao conjunto de assinaturas v"
+  },
+  {
+    "file_offset": 12420,
+    "encoding": "utf-16le",
+    "text": "lidas.%n %tTentativas de Assinaturas:%4%n %tC"
+  },
+  {
+    "file_offset": 12512,
+    "encoding": "utf-16le",
+    "text": "digo de Erro:%5%n %tDescri"
+  },
+  {
+    "file_offset": 12568,
+    "encoding": "utf-16le",
+    "text": "o do erro:%6%n %tVers"
+  },
+  {
+    "file_offset": 12612,
+    "encoding": "utf-16le",
+    "text": "o da assinatura:%9%n %tVers"
+  },
+  {
+    "file_offset": 12668,
+    "encoding": "utf-16le",
+    "text": "o do mecanismo:%10"
+  },
+  {
+    "file_offset": 12716,
+    "encoding": "utf-16le",
+    "text": "O recurso de prote"
+  },
+  {
+    "file_offset": 12756,
+    "encoding": "utf-16le",
+    "text": "o de tempo real %1 encontrou um erro e falhou.%n %tRecurso:%3%n %tC"
+  },
+  {
+    "file_offset": 12892,
+    "encoding": "utf-16le",
+    "text": "digo de Erro:%5%n %tDescri"
+  },
+  {
+    "file_offset": 12948,
+    "encoding": "utf-16le",
+    "text": "o do erro:%6%n %tRaz"
+  },
+  {
+    "file_offset": 13008,
+    "encoding": "utf-16le",
+    "text": "O recurso de prote"
+  },
+  {
+    "file_offset": 13048,
+    "encoding": "utf-16le",
+    "text": "o em tempo real %1 foi reiniciado. Recomenda-se executar uma verifica"
+  },
+  {
+    "file_offset": 13190,
+    "encoding": "utf-16le",
+    "text": "o completa do sistema para detectar itens que possam ter sido ignorados enquanto o agente estava desativado.%n %tRecurso:%3%n %tRaz"
+  },
+  {
+    "file_offset": 13472,
+    "encoding": "utf-16le",
+    "text": "A verifica"
+  },
+  {
+    "file_offset": 13496,
+    "encoding": "utf-16le",
+    "text": "o de spyware e outro software possivelmente indesejado da Prote"
+  },
+  {
+    "file_offset": 13626,
+    "encoding": "utf-16le",
+    "text": "o em Tempo Real %1 foi habilitada."
+  },
+  {
+    "file_offset": 13704,
+    "encoding": "utf-16le",
+    "text": "A verifica"
+  },
+  {
+    "file_offset": 13728,
+    "encoding": "utf-16le",
+    "text": "o de spyware e outro software possivelmente indesejado da Prote"
+  },
+  {
+    "file_offset": 13858,
+    "encoding": "utf-16le",
+    "text": "o em Tempo Real %1 foi desabilitada."
+  },
+  {
+    "file_offset": 13940,
+    "encoding": "utf-16le",
+    "text": "A configura"
+  },
+  {
+    "file_offset": 13966,
+    "encoding": "utf-16le",
+    "text": "o do recurso de prote"
+  },
+  {
+    "file_offset": 14012,
+    "encoding": "utf-16le",
+    "text": "o em tempo real %1 foi alterada.%n %tRecurso:%3%n %tConfigura"
+  },
+  {
+    "file_offset": 14156,
+    "encoding": "utf-16le",
+    "text": "A configura"
+  },
+  {
+    "file_offset": 14182,
+    "encoding": "utf-16le",
+    "text": "o de %1 foi alterada. Caso seja um evento inesperado, verifique as configura"
+  },
+  {
+    "file_offset": 14338,
+    "encoding": "utf-16le",
+    "text": "es, pois isso pode ser devido a um malware.%n %tValor antigo:%3%n %tNovo valor:%4"
+  },
+  {
+    "file_offset": 14512,
+    "encoding": "utf-16le",
+    "text": "O mecanismo %1 foi terminado devido a um erro inesperado.%n %tTipo de Falha:%5%n %tC"
+  },
+  {
+    "file_offset": 14682,
+    "encoding": "utf-16le",
+    "text": "digo de exce"
+  },
+  {
+    "file_offset": 14710,
+    "encoding": "utf-16le",
+    "text": "o:%6%n %tRecurso:%3"
+  },
+  {
+    "file_offset": 14760,
+    "encoding": "utf-16le",
+    "text": "Habilitada a verifica"
+  },
+  {
+    "file_offset": 14806,
+    "encoding": "utf-16le",
+    "text": "o de %1 em busca de spyware e outro software possivelmente indesejado."
+  },
+  {
+    "file_offset": 14956,
+    "encoding": "utf-16le",
+    "text": "Desabilitada a verifica"
+  },
+  {
+    "file_offset": 15006,
+    "encoding": "utf-16le",
+    "text": "o de %1 em busca de spyware e outro software possivelmente indesejado."
+  },
+  {
+    "file_offset": 15156,
+    "encoding": "utf-16le",
+    "text": "Habilitada a verifica"
+  },
+  {
+    "file_offset": 15202,
+    "encoding": "utf-16le",
+    "text": "o de %1 em busca de v"
+  },
+  {
+    "file_offset": 15264,
+    "encoding": "utf-16le",
+    "text": "Desabilitada a verifica"
+  },
+  {
+    "file_offset": 15314,
+    "encoding": "utf-16le",
+    "text": "o de %1 em busca de v"
+  },
+  {
+    "file_offset": 15378,
+    "encoding": "utf-16le",
+    "text": "VS_VERSION_INFO"
+  },
+  {
+    "file_offset": 15470,
+    "encoding": "utf-16le",
+    "text": "StringFileInfo"
+  },
+  {
+    "file_offset": 15506,
+    "encoding": "utf-16le",
+    "text": "041604B0"
+  },
+  {
+    "file_offset": 15530,
+    "encoding": "utf-16le",
+    "text": "CompanyName"
+  },
+  {
+    "file_offset": 15556,
+    "encoding": "utf-16le",
+    "text": "Microsoft Corporation"
+  },
+  {
+    "file_offset": 15606,
+    "encoding": "utf-16le",
+    "text": "FileDescription"
+  },
+  {
+    "file_offset": 15644,
+    "encoding": "utf-16le",
+    "text": "dulo de Recursos de Eventos"
+  },
+  {
+    "file_offset": 15706,
+    "encoding": "utf-16le",
+    "text": "FileVersion"
+  },
+  {
+    "file_offset": 15732,
+    "encoding": "utf-16le",
+    "text": "6.1.7600.16385 (win7_rtm.090713-1255)"
+  },
+  {
+    "file_offset": 15814,
+    "encoding": "utf-16le",
+    "text": "InternalName"
+  },
+  {
+    "file_offset": 15840,
+    "encoding": "utf-16le",
+    "text": "MpEvMsg.dll"
+  },
+  {
+    "file_offset": 15870,
+    "encoding": "utf-16le",
+    "text": "LegalCopyright"
+  },
+  {
+    "file_offset": 15902,
+    "encoding": "utf-16le",
+    "text": " Microsoft Corporation. Todos os direitos reservados."
+  },
+  {
+    "file_offset": 16018,
+    "encoding": "utf-16le",
+    "text": "OriginalFilename"
+  },
+  {
+    "file_offset": 16052,
+    "encoding": "utf-16le",
+    "text": "MpEvMsg.dll.mui"
+  },
+  {
+    "file_offset": 16090,
+    "encoding": "utf-16le",
+    "text": "ProductName"
+  },
+  {
+    "file_offset": 16116,
+    "encoding": "utf-16le",
+    "text": "Sistema Operacional Microsoft"
+  },
+  {
+    "file_offset": 16176,
+    "encoding": "utf-16le",
+    "text": " Windows"
+  },
+  {
+    "file_offset": 16202,
+    "encoding": "utf-16le",
+    "text": "ProductVersion"
+  },
+  {
+    "file_offset": 16232,
+    "encoding": "utf-16le",
+    "text": "6.1.7600.16385"
+  },
+  {
+    "file_offset": 16270,
+    "encoding": "utf-16le",
+    "text": "VarFileInfo"
+  },
+  {
+    "file_offset": 16302,
+    "encoding": "utf-16le",
+    "text": "Translation"
+  },
+  {
+    "file_offset": 16332,
+    "encoding": "ascii",
+    "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD"
+  }
+]

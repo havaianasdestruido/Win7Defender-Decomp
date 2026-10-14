@@ -1,0 +1,144 @@
+Collecting angr==9.2.213
+  Downloading angr-9.2.213-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.5/8.5 MB 35.1 MB/s eta 0:00:00
+Collecting cxxheaderparser
+  Downloading cxxheaderparser-2.2.0-py3-none-any.whl (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.4/67.4 kB 28.6 MB/s eta 0:00:00
+Collecting GitPython
+  Downloading gitpython-3.2.1-py3-none-any.whl (231 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 231.5/231.5 kB 77.4 MB/s eta 0:00:00
+Collecting archinfo==9.2.213
+  Downloading archinfo-9.2.213-py3-none-any.whl (49 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.9/49.9 kB 19.9 MB/s eta 0:00:00
+Collecting cachetools
+  Downloading cachetools-7.2.1-py3-none-any.whl (17 kB)
+Collecting capstone==5.0.6
+  Downloading capstone-5.0.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 127.2 MB/s eta 0:00:00
+Collecting cffi>=1.14.0
+  Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 217.8/217.8 kB 75.1 MB/s eta 0:00:00
+Collecting claripy==9.2.213
+  Downloading claripy-9.2.213-py3-none-any.whl (141 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 141.4/141.4 kB 50.8 MB/s eta 0:00:00
+Collecting cle==9.2.213
+  Downloading cle-9.2.213-py3-none-any.whl (223 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 223.4/223.4 kB 73.9 MB/s eta 0:00:00
+Collecting lmdb==2.1.1
+  Downloading lmdb-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (317 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.7/317.7 kB 89.5 MB/s eta 0:00:00
+Collecting msgspec
+  Downloading msgspec-0.22.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (225 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 225.3/225.3 kB 83.1 MB/s eta 0:00:00
+Collecting mulpyplexer
+  Downloading mulpyplexer-0.09.tar.gz (2.8 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting networkx!=2.8.1,>=2.0
+  Downloading networkx-3.6.1-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 113.5 MB/s eta 0:00:00
+Collecting protobuf>=6.33.0
+  Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 108.7 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.6/155.6 kB 65.4 MB/s eta 0:00:00
+Collecting pycparser~=3.0
+  Downloading pycparser-3.11-py3-none-any.whl (51 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 51.2/51.2 kB 17.5 MB/s eta 0:00:00
+Collecting pydemumble
+  Downloading pydemumble-0.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (226 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 226.2/226.2 kB 28.9 MB/s eta 0:00:00
+Collecting pypcode<4.0,>=3.2.1
+  Downloading pypcode-3.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (13.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.9/13.9 MB 41.2 MB/s eta 0:00:00
+Collecting pyvex==9.2.213
+  Downloading pyvex-9.2.213-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 128.4 MB/s eta 0:00:00
+Collecting rich>=13.1.0
+  Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.7/310.7 kB 91.4 MB/s eta 0:00:00
+Collecting sortedcontainers
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Collecting sympy
+  Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 148.8 MB/s eta 0:00:00
+Collecting typing-extensions
+  Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 19.5 MB/s eta 0:00:00
+Collecting z3-solver==4.13.0.0
+  Downloading z3_solver-4.13.0.0-py2.py3-none-manylinux2014_x86_64.whl (57.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.3/57.3 MB 46.2 MB/s eta 0:00:00
+Collecting arpy==1.1.1
+  Downloading arpy-1.1.1.tar.gz (6.8 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cart
+  Downloading cart-1.2.3-py2.py3-none-any.whl (10 kB)
+Collecting minidump>=0.0.10
+  Downloading minidump-0.0.24-py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.4/78.4 kB 33.1 MB/s eta 0:00:00
+Requirement already satisfied: pefile==2024.8.26 in ./analysis/tools/.venv/lib/python3.11/site-packages (from cle==9.2.213->angr==9.2.213) (2024.8.26)
+Collecting pyelftools>=0.29
+  Downloading pyelftools-0.33-py3-none-any.whl (201 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 201.2/201.2 kB 72.7 MB/s eta 0:00:00
+Collecting pyxbe~=1.0.3
+  Downloading pyxbe-1.0.3.tar.gz (17 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pyxdia~=0.1
+  Downloading pyxdia-0.1.0-py3-none-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 130.2 MB/s eta 0:00:00
+Collecting uefi-firmware>=1.10
+  Downloading uefi_firmware-1.16-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (362 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 362.2/362.2 kB 100.4 MB/s eta 0:00:00
+Collecting bitstring
+  Downloading bitstring-5.0.0-py3-none-any.whl (72 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.4/72.4 kB 31.0 MB/s eta 0:00:00
+Collecting markdown-it-py>=2.2.0
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.7/91.7 kB 37.8 MB/s eta 0:00:00
+Collecting pygments<3.0.0,>=2.13.0
+  Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 119.0 MB/s eta 0:00:00
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 31.2 MB/s eta 0:00:00
+Collecting mpmath<1.4,>=1.1.0
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 125.7 MB/s eta 0:00:00
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+Collecting mdurl~=0.1
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Collecting future
+  Downloading future-1.0.0-py3-none-any.whl (491 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 491.3/491.3 kB 119.0 MB/s eta 0:00:00
+Collecting tibs<3.0,>=2.0.2
+  Downloading tibs-2.0.2-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 131.3 MB/s eta 0:00:00
+Collecting pycryptodome
+  Downloading pycryptodome-4.0.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 112.6 MB/s eta 0:00:00
+Building wheels for collected packages: pyxbe
+  Building wheel for pyxbe (pyproject.toml): started
+  Building wheel for pyxbe (pyproject.toml): finished with status 'done'
+  Created wheel for pyxbe: filename=pyxbe-1.0.3-py3-none-any.whl size=17260 sha256=76874f9931b69f088cbba57b6429bcc36bd297ce6798127667fbdf4b8069e63f
+  Stored in directory: /home/user/.cache/pip/wheels/b7/bc/48/189e14a6584c9fc6fa9f9d4f78bc61fd1db27bfbff9b511914
+Successfully built pyxbe
+Installing collected packages: z3-solver, sortedcontainers, mulpyplexer, mpmath, lmdb, arpy, typing-extensions, tibs, sympy, smmap, pyxdia, pyxbe, pypcode, pygments, pyelftools, pydemumble, pycryptodome, pycparser, psutil, protobuf, networkx, msgspec, minidump, mdurl, future, cxxheaderparser, capstone, cachetools, archinfo, uefi-firmware, markdown-it-py, gitdb, claripy, cffi, cart, bitstring, rich, pyvex, GitPython, cle, angr
+  DEPRECATION: mulpyplexer is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for mulpyplexer: started
+  Running setup.py install for mulpyplexer: finished with status 'done'
+  DEPRECATION: arpy is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for arpy: started
+  Running setup.py install for arpy: finished with status 'done'
+  Attempting uninstall: capstone
+    Found existing installation: capstone 5.0.7
+    Uninstalling capstone-5.0.7:
+      Successfully uninstalled capstone-5.0.7
+Successfully installed GitPython-3.2.1 angr-9.2.213 archinfo-9.2.213 arpy-1.1.1 bitstring-5.0.0 cachetools-7.2.1 capstone-5.0.6 cart-1.2.3 cffi-2.1.1 claripy-9.2.213 cle-9.2.213 cxxheaderparser-2.2.0 future-1.0.0 gitdb-4.0.12 lmdb-2.1.1 markdown-it-py-4.2.0 mdurl-0.1.2 minidump-0.0.24 mpmath-1.3.0 msgspec-0.22.0 mulpyplexer-0.9 networkx-3.6.1 protobuf-7.36.2 psutil-7.2.2 pycparser-3.11 pycryptodome-4.0.0 pydemumble-0.1.1 pyelftools-0.33 pygments-2.21.0 pypcode-3.3.3 pyvex-9.2.213 pyxbe-1.0.3 pyxdia-0.1.0 rich-15.0.0 smmap-5.0.3 sortedcontainers-2.4.0 sympy-1.14.0 tibs-2.0.2 typing-extensions-4.16.0 uefi-firmware-1.16 z3-solver-4.13.0.0

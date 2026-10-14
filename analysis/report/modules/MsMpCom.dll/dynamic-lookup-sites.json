@@ -1,0 +1,38 @@
+[
+  {
+    "function_start_va": 8792485017068,
+    "call_instruction_va": 8792485017081,
+    "api": "LoadLibraryW",
+    "literal_argument": "advapi32",
+    "definition": {
+      "instruction_va": 8792485017074,
+      "literal_va": 8792485008656,
+      "bytes": "488d0d17dfffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792485017068,
+    "call_instruction_va": 8792485017105,
+    "api": "GetProcAddress",
+    "literal_argument": "TraceMessage",
+    "definition": {
+      "instruction_va": 8792485017095,
+      "literal_va": 8792485008680,
+      "bytes": "488d151adfffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  },
+  {
+    "function_start_va": 8792485017068,
+    "call_instruction_va": 8792485017179,
+    "api": "GetProcAddress",
+    "literal_argument": "TraceMessageVa",
+    "definition": {
+      "instruction_va": 8792485017159,
+      "literal_va": 8792485008696,
+      "bytes": "488d15eadeffff"
+    },
+    "scope": "same linear instruction window, no intervening branch/call/register overwrite; external entry into that window not excluded"
+  }
+]

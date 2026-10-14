@@ -1,0 +1,8 @@
+{
+  "input_sha256": "c9c0337c6758cc8fe1b13130c1fcc730483e23728579f2d2095f3c9f303ac885",
+  "image_base": 6442450944,
+  "imports": [],
+  "exports": [],
+  "calling_convention": "Microsoft x64 ABI; individual signatures not encoded by PE import/export tables",
+  "types": "Unknown unless supported by separately reviewed disassembly; do not infer from undecorated names."
+}
