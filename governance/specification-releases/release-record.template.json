@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "policy": "CRP-001",
+  "format_standard": "ESF-001",
+  "record_id": "REL-REPLACE-ME",
+  "status": "proposed",
+  "exported_date": null,
+  "coordinator": {
+    "id": "replace-with-registered-transfer-coordinator"
+  },
+  "recipient": {
+    "id": "replace-with-registered-clean-implementer"
+  },
+  "specifications": [],
+  "included_files": [],
+  "manifest_sha256": null,
+  "archive_name": null,
+  "archive_sha256": null,
+  "delivery": {
+    "status": "pending",
+    "date": null,
+    "channel_record": null
+  }
+}

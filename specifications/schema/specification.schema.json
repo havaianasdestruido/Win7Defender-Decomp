@@ -141,11 +141,11 @@
     "release": {
       "type": ["object", "null"],
       "additionalProperties": false,
-      "required": ["released_date", "transfer_coordinator", "package_manifest_sha256"],
+      "required": ["released_date", "transfer_coordinator", "release_record_id"],
       "properties": {
         "released_date": {"type": "string", "format": "date"},
         "transfer_coordinator": {"$ref": "#/$defs/identity"},
-        "package_manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        "release_record_id": {"type": "string", "pattern": "^REL-[A-Z0-9][A-Z0-9-]*$"}
       }
     }
   },

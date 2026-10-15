@@ -86,8 +86,11 @@ why they are not leaked implementation expression.
 4. **Scope approval:** the sponsor confirms that the specification fits the
    authorization record.
 5. **Release:** status changes to `released`; the exact file is moved under
-   `specifications/released/`; a clean exporter packages only released specs,
-   schema, transfer instructions, and a digest manifest.
+   `specifications/released/`; its release metadata names a planned `REL-*`
+   record and registered transfer coordinator. The clean exporter packages only
+   released specs, schema, transfer instructions, and a digest manifest, then
+   writes the non-circular archive/manifest hashes to that analyst-side release
+   record.
 6. **Revision:** questions or validation failures return to Team A. A new
    integer revision supersedes the old one and repeats every approval. Released
    files are retained; they are not edited in place without a recorded revision.
