@@ -22,9 +22,22 @@ All custom tooling lives here. Run from the repository root; scripts derive the 
 | `static_calls.py` | Independent Capstone decode within original `.pdata` ranges | `static-calls.json.gz`, `disassembly-coverage.json`, `dynamic-lookup-sites.json` per module | No reachability proof; no arbitrary computed targets; API string arguments traced only through a bounded branch-free local window |
 | `make_reports.py` | Consolidate saved inventory, coverage and resource facts | required module/API/dependency/progress reports, DOT/JSON graph, COM metadata declarations | Does not rerun analysis; run after worker completion to avoid stale counts |
 | `validate_artifacts.py` | Rehash inputs, compare Git objects, independent PE/REA/objdump checks, resources, imports and ledgers | `artifact-validation.json`; normalizes emitted pseudocode line anchors | Checks consistency/provenance, not semantic equivalence or cryptographic publisher trust |
+| `validate_governance.py [--base-ref REF] [--no-receipt]` | Check authorization, file-by-file provenance, team separation, behavior-note revisions, specification references/releases and implementation dependency boundaries | `governance-validation.json` unless suppressed; nonzero exit on failure | Mechanical policy checks supplement human/legal review; optional base-ref mode enforces a new BCR for changed notes |
+| `export_specifications.py --release-id REL-ID --recipient ID --coordinator ID --output FILE.zip` | Package only approved released specs/schema for a registered clean implementer | Deterministic ZIP plus analyst-side release record with exact hashes | Refuses empty/unapproved releases, unknown identities, module assignment mismatches and reused release IDs |
 | `validate_behavior.py --library PATH` | Compare compiled portable resolver with bounded original-instruction emulation | `behavior-validation.json` and stdout summary | WPP disabled; LoadStringW stubbed; no Windows loader/service/MUI behavior; 21,180 resolver cases plus six accessor/constant-return cases |
 | `header_smoke.c` | C11 syntax/static-width checks for reconstructed declarations | use `cc -std=c11 -Wall -Wextra -Werror -fsyntax-only analysis/tools/header_smoke.c` | Compile-time layout/constants only; not DLL compatibility |
 | `finalize_reports.py` | Summarize completed evidence/build/test receipts | validation and final report | Reports partial work explicitly; cannot substitute for missing runs |
+
+Governance validation has no third-party Python dependency:
+
+```sh
+python3 analysis/tools/validate_governance.py
+# In a pull request, also compare note revisions with the base commit:
+python3 analysis/tools/validate_governance.py --base-ref origin/main --no-receipt
+```
+
+Specification export intentionally fails until released specifications, a Team B
+recipient, and a transfer coordinator are all registered.
 
 Example module command:
 

@@ -1,0 +1,41 @@
+name: Phase 0 governance
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - "arena/**"
+
+permissions:
+  contents: read
+
+jobs:
+  governance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out complete history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate governance, provenance, specifications, and boundaries
+        run: python3 analysis/tools/validate_governance.py --no-receipt
+
+      - name: Enforce behavior-note revision control in pull requests
+        if: github.event_name == 'pull_request'
+        run: >-
+          python3 analysis/tools/validate_governance.py
+          --base-ref "${{ github.event.pull_request.base.sha }}"
+          --no-receipt
+
+      - name: Compile the analysis model without recovered source
+        run: >-
+          cc -std=c11 -Wall -Wextra -Werror -Wpedantic -fPIC -shared
+          analysis/models/MpAsDesc.dll/compatibility.c
+          -o /tmp/libmpasdesc_model.so
+
+      - name: Syntax-check recovered declarations
+        run: >-
+          cc -std=c11 -Wall -Wextra -Werror
+          -fsyntax-only analysis/tools/header_smoke.c
