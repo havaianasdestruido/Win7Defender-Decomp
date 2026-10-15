@@ -17,6 +17,7 @@ GOVERNANCE = ROOT / "governance"
 SPECIFICATIONS = ROOT / "specifications"
 IMPLEMENTATION = ROOT / "implementation"
 REPORT = ROOT / "analysis" / "report" / "governance-validation.json"
+APPROVED_INPUT_COMMIT = "9638320b682dfbed9eb0455750d78fac384b6598"
 
 REQUIRED_SPEC_KEYS = {
     "schema_version",
@@ -296,10 +297,16 @@ def main() -> int:
         blob = git("hash-object", label).stdout.decode().strip()
         check(f"{label} Git blob identity", blob == hashes.get("git_blob_sha1"))
         first = entry.get("first_repository_record", {})
-        original_spec = f"{first.get('commit')}:{first.get('path')}"
+        approved_path = label.removeprefix("bin/")
+        check(
+            f"{label} provenance points to approved baseline",
+            first.get("commit") == APPROVED_INPUT_COMMIT
+            and first.get("path") == approved_path,
+        )
+        original_spec = f"{APPROVED_INPUT_COMMIT}:{approved_path}"
         original = git("show", original_spec, check=False)
         check(
-            f"{label} equals first repository object",
+            f"{label} equals approved baseline object",
             original.returncode == 0 and original.stdout == path.read_bytes(),
         )
         check(
@@ -344,34 +351,49 @@ def main() -> int:
 
     ledger = load_json(GOVERNANCE / "behavior-notes.json")
     note_entries = ledger.get("notes", [])
-    note_paths = {entry.get("path") for entry in note_entries}
+    note_ids = {entry.get("note_id") for entry in note_entries}
+    active_note_paths = {
+        entry.get("path") for entry in note_entries if entry.get("status") != "withdrawn"
+    }
     actual_notes = {
         str(path.relative_to(ROOT)) for path in (ROOT / "src").glob("*/reviewed-behavior.md")
     }
     check(
-        "behavior registry covers every manual behavior note",
-        note_paths == actual_notes and len(note_entries) == len(note_paths),
-        {"registered": len(note_paths), "actual": len(actual_notes)},
+        "behavior registry note IDs are unique",
+        None not in note_ids and len(note_entries) == len(note_ids),
+    )
+    check(
+        "behavior registry covers every active manual behavior note",
+        active_note_paths == actual_notes and len(active_note_paths) == len(actual_notes),
+        {"registered_active": len(active_note_paths), "actual": len(actual_notes)},
     )
     provenance_by_name = {Path(entry["path"]).name: entry for entry in recorded}
     for entry in note_entries:
         label = str(entry.get("path"))
         path = ROOT / label
-        check(f"{label} registered file exists", path.is_file())
-        if not path.is_file():
-            continue
+        withdrawn = entry.get("status") == "withdrawn"
         check(
-            f"{label} registered content hash",
-            digest(path, "sha256") == entry.get("content_sha256"),
+            f"{label} file presence agrees with registry status",
+            not path.exists() if withdrawn else path.is_file(),
         )
-        match = CONTROL_RE.search(path.read_text(encoding="utf-8")[:1000])
-        check(
-            f"{label} visible control metadata",
-            bool(match)
-            and match.group("id") == entry.get("note_id")
-            and int(match.group("revision")) == entry.get("revision")
-            and match.group("status") == entry.get("status"),
-        )
+        if path.is_file():
+            check(
+                f"{label} registered content hash",
+                digest(path, "sha256") == entry.get("content_sha256"),
+            )
+            match = CONTROL_RE.search(path.read_text(encoding="utf-8")[:1000])
+            check(
+                f"{label} visible control metadata",
+                bool(match)
+                and match.group("id") == entry.get("note_id")
+                and int(match.group("revision")) == entry.get("revision")
+                and match.group("status") == entry.get("status"),
+            )
+        else:
+            check(
+                f"{label} withdrawn content hash retained",
+                withdrawn and bool(HEX64_RE.fullmatch(str(entry.get("content_sha256", "")))),
+            )
         module = provenance_by_name.get(str(entry.get("module")))
         check(
             f"{label} module identity",
@@ -611,30 +633,115 @@ def main() -> int:
         )
         if changed_result.returncode == 0:
             changed = set(changed_result.stdout.decode().splitlines())
-            base_ledger_result = git("show", f"{args.base_ref}:governance/behavior-notes.json", check=False)
+
+            input_changes = git(
+                "diff", "--name-only", f"{args.base_ref}...HEAD", "--", "bin", check=False
+            )
+            changed_inputs = input_changes.stdout.decode().splitlines()
+            check(
+                "approved input tree is unchanged from pull-request base",
+                input_changes.returncode == 0 and not changed_inputs,
+                changed_inputs,
+            )
+
+            base_ledger_result = git(
+                "show", f"{args.base_ref}:governance/behavior-notes.json", check=False
+            )
             base_notes: dict[str, dict[str, Any]] = {}
             if base_ledger_result.returncode == 0:
                 base_notes = {
                     entry["note_id"]: entry
                     for entry in json.loads(base_ledger_result.stdout).get("notes", [])
                 }
-            for entry in note_entries:
-                if entry["path"] not in changed:
+            current_notes = {entry["note_id"]: entry for entry in note_entries}
+            for note_id, old in base_notes.items():
+                current = current_notes.get(note_id)
+                check(f"behavior ledger retains {note_id}", current is not None)
+                if current is None:
                     continue
-                old = base_notes.get(entry["note_id"])
-                bcr_label = f"governance/behavior-changes/{entry['latest_change_request']}.json"
-                check(
-                    f"{entry['path']} changes with registry and BCR",
-                    "governance/behavior-notes.json" in changed and bcr_label in changed,
+                old_path = str(old.get("path"))
+                current_path = str(current.get("path"))
+                note_changed = (
+                    old != current or old_path in changed or current_path in changed
+                )
+                if old_path in changed and not (ROOT / old_path).exists():
+                    check(
+                        f"deleted behavior note {note_id} is marked withdrawn",
+                        current.get("status") == "withdrawn",
+                    )
+                if not note_changed:
+                    continue
+                bcr_label = (
+                    "governance/behavior-changes/"
+                    f"{current.get('latest_change_request')}.json"
                 )
                 check(
-                    f"{entry['path']} increments controlled revision",
-                    old is None
-                    or (
-                        entry["revision"] > old.get("revision", 0)
-                        and entry["latest_change_request"] != old.get("latest_change_request")
-                    ),
+                    f"{note_id} changes with registry and a new BCR",
+                    "governance/behavior-notes.json" in changed
+                    and bcr_label in changed,
                 )
+                check(
+                    f"{note_id} increments controlled revision",
+                    current.get("revision", 0) > old.get("revision", 0)
+                    and current.get("latest_change_request")
+                    != old.get("latest_change_request"),
+                )
+            for note_id, current in current_notes.items():
+                if note_id in base_notes:
+                    continue
+                bcr_label = (
+                    "governance/behavior-changes/"
+                    f"{current.get('latest_change_request')}.json"
+                )
+                check(
+                    f"new behavior note {note_id} has registry and BCR changes",
+                    "governance/behavior-notes.json" in changed
+                    and bcr_label in changed
+                    and current.get("path") in changed,
+                )
+
+            base_release_paths_result = git(
+                "ls-tree",
+                "-r",
+                "--name-only",
+                args.base_ref,
+                "--",
+                "specifications/released",
+                "governance/specification-releases",
+                check=False,
+            )
+            check(
+                f"release history at {args.base_ref} can be inspected",
+                base_release_paths_result.returncode == 0,
+            )
+            if base_release_paths_result.returncode == 0:
+                base_release_paths = base_release_paths_result.stdout.decode().splitlines()
+                historical_specs = [
+                    label
+                    for label in base_release_paths
+                    if label.startswith("specifications/released/")
+                    and label.endswith(".json")
+                ]
+                historical_records = [
+                    label
+                    for label in base_release_paths
+                    if label.startswith("governance/specification-releases/REL-")
+                    and label.endswith(".json")
+                ]
+                for label in historical_specs:
+                    current_path = ROOT / label
+                    old_data = git("show", f"{args.base_ref}:{label}", check=False)
+                    check(
+                        f"released specification is retained byte-identically: {label}",
+                        current_path.is_file()
+                        and old_data.returncode == 0
+                        and current_path.read_bytes() == old_data.stdout,
+                    )
+                for label in historical_records:
+                    check(
+                        f"specification release record is retained: {label}",
+                        (ROOT / label).is_file(),
+                    )
 
     receipt = {
         "result": "pass" if not failures else "fail",
