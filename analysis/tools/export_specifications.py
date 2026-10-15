@@ -12,7 +12,11 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from validate_governance import json_schema_errors, release_expression_violations
+from validate_governance import (
+    json_schema_errors,
+    release_approval_errors,
+    release_expression_violations,
+)
 
 ROOT = Path(__file__).resolve().parents[2]
 SPECS = ROOT / "specifications"
@@ -105,13 +109,6 @@ def main() -> int:
 
     specs: list[tuple[Path, dict[str, Any], bytes]] = []
     author_ids = {item.get("id") for item in team.get("analysis_team", [])}
-    implementation_ids = {
-        item.get("id") for item in team.get("clean_implementation_team", [])
-    }
-    specification_reviewers = {
-        item.get("id"): item for item in team.get("specification_reviewers", [])
-    }
-    sponsor_id = team.get("sponsor", {}).get("id")
     schema_path = SPECS / "schema" / "specification.schema.json"
     specification_schema = load(schema_path)
     for path, spec in release_specs:
@@ -130,39 +127,9 @@ def main() -> int:
         authors = {item.get("id") for item in spec.get("authors", [])}
         if not authors or not authors <= author_ids:
             fail(f"{path.name} has an unregistered Team A author")
-        approvals = spec.get("approvals", {})
-        if not all(approvals.get(kind) for kind in ("technical", "expression", "scope")):
-            fail(f"{path.name} lacks release approvals")
-        technical_ids = {
-            item.get("reviewer", {}).get("id") for item in approvals["technical"]
-        }
-        expression_ids = {
-            item.get("reviewer", {}).get("id") for item in approvals["expression"]
-        }
-        scope_ids = {
-            item.get("reviewer", {}).get("id") for item in approvals["scope"]
-        }
-        reviewers = technical_ids | expression_ids
-        if reviewers & (authors | implementation_ids):
-            fail(f"{path.name} reviewers are not independent from authors and Team B")
-        if not technical_ids or not all(
-            reviewer_id in specification_reviewers
-            and "technical" in specification_reviewers[reviewer_id].get("review_kinds", [])
-            and assigned(specification_reviewers[reviewer_id], str(module))
-            for reviewer_id in technical_ids
-        ):
-            fail(f"{path.name} has an unregistered or unassigned technical reviewer")
-        if not expression_ids or not all(
-            reviewer_id in specification_reviewers
-            and "expression" in specification_reviewers[reviewer_id].get("review_kinds", [])
-            and assigned(specification_reviewers[reviewer_id], str(module))
-            for reviewer_id in expression_ids
-        ):
-            fail(f"{path.name} has an unregistered or unassigned expression reviewer")
-        if not technical_ids.isdisjoint(expression_ids):
-            fail(f"{path.name} reuses a reviewer across technical and expression approval")
-        if scope_ids != {sponsor_id}:
-            fail(f"{path.name} scope approval is not from the registered sponsor")
+        approval_errors = release_approval_errors(spec, team)
+        if approval_errors:
+            fail(f"{path.name} has invalid release approvals: {approval_errors[0]}")
         data = path.read_bytes()
         specs.append((path, spec, data))
 

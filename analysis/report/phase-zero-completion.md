@@ -18,12 +18,13 @@ passes. No strict clean-team implementation has begun.
 
 ## Mechanical verification
 
-`python3 analysis/tools/validate_governance.py` records **198 passing checks and
+`python3 analysis/tools/validate_governance.py` records **219 passing checks and
 zero failures** in `governance-validation.json`. The pull-request comparison
-mode adds controls that changed manual notes carry a changed registry, a new BCR,
-and an increased revision. The GitHub workflow runs both governance modes where
-applicable and compiles the isolated analysis model and recovered declaration
-smoke test.
+mode records **226 passing checks** and additionally blocks input-tree changes,
+behavior-ledger erasure, and deletion or in-place modification of released audit
+artifacts. The GitHub workflow runs both governance modes where applicable,
+runs the focused regression suite, and compiles the isolated analysis model and
+recovered declaration smoke test.
 
 Checks include all current input hashes and first Git objects, exact input and
 behavior-note path sets, authorization references, role separation, note

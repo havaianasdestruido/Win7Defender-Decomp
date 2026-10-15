@@ -236,6 +236,63 @@ def release_expression_violations(value: Any, path: str = "$") -> list[str]:
     return violations
 
 
+def implementation_reference_violations(data: bytes) -> list[str]:
+    text = data.decode("utf-8", errors="replace")
+    return [
+        reason
+        for pattern, reason in FORBIDDEN_IMPLEMENTATION_PATTERNS.items()
+        if pattern.search(text)
+    ]
+
+
+def release_approval_errors(spec: dict[str, Any], team: dict[str, Any]) -> list[str]:
+    """Validate role, assignment, and independence for all release approvals."""
+    errors: list[str] = []
+    module = str(spec.get("module"))
+    authors = {item.get("id") for item in spec.get("authors", [])}
+    analysis_ids = {item.get("id") for item in team.get("analysis_team", [])}
+    implementation_ids = {
+        item.get("id") for item in team.get("clean_implementation_team", [])
+    }
+    reviewer_map = {
+        item.get("id"): item for item in team.get("specification_reviewers", [])
+    }
+    approvals = spec.get("approvals", {})
+    technical = approvals.get("technical", [])
+    expression = approvals.get("expression", [])
+    scope = approvals.get("scope", [])
+    if not technical or not expression or not scope:
+        errors.append("technical, expression, and scope approvals are all required")
+    technical_ids = {item.get("reviewer", {}).get("id") for item in technical}
+    expression_ids = {item.get("reviewer", {}).get("id") for item in expression}
+    scope_ids = {item.get("reviewer", {}).get("id") for item in scope}
+    reviewers = technical_ids | expression_ids
+    if not reviewers.isdisjoint(authors | implementation_ids):
+        errors.append("technical/expression reviewers must differ from authors and Team B")
+    if not technical_ids or not all(
+        reviewer_id in reviewer_map
+        and reviewer_id in analysis_ids
+        and "technical" in reviewer_map[reviewer_id].get("review_kinds", [])
+        and assigned_to_module(reviewer_map[reviewer_id], module)
+        for reviewer_id in technical_ids
+    ):
+        errors.append("technical reviewers must be registered and assigned for the module")
+    if not expression_ids or not all(
+        reviewer_id in reviewer_map
+        and reviewer_id in analysis_ids
+        and "expression" in reviewer_map[reviewer_id].get("review_kinds", [])
+        and assigned_to_module(reviewer_map[reviewer_id], module)
+        for reviewer_id in expression_ids
+    ):
+        errors.append("expression reviewers must be registered and assigned for the module")
+    if not technical_ids.isdisjoint(expression_ids):
+        errors.append("technical and expression reviewers must be different identities")
+    sponsor_id = team.get("sponsor", {}).get("id")
+    if not sponsor_id or scope_ids != {sponsor_id}:
+        errors.append("scope approval must come from the registered sponsor")
+    return errors
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -354,7 +411,6 @@ def main() -> int:
         member.get("id"): member for member in team.get("specification_reviewers", [])
     }
     transfer_ids = {member.get("id") for member in team.get("transfer_coordinators", [])}
-    sponsor_id = team.get("sponsor", {}).get("id")
     check("Team A identities are unique", len(analysis_ids) == len(team.get("analysis_team", [])))
     check(
         "Team A and Team B identities do not overlap",
@@ -517,54 +573,11 @@ def main() -> int:
             bool(author_ids) and author_ids <= analysis_ids,
         )
         if spec.get("status") == "released":
-            approvals = spec.get("approvals", {})
-            tech = approvals.get("technical", [])
-            expression = approvals.get("expression", [])
-            scope = approvals.get("scope", [])
-            technical_ids = {
-                approval.get("reviewer", {}).get("id") for approval in tech
-            }
-            expression_ids = {
-                approval.get("reviewer", {}).get("id") for approval in expression
-            }
-            scope_ids = {
-                approval.get("reviewer", {}).get("id") for approval in scope
-            }
-            reviewers = technical_ids | expression_ids
-            check(f"{relative} release approvals complete", bool(tech and expression and scope))
+            approval_errors = release_approval_errors(spec, team)
             check(
-                f"{relative} release reviewers differ from authors and Team B",
-                bool(reviewers)
-                and reviewers.isdisjoint(author_ids)
-                and reviewers.isdisjoint(implementation_ids),
-            )
-            check(
-                f"{relative} technical reviewers are registered and assigned",
-                bool(technical_ids)
-                and all(
-                    reviewer_id in specification_reviewers
-                    and "technical" in specification_reviewers[reviewer_id].get("review_kinds", [])
-                    and assigned_to_module(specification_reviewers[reviewer_id], str(spec.get("module")))
-                    for reviewer_id in technical_ids
-                ),
-            )
-            check(
-                f"{relative} expression reviewers are registered and assigned",
-                bool(expression_ids)
-                and all(
-                    reviewer_id in specification_reviewers
-                    and "expression" in specification_reviewers[reviewer_id].get("review_kinds", [])
-                    and assigned_to_module(specification_reviewers[reviewer_id], str(spec.get("module")))
-                    for reviewer_id in expression_ids
-                ),
-            )
-            check(
-                f"{relative} technical and expression reviews are independent",
-                technical_ids.isdisjoint(expression_ids),
-            )
-            check(
-                f"{relative} scope approval is from the sponsor",
-                scope_ids == {sponsor_id},
+                f"{relative} release approvers are registered, assigned, and independent",
+                not approval_errors,
+                approval_errors,
             )
             leaked = release_expression_violations(spec)
             check(
@@ -643,12 +656,7 @@ def main() -> int:
             f"{relative} is not a committed executable/object payload",
             not (data.startswith(b"MZ") or data.startswith(b"\x7fELF")),
         )
-        text = data.decode("utf-8", errors="replace")
-        bad = [
-            reason
-            for pattern, reason in FORBIDDEN_IMPLEMENTATION_PATTERNS.items()
-            if pattern.search(text)
-        ]
+        bad = implementation_reference_violations(data)
         check(f"{relative} has no forbidden implementation dependency", not bad, bad)
 
     if args.base_ref:

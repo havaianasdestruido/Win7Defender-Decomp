@@ -19,10 +19,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Run governance regression tests
+        run: python3 analysis/tools/test_governance.py
+
       - name: Validate governance, provenance, specifications, and boundaries
         run: python3 analysis/tools/validate_governance.py --no-receipt
 
-      - name: Enforce behavior-note revision control in pull requests
+      - name: Enforce immutable baselines and audit history in pull requests
         if: github.event_name == 'pull_request'
         run: >-
           python3 analysis/tools/validate_governance.py

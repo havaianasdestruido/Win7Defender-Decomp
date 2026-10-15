@@ -6,7 +6,7 @@
     "specification": "ESF-001",
     "behavior_change": "BCC-001"
   },
-  "check_count": 198,
+  "check_count": 219,
   "failed": [],
   "checks": [
     {
@@ -102,7 +102,11 @@
       "pass": true
     },
     {
-      "check": "bin/LICENSE equals first repository object",
+      "check": "bin/LICENSE provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/LICENSE equals approved baseline object",
       "pass": true
     },
     {
@@ -134,7 +138,11 @@
       "pass": true
     },
     {
-      "check": "bin/MSASCui.exe equals first repository object",
+      "check": "bin/MSASCui.exe provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MSASCui.exe equals approved baseline object",
       "pass": true
     },
     {
@@ -166,7 +174,11 @@
       "pass": true
     },
     {
-      "check": "bin/MpAsDesc.dll equals first repository object",
+      "check": "bin/MpAsDesc.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MpAsDesc.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -198,7 +210,11 @@
       "pass": true
     },
     {
-      "check": "bin/MpClient.dll equals first repository object",
+      "check": "bin/MpClient.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MpClient.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -230,7 +246,11 @@
       "pass": true
     },
     {
-      "check": "bin/MpCmdRun.exe equals first repository object",
+      "check": "bin/MpCmdRun.exe provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCmdRun.exe equals approved baseline object",
       "pass": true
     },
     {
@@ -262,7 +282,11 @@
       "pass": true
     },
     {
-      "check": "bin/MpCommu.dll equals first repository object",
+      "check": "bin/MpCommu.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCommu.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -294,7 +318,11 @@
       "pass": true
     },
     {
-      "check": "bin/MpEvMsg.dll equals first repository object",
+      "check": "bin/MpEvMsg.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MpEvMsg.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -326,7 +354,11 @@
       "pass": true
     },
     {
-      "check": "bin/MpOAV.dll equals first repository object",
+      "check": "bin/MpOAV.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MpOAV.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -358,7 +390,11 @@
       "pass": true
     },
     {
-      "check": "bin/MpRTP.dll equals first repository object",
+      "check": "bin/MpRTP.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MpRTP.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -390,7 +426,11 @@
       "pass": true
     },
     {
-      "check": "bin/MpSvc.dll equals first repository object",
+      "check": "bin/MpSvc.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MpSvc.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -422,7 +462,11 @@
       "pass": true
     },
     {
-      "check": "bin/MsMpCom.dll equals first repository object",
+      "check": "bin/MsMpCom.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpCom.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -454,7 +498,11 @@
       "pass": true
     },
     {
-      "check": "bin/MsMpLics.dll equals first repository object",
+      "check": "bin/MsMpLics.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpLics.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -486,7 +534,11 @@
       "pass": true
     },
     {
-      "check": "bin/MsMpRes.dll equals first repository object",
+      "check": "bin/MsMpRes.dll provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpRes.dll equals approved baseline object",
       "pass": true
     },
     {
@@ -518,7 +570,11 @@
       "pass": true
     },
     {
-      "check": "bin/README.md equals first repository object",
+      "check": "bin/README.md provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/README.md equals approved baseline object",
       "pass": true
     },
     {
@@ -550,7 +606,11 @@
       "pass": true
     },
     {
-      "check": "bin/pt-BR/MpAsDesc.dll.mui equals first repository object",
+      "check": "bin/pt-BR/MpAsDesc.dll.mui provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpAsDesc.dll.mui equals approved baseline object",
       "pass": true
     },
     {
@@ -582,7 +642,11 @@
       "pass": true
     },
     {
-      "check": "bin/pt-BR/MpEvMsg.dll.mui equals first repository object",
+      "check": "bin/pt-BR/MpEvMsg.dll.mui provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpEvMsg.dll.mui equals approved baseline object",
       "pass": true
     },
     {
@@ -614,7 +678,11 @@
       "pass": true
     },
     {
-      "check": "bin/pt-BR/MsMpRes.dll.mui equals first repository object",
+      "check": "bin/pt-BR/MsMpRes.dll.mui provenance points to approved baseline",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MsMpRes.dll.mui equals approved baseline object",
       "pass": true
     },
     {
@@ -635,19 +703,27 @@
       "detail": []
     },
     {
+      "check": "specification reviewers are registered Team A and never Team B",
+      "pass": true
+    },
+    {
       "check": "team register references active authorization",
       "pass": true
     },
     {
-      "check": "behavior registry covers every manual behavior note",
+      "check": "behavior registry note IDs are unique",
+      "pass": true
+    },
+    {
+      "check": "behavior registry covers every active manual behavior note",
       "pass": true,
       "detail": {
-        "registered": 4,
+        "registered_active": 4,
         "actual": 4
       }
     },
     {
-      "check": "src/MpAsDesc.dll/reviewed-behavior.md registered file exists",
+      "check": "src/MpAsDesc.dll/reviewed-behavior.md file presence agrees with registry status",
       "pass": true
     },
     {
@@ -671,7 +747,7 @@
       "pass": true
     },
     {
-      "check": "src/MpOAV.dll/reviewed-behavior.md registered file exists",
+      "check": "src/MpOAV.dll/reviewed-behavior.md file presence agrees with registry status",
       "pass": true
     },
     {
@@ -695,7 +771,7 @@
       "pass": true
     },
     {
-      "check": "src/MsMpCom.dll/reviewed-behavior.md registered file exists",
+      "check": "src/MsMpCom.dll/reviewed-behavior.md file presence agrees with registry status",
       "pass": true
     },
     {
@@ -719,7 +795,7 @@
       "pass": true
     },
     {
-      "check": "src/MsMpRes.dll/reviewed-behavior.md registered file exists",
+      "check": "src/MsMpRes.dll/reviewed-behavior.md file presence agrees with registry status",
       "pass": true
     },
     {
@@ -741,6 +817,11 @@
     {
       "check": "src/MsMpRes.dll/reviewed-behavior.md latest BCR matches revision and hash",
       "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json conforms to specification.schema.json",
+      "pass": true,
+      "detail": []
     },
     {
       "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json has ESF-001 top-level fields",
@@ -814,6 +895,11 @@
     {
       "check": "implementation/README.md is not a committed executable/object payload",
       "pass": true
+    },
+    {
+      "check": "implementation/README.md has no forbidden implementation dependency",
+      "pass": true,
+      "detail": []
     }
   ]
 }
