@@ -52,6 +52,21 @@ def fail(message: str) -> None:
     raise SystemExit(f"error: {message}")
 
 
+def specifications_for_release(
+    paths: list[Path], release_id: str
+) -> list[tuple[Path, dict[str, Any]]]:
+    """Select one immutable release batch while leaving older batches untouched."""
+    selected: list[tuple[Path, dict[str, Any]]] = []
+    for path in paths:
+        spec = load(path)
+        if spec.get("status") != "released":
+            fail(f"{path.name} is under released/ but status is not released")
+        release = spec.get("release") or {}
+        if release.get("release_record_id") == release_id:
+            selected.append((path, spec))
+    return selected
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--release-id", required=True, help="REL-* identifier referenced by every spec")
@@ -65,9 +80,10 @@ def main() -> int:
     if args.output.suffix.lower() != ".zip":
         fail("--output must end in .zip")
 
-    release_specs = sorted((SPECS / "released").glob("*.json"))
+    released_paths = sorted((SPECS / "released").glob("*.json"))
+    release_specs = specifications_for_release(released_paths, args.release_id)
     if not release_specs:
-        fail("no released specifications are available")
+        fail(f"no released specifications reference {args.release_id}")
 
     team = load(GOVERNANCE / "team-register.json")
     recipient = next(
@@ -98,17 +114,12 @@ def main() -> int:
     sponsor_id = team.get("sponsor", {}).get("id")
     schema_path = SPECS / "schema" / "specification.schema.json"
     specification_schema = load(schema_path)
-    for path in release_specs:
-        spec = load(path)
+    for path, spec in release_specs:
         schema_errors = json_schema_errors(spec, specification_schema)
         if schema_errors:
             fail(f"{path.name} violates specification.schema.json: {schema_errors[0]}")
         module = spec.get("module")
-        if spec.get("status") != "released":
-            fail(f"{path.name} is under released/ but status is not released")
         release = spec.get("release") or {}
-        if release.get("release_record_id") != args.release_id:
-            fail(f"{path.name} does not reference {args.release_id}")
         if release.get("transfer_coordinator", {}).get("id") != args.coordinator:
             fail(f"{path.name} names another transfer coordinator")
         if not assigned(recipient, str(module)):
