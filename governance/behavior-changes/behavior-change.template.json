@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "policy": "BCC-001",
+  "bcr_id": "BCR-REPLACE-ME",
+  "status": "proposed",
+  "note_id": "NOTE-REPLACE-ME",
+  "module": "ReplaceWithModuleName",
+  "module_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "old_revision": 1,
+  "new_revision": 2,
+  "old_content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "new_content_sha256": null,
+  "normative_change": false,
+  "reason": "Explain why this change is necessary.",
+  "behavior_summary": "Describe the behavior-level change without copied implementation expression.",
+  "restricted_evidence_ids": [],
+  "confidence_or_unknowns_changed": [],
+  "affected_specification_requirements": [],
+  "author": {
+    "id": "replace-with-team-a-identity",
+    "date": null
+  },
+  "technical_review": {
+    "reviewer": null,
+    "decision": "pending",
+    "date": null,
+    "statement": null
+  },
+  "expression_review": {
+    "reviewer": null,
+    "decision": "pending",
+    "date": null,
+    "statement": null
+  },
+  "disposition": null
+}
