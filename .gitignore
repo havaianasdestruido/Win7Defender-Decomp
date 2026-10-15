@@ -8,3 +8,6 @@ analysis/report/work/
 
 # Analysis-model build products (not clean implementation)
 analysis/models/**/build/
+
+# Imported clean-team build products
+implementation/**/build/
