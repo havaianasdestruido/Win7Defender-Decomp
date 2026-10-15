@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "record_id": "AUTH-2026-10-15-001",
+  "status": "active",
+  "approved_date": "2026-10-15",
+  "approved_timezone": "America/Sao_Paulo",
+  "approved_time": null,
+  "approver": {
+    "id": "github:havaianasdestruido",
+    "display_name": "PatoFlamejanteTV",
+    "role": "repository owner and project sponsor",
+    "identity_basis": "authenticated GitHub identity associated with the interactive Arena repository session"
+  },
+  "attestation": "I authorize this project to analyze and test the supplied files, produce a clean-room implementation, and redistribute that implementation, subject to applicable law; I attest I am authorized to approve this project work.",
+  "approval_context": {
+    "repository": "havaianasdestruido/Win7Defender-Decomp",
+    "branch": "arena/4e15e46d-win7defender-decomp",
+    "medium": "interactive Arena Phase 0 authorization gate"
+  },
+  "authorized_activities": [
+    "preserve and hash supplied inputs",
+    "read-only static analysis",
+    "controlled isolated dynamic testing",
+    "implementation-neutral behavioral specification",
+    "clean-team implementation under CRP-001",
+    "controlled behavioral comparison",
+    "redistribution of resulting clean-team source and binaries after release review"
+  ],
+  "excluded_activities": [
+    "redistribution of original bin inputs under this authorization alone",
+    "claiming or transferring third-party intellectual-property rights",
+    "bypassing access controls, signatures, licensing, or security protections",
+    "unreviewed network, telemetry, malware-handling, driver, filter, or service deployment",
+    "representing an implementation as a supported replacement security product"
+  ],
+  "conditions": [
+    "subject to applicable law",
+    "subject to CRP-001",
+    "original inputs remain analysis-only and immutable",
+    "clean-team releases exclude original code and resource payloads",
+    "security-sensitive tests require an explicit isolation plan"
+  ],
+  "supersedes": null,
+  "expires": null
+}
