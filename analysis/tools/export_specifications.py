@@ -12,6 +12,8 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
+from validate_governance import json_schema_errors
+
 ROOT = Path(__file__).resolve().parents[2]
 SPECS = ROOT / "specifications"
 GOVERNANCE = ROOT / "governance"
@@ -87,8 +89,13 @@ def main() -> int:
 
     specs: list[tuple[Path, dict[str, Any], bytes]] = []
     author_ids = {item.get("id") for item in team.get("analysis_team", [])}
+    schema_path = SPECS / "schema" / "specification.schema.json"
+    specification_schema = load(schema_path)
     for path in release_specs:
         spec = load(path)
+        schema_errors = json_schema_errors(spec, specification_schema)
+        if schema_errors:
+            fail(f"{path.name} violates specification.schema.json: {schema_errors[0]}")
         module = spec.get("module")
         if spec.get("status") != "released":
             fail(f"{path.name} is under released/ but status is not released")
@@ -108,7 +115,6 @@ def main() -> int:
         data = path.read_bytes()
         specs.append((path, spec, data))
 
-    schema_path = SPECS / "schema" / "specification.schema.json"
     payloads: list[tuple[str, bytes]] = [
         ("schema/specification.schema.json", schema_path.read_bytes()),
         ("TRANSFER.txt", TRANSFER.encode("utf-8")),

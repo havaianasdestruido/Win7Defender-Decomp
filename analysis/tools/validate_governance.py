@@ -93,6 +93,118 @@ def git(*args: str, check: bool = True) -> subprocess.CompletedProcess[bytes]:
     )
 
 
+def _schema_type_matches(value: Any, expected: str) -> bool:
+    """Implement the JSON Schema primitive types used by ESF-001."""
+    if expected == "null":
+        return value is None
+    if expected == "object":
+        return isinstance(value, dict)
+    if expected == "array":
+        return isinstance(value, list)
+    if expected == "string":
+        return isinstance(value, str)
+    if expected == "boolean":
+        return isinstance(value, bool)
+    if expected == "integer":
+        return isinstance(value, int) and not isinstance(value, bool)
+    if expected == "number":
+        return isinstance(value, (int, float)) and not isinstance(value, bool)
+    return False
+
+
+def _resolve_local_ref(root_schema: dict[str, Any], reference: str) -> dict[str, Any]:
+    if not reference.startswith("#/"):
+        raise ValueError(f"ESF schema uses unsupported non-local reference: {reference}")
+    current: Any = root_schema
+    for raw in reference[2:].split("/"):
+        token = raw.replace("~1", "/").replace("~0", "~")
+        current = current[token]
+    if not isinstance(current, dict):
+        raise ValueError(f"ESF schema reference does not resolve to an object: {reference}")
+    return current
+
+
+def json_schema_errors(
+    value: Any,
+    schema: dict[str, Any],
+    root_schema: dict[str, Any] | None = None,
+    path: str = "$",
+) -> list[str]:
+    """Validate the JSON Schema keywords used by specification.schema.json.
+
+    Keeping this small standards-based evaluator in-tree lets the governance gate
+    consume the declared schema directly without a network install in CI. Unknown
+    schema keywords that affect validation are rejected so the schema cannot grow
+    beyond the evaluator silently.
+    """
+    root = schema if root_schema is None else root_schema
+    if "$ref" in schema:
+        return json_schema_errors(value, _resolve_local_ref(root, schema["$ref"]), root, path)
+
+    supported = {
+        "$schema", "$id", "$defs", "title", "description", "type", "const",
+        "enum", "required", "properties", "additionalProperties", "items",
+        "minItems", "minLength", "minimum", "pattern", "format",
+    }
+    unsupported = sorted(set(schema) - supported)
+    if unsupported:
+        return [f"{path}: unsupported schema keywords: {', '.join(unsupported)}"]
+
+    errors: list[str] = []
+    expected_types = schema.get("type")
+    if expected_types is not None:
+        candidates = [expected_types] if isinstance(expected_types, str) else expected_types
+        if not isinstance(candidates, list) or not all(isinstance(item, str) for item in candidates):
+            return [f"{path}: schema type must be a string or string array"]
+        if not any(_schema_type_matches(value, item) for item in candidates):
+            return [f"{path}: expected type {' or '.join(candidates)}, got {type(value).__name__}"]
+
+    if "const" in schema and value != schema["const"]:
+        errors.append(f"{path}: expected constant {schema['const']!r}")
+    if "enum" in schema and value not in schema["enum"]:
+        errors.append(f"{path}: value {value!r} is not in the allowed enum")
+
+    if isinstance(value, dict):
+        required = schema.get("required", [])
+        for name in required:
+            if name not in value:
+                errors.append(f"{path}: missing required property {name!r}")
+        properties = schema.get("properties", {})
+        for name, child in properties.items():
+            if name in value:
+                errors.extend(json_schema_errors(value[name], child, root, f"{path}.{name}"))
+        if schema.get("additionalProperties") is False:
+            for name in sorted(set(value) - set(properties)):
+                errors.append(f"{path}: additional property {name!r} is not allowed")
+
+    if isinstance(value, list):
+        minimum_items = schema.get("minItems")
+        if minimum_items is not None and len(value) < minimum_items:
+            errors.append(f"{path}: expected at least {minimum_items} items")
+        if "items" in schema:
+            for index, item in enumerate(value):
+                errors.extend(json_schema_errors(item, schema["items"], root, f"{path}[{index}]"))
+
+    if isinstance(value, str):
+        minimum_length = schema.get("minLength")
+        if minimum_length is not None and len(value) < minimum_length:
+            errors.append(f"{path}: expected length of at least {minimum_length}")
+        pattern = schema.get("pattern")
+        if pattern is not None and re.search(pattern, value) is None:
+            errors.append(f"{path}: value does not match pattern {pattern!r}")
+        if schema.get("format") == "date":
+            try:
+                date.fromisoformat(value)
+            except ValueError:
+                errors.append(f"{path}: value is not an ISO calendar date")
+
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        minimum = schema.get("minimum")
+        if minimum is not None and value < minimum:
+            errors.append(f"{path}: value is below minimum {minimum}")
+    return errors
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -263,6 +375,9 @@ def main() -> int:
                 and change.get("new_content_sha256") == entry.get("content_sha256"),
             )
 
+    specification_schema = load_json(
+        SPECIFICATIONS / "schema" / "specification.schema.json"
+    )
     spec_files = sorted((SPECIFICATIONS / "drafts").glob("*.json")) + sorted(
         (SPECIFICATIONS / "released").glob("*.json")
     )
@@ -274,6 +389,12 @@ def main() -> int:
     for path in spec_files:
         relative = path.relative_to(ROOT)
         spec = load_json(path)
+        schema_errors = json_schema_errors(spec, specification_schema)
+        check(
+            f"{relative} conforms to specification.schema.json",
+            not schema_errors,
+            schema_errors[:30],
+        )
         check(f"{relative} has ESF-001 top-level fields", REQUIRED_SPEC_KEYS <= set(spec))
         check(
             f"{relative} standard and schema version",
