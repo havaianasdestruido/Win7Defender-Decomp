@@ -1,0 +1,811 @@
+{
+  "result": "pass",
+  "validated_date": "2026-10-15",
+  "policy_versions": {
+    "clean_room": "CRP-001",
+    "specification": "ESF-001",
+    "behavior_change": "BCC-001"
+  },
+  "check_count": 197,
+  "failed": [],
+  "checks": [
+    {
+      "check": "required governance record governance/CLEAN_ROOM_POLICY.md",
+      "pass": true
+    },
+    {
+      "check": "required governance record governance/AUTHORIZATION.md",
+      "pass": true
+    },
+    {
+      "check": "required governance record governance/authorization.json",
+      "pass": true
+    },
+    {
+      "check": "required governance record governance/INPUT_PROVENANCE.md",
+      "pass": true
+    },
+    {
+      "check": "required governance record governance/input-provenance.json",
+      "pass": true
+    },
+    {
+      "check": "required governance record governance/SPECIFICATION_FORMAT.md",
+      "pass": true
+    },
+    {
+      "check": "required governance record governance/BEHAVIOR_CHANGE_CONTROL.md",
+      "pass": true
+    },
+    {
+      "check": "required governance record governance/team-register.json",
+      "pass": true
+    },
+    {
+      "check": "required governance record governance/behavior-notes.json",
+      "pass": true
+    },
+    {
+      "check": "required governance record specifications/schema/specification.schema.json",
+      "pass": true
+    },
+    {
+      "check": "required governance record implementation/README.md",
+      "pass": true
+    },
+    {
+      "check": "authorization is active",
+      "pass": true
+    },
+    {
+      "check": "authorization carries exact sponsor attestation",
+      "pass": true
+    },
+    {
+      "check": "authorization distinguishes resulting implementation from originals",
+      "pass": true
+    },
+    {
+      "check": "provenance covers the exact bin file set",
+      "pass": true,
+      "detail": {
+        "recorded": 17,
+        "actual": 17
+      }
+    },
+    {
+      "check": "provenance references active authorization",
+      "pass": true
+    },
+    {
+      "check": "at least one acquisition event is recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/LICENSE exists",
+      "pass": true
+    },
+    {
+      "check": "bin/LICENSE byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/LICENSE SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/LICENSE SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/LICENSE Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/LICENSE equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/LICENSE acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/LICENSE license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MSASCui.exe exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MSASCui.exe byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MSASCui.exe SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MSASCui.exe SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MSASCui.exe Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MSASCui.exe equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MSASCui.exe acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MSASCui.exe license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MpAsDesc.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MpAsDesc.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MpAsDesc.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MpAsDesc.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MpAsDesc.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MpAsDesc.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MpAsDesc.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MpAsDesc.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MpClient.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MpClient.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MpClient.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MpClient.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MpClient.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MpClient.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MpClient.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MpClient.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCmdRun.exe exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCmdRun.exe byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCmdRun.exe SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCmdRun.exe SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCmdRun.exe Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCmdRun.exe equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCmdRun.exe acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCmdRun.exe license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCommu.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCommu.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCommu.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCommu.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCommu.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCommu.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCommu.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MpCommu.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MpEvMsg.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MpEvMsg.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MpEvMsg.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MpEvMsg.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MpEvMsg.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MpEvMsg.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MpEvMsg.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MpEvMsg.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MpOAV.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MpOAV.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MpOAV.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MpOAV.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MpOAV.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MpOAV.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MpOAV.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MpOAV.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MpRTP.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MpRTP.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MpRTP.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MpRTP.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MpRTP.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MpRTP.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MpRTP.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MpRTP.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MpSvc.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MpSvc.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MpSvc.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MpSvc.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MpSvc.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MpSvc.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MpSvc.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MpSvc.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpCom.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpCom.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpCom.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpCom.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpCom.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpCom.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpCom.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpCom.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpLics.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpLics.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpLics.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpLics.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpLics.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpLics.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpLics.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpLics.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpRes.dll exists",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpRes.dll byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpRes.dll SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpRes.dll SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpRes.dll Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpRes.dll equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpRes.dll acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/MsMpRes.dll license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/README.md exists",
+      "pass": true
+    },
+    {
+      "check": "bin/README.md byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/README.md SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/README.md SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/README.md Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/README.md equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/README.md acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/README.md license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpAsDesc.dll.mui exists",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpAsDesc.dll.mui byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpAsDesc.dll.mui SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpAsDesc.dll.mui SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpAsDesc.dll.mui Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpAsDesc.dll.mui equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpAsDesc.dll.mui acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpAsDesc.dll.mui license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpEvMsg.dll.mui exists",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpEvMsg.dll.mui byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpEvMsg.dll.mui SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpEvMsg.dll.mui SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpEvMsg.dll.mui Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpEvMsg.dll.mui equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpEvMsg.dll.mui acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MpEvMsg.dll.mui license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MsMpRes.dll.mui exists",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MsMpRes.dll.mui byte length",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MsMpRes.dll.mui SHA-256",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MsMpRes.dll.mui SHA-512",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MsMpRes.dll.mui Git blob identity",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MsMpRes.dll.mui equals first repository object",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MsMpRes.dll.mui acquisition event resolves",
+      "pass": true
+    },
+    {
+      "check": "bin/pt-BR/MsMpRes.dll.mui license and redistribution status recorded",
+      "pass": true
+    },
+    {
+      "check": "Team A identities are unique",
+      "pass": true
+    },
+    {
+      "check": "Team A and Team B identities do not overlap",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "team register references active authorization",
+      "pass": true
+    },
+    {
+      "check": "behavior registry covers every manual behavior note",
+      "pass": true,
+      "detail": {
+        "registered": 4,
+        "actual": 4
+      }
+    },
+    {
+      "check": "src/MpAsDesc.dll/reviewed-behavior.md registered file exists",
+      "pass": true
+    },
+    {
+      "check": "src/MpAsDesc.dll/reviewed-behavior.md registered content hash",
+      "pass": true
+    },
+    {
+      "check": "src/MpAsDesc.dll/reviewed-behavior.md visible control metadata",
+      "pass": true
+    },
+    {
+      "check": "src/MpAsDesc.dll/reviewed-behavior.md module identity",
+      "pass": true
+    },
+    {
+      "check": "src/MpAsDesc.dll/reviewed-behavior.md latest BCR exists",
+      "pass": true
+    },
+    {
+      "check": "src/MpAsDesc.dll/reviewed-behavior.md latest BCR matches revision and hash",
+      "pass": true
+    },
+    {
+      "check": "src/MpOAV.dll/reviewed-behavior.md registered file exists",
+      "pass": true
+    },
+    {
+      "check": "src/MpOAV.dll/reviewed-behavior.md registered content hash",
+      "pass": true
+    },
+    {
+      "check": "src/MpOAV.dll/reviewed-behavior.md visible control metadata",
+      "pass": true
+    },
+    {
+      "check": "src/MpOAV.dll/reviewed-behavior.md module identity",
+      "pass": true
+    },
+    {
+      "check": "src/MpOAV.dll/reviewed-behavior.md latest BCR exists",
+      "pass": true
+    },
+    {
+      "check": "src/MpOAV.dll/reviewed-behavior.md latest BCR matches revision and hash",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpCom.dll/reviewed-behavior.md registered file exists",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpCom.dll/reviewed-behavior.md registered content hash",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpCom.dll/reviewed-behavior.md visible control metadata",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpCom.dll/reviewed-behavior.md module identity",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpCom.dll/reviewed-behavior.md latest BCR exists",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpCom.dll/reviewed-behavior.md latest BCR matches revision and hash",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpRes.dll/reviewed-behavior.md registered file exists",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpRes.dll/reviewed-behavior.md registered content hash",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpRes.dll/reviewed-behavior.md visible control metadata",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpRes.dll/reviewed-behavior.md module identity",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpRes.dll/reviewed-behavior.md latest BCR exists",
+      "pass": true
+    },
+    {
+      "check": "src/MsMpRes.dll/reviewed-behavior.md latest BCR matches revision and hash",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json has ESF-001 top-level fields",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json standard and schema version",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json specification identity is unique",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json directory agrees with lifecycle",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json source SHA-256 is recorded",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json source identity matches provenance",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json references active authorization",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json interface IDs are unique and present",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json evidence IDs are unique and present",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json requirement IDs are unique and present",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json requirement references resolve",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json authors are registered Team A",
+      "pass": true
+    },
+    {
+      "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json unreleased document has no release metadata",
+      "pass": true
+    },
+    {
+      "check": "implementation tree has no symlinks",
+      "pass": true
+    },
+    {
+      "check": "recovered src tree contains no build manifests",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "implementation/README.md is not a committed executable/object payload",
+      "pass": true
+    }
+  ]
+}
