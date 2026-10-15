@@ -19,21 +19,27 @@ See `analysis/report/final-report.md`, `analysis/report/progress.md`, and
 
 ## Phase 0 — Clean-room governance, legal, and provenance
 
-- [ ] Define and document the two-team clean-room boundary: one team performs
+Completed 2026-10-15. See
+[`analysis/report/phase-zero-completion.md`](analysis/report/phase-zero-completion.md)
+and the machine-readable governance receipt. Completion establishes controls;
+it does not claim Microsoft authorization for original-file redistribution or
+that a clean implementation team has started work.
+
+- [x] Define and document the two-team clean-room boundary: one team performs
       binary analysis and writes specifications; a separate team implements from
       those specifications without access to the original binaries or decompiler
       output.
-- [ ] Record the exact provenance, hashes, acquisition source, and license/
+- [x] Record the exact provenance, hashes, acquisition source, and license/
       redistribution status of every file under `bin/`.
-- [ ] Obtain written authorization and scope for reverse engineering,
+- [x] Obtain written authorization and scope for reverse engineering,
       reconstruction, testing, and redistribution of the resulting clean-room
       implementation.
-- [ ] Establish an evidence-only specification format so implementation work
+- [x] Establish an evidence-only specification format so implementation work
       consumes reviewed behavior documents rather than raw decompiler output.
-- [ ] Separate analysis artifacts (`analysis/`, `src/*/pseudocode.c`) from
+- [x] Separate analysis artifacts (`analysis/`, `src/*/pseudocode.c`) from
       implementation artifacts and prevent implementation builds from depending
       on unreviewed pseudocode.
-- [ ] Add a change-control process for manual behavior notes such as
+- [x] Add a change-control process for manual behavior notes such as
       `src/MpAsDesc.dll/reviewed-behavior.md`.
 
 ## Phase 1 — Input preservation and structural baseline
