@@ -1,22 +1,9 @@
 # Clean implementation handoff
 
-This directory is reserved for source authored by Team B in a separate clean
-repository and accepted through CRP-001's implementation import gate. It is
-currently empty: no clean implementation team has been appointed and no
-specification has been released.
+This directory is reserved for independently authored Team B source accepted
+through the CRP-001 import gate. It is currently empty because no clean
+implementation team is appointed and no specification is released.
 
-Code here may depend only on the exact released specification package recorded
-at handoff, independently selected permitted public references, and clean-team
-dependencies/fixtures with provenance. It must not read, include, generate from,
-or link against:
-
-- `bin/`;
-- `analysis/`, including analysis behavior models;
-- `src/`, including generated pseudocode and reviewed-behavior notes;
-- `specifications/drafts/`; or
-- repository Git history or other analyst-only material.
-
-Clean implementers must not browse this analysis repository. The transfer
-coordinator imports their separately authored source and attestations after
-boundary validation. Presence under this directory alone is not proof of
-clean-room provenance.
+See `governance/CLEAN_ROOM_POLICY.md` for permitted inputs, non-access
+attestations, required provenance, and transfer controls. Presence here alone is
+not evidence of clean-room provenance.

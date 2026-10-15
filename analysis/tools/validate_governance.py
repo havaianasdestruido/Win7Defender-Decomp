@@ -40,22 +40,23 @@ REQUIRED_SPEC_KEYS = {
     "approvals",
     "release",
 }
-IMPLEMENTATION_TEXT_EXTENSIONS = {
-    ".c", ".cc", ".cpp", ".cxx", ".h", ".hh", ".hpp", ".hxx",
-    ".asm", ".s", ".rs", ".go", ".py", ".java", ".cs", ".swift",
-    ".kt", ".js", ".ts", ".cmake", ".mk", ".toml", ".yaml", ".yml",
-}
 IMPLEMENTATION_BUILD_NAMES = {
     "CMakeLists.txt", "Makefile", "meson.build", "build.ninja", "package.json",
     "pyproject.toml", "Cargo.toml", "go.mod", "build.gradle", "pom.xml",
 }
-FORBIDDEN_IMPLEMENTATION_REFS = {
-    "bin/": "original input path",
-    "analysis/": "analysis artifact path",
-    "src/": "recovered/decompiler artifact path",
-    "specifications/drafts": "unreleased specification path",
-    "pseudocode.c": "generated pseudocode",
-    "reviewed-behavior": "analyst-only behavior note",
+FORBIDDEN_IMPLEMENTATION_PATTERNS = {
+    re.compile(
+        r"(?m)(?:^|[\s\"'`(=,:])(?:\.\.?/)*(?:bin|analysis|src)/"
+        r"|/Win7Defender-Decomp/(?:bin|analysis|src)/"
+        r"|(?:\$\{?[A-Za-z_][A-Za-z0-9_]*\}?|%[A-Za-z_]+%)/(?:bin|analysis|src)/",
+        re.IGNORECASE,
+    ): "original, analysis, or recovered artifact path",
+    re.compile(
+        r"(?m)(?:^|[\s\"'`(=,:])(?:\.\.?/)*specifications/drafts(?:/|\b)",
+        re.IGNORECASE,
+    ): "unreleased specification path",
+    re.compile(r"\bpseudocode\.c\b", re.IGNORECASE): "generated pseudocode",
+    re.compile(r"\breviewed-behavior\b", re.IGNORECASE): "analyst-only behavior note",
 }
 FORBIDDEN_RELEASE_TEXT = (
     "pseudocode",
@@ -593,11 +594,13 @@ def main() -> int:
             f"{relative} is not a committed executable/object payload",
             not (data.startswith(b"MZ") or data.startswith(b"\x7fELF")),
         )
-        inspect_text = path.name in IMPLEMENTATION_BUILD_NAMES or path.suffix in IMPLEMENTATION_TEXT_EXTENSIONS
-        if inspect_text:
-            text = data.decode("utf-8", errors="replace").lower()
-            bad = [reason for token, reason in FORBIDDEN_IMPLEMENTATION_REFS.items() if token in text]
-            check(f"{relative} has no forbidden implementation dependency", not bad, bad)
+        text = data.decode("utf-8", errors="replace")
+        bad = [
+            reason
+            for pattern, reason in FORBIDDEN_IMPLEMENTATION_PATTERNS.items()
+            if pattern.search(text)
+        ]
+        check(f"{relative} has no forbidden implementation dependency", not bad, bad)
 
     if args.base_ref:
         changed_result = git("diff", "--name-only", f"{args.base_ref}...HEAD", check=False)
