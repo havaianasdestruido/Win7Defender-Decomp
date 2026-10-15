@@ -44,10 +44,12 @@ PE, relocation, resource-tree and exception parsing use pefile; disassembly uses
 
 ### Output boundaries
 
-- Generated pseudocode, resource/interface definitions, behavior model and CMake files: `src/`.
+- Generated pseudocode and recovered resource/interface definitions: `src/`.
+- Analysis-exposed behavior models and their CMake files: `analysis/models/`.
+- Clean-team source, once independently authored and accepted: `implementation/`.
 - All custom code/config/dependency locks: this directory.
 - Evidence, logs, validation receipts and narrative findings: singular `analysis/report/`.
-- Compatibility build products: ignored `src/MpAsDesc.dll/build/`.
+- Analysis-model build products: ignored `analysis/models/MpAsDesc.dll/build/`.
 - Original executable/resource inputs: `bin/`, unchanged.
 
 `inventory.py` rewrites generated module READMEs; hand-written behavioral notes are separate and preserved. `decompile.py` replaces the generated pseudocode/ledger for a module. `make_reports.py` regenerates consolidated reports and typelib declarations. Avoid hand-editing generated files when the intended change belongs in a generator. Narrative methodology/data-format/REA-limitations documents are maintained separately.

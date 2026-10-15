@@ -69,7 +69,7 @@ Recovered: library GUID `8c389764-f036-48f2-9ae2-88c260dcf43b`; six coclasses; t
 
 ## Application-specific recovered layout
 
-MpAsDesc table at RVA `0x11f0`, file offset `0x5f0`: seven records of three little-endian u32 values, naturally aligned, stride 12. Verified ranges/fallbacks are documented in `src/MpAsDesc.dll/compatibility.h` and `reviewed-behavior.md`. A partially observed COM object-map prefix is documented separately in `src/MpOAV.dll/reviewed-behavior.md`; its total allocation size is not known.
+MpAsDesc table at RVA `0x11f0`, file offset `0x5f0`: seven records of three little-endian u32 values, naturally aligned, stride 12. Verified ranges/fallbacks are documented in `analysis/models/MpAsDesc.dll/compatibility.h` and `src/MpAsDesc.dll/reviewed-behavior.md`. A partially observed COM object-map prefix is documented separately in `src/MpOAV.dll/reviewed-behavior.md`; its total allocation size is not known.
 
 ## Not yet specified
 

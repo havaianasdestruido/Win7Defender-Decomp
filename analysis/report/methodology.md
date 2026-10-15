@@ -12,7 +12,7 @@ Confidence categories:
 4. **Manually reviewed**: selected branches and register/data accesses cross-checked against disassembly, with scope stated in `src/*/reviewed-behavior.md`.
 5. **Validated limited behavior**: compiled model compared with selected original instructions in emulation under documented state/API stubs. This is not full Windows compatibility.
 
-Pseudocode is not proprietary original source. Compatibility code is analysis-informed reconstruction. This single-agent session does not establish personnel separation for a strict two-team clean-room claim. No original binaries, raw replacement resource bundles or downloaded tool distributions have been added to tracked source deliverables.
+Pseudocode is not proprietary original source. The portable model is analysis-informed reconstruction and now resides under `analysis/models/`. It is expressly ineligible for Team B use. The original single-agent session did not establish personnel separation for a strict two-team clean-room claim; CRP-001 governs any future clean implementation. No original binaries, raw replacement resource bundles or downloaded tool distributions have been added to tracked source deliverables.
 
 ## Environment and versions
 
@@ -80,9 +80,9 @@ analysis/tools/.venv/bin/python analysis/tools/static_calls.py
 analysis/tools/.venv/bin/python analysis/tools/batch_decompile.py --budget 240 --workers 2
 analysis/tools/.venv/bin/python analysis/tools/validate_artifacts.py
 analysis/tools/.venv/bin/python analysis/tools/make_reports.py
-analysis/tools/.venv/bin/cmake -S src/MpAsDesc.dll -B src/MpAsDesc.dll/build -DCMAKE_BUILD_TYPE=Debug
-analysis/tools/.venv/bin/cmake --build src/MpAsDesc.dll/build --verbose
-analysis/tools/.venv/bin/python analysis/tools/validate_behavior.py --library src/MpAsDesc.dll/build/libmpasdesc_model.so
+analysis/tools/.venv/bin/cmake -S analysis/models/MpAsDesc.dll -B analysis/models/MpAsDesc.dll/build -DCMAKE_BUILD_TYPE=Debug
+analysis/tools/.venv/bin/cmake --build analysis/models/MpAsDesc.dll/build --verbose
+analysis/tools/.venv/bin/python analysis/tools/validate_behavior.py --library analysis/models/MpAsDesc.dll/build/libmpasdesc_model.so
 cc -std=c11 -Wall -Wextra -Werror -fsyntax-only analysis/tools/header_smoke.c
 ```
 

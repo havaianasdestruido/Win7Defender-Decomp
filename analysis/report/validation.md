@@ -12,7 +12,7 @@
 
 ## Build and declaration checks
 
-The portable `mpasdesc_model` C11 shared-library target compiled with GCC 12.2.0, Debug/PIC and `-Wall -Wextra -Werror -Wpedantic`. See `compatibility-rebuild.log`. CMake deliberately excludes unverified pseudocode. The recovered enum/table header syntax and width checks passed (`header-validation.log`). These are Linux model/declaration checks, not Windows DLL builds.
+The portable `mpasdesc_model` C11 shared-library target compiled with GCC 12.2.0, Debug/PIC and `-Wall -Wextra -Werror -Wpedantic`. See `compatibility-rebuild.log`. The target now lives under `analysis/models/` and deliberately excludes unverified pseudocode. The recovered enum/table header syntax and width checks passed (`header-validation.log`). These are Linux model/declaration checks, not Windows DLL builds.
 
 ## Controlled instruction-emulation comparisons
 
@@ -30,7 +30,7 @@ The portable `mpasdesc_model` C11 shared-library target compiled with GCC 12.2.0
 2. The initial four large-module runs returned empty call-site collections with default size-dependent angr caches and inflated candidate counts. Those outputs were superseded by reruns with function/CFG node/edge caches disabled. `cache-issue.json` preserves initial identities/settings/counts. This workaround restores call-site evidence; the precise upstream cache defect has not been fully diagnosed.
 3. Angr initially created a temporary runtime database adjacent to MpSvc in bin/. Original bytes were untouched. The sidecar was removed from the input tree after completion and RTDB_BASE is now forced under ignored analysis/tools/runtime before importing angr.
 4. Pseudocode line anchors had an initial one-line offset; validation now derives them from actual VA comment locations.
-5. Rebuilding the same Debug model in a different directory changed the ELF bytes (debug/build metadata); behavior tests were rerun against the final src/.../build location rather than asserting binary identity.
+5. Rebuilding the same Debug model in a different directory changed the ELF bytes (debug/build metadata); behavior tests were rerun against the then-current analysis-model build location rather than asserting binary identity. Phase 0 later relocated that analysis-exposed source under `analysis/models/`; it is not clean implementation.
 
 ## Coverage is bounded, not semantic equivalence
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Compare portable resolver with actual original AMD64 instructions in Unicorn.
 No Windows process/service is launched; LoadStringW is an explicit controlled stub.
-Usage: python validate_behavior.py --library analysis/report/work/mpasdesc/libmpasdesc_model.so
+Usage: python validate_behavior.py --library analysis/models/MpAsDesc.dll/build/libmpasdesc_model.so
 """
 from pathlib import Path
 import argparse,ctypes,hashlib,json,struct,time
