@@ -59,17 +59,22 @@ FORBIDDEN_IMPLEMENTATION_PATTERNS = {
     re.compile(r"\bpseudocode\.c\b", re.IGNORECASE): "generated pseudocode",
     re.compile(r"\breviewed-behavior\b", re.IGNORECASE): "analyst-only behavior note",
 }
-FORBIDDEN_RELEASE_TEXT = (
-    "pseudocode",
-    "disassembly",
-    "instruction bytes",
-    "virtual address",
-    "file offset",
-    "reviewed-behavior",
-    "analysis/report",
-    "src/",
-    "bin/",
-)
+FORBIDDEN_RELEASE_PATTERNS = {
+    re.compile(r"\bpseudocode\b", re.IGNORECASE): "pseudocode",
+    re.compile(r"\bdisassembl(?:y|ies|ed|er)\b", re.IGNORECASE): "disassembly",
+    re.compile(r"\binstruction bytes?\b", re.IGNORECASE): "instruction bytes",
+    re.compile(r"\bvirtual addresses?\b", re.IGNORECASE): "virtual address",
+    re.compile(r"\brvas?\b", re.IGNORECASE): "RVA",
+    re.compile(r"\bfile offsets?\b", re.IGNORECASE): "file offset",
+    re.compile(r"\bregister traces?\b", re.IGNORECASE): "register trace",
+    re.compile(r"\breviewed-behavior\b", re.IGNORECASE): "analyst behavior note",
+    re.compile(r"(?:^|[\s\"'`(=,:])(?:\.\.?/)*(?:analysis|src|bin)/", re.IGNORECASE):
+        "restricted repository path",
+}
+FORBIDDEN_RELEASE_KEYS = {
+    "rva", "virtual_address", "virtualaddress", "file_offset", "fileoffset",
+    "instruction_bytes", "disassembly", "pseudocode",
+}
 CONTROL_RE = re.compile(
     r"BCC-001 control:\*\* `(?P<id>NOTE-[A-Z0-9-]+)` · revision \*\*(?P<revision>\d+)\*\* "
     r"· status \*\*(?P<status>[a-z-]+)\*\*"
@@ -210,6 +215,25 @@ def json_schema_errors(
         if minimum is not None and value < minimum:
             errors.append(f"{path}: value is below minimum {minimum}")
     return errors
+
+
+def release_expression_violations(value: Any, path: str = "$") -> list[str]:
+    """Find analyst-only implementation expression forbidden by ESF-001."""
+    violations: list[str] = []
+    if isinstance(value, dict):
+        for key, child in value.items():
+            normalized = re.sub(r"[^a-z0-9]+", "_", str(key).lower()).strip("_")
+            if normalized in FORBIDDEN_RELEASE_KEYS:
+                violations.append(f"{path}: forbidden field name {key!r}")
+            violations.extend(release_expression_violations(child, f"{path}.{key}"))
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            violations.extend(release_expression_violations(child, f"{path}[{index}]"))
+    elif isinstance(value, str):
+        for pattern, meaning in FORBIDDEN_RELEASE_PATTERNS.items():
+            if pattern.search(value):
+                violations.append(f"{path}: contains forbidden {meaning}")
+    return violations
 
 
 def main() -> int:
@@ -542,9 +566,12 @@ def main() -> int:
                 f"{relative} scope approval is from the sponsor",
                 scope_ids == {sponsor_id},
             )
-            text = path.read_text(encoding="utf-8").lower()
-            leaked = [token for token in FORBIDDEN_RELEASE_TEXT if token in text]
-            check(f"{relative} contains no prohibited analyst expression", not leaked, leaked)
+            leaked = release_expression_violations(spec)
+            check(
+                f"{relative} contains no prohibited analyst expression",
+                not leaked,
+                leaked[:30],
+            )
             release = spec.get("release")
             check(f"{relative} release metadata present", isinstance(release, dict))
             if isinstance(release, dict):

@@ -12,7 +12,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from validate_governance import json_schema_errors
+from validate_governance import json_schema_errors, release_expression_violations
 
 ROOT = Path(__file__).resolve().parents[2]
 SPECS = ROOT / "specifications"
@@ -118,6 +118,9 @@ def main() -> int:
         schema_errors = json_schema_errors(spec, specification_schema)
         if schema_errors:
             fail(f"{path.name} violates specification.schema.json: {schema_errors[0]}")
+        expression_leaks = release_expression_violations(spec)
+        if expression_leaks:
+            fail(f"{path.name} contains prohibited analyst expression: {expression_leaks[0]}")
         module = spec.get("module")
         release = spec.get("release") or {}
         if release.get("transfer_coordinator", {}).get("id") != args.coordinator:
