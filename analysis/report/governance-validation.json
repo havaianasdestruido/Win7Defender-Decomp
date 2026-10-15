@@ -6,7 +6,7 @@
     "specification": "ESF-001",
     "behavior_change": "BCC-001"
   },
-  "check_count": 197,
+  "check_count": 198,
   "failed": [],
   "checks": [
     {
@@ -793,6 +793,14 @@
     {
       "check": "specifications/drafts/SPEC-MPASDESC-RESOLVER.json unreleased document has no release metadata",
       "pass": true
+    },
+    {
+      "check": "specification release records match released specifications",
+      "pass": true,
+      "detail": {
+        "records": [],
+        "referenced": []
+      }
     },
     {
       "check": "implementation tree has no symlinks",

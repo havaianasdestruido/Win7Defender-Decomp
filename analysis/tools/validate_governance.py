@@ -198,9 +198,10 @@ def main() -> int:
 
     team = load_json(GOVERNANCE / "team-register.json")
     analysis_ids = {member.get("id") for member in team.get("analysis_team", [])}
-    implementation_ids = {
-        member.get("id") for member in team.get("clean_implementation_team", [])
-    }
+    implementation_members = team.get("clean_implementation_team", [])
+    implementation_ids = {member.get("id") for member in implementation_members}
+    implementation_by_id = {member.get("id"): member for member in implementation_members}
+    transfer_ids = {member.get("id") for member in team.get("transfer_coordinators", [])}
     check("Team A identities are unique", len(analysis_ids) == len(team.get("analysis_team", [])))
     check(
         "Team A and Team B identities do not overlap",
@@ -266,6 +267,7 @@ def main() -> int:
         (SPECIFICATIONS / "released").glob("*.json")
     )
     spec_ids: set[tuple[str, int]] = set()
+    referenced_release_ids: set[str] = set()
     provenance_modules = {
         Path(entry["path"]).name: entry["hashes"]["sha256"] for entry in recorded
     }
@@ -347,9 +349,58 @@ def main() -> int:
             text = path.read_text(encoding="utf-8").lower()
             leaked = [token for token in FORBIDDEN_RELEASE_TEXT if token in text]
             check(f"{relative} contains no prohibited analyst expression", not leaked, leaked)
-            check(f"{relative} release metadata present", isinstance(spec.get("release"), dict))
+            release = spec.get("release")
+            check(f"{relative} release metadata present", isinstance(release, dict))
+            if isinstance(release, dict):
+                release_id = release.get("release_record_id")
+                referenced_release_ids.add(str(release_id))
+                coordinator_id = release.get("transfer_coordinator", {}).get("id")
+                check(
+                    f"{relative} coordinator is registered",
+                    coordinator_id in transfer_ids,
+                )
+                record_path = GOVERNANCE / "specification-releases" / f"{release_id}.json"
+                check(f"{relative} release record exists", record_path.is_file())
+                if record_path.is_file():
+                    record = load_json(record_path)
+                    matching = next(
+                        (
+                            item
+                            for item in record.get("specifications", [])
+                            if item.get("specification_id") == spec.get("specification_id")
+                            and item.get("revision") == spec.get("revision")
+                        ),
+                        None,
+                    )
+                    check(
+                        f"{relative} release record carries exact spec hash",
+                        bool(matching) and matching.get("sha256") == digest(path, "sha256"),
+                    )
+                    recipient_id = record.get("recipient", {}).get("id")
+                    recipient = implementation_by_id.get(recipient_id, {})
+                    assigned_modules = recipient.get("modules", [])
+                    check(
+                        f"{relative} release recipient is assigned to module",
+                        recipient_id in implementation_ids
+                        and ("*" in assigned_modules or spec.get("module") in assigned_modules),
+                    )
+                    check(
+                        f"{relative} package hashes are recorded",
+                        bool(HEX64_RE.fullmatch(str(record.get("manifest_sha256", ""))))
+                        and bool(HEX64_RE.fullmatch(str(record.get("archive_sha256", "")))),
+                    )
         else:
             check(f"{relative} unreleased document has no release metadata", spec.get("release") is None)
+
+    actual_release_ids = {
+        path.stem
+        for path in (GOVERNANCE / "specification-releases").glob("REL-*.json")
+    }
+    check(
+        "specification release records match released specifications",
+        actual_release_ids == referenced_release_ids,
+        {"records": sorted(actual_release_ids), "referenced": sorted(referenced_release_ids)},
+    )
 
     implementation_files = [path for path in IMPLEMENTATION.rglob("*") if path.is_file()]
     implementation_links = [path for path in IMPLEMENTATION.rglob("*") if path.is_symlink()]
