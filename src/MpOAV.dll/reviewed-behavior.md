@@ -1,5 +1,6 @@
 # Reviewed COM entry points
 
+> **BCC-001 control:** `NOTE-MPOAV-001` · revision **1** · status **baseline-recorded** · registry: `governance/behavior-notes.json`
 Evidence: `interfaces.json`, original disassembly in `analysis/report/modules/MpOAV.dll/objdump.txt.gz`, and selected instruction-emulation results in `behavior-validation.json`. Preferred base `0x7ff29100000`.
 
 ## Registration exports

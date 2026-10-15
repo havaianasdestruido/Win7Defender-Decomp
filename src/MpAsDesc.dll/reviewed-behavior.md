@@ -1,5 +1,7 @@
 # Reviewed signature-description resolver
 
+> **BCC-001 control:** `NOTE-MPASDESC-001` · revision **1** · status **baseline-recorded** · registry: `governance/behavior-notes.json`
+
 ## Evidence and confidence
 
 The two named exports were manually compared with GNU objdump and angr output. The resolver control flow below is disassembly-backed; category meanings and original C typedef names remain unknown. Original file SHA-256 is in `interfaces.json`. Preferred base is `0x7ff25ce0000`.

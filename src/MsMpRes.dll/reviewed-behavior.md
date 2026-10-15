@@ -1,5 +1,6 @@
 # Reviewed module-handle getter
 
+> **BCC-001 control:** `NOTE-MSMPRES-001` · revision **1** · status **baseline-recorded** · registry: `governance/behavior-notes.json`
 `GetMsMpResModuleHandle` is the sole export, RVA `0x1640`, preferred VA `0x7ff3a081640`. Its bytes `48 8b 05 a1 20 00 00 c3` load a 64-bit global at RVA `0x36e8` into RAX and return.
 
 ```c

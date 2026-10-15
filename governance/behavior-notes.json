@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "policy": "BCC-001",
+  "as_of": "2026-10-15",
+  "meaning": "Exact current manual-note identities. Baseline-recorded is hash control, not retroactive peer approval.",
+  "notes": [
+    {
+      "note_id": "NOTE-MPASDESC-001",
+      "path": "src/MpAsDesc.dll/reviewed-behavior.md",
+      "module": "MpAsDesc.dll",
+      "module_sha256": "cb11e89d0d48baad659f120a9bb66fec7aa47bca0866ae3677539801638010ef",
+      "revision": 1,
+      "status": "baseline-recorded",
+      "content_sha256": "09fdff6d16e2d3b45c92b100a50a696c103c351f3c715976e8b9a30374a3b1f4",
+      "analysis_authors": [
+        "github:arena-agent"
+      ],
+      "technical_reviewers": [],
+      "expression_reviewers": [],
+      "latest_change_request": "BCR-0001",
+      "specification_uses": [
+        "SPEC-MPASDESC-RESOLVER revision 1 draft"
+      ],
+      "release_eligibility": "not eligible until independent technical and expression review"
+    },
+    {
+      "note_id": "NOTE-MPOAV-001",
+      "path": "src/MpOAV.dll/reviewed-behavior.md",
+      "module": "MpOAV.dll",
+      "module_sha256": "b2913b2234cc75b1e57517a0ad0ca229c258a670f44c579e5260913ac5fb0269",
+      "revision": 1,
+      "status": "baseline-recorded",
+      "content_sha256": "94e4fac5cc5b5c6a3662a6184e2ba97dda61515b1d3c264c04ff396fa5939ac4",
+      "analysis_authors": [
+        "github:arena-agent"
+      ],
+      "technical_reviewers": [],
+      "expression_reviewers": [],
+      "latest_change_request": "BCR-0001",
+      "specification_uses": [],
+      "release_eligibility": "not eligible until independent technical and expression review"
+    },
+    {
+      "note_id": "NOTE-MSMPCOM-001",
+      "path": "src/MsMpCom.dll/reviewed-behavior.md",
+      "module": "MsMpCom.dll",
+      "module_sha256": "9e8396674ed1969a87e8108f9beceb8df84e5a5b1d52a40d694c3af88c9887a0",
+      "revision": 1,
+      "status": "baseline-recorded",
+      "content_sha256": "fe0f75844b9fb53673ae8ce1bb5544a7c699e01fa6e0570c861f633b6bb134c8",
+      "analysis_authors": [
+        "github:arena-agent"
+      ],
+      "technical_reviewers": [],
+      "expression_reviewers": [],
+      "latest_change_request": "BCR-0001",
+      "specification_uses": [],
+      "release_eligibility": "not eligible until independent technical and expression review"
+    },
+    {
+      "note_id": "NOTE-MSMPRES-001",
+      "path": "src/MsMpRes.dll/reviewed-behavior.md",
+      "module": "MsMpRes.dll",
+      "module_sha256": "87116782261671ab9790228dcd67a641f09464dcf81b9fe6a07b4a0e7cc57d14",
+      "revision": 1,
+      "status": "baseline-recorded",
+      "content_sha256": "7d774840888b0ff26e0efbb8667cf1f658c3e4c2e6806583b67822850f49a7e9",
+      "analysis_authors": [
+        "github:arena-agent"
+      ],
+      "technical_reviewers": [],
+      "expression_reviewers": [],
+      "latest_change_request": "BCR-0001",
+      "specification_uses": [],
+      "release_eligibility": "not eligible until independent technical and expression review"
+    }
+  ]
+}
