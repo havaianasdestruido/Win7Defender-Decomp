@@ -1,0 +1,9 @@
+# Sponsor ownership ensures governance-sensitive changes request explicit review.
+# Technical/expression independence is separately enforced by CRP-001/BCC-001 records.
+/governance/ @havaianasdestruido
+/specifications/ @havaianasdestruido
+/implementation/ @havaianasdestruido
+/src/**/reviewed-behavior.md @havaianasdestruido
+/analysis/tools/validate_governance.py @havaianasdestruido
+/analysis/tools/export_specifications.py @havaianasdestruido
+/.github/ @havaianasdestruido
