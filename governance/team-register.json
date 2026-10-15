@@ -28,6 +28,7 @@
   "validation_team": [],
   "notes": [
     "An empty clean implementation roster prohibits strict clean-team work; it does not weaken the boundary.",
-    "A future assignment requires a module-specific non-access attestation before any specification package is delivered."
+    "A future assignment requires a module-specific non-access attestation before any specification package is delivered.",
+    "Specification reviewer entries require modules plus review_kinds containing technical and/or expression; one person cannot fill both approvals for a release."
   ]
 }

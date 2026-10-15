@@ -61,9 +61,13 @@ implementation tests in a separate clean repository.
 ### Specification reviewers and transfer coordinator
 
 A Team A reviewer checks traceability, uncertainty, and the absence of copied
-implementation expression. The transfer coordinator verifies approvals,
-exports the package, records its digest, and delivers it without adding
-technical content. These roles are not Team B roles for the same module.
+implementation expression. Reviewers must be listed in `team-register.json`
+with their assigned modules and `technical` and/or `expression` review kinds.
+The technical and expression approvals for one release must come from different
+people, neither of whom may be an author or Team B member for that module. Scope
+approval comes from the registered sponsor. The transfer coordinator verifies
+approvals, exports the package, records its digest, and delivers it without
+adding technical content. These roles are not Team B roles for the same module.
 
 ### Validation team
 

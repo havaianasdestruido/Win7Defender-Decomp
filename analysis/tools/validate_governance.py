@@ -93,6 +93,11 @@ def git(*args: str, check: bool = True) -> subprocess.CompletedProcess[bytes]:
     )
 
 
+def assigned_to_module(member: dict[str, Any], module: str) -> bool:
+    modules = member.get("modules", [])
+    return "*" in modules or module in modules
+
+
 def _schema_type_matches(value: Any, expected: str) -> bool:
     """Implement the JSON Schema primitive types used by ESF-001."""
     if expected == "null":
@@ -313,12 +318,23 @@ def main() -> int:
     implementation_members = team.get("clean_implementation_team", [])
     implementation_ids = {member.get("id") for member in implementation_members}
     implementation_by_id = {member.get("id"): member for member in implementation_members}
+    specification_reviewers = {
+        member.get("id"): member for member in team.get("specification_reviewers", [])
+    }
     transfer_ids = {member.get("id") for member in team.get("transfer_coordinators", [])}
+    sponsor_id = team.get("sponsor", {}).get("id")
     check("Team A identities are unique", len(analysis_ids) == len(team.get("analysis_team", [])))
     check(
         "Team A and Team B identities do not overlap",
         analysis_ids.isdisjoint(implementation_ids),
         sorted((analysis_ids & implementation_ids) - {None}),
+    )
+    reviewer_ids = set(specification_reviewers)
+    check(
+        "specification reviewers are registered Team A and never Team B",
+        None not in reviewer_ids
+        and reviewer_ids <= analysis_ids
+        and reviewer_ids.isdisjoint(implementation_ids),
     )
     check(
         "team register references active authorization",
@@ -458,14 +474,50 @@ def main() -> int:
             tech = approvals.get("technical", [])
             expression = approvals.get("expression", [])
             scope = approvals.get("scope", [])
-            reviewers = {
-                approval.get("reviewer", {}).get("id")
-                for approval in [*tech, *expression]
+            technical_ids = {
+                approval.get("reviewer", {}).get("id") for approval in tech
             }
+            expression_ids = {
+                approval.get("reviewer", {}).get("id") for approval in expression
+            }
+            scope_ids = {
+                approval.get("reviewer", {}).get("id") for approval in scope
+            }
+            reviewers = technical_ids | expression_ids
             check(f"{relative} release approvals complete", bool(tech and expression and scope))
             check(
-                f"{relative} release reviewers differ from authors",
-                bool(reviewers) and reviewers.isdisjoint(author_ids),
+                f"{relative} release reviewers differ from authors and Team B",
+                bool(reviewers)
+                and reviewers.isdisjoint(author_ids)
+                and reviewers.isdisjoint(implementation_ids),
+            )
+            check(
+                f"{relative} technical reviewers are registered and assigned",
+                bool(technical_ids)
+                and all(
+                    reviewer_id in specification_reviewers
+                    and "technical" in specification_reviewers[reviewer_id].get("review_kinds", [])
+                    and assigned_to_module(specification_reviewers[reviewer_id], str(spec.get("module")))
+                    for reviewer_id in technical_ids
+                ),
+            )
+            check(
+                f"{relative} expression reviewers are registered and assigned",
+                bool(expression_ids)
+                and all(
+                    reviewer_id in specification_reviewers
+                    and "expression" in specification_reviewers[reviewer_id].get("review_kinds", [])
+                    and assigned_to_module(specification_reviewers[reviewer_id], str(spec.get("module")))
+                    for reviewer_id in expression_ids
+                ),
+            )
+            check(
+                f"{relative} technical and expression reviews are independent",
+                technical_ids.isdisjoint(expression_ids),
+            )
+            check(
+                f"{relative} scope approval is from the sponsor",
+                scope_ids == {sponsor_id},
             )
             text = path.read_text(encoding="utf-8").lower()
             leaked = [token for token in FORBIDDEN_RELEASE_TEXT if token in text]
@@ -499,11 +551,10 @@ def main() -> int:
                     )
                     recipient_id = record.get("recipient", {}).get("id")
                     recipient = implementation_by_id.get(recipient_id, {})
-                    assigned_modules = recipient.get("modules", [])
                     check(
                         f"{relative} release recipient is assigned to module",
                         recipient_id in implementation_ids
-                        and ("*" in assigned_modules or spec.get("module") in assigned_modules),
+                        and assigned_to_module(recipient, str(spec.get("module"))),
                     )
                     check(
                         f"{relative} package hashes are recorded",
