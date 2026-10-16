@@ -1,5 +1,7 @@
 # Reviewed signature-description resolver
 
+> **BCC-001 control:** `NOTE-MPASDESC-001` · revision **1** · status **baseline-recorded** · registry: `governance/behavior-notes.json`
+
 ## Evidence and confidence
 
 The two named exports were manually compared with GNU objdump and angr output. The resolver control flow below is disassembly-backed; category meanings and original C typedef names remain unknown. Original file SHA-256 is in `interfaces.json`. Preferred base is `0x7ff25ce0000`.
@@ -48,4 +50,4 @@ The angr text in `pseudocode.c` does **not** reliably assign `*out` on the out-o
 
 ## Buildable scope
 
-`mpasdesc_model` implements the resolver's non-tracing decision logic through a resource-probe callback. It is not ABI-compatible with the original export, does not embed proprietary resources, and does not implement DllMain, module-handle tracking, WPP tracing, MUI fallback or Windows loader behavior. Callback/context and null-callback behavior are new testable interfaces, clearly distinguished from recovered interfaces. See the validation report for original-instruction emulation against controlled LoadStringW stubs. This is analysis-informed reconstruction, not a claim that independent personnel performed a strict two-team clean-room process.
+The analysis-only `mpasdesc_model` under `analysis/models/MpAsDesc.dll/` implements the resolver's non-tracing decision logic through a resource-probe callback. It is not ABI-compatible with the original export, does not embed proprietary resources, and does not implement DllMain, module-handle tracking, WPP tracing, MUI fallback or Windows loader behavior. Callback/context and null-callback behavior are new testable interfaces, clearly distinguished from recovered interfaces. See the validation report for original-instruction emulation against controlled LoadStringW stubs. This is analysis-informed reconstruction, not a claim that independent personnel performed a strict two-team clean-room process.

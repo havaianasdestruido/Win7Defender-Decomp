@@ -1,5 +1,5 @@
 /* Syntax-only regression checks for recovered declarations. Not application code. */
-#include "../../src/MpAsDesc.dll/compatibility.h"
+#include "../models/MpAsDesc.dll/compatibility.h"
 #include "../../src/MsMpCom.dll/config-types.h"
 _Static_assert(sizeof(mp_description_range) == 12, "table width");
 _Static_assert(sizeof(mp_com_config_type) == 4, "typelib enum width");

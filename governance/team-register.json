@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "policy_id": "CRP-001",
+  "as_of": "2026-10-15",
+  "scope": "all modules currently represented under bin/",
+  "sponsor": {
+    "id": "github:havaianasdestruido",
+    "display_name": "PatoFlamejanteTV",
+    "authorization_record": "AUTH-2026-10-15-001"
+  },
+  "analysis_team": [
+    {
+      "id": "github:havaianasdestruido",
+      "modules": ["*"],
+      "basis": "repository owner with access to the complete analysis repository",
+      "implementation_eligible": false
+    },
+    {
+      "id": "github:arena-agent",
+      "modules": ["*"],
+      "basis": "co-author of the existing analysis corpus with original-input access",
+      "implementation_eligible": false
+    }
+  ],
+  "clean_implementation_team": [],
+  "specification_reviewers": [],
+  "transfer_coordinators": [],
+  "validation_team": [],
+  "notes": [
+    "An empty clean implementation roster prohibits strict clean-team work; it does not weaken the boundary.",
+    "A future assignment requires a module-specific non-access attestation before any specification package is delivered.",
+    "Specification reviewer entries require modules plus review_kinds containing technical and/or expression; one person cannot fill both approvals for a release."
+  ]
+}

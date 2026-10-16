@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "standard": "ESF-001",
+  "specification_id": "SPEC-MPASDESC-RESOLVER",
+  "revision": 1,
+  "status": "draft",
+  "supersedes": null,
+  "title": "Signature-description resource identifier behavior",
+  "module": "MpAsDesc.dll",
+  "source_identity": {
+    "path_label": "MpAsDesc.dll analysis input",
+    "sha256": "cb11e89d0d48baad659f120a9bb66fec7aa47bca0866ae3677539801638010ef"
+  },
+  "authorization_record": "AUTH-2026-10-15-001",
+  "scope": {
+    "included": [
+      "Argument validation and status returned by the resource-identifier interface.",
+      "Selection of a candidate or category fallback resource identifier.",
+      "The module-handle accessor's return value."
+    ],
+    "excluded": [
+      "Module initialization and lifetime.",
+      "Tracing behavior and trace-provider initialization.",
+      "Operating-system resource lookup and locale fallback beyond the stated dependency call.",
+      "Meaning and original names of the seven analyst-numbered categories."
+    ],
+    "non_goals": [
+      "This revision does not specify a Windows-compatible replacement DLL.",
+      "This revision does not supply or authorize copying resource payloads.",
+      "Analyst terms do not claim recovery of original source-level names."
+    ]
+  },
+  "platform_constraints": [
+    "The observed interface uses the Microsoft x64 ABI on little-endian AMD64 Windows.",
+    "Status values and integer arithmetic are interpreted as 32-bit values unless stated otherwise.",
+    "Resource existence is determined through a two-UTF-16-code-unit string lookup using the module's saved handle."
+  ],
+  "terms": [
+    {
+      "term": "category",
+      "meaning": "An analyst label for the signed selector values 1 through 7; original semantic names are unknown."
+    },
+    {
+      "term": "candidate identifier",
+      "meaning": "The category's first identifier plus the unsigned value input."
+    },
+    {
+      "term": "fallback identifier",
+      "meaning": "A category-specific identifier selected when the value is outside the category span or the candidate string is absent."
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "IF-MPASDESC-RESOLVE",
+      "name": "MpGetSignatureDescriptionResourceIdentifier",
+      "kind": "function",
+      "summary": "Select a string-resource identifier for a category and unsigned value.",
+      "abi": "Microsoft x64 ABI; uint32 status; int32 category; uint32 value; writable uint32 output pointer",
+      "inputs": [
+        {"name": "category", "type": "int32", "meaning": "Analyst-numbered category selector."},
+        {"name": "value", "type": "uint32", "meaning": "Zero-based value within a category span."},
+        {"name": "out_identifier", "type": "uint32 pointer", "meaning": "Destination for the selected resource identifier."}
+      ],
+      "outputs": [
+        {"name": "status", "type": "uint32", "meaning": "Zero on a completed selection or 0x80070057 for invalid arguments."},
+        {"name": "out_identifier", "type": "uint32", "meaning": "Candidate or category fallback on success."}
+      ],
+      "preconditions": [
+        "A non-null output pointer must identify writable storage for one uint32 value."
+      ]
+    },
+    {
+      "id": "IF-MPASDESC-HANDLE",
+      "name": "GetMpAsDescModuleHandle",
+      "kind": "function",
+      "summary": "Return the complete pointer-width value held in the module's saved-handle state.",
+      "abi": "Microsoft x64 ABI; no arguments; pointer-width return",
+      "inputs": [],
+      "outputs": [
+        {"name": "saved_handle", "type": "uint64", "meaning": "Current 64-bit saved module-handle value, including zero."}
+      ],
+      "preconditions": []
+    }
+  ],
+  "requirements": [
+    {
+      "id": "REQ-MPASDESC-INVALID",
+      "interface_ids": ["IF-MPASDESC-RESOLVE"],
+      "title": "Reject invalid selector and destination arguments",
+      "statement": "The interface MUST return 0x80070057 when category is less than or equal to zero, category is greater than or equal to eight, or out_identifier is null.",
+      "conditions": [
+        "The signed category comparison is applied before any category-table access.",
+        "A non-null pointer is not otherwise validated by this contract."
+      ],
+      "outputs": [
+        "For an invalid category with a writable non-null out_identifier, the pointed value remains unchanged."
+      ],
+      "errors": ["Return 0x80070057 for every invalid condition in scope."],
+      "side_effects": ["No output write occurs."],
+      "ordering": ["Validation precedes category-table and resource access."],
+      "confidence": "high",
+      "evidence_ids": ["EVID-MPASDESC-CONTROL", "EVID-MPASDESC-COMPARISON"],
+      "test_oracle": "Exercise category values below, at, and above both bounds with null and writable outputs; compare status and output preservation."
+    },
+    {
+      "id": "REQ-MPASDESC-RANGES",
+      "interface_ids": ["IF-MPASDESC-RESOLVE"],
+      "title": "Use the reviewed category ranges and fallbacks",
+      "statement": "For categories 1 through 7, the interface MUST use the respective triples (first, exclusive limit, fallback): (1000, 2000, 1027), (2000, 3000, 2027), (3000, 4000, 3063), (4000, 5000, 4002), (5000, 6000, 5002), (6000, 7000, 6002), and (7000, 8000, 7005).",
+      "conditions": ["The value input is compared as uint32 with exclusive_limit minus first."],
+      "outputs": ["An out-of-span value selects the category fallback identifier."],
+      "errors": ["No error status is produced solely because a value is out of span."],
+      "side_effects": ["On success, exactly one uint32 result is written to out_identifier."],
+      "ordering": ["Range selection follows successful argument validation."],
+      "confidence": "high",
+      "evidence_ids": ["EVID-MPASDESC-RANGE-DATA", "EVID-MPASDESC-COMPARISON"],
+      "test_oracle": "For every category, test zero, the last in-span value, the exclusive span, and uint32 maximum with controlled resource availability."
+    },
+    {
+      "id": "REQ-MPASDESC-PROBE",
+      "interface_ids": ["IF-MPASDESC-RESOLVE"],
+      "title": "Probe in-span candidate strings and fall back when absent",
+      "statement": "For an in-span value, the interface MUST look up the string at first plus value using the saved module handle and a capacity of two UTF-16 code units; a nonzero lookup count selects the candidate, while zero selects the fallback.",
+      "conditions": ["The lookup count, rather than a last-error value or returned text content, determines presence."],
+      "outputs": ["Write the candidate identifier when lookup count is nonzero; otherwise write the fallback identifier; return zero in both cases."],
+      "errors": ["A missing candidate is a successful fallback selection, not an interface error."],
+      "side_effects": ["One resource lookup occurs only for an in-span value."],
+      "ordering": ["The output is selected after the resource lookup result is known."],
+      "confidence": "high",
+      "evidence_ids": ["EVID-MPASDESC-CONTROL", "EVID-MPASDESC-COMPARISON"],
+      "test_oracle": "Stub resource lookup to return zero and nonzero for each candidate and assert identifier, status, handle, identifier, and capacity observations."
+    },
+    {
+      "id": "REQ-MPASDESC-HANDLE",
+      "interface_ids": ["IF-MPASDESC-HANDLE"],
+      "title": "Return the full saved handle",
+      "statement": "The accessor MUST return the complete 64-bit saved-handle value without truncation.",
+      "conditions": [],
+      "outputs": ["Return zero when saved state is zero and preserve every bit of a nonzero 64-bit value."],
+      "errors": ["No distinct error result is specified."],
+      "side_effects": ["No side effect is specified."],
+      "ordering": ["No ordering constraint beyond reading the current saved state is specified."],
+      "confidence": "high",
+      "evidence_ids": ["EVID-MPASDESC-HANDLE"],
+      "test_oracle": "Set controlled saved state to zero and to a value with nonzero high bits, then assert the exact return."
+    }
+  ],
+  "evidence_claims": [
+    {
+      "id": "EVID-MPASDESC-CONTROL",
+      "claim": "Manual bounded review supports the validation, unsigned range, resource-count, candidate, fallback, output-write, and return behaviors stated here.",
+      "method": "bounded-static-review",
+      "confidence": "high",
+      "limitations": "Optional tracing callees, module initialization, and operating-system resource fallback were outside the reviewed behavior."
+    },
+    {
+      "id": "EVID-MPASDESC-RANGE-DATA",
+      "claim": "The seven reviewed category records contain the exact first, exclusive-limit, and fallback values stated in REQ-MPASDESC-RANGES.",
+      "method": "platform-format-metadata",
+      "confidence": "high",
+      "limitations": "Category meanings and original source-level names are not encoded by this observation."
+    },
+    {
+      "id": "EVID-MPASDESC-COMPARISON",
+      "claim": "A portable analysis model and controlled original execution agreed for 21,180 combinations covering categories, boundary values, resource availability, statuses, output values, lookup identifiers, saved handles, and lookup capacity.",
+      "method": "controlled-instruction-emulation",
+      "confidence": "high",
+      "limitations": "The comparison used a stubbed string lookup and disabled tracing; it did not load the module through Windows."
+    },
+    {
+      "id": "EVID-MPASDESC-HANDLE",
+      "claim": "Controlled execution returned exact zero and exact nonzero 64-bit saved-state values from the accessor.",
+      "method": "controlled-instruction-emulation",
+      "confidence": "high",
+      "limitations": "Initialization, lifetime, and whether every runtime value is a valid operating-system handle were not tested."
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "UNK-MPASDESC-CATEGORIES",
+      "statement": "The semantic meaning and original type names for categories 1 through 7 are unknown.",
+      "impact": "Public names must remain neutral and compatibility claims cannot assign category semantics."
+    },
+    {
+      "id": "UNK-MPASDESC-TRACE",
+      "statement": "Optional tracing calls and provider state are not behaviorally specified.",
+      "impact": "A conforming implementation of this draft cannot claim tracing compatibility."
+    },
+    {
+      "id": "UNK-MPASDESC-LOADER",
+      "statement": "Module initialization, saved-handle lifetime, and real locale fallback are unverified.",
+      "impact": "This draft is insufficient for a replacement DLL or end-to-end resource-loading claim."
+    }
+  ],
+  "permitted_public_references": [
+    {
+      "title": "x64 calling convention",
+      "publisher": "Microsoft Learn",
+      "identifier": "MSVC x64 ABI documentation selected independently by the implementation team",
+      "purpose": "Interpret the declared public ABI without exposing analyst material."
+    },
+    {
+      "title": "LoadStringW function",
+      "publisher": "Microsoft Learn",
+      "identifier": "Win32 API documentation selected independently by the implementation team",
+      "purpose": "Interpret the declared string-resource dependency contract."
+    }
+  ],
+  "authors": [
+    {
+      "id": "github:arena-agent",
+      "role": "analysis specification author"
+    }
+  ],
+  "approvals": {
+    "technical": [],
+    "expression": [],
+    "scope": []
+  },
+  "release": null
+}

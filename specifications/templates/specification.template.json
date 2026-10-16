@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "standard": "ESF-001",
+  "specification_id": "SPEC-TEMPLATE-MODULE",
+  "revision": 1,
+  "status": "draft",
+  "supersedes": null,
+  "title": "Replace with an implementation-neutral behavior title",
+  "module": "ReplaceWithModuleName",
+  "source_identity": {
+    "path_label": "analysis input label only",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "authorization_record": "AUTH-2026-10-15-001",
+  "scope": {
+    "included": ["State the behavior covered by this revision."],
+    "excluded": ["State adjacent behavior that is not specified."],
+    "non_goals": ["State what compatibility or implementation claims are not made."]
+  },
+  "platform_constraints": ["State architecture, ABI, operating environment, and observable dependency constraints."],
+  "terms": [
+    {
+      "term": "example term",
+      "meaning": "Define analyst-assigned language without implying an original type name."
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "IF-TEMPLATE-ENTRY",
+      "name": "ReplaceWithObservedInterfaceName",
+      "kind": "function",
+      "summary": "Describe the observable contract, not its implementation.",
+      "abi": null,
+      "inputs": [],
+      "outputs": [],
+      "preconditions": []
+    }
+  ],
+  "requirements": [
+    {
+      "id": "REQ-TEMPLATE-BEHAVIOR",
+      "interface_ids": ["IF-TEMPLATE-ENTRY"],
+      "title": "One independently testable behavior",
+      "statement": "The implementation MUST exhibit the stated externally observable result.",
+      "conditions": [],
+      "outputs": ["State exact observable outputs."],
+      "errors": ["State exact error behavior or say that none was observed in scope."],
+      "side_effects": ["State externally visible side effects or explicitly state none."],
+      "ordering": ["State required ordering or explicitly state that no ordering constraint is known."],
+      "confidence": "low",
+      "evidence_ids": ["EVID-TEMPLATE-OBSERVATION"],
+      "test_oracle": "Describe a black-box assertion without referencing original instructions."
+    }
+  ],
+  "evidence_claims": [
+    {
+      "id": "EVID-TEMPLATE-OBSERVATION",
+      "claim": "State the reviewed behavioral observation.",
+      "method": "bounded-static-review",
+      "confidence": "low",
+      "limitations": "State what the method did not establish."
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "UNK-TEMPLATE-ONE",
+      "statement": "State unresolved behavior without guessing.",
+      "impact": "Explain how this limits implementation or compatibility claims."
+    }
+  ],
+  "permitted_public_references": [],
+  "authors": [
+    {
+      "id": "replace-with-team-a-identity",
+      "role": "analysis specification author"
+    }
+  ],
+  "approvals": {
+    "technical": [],
+    "expression": [],
+    "scope": []
+  },
+  "release": null
+}

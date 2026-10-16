@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "record_id": "PROV-2026-10-15-001",
+  "recorded_date": "2026-10-15",
+  "scope": "every regular file recursively under bin/",
+  "authorization_record": "AUTH-2026-10-15-001",
+  "acquisition_events": [
+    {
+      "id": "ACQ-2026-10-14-001",
+      "source_type": "authorized Windows 7 installation or installation medium",
+      "source_reported_by": "github:havaianasdestruido",
+      "source_report_date": "2026-10-15",
+      "authorization_of_possession": "reported by the project sponsor; not independently verified",
+      "source_edition": null,
+      "source_architecture": null,
+      "installation_or_media_identifier": null,
+      "volume_or_image_hash": null,
+      "extraction_date": null,
+      "extraction_tool_or_method": null,
+      "extractor_identity": null,
+      "first_durable_repository_event": {
+        "repository": "havaianasdestruido/Win7Defender-Decomp",
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "message": "Initial commit"
+      },
+      "known_gap": "Edition, precise installation/media identity, image/volume hash, extraction time/method, and pre-Git custody were not supplied. Null means unknown, not inapplicable."
+    }
+  ],
+  "license_interpretation": {
+    "principle": "A file placed beside license text is not assumed covered when authorship or grantor authority is unknown.",
+    "clean_implementation": "The sponsor authorized redistribution of resulting clean-team work, subject to law and release controls.",
+    "original_inputs": "No original PE/MUI redistribution authorization is inferred from the sponsor record or bin/LICENSE."
+  },
+  "record_completeness": "All 17 current files are individually identified. Known chain-of-custody gaps are explicit rather than inferred or fabricated.",
+  "files": [
+    {
+      "path": "bin/LICENSE",
+      "file_name": "LICENSE",
+      "kind": "license-text",
+      "size_bytes": 1211,
+      "hashes": {
+        "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
+        "sha512": "f23a3f3ec79340594ea40d731087e8586326a96c6cb9675c7a58687255885148286aa73cee087a5a3c976ea901fde16e229d00e98c65188cce3f0d75c8390a10",
+        "git_blob_sha1": "fdddb29aa445bf3d6a5d843d6dd77e10a9f99657"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "LICENSE",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/LICENSE",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "No author identity appears in the file.",
+      "license": {
+        "declared_license": "Unlicense / public-domain dedication",
+        "evidence": "the complete file text",
+        "applicability": "The text applies on its face to software released by its author; neither authorship nor authority over the neighboring Microsoft files is established.",
+        "status": "license text recorded; provenance and grantor authority unverified"
+      },
+      "original_file_redistribution_status": "The text itself states unrestricted copying, but reliance requires confirming its author/provenance; it is not treated as a license for any PE/MUI file."
+    },
+    {
+      "path": "bin/MSASCui.exe",
+      "file_name": "MSASCui.exe",
+      "kind": "PE32+ executable image",
+      "size_bytes": 960512,
+      "hashes": {
+        "sha256": "aee55998074a62400809df27d276a3cac90210de4efcc5db88156de813098026",
+        "sha512": "68b8f6806f95044fe743929bbc2ff9a131df1db910241f23d9820918c69fd0421c7ee2bf60ecdc265ef8bcfc2834e4e6c3472fdbece05c8852509420deb0489d",
+        "git_blob_sha1": "9ddc0a4b4aa13de57d6c4040d5ae64d7a48892cb"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MSASCui.exe",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MSASCui.exe",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MpAsDesc.dll",
+      "file_name": "MpAsDesc.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 10752,
+      "hashes": {
+        "sha256": "cb11e89d0d48baad659f120a9bb66fec7aa47bca0866ae3677539801638010ef",
+        "sha512": "05df9505517042c903d943db9c581df4c734f356f5676f771f157a718ef7af03974f0aaaa5706400710fcfb96bf9f0afbe2af838d9f1475fddeaafecf2575f14",
+        "git_blob_sha1": "64046c48857b3a62ffece480f62d28a765f4dfd6"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MpAsDesc.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MpAsDesc.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MpClient.dll",
+      "file_name": "MpClient.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 571904,
+      "hashes": {
+        "sha256": "af49ac6648d89c5f52020c7a53ef8fe341220936afa1aee74d5675a0969a5d45",
+        "sha512": "f392ddca2ba6a967228fff5e63808d6ada2de5d00fbb745105f914c884a2cc288d32e4f78cabcba6ce7205293d8e21de1a78409e2c032f3d8b7ba2d94ec48be9",
+        "git_blob_sha1": "2198918f44ecf5ff202f9c592b002b4335f02739"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MpClient.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MpClient.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MpCmdRun.exe",
+      "file_name": "MpCmdRun.exe",
+      "kind": "PE32+ executable image",
+      "size_bytes": 190976,
+      "hashes": {
+        "sha256": "e21b38e77047ca809cf472a2b5bbd6c6b438fb05043408dcb5bf5bf4487cbed2",
+        "sha512": "b700349d8c7f2d0255920b707e5e616455958d464f1a4a5e32a481934dbdfc2499570f715205b00289efdd8c1932e086b91935a38353787e8c019267e75cb644",
+        "git_blob_sha1": "35e0fa8fbc9d676f47ec32b3bf56f5be8902823e"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MpCmdRun.exe",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MpCmdRun.exe",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MpCommu.dll",
+      "file_name": "MpCommu.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 314880,
+      "hashes": {
+        "sha256": "0939cd55e8ace40c43d23dae420986b7c81aa31b16f51c2809b74543c706389f",
+        "sha512": "55edec4ed8dfd13c78ef31997e82a67c702b8e121c3c3bbd3d33ec81141e24dda52b12228b58af777c5040935f5ff07d8d90bb861cbcbbc084686cf3e1ddb677",
+        "git_blob_sha1": "9cec421a0fffb27babaa93d42af8af954e2648eb"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MpCommu.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MpCommu.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MpEvMsg.dll",
+      "file_name": "MpEvMsg.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 52224,
+      "hashes": {
+        "sha256": "7880b025413338a7b114becb5dc67605fc7a97142c26fd12f765a64a21805842",
+        "sha512": "7d3d895569cb0175a9b877c5ffe64860e84787a46b788098b570f94e4568ce9f487c8b098d0a3eac4e44716479739fae1b57a7761c125d5ede404754e66b4f62",
+        "git_blob_sha1": "0faaf7d6f3a310221c8db91e9aa7a7e70b42b031"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MpEvMsg.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MpEvMsg.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MpOAV.dll",
+      "file_name": "MpOAV.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 52224,
+      "hashes": {
+        "sha256": "b2913b2234cc75b1e57517a0ad0ca229c258a670f44c579e5260913ac5fb0269",
+        "sha512": "f04ac06349d097e14ba3d4c6c1c79f6ab56b5782ce6c5e05b616e756328b24a193ab05e7091434fa324748b52acd2c66ab6fc1e6352fbdefb730d5a4395429b6",
+        "git_blob_sha1": "55b2cb3cf58d918d6d3321ae0beac7f7aff455ee"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MpOAV.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MpOAV.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MpRTP.dll",
+      "file_name": "MpRTP.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 200192,
+      "hashes": {
+        "sha256": "e82f41ffe21897c806693dd197f61f00709d31f6edc3cb9f808d7cd9a33941b5",
+        "sha512": "ec3745d2cb24c7ace74b0fa11fbe0a5a8c0531ad6debddd3bec12699213809263cd1bc6840c02ef499d928d36a0743fd6d72cb33f38fcf71ed3eb0df19fb83f2",
+        "git_blob_sha1": "94671abec5fc919861323cd3432128d153040029"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MpRTP.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MpRTP.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MpSvc.dll",
+      "file_name": "MpSvc.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 1011712,
+      "hashes": {
+        "sha256": "83331020ceb57c5e7222992914ae9f45cda725e80c3f72d6335bad5a921a2fa7",
+        "sha512": "8714f4f767d8b4e80af0255e2333da1f09914f94b82f3ac2ca4853b8076d51c2121cbf4168061bb2e981bf0eae32e21c8a2bcb8e9c8eee5171a7c015972b9720",
+        "git_blob_sha1": "63fc233066d6813ae99518d9d0d7e2c291f78fd2"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MpSvc.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MpSvc.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MsMpCom.dll",
+      "file_name": "MsMpCom.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 60928,
+      "hashes": {
+        "sha256": "9e8396674ed1969a87e8108f9beceb8df84e5a5b1d52a40d694c3af88c9887a0",
+        "sha512": "48138b826092a457727f7cb95287d87edab354e7bcfea5c9207edcb49ea2f7f5370b30acdbe008a97bbd315a390ab9cf3b41a570a62f0780a2ea2d2cfef283df",
+        "git_blob_sha1": "98a911506f101d2db3725b1a42106b16ff7b1863"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MsMpCom.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MsMpCom.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MsMpLics.dll",
+      "file_name": "MsMpLics.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 4608,
+      "hashes": {
+        "sha256": "8c7baf81986a1d39964b8ab74a188443987df6b84bb82470ea849e438234a10a",
+        "sha512": "307beee1363aec729d7349afb8cfd52295d2c2d2a91c7be54b4bc3cded6e9d511911701c792b3382e8e5304625a7566b1ca9348dd434656d190719b333477011",
+        "git_blob_sha1": "00af7fe7476d4db9746459e4474534f417634613"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MsMpLics.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MsMpLics.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/MsMpRes.dll",
+      "file_name": "MsMpRes.dll",
+      "kind": "PE32+ executable image",
+      "size_bytes": 487936,
+      "hashes": {
+        "sha256": "87116782261671ab9790228dcd67a641f09464dcf81b9fe6a07b4a0e7cc57d14",
+        "sha512": "7429a8cc56f4a06617ff5893134495207227d158feb010ff313157967303ab0db130693396a0a740ebcdf4862c8b8703526b3c1d1744d5bc52ccc051620ddc86",
+        "git_blob_sha1": "0bd94520b1337acc0b3800169061d5453b214d28"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "MsMpRes.dll",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/MsMpRes.dll",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. All rights reserved.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/README.md",
+      "file_name": "README.md",
+      "kind": "project-text",
+      "size_bytes": 14,
+      "hashes": {
+        "sha256": "f14a1935c7681d97ef9783c9b78ccc383c5ae78749a9b30320d5d496b2f90554",
+        "sha512": "46a0462823cd8ae06e27339765440a538aa0b54c174703b4cd7dc344fdcb68e006e246ca7ca5a462577b265006c95351a1f59129c17274ad52b9d9d85cbe7003",
+        "git_blob_sha1": "024fc11bed81367ebc68e55afdd39003e0d85f30"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "README.md",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/README.md",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "No copyright or authorship statement appears in the file.",
+      "license": {
+        "declared_license": null,
+        "evidence": "no license statement in this file",
+        "applicability": "The neighboring bin/LICENSE applicability is not established by this 14-byte title.",
+        "status": "no file-specific license identified"
+      },
+      "original_file_redistribution_status": "No independently verified grant is recorded; retain only as provenance evidence pending source clarification."
+    },
+    {
+      "path": "bin/pt-BR/MpAsDesc.dll.mui",
+      "file_name": "MpAsDesc.dll.mui",
+      "kind": "PE32+ executable image",
+      "size_bytes": 38912,
+      "hashes": {
+        "sha256": "e216a0aa285b6cbe242af409ff1a27678652c9c30b065f85d1ea2fec748d3586",
+        "sha512": "c7fac4f062dcd4c089af137defecdb0b40d781d96cb8460aa315b94a6b7a04830c73e45327697f64ec2ef132a5dfc9f6bc860ef9562f34368d26c5cbe2bc1e13",
+        "git_blob_sha1": "0bdcd0ef01902883fb43ae4941a279f04d6a6901"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "pt-BR/MpAsDesc.dll.mui",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/pt-BR/MpAsDesc.dll.mui",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. Todos os direitos reservados.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/pt-BR/MpEvMsg.dll.mui",
+      "file_name": "MpEvMsg.dll.mui",
+      "kind": "PE32+ executable image",
+      "size_bytes": 16384,
+      "hashes": {
+        "sha256": "c9c0337c6758cc8fe1b13130c1fcc730483e23728579f2d2095f3c9f303ac885",
+        "sha512": "07b02b7810be0ef32f6992757d51523e6c86adcd2fc7b5cc699eab12aa0d02d56c7da696b0155bae1af9585b2b05cb2d9d60e900d94cac12d75af2d1b337c5eb",
+        "git_blob_sha1": "84b776272fb354dc812a41fb3733bbf8c2cb04a3"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "pt-BR/MpEvMsg.dll.mui",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/pt-BR/MpEvMsg.dll.mui",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. Todos os direitos reservados.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    },
+    {
+      "path": "bin/pt-BR/MsMpRes.dll.mui",
+      "file_name": "MsMpRes.dll.mui",
+      "kind": "PE32+ executable image",
+      "size_bytes": 52224,
+      "hashes": {
+        "sha256": "ea1c9d52806befb7885eb6b768cd38c5009a5af202f1decd6a5c530f250412a2",
+        "sha512": "9ccfecf023e8e960ff0de60176b2fb064b7371af672c11e6a5c93c96d0104c40ee4a4b076f51d466819f43b13a1c8d5c1ec695afa6fdad5ed1147e1a93f8bb1d",
+        "git_blob_sha1": "044f2240cb8855b3db586ff5d34137db3a084472"
+      },
+      "acquisition_event": "ACQ-2026-10-14-001",
+      "pre_repository_source": "reported extraction from an authorized Windows 7 installation or installation medium; exact installation/media identity was not supplied",
+      "first_repository_record": {
+        "commit": "9638320b682dfbed9eb0455750d78fac384b6598",
+        "path": "pt-BR/MsMpRes.dll.mui",
+        "author_date": "2026-10-14T18:18:33-03:00",
+        "committer": "GitHub <noreply@github.com>",
+        "supplier": "github:havaianasdestruido"
+      },
+      "current_path_record": {
+        "commit": "33232708e2502dcd5cb9335157140a2fd8457e27",
+        "path": "bin/pt-BR/MsMpRes.dll.mui",
+        "author_date": "2026-10-14T18:20:33-03:00",
+        "change": "path-only move; Git blob identity unchanged"
+      },
+      "copyright_evidence": "© Microsoft Corporation. Todos os direitos reservados.",
+      "license": {
+        "declared_license": null,
+        "evidence": "No license grant is embedded; version metadata identifies Microsoft Corporation and says all rights reserved.",
+        "applicability": "bin/LICENSE is not assumed to have been authored by or to bind Microsoft.",
+        "status": "third-party proprietary input; no redistribution grant identified in repository evidence"
+      },
+      "original_file_redistribution_status": "AUTH-2026-10-15-001 does not authorize redistribution of originals. Redistribution requires a separate valid license or legal basis and review."
+    }
+  ]
+}

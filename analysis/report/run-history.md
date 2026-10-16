@@ -15,3 +15,7 @@
 ## Deadline caveat
 
 Per-function and CFG deadlines use Python SIGALRM. They are best-effort interruption points: a signal raised during Python weak-reference cleanup was logged as ignored during one MpClient run. Native code can also defer signal delivery. The batch runner has a separate subprocess timeout of `600 + budget` seconds, and module budgets are checked between functions. Logged elapsed times, per-address status and exact outer receipt—not the nominal three-second value—are authoritative. Partial/timed-out outputs are never marked behaviorally verified.
+
+## Phase 0 artifact separation — 2026-10-15
+
+The validated portable resolver source and CMake target were relocated from `src/MpAsDesc.dll/` to `analysis/models/MpAsDesc.dll/`. The files are analysis-exposed test artifacts, not clean implementation. Historical build logs retain their original paths; current reproduction commands use the new path. `implementation/` is a separate, currently empty clean-team handoff area.

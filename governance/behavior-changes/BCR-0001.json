@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "policy": "BCC-001",
+  "bcr_id": "BCR-0001",
+  "status": "recorded",
+  "change_type": "baseline-adoption",
+  "date": "2026-10-15",
+  "normative_change": false,
+  "reason": "Bring the four pre-BCC-001 manual behavior notes under stable ID, revision, status, and content-hash control.",
+  "behavior_summary": "No technical behavior was added, removed, or reinterpreted by this request. Visible control lines and registry records were added.",
+  "notes": [
+    {
+      "note_id": "NOTE-MPASDESC-001",
+      "old_revision": null,
+      "new_revision": 1,
+      "new_content_sha256": "09fdff6d16e2d3b45c92b100a50a696c103c351f3c715976e8b9a30374a3b1f4"
+    },
+    {
+      "note_id": "NOTE-MPOAV-001",
+      "old_revision": null,
+      "new_revision": 1,
+      "new_content_sha256": "94e4fac5cc5b5c6a3662a6184e2ba97dda61515b1d3c264c04ff396fa5939ac4"
+    },
+    {
+      "note_id": "NOTE-MSMPCOM-001",
+      "old_revision": null,
+      "new_revision": 1,
+      "new_content_sha256": "fe0f75844b9fb53673ae8ce1bb5544a7c699e01fa6e0570c861f633b6bb134c8"
+    },
+    {
+      "note_id": "NOTE-MSMPRES-001",
+      "old_revision": null,
+      "new_revision": 1,
+      "new_content_sha256": "7d774840888b0ff26e0efbb8667cf1f658c3e4c2e6806583b67822850f49a7e9"
+    }
+  ],
+  "author": {
+    "id": "github:arena-agent",
+    "date": "2026-10-15"
+  },
+  "technical_review": {
+    "reviewer": null,
+    "decision": "not-performed",
+    "statement": "Baseline adoption does not claim retroactive technical review."
+  },
+  "expression_review": {
+    "reviewer": null,
+    "decision": "not-performed",
+    "statement": "Baseline notes remain analyst-only and are not transferred to Team B."
+  },
+  "sponsor_acknowledgement": {
+    "id": "github:havaianasdestruido",
+    "basis": "Phase 0 governance authorization"
+  },
+  "affected_specification_requirements": [
+    "SPEC-MPASDESC-RESOLVER is a draft only; no released requirement changed"
+  ],
+  "disposition": "baseline-record"
+}

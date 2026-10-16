@@ -22,9 +22,23 @@ All custom tooling lives here. Run from the repository root; scripts derive the 
 | `static_calls.py` | Independent Capstone decode within original `.pdata` ranges | `static-calls.json.gz`, `disassembly-coverage.json`, `dynamic-lookup-sites.json` per module | No reachability proof; no arbitrary computed targets; API string arguments traced only through a bounded branch-free local window |
 | `make_reports.py` | Consolidate saved inventory, coverage and resource facts | required module/API/dependency/progress reports, DOT/JSON graph, COM metadata declarations | Does not rerun analysis; run after worker completion to avoid stale counts |
 | `validate_artifacts.py` | Rehash inputs, compare Git objects, independent PE/REA/objdump checks, resources, imports and ledgers | `artifact-validation.json`; normalizes emitted pseudocode line anchors | Checks consistency/provenance, not semantic equivalence or cryptographic publisher trust |
+| `validate_governance.py [--base-ref REF] [--no-receipt]` | Check authorization, approved-baseline provenance, full ESF schema conformance, team/approver separation, behavior-note revisions, immutable release history and every implementation handoff file | `governance-validation.json` unless suppressed; nonzero exit on failure | Mechanical policy checks supplement human/legal review; base-ref mode also blocks input changes, note-ledger erasure, and released-spec/record deletion |
+| `test_governance.py` | Exercise schema completeness, reviewer roles, RVA filtering, shell-helper scanning, release-batch selection and fixed input baseline | unittest result on stdout | Focused regressions supplement the full repository validator |
+| `export_specifications.py --release-id REL-ID --recipient ID --coordinator ID --output FILE.zip` | Package only the requested approved release batch/schema for a registered clean implementer | Deterministic ZIP plus analyst-side release record with exact hashes | Refuses incomplete schemas, expression leakage, unregistered approvers/identities, module assignment mismatches and reused release IDs |
 | `validate_behavior.py --library PATH` | Compare compiled portable resolver with bounded original-instruction emulation | `behavior-validation.json` and stdout summary | WPP disabled; LoadStringW stubbed; no Windows loader/service/MUI behavior; 21,180 resolver cases plus six accessor/constant-return cases |
 | `header_smoke.c` | C11 syntax/static-width checks for reconstructed declarations | use `cc -std=c11 -Wall -Wextra -Werror -fsyntax-only analysis/tools/header_smoke.c` | Compile-time layout/constants only; not DLL compatibility |
 | `finalize_reports.py` | Summarize completed evidence/build/test receipts | validation and final report | Reports partial work explicitly; cannot substitute for missing runs |
+
+Governance validation has no third-party Python dependency:
+
+```sh
+python3 analysis/tools/validate_governance.py
+# In a pull request, also compare note revisions with the base commit:
+python3 analysis/tools/validate_governance.py --base-ref origin/main --no-receipt
+```
+
+Specification export intentionally fails until released specifications, a Team B
+recipient, and a transfer coordinator are all registered.
 
 Example module command:
 
@@ -44,10 +58,12 @@ PE, relocation, resource-tree and exception parsing use pefile; disassembly uses
 
 ### Output boundaries
 
-- Generated pseudocode, resource/interface definitions, behavior model and CMake files: `src/`.
+- Generated pseudocode and recovered resource/interface definitions: `src/`.
+- Analysis-exposed behavior models and their CMake files: `analysis/models/`.
+- Clean-team source, once independently authored and accepted: `implementation/`.
 - All custom code/config/dependency locks: this directory.
 - Evidence, logs, validation receipts and narrative findings: singular `analysis/report/`.
-- Compatibility build products: ignored `src/MpAsDesc.dll/build/`.
+- Analysis-model build products: ignored `analysis/models/MpAsDesc.dll/build/`.
 - Original executable/resource inputs: `bin/`, unchanged.
 
 `inventory.py` rewrites generated module READMEs; hand-written behavioral notes are separate and preserved. `decompile.py` replaces the generated pseudocode/ledger for a module. `make_reports.py` regenerates consolidated reports and typelib declarations. Avoid hand-editing generated files when the intended change belongs in a generator. Narrative methodology/data-format/REA-limitations documents are maintained separately.

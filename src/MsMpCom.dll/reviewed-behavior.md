@@ -1,5 +1,6 @@
 # Reviewed export behavior
 
+> **BCC-001 control:** `NOTE-MSMPCOM-001` · revision **1** · status **baseline-recorded** · registry: `governance/behavior-notes.json`
 Original preferred base `0x7ff28f20000`. `DllRegisterServer` and `DllUnregisterServer` are two exported names at **RVA 0x3b0c**. The bytes `b8 32 00 07 80 c3` implement:
 
 ```c
